@@ -27,7 +27,7 @@ Profile: MII_PR_Kardio_Anamnese_Allgemein
 Id: mii-pr-kardio-anamnese-allgemein
 Parent: Observation
 
-Title: "MII PR Kardio Patient"
+Title: "MII PR Kardio Anamnese Allgemein"
 Description: "Erster Draft eines Profils für eine Ressource einer allgemeinen Anamnese."
 
 * id MS

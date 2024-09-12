@@ -1,0 +1,3 @@
+Output File                         Name            Type      FSH File     Lines
+Patient-PatientExample.json         PatientExample  Instance  patient.fsh  9 - 14
+StructureDefinition-MyPatient.json  MyPatient       Profile   patient.fsh  4 - 7

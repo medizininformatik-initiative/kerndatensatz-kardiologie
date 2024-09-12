@@ -1,0 +1,17 @@
+{
+  "resourceType": "Patient",
+  "id": "PatientExample",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/MyPatient"
+    ]
+  },
+  "name": [
+    {
+      "given": [
+        "James"
+      ],
+      "family": "Pond"
+    }
+  ]
+}

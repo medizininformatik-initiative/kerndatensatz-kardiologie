@@ -1,0 +1,18 @@
+[
+  {
+    "outputFile": "Patient-PatientExample.json",
+    "fshName": "PatientExample",
+    "fshType": "Instance",
+    "fshFile": "patient.fsh",
+    "startLine": 9,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-MyPatient.json",
+    "fshName": "MyPatient",
+    "fshType": "Profile",
+    "fshFile": "patient.fsh",
+    "startLine": 4,
+    "endLine": 7
+  }
+]

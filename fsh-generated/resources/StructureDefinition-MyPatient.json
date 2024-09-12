@@ -1,0 +1,24 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "MyPatient",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/MyPatient",
+  "name": "MyPatient",
+  "status": "draft",
+  "description": "An example profile of the Patient resource.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.name",
+        "path": "Patient.name",
+        "min": 1,
+        "mustSupport": true
+      }
+    ]
+  }
+}

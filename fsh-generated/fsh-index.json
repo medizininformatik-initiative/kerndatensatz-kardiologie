@@ -1,18 +1,58 @@
 [
   {
-    "outputFile": "Patient-PatientExample.json",
-    "fshName": "PatientExample",
+    "outputFile": "Observation-AnamneseAllgemeinExample.json",
+    "fshName": "AnamneseAllgemeinExample",
     "fshType": "Instance",
-    "fshFile": "patient.fsh",
-    "startLine": 9,
-    "endLine": 14
+    "fshFile": "instances/MII_EXA_Kardio_Anamnese_Allgemein.fsh",
+    "startLine": 1,
+    "endLine": 22
   },
   {
-    "outputFile": "StructureDefinition-MyPatient.json",
-    "fshName": "MyPatient",
+    "outputFile": "Patient-KardioPatientExample.json",
+    "fshName": "KardioPatientExample",
+    "fshType": "Instance",
+    "fshFile": "instances/MII_EXA_Kardio_Patient.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "StructureDefinition-age-extension.json",
+    "fshName": "AgeExtension",
+    "fshType": "Extension",
+    "fshFile": "extensions/MII_EX_Kardio_AgeExtension.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-anamnese-allgemein.json",
+    "fshName": "MII_PR_Kardio_Anamnese_Allgemein",
     "fshType": "Profile",
-    "fshFile": "patient.fsh",
-    "startLine": 4,
-    "endLine": 7
+    "fshFile": "profiles/MII_PR_Kardio_Anamnese_Allgemein.fsh",
+    "startLine": 26,
+    "endLine": 54
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-patient.json",
+    "fshName": "MII_PR_Kardio_Patient",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_Patient.fsh",
+    "startLine": 10,
+    "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-region-extension.json",
+    "fshName": "RegionExtension",
+    "fshType": "Extension",
+    "fshFile": "extensions/MII_EX_Kardio_RegionExtension.fsh",
+    "startLine": 8,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-vsexample.json",
+    "fshName": "MII_VS_Labor_VSExample",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MII_VS_Kardio_VSExample.fsh",
+    "startLine": 1,
+    "endLine": 15
   }
 ]

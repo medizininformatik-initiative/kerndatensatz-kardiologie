@@ -39,19 +39,58 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/MyPatient"
+          "reference": "StructureDefinition/age-extension"
         },
-        "name": "MyPatient",
-        "description": "An example profile of the Patient resource.",
+        "name": "Alter basierend auf dem Geburtsdatum zum Zeitpunkt der Behandlung/Datenaufnahme",
+        "description": "Diese Erweiterung gibt das berechnete Alter zum Zeitpunkt der Behandlung/Datenaufnahme basierend auf dem Geburtsdatum an.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "Patient/PatientExample"
+          "reference": "Observation/AnamneseAllgemeinExample"
         },
-        "name": "PatientExample",
-        "description": "An example of a patient with a license to krill.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/MyPatient"
+        "name": "AnamneseAllgemeinExample",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anamnese-allgemein"
+      },
+      {
+        "reference": {
+          "reference": "Patient/KardioPatientExample"
+        },
+        "name": "KardioPatientExample",
+        "description": "Beispiel für einen Patienten in der Kardiologie abbildet.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-patient"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-anamnese-allgemein"
+        },
+        "name": "MII PR Kardio Patient",
+        "description": "Erster Draft eines Profils für eine Ressource einer allgemeinen Anamnese.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-patient"
+        },
+        "name": "MII PR Kardio Patient",
+        "description": "Profil für die eine Ressource die einen Patienten in der Kardiologie abbildet.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-vsexample"
+        },
+        "name": "MII VS Kardio VSExample",
+        "description": "Beschreibung.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/region-extension"
+        },
+        "name": "Region (Wohnort/Land) nach best. HF-Risk-Score",
+        "description": "Angabe einer Region mit einem ValueSet definiert in ACRIBiS-Datensatz.",
+        "exampleBoolean": false
       }
     ],
     "page": {

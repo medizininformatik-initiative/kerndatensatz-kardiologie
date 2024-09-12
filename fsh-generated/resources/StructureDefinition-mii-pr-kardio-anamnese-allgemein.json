@@ -1,0 +1,119 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-anamnese-allgemein",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anamnese-allgemein",
+  "name": "MII_PR_Kardio_Anamnese_Allgemein",
+  "title": "MII PR Kardio Patient",
+  "status": "draft",
+  "description": "Erster Draft eines Profils für eine Ressource einer allgemeinen Anamnese.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.id",
+        "path": "Observation.id",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.meta",
+        "path": "Observation.meta",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.meta.profile",
+        "path": "Observation.meta.profile",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.identifier",
+        "path": "Observation.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.identifier:anamnese",
+        "path": "Observation.identifier",
+        "sliceName": "anamnese",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "type"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:BMI",
+        "path": "Observation.component",
+        "sliceName": "BMI",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:BMI.value[x]",
+        "path": "Observation.component.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation.component:BMI.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:BMI.value[x]:valueQuantity.value",
+        "path": "Observation.component.value[x].value",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:BMI.value[x]:valueQuantity.unit",
+        "path": "Observation.component.value[x].unit",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:BMI.value[x]:valueQuantity.system",
+        "path": "Observation.component.value[x].system",
+        "mustSupport": true
+      }
+    ]
+  }
+}

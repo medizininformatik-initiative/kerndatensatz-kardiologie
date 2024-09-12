@@ -1,0 +1,86 @@
+{
+  "resourceType": "Observation",
+  "id": "AnamneseAllgemeinExample",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anamnese-allgemein",
+      "https://gematik.de/fhir/isik/StructureDefinition/ISiKKoerpergewicht",
+      "http://hl7.org/fhir/StructureDefinition/bodyweight",
+      "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht"
+    ]
+  },
+  "identifier": [
+    {
+      "id": "Testwert und Test-Element"
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "188736",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_MASS_BODY_ACTUAL"
+      },
+      {
+        "code": "29463-7",
+        "system": "http://loinc.org"
+      },
+      {
+        "code": "29463-7",
+        "system": "http://loinc.org",
+        "display": "Body weight"
+      },
+      {
+        "code": "27113001",
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20230731",
+        "display": "Body weight"
+      }
+    ],
+    "text": "Körpergewicht"
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "39156-5",
+            "system": "http://loinc.org"
+          },
+          {
+            "code": "39156-5",
+            "system": "http://loinc.org",
+            "display": "Body mass index"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 21.5,
+        "code": "kg/m2",
+        "system": "http://unitsofmeasure.org",
+        "unit": "kg/m²"
+      }
+    }
+  ],
+  "valueQuantity": {
+    "value": 79,
+    "code": "kg",
+    "system": "http://unitsofmeasure.org",
+    "unit": "kilogram"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/PatientinMusterfrau"
+  },
+  "effectiveDateTime": "2020-10-11"
+}

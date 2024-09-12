@@ -1,0 +1,56 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-patient",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-patient",
+  "name": "MII_PR_Kardio_Patient",
+  "title": "MII PR Kardio Patient",
+  "status": "draft",
+  "description": "Profil für die eine Ressource die einen Patienten in der Kardiologie abbildet.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.birthDate.extension:Alter",
+        "path": "Patient.birthDate.extension",
+        "sliceName": "Alter",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/age-extension"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Patient.address:Strassenanschrift",
+        "path": "Patient.address",
+        "sliceName": "Strassenanschrift"
+      },
+      {
+        "id": "Patient.address:Strassenanschrift.extension:Region",
+        "path": "Patient.address.extension",
+        "sliceName": "Region",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/region-extension"
+            ]
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

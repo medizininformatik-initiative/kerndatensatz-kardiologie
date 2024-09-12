@@ -1,0 +1,55 @@
+{
+  "resourceType": "Patient",
+  "id": "KardioPatientExample",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-patient"
+    ]
+  },
+  "name": [
+    {
+      "given": [
+        "James"
+      ],
+      "use": "official",
+      "family": "Pond"
+    }
+  ],
+  "address": [
+    {
+      "extension": [
+        {
+          "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/region-extension",
+          "valueString": "Westeuropa"
+        }
+      ],
+      "type": "both",
+      "city": "Göttingen",
+      "postalCode": "37075",
+      "country": "DE",
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Robert-Koch-Straße"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "40"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "birthDate": "1990-07-01",
+  "_birthDate": {
+    "extension": [
+      {
+        "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/age-extension",
+        "valueString": "34"
+      }
+    ]
+  }
+}

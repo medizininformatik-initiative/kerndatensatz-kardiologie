@@ -1,14 +1,16 @@
 // First Draft
 Profile: MII_PR_Kardio_BMI
 Id: mii-pr-kardio-bmi
-Parent: http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht
+Parent: observation-de-vitalsign-koerpergewicht
+//sd-mii-icu-koerpergewicht
+//observation-de-vitalsign-koerpergewicht //http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht
 //sd-mii-icu-koerpergewicht
 
 Title: "MII PR Kardio BMI"
 Description: "Erster Draft eines Profils für eine Ressource zur Abbildung des Body Mass Index (BMI)."
 
 * status MS
-* category MS
+* category 1..2 MS
 * category contains 
     //VSCat 0..1 MS and
     sct 1..1 MS

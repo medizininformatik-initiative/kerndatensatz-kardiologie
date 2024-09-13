@@ -1,0 +1,245 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-bmi",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-bmi",
+  "name": "MII_PR_Kardio_BMI",
+  "title": "MII PR Kardio BMI",
+  "status": "draft",
+  "description": "Erster Draft eines Profils für eine Ressource zur Abbildung des Body Mass Index (BMI).",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "min": 2,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:VSCat",
+        "path": "Observation.category",
+        "sliceName": "VSCat",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:VSCat.coding",
+        "path": "Observation.category.coding",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:VSCat.coding.system",
+        "path": "Observation.category.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:VSCat.coding.code",
+        "path": "Observation.category.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:VSCat.coding.display",
+        "path": "Observation.category.coding.display",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:sct",
+        "path": "Observation.category",
+        "sliceName": "sct",
+        "min": 1,
+        "max": "1",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "248326004",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:sct.coding",
+        "path": "Observation.category.coding",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:sct.coding.system",
+        "path": "Observation.category.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:sct.coding.code",
+        "path": "Observation.category.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:sct.coding.display",
+        "path": "Observation.category.coding.display",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "code": [
+          {
+            "code": "39156-5",
+            "system": "http://loinc.org",
+            "display": "Body Mass Index"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 2,
+        "max": "2",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "max": "2",
+        "patternCoding": {
+          "code": "39156-5",
+          "system": "http://loinc.org"
+        },
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://loinc.org"
+        }
+      },
+      {
+        "id": "Observation.code.coding:loinc.system",
+        "path": "Observation.code.coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:loinc.code",
+        "path": "Observation.code.coding.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:loinc.display",
+        "path": "Observation.code.coding.display",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed",
+        "max": "2",
+        "patternCoding": {
+          "code": "60621009",
+          "system": "http://snomed.info/sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:snomed.system",
+        "path": "Observation.code.coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed.code",
+        "path": "Observation.code.coding.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:snomed.display",
+        "path": "Observation.code.coding.display",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]:effectiveDateTime",
+        "path": "Observation.effective[x]",
+        "sliceName": "effectiveDateTime",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "min": 1,
+        "patternQuantity": {
+          "code": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "unit": "kg/m²"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "constraint": [
+          {
+            "key": "mii-kardio-1",
+            "human": "If there is no Observation.value, a dataAbsentReason must be given.",
+            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-bmi",
+            "severity": "error",
+            "expression": "value.exists().not() implies dataAbsentReason.exists()"
+          }
+        ]
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "max": "0"
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "max": "0"
+      }
+    ]
+  }
+}

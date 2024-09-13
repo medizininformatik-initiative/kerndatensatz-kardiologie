@@ -33,6 +33,12 @@
       "version": "1.4.0",
       "uri": "http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4",
       "id": "de_basisprofil_r4"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
+      "version": "2024.0.0-alpha2",
+      "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.icu/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.icu",
+      "id": "de_medizininformatikinitiative_kerndatensatz_icu"
     }
   ],
   "definition": {
@@ -47,10 +53,10 @@
       },
       {
         "reference": {
-          "reference": "Observation/AnamneseAllgemeinExample"
+          "reference": "Observation/BMIExample"
         },
-        "name": "AnamneseAllgemeinExample",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anamnese-allgemein"
+        "name": "BMIExample",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-bmi"
       },
       {
         "reference": {
@@ -62,10 +68,18 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-anamnese-allgemein"
+          "reference": "StructureDefinition/mii-pr-kardio-bmi"
         },
-        "name": "MII PR Kardio Patient",
-        "description": "Erster Draft eines Profils für eine Ressource einer allgemeinen Anamnese.",
+        "name": "MII PR Kardio BMI",
+        "description": "Erster Draft eines Profils für eine Ressource zur Abbildung des Body Mass Index (BMI).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-koerpergewicht"
+        },
+        "name": "MII PR Kardio Körpergewicht",
+        "description": "An instance of StructureDefinition.",
         "exampleBoolean": false
       },
       {

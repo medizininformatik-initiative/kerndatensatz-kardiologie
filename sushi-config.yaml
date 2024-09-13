@@ -26,8 +26,9 @@ publisher:
 #
 dependencies:
    #hl7.fhir.r4.core: 4.0.1
-   de.medizininformatikinitiative.kerndatensatz.person: 2024.0.0
-   de.basisprofil.r4: 1.4.0
+   de.medizininformatikinitiative.kerndatensatz.person: 2024.0.0 ## für kardio-patient
+   de.basisprofil.r4: 1.4.0 
+   de.medizininformatikinitiative.kerndatensatz.icu: 2024.0.0-alpha2 ## für u.a. koerpergewicht
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode

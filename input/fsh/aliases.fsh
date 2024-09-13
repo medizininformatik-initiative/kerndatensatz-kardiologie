@@ -1,6 +1,9 @@
-Alias: $sct = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230731
 Alias: $loinc = http://loinc.org
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $sct = http://snomed.info/sct
+Alias: $unitsofmeasure = http://unitsofmeasure.org
+
+//Alias: $observation-de-vitalsign-koerpergewicht = http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht
 
 // Others not yet used - to be deleted
 Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074

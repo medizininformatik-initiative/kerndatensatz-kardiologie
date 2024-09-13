@@ -1,11 +1,11 @@
 [
   {
-    "outputFile": "Observation-AnamneseAllgemeinExample.json",
-    "fshName": "AnamneseAllgemeinExample",
+    "outputFile": "Observation-BMIExample.json",
+    "fshName": "BMIExample",
     "fshType": "Instance",
-    "fshFile": "instances/MII_EXA_Kardio_Anamnese_Allgemein.fsh",
+    "fshFile": "instances/MII_EXA_Kardio_BMI.fsh",
     "startLine": 1,
-    "endLine": 22
+    "endLine": 26
   },
   {
     "outputFile": "Patient-KardioPatientExample.json",
@@ -24,12 +24,20 @@
     "endLine": 5
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-anamnese-allgemein.json",
-    "fshName": "MII_PR_Kardio_Anamnese_Allgemein",
+    "outputFile": "StructureDefinition-mii-pr-kardio-bmi.json",
+    "fshName": "MII_PR_Kardio_BMI",
     "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_Anamnese_Allgemein.fsh",
-    "startLine": 26,
-    "endLine": 54
+    "fshFile": "profiles/MII_PR_Kardio_BMI.fsh",
+    "startLine": 2,
+    "endLine": 55
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-koerpergewicht.json",
+    "fshName": "MII_PR_Kardio_Koerpergewicht",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_Koerpergewicht.fsh",
+    "startLine": 1,
+    "endLine": 6
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-patient.json",

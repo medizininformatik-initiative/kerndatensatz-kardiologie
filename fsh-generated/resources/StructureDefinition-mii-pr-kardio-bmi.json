@@ -23,6 +23,7 @@
         "id": "Observation.category",
         "path": "Observation.category",
         "min": 2,
+        "max": "2",
         "mustSupport": true
       },
       {

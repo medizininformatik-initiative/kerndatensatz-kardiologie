@@ -28,13 +28,15 @@ Description: "Erster Draft eines Profils für eine Ressource zur Abbildung des B
 * category[sct].coding.code 1.. MS
 * category[sct].coding.display MS
 * code MS
+* code only CodeableConcept
+* code ^code = $loinc#39156-5 "Body Mass Index"
 * code.coding 2..2 MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
 // ... Pattern korrekt festlegen?
 // * code ^code = $loinc#39156-5 "Body Mass Index"
-* code ^code = $loinc#39156-5 "Body Mass Index"
+
 * code.coding[loinc] from $loinc (required)
 * code.coding[loinc] = $loinc#39156-5 //(required)
 * code.coding[loinc].system MS

@@ -29,7 +29,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_BMI.fsh",
     "startLine": 2,
-    "endLine": 57
+    "endLine": 59
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-koerpergewicht.json",

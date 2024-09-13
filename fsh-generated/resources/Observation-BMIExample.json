@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code": "vital-signs"
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
     },
@@ -35,17 +35,13 @@
         "code": "60621009",
         "system": "http://snomed.info/sct",
         "display": "Body mass index"
-      },
-      {
-        "system": "http://loinc.org",
-        "code": "29463-7"
       }
     ],
     "text": "Body mass index"
   },
   "valueQuantity": {
-    "system": "http://unitsofmeasure.org",
     "code": "kg/m2",
+    "system": "http://unitsofmeasure.org",
     "unit": "kg/m²",
     "value": 21.5
   },

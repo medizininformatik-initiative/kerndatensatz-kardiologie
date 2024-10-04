@@ -1,0 +1,31 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-medicationstatement",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-medicationstatement",
+  "name": "MII_PR_Kardio_MedicationStatement",
+  "title": "MII PR Kardio MedicationStatement",
+  "status": "draft",
+  "description": "Erster Draft eines Profils zur Abbildung einer Medikation nach Angabe des Patienten oder Arztes.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicationStatement",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/StructureDefinition/MedicationStatement",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicationStatement.informationSource",
+        "path": "MedicationStatement.informationSource",
+        "min": 1
+      },
+      {
+        "id": "MedicationStatement.derivedFrom",
+        "path": "MedicationStatement.derivedFrom",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      }
+    ]
+  }
+}

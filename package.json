@@ -6,6 +6,7 @@
     "4.0.1"
   ],
   "dependencies": {
-    "de.medizininformatikinitiative.kerndatensatz.diagnose": "2024.0.0"
+    "de.medizininformatikinitiative.kerndatensatz.diagnose": "2024.0.0",
+    "de.medizininformatikinitiative.kerndatensatz.medikation": "2.0.0"
   }
 }

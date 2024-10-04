@@ -51,6 +51,12 @@
       "version": "2024.0.0",
       "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ImplementationGuide/mii-ig-diagnose-de-v2024",
       "id": "de_medizininformatikinitiative_kerndatensatz_diagnose"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.medikation",
+      "version": "2.0.0",
+      "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/ImplementationGuide/mii-ig-medikation-v2",
+      "id": "de_medizininformatikinitiative_kerndatensatz_medikation"
     }
   ],
   "definition": {
@@ -100,6 +106,14 @@
         },
         "name": "MII PR Kardio Körpergewicht",
         "description": "An instance of StructureDefinition.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-medicationstatement"
+        },
+        "name": "MII PR Kardio MedicationStatement",
+        "description": "Erster Draft eines Profils zur Abbildung einer Medikation nach Angabe des Patienten oder Arztes.",
         "exampleBoolean": false
       },
       {

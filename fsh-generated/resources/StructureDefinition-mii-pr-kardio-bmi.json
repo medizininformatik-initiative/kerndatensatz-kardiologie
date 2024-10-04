@@ -5,7 +5,7 @@
   "name": "MII_PR_Kardio_BMI",
   "title": "MII PR Kardio BMI",
   "status": "draft",
-  "description": "Erster Draft eines Profils für eine Ressource zur Abbildung des Body Mass Index (BMI).",
+  "description": "Erster Draft eines Profils zur Abbildung des Body Mass Index (BMI).",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

@@ -5,8 +5,14 @@ Parent: Observation
 //observation-de-vitalsign-koerpergewicht //http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht //ISiKKoerpergewicht
 //sd-mii-icu-koerpergewicht //https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/koerpergewicht
 
+//Vererbung siehe Koerpergewicht:
+// https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/koerpergewicht
+// http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht (aus de.basisprofil.r4 1.5.0-ballot3)
+// http://fhir.de/StructureDefinition/observation-de-vitalsign (aus de.basisprofil.r4 1.5.0-ballot3) <---- erben?
+// http://hl7.org/fhir/StructureDefinition/Observation
+
 Title: "MII PR Kardio BMI"
-Description: "Erster Draft eines Profils für eine Ressource zur Abbildung des Body Mass Index (BMI)."
+Description: "Erster Draft eines Profils zur Abbildung des Body Mass Index (BMI)."
 
 * status MS
 * category 1..2 MS

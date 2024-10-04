@@ -12,7 +12,7 @@ Id: mii-pr-kardio-patient
 Parent: mii-pr-person-patient //Patient
 
 Title: "MII PR Kardio Patient"
-Description: "Profil für die eine Ressource die einen Patienten in der Kardiologie abbildet."
+Description: "Erster Draft eines Profils zur Abbildung eines Patienten in der Kardiologie."
 
 * birthDate.extension contains AgeExtension named Alter 0..1 MS
 

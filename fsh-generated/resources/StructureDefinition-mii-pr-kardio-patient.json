@@ -5,7 +5,7 @@
   "name": "MII_PR_Kardio_Patient",
   "title": "MII PR Kardio Patient",
   "status": "draft",
-  "description": "Profil für die eine Ressource die einen Patienten in der Kardiologie abbildet.",
+  "description": "Erster Draft eines Profils zur Abbildung eines Patienten in der Kardiologie.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

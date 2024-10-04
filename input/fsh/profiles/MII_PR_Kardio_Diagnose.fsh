@@ -12,3 +12,17 @@ Title: "MII PR Kardio Diagnose"
 Description: "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis von Angaben des Arztes oder Patienten (Asserter)."
 
 * asserter 1..1 MS
+
+// Abgrenzung Patient-derived information von vom Arzt erhobenen Diagnosen
+// Erfassung unterscheidet sich abhängig von Projekten/Systemen
+// --> heterogene Umsetzung an den Standorten
+// Implementation Guide muss Unterschied beim Asserter/Performer hervorheben. 
+
+// Profil auf Basis von Observation statt Diagnose/Condition?
+// Starke Punkte für Anamnesefragebogenantworten/Patient-Reported-Angaben als Observation und nicht als Condition
+// Profilierung muss Sicherheit/Quelle der Angabe abbilden --> Pflichtangabe Asserter
+// Herausforderung liegt dann in der Suche, Implementierung abhängig von Standort/Datenerfassung
+// --> Evtl. bauen wir eine Parallelwelt an Diagnosen als Observations auf 
+// --> Nachfrage bei MII KDS Modul Diagnose-Gruppe?
+// --> Nachfrage bei FDPG-Verantwortlichen --> Derzeit wird bei Abfragen von Diagnosen die Sicherheit bzw. 
+//                                             Quelle/Asserter oft nicht abgefragt. Das wäre in Zukunft aber notwendig.

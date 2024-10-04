@@ -1,7 +1,7 @@
 // First Draft
 Profile: MII_PR_Kardio_Diagnose
 Id: mii-pr-kardio-diagnose
-Parent: mii-pr-diagnose-condition //Observation
+Parent: MII_PR_Diagnose_Condition //Observation
 
 //Vererbung siehe:
 // https://simplifier.net/MII-Basismodul-Diagnose-2024/MII_PR_Diagnose_Condition/~overview (MII KDS Diagnose)

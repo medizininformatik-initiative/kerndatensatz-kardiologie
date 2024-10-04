@@ -9,7 +9,7 @@
 
 Profile: MII_PR_Kardio_Patient
 Id: mii-pr-kardio-patient
-Parent: mii-pr-person-patient //Patient
+Parent: MII_PR_Person_Patient //Patient
 
 Title: "MII PR Kardio Patient"
 Description: "Erster Draft eines Profils zur Abbildung eines Patienten in der Kardiologie."

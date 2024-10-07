@@ -11,9 +11,13 @@ Parent: MII_PR_Medikation_MedicationStatement //MedicationStatement
 Title: "MII PR Kardio MedicationStatement"
 Description: "Erster Draft eines Profils zur Abbildung einer Medikation nach Angabe des Patienten oder Arztes."
 
+// Unterscheidung, ob ärztliche Angabe oder Angabe aus Patientenfragebogen o.ä.
 * informationSource 1..1 MS
-* derivedFrom 1..1 MS //e.g. questionareResponse or what would be the normal reference/source?
+* derivedFrom 1..1 MS //e.g. questionareResponse, what would be the normal reference/source?
 
-//ValueSet für Medikamente/ATC-Codes (kardio-spezifisch)
+// ValueSet für Medikamente/ATC-Codes (kardio-spezifisch)? Es existiert bereits ein Binding auf ATC.
+// Ergibt eine Einschränkung im Profil hier überhaupt Sinn (aus Gesamt-Kardio-Sicht vs Acribis..?
+* medicationReference 0..0   //oder definieren wir KDS_Kardio_Medication sodass es best. Kodierung enthält?
+* medicationCodeableConcept.coding[atcClassDe] 1..1 //PZN oder ATC? --> Medication[x] ist bereits 1..1
 
 //Dosage?

@@ -15,6 +15,42 @@
   "differential": {
     "element": [
       {
+        "id": "MedicationStatement.medication[x]:medicationReference",
+        "path": "MedicationStatement.medication[x]",
+        "sliceName": "medicationReference",
+        "max": "0",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Medication"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.medication[x]:medicationCodeableConcept",
+        "path": "MedicationStatement.medication[x]",
+        "sliceName": "medicationCodeableConcept",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "MedicationStatement.medication[x]:medicationCodeableConcept.coding",
+        "path": "MedicationStatement.medication[x].coding",
+        "min": 1
+      },
+      {
+        "id": "MedicationStatement.medication[x]:medicationCodeableConcept.coding:atcClassDe",
+        "path": "MedicationStatement.medication[x].coding",
+        "sliceName": "atcClassDe",
+        "min": 1,
+        "max": "1"
+      },
+      {
         "id": "MedicationStatement.informationSource",
         "path": "MedicationStatement.informationSource",
         "min": 1

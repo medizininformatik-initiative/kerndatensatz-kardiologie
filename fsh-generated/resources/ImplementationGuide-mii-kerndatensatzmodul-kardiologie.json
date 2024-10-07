@@ -57,6 +57,12 @@
       "version": "2.0.0",
       "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/ImplementationGuide/mii-ig-medikation-v2",
       "id": "de_medizininformatikinitiative_kerndatensatz_medikation"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.laborbefund",
+      "version": "1.0.6",
+      "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.laborbefund/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.laborbefund",
+      "id": "de_medizininformatikinitiative_kerndatensatz_laborbefund"
     }
   ],
   "definition": {
@@ -130,6 +136,13 @@
         },
         "name": "MII VS Kardio VSExample",
         "description": "Beschreibung.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/kardio-patientenfragebogen"
+        },
+        "name": "Questionnaire1",
         "exampleBoolean": false
       },
       {

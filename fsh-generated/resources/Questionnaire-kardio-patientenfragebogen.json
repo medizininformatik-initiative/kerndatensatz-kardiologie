@@ -1,0 +1,21 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "kardio-patientenfragebogen",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/kardio-patientenfragebogen",
+  "subjectType": [
+    "Patient"
+  ],
+  "item": [
+    {
+      "linkId": "Q1",
+      "text": "Leiden Sie an Bluthochdruck?",
+      "type": "boolean",
+      "required": false,
+      "repeats": false
+    }
+  ],
+  "name": "Questionnaire1",
+  "title": "Questionnaire1",
+  "status": "draft",
+  "date": "2024-10-07"
+}

@@ -30,7 +30,8 @@ dependencies:
    de.medizininformatikinitiative.kerndatensatz.person: 2024.0.0 ## für kardio-patient
    de.medizininformatikinitiative.kerndatensatz.icu: 2024.0.0-alpha2 ## für koerpergewicht
    de.medizininformatikinitiative.kerndatensatz.diagnose: 2024.0.0 # für Kardio Diagnose
-   de.medizininformatikinitiative.kerndatensatz.medikation: 2.0.0 ## Für Kardio MedicationStatement
+   de.medizininformatikinitiative.kerndatensatz.medikation: 2.0.0 # für Kardio MedicationStatement
+   de.medizininformatikinitiative.kerndatensatz.laborbefund: 1.0.6 # für Kardio Laboruntersuchung
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode

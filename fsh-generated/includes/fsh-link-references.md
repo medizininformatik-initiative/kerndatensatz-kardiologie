@@ -7,4 +7,5 @@
 [MII_PR_Kardio_MedicationStatement]: StructureDefinition-mii-pr-kardio-medicationstatement.html
 [MII_PR_Kardio_Patient]: StructureDefinition-mii-pr-kardio-patient.html
 [MII_VS_Labor_VSExample]: ValueSet-mii-vs-kardio-vsexample.html
+[kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html
 [RegionExtension]: StructureDefinition-region-extension.html

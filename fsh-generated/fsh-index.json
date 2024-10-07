@@ -16,6 +16,14 @@
     "endLine": 20
   },
   {
+    "outputFile": "Questionnaire-kardio-patientenfragebogen.json",
+    "fshName": "kardio-patientenfragebogen",
+    "fshType": "Instance",
+    "fshFile": "questionnaire/MII_QN_Kardio_Patientenfragebogen.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
     "outputFile": "StructureDefinition-age-extension.json",
     "fshName": "AgeExtension",
     "fshType": "Extension",

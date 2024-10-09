@@ -80,11 +80,11 @@
     "endLine": 12
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-vsexample.json",
-    "fshName": "MII_VS_Labor_VSExample",
+    "outputFile": "ValueSet-mii-vs-kardio-medikation.json",
+    "fshName": "MII_VS_Kardio_Medikation",
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_VSExample.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 156
   }
 ]

@@ -6,6 +6,6 @@
 [MII_PR_Kardio_Koerpergewicht]: StructureDefinition-mii-pr-kardio-koerpergewicht.html
 [MII_PR_Kardio_MedicationStatement]: StructureDefinition-mii-pr-kardio-medicationstatement.html
 [MII_PR_Kardio_Patient]: StructureDefinition-mii-pr-kardio-patient.html
-[MII_VS_Labor_VSExample]: ValueSet-mii-vs-kardio-vsexample.html
+[MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
 [kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html
 [RegionExtension]: StructureDefinition-region-extension.html

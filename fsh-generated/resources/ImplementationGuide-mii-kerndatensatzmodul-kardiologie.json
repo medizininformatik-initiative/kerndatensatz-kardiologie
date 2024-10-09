@@ -132,10 +132,10 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-vsexample"
+          "reference": "ValueSet/mii-vs-kardio-medikation"
         },
-        "name": "MII VS Kardio VSExample",
-        "description": "Beschreibung.",
+        "name": "MII VS Kardio Medikation",
+        "description": "ATC-Codes 'de' in der Kardiologie relevanter Medikamente.",
         "exampleBoolean": false
       },
       {

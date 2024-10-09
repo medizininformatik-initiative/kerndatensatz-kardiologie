@@ -1,6 +1,8 @@
 Alias: $loinc = http://loinc.org
-Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $sct = http://snomed.info/sct
+// https://simplifier.net/mii-basismodul-medikation-2024/mii-cs-medikation-atc-2023
+// http://www.whocc.no/atc 
+Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
 Alias: $unitsofmeasure = http://unitsofmeasure.org
 
 //Alias: $observation-de-vitalsign-koerpergewicht = http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht

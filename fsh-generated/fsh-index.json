@@ -21,7 +21,7 @@
     "fshType": "Instance",
     "fshFile": "questionnaire/MII_QN_Kardio_Patientenfragebogen.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 78
   },
   {
     "outputFile": "StructureDefinition-age-extension.json",
@@ -85,6 +85,6 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_VSExample.fsh",
     "startLine": 1,
-    "endLine": 156
+    "endLine": 165
   }
 ]

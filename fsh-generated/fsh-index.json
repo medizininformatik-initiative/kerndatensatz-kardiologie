@@ -21,7 +21,7 @@
     "fshType": "Instance",
     "fshFile": "questionnaire/MII_QN_Kardio_Patientenfragebogen.fsh",
     "startLine": 1,
-    "endLine": 78
+    "endLine": 77
   },
   {
     "outputFile": "StructureDefinition-age-extension.json",
@@ -40,12 +40,12 @@
     "endLine": 69
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-diagnose.json",
-    "fshName": "MII_PR_Kardio_Diagnose",
+    "outputFile": "StructureDefinition-mii-pr-kardio-diagnose-observation.json",
+    "fshName": "MII_PR_Kardio_Diagnose_Observation",
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose.fsh",
     "startLine": 2,
-    "endLine": 14
+    "endLine": 78
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-koerpergewicht.json",

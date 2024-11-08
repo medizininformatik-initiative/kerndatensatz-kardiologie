@@ -8,6 +8,6 @@
   "dependencies": {
     "de.medizininformatikinitiative.kerndatensatz.diagnose": "2024.0.0",
     "de.medizininformatikinitiative.kerndatensatz.medikation": "2.0.0",
-    "de.medizininformatikinitiative.kerndatensatz.laborbefund": "1.0.6"
+    "de.medizininformatikinitiative.kerndatensatz.laborbefund": "2025.0.0-alpha1"
   }
 }

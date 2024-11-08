@@ -60,7 +60,7 @@
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.laborbefund",
-      "version": "1.0.6",
+      "version": "2025.0.0-alpha1",
       "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.laborbefund/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.laborbefund",
       "id": "de_medizininformatikinitiative_kerndatensatz_laborbefund"
     }
@@ -100,10 +100,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-diagnose"
+          "reference": "StructureDefinition/mii-pr-kardio-diagnose-observation"
         },
         "name": "MII PR Kardio Diagnose",
-        "description": "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis von Angaben des Arztes oder Patienten (Asserter).",
+        "description": "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis von Angaben des Arztes oder Patienten (Asserter) als Observation.",
         "exampleBoolean": false
       },
       {

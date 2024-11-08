@@ -1,0 +1,333 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-diagnose-observation",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-observation",
+  "name": "MII_PR_Kardio_Diagnose_Observation",
+  "title": "MII PR Kardio Diagnose",
+  "status": "draft",
+  "description": "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis von Angaben des Arztes oder Patienten (Asserter) als Observation.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.extension:ReferenzPrimaerdiagnose",
+        "path": "Observation.extension",
+        "sliceName": "ReferenzPrimaerdiagnose",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/condition-related"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.extension:Feststellungsdatum",
+        "path": "Observation.extension",
+        "sliceName": "Feststellungsdatum",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Feststellungsdatum"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Asserted date"
+                }
+              ]
+            }
+          ]
+        },
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Datum, an dem die Diagnose erstmals festgestellt wurde"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Date the condition was first asserted"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "mustSupport": true,
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Code"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Code"
+                }
+              ]
+            }
+          ]
+        },
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Ein ICD-10-, Alpha-ID-, SNOMED-, Orpha- oder anderer Code, der die Diagnose identifiziert."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "An ICD-10-, Alpha-ID-, SNOMED-, Orpha- or other code that identifies the diagnosis."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm",
+        "path": "Observation.code.coding",
+        "sliceName": "icd10-gm",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Coding",
+            "profile": [
+              "http://fhir.de/StructureDefinition/CodingICD10GM"
+            ]
+          }
+        ],
+        "patternCoding": {
+          "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
+        },
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/bfarm/icd-10-gm"
+        }
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm.system",
+        "path": "Observation.code.coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm.version",
+        "path": "Observation.code.coding.version",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm.code",
+        "path": "Observation.code.coding.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:alpha-id",
+        "path": "Observation.code.coding",
+        "sliceName": "alpha-id",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Coding",
+            "profile": [
+              "http://fhir.de/StructureDefinition/CodingAlphaID"
+            ]
+          }
+        ],
+        "patternCoding": {
+          "system": "http://fhir.de/CodeSystem/bfarm/alpha-id"
+        },
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/bfarm/alpha-id"
+        }
+      },
+      {
+        "id": "Observation.code.coding:alpha-id.system",
+        "path": "Observation.code.coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:alpha-id.code",
+        "path": "Observation.code.coding.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:sct",
+        "path": "Observation.code.coding",
+        "sliceName": "sct",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        },
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:sct.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:sct.version",
+        "path": "Observation.code.coding.version",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:sct.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:orphanet",
+        "path": "Observation.code.coding",
+        "sliceName": "orphanet",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "system": "http://www.orpha.net"
+        },
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-orphanet"
+        }
+      },
+      {
+        "id": "Observation.code.coding:orphanet.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:orphanet.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "min": 1,
+        "max": "1"
+      }
+    ]
+  }
+}

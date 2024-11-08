@@ -1,13 +1,13 @@
 {
-  "updated": "2024-10-07T16:03:15.7692677+02:00",
+  "updated": "2024-11-08T10:10:33.047192+01:00",
   "dependencies": {
     "de.medizininformatikinitiative.kerndatensatz.diagnose": "2024.0.0",
-    "de.medizininformatikinitiative.kerndatensatz.meta": "1.0.3",
     "hl7.fhir.r4.core": "4.0.1",
     "de.basisprofil.r4": "1.4.0",
     "de.medizininformatikinitiative.kerndatensatz.medikation": "2.0.0",
     "hl7.fhir.uv.ips": "1.0.0",
-    "de.medizininformatikinitiative.kerndatensatz.laborbefund": "1.0.6"
+    "de.medizininformatikinitiative.kerndatensatz.laborbefund": "2025.0.0-alpha1",
+    "de.medizininformatikinitiative.kerndatensatz.meta": "2025.0.0-alpha1"
   },
   "missing": {}
 }

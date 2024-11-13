@@ -138,6 +138,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-diagnose-icd10gm"
+        },
+        "name": "MII VS Kardio Diagnose ICD-10 GM",
+        "description": "ICD10 GM Codes für kardiologische Erkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-medikation"
         },
         "name": "MII VS Kardio Medikation",

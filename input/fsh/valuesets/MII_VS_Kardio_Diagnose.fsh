@@ -21,3 +21,5 @@ Description: "ICD10 GM Codes für kardiologische Erkrankungen"
   //* include codes from system http://snomed.info/sct where concept in http://snomed.info/sct#123456
 // Filter
   // * include codes from system http://loinc.org where display matches ".*blood.*"
+
+* include codes from system $CodingICD10GM where concept descendant-of #IX

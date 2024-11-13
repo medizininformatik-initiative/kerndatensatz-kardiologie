@@ -45,7 +45,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Diagnose.fsh",
     "startLine": 2,
-    "endLine": 82
+    "endLine": 88
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-koerpergewicht.json",
@@ -78,6 +78,14 @@
     "fshFile": "extensions\\MII_EX_Kardio_RegionExtension.fsh",
     "startLine": 8,
     "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-diagnose-icd10gm.json",
+    "fshName": "MII_VS_Kardio_Diagnose_ICD10GM",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Diagnose.fsh",
+    "startLine": 1,
+    "endLine": 25
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-medikation.json",

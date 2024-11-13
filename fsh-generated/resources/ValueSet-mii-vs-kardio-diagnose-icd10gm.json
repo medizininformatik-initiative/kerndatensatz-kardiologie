@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_Diagnose_ICD10GM",
+  "id": "mii-vs-kardio-diagnose-icd10gm",
+  "title": "MII VS Kardio Diagnose ICD-10 GM",
+  "description": "ICD10 GM Codes für kardiologische Erkrankungen",
+  "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-kardio/ValueSet/DiagnoseICD10GM",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "experimental": true,
+  "date": "2024-11-13",
+  "version": "0.0.1",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/StructureDefinition/CodingICD10GM",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "IX"
+          }
+        ]
+      }
+    ]
+  }
+}

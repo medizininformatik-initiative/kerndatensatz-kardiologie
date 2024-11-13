@@ -13,3 +13,17 @@ Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias: $MII-Reference = https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference
+
+// Kardio-Diagnose
+Alias: $CodingICD10GM = http://fhir.de/StructureDefinition/CodingICD10GM
+Alias: $CodingAlphaID = http://fhir.de/StructureDefinition/CodingAlphaID
+Alias: $lebensphase = http://fhir.de/StructureDefinition/lebensphase
+Alias: $icd-10-gm = http://fhir.de/ValueSet/bfarm/icd-10-gm
+Alias: $alpha-id = http://fhir.de/ValueSet/bfarm/alpha-id
+Alias: $diagnoses-sct = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct
+Alias: $mii-vs-diagnose-orphanet = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-orphanet
+Alias: $mii-vs-diagnose-bodystructure-snomed = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-bodystructure-snomed
+// Alias: $MIIDiagnoseVorhanden = http://terminology.hl7.org/CodeSystem/v2-0532
+Alias: $mii-diagnose-vorhanden = http://terminology.hl7.org/ValueSet/yes-no-unknown-not-asked
+Alias: $condition-related = http://hl7.org/fhir/StructureDefinition/condition-related
+Alias: $condition-assertedDate = http://hl7.org/fhir/StructureDefinition/condition-assertedDate

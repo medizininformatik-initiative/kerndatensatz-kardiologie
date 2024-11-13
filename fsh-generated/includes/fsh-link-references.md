@@ -2,7 +2,7 @@
 [BMIExample]: Observation-BMIExample.html
 [KardioPatientExample]: Patient-KardioPatientExample.html
 [MII_PR_Kardio_BMI]: StructureDefinition-mii-pr-kardio-bmi.html
-[MII_PR_Kardio_Diagnose]: StructureDefinition-mii-pr-kardio-diagnose.html
+[MII_PR_Kardio_Diagnose_Observation]: StructureDefinition-mii-pr-kardio-diagnose-observation.html
 [MII_PR_Kardio_Koerpergewicht]: StructureDefinition-mii-pr-kardio-koerpergewicht.html
 [MII_PR_Kardio_MedicationStatement]: StructureDefinition-mii-pr-kardio-medicationstatement.html
 [MII_PR_Kardio_Patient]: StructureDefinition-mii-pr-kardio-patient.html

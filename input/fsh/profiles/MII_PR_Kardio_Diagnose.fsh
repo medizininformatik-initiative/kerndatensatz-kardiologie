@@ -3,10 +3,13 @@ Profile: MII_PR_Kardio_Diagnose_Observation
 Id: mii-pr-kardio-diagnose-observation
 Parent: Observation //MII_PR_Diagnose_Condition //Observation
 
+// GECCO-Diagnose (Condition): https://simplifier.net/guide/GermanCoronaConsensusDataSet-ImplementationGuide/Home/GECCOCore/AnamnesisRiskfactors/Disordersofcardiovascularsystem.guide.md?version=current
+
 //Vererbung siehe:
-// https://simplifier.net/MII-Basismodul-Diagnose-2024/MII_PR_Diagnose_Condition/~overview (MII KDS Diagnose)
+// https://simplifier.net/MII-Basismodul-Diagnose-2024/MII_PR_Diagnose_Condition/~overview (MII KDS Diagnose (Condition))
 // > fhir install de.medizininformatikinitiative.kerndatensatz.diagnose 2024.0.0
 // https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/82200 (FHIR Core R4 Condition)
+// https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/83132 (FHIR Core R4 Observation)
 
 Title: "MII PR Kardio Diagnose"
 Description: "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis von Angaben des Arztes oder Patienten (Performer) als Observation."

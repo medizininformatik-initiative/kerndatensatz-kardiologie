@@ -57,6 +57,7 @@ Description: "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis 
     alpha-id 0..1 MS and
     sct 0..1 MS and
     orphanet 0..1 MS
+// TODO Anlegen eines ValueSets mit Acribis-Diagnosen mit Codierung in ICD 10 GM
 * code.coding[icd10-gm] only $CodingICD10GM
 * code.coding[icd10-gm] from $icd-10-gm (required)
 * code.coding[icd10-gm] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/icd-10-gm"

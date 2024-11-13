@@ -58,6 +58,8 @@ Description: "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis 
     sct 0..1 MS and
     orphanet 0..1 MS
 // TODO Anlegen eines ValueSets mit Acribis-Diagnosen mit Codierung in ICD 10 GM
+// Abstimmung in Acribis WP2 für Diskussion/Expertise durch Kliniker und Vorbereitung einer Liste für technische Implementation.
+// Vorarbeiten wohl aus Wuerzburg -> siehe Acribis WP6 und Feasibility R-script: https://github.com/guenther-k/ACRIBiS_feasibility/blob/main/ACRIBiS_Feasibility_Script.R
 * code.coding[icd10-gm] only $CodingICD10GM
 * code.coding[icd10-gm] from $icd-10-gm (required)
 * code.coding[icd10-gm] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/icd-10-gm"

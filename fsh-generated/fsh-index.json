@@ -45,7 +45,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Diagnose.fsh",
     "startLine": 2,
-    "endLine": 81
+    "endLine": 82
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-koerpergewicht.json",

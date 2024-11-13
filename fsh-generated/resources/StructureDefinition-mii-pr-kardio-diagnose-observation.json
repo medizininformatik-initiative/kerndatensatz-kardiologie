@@ -331,23 +331,6 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Observation.value[x]:valueCodeableConcept",
-        "path": "Observation.value[x]",
-        "sliceName": "valueCodeableConcept",
-        "min": 0,
-        "max": "1",
         "type": [
           {
             "code": "CodeableConcept"
@@ -355,7 +338,7 @@
         ]
       },
       {
-        "id": "Observation.value[x]:valueCodeableConcept.coding",
+        "id": "Observation.value[x].coding",
         "path": "Observation.value[x].coding",
         "binding": {
           "strength": "required",
@@ -363,7 +346,7 @@
         }
       },
       {
-        "id": "Observation.value[x]:valueCodeableConcept.coding.system",
+        "id": "Observation.value[x].coding.system",
         "path": "Observation.value[x].coding.system",
         "fixedUri": "http://terminology.hl7.org/CodeSystem/v2-0532"
       }

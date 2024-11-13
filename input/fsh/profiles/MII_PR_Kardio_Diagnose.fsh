@@ -77,6 +77,7 @@ Description: "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis 
 * code.coding[orphanet].code 1.. MS
 
 // Value[x] --> Codeable Concept --> ja/nein/unbekannt/nicht erhoben
+* value[x] only CodeableConcept
 * valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0532" (exactly)
 * valueCodeableConcept.coding from $mii-diagnose-vorhanden (required)
 

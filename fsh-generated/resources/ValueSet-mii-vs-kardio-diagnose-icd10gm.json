@@ -17,12 +17,21 @@
   "compose": {
     "include": [
       {
-        "system": "http://fhir.de/StructureDefinition/CodingICD10GM",
+        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
         "filter": [
           {
             "property": "concept",
             "op": "descendent-of",
             "value": "IX"
+          }
+        ]
+      },
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+        "concept": [
+          {
+            "code": "I05.0",
+            "display": "Mitralklappenstenose"
           }
         ]
       }

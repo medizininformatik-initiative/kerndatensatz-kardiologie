@@ -9,5 +9,5 @@ StructureDefinition-mii-pr-kardio-koerpergewicht.json        MII_PR_Kardio_Koerp
 StructureDefinition-mii-pr-kardio-medicationstatement.json   MII_PR_Kardio_MedicationStatement   Profile    profiles\MII_PR_Kardio_MedicationStatement.fsh       2 - 21
 StructureDefinition-mii-pr-kardio-patient.json               MII_PR_Kardio_Patient               Profile    profiles\MII_PR_Kardio_Patient.fsh                   10 - 19
 StructureDefinition-region-extension.json                    RegionExtension                     Extension  extensions\MII_EX_Kardio_RegionExtension.fsh         8 - 12
-ValueSet-mii-vs-kardio-diagnose-icd10gm.json                 MII_VS_Kardio_Diagnose_ICD10GM      ValueSet   valuesets\MII_VS_Kardio_Diagnose.fsh                 1 - 25
+ValueSet-mii-vs-kardio-diagnose-icd10gm.json                 MII_VS_Kardio_Diagnose_ICD10GM      ValueSet   valuesets\MII_VS_Kardio_Diagnose.fsh                 1 - 26
 ValueSet-mii-vs-kardio-medikation.json                       MII_VS_Kardio_Medikation            ValueSet   valuesets\MII_VS_Kardio_VSExample.fsh                1 - 165

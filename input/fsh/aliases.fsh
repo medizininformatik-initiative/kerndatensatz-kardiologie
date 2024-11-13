@@ -18,6 +18,7 @@ Alias: $MII-Reference = https://www.medizininformatik-initiative.de/fhir/core/St
 Alias: $CodingICD10GM = http://fhir.de/StructureDefinition/CodingICD10GM
 Alias: $CodingAlphaID = http://fhir.de/StructureDefinition/CodingAlphaID
 Alias: $lebensphase = http://fhir.de/StructureDefinition/lebensphase
+Alias: $icd-10-gm-system = http://fhir.de/CodeSystem/bfarm/icd-10-gm
 Alias: $icd-10-gm = http://fhir.de/ValueSet/bfarm/icd-10-gm
 Alias: $alpha-id = http://fhir.de/ValueSet/bfarm/alpha-id
 Alias: $diagnoses-sct = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct

@@ -22,4 +22,5 @@ Description: "ICD10 GM Codes für kardiologische Erkrankungen"
 // Filter
   // * include codes from system http://loinc.org where display matches ".*blood.*"
 
-* include codes from system $CodingICD10GM where concept descendant-of #IX
+* include codes from system $icd-10-gm-system where concept descendant-of #IX
+* $icd-10-gm-system#I05.0 "Mitralklappenstenose"

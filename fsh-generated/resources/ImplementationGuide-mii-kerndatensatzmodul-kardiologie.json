@@ -29,6 +29,12 @@
       "id": "hl7_fhir_r4_core"
     },
     {
+      "packageId": "hl7.terminology.r4",
+      "version": "6.0.2",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "id": "hl7_terminology_r4"
+    },
+    {
       "packageId": "de.basisprofil.r4",
       "version": "1.4.0",
       "uri": "http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4",
@@ -103,7 +109,7 @@
           "reference": "StructureDefinition/mii-pr-kardio-diagnose-observation"
         },
         "name": "MII PR Kardio Diagnose",
-        "description": "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis von Angaben des Arztes oder Patienten (Asserter) als Observation.",
+        "description": "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis von Angaben des Arztes oder Patienten (Performer) als Observation.",
         "exampleBoolean": false
       },
       {

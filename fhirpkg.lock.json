@@ -1,5 +1,5 @@
 {
-  "updated": "2024-11-08T10:10:33.047192+01:00",
+  "updated": "2024-11-13T09:44:29.7965847+01:00",
   "dependencies": {
     "de.medizininformatikinitiative.kerndatensatz.diagnose": "2024.0.0",
     "hl7.fhir.r4.core": "4.0.1",

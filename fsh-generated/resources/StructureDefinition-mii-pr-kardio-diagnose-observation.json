@@ -5,7 +5,7 @@
   "name": "MII_PR_Kardio_Diagnose_Observation",
   "title": "MII PR Kardio Diagnose",
   "status": "draft",
-  "description": "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis von Angaben des Arztes oder Patienten (Asserter) als Observation.",
+  "description": "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis von Angaben des Arztes oder Patienten (Performer) als Observation.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -327,6 +327,45 @@
         "path": "Observation.performer",
         "min": 1,
         "max": "1"
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation.value[x]:valueCodeableConcept",
+        "path": "Observation.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.value[x]:valueCodeableConcept.coding",
+        "path": "Observation.value[x].coding",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://terminology.hl7.org/ValueSet/yes-no-unknown-not-asked"
+        }
+      },
+      {
+        "id": "Observation.value[x]:valueCodeableConcept.coding.system",
+        "path": "Observation.value[x].coding.system",
+        "fixedUri": "http://terminology.hl7.org/CodeSystem/v2-0532"
       }
     ]
   }

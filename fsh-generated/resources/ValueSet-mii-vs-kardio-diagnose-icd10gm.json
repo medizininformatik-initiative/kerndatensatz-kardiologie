@@ -18,20 +18,20 @@
     "include": [
       {
         "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
-        "filter": [
+        "concept": [
           {
-            "property": "concept",
-            "op": "descendent-of",
-            "value": "IX"
+            "code": "I05.0",
+            "display": "Mitralklappenstenose"
           }
         ]
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
-        "concept": [
+        "filter": [
           {
-            "code": "I05.0",
-            "display": "Mitralklappenstenose"
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "I21"
           }
         ]
       }

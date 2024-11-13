@@ -77,7 +77,7 @@ Description: "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis 
 * code.coding[orphanet].code 1.. MS
 
 // Value[x] --> Codeable Concept --> ja/nein/unbekannt/nicht erhoben
-//* value[x].coding only $mii-diagnose-vorhanden
-//* value[x].coding from $mii-diagnose-vorhanden (required)
+* value[x].coding only $mii-diagnose-vorhanden
+* value[x].coding from $mii-diagnose-vorhanden (required)
 
 // TODO / To Discuss Component für ONSET-Date mit Code und Date-Value

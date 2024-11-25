@@ -47,6 +47,7 @@ Technische Umsetzung: <!-- noch nicht vollständig, gerne ergänzen! -->
 * Georg Fette (Technische Umsetzung FHIR Profile und ImplemenationGuides)
 * Philip Goos (Technische Umsetzung FHIR Profile und ImplemenationGuides)
 * Dirk Meyer zum Büschenfelde (Technische Umsetzung FHIR Profile und ImplemenationGuides)
-* Jendrik Richter (Technische Umsetzung FHIR Profile und ImplemenationGuides)
+* Jendrik Richter (Technische Umsetzung FHIR Profile und ImplemenationGuides)  
+<<Weitere Personen: Namen und Rolle bitte ergänzen>>
 <!--(Technische Umsetzung FHIR Profile und ImplemenationGuides Labor=Julian Saß)-->
 <!--(Technische Umsetzung Logical Models) Labor=Miriam Hübner-->

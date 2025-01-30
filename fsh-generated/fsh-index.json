@@ -1,5 +1,13 @@
 [
   {
+    "outputFile": "CodeSystem-mii-cs-kardio-lebensmittelpunkt.json",
+    "fshName": "MII_CS_Kardio_Lebensmittelpunkt",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems\\MII_CS_Lebensmittelpunkt.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
     "outputFile": "Observation-BMIExample.json",
     "fshName": "BMIExample",
     "fshType": "Instance",
@@ -88,10 +96,18 @@
     "endLine": 26
   },
   {
+    "outputFile": "ValueSet-mii-vs-kardio-ethnie.json",
+    "fshName": "MII_VS_Kardio_Ethnie",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Ethnie.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
     "outputFile": "ValueSet-mii-vs-kardio-medikation.json",
     "fshName": "MII_VS_Kardio_Medikation",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_VSExample.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Medikation.fsh",
     "startLine": 1,
     "endLine": 165
   }

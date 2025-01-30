@@ -90,6 +90,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
+        },
+        "name": "CodeSystem - Lebensmittelpunkt",
+        "description": "Lebensmittelpunkt des Patienten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Patient/KardioPatientExample"
         },
         "name": "KardioPatientExample",
@@ -142,6 +150,14 @@
         },
         "name": "MII VS Kardio Diagnose ICD-10 GM",
         "description": "ICD10 GM Codes für kardiologische Erkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ethnie"
+        },
+        "name": "MII VS Kardio Ethnie",
+        "description": "SNOMED CT Codes für die Ethie im Kerndatensatz Kardiologie",
         "exampleBoolean": false
       },
       {

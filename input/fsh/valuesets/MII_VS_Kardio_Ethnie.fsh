@@ -13,13 +13,8 @@ Description: "SNOMED CT Codes für die Ethie im Kerndatensatz Kardiologie"
 * ^date = "2025-01-30"
 * ^version = "0.0.1"
 
-// Filtern, auswählen von Codes
-// Einzelne Codes 
-  //* include codes from system http://www.whocc.no/atc
-  //* $atc#C10BA01 "Lovastatin und Nicotinsäure"
-// Gruppe hierarchischer Codes via in/is-a/=/!=:
-  //* include codes from system http://snomed.info/sct where concept in http://snomed.info/sct#123456
-// Filter
-  // * include codes from system http://loinc.org where display matches ".*blood.*"
-
 * $sct#14045001 "Caucasian"
+* $sct#15086000 "African American"
+// Noch ein Code für Andere
+// Vielleicht:
+// * $null-flavor#OTH "other"

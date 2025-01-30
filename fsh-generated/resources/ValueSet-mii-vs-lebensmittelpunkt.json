@@ -1,0 +1,16 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Lebensmittelpunkt",
+  "id": "mii-vs-lebensmittelpunkt",
+  "title": "ValueSet - Lebensmittelpunkt",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/Lebensmittelpunkt",
+  "version": "0.0.1",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/Lebensmittelpunkt"
+      }
+    ]
+  }
+}

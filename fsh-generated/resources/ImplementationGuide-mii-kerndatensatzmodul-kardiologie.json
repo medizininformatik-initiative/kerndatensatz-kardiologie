@@ -90,6 +90,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
+        },
+        "name": "CodeSystem - Lebensmittelpunkt",
+        "description": "Lebensmittelpunkt des Patienten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Patient/KardioPatientExample"
         },
         "name": "KardioPatientExample",
@@ -138,6 +146,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-diagnose-icd10gm"
+        },
+        "name": "MII VS Kardio Diagnose ICD-10 GM",
+        "description": "ICD10 GM Codes für kardiologische Erkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ethnie"
+        },
+        "name": "MII VS Kardio Ethnie",
+        "description": "SNOMED CT Codes für die Ethie im Kerndatensatz Kardiologie",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-medikation"
         },
         "name": "MII VS Kardio Medikation",
@@ -157,6 +181,13 @@
         },
         "name": "Region (Wohnort/Land) nach best. HF-Risk-Score",
         "description": "Angabe einer Region mit einem ValueSet definiert in ACRIBiS-Datensatz.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-lebensmittelpunkt"
+        },
+        "name": "ValueSet - Lebensmittelpunkt",
         "exampleBoolean": false
       }
     ],

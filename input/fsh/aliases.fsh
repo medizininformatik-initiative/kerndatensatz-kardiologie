@@ -4,6 +4,7 @@ Alias: $sct = http://snomed.info/sct
 // http://www.whocc.no/atc 
 Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
 Alias: $unitsofmeasure = http://unitsofmeasure.org
+Alias: $null-flavor = http://hl7.org/fhir/v3/NullFlavor
 
 //Alias: $observation-de-vitalsign-koerpergewicht = http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht
 
@@ -28,7 +29,3 @@ Alias: $mii-vs-diagnose-bodystructure-snomed = https://www.medizininformatik-ini
 Alias: $mii-diagnose-vorhanden = http://terminology.hl7.org/ValueSet/yes-no-unknown-not-asked
 Alias: $condition-related = http://hl7.org/fhir/StructureDefinition/condition-related
 Alias: $condition-assertedDate = http://hl7.org/fhir/StructureDefinition/condition-assertedDate
-
-// Code System
-Alias: $sct = http://snomed.info/sct
-Alias: $null-flavor = http://hl7.org/fhir/v3/NullFlavor

@@ -1,5 +1,5 @@
 Output File                                                  Name                                Type        FSH File                                             Lines
-CodeSystem-mii-cs-kardio-lebensmittelpunkt.json              MII_CS_Kardio_Lebensmittelpunkt     CodeSystem  codesystems\MII_CS_Lebensmittelpunkt.fsh             1 - 19
+CodeSystem-mii-cs-kardio-lebensmittelpunkt.json              MII_CS_Kardio_Lebensmittelpunkt     CodeSystem  codesystems\MII_CS_Lebensmittelpunkt.fsh             1 - 20
 Observation-BMIExample.json                                  BMIExample                          Instance    instances\MII_EXA_Kardio_BMI.fsh                     1 - 26
 Patient-KardioPatientExample.json                            KardioPatientExample                Instance    instances\MII_EXA_Kardio_Patient.fsh                 1 - 20
 Questionnaire-kardio-patientenfragebogen.json                kardio-patientenfragebogen          Instance    questionnaire\MII_QN_Kardio_Patientenfragebogen.fsh  1 - 77
@@ -13,3 +13,4 @@ StructureDefinition-region-extension.json                    RegionExtension    
 ValueSet-mii-vs-kardio-diagnose-icd10gm.json                 MII_VS_Kardio_Diagnose_ICD10GM      ValueSet    valuesets\MII_VS_Kardio_Diagnose.fsh                 1 - 26
 ValueSet-mii-vs-kardio-ethnie.json                           MII_VS_Kardio_Ethnie                ValueSet    valuesets\MII_VS_Kardio_Ethnie.fsh                   1 - 17
 ValueSet-mii-vs-kardio-medikation.json                       MII_VS_Kardio_Medikation            ValueSet    valuesets\MII_VS_Kardio_Medikation.fsh               1 - 165
+ValueSet-mii-vs-lebensmittelpunkt.json                       MII_VS_Lebensmittelpunkt            ValueSet    valuesets\MII_VS_Kardio_Lebensmittelpunkt.fsh        1 - 7

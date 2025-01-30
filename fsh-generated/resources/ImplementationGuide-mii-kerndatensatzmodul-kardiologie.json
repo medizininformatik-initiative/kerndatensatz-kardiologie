@@ -182,6 +182,13 @@
         "name": "Region (Wohnort/Land) nach best. HF-Risk-Score",
         "description": "Angabe einer Region mit einem ValueSet definiert in ACRIBiS-Datensatz.",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-lebensmittelpunkt"
+        },
+        "name": "ValueSet - Lebensmittelpunkt",
+        "exampleBoolean": false
       }
     ],
     "page": {

@@ -12,3 +12,4 @@
 [MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
 [kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html
 [RegionExtension]: StructureDefinition-region-extension.html
+[MII_VS_Lebensmittelpunkt]: ValueSet-mii-vs-lebensmittelpunkt.html

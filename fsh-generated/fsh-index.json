@@ -5,7 +5,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\MII_CS_Lebensmittelpunkt.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 20
   },
   {
     "outputFile": "Observation-BMIExample.json",
@@ -110,5 +110,13 @@
     "fshFile": "valuesets\\MII_VS_Kardio_Medikation.fsh",
     "startLine": 1,
     "endLine": 165
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-lebensmittelpunkt.json",
+    "fshName": "MII_VS_Lebensmittelpunkt",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Lebensmittelpunkt.fsh",
+    "startLine": 1,
+    "endLine": 7
   }
 ]

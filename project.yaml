@@ -1,2 +1,3 @@
 canonical-claims:
   - https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/
+  - https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-klinischer-zustand-condition

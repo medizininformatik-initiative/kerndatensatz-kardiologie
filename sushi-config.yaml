@@ -33,6 +33,7 @@ dependencies:
    de.medizininformatikinitiative.kerndatensatz.diagnose: 2024.0.0 # für Kardio Diagnose
    de.medizininformatikinitiative.kerndatensatz.medikation: 2.0.0 # für Kardio MedicationStatement
    de.medizininformatikinitiative.kerndatensatz.laborbefund: 2025.0.0-alpha1 # für Kardio Laboruntersuchung
+   de.medizininformatikinitiative.kerndatensatz.symptom: 2024.0.0-ballot
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode

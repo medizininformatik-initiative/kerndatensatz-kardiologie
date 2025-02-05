@@ -10,6 +10,7 @@
 [MII_VS_Kardio_Diagnose_ICD10GM]: ValueSet-mii-vs-kardio-diagnose-icd10gm.html
 [MII_VS_Kardio_Ethnie]: ValueSet-mii-vs-kardio-ethnie.html
 [MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
+[MII_PR_Kardio_Klinischer_Zustand_Condition]: StructureDefinition-mii-pr-kardio-klinischer-zustand-condition.html
 [kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html
 [RegionExtension]: StructureDefinition-region-extension.html
 [MII_VS_Lebensmittelpunkt]: ValueSet-mii-vs-lebensmittelpunkt.html

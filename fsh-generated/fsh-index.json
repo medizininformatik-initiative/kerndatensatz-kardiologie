@@ -3,7 +3,7 @@
     "outputFile": "CodeSystem-mii-cs-kardio-lebensmittelpunkt.json",
     "fshName": "MII_CS_Kardio_Lebensmittelpunkt",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Lebensmittelpunkt.fsh",
+    "fshFile": "codesystems\\MII_CS_Kardio_Lebensmittelpunkt.fsh",
     "startLine": 1,
     "endLine": 20
   },
@@ -56,6 +56,14 @@
     "endLine": 88
   },
   {
+    "outputFile": "StructureDefinition-mii-pr-kardio-klinischer-zustand-condition.json",
+    "fshName": "MII_PR_Kardio_Klinischer_Zustand_Condition",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_Klinischer_Zustand_Condition.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
     "outputFile": "StructureDefinition-mii-pr-kardio-koerpergewicht.json",
     "fshName": "MII_PR_Kardio_Koerpergewicht",
     "fshType": "Profile",
@@ -101,7 +109,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Ethnie.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 15
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-medikation.json",

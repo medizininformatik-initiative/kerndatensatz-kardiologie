@@ -163,7 +163,7 @@
           "reference": "ValueSet/mii-vs-kardio-ethnie"
         },
         "name": "MII VS Kardio Ethnie",
-        "description": "SNOMED CT Codes für die Ethie im Kerndatensatz Kardiologie",
+        "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
         "exampleBoolean": false
       },
       {

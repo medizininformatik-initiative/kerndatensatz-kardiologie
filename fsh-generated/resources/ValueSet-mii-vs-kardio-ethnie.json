@@ -4,7 +4,7 @@
   "name": "MII_VS_Kardio_Ethnie",
   "id": "mii-vs-kardio-ethnie",
   "title": "MII VS Kardio Ethnie",
-  "description": "SNOMED CT Codes für die Ethie im Kerndatensatz Kardiologie",
+  "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
   "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-kardio/ValueSet/Ethnie",
   "meta": {
     "profile": [
@@ -12,7 +12,7 @@
     ]
   },
   "experimental": true,
-  "date": "2025-01-30",
+  "date": "2025-03-03",
   "version": "0.0.1",
   "compose": {
     "include": [
@@ -20,12 +20,16 @@
         "system": "http://snomed.info/sct",
         "concept": [
           {
-            "code": "14045001",
+            "code": "413773004",
             "display": "Caucasian"
           },
           {
-            "code": "15086000",
-            "display": "African American"
+            "code": "413464008",
+            "display": "African"
+          },
+          {
+            "code": "74964007",
+            "display": "Other"
           }
         ]
       }

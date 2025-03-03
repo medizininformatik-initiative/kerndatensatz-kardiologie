@@ -29,3 +29,5 @@ Alias: $mii-vs-diagnose-bodystructure-snomed = https://www.medizininformatik-ini
 Alias: $mii-diagnose-vorhanden = http://terminology.hl7.org/ValueSet/yes-no-unknown-not-asked
 Alias: $condition-related = http://hl7.org/fhir/StructureDefinition/condition-related
 Alias: $condition-assertedDate = http://hl7.org/fhir/StructureDefinition/condition-assertedDate
+// Lebensmittelpunkt
+Alias: $m49-geographic-region = http://unstats.un.org/unsd/methods/m49/m49.htm

@@ -13,8 +13,8 @@ Description: "Lebensmittelpunkt des Patienten"
 * ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/Lebensmittelpunkt"
 * ^content = #complete
 
-* #DE "Deutschland"
-* #NE "Niederlande"
-* #WE "Westeuropa"
-* #NA "Nordamerika"
+* #276 "Deutschland"
+* #528 "Niederlande"
+* #155 "Westeuropa"
+* #021 "Nordamerika"
 * #AO "Anderer Ort"

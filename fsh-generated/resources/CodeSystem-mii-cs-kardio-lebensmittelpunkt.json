@@ -9,19 +9,19 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/Lebensmittelpunkt",
   "concept": [
     {
-      "code": "DE",
+      "code": "276",
       "display": "Deutschland"
     },
     {
-      "code": "NE",
+      "code": "528",
       "display": "Niederlande"
     },
     {
-      "code": "WE",
+      "code": "155",
       "display": "Westeuropa"
     },
     {
-      "code": "NA",
+      "code": "021",
       "display": "Nordamerika"
     },
     {

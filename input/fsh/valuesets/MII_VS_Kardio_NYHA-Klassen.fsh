@@ -1,7 +1,7 @@
-ValueSet: MII_VS_Kardio_NYHA_Klassen
-Id: mii-vs-kardio-nyha-klassen
+ValueSet: MII_VS_Kardio_NYHA_Klassen_SNOMED
+Id: mii-vs-kardio-nyha-klassen-SNOMED
 
-Title: "MII VS Kardio NYHA Klassen"
+Title: "MII VS Kardio NYHA Klassen SNOMED"
 Description: "Klassen der New York Heart Association Classification"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -31,4 +31,4 @@ Description: "Klassen der New York Heart Association Classification"
 * $sct#421704003 "New York Heart Association Classification - Class II"
 * $sct#420913000 "New York Heart Association Classification - Class III"
 * $sct#422293003 "New York Heart Association Classification - Class IV"
-* include codes from system $sct where concept in $sct#421518007 "New York Heart Classification finding"
+//* include codes from system $sct where concept in $sct#421518007 "New York Heart Classification finding"

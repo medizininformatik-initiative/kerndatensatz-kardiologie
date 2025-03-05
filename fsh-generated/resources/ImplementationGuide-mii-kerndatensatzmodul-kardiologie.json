@@ -152,10 +152,10 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-allergene"
+          "reference": "ValueSet/mii-vs-kardio-allergene-snomed"
         },
-        "name": "MII VS Kardio Allergene",
-        "description": "Liste von Substanzen kodiert in SNOMED CT.",
+        "name": "MII VS Kardio Allergene SNOMED",
+        "description": "Liste von Substanzen",
         "exampleBoolean": false
       },
       {
@@ -172,6 +172,14 @@
         },
         "name": "MII VS Kardio Ethnie",
         "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-gewichtsveraenderung-snomed"
+        },
+        "name": "MII VS Kardio Gewichtsveraenderung SNOMED",
+        "description": "Beschreibung von Gewichtsveränderungen",
         "exampleBoolean": false
       },
       {

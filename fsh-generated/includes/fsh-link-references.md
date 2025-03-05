@@ -7,9 +7,10 @@
 [MII_PR_Kardio_Koerpergewicht]: StructureDefinition-mii-pr-kardio-koerpergewicht.html
 [MII_PR_Kardio_MedicationStatement]: StructureDefinition-mii-pr-kardio-medicationstatement.html
 [MII_PR_Kardio_Patient]: StructureDefinition-mii-pr-kardio-patient.html
-[MII_VS_Kardio_Allergene]: ValueSet-mii-vs-kardio-allergene.html
+[MII_VS_Kardio_Allergene_SNOMED]: ValueSet-mii-vs-kardio-allergene-snomed.html
 [MII_VS_Kardio_Diagnose_ICD10GM]: ValueSet-mii-vs-kardio-diagnose-icd10gm.html
 [MII_VS_Kardio_Ethnie]: ValueSet-mii-vs-kardio-ethnie.html
+[MII_VS_Kardio_Gewichtsveraenderung_SNOMED]: ValueSet-mii-vs-kardio-gewichtsveraenderung-snomed.html
 [MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMED]: ValueSet-mii-vs-kardio-nyha-klassen-SNOMED.html
 [MII_PR_Kardio_Klinischer_Zustand_Condition]: StructureDefinition-mii-pr-kardio-klinischer-zustand-condition.html

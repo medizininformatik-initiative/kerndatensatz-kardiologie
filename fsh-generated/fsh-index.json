@@ -96,8 +96,8 @@
     "endLine": 12
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-allergene.json",
-    "fshName": "MII_VS_Kardio_Allergene",
+    "outputFile": "ValueSet-mii-vs-kardio-allergene-snomed.json",
+    "fshName": "MII_VS_Kardio_Allergene_SNOMED",
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_Allergene.fsh",
     "startLine": 1,
@@ -118,6 +118,14 @@
     "fshFile": "valuesets/MII_VS_Kardio_Ethnie.fsh",
     "startLine": 1,
     "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomed.json",
+    "fshName": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MII_VS_Kardio_Gewichtsveraernderung.fsh",
+    "startLine": 1,
+    "endLine": 33
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-medikation.json",

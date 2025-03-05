@@ -1,11 +1,11 @@
-ValueSet: MII_VS_Kardio_NYHA_Klassen_SNOMED
-Id: mii-vs-kardio-nyha-klassen-snomed
+ValueSet: MII_VS_Kardio_Gewichtsveraenderung_SNOMED
+Id: mii-vs-kardio-gewichtsveraenderung-snomed
 
-Title: "MII VS Kardio NYHA Klassen SNOMED"
-Description: "Klassen der New York Heart Association Classification"
+Title: "MII VS Kardio Gewichtsveraenderung SNOMED"
+Description: "Beschreibung von Gewichtsveränderungen"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/NYHA-Klassen"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/gewichtsveraenderung-snomed"
 //* insert PR_CS_VS_Version
 //* insert Publisher //via rulesets TODO
 * ^publisher = "https://www.medizininformatik-initiative.de"
@@ -27,8 +27,7 @@ Description: "Klassen der New York Heart Association Classification"
   // * include codes from system http://loinc.org where display matches '.*blood.*'
 
 // Allergene Antibiotika
-* $sct#420300004 "New York Heart Association Classification - Class I"
-* $sct#421704003 "New York Heart Association Classification - Class II"
-* $sct#420913000 "New York Heart Association Classification - Class III"
-* $sct#422293003 "New York Heart Association Classification - Class IV"
-//* include codes from system $sct where concept in $sct#421518007 "New York Heart Classification finding"
+* $sct#11717701000119108 "Slow weight gain"
+* $sct#161833006 "Abnormal weight gain"
+* $sct#416528001 "Intentional weight loss"
+* $sct#448765001 "Unintentional weight loss"

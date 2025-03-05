@@ -128,6 +128,14 @@
     "endLine": 165
   },
   {
+    "outputFile": "ValueSet-mii-vs-kardio-nyha-klassen.json",
+    "fshName": "MII_VS_Kardio_NYHA_Klassen",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MII_VS_Kardio_NYHA-Klassen.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
     "outputFile": "ValueSet-mii-vs-lebensmittelpunkt.json",
     "fshName": "MII_VS_Lebensmittelpunkt",
     "fshType": "ValueSet",

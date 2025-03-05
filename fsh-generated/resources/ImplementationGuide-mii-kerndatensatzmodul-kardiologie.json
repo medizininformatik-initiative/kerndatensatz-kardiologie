@@ -184,6 +184,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-nyha-klassen"
+        },
+        "name": "MII VS Kardio NYHA Klassen",
+        "description": "Klassen der New York Heart Association Classification",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-klinischer-zustand-condition"
         },
         "name": "MII_PR_Kardio_Klinischer_Zustand_Condition",

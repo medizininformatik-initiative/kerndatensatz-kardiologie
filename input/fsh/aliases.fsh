@@ -1,5 +1,6 @@
 Alias: $loinc = http://loinc.org
 Alias: $sct = http://snomed.info/sct
+Alias: $emdn = urn:oid:1.2.250.1.213.2.68 //urn:oid:1.2.250.1.213.2.68 //https://webgate.ec.europa.eu/dyna2/emdn/Z1206
 // https://simplifier.net/mii-basismodul-medikation-2024/mii-cs-medikation-atc-2023
 // http://www.whocc.no/atc 
 Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc

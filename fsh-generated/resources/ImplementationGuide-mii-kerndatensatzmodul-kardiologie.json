@@ -184,6 +184,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-implant-device-emdn"
+        },
+        "name": "MII VS Kardio Implant Device EMDN",
+        "description": "Implantierbare Devices nach EMDN",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-medikation"
         },
         "name": "MII VS Kardio Medikation",
@@ -192,7 +200,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-nyha-klassen-SNOMED"
+          "reference": "ValueSet/mii-vs-kardio-nyha-klassen-snomed"
         },
         "name": "MII VS Kardio NYHA Klassen SNOMED",
         "description": "Klassen der New York Heart Association Classification",

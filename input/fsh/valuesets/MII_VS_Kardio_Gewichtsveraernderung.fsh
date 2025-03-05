@@ -26,7 +26,7 @@ Description: "Beschreibung von Gewichtsveränderungen"
 // Filter
   // * include codes from system http://loinc.org where display matches '.*blood.*'
 
-// Allergene Antibiotika
+// Gewichtsveraenderung
 * $sct#11717701000119108 "Slow weight gain"
 * $sct#161833006 "Abnormal weight gain"
 * $sct#416528001 "Intentional weight loss"

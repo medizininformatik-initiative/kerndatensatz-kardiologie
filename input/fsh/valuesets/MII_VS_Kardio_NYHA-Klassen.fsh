@@ -26,7 +26,7 @@ Description: "Klassen der New York Heart Association Classification"
 // Filter
   // * include codes from system http://loinc.org where display matches '.*blood.*'
 
-// Allergene Antibiotika
+// NYHA-Klassen
 * $sct#420300004 "New York Heart Association Classification - Class I"
 * $sct#421704003 "New York Heart Association Classification - Class II"
 * $sct#420913000 "New York Heart Association Classification - Class III"

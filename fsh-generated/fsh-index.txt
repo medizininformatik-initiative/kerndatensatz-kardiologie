@@ -15,6 +15,7 @@ ValueSet-mii-vs-kardio-allergene-snomed.json                         MII_VS_Kard
 ValueSet-mii-vs-kardio-diagnose-icd10gm.json                         MII_VS_Kardio_Diagnose_ICD10GM              ValueSet    valuesets/MII_VS_Kardio_Diagnose.fsh                     1 - 26
 ValueSet-mii-vs-kardio-ethnie.json                                   MII_VS_Kardio_Ethnie                        ValueSet    valuesets/MII_VS_Kardio_Ethnie.fsh                       1 - 16
 ValueSet-mii-vs-kardio-gewichtsveraenderung-snomed.json              MII_VS_Kardio_Gewichtsveraenderung_SNOMED   ValueSet    valuesets/MII_VS_Kardio_Gewichtsveraernderung.fsh        1 - 33
+ValueSet-mii-vs-kardio-implant-device-emdn.json                      MII_VS_Kardio_Implant_Device_EMDN           ValueSet    valuesets/MII_VS_Kardio_implant-device.fsh               1 - 53
 ValueSet-mii-vs-kardio-medikation.json                               MII_VS_Kardio_Medikation                    ValueSet    valuesets/MII_VS_Kardio_Medikation.fsh                   1 - 165
-ValueSet-mii-vs-kardio-nyha-klassen-SNOMED.json                      MII_VS_Kardio_NYHA_Klassen_SNOMED           ValueSet    valuesets/MII_VS_Kardio_NYHA-Klassen.fsh                 1 - 33
+ValueSet-mii-vs-kardio-nyha-klassen-snomed.json                      MII_VS_Kardio_NYHA_Klassen_SNOMED           ValueSet    valuesets/MII_VS_Kardio_NYHA-Klassen.fsh                 1 - 33
 ValueSet-mii-vs-lebensmittelpunkt.json                               MII_VS_Lebensmittelpunkt                    ValueSet    valuesets/MII_VS_Kardio_Lebensmittelpunkt.fsh            1 - 17

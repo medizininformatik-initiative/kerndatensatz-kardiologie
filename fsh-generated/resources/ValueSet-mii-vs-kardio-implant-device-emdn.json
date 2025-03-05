@@ -1,0 +1,84 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_Implant_Device_EMDN",
+  "id": "mii-vs-kardio-implant-device-emdn",
+  "title": "MII VS Kardio Implant Device EMDN",
+  "description": "Implantierbare Devices nach EMDN",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/implant-device-emdn",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "publisher": "https://www.medizininformatik-initiative.de",
+  "experimental": true,
+  "date": "2025-03-05",
+  "version": "0.0.1",
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:1.2.250.1.213.2.68",
+        "concept": [
+          {
+            "code": "J0105",
+            "display": "IMPLANTABLE DEFIBRILLATORS"
+          },
+          {
+            "code": "J01900102",
+            "display": "PERMANENT DEFIBRILATOR LEADS (STEROID RELEASE INCLUDED)"
+          },
+          {
+            "code": "J01010401",
+            "display": "IMPLANTABLE TRIPLE CHAMBER PACEMAKERS FOR CARDIAC RESYNCHRONIZATION (TR)"
+          },
+          {
+            "code": "J0190010101",
+            "display": "ENDOCARDIAL ATRIAL AND VENTRICULAR LEADS, UNIPOLAR"
+          },
+          {
+            "code": "J019001010101",
+            "display": "ATRIAL LEADS, PASSIVE FIXATION"
+          },
+          {
+            "code": "J0190010102",
+            "display": "ENDOCARDIAL ATRIAL AND VENTRICULAR LEADS, BIPOLAR (WITH ACTIVE OR PASSIVE FIXATION)"
+          },
+          {
+            "code": "J010301",
+            "display": "IMPLANTABLE MONOVENTRICULAR AND BIVENTRICULAR ASSISTANCE SYSTEMS"
+          },
+          {
+            "code": "J010502",
+            "display": "IMPLANTABLE DUAL CHAMBER DEFIBRILLATORS"
+          },
+          {
+            "code": "J010103",
+            "display": "IMPLANTABLE DUAL CHAMBER PACEMAKERS"
+          },
+          {
+            "code": "J01010301",
+            "display": "IMPLANTABLE DUAL CHAMBER PACEMAKERS (DC)"
+          },
+          {
+            "code": "J01010302",
+            "display": "IMPLANTABLE DUAL CHAMBER PACEMAKERS WITH SENSOR (DR)"
+          },
+          {
+            "code": "J01030102",
+            "display": "IMPLANTABLE LEFT MONOVENTRICULAR ASSISTANCE SYSTEMS (LVAD)"
+          },
+          {
+            "code": "J01030101",
+            "display": "IMPLANTABLE RIGHT MONOVENTRICULAR ASSISTANCE SYSTEMS (RVAD)"
+          },
+          {
+            "code": "J01030103",
+            "display": "IMPLANTABLE BIVENTRICULAR ASSISTANCE SYSTEMS (BIVAD)"
+          }
+        ]
+      }
+    ]
+  }
+}

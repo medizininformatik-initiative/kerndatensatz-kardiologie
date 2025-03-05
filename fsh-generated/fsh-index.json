@@ -128,6 +128,14 @@
     "endLine": 33
   },
   {
+    "outputFile": "ValueSet-mii-vs-kardio-implant-device-emdn.json",
+    "fshName": "MII_VS_Kardio_Implant_Device_EMDN",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MII_VS_Kardio_implant-device.fsh",
+    "startLine": 1,
+    "endLine": 53
+  },
+  {
     "outputFile": "ValueSet-mii-vs-kardio-medikation.json",
     "fshName": "MII_VS_Kardio_Medikation",
     "fshType": "ValueSet",
@@ -136,7 +144,7 @@
     "endLine": 165
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-nyha-klassen-SNOMED.json",
+    "outputFile": "ValueSet-mii-vs-kardio-nyha-klassen-snomed.json",
     "fshName": "MII_VS_Kardio_NYHA_Klassen_SNOMED",
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_NYHA-Klassen.fsh",

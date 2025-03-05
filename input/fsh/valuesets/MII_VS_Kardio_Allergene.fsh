@@ -21,34 +21,35 @@ Description: "Liste allergener Substanzen kodiert in SNOMED CT."
   //* include codes from system http://www.whocc.no/atc
   //* $atc#C10BA01 "Lovastatin und Nicotinsäure"
 // Gruppe hierarchischer Codes via in/is-a/=/!=:
-  //* include codes from system http://snomed.info/sct where concept in http://snomed.info/sct#123456
+  //* include codes from system http://snomed.info/sct where concept is-a http://snomed.info/sct#123456
+  // Mit "in" statt "is-a" haben wir im Simplifier den Text "Include codes from SNOMED_CT where concept In 256277009"
 // Filter
   // * include codes from system http://loinc.org where display matches '.*blood.*'
 
 // Allergene Antibiotika
 * $sct#764146007 "Penicillin"
 * $sct#387170002 "Ampicillin"
-* include codes from system $sct where concept in $sct#764147003 "Cephalosporin"
+* include codes from system $sct where concept is-a $sct#764147003 "Cephalosporin"
 * $sct#372809001 "Tetracyclin"
 * $sct#763805006 "Aminoglycoside"
 * $sct#396345004 "Carbapenem"
 * $sct#395977002 "Fluocinolon"
 * $sct#301844007 "Glycopeptide"
-* include codes from system $sct where concept in $sct#428787002 "Makrolide"
+* include codes from system $sct where concept is-a $sct#428787002 "Makrolide"
 * $sct#764436002 "Oxazolidinone"
-* include codes from system $sct where concept in $sct#387406002 "Sulfonamide"
+* include codes from system $sct where concept is-a $sct#387406002 "Sulfonamide"
 * $sct#775439002 "Dalfopristin and quinupristin only product" //Eines davon oder beide?
 * $sct#324352008 "Dalfopristin- and quinupristin-containing product" //Eines davon oder beide?
 
 // Allergene Kontrastmittel
-* include codes from system $sct where concept in $sct#426722004 "Iodinated contrast media"
+* include codes from system $sct where concept is-a $sct#426722004 "Iodinated contrast media"
 * $sct#105879004 "Gadolinium AND/OR gadolinium compound (inactive)" // bestimmte Elemente aus 419909004 MRT-Kontrastmittel. TODO Abgleich mit Informationsmodell.
 
 // "Häufige" Allergene
 * $sct#260147004 "Hausstaubmilben"
 * $sct#33396006 "Nickel"
 * $sct#54808007 "Kobalt"
-* include codes from system $sct where concept in $sct#256277009 "Gräserpollen"
+* include codes from system $sct where concept is-a $sct#256277009 "Gräserpollen"
 //Excludes notwendig? TODO Abgleich mit abgestimmtem Informationsmodell!
 * $sct#418785009 "Parfüm"
 * $sct#255840003 "Kolophonium"

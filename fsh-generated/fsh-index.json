@@ -101,7 +101,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_Allergene.fsh",
     "startLine": 1,
-    "endLine": 57
+    "endLine": 58
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-diagnose-icd10gm.json",

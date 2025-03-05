@@ -105,7 +105,7 @@
         "filter": [
           {
             "property": "concept",
-            "op": "in",
+            "op": "is-a",
             "value": "764147003"
           }
         ]
@@ -115,7 +115,7 @@
         "filter": [
           {
             "property": "concept",
-            "op": "in",
+            "op": "is-a",
             "value": "428787002"
           }
         ]
@@ -125,7 +125,7 @@
         "filter": [
           {
             "property": "concept",
-            "op": "in",
+            "op": "is-a",
             "value": "387406002"
           }
         ]
@@ -135,7 +135,7 @@
         "filter": [
           {
             "property": "concept",
-            "op": "in",
+            "op": "is-a",
             "value": "426722004"
           }
         ]
@@ -145,7 +145,7 @@
         "filter": [
           {
             "property": "concept",
-            "op": "in",
+            "op": "is-a",
             "value": "256277009"
           }
         ]

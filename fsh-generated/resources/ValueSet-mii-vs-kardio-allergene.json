@@ -1,0 +1,155 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_Allergene",
+  "id": "mii-vs-kardio-allergene",
+  "title": "MII VS Kardio Allergene",
+  "description": "Liste allergener Substanzen kodiert in SNOMED CT.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-kardio/ValueSet/Allergene",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "publisher": "https://www.medizininformatik-initiative.de",
+  "experimental": true,
+  "date": "2025-03-05",
+  "version": "0.0.1",
+  "purpose": "Dieses Value Set listet relevante allergene Substanzen kodiert in SNOMED CT für die Verwendung in einer Observation zu Allergien.",
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "764146007",
+            "display": "Penicillin"
+          },
+          {
+            "code": "387170002",
+            "display": "Ampicillin"
+          },
+          {
+            "code": "372809001",
+            "display": "Tetracyclin"
+          },
+          {
+            "code": "763805006",
+            "display": "Aminoglycoside"
+          },
+          {
+            "code": "396345004",
+            "display": "Carbapenem"
+          },
+          {
+            "code": "395977002",
+            "display": "Fluocinolon"
+          },
+          {
+            "code": "301844007",
+            "display": "Glycopeptide"
+          },
+          {
+            "code": "764436002",
+            "display": "Oxazolidinone"
+          },
+          {
+            "code": "775439002",
+            "display": "Dalfopristin and quinupristin only product"
+          },
+          {
+            "code": "324352008",
+            "display": "Dalfopristin- and quinupristin-containing product"
+          },
+          {
+            "code": "105879004",
+            "display": "Gadolinium AND/OR gadolinium compound (inactive)"
+          },
+          {
+            "code": "260147004",
+            "display": "Hausstaubmilben"
+          },
+          {
+            "code": "33396006",
+            "display": "Nickel"
+          },
+          {
+            "code": "54808007",
+            "display": "Kobalt"
+          },
+          {
+            "code": "418785009",
+            "display": "Parfüm"
+          },
+          {
+            "code": "255840003",
+            "display": "Kolophonium"
+          },
+          {
+            "code": "111095003",
+            "display": "Formaldehyd"
+          },
+          {
+            "code": "289954006",
+            "display": "Pilzmaterial"
+          },
+          {
+            "code": "733010002",
+            "display": "Pflaster"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "764147003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "428787002"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "387406002"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "426722004"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "256277009"
+          }
+        ]
+      }
+    ]
+  }
+}

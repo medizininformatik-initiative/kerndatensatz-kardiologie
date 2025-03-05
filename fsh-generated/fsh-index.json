@@ -3,7 +3,7 @@
     "outputFile": "CodeSystem-mii-cs-kardio-lebensmittelpunkt.json",
     "fshName": "MII_CS_Kardio_Lebensmittelpunkt",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_Lebensmittelpunkt.fsh",
+    "fshFile": "codesystems/MII_CS_Kardio_Lebensmittelpunkt.fsh",
     "startLine": 1,
     "endLine": 20
   },
@@ -11,7 +11,7 @@
     "outputFile": "Observation-BMIExample.json",
     "fshName": "BMIExample",
     "fshType": "Instance",
-    "fshFile": "instances\\MII_EXA_Kardio_BMI.fsh",
+    "fshFile": "instances/MII_EXA_Kardio_BMI.fsh",
     "startLine": 1,
     "endLine": 26
   },
@@ -19,7 +19,7 @@
     "outputFile": "Patient-KardioPatientExample.json",
     "fshName": "KardioPatientExample",
     "fshType": "Instance",
-    "fshFile": "instances\\MII_EXA_Kardio_Patient.fsh",
+    "fshFile": "instances/MII_EXA_Kardio_Patient.fsh",
     "startLine": 1,
     "endLine": 20
   },
@@ -27,7 +27,7 @@
     "outputFile": "Questionnaire-kardio-patientenfragebogen.json",
     "fshName": "kardio-patientenfragebogen",
     "fshType": "Instance",
-    "fshFile": "questionnaire\\MII_QN_Kardio_Patientenfragebogen.fsh",
+    "fshFile": "questionnaire/MII_QN_Kardio_Patientenfragebogen.fsh",
     "startLine": 1,
     "endLine": 77
   },
@@ -35,7 +35,7 @@
     "outputFile": "StructureDefinition-age-extension.json",
     "fshName": "AgeExtension",
     "fshType": "Extension",
-    "fshFile": "extensions\\MII_EX_Kardio_AgeExtension.fsh",
+    "fshFile": "extensions/MII_EX_Kardio_AgeExtension.fsh",
     "startLine": 1,
     "endLine": 5
   },
@@ -43,7 +43,7 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-bmi.json",
     "fshName": "MII_PR_Kardio_BMI",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_BMI.fsh",
+    "fshFile": "profiles/MII_PR_Kardio_BMI.fsh",
     "startLine": 2,
     "endLine": 69
   },
@@ -51,7 +51,7 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-diagnose-observation.json",
     "fshName": "MII_PR_Kardio_Diagnose_Observation",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Diagnose.fsh",
+    "fshFile": "profiles/MII_PR_Kardio_Diagnose.fsh",
     "startLine": 2,
     "endLine": 88
   },
@@ -59,7 +59,7 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-klinischer-zustand-condition.json",
     "fshName": "MII_PR_Kardio_Klinischer_Zustand_Condition",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Klinischer_Zustand_Condition.fsh",
+    "fshFile": "profiles/MII_PR_Kardio_Klinischer_Zustand_Condition.fsh",
     "startLine": 1,
     "endLine": 9
   },
@@ -67,7 +67,7 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-koerpergewicht.json",
     "fshName": "MII_PR_Kardio_Koerpergewicht",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Koerpergewicht.fsh",
+    "fshFile": "profiles/MII_PR_Kardio_Koerpergewicht.fsh",
     "startLine": 1,
     "endLine": 6
   },
@@ -75,7 +75,7 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-medicationstatement.json",
     "fshName": "MII_PR_Kardio_MedicationStatement",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_MedicationStatement.fsh",
+    "fshFile": "profiles/MII_PR_Kardio_MedicationStatement.fsh",
     "startLine": 2,
     "endLine": 21
   },
@@ -83,7 +83,7 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-patient.json",
     "fshName": "MII_PR_Kardio_Patient",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Patient.fsh",
+    "fshFile": "profiles/MII_PR_Kardio_Patient.fsh",
     "startLine": 10,
     "endLine": 19
   },
@@ -91,15 +91,23 @@
     "outputFile": "StructureDefinition-region-extension.json",
     "fshName": "RegionExtension",
     "fshType": "Extension",
-    "fshFile": "extensions\\MII_EX_Kardio_RegionExtension.fsh",
+    "fshFile": "extensions/MII_EX_Kardio_RegionExtension.fsh",
     "startLine": 8,
     "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-allergene.json",
+    "fshName": "MII_VS_Kardio_Allergene",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MII_VS_Kardio_Allergene.fsh",
+    "startLine": 1,
+    "endLine": 57
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-diagnose-icd10gm.json",
     "fshName": "MII_VS_Kardio_Diagnose_ICD10GM",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Diagnose.fsh",
+    "fshFile": "valuesets/MII_VS_Kardio_Diagnose.fsh",
     "startLine": 1,
     "endLine": 26
   },
@@ -107,7 +115,7 @@
     "outputFile": "ValueSet-mii-vs-kardio-ethnie.json",
     "fshName": "MII_VS_Kardio_Ethnie",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Ethnie.fsh",
+    "fshFile": "valuesets/MII_VS_Kardio_Ethnie.fsh",
     "startLine": 1,
     "endLine": 16
   },
@@ -115,7 +123,7 @@
     "outputFile": "ValueSet-mii-vs-kardio-medikation.json",
     "fshName": "MII_VS_Kardio_Medikation",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Medikation.fsh",
+    "fshFile": "valuesets/MII_VS_Kardio_Medikation.fsh",
     "startLine": 1,
     "endLine": 165
   },
@@ -123,7 +131,7 @@
     "outputFile": "ValueSet-mii-vs-lebensmittelpunkt.json",
     "fshName": "MII_VS_Lebensmittelpunkt",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Lebensmittelpunkt.fsh",
+    "fshFile": "valuesets/MII_VS_Kardio_Lebensmittelpunkt.fsh",
     "startLine": 1,
     "endLine": 17
   }

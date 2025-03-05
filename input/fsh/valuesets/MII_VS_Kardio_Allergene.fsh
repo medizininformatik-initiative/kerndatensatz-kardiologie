@@ -1,5 +1,5 @@
-ValueSet: MII_VS_Kardio_Medikation
-Id: mii-vs-kardio-medikation
+ValueSet: MII_VS_Kardio_Allergene
+Id: mii-vs-kardio-allergene
 
 Title: "MII VS Kardio Allergene"
 Description: "Liste allergener Substanzen kodiert in SNOMED CT."

@@ -1,9 +1,9 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_NYHA_Klassen",
-  "id": "mii-vs-kardio-nyha-klassen",
-  "title": "MII VS Kardio NYHA Klassen",
+  "name": "MII_VS_Kardio_NYHA_Klassen_SNOMED",
+  "id": "mii-vs-kardio-nyha-klassen-SNOMED",
+  "title": "MII VS Kardio NYHA Klassen SNOMED",
   "description": "Klassen der New York Heart Association Classification",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/NYHA-Klassen",
   "meta": {
@@ -36,16 +36,6 @@
           {
             "code": "422293003",
             "display": "New York Heart Association Classification - Class IV"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
-          {
-            "property": "concept",
-            "op": "in",
-            "value": "421518007"
           }
         ]
       }

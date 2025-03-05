@@ -184,9 +184,9 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-nyha-klassen"
+          "reference": "ValueSet/mii-vs-kardio-nyha-klassen-SNOMED"
         },
-        "name": "MII VS Kardio NYHA Klassen",
+        "name": "MII VS Kardio NYHA Klassen SNOMED",
         "description": "Klassen der New York Heart Association Classification",
         "exampleBoolean": false
       },

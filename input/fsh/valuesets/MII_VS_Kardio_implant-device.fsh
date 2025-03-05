@@ -5,7 +5,7 @@ Title: "MII VS Kardio Implant Device EMDN"
 Description: "Implantierbare Devices nach EMDN"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/implant-device-emdn"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-implant-device-emdn"
 //* insert PR_CS_VS_Version
 //* insert Publisher //via rulesets TODO
 * ^publisher = "https://www.medizininformatik-initiative.de"

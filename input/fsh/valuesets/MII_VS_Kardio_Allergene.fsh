@@ -5,7 +5,7 @@ Title: "MII VS Kardio Allergene SNOMED"
 Description: "Liste von Substanzen"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/Allergene"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-allergene-snomed"
 //* insert PR_CS_VS_Version
 //* insert Publisher //via rulesets TODO
 * ^publisher = "https://www.medizininformatik-initiative.de"

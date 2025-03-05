@@ -5,7 +5,7 @@ Title: "MII VS Kardio NYHA Klassen SNOMED"
 Description: "Klassen der New York Heart Association Classification"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/NYHA-Klassen"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomed"
 //* insert PR_CS_VS_Version
 //* insert Publisher //via rulesets TODO
 * ^publisher = "https://www.medizininformatik-initiative.de"

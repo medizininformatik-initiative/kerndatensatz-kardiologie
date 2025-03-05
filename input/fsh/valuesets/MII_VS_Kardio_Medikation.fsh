@@ -5,7 +5,7 @@ Title: "MII VS Kardio Medikation"
 Description: "ATC-Codes 'de' in der Kardiologie relevanter Medikamente."
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/core/modul-kardio/ValueSet/Medikation"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/Medikation"
 //* insert PR_CS_VS_Version
 //* insert Publisher //via rulesets
 * ^status = #draft

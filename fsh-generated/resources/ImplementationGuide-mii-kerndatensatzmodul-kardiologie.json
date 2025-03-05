@@ -155,7 +155,7 @@
           "reference": "ValueSet/mii-vs-kardio-allergene"
         },
         "name": "MII VS Kardio Allergene",
-        "description": "Liste allergener Substanzen kodiert in SNOMED CT.",
+        "description": "Liste von Substanzen kodiert in SNOMED CT.",
         "exampleBoolean": false
       },
       {

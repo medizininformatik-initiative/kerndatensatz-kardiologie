@@ -5,7 +5,7 @@ Title: "MII VS Kardio Diagnose ICD-10 GM"
 Description: "ICD10 GM Codes für kardiologische Erkrankungen"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/core/modul-kardio/ValueSet/DiagnoseICD10GM"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/DiagnoseICD10GM"
 //* insert PR_CS_VS_Version
 //* insert Publisher //via rulesets
 * ^status = #draft

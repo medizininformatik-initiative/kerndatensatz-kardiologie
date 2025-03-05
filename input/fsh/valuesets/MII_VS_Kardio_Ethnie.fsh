@@ -5,7 +5,7 @@ Title: "MII VS Kardio Ethnie"
 Description: "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/core/modul-kardio/ValueSet/Ethnie"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/Ethnie"
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-03-03"

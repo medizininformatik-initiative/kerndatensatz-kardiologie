@@ -1,12 +1,9 @@
 [AgeExtension]: StructureDefinition-age-extension.html
 [BMIExample]: Observation-BMIExample.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
-[KardioPatientExample]: Patient-KardioPatientExample.html
 [MII_PR_Kardio_BMI]: StructureDefinition-mii-pr-kardio-bmi.html
 [MII_PR_Kardio_Diagnose_Observation]: StructureDefinition-mii-pr-kardio-diagnose-observation.html
 [MII_PR_Kardio_Koerpergewicht]: StructureDefinition-mii-pr-kardio-koerpergewicht.html
-[MII_PR_Kardio_MedicationStatement]: StructureDefinition-mii-pr-kardio-medicationstatement.html
-[MII_PR_Kardio_Patient]: StructureDefinition-mii-pr-kardio-patient.html
 [MII_VS_Kardio_Allergene_SNOMED]: ValueSet-mii-vs-kardio-allergene-snomed.html
 [MII_VS_Kardio_Diagnose_ICD10GM]: ValueSet-mii-vs-kardio-diagnose-icd10gm.html
 [MII_VS_Kardio_Ethnie]: ValueSet-mii-vs-kardio-ethnie.html
@@ -14,7 +11,6 @@
 [MII_VS_Kardio_Implant_Device_EMDN]: ValueSet-mii-vs-kardio-implant-device-emdn.html
 [MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMED]: ValueSet-mii-vs-kardio-nyha-klassen-snomed.html
-[MII_PR_Kardio_Klinischer_Zustand_Condition]: StructureDefinition-mii-pr-kardio-klinischer-zustand-condition.html
 [kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html
 [RegionExtension]: StructureDefinition-region-extension.html
 [MII_VS_Lebensmittelpunkt]: ValueSet-mii-vs-lebensmittelpunkt.html

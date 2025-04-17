@@ -16,14 +16,6 @@
     "endLine": 26
   },
   {
-    "outputFile": "Patient-KardioPatientExample.json",
-    "fshName": "KardioPatientExample",
-    "fshType": "Instance",
-    "fshFile": "instances/MII_EXA_Kardio_Patient.fsh",
-    "startLine": 1,
-    "endLine": 20
-  },
-  {
     "outputFile": "Questionnaire-kardio-patientenfragebogen.json",
     "fshName": "kardio-patientenfragebogen",
     "fshType": "Instance",
@@ -56,36 +48,12 @@
     "endLine": 88
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-klinischer-zustand-condition.json",
-    "fshName": "MII_PR_Kardio_Klinischer_Zustand_Condition",
-    "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_Klinischer_Zustand_Condition.fsh",
-    "startLine": 1,
-    "endLine": 9
-  },
-  {
     "outputFile": "StructureDefinition-mii-pr-kardio-koerpergewicht.json",
     "fshName": "MII_PR_Kardio_Koerpergewicht",
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Koerpergewicht.fsh",
     "startLine": 1,
     "endLine": 6
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio-medicationstatement.json",
-    "fshName": "MII_PR_Kardio_MedicationStatement",
-    "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_MedicationStatement.fsh",
-    "startLine": 2,
-    "endLine": 21
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio-patient.json",
-    "fshName": "MII_PR_Kardio_Patient",
-    "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_Patient.fsh",
-    "startLine": 10,
-    "endLine": 19
   },
   {
     "outputFile": "StructureDefinition-region-extension.json",

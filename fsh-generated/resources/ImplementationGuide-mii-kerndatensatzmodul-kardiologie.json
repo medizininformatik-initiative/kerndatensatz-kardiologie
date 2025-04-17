@@ -104,14 +104,6 @@
       },
       {
         "reference": {
-          "reference": "Patient/KardioPatientExample"
-        },
-        "name": "KardioPatientExample",
-        "description": "Beispiel für einen Patienten in der Kardiologie abbildet.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-patient"
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-bmi"
         },
         "name": "MII PR Kardio BMI",
@@ -132,22 +124,6 @@
         },
         "name": "MII PR Kardio Körpergewicht",
         "description": "An instance of StructureDefinition.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-medicationstatement"
-        },
-        "name": "MII PR Kardio MedicationStatement",
-        "description": "Erster Draft eines Profils zur Abbildung einer Medikation nach Angabe des Patienten oder Arztes.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-patient"
-        },
-        "name": "MII PR Kardio Patient",
-        "description": "Erster Draft eines Profils zur Abbildung eines Patienten in der Kardiologie.",
         "exampleBoolean": false
       },
       {
@@ -204,14 +180,6 @@
         },
         "name": "MII VS Kardio NYHA Klassen SNOMED",
         "description": "Klassen der New York Heart Association Classification",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-klinischer-zustand-condition"
-        },
-        "name": "MII_PR_Kardio_Klinischer_Zustand_Condition",
-        "description": "Anpassungen des Profils Klinischer Zustand aus dem Modul Symptom für das Modul Kardiologie: Klinische Zustände, Probleme, Diagnosen oder andere Ereignisse und Situationen. Conditions können als Beschreibung von Krankheiten von Health Professionals dokumentiert sein. Conditions können im Rahmen einer Anamnese vom Patienten selber geäußert werden (Symptom).",
         "exampleBoolean": false
       },
       {

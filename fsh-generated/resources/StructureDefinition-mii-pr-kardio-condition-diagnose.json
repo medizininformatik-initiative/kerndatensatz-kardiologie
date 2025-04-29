@@ -22,9 +22,16 @@
         "mustSupport": true
       },
       {
+        "id": "Condition.category.coding.system",
+        "path": "Condition.category.coding.system",
+        "min": 1,
+        "fixedUri": "http://terminology.hl7.org/CodeSystem/condition-category"
+      },
+      {
         "id": "Condition.category.coding.code",
         "path": "Condition.category.coding.code",
-        "patternCode": "problem-list-item"
+        "min": 1,
+        "fixedCode": "problem-list-item"
       },
       {
         "id": "Condition.asserter",

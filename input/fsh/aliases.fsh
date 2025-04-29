@@ -1,3 +1,7 @@
+Alias: $condition-category = http://terminology.hl7.org/CodeSystem/condition-category
+
+
+
 Alias: $loinc = http://loinc.org
 Alias: $sct = http://snomed.info/sct
 Alias: $emdn = urn:oid:1.2.250.1.213.2.68 //urn:oid:1.2.250.1.213.2.68 //https://webgate.ec.europa.eu/dyna2/emdn/Z1206

@@ -8,7 +8,10 @@ Title: "MII PR Kardio Diagnose"
 Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis."
 
 * category 1..1 MS
-* category.coding.code = #problem-list-item
+* category.coding.system 1..1
+* category.coding.system = $condition-category (exactly)
+* category.coding.code 1..1
+* category.coding.code = $condition-category#problem-list-item (exactly)
 * asserter 1..1 MS
 
 // TODO aus vorheriger Condition_Observation:

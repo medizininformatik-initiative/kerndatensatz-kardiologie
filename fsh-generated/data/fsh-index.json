@@ -8,12 +8,12 @@
     "endLine": 20
   },
   {
-    "outputFile": "Observation-BMIExample.json",
-    "fshName": "BMIExample",
-    "fshType": "Instance",
-    "fshFile": "instances/MII_EXA_Kardio_BMI.fsh",
+    "outputFile": "CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.json",
+    "fshName": "MII_CS_Kardio_modifizierte_Rankin_Skala",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/MII_CS_Kardio_mRS.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 22
   },
   {
     "outputFile": "Questionnaire-kardio-patientenfragebogen.json",
@@ -32,26 +32,50 @@
     "endLine": 5
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-bmi.json",
-    "fshName": "MII_PR_Kardio_BMI",
+    "outputFile": "StructureDefinition-mii-pr-kardio-condition-artherosklerotisches-erstereignis.json",
+    "fshName": "MII_PR_Kardio_Condition_Artherosklerotisches_Erstereignis",
     "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_BMI.fsh",
-    "startLine": 2,
-    "endLine": 69
+    "fshFile": "profiles/MII_PR_Kardio_Observation_Artherosklerotisches_Erstereignis.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-condition-diagnose.json",
+    "fshName": "MII_PR_Kardio_Condition_Diagnose",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
+    "startLine": 1,
+    "endLine": 34
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-diagnose-observation.json",
     "fshName": "MII_PR_Kardio_Diagnose_Observation",
     "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_Diagnose.fsh",
+    "fshFile": "profiles/MII_PR_Kardio_Diagnose_Observation.fsh",
     "startLine": 2,
     "endLine": 88
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-koerpergewicht.json",
-    "fshName": "MII_PR_Kardio_Koerpergewicht",
+    "outputFile": "StructureDefinition-mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion.json",
+    "fshName": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
     "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_Koerpergewicht.fsh",
+    "fshFile": "profiles/MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
+    "startLine": 1,
+    "endLine": 3
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-observation-rauchen.json",
+    "fshName": "MII_PR_Kardio_Obseration_Rauchen",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_Observation_Rauchen.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-score-nyha.json",
+    "fshName": "MII_PR_Kardio_Score_NYHA",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_Score_NYHA.fsh",
     "startLine": 1,
     "endLine": 6
   },
@@ -110,6 +134,14 @@
     "fshFile": "valuesets/MII_VS_Kardio_Medikation.fsh",
     "startLine": 1,
     "endLine": 165
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-mrs-stufen.json",
+    "fshName": "MII_VS_Kardio_mRS_Stufen",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MII_VS_Kardio_mRS.fsh",
+    "startLine": 1,
+    "endLine": 26
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-nyha-klassen-snomed.json",

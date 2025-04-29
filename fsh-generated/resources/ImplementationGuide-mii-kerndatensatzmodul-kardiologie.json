@@ -89,13 +89,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/BMIExample"
-        },
-        "name": "BMIExample",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-bmi"
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
         },
         "name": "CodeSystem - Lebensmittelpunkt",
@@ -104,10 +97,18 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-bmi"
+          "reference": "CodeSystem/mii-cs-kardio-modifizierte-rankin-skala"
         },
-        "name": "MII PR Kardio BMI",
-        "description": "Erster Draft eines Profils zur Abbildung des Body Mass Index (BMI).",
+        "name": "CodeSystem - modifizierte Rankin-Skala",
+        "description": "Beeinträchtigung des Patienten nach Schlaganfall",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
+        },
+        "name": "MII PR Kardio Diagnose",
+        "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
         "exampleBoolean": false
       },
       {
@@ -120,10 +121,26 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-koerpergewicht"
+          "reference": "StructureDefinition/mii-pr-kardio-condition-artherosklerotisches-erstereignis"
         },
-        "name": "MII PR Kardio Körpergewicht",
-        "description": "An instance of StructureDefinition.",
+        "name": "MII PR Kardio Diagnose Artherosklerotisches Erstereignis",
+        "description": "Profil zur Erfassung des Datums eines artherosklerotischen Erstereignisses im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen"
+        },
+        "name": "MII PR Kardio Observation Rauchen",
+        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-score-nyha"
+        },
+        "name": "MII PR Kardio Score NYHA",
+        "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
         "exampleBoolean": false
       },
       {
@@ -176,10 +193,25 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-mrs-stufen"
+        },
+        "name": "MII VS Kardio mRS Stufen",
+        "description": "Stufen der modifizierten Rankin-Skala",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-nyha-klassen-snomed"
         },
         "name": "MII VS Kardio NYHA Klassen SNOMED",
         "description": "Klassen der New York Heart Association Classification",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
+        },
+        "name": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
         "exampleBoolean": false
       },
       {

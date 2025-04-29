@@ -1,0 +1,17 @@
+Profile: MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte
+Id: mii-pr-kardio-observation-anzahl-kh-aufenthalte
+Parent: Observation
+
+Title: "MII PR Kardio Observation Anzahl KH Aufenthalte"
+Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS."
+
+// Aufenthalt
+  // Zeitraum
+  // Grund der einzelnen Aufenthalte
+  
+// Ermöglichen Anzahl Aufenhtalte wg. Herzinsuffizienz direkt anzugeben?
+
+  // vgl UCC-openEHR-Profile?
+
+// Titel generisch als "Krankenhausaufenthalt" --> existiert dazu schon ein Profil?
+

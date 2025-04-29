@@ -1,0 +1,21 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
+  "name": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/monitoring-und-vitaldaten",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      }
+    ]
+  }
+}

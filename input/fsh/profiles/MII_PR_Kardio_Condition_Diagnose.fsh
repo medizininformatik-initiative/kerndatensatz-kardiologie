@@ -1,42 +1,31 @@
 Profile: MII_PR_Kardio_Condition_Diagnose
 Id: mii-pr-kardio-condition-diagnose
-Parent: MII_PR_Diagnose_Condition
+Parent: MII_PR_Diagnose_Condition // oder von MII_PR_Symptom_Condition //oder von FHIR "Base" Condition
+// Diagnose eher Fallbezogen
+// Symptom erlaubt differenziertere Angabe --> Julian Saß fragen
 
 Title: "MII PR Kardio Diagnose"
 Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis."
 
+* category 1..1 MS
+* category.coding.code = #problem-list-item
 * asserter 1..1 MS
 
 // TODO aus vorheriger Condition_Observation:
 // TODO Anlegen eines ValueSets mit Acribis-Diagnosen mit Codierung in ICD 10 GM
 // Abstimmung in Acribis WP2 für Diskussion/Expertise durch Kliniker und Vorbereitung einer Liste für technische Implementation.
 // Vorarbeiten wohl aus Wuerzburg -> siehe Acribis WP6 und Feasibility R-script: https://github.com/guenther-k/ACRIBiS_feasibility/blob/main/ACRIBiS_Feasibility_Script.R
-* code.coding[icd10-gm] only $CodingICD10GM
-* code.coding[icd10-gm] from $icd-10-gm (required)
-* code.coding[icd10-gm] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
-* code.coding[icd10-gm].system MS
-* code.coding[icd10-gm].version MS
-* code.coding[icd10-gm].code MS
-* code.coding[alpha-id] only $CodingAlphaID
-* code.coding[alpha-id] from $alpha-id (required)
-* code.coding[alpha-id] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/alpha-id"
-* code.coding[alpha-id].system MS
-* code.coding[alpha-id].code MS
-// TODO Anlegen eines ValueSets mit Acribis-Diagnosen mit Codierung in SNOMED CT --> Ansatz in https://tmfev.sharepoint.com/:x:/r/sites/tmf/mi-i/_layouts/15/Doc.aspx?sourcedoc=%7B469E89BF-A8CB-442A-B89B-061F2314C270%7D&file=2024_04_03_ACRIBiS_KardioVaskularDS_Allgemein_V2.0.xlsx&action=default&mobileredirect=true
-* code.coding[sct] from $diagnoses-sct (required)
-* code.coding[sct] ^patternCoding.system = "http://snomed.info/sct"
-* code.coding[sct].system 1.. MS
-* code.coding[sct].version MS
-* code.coding[sct].code 1.. MS
-* code.coding[orphanet] from $mii-vs-diagnose-orphanet (required)
-* code.coding[orphanet] ^patternCoding.system = "http://www.orpha.net"
-* code.coding[orphanet].system 1.. MS
-* code.coding[orphanet].code 1.. MS
-
 // Value[x] --> Codeable Concept --> ja/nein/unbekannt/nicht erhoben
 //* value[x] only CodeableConcept
 //* valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0532" (exactly)
 //* valueCodeableConcept.coding from $mii-diagnose-vorhanden (required)
+
+//* extension contains 
+//    AnamneseAntwort 1..1 
+//* extension[AnamneseAntwort].value[x] only CodeableConcept
+//* extension[AnamneseAntwort].valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0532" (exactly)
+//* extension[AnamneseAntwort].valueCodeableConcept.coding = $mii-diagnose-vorhanden (required)
+
 
 // TODO / To Discuss Component für ONSET-Date mit Code und Date-Value
 

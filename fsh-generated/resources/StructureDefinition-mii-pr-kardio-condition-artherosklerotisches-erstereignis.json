@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-condition-artherosklerotisches-erstereignis",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-artherosklerotisches-erstereignis",
+  "name": "MII_PR_Kardio_Condition_Artherosklerotisches_Erstereignis",
+  "title": "MII PR Kardio Diagnose Artherosklerotisches Erstereignis",
+  "status": "draft",
+  "description": "Profil zur Erfassung des Datums eines artherosklerotischen Erstereignisses im Kontext von ACRIBiS.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition",
+        "path": "Condition"
+      }
+    ]
+  }
+}

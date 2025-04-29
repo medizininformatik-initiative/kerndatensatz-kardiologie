@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_mRS_Stufen",
+  "id": "mii-vs-kardio-mrs-stufen",
+  "title": "MII VS Kardio mRS Stufen",
+  "description": "Stufen der modifizierten Rankin-Skala",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "publisher": "https://www.medizininformatik-initiative.de",
+  "experimental": true,
+  "date": "2025-04-29",
+  "version": "0.0.1",
+  "copyright": "Public Domain",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS",
+        "concept": [
+          {
+            "code": "mRS0",
+            "display": "Es bestehen keine Symptome."
+          },
+          {
+            "code": "mRS1",
+            "display": "Es bestehen keine relevanten Beeinträchtigungen. Der Patient ist in der Lage, seinen Alltag selbstständig zu gestalten."
+          },
+          {
+            "code": "mRS2",
+            "display": "Es bestehen leichte Beeinträchtigungen. Der Patient hat Einschränkungen im Alltag, ist aber nicht auf Hilfe angewiesen."
+          },
+          {
+            "code": "mRS3",
+            "display": "Es bestehen mittelgradige Beeinträchtigungen. Der Patient ist auf Hilfe im Alltag angewiesen. Gehen ist ohne fremde Hilfe (ggf. mit Hilfsmitteln) möglich."
+          },
+          {
+            "code": "mRS4",
+            "display": "Es besteht eine höhergradige Beeinträchtigung. Der Patient ist nicht mehr in der Lage, seinen Körper zu pflegen oder selbstständig zu laufen."
+          },
+          {
+            "code": "mRS5",
+            "display": "Es besteht eine schwere Behinderung. Der Patient ist bettlägerig, inkontinent und auf ständige Pflege angewiesen."
+          },
+          {
+            "code": "mRS6",
+            "display": "Tod infolge des Schlaganfalls"
+          }
+        ]
+      }
+    ]
+  }
+}

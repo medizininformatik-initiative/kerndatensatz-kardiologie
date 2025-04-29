@@ -15,6 +15,27 @@
   "differential": {
     "element": [
       {
+        "id": "Condition.verificationStatus",
+        "path": "Condition.verificationStatus",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.verificationStatus.extension:dataAbsentReason",
+        "path": "Condition.verificationStatus.extension",
+        "sliceName": "dataAbsentReason",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Condition.category",
         "path": "Condition.category",
         "min": 1,
@@ -25,13 +46,15 @@
         "id": "Condition.category.coding.system",
         "path": "Condition.category.coding.system",
         "min": 1,
-        "fixedUri": "http://terminology.hl7.org/CodeSystem/condition-category"
+        "fixedUri": "http://terminology.hl7.org/CodeSystem/condition-category",
+        "mustSupport": true
       },
       {
         "id": "Condition.category.coding.code",
         "path": "Condition.category.coding.code",
         "min": 1,
-        "fixedCode": "problem-list-item"
+        "fixedCode": "problem-list-item",
+        "mustSupport": true
       },
       {
         "id": "Condition.asserter",

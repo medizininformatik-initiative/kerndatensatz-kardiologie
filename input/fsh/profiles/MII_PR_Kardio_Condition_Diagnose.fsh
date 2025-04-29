@@ -8,12 +8,26 @@ Title: "MII PR Kardio Diagnose"
 Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis."
 
 * category 1..1 MS
-* category.coding.system 1..1
+* category.coding.system 1..1 MS
 * category.coding.system = $condition-category (exactly)
-* category.coding.code 1..1
+* category.coding.code 1..1 MS
 * category.coding.code = $condition-category#problem-list-item (exactly)
 * asserter 1..1 MS
 
+* verificationStatus 1..1 MS
+* verificationStatus.extension contains http://hl7.org/fhir/StructureDefinition/data-absent-reason named dataAbsentReason 0..1
+
+// TODO Julian Saß fragen
+// Data Absent Reason für verificationStatus 1..1
+// confirmed = Arzt bestätigt
+// unconfirmed = Angabe des Patienten in Fragebogen
+// Data Absent unknown = unbekannt
+// Data Absent asked-unknown = patient weiß nicht
+// ---> Alternativ: Extension für Ja/Nein/Unbekannt/Weiß nicht --> http://terminology.hl7.org/CodeSystem/v2-0532 
+
+// Anmerkung: Diagnose-Codes sind in Basismodul Diagnose, aber nicht in Symptom-Diagnose 
+
+//______Alte Kommentare
 // TODO aus vorheriger Condition_Observation:
 // TODO Anlegen eines ValueSets mit Acribis-Diagnosen mit Codierung in ICD 10 GM
 // Abstimmung in Acribis WP2 für Diskussion/Expertise durch Kliniker und Vorbereitung einer Liste für technische Implementation.

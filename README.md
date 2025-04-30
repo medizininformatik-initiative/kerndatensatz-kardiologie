@@ -1,13 +1,15 @@
 ## Medizininformatik Initiative - Kerndatensatz - Modul Kardio
 
+> **DISCLAIMER:** Das Modul befindet sich in Umsetzungsstufe 1. Die Profile dienen der prototypischen Umsetzung in den DIZen im Kontext von ACRIBiS und werden iterativ ergänzt.
+
 ### Übersicht
 
 Das vorliegende Projekt beschreibt die FHIR-Spezifikation des Erweiterungsmoduls 'Kardio', welches einen Teil des Kerndatensatzes der Medizininformatik-Initiative darstellt. Die hier veröffentlichten FHIR-Profile und ImplemenationGuides dienen als zentrale und verbindliche Spezifikation für die syntaktische und semantische Kodierung der Modulinhalte.
 
 ### Status:
 
-Aktuelle stabile Version: keine <!-- Link Release --> </br> 
-Vorschauversion: keine <!--[yyyy-x.x.x](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~packages)-->
+Aktuelle stabile Version: keine </br>  <!-- Link Release -->
+Vorschauversion: keine </br>  <!--[yyyy-x.x.x](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~packages)-->
 Reifegrad: Draft - Version 0.1.0
 
 Alle veröffentlichen FHIR-Artefakte innerhalb des Projektes verfügen über einen Status durch welchen der jeweilige Reifegrad abgeleitet werden kann.
@@ -23,12 +25,13 @@ Profile mit dem Status 'Draft' wurden noch nicht ballotiert und können noch div
 
 Das Basismodul Kardiologie umfasst die Beschreibung der Standardisierung und Strukturierung der medizinischen Datenerfassung zu kardiovaskulären Erkrankungen. Schwerpunkt sollen qualitative, bzw. objektivierbare Parameter aus der Anamnese bilden. Diese ist als weichenstellendes Element der Arzt-Patienten-Interaktion zu sehen, auf dessen Grundlage wesentliche diagnostische und therapeutische Entscheidungen getroffen werden und soll Ausgangspunkt für die Einführung einer standardisierten Datenerhebung, die eine Interoperabilität in der Kardiologie gewährleistet, sein. Mittelfristig sollen außerdem wichtige Parameter der Funktions- und Bildgebungsdiagnostik integriert werden. Das langfristige übergeordnete Ziel des kardiologischen Kerndatensatzes ist es, eine aus klinischer Perspektive zielgerichtete, und scharfe Charakterisierung des individuellen kardiologischen Patienten in standardisierter Form abzubilden, die so einen Datenaustausch zwischen verschiedenen Kliniken und später auch Hausarztpraxen ermöglicht.
 
-### Definition von Umsetzungsstufen
+### Umsetzungsstufen
+
 Für das Modul Kardiologie werden Umsetzungsstufen definiert. Dieses soll eine iterative Implementation des neuen Moduls in den DIZen ermöglichen und notwendige Priorisierung bei der Verwendung des Moduls erleichtern.
 
-* Stufe 1: Übernahme relevanter Vorarbeiten aus existierenden Modulen in das Modul Kardiologie
-* Stufe 2: Erweiterung um den vollständigen Datensatz aus [ACRIBiS](https://www.medizininformatik-initiative.de/de/acribis-personalisierte-risikobewertungen-fuer-herz-kreislauf-erkrankungen)
-* Stufe 3: Abbildung der gesamten Kardiologie 
+ * Stufe 1: Prototypische Umsetzung der notwendigen Profile für die Datenitems der ACRIBiS-Studie
+ * Stufe 2: Integration weiterer Vorarbeiten (vollständiger Datensatz aus ACRIBiS, HiGHmed Use Case Cardio, CAEHR, weitere Vorarbeiten)
+ * Stufe 3: Abbildung der gesamten Kardiologie
 
 ### Wichtige Dokumente und Links
 * [Beschreibung des MII-Kerndatensatzes in der Version 1.0 vom 10.3.2017 (PDF)](https://www.medizininformatik-initiative.de/sites/default/files/inline-files/MII_04_Kerndatensatz_1-0.pdf)
@@ -38,16 +41,16 @@ Für das Modul Kardiologie werden Umsetzungsstufen definiert. Dieses soll eine i
 ### Autoren und Ansprechpartner
 
 Leitung des Moduls:
-
 * Merten Prüser
 
 Technische Umsetzung: <!-- noch nicht vollständig, gerne ergänzen! -->
-
-* Anatol Bollinger (Technische Umsetzung FHIR Profile und ImplemenationGuides)
-* Georg Fette (Technische Umsetzung FHIR Profile und ImplemenationGuides)
 * Philip Goos (Technische Umsetzung FHIR Profile und ImplemenationGuides)
-* Dirk Meyer zum Büschenfelde (Technische Umsetzung FHIR Profile und ImplemenationGuides)
-* Jendrik Richter (Technische Umsetzung FHIR Profile und ImplemenationGuides)  
-<<Weitere Personen: Namen und Rolle bitte ergänzen>>
-<!--(Technische Umsetzung FHIR Profile und ImplemenationGuides Labor=Julian Saß)-->
-<!--(Technische Umsetzung Logical Models) Labor=Miriam Hübner-->
+* Dirk Meyer zum Büschenfelde
+* Jendrik Richter
+* Anatol Bollinger
+* Georg Fette
+* <<Weitere Personen: Namen und Rolle bitte ergänzen>>
+
+Beratung:
+* Alexander Bartschke
+* Julian Saß

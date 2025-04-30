@@ -25,6 +25,8 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
+   # Dependencies defined also in package.json
+
    #hl7.fhir.r4.core: 4.0.1
    #hl7.terminology.r4: 6.0.2
    #de.basisprofil.r4: 1.4.0 

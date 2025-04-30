@@ -1,14 +1,14 @@
 {
   "name": "project",
   "version": "0.1.0",
-  "description": "Put a description here",
+  "description": "Dependencies for MII KDS Modul Kardiologie",
   "fhirVersions": [
     "4.0.1"
   ],
   "dependencies": {
-    "de.medizininformatikinitiative.kerndatensatz.diagnose": "2024.0.0",
-    "de.medizininformatikinitiative.kerndatensatz.medikation": "2.0.0",
-    "de.medizininformatikinitiative.kerndatensatz.laborbefund": "2025.0.0-alpha1",
-    "de.gematik.isik-vitalparameter": "4.0.2"
+    "de.medizininformatikinitiative.kerndatensatz.icu": "2025.0.4",
+    "de.gematik.isik-vitalparameter": "4.0.2",
+    "de.medizininformatikinitiative.kerndatensatz.diagnose": "2025.0.0",
+    "de.medizininformatikinitiative.kerndatensatz.prozedur": "2025.0.0"
   }
 }

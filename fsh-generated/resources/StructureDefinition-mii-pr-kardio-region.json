@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "age-extension",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/age-extension",
-  "name": "AgeExtension",
-  "title": "Alter basierend auf dem Geburtsdatum zum Zeitpunkt der Behandlung/Datenaufnahme",
+  "id": "mii-pr-kardio-region",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-region",
+  "name": "MII_PR_Kardio_Region",
+  "title": "MII PR Kardio Region",
   "status": "draft",
-  "description": "Diese Erweiterung gibt das berechnete Alter zum Zeitpunkt der Behandlung/Datenaufnahme basierend auf dem Geburtsdatum an.",
+  "description": "Angabe einer Region mit einem ValueSet (Region (Wohnort/Land) nach SMART-Score) definiert in ACRIBiS-Datensatz.",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
@@ -23,8 +23,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Alter basierend auf dem Geburtsdatum zum Zeitpunkt der Behandlung/Datenaufnahme",
-        "definition": "Diese Erweiterung gibt das berechnete Alter zum Zeitpunkt der Behandlung/Datenaufnahme basierend auf dem Geburtsdatum an."
+        "short": "MII PR Kardio Region",
+        "definition": "Angabe einer Region mit einem ValueSet (Region (Wohnort/Land) nach SMART-Score) definiert in ACRIBiS-Datensatz."
       },
       {
         "id": "Extension.extension",
@@ -34,7 +34,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/age-extension"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-region"
       },
       {
         "id": "Extension.value[x]",
@@ -52,14 +52,14 @@
         "min": 1
       },
       {
-        "id": "Extension.value[x]:valueInteger",
+        "id": "Extension.value[x]:valueString",
         "path": "Extension.value[x]",
-        "sliceName": "valueInteger",
+        "sliceName": "valueString",
         "min": 1,
         "max": "1",
         "type": [
           {
-            "code": "integer"
+            "code": "string"
           }
         ]
       }

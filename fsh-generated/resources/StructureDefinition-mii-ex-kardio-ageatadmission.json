@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "region-extension",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/region-extension",
-  "name": "RegionExtension",
-  "title": "Region (Wohnort/Land) nach best. HF-Risk-Score",
+  "id": "mii-ex-kardio-ageatadmission",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-ageatadmission",
+  "name": "MII_EX_Kardio_AgeAtAdmission",
+  "title": "MII EX Kardio AgeExtension",
   "status": "draft",
-  "description": "Angabe einer Region mit einem ValueSet definiert in ACRIBiS-Datensatz.",
+  "description": "Diese Erweiterung gibt das berechnete Alter zum Zeitpunkt der Behandlung/Datenaufnahme basierend auf dem Geburtsdatum an.",
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
@@ -23,8 +23,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Region (Wohnort/Land) nach best. HF-Risk-Score",
-        "definition": "Angabe einer Region mit einem ValueSet definiert in ACRIBiS-Datensatz."
+        "short": "MII EX Kardio AgeExtension",
+        "definition": "Diese Erweiterung gibt das berechnete Alter zum Zeitpunkt der Behandlung/Datenaufnahme basierend auf dem Geburtsdatum an."
       },
       {
         "id": "Extension.extension",
@@ -34,7 +34,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/region-extension"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-ageatadmission"
       },
       {
         "id": "Extension.value[x]",
@@ -52,14 +52,14 @@
         "min": 1
       },
       {
-        "id": "Extension.value[x]:valueString",
+        "id": "Extension.value[x]:valueInteger",
         "path": "Extension.value[x]",
-        "sliceName": "valueString",
+        "sliceName": "valueInteger",
         "min": 1,
         "max": "1",
         "type": [
           {
-            "code": "string"
+            "code": "integer"
           }
         ]
       }

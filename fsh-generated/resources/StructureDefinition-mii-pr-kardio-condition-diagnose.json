@@ -21,6 +21,11 @@
         "mustSupport": true
       },
       {
+        "id": "Condition.severity",
+        "path": "Condition.severity",
+        "mustSupport": true
+      },
+      {
         "id": "Condition.recorder",
         "path": "Condition.recorder",
         "mustSupport": true

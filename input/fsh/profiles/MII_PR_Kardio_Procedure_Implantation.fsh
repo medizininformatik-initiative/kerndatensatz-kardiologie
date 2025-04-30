@@ -1,6 +1,6 @@
-Profile: MII_PR_Kardio_Procedure_Device_Implantation
-Id: mii-pr-kardio-procedure-device-implantation
-Parent: mii-pr-prozedur-procedure 
+Profile: MII_PR_Kardio_Procedure_Implantation
+Id: mii-pr-kardio-procedure-implantation
+Parent: mii-pr-prozedur-procedure
 
 // TODO existiert da im MII KDS bereits etwas? Wahrscheinlich noch nichts.
 

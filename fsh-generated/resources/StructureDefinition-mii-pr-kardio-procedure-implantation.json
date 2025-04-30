@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-procedure-implantation",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/spdx-license",
+            "code": "CC-BY-4.0",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-procedure-implantation",
+  "name": "MII_PR_Kardio_Procedure_Implantation",
+  "title": "MII PR Kardio Prozedur Implantation",
+  "status": "draft",
+  "description": "Profil zur Erfassung eines implantierten Devices mit Referenz auf Device und DeviceMetric.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure",
+        "path": "Procedure"
+      }
+    ]
+  }
+}

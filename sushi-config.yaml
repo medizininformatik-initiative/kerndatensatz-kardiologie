@@ -25,20 +25,15 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-   hl7.fhir.r4.core: 4.0.1
-   hl7.terminology.r4: 6.0.2
-   de.basisprofil.r4: 1.4.0 
+   #hl7.fhir.r4.core: 4.0.1
+   #hl7.terminology.r4: 6.0.2
+   #de.basisprofil.r4: 1.4.0 
    de.medizininformatikinitiative.kerndatensatz.person: 2024.0.0 ## für kardio-patient
-   de.medizininformatikinitiative.kerndatensatz.icu: 2024.0.0-alpha2 ## für koerpergewicht
+   de.medizininformatikinitiative.kerndatensatz.icu: 2024.0.0-alpha2 ## für koerpergewicht und mehr
    de.medizininformatikinitiative.kerndatensatz.diagnose: 2024.0.0 # für Kardio Diagnose
-   de.medizininformatikinitiative.kerndatensatz.medikation: 2.0.0 # für Kardio MedicationStatement
+   #de.medizininformatikinitiative.kerndatensatz.medikation: 2.0.0 # für Kardio MedicationStatement
    de.medizininformatikinitiative.kerndatensatz.laborbefund: 2025.0.0-alpha1 # für Kardio Laboruntersuchung
-   de.medizininformatikinitiative.kerndatensatz.symptom: 2024.0.0-ballot
-#   hl7.fhir.us.core: 3.1.0
-#   hl7.fhir.us.mcode:
-#     id: mcode
-#     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-#     version: 1.0.0
+   de.medizininformatikinitiative.kerndatensatz.prozedur: 2025.0.0 # für Kardio Prozedur Implantation
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can

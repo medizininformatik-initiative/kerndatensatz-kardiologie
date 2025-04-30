@@ -3,7 +3,9 @@
 [MII_CS_Kardio_modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Condition_Diagnose]: StructureDefinition-mii-pr-kardio-condition-diagnose.html
 [MII_PR_Kardio_Condition_Artherosklerotisches_Erstereignis]: StructureDefinition-mii-pr-kardio-condition-artherosklerotisches-erstereignis.html
+[MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF]: StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.html
 [MII_PR_Kardio_Obseration_Rauchen]: StructureDefinition-mii-pr-kardio-observation-rauchen.html
+[MII_PR_Kardio_Procedure_Implantation]: StructureDefinition-mii-pr-kardio-procedure-implantation.html
 [MII_PR_Kardio_Score_modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
 [MII_VS_Kardio_Allergene_SNOMED]: ValueSet-mii-vs-kardio-allergene-snomed.html

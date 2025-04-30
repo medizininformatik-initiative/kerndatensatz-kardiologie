@@ -45,7 +45,15 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 34
+    "endLine": 38
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
+    "fshName": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF.fsh",
+    "startLine": 1,
+    "endLine": 6
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion.json",
@@ -62,6 +70,14 @@
     "fshFile": "profiles/MII_PR_Kardio_Observation_Rauchen.fsh",
     "startLine": 1,
     "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-procedure-implantation.json",
+    "fshName": "MII_PR_Kardio_Procedure_Implantation",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_Procedure_Implantation.fsh",
+    "startLine": 1,
+    "endLine": 8
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json",

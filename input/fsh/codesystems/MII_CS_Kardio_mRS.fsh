@@ -13,6 +13,9 @@ Description: "Beeinträchtigung des Patienten nach Schlaganfall"
 * ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS"
 * ^content = #complete
 
+// TODO Recherche, ob es die Codes zum mRS schon in LOINC/SNOMED oder FHIR CS gibt.
+// TODO: Ordinal Value vergeben zum Sortieren
+
 * #mRS0 "Es bestehen keine Symptome."
 * #mRS1 "Es bestehen keine relevanten Beeinträchtigungen. Der Patient ist in der Lage, seinen Alltag selbstständig zu gestalten."
 * #mRS2 "Es bestehen leichte Beeinträchtigungen. Der Patient hat Einschränkungen im Alltag, ist aber nicht auf Hilfe angewiesen."

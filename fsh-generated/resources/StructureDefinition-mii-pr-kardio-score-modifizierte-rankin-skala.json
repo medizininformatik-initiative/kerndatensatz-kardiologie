@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-score-modifizierte-rankin-skala",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala",
+  "name": "MII_PR_Kardio_Score_modifizierte_Rankin_Skala",
+  "title": "MII PR Kardio Score modifizierte Rankin Skala",
+  "status": "draft",
+  "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      }
+    ]
+  }
+}

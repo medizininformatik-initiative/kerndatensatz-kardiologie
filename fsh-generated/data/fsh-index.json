@@ -13,7 +13,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/MII_CS_Kardio_mRS.fsh",
     "startLine": 1,
-    "endLine": 22
+    "endLine": 25
   },
   {
     "outputFile": "Questionnaire-kardio-patientenfragebogen.json",
@@ -45,15 +45,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 25
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio-diagnose-observation.json",
-    "fshName": "MII_PR_Kardio_Diagnose_Observation",
-    "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_Diagnose_Observation.fsh",
-    "startLine": 2,
-    "endLine": 88
+    "endLine": 34
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion.json",
@@ -68,6 +60,14 @@
     "fshName": "MII_PR_Kardio_Obseration_Rauchen",
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Rauchen.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json",
+    "fshName": "MII_PR_Kardio_Score_modifizierte_Rankin_Skala",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
     "endLine": 6
   },

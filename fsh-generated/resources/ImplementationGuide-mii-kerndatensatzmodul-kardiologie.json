@@ -113,14 +113,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-diagnose-observation"
-        },
-        "name": "MII PR Kardio Diagnose",
-        "description": "Erster Draft eines Profils zur Abbildung einer Diagnose auf Basis von Angaben des Arztes oder Patienten (Performer) als Observation.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-condition-artherosklerotisches-erstereignis"
         },
         "name": "MII PR Kardio Diagnose Artherosklerotisches Erstereignis",
@@ -133,6 +125,14 @@
         },
         "name": "MII PR Kardio Observation Rauchen",
         "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
+        },
+        "name": "MII PR Kardio Score modifizierte Rankin Skala",
+        "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
         "exampleBoolean": false
       },
       {

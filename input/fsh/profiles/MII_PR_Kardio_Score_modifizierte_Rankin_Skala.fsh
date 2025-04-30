@@ -1,9 +1,12 @@
 Profile: MII_PR_Kardio_Score_modifizierte_Rankin_Skala
 Id: mii-pr-kardio-score-modifizierte-rankin-skala
-Parent: sd-mii-icu-score
+Parent: Observation //sd-mii-icu-score
 
 Title: "MII PR Kardio Score modifizierte Rankin Skala"
 Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala."
+
+// TODO Code binden, bspw LOINC/SNOMED, damit in Ressource drin steht, was abgebildet ist.
+// TODO ValueSet als Value[x]
 
 // See CodeSystem/ValueSet mRS - MII_VS_Kardio_mRS_Stufen
 

@@ -5,6 +5,24 @@ Parent: Observation
 Title: "MII PR Kardio Observation Rauchen"
 Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS."
 
-// us-core-smokingstatus //or similar
+// Current Smoking Status
+// https://simplifier.net/packages/de.gematik.isik-basismodul/4.0.3/files/2736495
 
-// USCore Observation: see https://build.fhir.org/ig/HL7/US-Core/StructureDefinition-us-core-smokingstatus.html
+
+
+
+
+
+// In Zukunft fuer Allgemeinen Datensatz:
+// Fuer weitere Details --> neue Observatin zu "history of tobacco use"
+// history of tobacco use --> pack years und dauer rauche seit x jahren
+
+//< 1/2 Packung
+//ca. 1/2 Packung
+//ca. 1 Packung
+//>= 2 Packungen
+//< 1 Jahr
+//> 1 Jahr
+//> 5 Jahre
+//> 10 Jahre
+

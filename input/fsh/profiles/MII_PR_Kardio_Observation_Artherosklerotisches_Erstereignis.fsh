@@ -5,4 +5,6 @@ Parent: MII_PR_Diagnose_Condition
 Title: "MII PR Kardio Diagnose Artherosklerotisches Erstereignis"
 Description: "Profil zur Erfassung des Datums eines artherosklerotischen Erstereignisses im Kontext von ACRIBiS."
 
-//* performer 1..1
+// code code um anzugeben, welches ereignis das erste war: 
+// Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma.
+// datum als value

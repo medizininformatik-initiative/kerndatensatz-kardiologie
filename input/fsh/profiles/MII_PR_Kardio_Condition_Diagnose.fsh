@@ -1,41 +1,49 @@
 Profile: MII_PR_Kardio_Condition_Diagnose
 Id: mii-pr-kardio-condition-diagnose
-Parent: MII_PR_Diagnose_Condition // oder von MII_PR_Symptom_Condition //oder von FHIR "Base" Condition
-// Diagnose eher Fallbezogen
-// Symptom erlaubt differenziertere Angabe --> Julian Saß fragen
+Parent: MII_PR_Diagnose_Condition
 
 Title: "MII PR Kardio Diagnose"
 Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis."
 
-* category 1..1 MS
-* category.coding.system 1..1 MS
-* category.coding.system = $condition-category (exactly)
-* category.coding.code 1..1 MS
-* category.coding.code = $condition-category#problem-list-item (exactly)
-* asserter 1..1 MS
+// Die erfassten Diagnosen sind nicht unbedingt abrechnungsrelevant, wir nehmen auch Nebendiagnosen etc.
+* category 0..*
+// Slicing, sodass es eine Kategorie gibt, die unser item enthaelt. TODO anpassen und wieder einkommentieren
+//* category.coding.code = $condition-category#problem-list-item (exactly)
 
-// Feststellungsdatum oder assertedDate soll angegeben werden wenn vorhanden
-* extension[Feststellungsdatum] MS
+// Fuer "terminale Krebserkrankung" soll abbildbar sein, ob diese Terminal ist
+* severity 0..1 MS
+// todo valueset prüfen und "terminal" oder snomed "endstage" vorschlagen.
 
-// CODE:
-// Anmerkung: Diagnose-Codes sind in Basismodul Diagnose, aber nicht in Symptom-Diagnose 
-// Code als ICD 10 GM angebbar --> Code --> EXAMPLE System ICD10GM o.ä.
+//_________________________
+// Benötigt Referenz auf Person --> PracticionerRole (Doctor) und Patient  
+// Wir ermöglichen Standorten nicht validierte Informationen kenntlich zu machen. 
+//   Wenn bekannt, das Angabe vom Patient kommt, dann angeben.
+//   Wenn Patient Asserter, dann recorder auch Patient.
+//   Wenn Patient dann verificationStatus entsprechend setzen.
+//      Patient/study nurse (practicioner role) recorder --> arzt asserter = standardfall bei Patientenfragebogen
+// MS, damit die Angabe (bei Vorhandensein der Information) erfolgt und das in FDPG berücksichtigt wird
+* recorder 0..1 MS
+* asserter 0..1 MS
+//* asserter ^definition = "Text" --> TODO am Ende
 
+//_________________________
+// Verification Status und die Angabe VS: Ja/Nein/unbekannt/weiß nicht
+//   modifierExtension notwendig --> verändert die Aussage anderer Werte in der Ressource 
+//   --> Diagnose-Code gegeben, aber modifier sagt, nicht vorhanden.
+
+// TODO: modifierExtension
+// FHIR-invariant/rule: Abgleich mit VerificationStatus --> Plausibilität/Coconstraint prüfen
+// Vgl. GECCO --> evtl. alle Werte aus VS in modifierExtension schreiben   --> VS v2-xxx FHIR VS
+//   GECCO-Diagnose (Condition): https://simplifier.net/guide/GermanCoronaConsensusDataSet-ImplementationGuide/Home/GECCOCore/AnamnesisRiskfactors/Disordersofcardiovascularsystem.guide.md?version=current
 * verificationStatus 1..1 MS
-* verificationStatus.extension contains http://hl7.org/fhir/StructureDefinition/data-absent-reason named dataAbsentReason 0..1
-// TODO Julian Saß fragen!
 
-// MÖGLICHKEIT 1 - Data Absent Reason mit Mapping im IG
-// Data Absent Reason für verificationStatus 1..1
-  // confirmed = Arzt bestätigt
-  // unconfirmed = Angabe des Patienten in Fragebogen
-  // Data Absent unknown = unbekannt
-  // Data Absent asked-unknown = patient weiß nicht
+// TODO invarianten
 
-// MÖGLICHKEIT 2 - Extension mit VS
-// ---> Alternativ: Extension für Ja/Nein/Unbekannt/Weiß nicht --> http://terminology.hl7.org/CodeSystem/v2-0532 
-// ----> Extension: Anamnese_Antwort_Extension
+//_________________________
+// Feststellungsdatum oder assertedDate soll angegeben werden wenn vorhanden
+// Feststellungsdatum = Erstdiagnosedatum
 
-// MÖGLICHKEIT 3 - SNOMED CODE zu verficiationStatus
-// Diagnose aus Gecco, bei der die Angabe eines SNOMED-Codes verpflictend für verficationStatus ist
-// GECCO-Diagnose (Condition): https://simplifier.net/guide/GermanCoronaConsensusDataSet-ImplementationGuide/Home/GECCOCore/AnamnesisRiskfactors/Disordersofcardiovascularsystem.guide.md?version=current
+//_________________________
+// CODE als ICD10 oder SNOMED:
+// Kann angegeben werden. Evtl. Fragen die DIZe nach einer Liste relevanter Diagnosen. Abgleich mit DS 4.1.1 siehe 
+// Die Diagnose kann auch als SNOMED Code angegeben werden --> passend, wenn Diagnose nicht vorliegt, aber im Fragebogen eine entsprechende Angabe ist

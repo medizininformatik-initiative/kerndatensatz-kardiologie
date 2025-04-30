@@ -23,8 +23,9 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 //      Patient/study nurse (practicioner role) recorder --> arzt asserter = standardfall bei Patientenfragebogen
 // MS, damit die Angabe (bei Vorhandensein der Information) erfolgt und das in FDPG berücksichtigt wird
 * recorder 0..1 MS
+* recorder ^comment = "Allows documentation about who recorded the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 * asserter 0..1 MS
-//* asserter ^definition = "Text" --> TODO am Ende
+* asserter ^comment = "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 
 //_________________________
 // Verification Status und die Angabe VS: Ja/Nein/unbekannt/weiß nicht

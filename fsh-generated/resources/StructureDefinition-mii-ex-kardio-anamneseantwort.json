@@ -24,43 +24,13 @@
         "id": "Extension",
         "path": "Extension",
         "short": "MII EX Kardio AnamneseAntwort",
-        "definition": "Antworten zu Anamnesefragen aus ärztlicher Befragung oder Patientenfragebogen im Kontext des Projekts ACRIBiS."
+        "definition": "Antworten zu Anamnesefragen aus ärztlicher Befragung oder Patientenfragebogen im Kontext des Projekts ACRIBiS.",
+        "isModifierReason": "Can contradict the presence of a diagnosis by stating the given diagnosis is unknown or asked-unknown or similar."
       },
       {
         "id": "Extension.extension",
         "path": "Extension.extension",
-        "min": 1
-      },
-      {
-        "id": "Extension.extension:AnamneseAntwort",
-        "path": "Extension.extension",
-        "sliceName": "AnamneseAntwort",
-        "min": 1,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:AnamneseAntwort.extension",
-        "path": "Extension.extension.extension",
         "max": "0"
-      },
-      {
-        "id": "Extension.extension:AnamneseAntwort.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "AnamneseAntwort"
-      },
-      {
-        "id": "Extension.extension:AnamneseAntwort.value[x]",
-        "path": "Extension.extension.value[x]",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ]
-      },
-      {
-        "id": "Extension.extension:AnamneseAntwort.value[x].coding.system",
-        "path": "Extension.extension.value[x].coding.system",
-        "fixedUri": "http://terminology.hl7.org/CodeSystem/v2-0532"
       },
       {
         "id": "Extension.url",
@@ -70,7 +40,15 @@
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "max": "0"
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://terminology.hl7.org/CodeSystem/v2-0532"
+        }
       }
     ]
   }

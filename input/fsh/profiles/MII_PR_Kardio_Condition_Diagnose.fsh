@@ -28,9 +28,10 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * asserter ^comment = "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 
 //_________________________
-// Verification Status und die Angabe VS: Ja/Nein/unbekannt/weiß nicht
+// Verification Status und die Angabe VS: Ja/Nein/unbekannt/weiß nicht --> http://terminology.hl7.org/CodeSystem/v2-0532
 //   modifierExtension notwendig --> verändert die Aussage anderer Werte in der Ressource 
 //   --> Diagnose-Code gegeben, aber modifier sagt, nicht vorhanden.
+* modifierExtension contains $anamnese-antwort named AnamneseAntwort 0..1 MS
 
 // TODO: modifierExtension
 // FHIR-invariant/rule: Abgleich mit VerificationStatus --> Plausibilität/Coconstraint prüfen

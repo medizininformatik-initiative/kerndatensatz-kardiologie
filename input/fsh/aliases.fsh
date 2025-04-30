@@ -1,5 +1,6 @@
 Alias: $condition-category = http://terminology.hl7.org/CodeSystem/condition-category
-
+Alias: $anamnese-antwort = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort
+Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 
 
 Alias: $loinc = http://loinc.org

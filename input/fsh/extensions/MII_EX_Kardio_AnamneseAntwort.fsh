@@ -4,8 +4,8 @@ Id: mii-ex-kardio-anamneseantwort
 Title: "MII EX Kardio AnamneseAntwort"
 Description: "Antworten zu Anamnesefragen aus ärztlicher Befragung oder Patientenfragebogen im Kontext des Projekts ACRIBiS."
 
-* extension contains 
-    AnamneseAntwort 1..1 
-* extension[AnamneseAntwort].value[x] only CodeableConcept
-* extension[AnamneseAntwort].valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0532" (exactly)
-//* extension[AnamneseAntwort].valueCodeableConcept.coding = $mii-diagnose-vorhanden // (required)
+//* extension contains AnamneseAntwort 1..1 
+* . ^isModifierReason = "Can contradict the presence of a diagnosis by stating the given diagnosis is unknown or asked-unknown or similar."
+
+* value[x] only CodeableConcept
+* value[x] from $v2-0532 //(exactly)

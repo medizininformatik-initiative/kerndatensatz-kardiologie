@@ -1,6 +1,20 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-condition-artherosklerotisches-erstereignis",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/spdx-license",
+            "code": "CC-BY-4.0",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-artherosklerotisches-erstereignis",
   "name": "MII_PR_Kardio_Condition_Artherosklerotisches_Erstereignis",
   "title": "MII PR Kardio Diagnose Artherosklerotisches Erstereignis",

@@ -8,6 +8,7 @@
   "dependencies": {
     "de.medizininformatikinitiative.kerndatensatz.diagnose": "2024.0.0",
     "de.medizininformatikinitiative.kerndatensatz.medikation": "2.0.0",
-    "de.medizininformatikinitiative.kerndatensatz.laborbefund": "2025.0.0-alpha1"
+    "de.medizininformatikinitiative.kerndatensatz.laborbefund": "2025.0.0-alpha1",
+    "de.gematik.isik-vitalparameter": "4.0.2"
   }
 }

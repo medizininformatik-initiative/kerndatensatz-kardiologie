@@ -23,28 +23,22 @@
   ],
   "dependsOn": [
     {
-      "packageId": "de.medizininformatikinitiative.kerndatensatz.person",
-      "version": "2024.0.0",
-      "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/ImplementationGuide/mii-ig-person-de-v2024",
-      "id": "de_medizininformatikinitiative_kerndatensatz_person"
-    },
-    {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
-      "version": "2024.0.0-alpha2",
+      "version": "2025.0.4",
       "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.icu/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.icu",
       "id": "de_medizininformatikinitiative_kerndatensatz_icu"
     },
     {
-      "packageId": "de.medizininformatikinitiative.kerndatensatz.diagnose",
-      "version": "2024.0.0",
-      "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ImplementationGuide/mii-ig-diagnose-de-v2024",
-      "id": "de_medizininformatikinitiative_kerndatensatz_diagnose"
+      "packageId": "de.gematik.isik-vitalparameter",
+      "version": "4.0.2",
+      "uri": "http://fhir.org/packages/de.gematik.isik-vitalparameter/ImplementationGuide/de.gematik.isik-vitalparameter",
+      "id": "de_gematik_isik_vitalparameter"
     },
     {
-      "packageId": "de.medizininformatikinitiative.kerndatensatz.laborbefund",
-      "version": "2025.0.0-alpha1",
-      "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.laborbefund/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.laborbefund",
-      "id": "de_medizininformatikinitiative_kerndatensatz_laborbefund"
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.diagnose",
+      "version": "2025.0.0",
+      "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ImplementationGuide/mii-ig-diagnose",
+      "id": "de_medizininformatikinitiative_kerndatensatz_diagnose"
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.prozedur",

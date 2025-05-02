@@ -67,6 +67,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/extended-condition-severity"
+        },
+        "name": "Extended Condition Severity",
+        "description": "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-ex-kardio-ageatadmission"
         },
         "name": "MII EX Kardio AgeExtension",

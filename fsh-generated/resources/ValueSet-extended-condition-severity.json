@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Extended_Condition_Severity",
+  "id": "extended-condition-severity",
+  "title": "Extended Condition Severity",
+  "description": "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/extended-condition-severity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "24484000"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "6736007"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "255604002"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "42796001"
+          }
+        ]
+      }
+    ]
+  }
+}

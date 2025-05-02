@@ -53,7 +53,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 57
+    "endLine": 64
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
@@ -110,6 +110,14 @@
     "fshFile": "profiles/MII_PR_Kardio_Score_NYHA.fsh",
     "startLine": 1,
     "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-extended-condition-severity.json",
+    "fshName": "Extended_Condition_Severity",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MII_VS_Kardio_extended-condition-severity.fsh",
+    "startLine": 1,
+    "endLine": 12
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-allergene-snomed.json",

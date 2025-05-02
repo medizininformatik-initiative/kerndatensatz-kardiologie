@@ -1,5 +1,6 @@
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
 [MII_CS_Kardio_modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html
+[Extended_Condition_Severity]: ValueSet-extended-condition-severity.html
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
 [MII_PR_Kardio_Condition_Diagnose]: StructureDefinition-mii-pr-kardio-condition-diagnose.html

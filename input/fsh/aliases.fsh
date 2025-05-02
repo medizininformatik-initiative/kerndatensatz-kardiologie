@@ -1,10 +1,14 @@
-Alias: $condition-category-cs = http://terminology.hl7.org/CodeSystem/condition-category
+Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category
 Alias: $anamnese-antwort = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort
 Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 
-
 Alias: $loinc = http://loinc.org
 Alias: $sct = http://snomed.info/sct
+
+Alias: $extended-condition-severity = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity
+
+//_________________
+
 Alias: $emdn = urn:oid:1.2.250.1.213.2.68 //urn:oid:1.2.250.1.213.2.68 //https://webgate.ec.europa.eu/dyna2/emdn/Z1206
 // https://simplifier.net/mii-basismodul-medikation-2024/mii-cs-medikation-atc-2023
 // http://www.whocc.no/atc 
@@ -12,6 +16,8 @@ Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
 Alias: $unitsofmeasure = http://unitsofmeasure.org
 Alias: $null-flavor = http://hl7.org/fhir/v3/NullFlavor
 Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS
+
+//_________________
 
 //Alias: $observation-de-vitalsign-koerpergewicht = http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht
 

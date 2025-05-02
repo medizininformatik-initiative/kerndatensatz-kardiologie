@@ -5,8 +5,9 @@ Parent: MII_PR_Diagnose_Condition
 Title: "MII PR Kardio Diagnose"
 Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis."
 
-// IG: Die erfassten Diagnosen sind nicht unbedingt die Abrechnungsrelevanten, 
-//     wir nehmen auch Nebendiagnosen, ungesicherte Diagnosen etc. aka Problem-List.
+//_________________________category
+// IG: Die relevanten Diagnosen sind nicht nur die Abrechnungsrelevanten, 
+//     wir nehmen auch Nebendiagnosen, ungesicherte Diagnosen etc. aka "Problem-List-Items".
 * category 0..*
 * category ^slicing.discriminator.type = #pattern
 * category ^slicing.discriminator.path = "$this"
@@ -18,16 +19,22 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * category[diagnosis_category] ^comment = "Unterscheidung zwischen Falldiagnose (encounter-diagnose) und beliebiger Diagnose (problem-list-item)."
 * category[diagnosis_category] only CodeableConcept
 * category[diagnosis_category].coding 1..1
-* category[diagnosis_category] from http://hl7.org/fhir/ValueSet/condition-category (required)
-                                       
-// Slicing, sodass es eine Kategorie gibt, die unser item enthaelt. TODO anpassen und wieder einkommentieren
-//* category.coding.code = $condition-category#problem-list-item (exactly)
+* category[diagnosis_category] from http://hl7.org/fhir/ValueSet/condition-category (required) //$condition-category-vs
 
-// Fuer "terminale Krebserkrankung" soll abbildbar sein, ob diese Terminal ist
+//_________________________severity
+// IG: Fuer  das Datenitem "terminale Krebserkrankung" soll abbildbar sein, ob eine erfasste Krebserkrankung Terminal ist. 
+//     Falls keine gesicherte Diagnose vorhanden ist, kann statt eines ICD10-Codes ein SNOMED-Code verwendet werden.
+//     Severe = 24484000; Moderate = 6736007; Mild = 255604002;
+//     Terminal/End-stage = 42796001;
 * severity 0..1 MS
-// todo valueset prüfen und "terminal" oder snomed "endstage" vorschlagen.
+* severity from $extended-condition-severity (preferred)
 
-//_________________________
+//_________________________Code
+// IG: Grundsätzlich kann eine Diagnose oder "Problem-List-Item" als ICD10-Codes oder per SNOMED-Code angegeben werden.
+//     Die Verwendung des SNOMED-Codes statt ICD10-Code bietet sich bspw. bei Verwendung von Anamnese-/Fragebogenantworten an.
+//     Relevante Datenitems sind im Acribis-Datensatz 4.1.1 aufgelistet, müssen aber standortspezifisch gemappt werden.
+
+//_________________________recorder / asserter
 // Benötigt Referenz auf Person --> PracticionerRole (Doctor) und Patient  
 // Wir ermöglichen Standorten nicht validierte Informationen kenntlich zu machen. 
 //   Wenn bekannt, das Angabe vom Patient kommt, dann angeben.
@@ -40,7 +47,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * asserter 0..1 MS
 * asserter ^comment = "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 
-//_________________________
+//_________________________verificationStatus
 // Verification Status und die Angabe VS: Ja/Nein/unbekannt/weiß nicht --> http://terminology.hl7.org/CodeSystem/v2-0532
 //   modifierExtension notwendig --> verändert die Aussage anderer Werte in der Ressource 
 //   --> Diagnose-Code gegeben, aber modifier sagt, nicht vorhanden.
@@ -56,13 +63,9 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 //   GECCO-Diagnose (Condition): https://simplifier.net/guide/GermanCoronaConsensusDataSet-ImplementationGuide/Home/GECCOCore/AnamnesisRiskfactors/Disordersofcardiovascularsystem.guide.md?version=current
 * verificationStatus 1..1 MS
 
+//_________________________
 // TODO invarianten
 
-//_________________________
+//_________________________extension-Feststellungsdatum
 // Feststellungsdatum oder assertedDate soll angegeben werden wenn vorhanden
 // Feststellungsdatum = Erstdiagnosedatum
-
-//_________________________
-// CODE als ICD10 oder SNOMED:
-// Kann angegeben werden. Evtl. Fragen die DIZe nach einer Liste relevanter Diagnosen. Abgleich mit DS 4.1.1 siehe 
-// Die Diagnose kann auch als SNOMED Code angegeben werden --> passend, wenn Diagnose nicht vorliegt, aber im Fragebogen eine entsprechende Angabe ist

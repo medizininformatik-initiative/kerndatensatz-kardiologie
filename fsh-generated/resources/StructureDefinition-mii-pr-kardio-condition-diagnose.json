@@ -29,8 +29,8 @@
   "differential": {
     "element": [
       {
-        "id": "Condition.modifierExtension:AnamneseAntwort",
-        "path": "Condition.modifierExtension",
+        "id": "Condition.extension:AnamneseAntwort",
+        "path": "Condition.extension",
         "sliceName": "AnamneseAntwort",
         "min": 0,
         "max": "1",
@@ -50,9 +50,44 @@
         "min": 1
       },
       {
+        "id": "Condition.category",
+        "path": "Condition.category",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open",
+          "ordered": false,
+          "description": "Unterscheidung zwischen Falldiagnose und beliebiger Diagnose."
+        },
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "diagnosis-category",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+            }
+          ]
+        }
+      },
+      {
         "id": "Condition.severity",
         "path": "Condition.severity",
         "mustSupport": true
+      },
+      {
+        "id": "Condition.code",
+        "path": "Condition.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "problem-list-item",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+            }
+          ]
+        }
       },
       {
         "id": "Condition.recorder",

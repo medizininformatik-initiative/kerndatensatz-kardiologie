@@ -7,6 +7,15 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 
 // Die erfassten Diagnosen sind nicht unbedingt abrechnungsrelevant, wir nehmen auch Nebendiagnosen etc.
 * category 0..*
+* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.path = "$this"
+* category ^slicing.rules = #open // erlaubt jegliche category slice (names)
+* category ^slicing.ordered = false
+* category ^slicing.description = "Unterscheidung zwischen Falldiagnose und beliebiger Diagnose."
+
+* category = http://terminology.hl7.org/CodeSystem/condition-category#diagnosis-category   // benennt neuen slice
+* code = $condition-category-cs#problem-list-item                                          // legt code slice fest?
+
 // Slicing, sodass es eine Kategorie gibt, die unser item enthaelt. TODO anpassen und wieder einkommentieren
 //* category.coding.code = $condition-category#problem-list-item (exactly)
 
@@ -31,7 +40,11 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 // Verification Status und die Angabe VS: Ja/Nein/unbekannt/weiß nicht --> http://terminology.hl7.org/CodeSystem/v2-0532
 //   modifierExtension notwendig --> verändert die Aussage anderer Werte in der Ressource 
 //   --> Diagnose-Code gegeben, aber modifier sagt, nicht vorhanden.
-* modifierExtension contains $anamnese-antwort named AnamneseAntwort 0..1 MS
+* extension contains $anamnese-antwort named AnamneseAntwort 0..1 MS
+// modifierExtension --> error
+// error Non-modifier extension https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort assigned to modifierExtension path. Non-modifier extensions should only be assigned to extension paths.
+  // File: /mnt/c/Dateien_Richter122/git-projects/kerndatensatz-kardiologie/input/fsh/profiles/MII_PR_Kardio_Condition_Diagnose.fsh
+  // Line: 34
 
 // TODO: modifierExtension
 // FHIR-invariant/rule: Abgleich mit VerificationStatus --> Plausibilität/Coconstraint prüfen

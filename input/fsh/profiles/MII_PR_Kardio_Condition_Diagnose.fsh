@@ -54,7 +54,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 // Verification Status und die Angabe: Ja/Nein/unbekannt/weiß nicht --> http://terminology.hl7.org/CodeSystem/v2-0532
 // modifierExtension notwendig --> verändert Aussage anderer Werte in Ressource --> e.g. Diagnose-Code gegeben, aber modifier sagt, nicht vorhanden.
 * modifierExtension contains $anamnese-antwort named AnamneseAntwort 0..1 MS
-* modifierExtension[AnamneseAntwort] ^comment = "Can contradict the presence of a diagnosis by stating the given diagnosis was answered or the status to stated as 'unknown', 'asked-unknown' or similar."
+* modifierExtension[AnamneseAntwort] ^comment = "Can contradict the presence of a diagnosis by stating the given diagnosis status was stated as 'unknown', 'asked-unknown' or similar."
 
 // TODO: FHIR-invariant/rule: Abgleich mit VerificationStatus --> Plausibilität/Coconstraint prüfen
 * verificationStatus 1..1 MS

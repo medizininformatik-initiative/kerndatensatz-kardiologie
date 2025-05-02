@@ -5,17 +5,20 @@ Parent: MII_PR_Diagnose_Condition
 Title: "MII PR Kardio Diagnose"
 Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis."
 
-// Die erfassten Diagnosen sind nicht unbedingt abrechnungsrelevant, wir nehmen auch Nebendiagnosen etc.
+// IG: Die erfassten Diagnosen sind nicht unbedingt die Abrechnungsrelevanten, 
+//     wir nehmen auch Nebendiagnosen, ungesicherte Diagnosen etc. aka Problem-List.
 * category 0..*
 * category ^slicing.discriminator.type = #pattern
 * category ^slicing.discriminator.path = "$this"
 * category ^slicing.rules = #open // erlaubt jegliche category slice (names)
 * category ^slicing.ordered = false
 * category ^slicing.description = "Unterscheidung zwischen Falldiagnose und beliebiger Diagnose."
-
-* category = http://terminology.hl7.org/CodeSystem/condition-category#diagnosis-category   // benennt neuen slice
-* code = $condition-category-cs#problem-list-item                                          // legt code slice fest?
-
+* category contains                         // defines slice name(s), no need for ^sliceName-Rule
+    diagnosis_category 0..1
+* category[diagnosis_category] only CodeableConcept
+* category[diagnosis_category].coding 1..1
+* category[diagnosis_category] from http://hl7.org/fhir/ValueSet/condition-category (required)
+                                       
 // Slicing, sodass es eine Kategorie gibt, die unser item enthaelt. TODO anpassen und wieder einkommentieren
 //* category.coding.code = $condition-category#problem-list-item (exactly)
 

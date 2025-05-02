@@ -15,6 +15,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * category ^slicing.description = "Unterscheidung zwischen Falldiagnose und beliebiger Diagnose."
 * category contains                         // defines slice name(s), no need for ^sliceName-Rule
     diagnosis_category 0..1
+* category[diagnosis_category] ^comment = "Unterscheidung zwischen Falldiagnose (encounter-diagnose) und beliebiger Diagnose (problem-list-item)."
 * category[diagnosis_category] only CodeableConcept
 * category[diagnosis_category].coding 1..1
 * category[diagnosis_category] from http://hl7.org/fhir/ValueSet/condition-category (required)

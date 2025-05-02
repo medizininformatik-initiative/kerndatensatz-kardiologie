@@ -25,6 +25,7 @@
         "path": "Extension",
         "short": "Extension - AnamneseAntwort",
         "definition": "Antworten zu Anamnesefragen aus ärztlicher Befragung oder Patientenfragebogen im Kontext des Projekts ACRIBiS.",
+        "isModifier": true,
         "isModifierReason": "Can contradict the presence of a diagnosis by stating the given diagnosis is unknown or asked-unknown or similar."
       },
       {

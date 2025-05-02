@@ -27,6 +27,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 //     Terminal/End-stage = 42796001;
 * severity 0..1 MS
 * severity from $extended-condition-severity (preferred)
+* severity ^comment = "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis." 
 
 //_________________________Code
 // IG: Grundsätzlich kann eine Diagnose oder "Problem-List-Item" als ICD10-Codes oder per SNOMED-Code angegeben werden.
@@ -36,13 +37,14 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * code.coding[sct] 0..1 MS         // ist bereits must-support
 
 //_________________________recorder / asserter
-// Benötigt Referenz auf Person --> PracticionerRole (Doctor) und Patient  
-// Wir ermöglichen Standorten nicht validierte Informationen kenntlich zu machen. 
-//   Wenn bekannt, das Angabe vom Patient kommt, dann angeben.
-//   Wenn Patient Asserter, dann recorder auch Patient.
-//   Wenn Patient dann verificationStatus entsprechend setzen.
-//      Patient/study nurse (practicioner role) recorder --> arzt asserter = standardfall bei Patientenfragebogen
-// MS, damit die Angabe (bei Vorhandensein der Information) erfolgt und das in FDPG berücksichtigt wird
+// IG: Benötigt Referenz auf Person --> PracticionerRole (Doctor) und Patient  
+//     Wir ermöglichen im Profil nicht validierte Informationen anhand der Herkunft kenntlich zu machen. 
+//     Einige Fälle:
+//       Wenn bekannt, das Angabe vom Patient kommt, dann angeben.
+//       Wenn Patient Asserter, dann recorder auch Patient.
+//       Wenn Patient dann verificationStatus entsprechend setzen.
+//     Patient/study nurse (practicioner role) recorder --> arzt asserter = standardfall bei Patientenfragebogen
+// MS, damit (bei Vorhandensein der Information) die Angabe erfolgt und das in FDPG berücksichtigt wird.
 * recorder 0..1 MS
 * recorder ^comment = "Allows documentation about who recorded the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 * asserter 0..1 MS
@@ -52,7 +54,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 // Verification Status und die Angabe VS: Ja/Nein/unbekannt/weiß nicht --> http://terminology.hl7.org/CodeSystem/v2-0532
 //   modifierExtension notwendig --> verändert die Aussage anderer Werte in der Ressource 
 //   --> Diagnose-Code gegeben, aber modifier sagt, nicht vorhanden.
-* extension contains $anamnese-antwort named AnamneseAntwort 0..1 MS
+* modifierExtension contains $anamnese-antwort named AnamneseAntwort 0..1 MS
 // modifierExtension --> error
 // error Non-modifier extension https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort assigned to modifierExtension path. Non-modifier extensions should only be assigned to extension paths.
   // File: /mnt/c/Dateien_Richter122/git-projects/kerndatensatz-kardiologie/input/fsh/profiles/MII_PR_Kardio_Condition_Diagnose.fsh

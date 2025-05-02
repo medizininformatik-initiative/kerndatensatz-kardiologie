@@ -29,8 +29,8 @@
   "differential": {
     "element": [
       {
-        "id": "Condition.extension:AnamneseAntwort",
-        "path": "Condition.extension",
+        "id": "Condition.modifierExtension:AnamneseAntwort",
+        "path": "Condition.modifierExtension",
         "sliceName": "AnamneseAntwort",
         "min": 0,
         "max": "1",
@@ -85,6 +85,7 @@
       {
         "id": "Condition.severity",
         "path": "Condition.severity",
+        "comment": "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis.",
         "mustSupport": true,
         "binding": {
           "strength": "preferred",

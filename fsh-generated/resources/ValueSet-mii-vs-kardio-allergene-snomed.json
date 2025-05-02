@@ -3,7 +3,7 @@
   "status": "draft",
   "name": "MII_VS_Kardio_Allergene_SNOMED",
   "id": "mii-vs-kardio-allergene-snomed",
-  "title": "MII VS Kardio Allergene SNOMED",
+  "title": "MII_VS_Kardio_Allergene_SNOMED",
   "description": "Liste von Substanzen",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-allergene-snomed",
   "meta": {

@@ -1,6 +1,6 @@
-ValueSet: Extended_Condition_Severity
-Id: extended-condition-severity
-Title: "Extended Condition Severity"
+ValueSet: MII_VS_Kardio_Extended_Condition_Severity_SNOMED
+Id: mii-vs-kardio-extended-condition-severity
+Title: "MII_VS_Kardio_Extended_Condition_Severity_SNOMED"
 Description: "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)"
 * ^status = #active
 

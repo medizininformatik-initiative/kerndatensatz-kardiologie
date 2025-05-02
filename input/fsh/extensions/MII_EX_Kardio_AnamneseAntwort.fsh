@@ -1,7 +1,6 @@
 Extension: MII_EX_Kardio_AnamneseAntwort
 Id: mii-ex-kardio-anamneseantwort
-
-Title: "MII EX Kardio AnamneseAntwort"
+Title: "Extension - AnamneseAntwort"
 Description: "Antworten zu Anamnesefragen aus ärztlicher Befragung oder Patientenfragebogen im Kontext des Projekts ACRIBiS."
 
 //* extension contains AnamneseAntwort 1..1 

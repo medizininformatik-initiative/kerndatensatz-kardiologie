@@ -67,17 +67,9 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/extended-condition-severity"
-        },
-        "name": "Extended Condition Severity",
-        "description": "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/mii-ex-kardio-ageatadmission"
         },
-        "name": "MII EX Kardio AgeExtension",
+        "name": "Extension - AgeExtension",
         "description": "Diese Erweiterung gibt das berechnete Alter zum Zeitpunkt der Behandlung/Datenaufnahme basierend auf dem Geburtsdatum an.",
         "exampleBoolean": false
       },
@@ -85,23 +77,47 @@
         "reference": {
           "reference": "StructureDefinition/mii-ex-kardio-anamneseantwort"
         },
-        "name": "MII EX Kardio AnamneseAntwort",
+        "name": "Extension - AnamneseAntwort",
         "description": "Antworten zu Anamnesefragen aus ärztlicher Befragung oder Patientenfragebogen im Kontext des Projekts ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-kardio-region"
+        },
+        "name": "Extension - Region",
+        "description": "Angabe einer Region mit einem ValueSet (Region (Wohnort/Land) nach SMART-Score) definiert in ACRIBiS-Datensatz.",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
         },
-        "name": "MII PR Kardio Diagnose",
+        "name": "MII_PR_Kardio_Condition_Diagnose",
         "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-devicemetric-devicemode"
+        },
+        "name": "MII_PR_Kardio_DeviceMetric_DeviceMode",
+        "description": "Profil zur Angabe des Betriebsmodus eines Device im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-device-device"
+        },
+        "name": "MII_PR_Kardio_Device_Device",
+        "description": "Profil zur Abbildung eines Device im Kontext des Projekts Acribis.",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-condition-artherosklerotisches-erstereignis"
         },
-        "name": "MII PR Kardio Diagnose Artherosklerotisches Erstereignis",
+        "name": "MII_PR_Kardio_Diagnose_Artherosklerotisches_Erstereignis",
         "description": "Profil zur Erfassung des Datums eines artherosklerotischen Erstereignisses im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
@@ -109,112 +125,16 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
         },
-        "name": "MII PR Kardio Observation Anzahl KH Aufenthalte",
+        "name": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte",
         "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen"
+          "reference": "StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
         },
-        "name": "MII PR Kardio Observation Rauchen",
-        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-procedure-implantation"
-        },
-        "name": "MII PR Kardio Prozedur Implantation",
-        "description": "Profil zur Erfassung eines implantierten Devices mit Referenz auf Device und DeviceMetric.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-region"
-        },
-        "name": "MII PR Kardio Region",
-        "description": "Angabe einer Region mit einem ValueSet (Region (Wohnort/Land) nach SMART-Score) definiert in ACRIBiS-Datensatz.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
-        },
-        "name": "MII PR Kardio Score modifizierte Rankin Skala",
-        "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-score-nyha"
-        },
-        "name": "MII PR Kardio Score NYHA",
-        "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-allergene-snomed"
-        },
-        "name": "MII VS Kardio Allergene SNOMED",
-        "description": "Liste von Substanzen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-diagnose-icd10gm"
-        },
-        "name": "MII VS Kardio Diagnose ICD-10 GM",
-        "description": "ICD10 GM Codes für kardiologische Erkrankungen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ethnie"
-        },
-        "name": "MII VS Kardio Ethnie",
-        "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-gewichtsveraenderung-snomed"
-        },
-        "name": "MII VS Kardio Gewichtsveraenderung SNOMED",
-        "description": "Beschreibung von Gewichtsveränderungen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-implant-device-emdn"
-        },
-        "name": "MII VS Kardio Implant Device EMDN",
-        "description": "Implantierbare Devices nach EMDN",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-medikation"
-        },
-        "name": "MII VS Kardio Medikation",
-        "description": "ATC-Codes 'de' in der Kardiologie relevanter Medikamente.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-mrs-stufen"
-        },
-        "name": "MII VS Kardio mRS Stufen",
-        "description": "Stufen der modifizierten Rankin-Skala",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-nyha-klassen-snomed"
-        },
-        "name": "MII VS Kardio NYHA Klassen SNOMED",
-        "description": "Klassen der New York Heart Association Classification",
+        "name": "MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung",
+        "description": "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis.",
         "exampleBoolean": false
       },
       {
@@ -222,6 +142,118 @@
           "reference": "StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
         },
         "name": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
+        "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen"
+        },
+        "name": "MII_PR_Kardio_Observation_Rauchen",
+        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-procedure-implantation"
+        },
+        "name": "MII_PR_Kardio_Prozedur_Implantation",
+        "description": "Profil zur Erfassung eines implantierten Devices mit Referenz auf Device und DeviceMetric.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
+        },
+        "name": "MII_PR_Kardio_Score_modifizierte_Rankin_Skala",
+        "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-score-nyha"
+        },
+        "name": "MII_PR_Kardio_Score_NYHA",
+        "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-allergene-snomed"
+        },
+        "name": "MII_VS_Kardio_Allergene_SNOMED",
+        "description": "Liste von Substanzen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-diagnose-icd10gm"
+        },
+        "name": "MII_VS_Kardio_Diagnose_ICD10-GM",
+        "description": "ICD10-GM Codes für kardiologische Erkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ethnie-snomed"
+        },
+        "name": "MII_VS_Kardio_Ethnie_SNOMED",
+        "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-extended-condition-severity"
+        },
+        "name": "MII_VS_Kardio_Extended_Condition_Severity_SNOMED",
+        "description": "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-gewichtsveraenderung-snomed"
+        },
+        "name": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
+        "description": "Beschreibung von Gewichtsveränderungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-implant-device-emdn"
+        },
+        "name": "MII_VS_Kardio_Implant_Device_EMDN",
+        "description": "Implantierbare Devices nach EMDN",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-lebensmittelpunkt-m49"
+        },
+        "name": "MII_VS_Kardio_Lebensmittelpunkt_m49",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-medikation"
+        },
+        "name": "MII_VS_Kardio_Medikation",
+        "description": "ATC-Codes 'de' in der Kardiologie relevanter Medikamente.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-mrs-stufen"
+        },
+        "name": "MII_VS_Kardio_mRS_Stufen",
+        "description": "Stufen der modifizierten Rankin-Skala",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-nyha-klassen-snomed"
+        },
+        "name": "MII_VS_Kardio_NYHA_Klassen_SNOMED",
+        "description": "Klassen der New York Heart Association Classification",
         "exampleBoolean": false
       },
       {
@@ -229,13 +261,6 @@
           "reference": "Questionnaire/kardio-patientenfragebogen"
         },
         "name": "Questionnaire1",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-lebensmittelpunkt"
-        },
-        "name": "ValueSet - Lebensmittelpunkt",
         "exampleBoolean": false
       }
     ],

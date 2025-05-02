@@ -3,7 +3,7 @@
   "id": "mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf",
   "name": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF",
-  "title": "MII PR Kardio Observation Anzahl KH Aufenthalte",
+  "title": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte",
   "status": "draft",
   "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
   "fhirVersion": "4.0.1",
@@ -15,8 +15,13 @@
   "differential": {
     "element": [
       {
-        "id": "Observation",
-        "path": "Observation"
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
       }
     ]
   }

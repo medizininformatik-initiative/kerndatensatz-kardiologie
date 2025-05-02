@@ -1,6 +1,6 @@
-ValueSet: MII_VS_Lebensmittelpunkt
-Id: mii-vs-lebensmittelpunkt
-Title: "ValueSet - Lebensmittelpunkt"
+ValueSet: MII_VS_Kardio_Lebensmittelpunkt_m49
+Id: mii-vs-kardio-lebensmittelpunkt-m49
+Title: "MII_VS_Kardio_Lebensmittelpunkt_m49"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-lebensmittelpunkt"
 * ^version = "0.0.1"
 * ^status = #draft

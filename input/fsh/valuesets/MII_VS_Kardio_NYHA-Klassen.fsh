@@ -1,7 +1,7 @@
 ValueSet: MII_VS_Kardio_NYHA_Klassen_SNOMED
 Id: mii-vs-kardio-nyha-klassen-snomed
 
-Title: "MII VS Kardio NYHA Klassen SNOMED"
+Title: "MII_VS_Kardio_NYHA_Klassen_SNOMED"
 Description: "Klassen der New York Heart Association Classification"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

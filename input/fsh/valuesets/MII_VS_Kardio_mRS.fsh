@@ -1,7 +1,7 @@
 ValueSet: MII_VS_Kardio_mRS_Stufen
 Id: mii-vs-kardio-mrs-stufen
 
-Title: "MII VS Kardio mRS Stufen"
+Title: "MII_VS_Kardio_mRS_Stufen"
 Description: "Stufen der modifizierten Rankin-Skala"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

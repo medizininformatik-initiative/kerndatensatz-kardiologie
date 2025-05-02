@@ -3,7 +3,7 @@
   "id": "mii-ex-kardio-anamneseantwort",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort",
   "name": "MII_EX_Kardio_AnamneseAntwort",
-  "title": "MII EX Kardio AnamneseAntwort",
+  "title": "Extension - AnamneseAntwort",
   "status": "draft",
   "description": "Antworten zu Anamnesefragen aus ärztlicher Befragung oder Patientenfragebogen im Kontext des Projekts ACRIBiS.",
   "fhirVersion": "4.0.1",
@@ -23,7 +23,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "MII EX Kardio AnamneseAntwort",
+        "short": "Extension - AnamneseAntwort",
         "definition": "Antworten zu Anamnesefragen aus ärztlicher Befragung oder Patientenfragebogen im Kontext des Projekts ACRIBiS.",
         "isModifierReason": "Can contradict the presence of a diagnosis by stating the given diagnosis is unknown or asked-unknown or similar."
       },

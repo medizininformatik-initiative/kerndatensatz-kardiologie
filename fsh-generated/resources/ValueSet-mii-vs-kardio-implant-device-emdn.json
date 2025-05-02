@@ -3,7 +3,7 @@
   "status": "draft",
   "name": "MII_VS_Kardio_Implant_Device_EMDN",
   "id": "mii-vs-kardio-implant-device-emdn",
-  "title": "MII VS Kardio Implant Device EMDN",
+  "title": "MII_VS_Kardio_Implant_Device_EMDN",
   "description": "Implantierbare Devices nach EMDN",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-implant-device-emdn",
   "meta": {

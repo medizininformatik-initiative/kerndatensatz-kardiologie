@@ -1,8 +1,7 @@
 ValueSet: MII_VS_Kardio_Diagnose_ICD10GM
 Id: mii-vs-kardio-diagnose-icd10gm
-
-Title: "MII VS Kardio Diagnose ICD-10 GM"
-Description: "ICD10 GM Codes für kardiologische Erkrankungen"
+Title: "MII_VS_Kardio_Diagnose_ICD10-GM"
+Description: "ICD10-GM Codes für kardiologische Erkrankungen"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-diagnose-icd10gm"

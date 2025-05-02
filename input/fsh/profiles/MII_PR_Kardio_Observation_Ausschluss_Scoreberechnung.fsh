@@ -1,3 +1,8 @@
+Profile: MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung
+Id: mii-pr-kardio-observation-ausschluss-scoreberechnung
+Parent: Observation
+Title: "MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung"
+Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis."
 // Parent: Observation
 
 // TODO

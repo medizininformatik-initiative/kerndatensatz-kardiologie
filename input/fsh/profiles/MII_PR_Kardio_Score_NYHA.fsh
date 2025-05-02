@@ -2,7 +2,7 @@ Profile: MII_PR_Kardio_Score_NYHA
 Id: mii-pr-kardio-score-nyha
 Parent: Observation // sd-mii-icu-score
 
-Title: "MII PR Kardio Score NYHA"
+Title: "MII_PR_Kardio_Score_NYHA"
 Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association."
 
 // TODO Code binden, bspw LOINC/SNOMED, damit in Ressource drin steht, was abgebildet ist.

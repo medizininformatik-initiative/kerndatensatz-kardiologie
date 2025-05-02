@@ -1,5 +1,8 @@
-// TODO
-
+Profile: MII_PR_Kardio_DeviceMetric_DeviceMode
+Id: mii-pr-kardio-devicemetric-devicemode
+Parent: DeviceMetric
+Title: "MII_PR_Kardio_DeviceMetric_DeviceMode"
+Description: "Profil zur Angabe des Betriebsmodus eines Device im Kontext des Projekts Acribis."
 //Parent: DeviceMetric
 
 // BCN

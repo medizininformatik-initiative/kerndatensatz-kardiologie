@@ -3,7 +3,7 @@
   "id": "mii-ex-kardio-ageatadmission",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-ageatadmission",
   "name": "MII_EX_Kardio_AgeAtAdmission",
-  "title": "MII EX Kardio AgeExtension",
+  "title": "Extension - AgeExtension",
   "status": "draft",
   "description": "Diese Erweiterung gibt das berechnete Alter zum Zeitpunkt der Behandlung/Datenaufnahme basierend auf dem Geburtsdatum an.",
   "fhirVersion": "4.0.1",
@@ -23,7 +23,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "MII EX Kardio AgeExtension",
+        "short": "Extension - AgeExtension",
         "definition": "Diese Erweiterung gibt das berechnete Alter zum Zeitpunkt der Behandlung/Datenaufnahme basierend auf dem Geburtsdatum an."
       },
       {

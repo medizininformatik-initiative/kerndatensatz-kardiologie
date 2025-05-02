@@ -3,7 +3,7 @@
   "status": "draft",
   "name": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
   "id": "mii-vs-kardio-gewichtsveraenderung-snomed",
-  "title": "MII VS Kardio Gewichtsveraenderung SNOMED",
+  "title": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
   "description": "Beschreibung von Gewichtsveränderungen",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomed",
   "meta": {

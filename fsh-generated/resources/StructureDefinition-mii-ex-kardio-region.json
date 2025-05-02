@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "mii-pr-kardio-region",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-region",
-  "name": "MII_PR_Kardio_Region",
-  "title": "MII PR Kardio Region",
+  "id": "mii-ex-kardio-region",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-region",
+  "name": "MII_EX_Kardio_Region",
+  "title": "Extension - Region",
   "status": "draft",
   "description": "Angabe einer Region mit einem ValueSet (Region (Wohnort/Land) nach SMART-Score) definiert in ACRIBiS-Datensatz.",
   "fhirVersion": "4.0.1",
@@ -23,7 +23,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "MII PR Kardio Region",
+        "short": "Extension - Region",
         "definition": "Angabe einer Region mit einem ValueSet (Region (Wohnort/Land) nach SMART-Score) definiert in ACRIBiS-Datensatz."
       },
       {
@@ -34,7 +34,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-region"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-region"
       },
       {
         "id": "Extension.value[x]",

@@ -1,7 +1,7 @@
 ValueSet: MII_VS_Kardio_Gewichtsveraenderung_SNOMED
 Id: mii-vs-kardio-gewichtsveraenderung-snomed
 
-Title: "MII VS Kardio Gewichtsveraenderung SNOMED"
+Title: "MII_VS_Kardio_Gewichtsveraenderung_SNOMED"
 Description: "Beschreibung von Gewichtsveränderungen"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

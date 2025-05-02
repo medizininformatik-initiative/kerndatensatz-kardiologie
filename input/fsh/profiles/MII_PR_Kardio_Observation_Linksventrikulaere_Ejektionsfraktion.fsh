@@ -1,6 +1,8 @@
 Profile: MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion
 Id: mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion
-Parent: SD_MII_ICU_Monitoring_Und_Vitaldaten // wir müssten von Observation erben, da VS für SNOMED und LOINC hier zu restriktiv.
+Parent: Observation // VS zu restriktiv: SD_MII_ICU_Monitoring_Und_Vitaldaten
+Title: "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion"
+Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis."
 
 //ICU Vitalparameter 
 // https://simplifier.net/isik-vitalparameter-v4/sd_mii_icu_monitoring_und_vitaldaten

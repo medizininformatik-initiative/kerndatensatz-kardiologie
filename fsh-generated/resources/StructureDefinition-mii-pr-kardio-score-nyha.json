@@ -3,7 +3,7 @@
   "id": "mii-pr-kardio-score-nyha",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha",
   "name": "MII_PR_Kardio_Score_NYHA",
-  "title": "MII PR Kardio Score NYHA",
+  "title": "MII_PR_Kardio_Score_NYHA",
   "status": "draft",
   "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
   "fhirVersion": "4.0.1",

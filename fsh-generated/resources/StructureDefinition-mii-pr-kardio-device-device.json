@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-device-device",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device-device",
+  "name": "MII_PR_Kardio_Device_Device",
+  "title": "MII_PR_Kardio_Device_Device",
+  "status": "draft",
+  "description": "Profil zur Abbildung eines Device im Kontext des Projekts Acribis.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Device",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-icu/StructureDefinition/icu-device",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Device",
+        "path": "Device"
+      }
+    ]
+  }
+}

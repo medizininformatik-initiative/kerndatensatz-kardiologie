@@ -1,9 +1,9 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_Ethnie",
-  "id": "mii-vs-kardio-ethnie",
-  "title": "MII VS Kardio Ethnie",
+  "name": "MII_VS_Kardio_Ethnie_SNOMED",
+  "id": "mii-vs-kardio-ethnie-snomed",
+  "title": "MII_VS_Kardio_Ethnie_SNOMED",
   "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie",
   "meta": {

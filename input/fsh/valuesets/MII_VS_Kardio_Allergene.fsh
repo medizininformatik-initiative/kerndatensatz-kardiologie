@@ -1,7 +1,6 @@
 ValueSet: MII_VS_Kardio_Allergene_SNOMED
 Id: mii-vs-kardio-allergene-snomed
-
-Title: "MII VS Kardio Allergene SNOMED"
+Title: "MII_VS_Kardio_Allergene_SNOMED"
 Description: "Liste von Substanzen"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

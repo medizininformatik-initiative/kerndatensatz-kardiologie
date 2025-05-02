@@ -1,7 +1,6 @@
 ValueSet: MII_VS_Kardio_Implant_Device_EMDN
 Id: mii-vs-kardio-implant-device-emdn
-
-Title: "MII VS Kardio Implant Device EMDN"
+Title: "MII_VS_Kardio_Implant_Device_EMDN"
 Description: "Implantierbare Devices nach EMDN"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
@@ -13,7 +12,7 @@ Description: "Implantierbare Devices nach EMDN"
 * ^experimental = true
 * ^date = "2025-03-05"
 * ^version = "0.0.1"
-//* ^purpose = "."
+//* ^purpose = "." // TODO Copyright-Rule/Invariant?
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."
 
 // Filtern, auswählen von Codes

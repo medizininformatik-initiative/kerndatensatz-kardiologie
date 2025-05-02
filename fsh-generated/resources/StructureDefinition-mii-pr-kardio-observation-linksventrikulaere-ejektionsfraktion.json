@@ -3,12 +3,14 @@
   "id": "mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
   "name": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
+  "title": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
   "status": "draft",
+  "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/sd-mii-icu-monitoring-und-vitaldaten",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
   "derivation": "constraint",
   "differential": {
     "element": [

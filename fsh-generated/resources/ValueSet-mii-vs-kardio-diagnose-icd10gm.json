@@ -3,8 +3,8 @@
   "status": "draft",
   "name": "MII_VS_Kardio_Diagnose_ICD10GM",
   "id": "mii-vs-kardio-diagnose-icd10gm",
-  "title": "MII VS Kardio Diagnose ICD-10 GM",
-  "description": "ICD10 GM Codes für kardiologische Erkrankungen",
+  "title": "MII_VS_Kardio_Diagnose_ICD10-GM",
+  "description": "ICD10-GM Codes für kardiologische Erkrankungen",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-diagnose-icd10gm",
   "meta": {
     "profile": [

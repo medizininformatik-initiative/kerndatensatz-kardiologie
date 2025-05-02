@@ -61,7 +61,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 67
+    "endLine": 66
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-device-device.json",

@@ -32,6 +32,7 @@
         "id": "Condition.modifierExtension:AnamneseAntwort",
         "path": "Condition.modifierExtension",
         "sliceName": "AnamneseAntwort",
+        "comment": "Can contradict the presence of a diagnosis by stating the given diagnosis was answered or the status to stated as 'unknown', 'asked-unknown' or similar.",
         "min": 0,
         "max": "1",
         "type": [

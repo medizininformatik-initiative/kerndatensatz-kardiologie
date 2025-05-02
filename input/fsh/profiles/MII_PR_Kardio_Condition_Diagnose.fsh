@@ -51,24 +51,16 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * asserter ^comment = "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 
 //_________________________verificationStatus
-// Verification Status und die Angabe VS: Ja/Nein/unbekannt/weiß nicht --> http://terminology.hl7.org/CodeSystem/v2-0532
-//   modifierExtension notwendig --> verändert die Aussage anderer Werte in der Ressource 
-//   --> Diagnose-Code gegeben, aber modifier sagt, nicht vorhanden.
+// Verification Status und die Angabe: Ja/Nein/unbekannt/weiß nicht --> http://terminology.hl7.org/CodeSystem/v2-0532
+// modifierExtension notwendig --> verändert Aussage anderer Werte in Ressource --> e.g. Diagnose-Code gegeben, aber modifier sagt, nicht vorhanden.
 * modifierExtension contains $anamnese-antwort named AnamneseAntwort 0..1 MS
-// modifierExtension --> error
-// error Non-modifier extension https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort assigned to modifierExtension path. Non-modifier extensions should only be assigned to extension paths.
-  // File: /mnt/c/Dateien_Richter122/git-projects/kerndatensatz-kardiologie/input/fsh/profiles/MII_PR_Kardio_Condition_Diagnose.fsh
-  // Line: 34
+* modifierExtension[AnamneseAntwort] ^comment = "Can contradict the presence of a diagnosis by stating the given diagnosis was answered or the status to stated as 'unknown', 'asked-unknown' or similar."
 
-// TODO: modifierExtension
-// FHIR-invariant/rule: Abgleich mit VerificationStatus --> Plausibilität/Coconstraint prüfen
-// Vgl. GECCO --> evtl. alle Werte aus VS in modifierExtension schreiben   --> VS v2-xxx FHIR VS
-//   GECCO-Diagnose (Condition): https://simplifier.net/guide/GermanCoronaConsensusDataSet-ImplementationGuide/Home/GECCOCore/AnamnesisRiskfactors/Disordersofcardiovascularsystem.guide.md?version=current
+// TODO: FHIR-invariant/rule: Abgleich mit VerificationStatus --> Plausibilität/Coconstraint prüfen
 * verificationStatus 1..1 MS
-
-//_________________________
-// TODO invarianten
+// * insert invariant with plausi-check
 
 //_________________________extension-Feststellungsdatum
-// Feststellungsdatum oder assertedDate soll angegeben werden wenn vorhanden
 // Feststellungsdatum = Erstdiagnosedatum
+// Feststellungsdatum oder assertedDate soll angegeben werden wenn vorhanden
+* extension[Feststellungsdatum] 0..1 MS

@@ -8,3 +8,7 @@ Description: "Profil zur Erfassung des Datums eines artherosklerotischen Erstere
 // code code um anzugeben, welches ereignis das erste war: 
 // Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma.
 // datum als value
+
+// valueset für codes angeben
+
+* extension[Feststellungsdatum] 1..1 MS

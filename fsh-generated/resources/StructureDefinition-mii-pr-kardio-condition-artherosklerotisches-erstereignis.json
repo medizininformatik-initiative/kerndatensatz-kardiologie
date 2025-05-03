@@ -29,8 +29,15 @@
   "differential": {
     "element": [
       {
-        "id": "Condition",
-        "path": "Condition"
+        "id": "Condition.extension",
+        "path": "Condition.extension",
+        "min": 1
+      },
+      {
+        "id": "Condition.extension:Feststellungsdatum",
+        "path": "Condition.extension",
+        "sliceName": "Feststellungsdatum",
+        "min": 1
       }
     ]
   }

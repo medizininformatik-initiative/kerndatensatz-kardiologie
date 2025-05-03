@@ -48,14 +48,6 @@
     "endLine": 6
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-condition-artherosklerotisches-erstereignis.json",
-    "fshName": "MII_PR_Kardio_Condition_Artherosklerotisches_Erstereignis",
-    "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_Observation_Artherosklerotisches_Erstereignis.fsh",
-    "startLine": 1,
-    "endLine": 14
-  },
-  {
     "outputFile": "StructureDefinition-mii-pr-kardio-condition-diagnose.json",
     "fshName": "MII_PR_Kardio_Condition_Diagnose",
     "fshType": "Profile",
@@ -86,6 +78,14 @@
     "fshFile": "profiles/MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF.fsh",
     "startLine": 1,
     "endLine": 43
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-observation-artherosklerotisches-erstereignis.json",
+    "fshName": "MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_Condition_Artherosklerotisches_Erstereignis.fsh",
+    "startLine": 1,
+    "endLine": 16
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-ausschluss-scoreberechnung.json",
@@ -142,6 +142,14 @@
     "fshFile": "valuesets/MII_VS_Kardio_Allergene.fsh",
     "startLine": 1,
     "endLine": 57
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-artherosklerotische-ereignisse.json",
+    "fshName": "MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MII_VS_Kardio_artherosklerotische-ereignisse.fsh",
+    "startLine": 1,
+    "endLine": 18
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-diagnose-icd10gm.json",

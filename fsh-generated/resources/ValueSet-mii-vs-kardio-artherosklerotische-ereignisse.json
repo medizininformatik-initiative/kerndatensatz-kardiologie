@@ -1,0 +1,93 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED",
+  "id": "mii-vs-kardio-artherosklerotische-ereignisse",
+  "title": "MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED",
+  "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-artherosklerotische-ereignisse",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "53741008"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "266257000"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "88032003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "422504002"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "232035005"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "399957001"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "233985008"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "code",
+            "op": "=",
+            "value": "1287902001"
+          }
+        ]
+      }
+    ]
+  }
+}

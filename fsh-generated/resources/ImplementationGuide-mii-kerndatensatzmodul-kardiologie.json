@@ -115,14 +115,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-condition-artherosklerotisches-erstereignis"
-        },
-        "name": "MII_PR_Kardio_Diagnose_Artherosklerotisches_Erstereignis",
-        "description": "Profil zur Erfassung des Datums eines artherosklerotischen Erstereignisses im Kontext von ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
         },
         "name": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF",
@@ -135,6 +127,14 @@
         },
         "name": "MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung",
         "description": "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-artherosklerotisches-erstereignis"
+        },
+        "name": "MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis",
+        "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
       {
@@ -183,6 +183,14 @@
         },
         "name": "MII_VS_Kardio_Allergene_SNOMED",
         "description": "Liste von Substanzen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-artherosklerotische-ereignisse"
+        },
+        "name": "MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED",
+        "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
         "exampleBoolean": false
       },
       {

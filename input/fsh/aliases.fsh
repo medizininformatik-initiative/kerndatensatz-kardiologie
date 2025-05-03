@@ -6,7 +6,7 @@ Alias: $loinc = http://loinc.org
 Alias: $sct = http://snomed.info/sct
 
 Alias: $extended-condition-severity = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity
-
+Alias: $artherosklerotische-ereignisse = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-artherosklerotische-ereignisse
 //_________________
 
 Alias: $emdn = urn:oid:1.2.250.1.213.2.68 //urn:oid:1.2.250.1.213.2.68 //https://webgate.ec.europa.eu/dyna2/emdn/Z1206

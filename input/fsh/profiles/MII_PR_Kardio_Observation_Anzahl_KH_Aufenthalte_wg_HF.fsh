@@ -7,7 +7,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
 // Erlaubt aber auch Anzahl auf 1 zu setzen und Details in der component anzugeben
 
 * code.coding.system = $sct
-* code.coding.code = #32485007 //hospital admission (procedure)
+* code.coding.code = $sct#32485007 //hospital admission (procedure)
 
 // Anzahl als Value/Integer 
 * value[x] only integer

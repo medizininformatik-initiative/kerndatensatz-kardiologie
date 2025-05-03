@@ -1,7 +1,7 @@
 Profile: MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF
 Id: mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf
 Parent: Observation //korrekt so
-Title: "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte"
+Title: "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF"
 Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS."
 // Ermöglichen Anzahl Aufenhtalte wg. Herzinsuffizienz direkt anzugeben
 // Erlaubt aber auch Anzahl auf 1 zu setzen und Details in der component anzugeben

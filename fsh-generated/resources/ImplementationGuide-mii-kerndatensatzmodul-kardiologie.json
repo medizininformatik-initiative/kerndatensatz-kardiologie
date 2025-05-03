@@ -125,7 +125,7 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
         },
-        "name": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte",
+        "name": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF",
         "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },

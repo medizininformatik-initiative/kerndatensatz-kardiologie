@@ -85,7 +85,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF.fsh",
     "startLine": 1,
-    "endLine": 39
+    "endLine": 43
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-ausschluss-scoreberechnung.json",

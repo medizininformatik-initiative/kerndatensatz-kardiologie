@@ -6,13 +6,17 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
 // Ermöglichen Anzahl Aufenhtalte wg. Herzinsuffizienz direkt anzugeben
 // Erlaubt aber auch Anzahl auf 1 zu setzen und Details in der component anzugeben
 
+* code 1..1 MS
+* code.coding 1..1 MS
 * code.coding.system = $sct
 * code.coding.code = $sct#32485007 //hospital admission (procedure)
 
 // Anzahl als Value/Integer 
+* value[x] 1..1 MS
 * value[x] only integer
 
 // Component
+* component MS
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "$this"
 * component ^slicing.rules = #closed

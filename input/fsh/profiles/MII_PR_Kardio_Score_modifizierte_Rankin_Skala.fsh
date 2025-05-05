@@ -6,9 +6,14 @@ Title: "MII_PR_Kardio_Score_modifizierte_Rankin_Skala"
 Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala."
 
 // TODO Code binden, bspw LOINC/SNOMED, damit in Ressource drin steht, was abgebildet ist.
-// TODO ValueSet als Value[x]
+* code 1..1 MS
+* code.coding 1..1 MS
+* code.coding.system = $sct
+* code.coding.code = $sct#1255866005 (exactly) // 1255866005 = "Modified Rankin Scale score (observable entity)""
 
-// See CodeSystem/ValueSet mRS - MII_VS_Kardio_mRS_Stufen
+* value[x] 1..1 MS
+* value[x] only CodeableConcept
+* valueCodeableConcept from $modifizierte-rankin-skala (required)
 
 // Published: 1988, Van Swieten JC; Koudstaal PJ; Visser MC; Schouten HJA; Van Gijn J, 
 // Online: see https://pubmed.ncbi.nlm.nih.gov/3363593/

@@ -14,7 +14,6 @@
   "publisher": "https://www.medizininformatik-initiative.de",
   "experimental": true,
   "date": "2025-04-29",
-  "version": "0.0.1",
   "copyright": "Public Domain",
   "compose": {
     "include": [

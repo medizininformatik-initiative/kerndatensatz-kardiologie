@@ -5,14 +5,14 @@ Title: "MII_VS_Kardio_mRS_Stufen"
 Description: "Stufen der modifizierten Rankin-Skala"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen"
+//* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen"
 //* insert PR_CS_VS_Version
 //* insert Publisher //via rulesets TODO
 * ^publisher = "https://www.medizininformatik-initiative.de"
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-04-29"
-* ^version = "0.0.1"
+//^version = "1.0"
 //* ^purpose = "."
 * ^copyright = "Public Domain"
 

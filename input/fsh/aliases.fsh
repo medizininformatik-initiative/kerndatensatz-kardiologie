@@ -1,19 +1,24 @@
-Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category
+// CodeSystems/Terminologien
+Alias: $loinc = http://loinc.org
+Alias: $sct = http://snomed.info/sct
+Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
+Alias: $unitsofmeasure = http://unitsofmeasure.org
+
+// CodeSystems
 Alias: $anamnese-antwort = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort
 Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 
-Alias: $loinc = http://loinc.org
-Alias: $sct = http://snomed.info/sct
-
+//ValueSets
+Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category
 Alias: $extended-condition-severity = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity
 Alias: $artherosklerotische-ereignisse = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-artherosklerotische-ereignisse
+Alias: $modifizierte-rankin-skala = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala
+
 //_________________
 
 Alias: $emdn = urn:oid:1.2.250.1.213.2.68 //urn:oid:1.2.250.1.213.2.68 //https://webgate.ec.europa.eu/dyna2/emdn/Z1206
 // https://simplifier.net/mii-basismodul-medikation-2024/mii-cs-medikation-atc-2023
 // http://www.whocc.no/atc 
-Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
-Alias: $unitsofmeasure = http://unitsofmeasure.org
 Alias: $null-flavor = http://hl7.org/fhir/v3/NullFlavor
 Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS
 
@@ -21,7 +26,7 @@ Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/
 
 //Alias: $observation-de-vitalsign-koerpergewicht = http://fhir.de/StructureDefinition/observation-de-vitalsign-koerpergewicht
 
-// Others not yet used - to be deleted
+// Others not yet used - to be deleted?
 Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category

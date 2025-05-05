@@ -37,6 +37,11 @@
         "patternCode": "32485007"
       },
       {
+        "id": "Observation.code.coding.display",
+        "path": "Observation.code.coding.display",
+        "patternString": "hospital admission (procedure)"
+      },
+      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "min": 1,

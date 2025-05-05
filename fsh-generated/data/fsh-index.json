@@ -125,7 +125,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 16
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-nyha.json",
@@ -133,7 +133,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Score_NYHA.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 19
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-allergene-snomed.json",
@@ -149,7 +149,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_artherosklerotische-ereignisse.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 17
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-diagnose-icd10gm.json",
@@ -221,6 +221,6 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_NYHA-Klassen.fsh",
     "startLine": 1,
-    "endLine": 33
+    "endLine": 22
   }
 ]

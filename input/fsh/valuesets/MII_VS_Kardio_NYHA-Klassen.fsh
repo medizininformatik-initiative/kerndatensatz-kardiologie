@@ -1,6 +1,5 @@
 ValueSet: MII_VS_Kardio_NYHA_Klassen_SNOMED
 Id: mii-vs-kardio-nyha-klassen-snomed
-
 Title: "MII_VS_Kardio_NYHA_Klassen_SNOMED"
 Description: "Klassen der New York Heart Association Classification"
 
@@ -9,22 +8,12 @@ Description: "Klassen der New York Heart Association Classification"
 //* insert PR_CS_VS_Version
 //* insert Publisher //via rulesets TODO
 * ^publisher = "https://www.medizininformatik-initiative.de"
-* ^status = #draft
+* ^status = #active
 * ^experimental = true
 * ^date = "2025-03-05"
-* ^version = "0.0.1"
+//* ^version = "1.0"
 //* ^purpose = "."
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."
-
-// Filtern, auswählen von Codes
-// Einzelne Codes 
-  //* include codes from system http://www.whocc.no/atc
-  //* $atc#C10BA01 "Lovastatin und Nicotinsäure"
-// Gruppe hierarchischer Codes via in/is-a/=/!=:
-  //* include codes from system http://snomed.info/sct where concept in||is-a http://snomed.info/sct#123456
-  // Mit "in" statt "is-a" haben wir im Simplifier den Text "Include codes from SNOMED_CT where concept In 256277009"
-// Filter
-  // * include codes from system http://loinc.org where display matches '.*blood.*'
 
 // NYHA-Klassen
 * $sct#420300004 "New York Heart Association Classification - Class I"

@@ -10,71 +10,34 @@
     "include": [
       {
         "system": "http://snomed.info/sct",
-        "filter": [
+        "concept": [
           {
-            "property": "code",
-            "op": "=",
-            "value": "53741008"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
+            "code": "53741008",
+            "display": "Coronary arteriosclerosis (disorder)"
+          },
           {
-            "property": "code",
-            "op": "=",
-            "value": "88032003"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
+            "code": "88032003",
+            "display": "Amaurosis fugax (disorder)"
+          },
           {
-            "property": "code",
-            "op": "=",
-            "value": "422504002"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
+            "code": "422504002",
+            "display": "Ischemic stroke (disorder)"
+          },
           {
-            "property": "code",
-            "op": "=",
-            "value": "232035005"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
+            "code": "232035005",
+            "display": "Retinal artery occlusion (disorder)"
+          },
           {
-            "property": "code",
-            "op": "=",
-            "value": "399957001"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
+            "code": "399957001",
+            "display": "Peripheral arterial occlusive disease (disorder)"
+          },
           {
-            "property": "code",
-            "op": "=",
-            "value": "233985008"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
+            "code": "233985008",
+            "display": "Abdominal aortic aneurysm (disorder)"
+          },
           {
-            "property": "code",
-            "op": "=",
-            "value": "1287902001"
+            "code": "1287902001",
+            "display": "Operation on carotid artery (procedure)"
           }
         ]
       }

@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "MII_VS_Kardio_NYHA_Klassen_SNOMED",
   "id": "mii-vs-kardio-nyha-klassen-snomed",
   "title": "MII_VS_Kardio_NYHA_Klassen_SNOMED",
@@ -14,7 +14,6 @@
   "publisher": "https://www.medizininformatik-initiative.de",
   "experimental": true,
   "date": "2025-03-05",
-  "version": "0.0.1",
   "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
   "compose": {
     "include": [

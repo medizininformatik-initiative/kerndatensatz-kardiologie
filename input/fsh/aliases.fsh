@@ -1,7 +1,7 @@
 // CodeSystems/Terminologien
 Alias: $loinc = http://loinc.org
 Alias: $sct = http://snomed.info/sct
-Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
+Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc  // oder http://www.whocc.no/atc 
 Alias: $unitsofmeasure = http://unitsofmeasure.org
 
 // CodeSystems
@@ -12,15 +12,14 @@ Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category
 Alias: $extended-condition-severity = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity
 Alias: $artherosklerotische-ereignisse = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-artherosklerotische-ereignisse
-Alias: $modifizierte-rankin-skala = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen
+Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS
+Alias: $nyha-class-vs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomed
+
 
 //_________________
-
 Alias: $emdn = urn:oid:1.2.250.1.213.2.68 //urn:oid:1.2.250.1.213.2.68 //https://webgate.ec.europa.eu/dyna2/emdn/Z1206
-// https://simplifier.net/mii-basismodul-medikation-2024/mii-cs-medikation-atc-2023
-// http://www.whocc.no/atc 
 Alias: $null-flavor = http://hl7.org/fhir/v3/NullFlavor
-Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS
+
 
 //_________________
 

@@ -15,6 +15,8 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * value[x] only CodeableConcept
 * valueCodeableConcept from $modifizierte-rankin-skala (required)
 
+* bodySite 0..0
+
 // Published: 1988, Van Swieten JC; Koudstaal PJ; Visser MC; Schouten HJA; Van Gijn J, 
 // Online: see https://pubmed.ncbi.nlm.nih.gov/3363593/
 // Lizenzbedingungen: Public Domain --> https://eprovide.mapi-trust.org/instruments/modified-rankin-scale

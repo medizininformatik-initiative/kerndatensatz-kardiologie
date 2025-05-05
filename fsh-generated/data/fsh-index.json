@@ -125,7 +125,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 18
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-nyha.json",

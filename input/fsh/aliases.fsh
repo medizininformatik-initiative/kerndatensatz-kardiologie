@@ -12,7 +12,7 @@ Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category
 Alias: $extended-condition-severity = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity
 Alias: $artherosklerotische-ereignisse = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-artherosklerotische-ereignisse
-Alias: $modifizierte-rankin-skala = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala
+Alias: $modifizierte-rankin-skala = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen
 
 //_________________
 

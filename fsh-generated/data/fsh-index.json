@@ -213,7 +213,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_mRS.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 25
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-nyha-klassen-snomed.json",

@@ -1,6 +1,5 @@
 ValueSet: MII_VS_Kardio_mRS_Stufen
 Id: mii-vs-kardio-mrs-stufen
-
 Title: "MII_VS_Kardio_mRS_Stufen"
 Description: "Stufen der modifizierten Rankin-Skala"
 

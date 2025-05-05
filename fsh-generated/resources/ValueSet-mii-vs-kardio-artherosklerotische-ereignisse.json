@@ -24,16 +24,6 @@
           {
             "property": "code",
             "op": "=",
-            "value": "266257000"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
-          {
-            "property": "code",
-            "op": "=",
             "value": "88032003"
           }
         ]

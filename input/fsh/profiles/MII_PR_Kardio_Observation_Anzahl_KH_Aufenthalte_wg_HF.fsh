@@ -10,7 +10,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
 * code.coding 1..1 MS
 * code.coding.system = $sct
 * code.coding.code = $sct#32485007 //hospital admission (procedure)
-* code.coding.display = "hospital admission (procedure)"
+//* code.coding.display = "hospital admission (procedure)"
 
 // Anzahl als Value/Integer 
 * value[x] 1..1 MS

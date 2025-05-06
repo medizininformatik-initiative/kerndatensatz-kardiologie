@@ -11,7 +11,7 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 * code.coding 1..1 MS
 * code.coding.system = $sct
 * code.coding.code = $sct#420816009 (exactly) // 420816009 = "New York Heart Association Classification (assessment scale)"
-* code.coding.display = "New York Heart Association Classification (assessment scale)"
+//* code.coding.display = "New York Heart Association Classification (assessment scale)"
 
 * value[x] 1..1 MS
 * value[x] only CodeableConcept

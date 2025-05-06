@@ -8,7 +8,7 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * code.coding 1..1 MS
 * code.coding.system = $sct
 * code.coding.code = $sct#1255866005 (exactly) // 1255866005 = "Modified Rankin Scale score (observable entity)"
-* code.coding.display = "Modified Rankin Scale score (observable entity)"
+//* code.coding.display = "Modified Rankin Scale score (observable entity)"
 
 * value[x] 1..1 MS
 * value[x] only CodeableConcept

@@ -16,6 +16,7 @@
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
 [MII_VS_Kardio_Allergene_SNOMED]: ValueSet-mii-vs-kardio-allergene-snomed.html
 [MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED]: ValueSet-mii-vs-kardio-artherosklerotische-ereignisse.html
+[MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED]: ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.html
 [MII_VS_Kardio_Diagnose_ICD10GM]: ValueSet-mii-vs-kardio-diagnose-icd10gm.html
 [MII_VS_Kardio_Ethnie_SNOMED]: ValueSet-mii-vs-kardio-ethnie-snomed.html
 [MII_VS_Kardio_Extended_Condition_Severity_SNOMED]: ValueSet-mii-vs-kardio-extended-condition-severity.html

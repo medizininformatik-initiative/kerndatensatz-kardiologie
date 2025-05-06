@@ -126,7 +126,7 @@
           "reference": "StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
         },
         "name": "MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung",
-        "description": "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis.",
+        "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
         "exampleBoolean": false
       },
       {
@@ -191,6 +191,14 @@
         },
         "name": "MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED",
         "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-scores"
+        },
+        "name": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED",
+        "description": "ValueSet for exclusion criteria for score computation",
         "exampleBoolean": false
       },
       {

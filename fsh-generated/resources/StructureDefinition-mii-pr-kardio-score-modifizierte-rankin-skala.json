@@ -37,11 +37,6 @@
         "fixedCode": "1255866005"
       },
       {
-        "id": "Observation.code.coding.display",
-        "path": "Observation.code.coding.display",
-        "patternString": "Modified Rankin Scale score (observable entity)"
-      },
-      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "min": 1,

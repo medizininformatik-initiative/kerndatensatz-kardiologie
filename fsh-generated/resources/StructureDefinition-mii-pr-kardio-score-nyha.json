@@ -37,11 +37,6 @@
         "fixedCode": "420816009"
       },
       {
-        "id": "Observation.code.coding.display",
-        "path": "Observation.code.coding.display",
-        "patternString": "New York Heart Association Classification (assessment scale)"
-      },
-      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "min": 1,

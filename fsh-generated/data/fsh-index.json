@@ -93,7 +93,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 29
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion.json",
@@ -150,6 +150,14 @@
     "fshFile": "valuesets/MII_VS_Kardio_artherosklerotische-ereignisse.fsh",
     "startLine": 1,
     "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.json",
+    "fshName": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MII-VS-Kardio-Ausschlusskriterien-Acribis-Scores.fsh",
+    "startLine": 1,
+    "endLine": 18
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-diagnose-icd10gm.json",

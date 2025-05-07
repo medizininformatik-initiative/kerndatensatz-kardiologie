@@ -35,6 +35,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 //     Relevante Datenitems sind im Acribis-Datensatz 4.1.1 aufgelistet, müssen aber standortspezifisch gemappt werden.
 * code.coding[icd10-gm] 0..1 MS    // ist bereits must-support
 * code.coding[sct] 0..1 MS         // ist bereits must-support
+// TODO? ValueSet mit als preferred valueSet
 
 //_________________________recorder / asserter
 // IG: Benötigt Referenz auf Person --> PracticionerRole (Doctor) und Patient  

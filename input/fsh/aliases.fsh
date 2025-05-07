@@ -7,6 +7,7 @@ Alias: $unitsofmeasure = http://unitsofmeasure.org
 // CodeSystems
 Alias: $anamnese-antwort = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort
 Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
+Alias: $smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten
 
 //ValueSets
 Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category

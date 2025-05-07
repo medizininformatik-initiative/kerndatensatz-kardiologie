@@ -10,7 +10,7 @@
 [MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung]: StructureDefinition-mii-pr-kardio-observation-ausschluss-scoreberechnung.html
 [MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis]: StructureDefinition-mii-pr-kardio-observation-artherosklerotisches-erstereignis.html
 [MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion]: StructureDefinition-mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion.html
-[MII_PR_Kardio_Obseration_Rauchen]: StructureDefinition-mii-pr-kardio-observation-rauchen.html
+[MII_PR_Kardio_Observation_Rauchen]: StructureDefinition-mii-pr-kardio-observation-rauchen.html
 [MII_PR_Kardio_Procedure_Implantation]: StructureDefinition-mii-pr-kardio-procedure-implantation.html
 [MII_PR_Kardio_Score_modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
@@ -26,4 +26,5 @@
 [MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
 [MII_VS_Kardio_mRS_Stufen]: ValueSet-mii-vs-kardio-mrs-stufen.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMED]: ValueSet-mii-vs-kardio-nyha-klassen-snomed.html
+[MII_VS_Rauchen_Einheiten_LOCAL]: CodeSystem-mii-cs-rauchen-einheiten.html
 [kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html

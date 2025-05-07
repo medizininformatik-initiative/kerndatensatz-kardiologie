@@ -1,0 +1,28 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MII_VS_Rauchen_Einheiten_LOCAL",
+  "id": "mii-cs-rauchen-einheiten",
+  "title": "MII_VS_Rauchen_Einheiten_LOCAL",
+  "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten",
+  "concept": [
+    {
+      "code": "pack-years",
+      "display": "Packungsjahre",
+      "definition": "Anzahl der Packungsjahre (pack-years)"
+    },
+    {
+      "code": "packs-per-day",
+      "display": "Packungen pro Tag",
+      "definition": "Anzahl der täglich gerauchten Packungen"
+    },
+    {
+      "code": "cigarettes-per-day",
+      "display": "Zigaretten pro Tag",
+      "definition": "Anzahl der täglich gerauchten Zigaretten"
+    }
+  ],
+  "count": 3
+}

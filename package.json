@@ -9,6 +9,7 @@
     "de.medizininformatikinitiative.kerndatensatz.icu": "2025.0.4",
     "de.gematik.isik-vitalparameter": "4.0.2",
     "de.medizininformatikinitiative.kerndatensatz.diagnose": "2025.0.0",
-    "de.medizininformatikinitiative.kerndatensatz.prozedur": "2025.0.0"
+    "de.medizininformatikinitiative.kerndatensatz.prozedur": "2025.0.0",
+    "de.gematik.isik-basismodul": "4.0.3"
   }
 }

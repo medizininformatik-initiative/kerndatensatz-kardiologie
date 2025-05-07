@@ -16,6 +16,14 @@
     "endLine": 25
   },
   {
+    "outputFile": "CodeSystem-mii-cs-rauchen-einheiten.json",
+    "fshName": "MII_VS_Rauchen_Einheiten_LOCAL",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/MII_CS_Karido_Rauchen_Einheiten.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
     "outputFile": "Questionnaire-kardio-patientenfragebogen.json",
     "fshName": "kardio-patientenfragebogen",
     "fshType": "Instance",
@@ -105,11 +113,11 @@
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-rauchen.json",
-    "fshName": "MII_PR_Kardio_Obseration_Rauchen",
+    "fshName": "MII_PR_Kardio_Observation_Rauchen",
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Rauchen.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 60
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-procedure-implantation.json",

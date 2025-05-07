@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-observation-rauchen",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen",
-  "name": "MII_PR_Kardio_Obseration_Rauchen",
+  "name": "MII_PR_Kardio_Observation_Rauchen",
   "title": "MII_PR_Kardio_Observation_Rauchen",
   "status": "draft",
   "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
@@ -10,13 +10,201 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus",
   "derivation": "constraint",
   "differential": {
     "element": [
       {
-        "id": "Observation",
-        "path": "Observation"
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open",
+          "ordered": false,
+          "description": "Zusätzliche Angaben zum Rauchverhalten."
+        }
+      },
+      {
+        "id": "Observation.component:packungsjahre",
+        "path": "Observation.component",
+        "sliceName": "packungsjahre",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:packungsjahre.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "pack-years",
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:packungsjahre.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:packungsjahre.value[x].comparator",
+        "path": "Observation.component.value[x].comparator",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:packungsjahre.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "patternString": "Packungsjahre"
+      },
+      {
+        "id": "Observation.component:packungsjahre.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten"
+      },
+      {
+        "id": "Observation.component:packungsjahre.value[x].code",
+        "path": "Observation.component.value[x].code",
+        "patternCode": "pack-years"
+      },
+      {
+        "id": "Observation.component:packungenProTag",
+        "path": "Observation.component",
+        "sliceName": "packungenProTag",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:packungenProTag.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "packs-per-day",
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:packungenProTag.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:packungenProTag.value[x].comparator",
+        "path": "Observation.component.value[x].comparator",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:packungenProTag.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "patternString": "Packungen pro Tag"
+      },
+      {
+        "id": "Observation.component:packungenProTag.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten"
+      },
+      {
+        "id": "Observation.component:packungenProTag.value[x].code",
+        "path": "Observation.component.value[x].code",
+        "patternCode": "packs-per-day"
+      },
+      {
+        "id": "Observation.component:zigarettenProTag",
+        "path": "Observation.component",
+        "sliceName": "zigarettenProTag",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:zigarettenProTag.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "cigarettes-per-day",
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:zigarettenProTag.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:rauchbeginn",
+        "path": "Observation.component",
+        "sliceName": "rauchbeginn",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Observation.component:rauchbeginn.value[x]",
+        "path": "Observation.component.value[x]",
+        "comment": "Die Angabe von 'fuzzy'-Datumsangaben mit nicht definiertem Monat oder Tag ist möglich.",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:rauchdauer",
+        "path": "Observation.component",
+        "sliceName": "rauchdauer",
+        "min": 0,
+        "max": "*"
+      },
+      {
+        "id": "Observation.component:rauchdauer.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:rauchdauer.value[x].comparator",
+        "path": "Observation.component.value[x].comparator",
+        "min": 1
+      },
+      {
+        "id": "Observation.component:rauchdauer.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "patternString": "year"
+      },
+      {
+        "id": "Observation.component:rauchdauer.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "patternUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component:rauchdauer.value[x].code",
+        "path": "Observation.component.value[x].code",
+        "patternCode": "a"
       }
     ]
   }

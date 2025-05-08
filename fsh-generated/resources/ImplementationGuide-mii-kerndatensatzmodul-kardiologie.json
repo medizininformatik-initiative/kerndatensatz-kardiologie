@@ -107,8 +107,8 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-devicemetric"
         },
-        "name": "MII PR Kardio DeviceMetric (Art des Device)",
-        "description": "Profil zur Angabe des Betriebsmodus eines Device im Kontext des Projekts Acribis.",
+        "name": "MII PR Kardio DeviceMetric",
+        "description": "Profil zur Angabe von Messungen, Einstellungen und Berechnungen eines Device.\r\nIm Kontext des Projekts ACRIBiS soll hiermit vor allem die Programmierungen/Modi von Schrittmachern abgebildet werden.",
         "exampleBoolean": false
       },
       {

@@ -97,6 +97,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-kardiale-implantat-modi"
+        },
+        "name": "MII_CS_Kardio_Kardiale_Implantat_Modi_LOCAL",
+        "description": "Lokales Valueset für die Dokumentation des Funktionsmodus eines kardialen Implantats. In Zukunft Angabe über EMDN-Codes in Betracht ziehen/prüfen.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
         },
         "name": "MII_PR_Kardio_Condition_Diagnose",
@@ -205,6 +213,14 @@
         },
         "name": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED",
         "description": "ValueSet for exclusion criteria for score computation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-device-types"
+        },
+        "name": "MII_VS_Kardio_Device_Types_SNOMED",
+        "description": "ValueSet for cardial device operation modes for cardial implantable devices.",
         "exampleBoolean": false
       },
       {

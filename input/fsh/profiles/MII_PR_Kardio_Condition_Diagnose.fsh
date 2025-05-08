@@ -29,12 +29,17 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * severity from $extended-condition-severity (preferred)
 * severity ^comment = "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis." 
 
+// Subject
+* subject 1..1 MS
+* subject only Reference(Patient)
+
 //_________________________Code
 // IG: Grundsätzlich kann eine Diagnose oder "Problem-List-Item" als ICD10-Codes oder per SNOMED-Code angegeben werden.
 //     Die Verwendung des SNOMED-Codes statt ICD10-Code bietet sich bspw. bei Verwendung von Anamnese-/Fragebogenantworten an.
 //     Relevante Datenitems sind im Acribis-Datensatz 4.1.1 aufgelistet, müssen aber standortspezifisch gemappt werden.
 * code.coding[icd10-gm] 0..1 MS    // ist bereits must-support
 * code.coding[sct] 0..1 MS         // ist bereits must-support
+// TODO? Example-VS mit allen Codes die in Acribis relevant sind?
 
 //_________________________recorder / asserter
 // IG: Benötigt Referenz auf Person --> PracticionerRole (Doctor) und Patient  
@@ -46,8 +51,12 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 //     Patient/study nurse (practicioner role) recorder --> arzt asserter = standardfall bei Patientenfragebogen
 // MS, damit (bei Vorhandensein der Information) die Angabe erfolgt und das in FDPG berücksichtigt wird.
 * recorder 0..1 MS
+* recorder ^isModifier = true
+* recorder ^isModifierReason = "Can express the uncertainty of a diagnosis by stating a recorder that is not authorized to define an confirmed diagnosis."
 * recorder ^comment = "Allows documentation about who recorded the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 * asserter 0..1 MS
+* asserter ^isModifier = true
+* asserter ^isModifierReason = "Can express the uncertainty of a diagnosis by stating a asserter that is not authorized to define an confirmed diagnosis."
 * asserter ^comment = "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 
 //_________________________verificationStatus

@@ -33,8 +33,8 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 // IG: Grundsätzlich kann eine Diagnose oder "Problem-List-Item" als ICD10-Codes oder per SNOMED-Code angegeben werden.
 //     Die Verwendung des SNOMED-Codes statt ICD10-Code bietet sich bspw. bei Verwendung von Anamnese-/Fragebogenantworten an.
 //     Relevante Datenitems sind im Acribis-Datensatz 4.1.1 aufgelistet, müssen aber standortspezifisch gemappt werden.
-* code.coding[icd10-gm] 0..1 MS    // ist bereits must-support
-* code.coding[sct] 0..1 MS         // ist bereits must-support
+// * code.coding[icd10-gm] 0..1 MS    // ist bereits must-support
+// * code.coding[sct] 0..1 MS         // ist bereits must-support
 
 //_________________________recorder / asserter
 // IG: Benötigt Referenz auf Person --> PracticionerRole (Doctor) und Patient  

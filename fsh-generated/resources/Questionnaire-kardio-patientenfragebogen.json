@@ -119,7 +119,7 @@
             "code": "Y"
           },
           "question": "q1",
-          "operator": "equals"
+          "operator": "="
         }
       ],
       "linkId": "q6",

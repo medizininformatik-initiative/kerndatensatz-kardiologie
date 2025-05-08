@@ -68,7 +68,7 @@ Usage: #definition
 * item[=].type = #text
 // EnableWhen: Frage q6 wird nur angezeigt, wenn Frage q1 mit "Ja" beantwortet wurde
 * item[=].enableWhen[+].question = "q1"
-* item[=].enableWhen[=].operator = #equals
+* item[=].enableWhen[=].operator = http://hl7.org/fhir/questionnaire-enable-operator#=
 * item[=].enableWhen[=].answerCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0136"
 * item[=].enableWhen[=].answerCoding.code = #Y
 

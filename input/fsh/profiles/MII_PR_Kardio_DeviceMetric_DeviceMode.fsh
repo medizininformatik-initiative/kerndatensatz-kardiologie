@@ -1,7 +1,7 @@
-Profile: MII_PR_Kardio_DeviceMetric_DeviceMode
-Id: mii-pr-kardio-devicemetric-devicemode
+Profile: MII_PR_Kardio_DeviceMetric
+Id: mii-pr-kardio-devicemetric
 Parent: DeviceMetric
-Title: "MII_PR_Kardio_DeviceMetric_DeviceMode"
+Title: "MII PR Kardio DeviceMetric (Art des Device)"
 Description: "Profil zur Angabe des Betriebsmodus eines Device im Kontext des Projekts Acribis."
 //Parent: DeviceMetric
 

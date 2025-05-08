@@ -1,5 +1,5 @@
 {
-  "updated": "2025-05-07T10:06:20.8181387+02:00",
+  "updated": "2025-05-08T14:28:35.9108486+02:00",
   "dependencies": {
     "de.medizininformatikinitiative.kerndatensatz.icu": "2025.0.4",
     "hl7.fhir.r4.core": "4.0.1",

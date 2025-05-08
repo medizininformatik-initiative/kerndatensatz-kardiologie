@@ -97,26 +97,26 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
+          "reference": "StructureDefinition/mii-pr-kardio-device"
         },
-        "name": "MII_PR_Kardio_Condition_Diagnose",
-        "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
+        "name": "MII PR Kardio Device",
+        "description": "Profil zur Abbildung eines Device.\r\nIm Kontext des Projekts ACRIBiS soll das Vorliegen, die Art und die Programmierung eines Herzschrittmachers/Defibrillators oder eines Herzunterstützungssystems abgebildet werden.\r\nDazu kann dieses Profil zusammen mit einer DeviceMetric verwendet werden.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-devicemetric-devicemode"
+          "reference": "StructureDefinition/mii-pr-kardio-devicemetric"
         },
-        "name": "MII_PR_Kardio_DeviceMetric_DeviceMode",
+        "name": "MII PR Kardio DeviceMetric (Art des Device)",
         "description": "Profil zur Angabe des Betriebsmodus eines Device im Kontext des Projekts Acribis.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-device-device"
+          "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
         },
-        "name": "MII_PR_Kardio_Device_Device",
-        "description": "Profil zur Abbildung eines Device im Kontext des Projekts Acribis.",
+        "name": "MII_PR_Kardio_Condition_Diagnose",
+        "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
         "exampleBoolean": false
       },
       {

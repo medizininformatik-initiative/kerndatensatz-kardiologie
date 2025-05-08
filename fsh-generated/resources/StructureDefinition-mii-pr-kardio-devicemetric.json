@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "mii-pr-kardio-devicemetric-devicemode",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-devicemetric-devicemode",
-  "name": "MII_PR_Kardio_DeviceMetric_DeviceMode",
-  "title": "MII_PR_Kardio_DeviceMetric_DeviceMode",
+  "id": "mii-pr-kardio-devicemetric",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-devicemetric",
+  "name": "MII_PR_Kardio_DeviceMetric",
+  "title": "MII PR Kardio DeviceMetric (Art des Device)",
   "status": "draft",
   "description": "Profil zur Angabe des Betriebsmodus eines Device im Kontext des Projekts Acribis.",
   "fhirVersion": "4.0.1",

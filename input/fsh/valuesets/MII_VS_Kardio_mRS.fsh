@@ -23,7 +23,8 @@ Description: "Stufen der modifizierten Rankin-Skala"
 * $mRS#mRS4 "Es besteht eine höhergradige Beeinträchtigung. Der Patient ist nicht mehr in der Lage, seinen Körper zu pflegen oder selbstständig zu laufen."
 * $mRS#mRS5 "Es besteht eine schwere Behinderung. Der Patient ist bettlägerig, inkontinent und auf ständige Pflege angewiesen."
 * $mRS#mRS6 "Tod infolge des Schlaganfalls"
-
+* $mRS#mRSbiggerequal3 "asdasd" //TODO Comparator >= angebbar bei VS? TODO
+* $mRS#mRSsmaller3 "asdasd" //TODO Comparator >= angebbar bei VS? TODO
 // Published: 1988, Van Swieten JC; Koudstaal PJ; Visser MC; Schouten HJA; Van Gijn J, 
 // Online: see https://pubmed.ncbi.nlm.nih.gov/3363593/
 // Lizenzbedingungen: Public Domain --> https://eprovide.mapi-trust.org/instruments/modified-rankin-scale

@@ -11,6 +11,8 @@ Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Er
 * code.coding 1..1 MS
 * code.coding from $artherosklerotische-ereignisse (preferred) //TODO SNOMED/ICD
 
+// TODO Subject Patient MS 1..1
+
 // Erstdiagnosedatum als Feststellungsdatum der Condition/Observation
 * value[x] only dateTime
 * valueDateTime 1..1 MS
@@ -19,3 +21,6 @@ Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Er
 //_____________________
 //Diskussion: Observation mit SNOMED Code oder Condition mit SNOMED oder ICD-Code? --> Observation
 //Wenn "Operation an den Karotiden" (Prozedur) teil des ValueSets ist, lässt sich das ganze nicht als Diagnose abbilden.
+
+
+// IG Hinweis, dass evtl. aus Diagnosen abgefragt werden / soll kann. Standortabhängig? Feedback abwarten, bei Bedarf diskutieren.

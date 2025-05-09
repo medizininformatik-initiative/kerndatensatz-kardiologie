@@ -9,6 +9,8 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 
 // value[x] from https://gematik.de/fhir/isik/ValueSet/current-smoking-status-uv-ips
 
+// BEZUG AUF PATIENT MS 1..1 TODO
+
 // Überlegung für Zukunft fuer Allgemeinen Datensatz:
   // Fuer weitere Details --> neue Observatin zu "history of tobacco use"
   // history of tobacco use --> pack years und dauer rauche seit x jahren

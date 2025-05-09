@@ -73,3 +73,5 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 // Feststellungsdatum = Erstdiagnosedatum
 // Feststellungsdatum oder assertedDate soll angegeben werden wenn vorhanden
 * extension[Feststellungsdatum] 0..1 MS
+
+// IG TODO beschreiben, wie man welche wege angibt

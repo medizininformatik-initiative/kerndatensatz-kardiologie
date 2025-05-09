@@ -10,6 +10,10 @@ Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnu
 // TODO: Beschreibung dahingehend anpassen
 * ^description = "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann."
 
+// TODO Code für Ressource festlegen
+
+// Patientenbezug vorschreiben MS! TODO
+
 // Nur Items die wir in Acribis brauchen, die nicht aus der Prozedur ablesbar sind, sollen als Observation angelegt werden.
 // Prozeduren sind normalerweise als KDS-Prozedur angelegt (cAVK Prozedur, Herzklappenerkrankung-Eingriff).
   //   --> Focus-Element mit Referenz auf Diagnose-Condition oder Prozedur - nice-to-have
@@ -28,4 +32,6 @@ Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnu
 * value[x] only CodeableConcept
 * valueCodeableConcept from $ausschlusskriterien-acribis-scores-vs (preferred)
 
-// TODO - evtl. noch weitere Ausschlusskriterien hinzunehmen
+// TODO - evtl. noch weitere Ausschlusskriterien zum VS hinzunehmen
+// - angeborener herzfehler --> COdes prüfen und hinzufügen
+// * $mRS#mRSbigger3 "asdasd" //TODO ??

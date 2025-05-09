@@ -19,3 +19,7 @@ Description: "Profil zur Erfassung eines implantierten Devices mit Referenz auf 
 
 * usedReference 1..* MS
 * usedReference only Reference(Device)
+
+
+
+// Anmerkung FE: Wieviele Sonden hat das Gerät --> andere Metric / erstmal nicht für Acribis --> dann für KDS Kardio gesamt

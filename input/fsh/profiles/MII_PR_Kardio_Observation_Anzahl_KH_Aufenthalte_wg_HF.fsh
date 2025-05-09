@@ -16,6 +16,8 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
 * value[x] 1..1 MS
 * value[x] only integer
 
+// TODO Subject 1..1 MS Reference(Patient)
+
 // Component
 * component MS
 * component ^slicing.discriminator.type = #pattern
@@ -33,6 +35,8 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
 * component[Grund].valueString = "Herzinsuffizienz"
 * component[Grund].code = $sct#84114007 // Heart failure (Herzinsuffizienz)
 * component[Grund].valueCodeableConcept = $sct#84114007 "Heart failure"
+
+// TODO: Codes muss geprüft werden. Eventuell sind noch weitere Codes relevant. Nicht immer wird bei Aufnahme wg. HF unbedingt HF angegeben --> indirekte Hinweise berücksichtigen?
 
 // Dauer
 * component[Dauer].valueDuration

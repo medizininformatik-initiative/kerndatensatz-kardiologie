@@ -33,3 +33,6 @@ Description: "Profil zur Angabe des Betriebsmodus eines Device im Kontext des Pr
   // □ VVI-Schrittmacher
   // □ DDD-Schrittmacher
   // □ unbekannt   
+
+
+

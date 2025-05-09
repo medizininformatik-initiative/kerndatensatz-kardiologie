@@ -75,7 +75,7 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-devicemetric.json",
     "fshName": "MII_PR_Kardio_DeviceMetric",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_DeviceMetric_DeviceMode.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_DeviceMetric.fsh",
     "startLine": 1,
     "endLine": 15
   },

@@ -56,6 +56,14 @@
     "endLine": 6
   },
   {
+    "outputFile": "StructureDefinition-mii-pr-kardio-brady-pacing-mode.json",
+    "fshName": "MII_PR_Kardio_Brady_Pacing_Mode",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_Brady_Pacing_Mode.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
     "outputFile": "StructureDefinition-mii-pr-kardio-condition-diagnose.json",
     "fshName": "MII_PR_Kardio_Condition_Diagnose",
     "fshType": "Profile",
@@ -69,15 +77,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
     "startLine": 1,
-    "endLine": 20
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio-devicemetric.json",
-    "fshName": "MII_PR_Kardio_DeviceMetric",
-    "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_DeviceMetric.fsh",
-    "startLine": 1,
-    "endLine": 15
+    "endLine": 18
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",

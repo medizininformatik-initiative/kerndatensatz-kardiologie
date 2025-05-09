@@ -3,8 +3,8 @@
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
 [MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
+[MII_PR_Kardio_Brady_Pacing_Mode]: StructureDefinition-mii-pr-kardio-brady-pacing-mode.html
 [MII_PR_Kardio_Device]: StructureDefinition-mii-pr-kardio-device.html
-[MII_PR_Kardio_DeviceMetric]: StructureDefinition-mii-pr-kardio-devicemetric.html
 [MII_PR_Kardio_Condition_Diagnose]: StructureDefinition-mii-pr-kardio-condition-diagnose.html
 [MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF]: StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.html
 [MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung]: StructureDefinition-mii-pr-kardio-observation-ausschluss-scoreberechnung.html

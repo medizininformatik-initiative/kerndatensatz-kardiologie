@@ -97,18 +97,18 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-device"
+          "reference": "StructureDefinition/mii-pr-kardio-brady-pacing-mode"
         },
-        "name": "MII PR Kardio Device",
-        "description": "Profil zur Abbildung eines Device.\r\nIm Kontext des Projekts ACRIBiS soll das Vorliegen, die Art und die Programmierung eines Herzschrittmachers/Defibrillators oder eines Herzunterstützungssystems abgebildet werden.\r\nDazu kann dieses Profil zusammen mit einer DeviceMetric verwendet werden.",
+        "name": "MII PR Kardio Brady Pacing Mode",
+        "description": "Dieses Profil bildet die DeviceMetric \"Brady Pacing Mode\" eines Herzschrittmacher nach dem NBG-Standard ab.\r\nEine konkrete Programmierung eines Herzschrittmachers wird in einer Observation abgebildet.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-devicemetric"
+          "reference": "StructureDefinition/mii-pr-kardio-device"
         },
-        "name": "MII PR Kardio DeviceMetric",
-        "description": "Profil zur Angabe von Messungen, Einstellungen und Berechnungen eines Device.\r\nIm Kontext des Projekts ACRIBiS soll hiermit vor allem die Programmierungen/Modi von Schrittmachern abgebildet werden.",
+        "name": "MII PR Kardio Device",
+        "description": "Profil zur Abbildung eines implantierten Herzschrittmachers, Defibrillators oder ventrikulären Unterstützungssystems.",
         "exampleBoolean": false
       },
       {

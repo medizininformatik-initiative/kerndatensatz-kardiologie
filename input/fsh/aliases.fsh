@@ -17,6 +17,7 @@ Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/
 Alias: $nyha-class-vs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomed
 Alias: $ausschlusskriterien-acribis-scores-vs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-scores
 Alias: $device-type = http://hl7.org/fhir/ValueSet/device-type
+Alias: $devicemetric-type = http://hl7.org/fhir/ValueSet/devicemetric-type
 
 //_________________
 Alias: $emdn = urn:oid:1.2.250.1.213.2.68 //urn:oid:1.2.250.1.213.2.68 //https://webgate.ec.europa.eu/dyna2/emdn/Z1206

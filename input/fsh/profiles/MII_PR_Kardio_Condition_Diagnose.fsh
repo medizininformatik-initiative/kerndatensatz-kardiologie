@@ -1,7 +1,7 @@
 Profile: MII_PR_Kardio_Condition_Diagnose
 Id: mii-pr-kardio-condition-diagnose
 Parent: MII_PR_Diagnose_Condition
-Title: "MII_PR_Kardio_Condition_Diagnose"
+Title: "MII PR Kardio Condition Diagnose"
 Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis."
 
 //_________________________category

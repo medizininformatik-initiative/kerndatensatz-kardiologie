@@ -1,7 +1,7 @@
 Profile: MII_PR_Kardio_Score_modifizierte_Rankin_Skala
 Id: mii-pr-kardio-score-modifizierte-rankin-skala
 Parent: Observation //sd-mii-icu-score
-Title: "MII_PR_Kardio_Score_modifizierte_Rankin_Skala"
+Title: "MII PR Kardio Score modifizierte Rankin Skala"
 Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala."
 
 * code 1..1 MS
@@ -10,7 +10,9 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * code.coding.code = $sct#1255866005 (exactly) // 1255866005 = "Modified Rankin Scale score (observable entity)"
 //* code.coding.display = "Modified Rankin Scale score (observable entity)"
 
-// TODO Pateintenbzug MS
+// Pateintenbzug MS
+* subject 1..1 MS
+* subject Reference(Patient)
 
 * value[x] 1..1 MS
 * value[x] only CodeableConcept

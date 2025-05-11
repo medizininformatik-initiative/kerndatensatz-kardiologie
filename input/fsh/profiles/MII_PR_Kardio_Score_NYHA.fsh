@@ -15,7 +15,7 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 
 // Pateintenbzug MS
 * subject 1..1 MS
-* subject Reference(Patient)
+* subject only Reference(Patient)
 
 * value[x] 1..1 MS
 * value[x] only CodeableConcept

@@ -1,7 +1,6 @@
 Profile: MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis
 Id: mii-pr-kardio-observation-artherosklerotisches-erstereignis
 Parent: Observation //MII_PR_Diagnose_Condition
-
 Title: "MII PR Kardio Observation Datum Artherosklerotisches Erstereignis"
 Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS."
 
@@ -13,7 +12,7 @@ Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Er
 
 // Subject Patient MS 1..1
 * subject 1..1 MS
-* subject Reference(Patient)
+* subject only Reference(Patient)
 
 // Erstdiagnosedatum als Feststellungsdatum der Condition/Observation
 * value[x] only dateTime

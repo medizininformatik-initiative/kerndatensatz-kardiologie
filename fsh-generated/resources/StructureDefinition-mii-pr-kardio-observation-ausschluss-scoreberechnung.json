@@ -3,7 +3,7 @@
   "id": "mii-pr-kardio-observation-ausschluss-scoreberechnung",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung",
   "name": "MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung",
-  "title": "MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung",
+  "title": "MII PR Kardio Observation Ausschluss ScoreBerechnung",
   "status": "draft",
   "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
   "fhirVersion": "4.0.1",
@@ -14,6 +14,35 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.system",
+        "path": "Observation.code.coding.system",
+        "patternUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "patternCode": "77765009"
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
       {
         "id": "Observation.focus",
         "path": "Observation.focus",

@@ -12,7 +12,7 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 
 // Pateintenbzug MS
 * subject 1..1 MS
-* subject Reference(Patient)
+* subject only Reference(Patient)
 
 * value[x] 1..1 MS
 * value[x] only CodeableConcept

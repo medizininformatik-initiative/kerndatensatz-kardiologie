@@ -17,7 +17,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
 
 // Subject 1..1 MS Reference(Patient)
 * subject 1..1 MS
-* subject Reference(Patient)
+* subject only Reference(Patient)
 
 // Component
 * component MS

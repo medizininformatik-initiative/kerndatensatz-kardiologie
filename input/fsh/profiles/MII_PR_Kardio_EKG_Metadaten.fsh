@@ -7,7 +7,7 @@ Description: "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz a
 //* code = SNOMED TODO
 
 * subject 1..1 MS
-* Subject Reference(Patient)
+* subject only Reference(Patient)
 
 * focalDevice 1..* MS
 

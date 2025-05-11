@@ -11,7 +11,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 
 // BEZUG AUF PATIENT MS 1..1
 * subject 1..1 MS
-* subject Reference(Patient)
+* subject only Reference(Patient)
 
 // Überlegung für Zukunft fuer Allgemeinen Datensatz:
   // Fuer weitere Details --> neue Observatin zu "history of tobacco use"

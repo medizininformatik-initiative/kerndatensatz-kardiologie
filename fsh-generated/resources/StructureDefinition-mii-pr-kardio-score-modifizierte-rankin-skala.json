@@ -3,7 +3,7 @@
   "id": "mii-pr-kardio-score-modifizierte-rankin-skala",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala",
   "name": "MII_PR_Kardio_Score_modifizierte_Rankin_Skala",
-  "title": "MII_PR_Kardio_Score_modifizierte_Rankin_Skala",
+  "title": "MII PR Kardio Score modifizierte Rankin Skala",
   "status": "draft",
   "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
   "fhirVersion": "4.0.1",
@@ -35,6 +35,20 @@
         "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
         "fixedCode": "1255866005"
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.value[x]",

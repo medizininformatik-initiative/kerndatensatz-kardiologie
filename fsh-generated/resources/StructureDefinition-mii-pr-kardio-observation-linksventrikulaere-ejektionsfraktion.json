@@ -3,7 +3,7 @@
   "id": "mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
   "name": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
-  "title": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
+  "title": "MII PR Kardio Observation Linksventrikulaere Ejektionsfraktion",
   "status": "draft",
   "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
   "fhirVersion": "4.0.1",

@@ -15,7 +15,7 @@ Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnu
 
 // Patientenbezug vorschreiben MS! TODO
 * subject 1..1 MS
-* subject Reference(Patient)
+* subject only Reference(Patient)
 
 // Nur Items die wir in Acribis brauchen, die nicht aus der Prozedur ablesbar sind, sollen als Observation angelegt werden.
 // Prozeduren sind normalerweise als KDS-Prozedur angelegt (cAVK Prozedur, Herzklappenerkrankung-Eingriff).

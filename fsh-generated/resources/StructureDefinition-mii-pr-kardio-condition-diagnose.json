@@ -17,7 +17,7 @@
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-diagnose",
   "name": "MII_PR_Kardio_Condition_Diagnose",
-  "title": "MII_PR_Kardio_Condition_Diagnose",
+  "title": "MII PR Kardio Condition Diagnose",
   "status": "draft",
   "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
   "fhirVersion": "4.0.1",

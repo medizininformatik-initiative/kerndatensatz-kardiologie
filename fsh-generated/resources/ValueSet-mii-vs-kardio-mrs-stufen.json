@@ -47,6 +47,14 @@
           {
             "code": "mRS6",
             "display": "Tod infolge des Schlaganfalls"
+          },
+          {
+            "code": "mRSbiggerequal3",
+            "display": "asdasd"
+          },
+          {
+            "code": "mRSsmaller3",
+            "display": "asdasd"
           }
         ]
       }

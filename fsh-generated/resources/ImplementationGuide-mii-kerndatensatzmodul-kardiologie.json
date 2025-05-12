@@ -99,8 +99,88 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
         },
-        "name": "MII_PR_Kardio_Condition_Diagnose",
+        "name": "MII PR Kardio Condition Diagnose",
         "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-metadaten"
+        },
+        "name": "MII PR Kardio EKG Metadaten",
+        "description": "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz auf den Speicherort.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
+        },
+        "name": "MII PR Kardio Observation Anzahl KH Aufenthalte wg HF",
+        "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
+        },
+        "name": "MII PR Kardio Observation Ausschluss ScoreBerechnung",
+        "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-artherosklerotisches-erstereignis"
+        },
+        "name": "MII PR Kardio Observation Datum Artherosklerotisches Erstereignis",
+        "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
+        },
+        "name": "MII PR Kardio Observation Linksventrikulaere Ejektionsfraktion",
+        "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen"
+        },
+        "name": "MII PR Kardio Observation Rauchen",
+        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-procedure-implantation"
+        },
+        "name": "MII PR Kardio Prozedur Implantation",
+        "description": "Profil zur Erfassung eines implantierten Devices mit Referenz auf Device und DeviceMetric.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
+        },
+        "name": "MII PR Kardio Score modifizierte Rankin Skala",
+        "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-score-nyha"
+        },
+        "name": "MII PR Kardio Score NYHA",
+        "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-kardiale-implantat-modi"
+        },
+        "name": "MII_CS_Kardio_Kardiale_Implantat_Modi_LOCAL",
+        "description": "Lokales Valueset für die Dokumentation des Funktionsmodus eines kardialen Implantats. In Zukunft Angabe über EMDN-Codes in Betracht ziehen/prüfen.",
         "exampleBoolean": false
       },
       {
@@ -117,70 +197,6 @@
         },
         "name": "MII_PR_Kardio_Device_Device",
         "description": "Profil zur Abbildung eines Device im Kontext des Projekts Acribis.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
-        },
-        "name": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF",
-        "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
-        },
-        "name": "MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung",
-        "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-artherosklerotisches-erstereignis"
-        },
-        "name": "MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis",
-        "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
-        },
-        "name": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
-        "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen"
-        },
-        "name": "MII_PR_Kardio_Observation_Rauchen",
-        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-procedure-implantation"
-        },
-        "name": "MII_PR_Kardio_Prozedur_Implantation",
-        "description": "Profil zur Erfassung eines implantierten Devices mit Referenz auf Device und DeviceMetric.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
-        },
-        "name": "MII_PR_Kardio_Score_modifizierte_Rankin_Skala",
-        "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-score-nyha"
-        },
-        "name": "MII_PR_Kardio_Score_NYHA",
-        "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
         "exampleBoolean": false
       },
       {
@@ -205,6 +221,14 @@
         },
         "name": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED",
         "description": "ValueSet for exclusion criteria for score computation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-device-types"
+        },
+        "name": "MII_VS_Kardio_Device_Types_SNOMED",
+        "description": "ValueSet for cardial device operation modes for cardial implantable devices.",
         "exampleBoolean": false
       },
       {

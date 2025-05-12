@@ -3,7 +3,7 @@
   "id": "mii-pr-kardio-score-nyha",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha",
   "name": "MII_PR_Kardio_Score_NYHA",
-  "title": "MII_PR_Kardio_Score_NYHA",
+  "title": "MII PR Kardio Score NYHA",
   "status": "draft",
   "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
   "fhirVersion": "4.0.1",
@@ -35,6 +35,25 @@
         "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
         "fixedCode": "420816009"
+      },
+      {
+        "id": "Observation.code.coding.display",
+        "path": "Observation.code.coding.display",
+        "patternString": "New York Heart Association Classification (assessment scale)"
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.value[x]",

@@ -7,7 +7,7 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 Profile: MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion
 Id: mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion
 Parent: Observation // VS zu restriktiv: SD_MII_ICU_Monitoring_Und_Vitaldaten
-Title: "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion"
+Title: "MII PR Kardio Observation Linksventrikulaere Ejektionsfraktion"
 Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis."
 
 // Profil abgeleitet von ICU Vitalparameter (da LVEF kein Vitalzeichen ist, wird von Observation geerbt)
@@ -125,3 +125,8 @@ Invariant: mii-icu-1
 Description: "If there is no Observation.value, a dataAbsentReason must be given."
 * severity = #error
 * expression = "value.exists().not() implies dataAbsentReason.exists()"
+
+// Intepretation --> ValueSet für high/low/normal
+// Methode?? per Loinc, per "method"?
+
+// TODO

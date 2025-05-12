@@ -3,7 +3,7 @@
   "id": "mii-pr-kardio-observation-rauchen",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen",
   "name": "MII_PR_Kardio_Observation_Rauchen",
-  "title": "MII_PR_Kardio_Observation_Rauchen",
+  "title": "MII PR Kardio Observation Rauchen",
   "status": "draft",
   "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
   "fhirVersion": "4.0.1",
@@ -14,6 +14,18 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
       {
         "id": "Observation.component",
         "path": "Observation.component",

@@ -1,14 +1,21 @@
 Profile: MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung
 Id: mii-pr-kardio-observation-ausschluss-scoreberechnung
 Parent: Observation
-Title: "MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung"
+Title: "MII PR Kardio Observation Ausschluss ScoreBerechnung"
 Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis."
 // Parent: Observation
 
-// Achtung WORDING Ausschluss meint Kriterium zur Unterscheidung, ob ein Score o.ä. berechnet werden kann. 
 // Meint keinen Ausschluss für eine Studie!
-// TODO: Beschreibung dahingehend anpassen
 * ^description = "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann."
+
+// TODO Code für Ressource festlegen
+* code MS
+* code.coding.system = $sct     //  77765009 | Exclude (qualifier value) | TODO Diskutieren, ob Exclude + Score-Code + Component für Ausschlussgrund sinnvoll zu profilieren wäre?
+* code.coding.code = #77765009
+
+// Patientenbezug vorschreiben MS! TODO
+* subject 1..1 MS
+* subject only Reference(Patient)
 
 // Nur Items die wir in Acribis brauchen, die nicht aus der Prozedur ablesbar sind, sollen als Observation angelegt werden.
 // Prozeduren sind normalerweise als KDS-Prozedur angelegt (cAVK Prozedur, Herzklappenerkrankung-Eingriff).
@@ -28,4 +35,6 @@ Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnu
 * value[x] only CodeableConcept
 * valueCodeableConcept from $ausschlusskriterien-acribis-scores-vs (preferred)
 
-// TODO - evtl. noch weitere Ausschlusskriterien hinzunehmen
+// TODO - evtl. noch weitere Ausschlusskriterien zum VS hinzunehmen
+// - angeborener herzfehler --> COdes prüfen und hinzufügen
+// * $mRS#mRSbigger3 "asdasd" //TODO ??

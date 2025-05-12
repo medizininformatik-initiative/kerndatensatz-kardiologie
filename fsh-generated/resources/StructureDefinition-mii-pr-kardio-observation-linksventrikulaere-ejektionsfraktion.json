@@ -7,7 +7,7 @@
   "title": "MII PR Kardio Observation Linksventrikulaere Ejektionsfraktion",
   "status": "draft",
   "experimental": false,
-  "date": "2025-05-07",
+  "date": "2025-05-12",
   "publisher": "Medizininformatik Initiative",
   "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
   "fhirVersion": "4.0.1",
@@ -18,6 +18,19 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "constraint": [
+          {
+            "key": "vs-de-2",
+            "human": "If there is no component or hasMember element then either a value[x] or a data absent reason must be present",
+            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
+            "severity": "error",
+            "expression": "(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())"
+          }
+        ]
+      },
       {
         "id": "Observation.identifier",
         "path": "Observation.identifier",
@@ -123,16 +136,18 @@
           ],
           "rules": "open"
         },
-        "min": 1
+        "min": 2
       },
       {
         "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
         "sliceName": "sct",
-        "min": 0,
+        "min": 1,
         "max": "*",
         "patternCoding": {
-          "system": "http://snomed.info/sct"
+          "system": "http://snomed.info/sct",
+          "code": "250908004",
+          "display": "Left ventricular ejection fraction (observable entity)"
         },
         "mustSupport": true,
         "binding": {
@@ -156,12 +171,18 @@
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
-        "min": 0,
+        "min": 1,
         "max": "*",
         "patternCoding": {
-          "system": "http://loinc.org"
+          "system": "http://loinc.org",
+          "code": "10230-1",
+          "display": "Left ventricular Ejection fraction"
         },
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://loinc.org"
+        }
       },
       {
         "id": "Observation.code.coding:loinc.system",
@@ -224,9 +245,6 @@
         "type": [
           {
             "code": "dateTime"
-          },
-          {
-            "code": "Period"
           }
         ],
         "mustSupport": true
@@ -240,6 +258,7 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "min": 1,
         "type": [
           {
             "code": "Quantity"
@@ -256,21 +275,22 @@
       {
         "id": "Observation.value[x].unit",
         "path": "Observation.value[x].unit",
-        "patternString": "percent",
+        "min": 1,
+        "fixedString": "percent",
         "mustSupport": true
       },
       {
         "id": "Observation.value[x].system",
         "path": "Observation.value[x].system",
         "min": 1,
-        "patternUri": "http://unitsofmeasure.org",
+        "fixedUri": "http://unitsofmeasure.org",
         "mustSupport": true
       },
       {
         "id": "Observation.value[x].code",
         "path": "Observation.value[x].code",
         "min": 1,
-        "patternCode": "%",
+        "fixedCode": "%",
         "mustSupport": true
       },
       {
@@ -311,42 +331,121 @@
       {
         "id": "Observation.referenceRange",
         "path": "Observation.referenceRange",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "closed",
+          "ordered": true,
+          "description": "Referenzbereiche nach ."
+        },
         "mustSupport": true
       },
       {
-        "id": "Observation.component",
-        "path": "Observation.component",
-        "mustSupport": true
+        "id": "Observation.referenceRange:normal",
+        "path": "Observation.referenceRange",
+        "sliceName": "normal",
+        "min": 0,
+        "max": "1"
       },
       {
-        "id": "Observation.component.code",
-        "path": "Observation.component.code",
-        "mustSupport": true
+        "id": "Observation.referenceRange:normal.low.value",
+        "path": "Observation.referenceRange.low.value",
+        "patternDecimal": 50
       },
       {
-        "id": "Observation.component.value[x]",
-        "path": "Observation.component.value[x]",
-        "type": [
-          {
-            "code": "Quantity"
-          }
-        ],
-        "mustSupport": true
+        "id": "Observation.referenceRange:normal.low.unit",
+        "path": "Observation.referenceRange.low.unit",
+        "patternString": "%"
       },
       {
-        "id": "Observation.component.dataAbsentReason",
-        "path": "Observation.component.dataAbsentReason",
-        "mustSupport": true
+        "id": "Observation.referenceRange:normal.low.system",
+        "path": "Observation.referenceRange.low.system",
+        "patternUri": "http://unitsofmeasure.org"
       },
       {
-        "id": "Observation.component.interpretation",
-        "path": "Observation.component.interpretation",
-        "mustSupport": true
+        "id": "Observation.referenceRange:normal.text",
+        "path": "Observation.referenceRange.text",
+        "patternString": "Normal"
       },
       {
-        "id": "Observation.component.referenceRange",
-        "path": "Observation.component.referenceRange",
-        "mustSupport": true
+        "id": "Observation.referenceRange:borderline",
+        "path": "Observation.referenceRange",
+        "sliceName": "borderline",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Observation.referenceRange:mild",
+        "path": "Observation.referenceRange",
+        "sliceName": "mild",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Observation.referenceRange:mild.low.value",
+        "path": "Observation.referenceRange.low.value",
+        "patternDecimal": 41
+      },
+      {
+        "id": "Observation.referenceRange:mild.low.unit",
+        "path": "Observation.referenceRange.low.unit",
+        "patternString": "%"
+      },
+      {
+        "id": "Observation.referenceRange:mild.low.system",
+        "path": "Observation.referenceRange.low.system",
+        "patternUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.referenceRange:mild.high.value",
+        "path": "Observation.referenceRange.high.value",
+        "patternDecimal": 49
+      },
+      {
+        "id": "Observation.referenceRange:mild.high.unit",
+        "path": "Observation.referenceRange.high.unit",
+        "patternString": "%"
+      },
+      {
+        "id": "Observation.referenceRange:mild.high.system",
+        "path": "Observation.referenceRange.high.system",
+        "patternUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.referenceRange:mild.text",
+        "path": "Observation.referenceRange.text",
+        "patternString": "Mildly reduced"
+      },
+      {
+        "id": "Observation.referenceRange:reduced",
+        "path": "Observation.referenceRange",
+        "sliceName": "reduced",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Observation.referenceRange:reduced.high.value",
+        "path": "Observation.referenceRange.high.value",
+        "patternDecimal": 40
+      },
+      {
+        "id": "Observation.referenceRange:reduced.high.unit",
+        "path": "Observation.referenceRange.high.unit",
+        "patternString": "%"
+      },
+      {
+        "id": "Observation.referenceRange:reduced.high.system",
+        "path": "Observation.referenceRange.high.system",
+        "patternUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.referenceRange:reduced.text",
+        "path": "Observation.referenceRange.text",
+        "patternString": "Reduced"
       }
     ]
   }

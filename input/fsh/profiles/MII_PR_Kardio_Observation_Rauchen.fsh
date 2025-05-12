@@ -59,8 +59,8 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 //* component[rauchdauer].code = $smoking-units#cigarettes-per-day TODO
 * component[rauchdauer].value[x] only Quantity
 * component[rauchdauer].valueQuantity.unit = "year" // für Jahre (nach UCUM)
-* component[rauchdauer].valueQuantity.system = $unitsofmeasure
-* component[rauchdauer].valueQuantity.code = $unitsofmeasure#a
+* component[rauchdauer].valueQuantity.system = $ucum
+* component[rauchdauer].valueQuantity.code = $ucum#a
 * component[rauchdauer].valueQuantity.comparator 1..1 //MS
 // https://github.com/ucum-org/ucum/blob/main/common-units/TableOfExampleUcumCodesForElectronicMessaging.xlsx
 // Beispielwerte: < 1 Jahr; > 1 Jahr; > 5 Jahre; > 10 Jahre

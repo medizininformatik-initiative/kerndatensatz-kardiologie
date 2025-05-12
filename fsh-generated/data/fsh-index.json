@@ -125,7 +125,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
     "startLine": 7,
-    "endLine": 112
+    "endLine": 137
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-rauchen.json",

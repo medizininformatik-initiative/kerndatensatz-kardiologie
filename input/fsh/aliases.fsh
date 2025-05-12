@@ -2,7 +2,7 @@
 Alias: $loinc = http://loinc.org
 Alias: $sct = http://snomed.info/sct
 Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc  // oder http://www.whocc.no/atc 
-Alias: $unitsofmeasure = http://unitsofmeasure.org
+Alias: $ucum = http://unitsofmeasure.org
 
 // CodeSystems
 Alias: $anamnese-antwort = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort

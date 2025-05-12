@@ -14,9 +14,10 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 // ICU Vitalparameter "Monitoring und Vitaldaten": "https://simplifier.net/isik-vitalparameter-v4/sd_mii_icu_monitoring_und_vitaldaten
 * ^version = "0.1"
 * ^experimental = false
-* ^date = "2025-05-07"
+* ^date = "2025-05-12"
 * insert publisher-rule
-//* obeys vs-de-2 //>If there is no component or hasMember element then either a value[x] or a data absent reason must be present
+* obeys vs-de-2 // If there is no component or hasMember element then either a value[x] or a data absent reason must be present
+
 * identifier MS
 * basedOn MS
 * basedOn ^short = "bei Übernahme aus ISiK Monitoring und Vitaldaten die category und restriktive valueSets abgeändert."
@@ -38,27 +39,28 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * category[vs-cat].coding.code 1.. MS
 * category[vs-cat] ^comment = "Category 'imaging', da meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen."
 
-// Code als Observation.code.coding
 * code MS
-* code obeys code-coding-icu
-    // code-coding-icu: Es muss mindestens ein snomed oder loinc code vorhanden sein
-    // coding.exists() implies coding.where(system = 'http://snomed.info/sct').exists() or coding.where(system = 'http://loinc.org').exists()
+* code obeys code-coding-icu  // code-coding-icu: Es muss mindestens ein snomed oder loinc code vorhanden sein
 * code.coding 1..
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open
 * code.coding contains
-    sct 0..* MS and
-    loinc 0..* MS and
+    sct 1..* MS and
+    loinc 1..* MS and
     IEEE-11073 0..* MS
 * code.coding[sct] from $sct (required)
-* code.coding[sct] ^patternCoding.system = $sct
 * code.coding[sct].system 1.. MS
 * code.coding[sct].code 1.. MS
-//* code.coding[loinc] from $vs-mii-icu-code-monitoring-und-vitaldaten-loinc (required)
-* code.coding[loinc] ^patternCoding.system = $loinc
+* code.coding[sct] ^patternCoding.system = $sct
+* code.coding[sct] ^patternCoding.code = $sct#250908004
+* code.coding[sct] ^patternCoding.display = "Left ventricular ejection fraction (observable entity)"
+* code.coding[loinc] from $loinc (required)
 * code.coding[loinc].system 1.. MS
 * code.coding[loinc].code 1.. MS
+* code.coding[loinc] ^patternCoding.system = $loinc
+* code.coding[loinc] ^patternCoding.code = $loinc#10230-1
+* code.coding[loinc] ^patternCoding.display = "Left ventricular Ejection fraction"
 //* code.coding[IEEE-11073] from $vs-mii-icu-code-monitoring-und-vitaldaten-iso11073 (required)
 * code.coding[IEEE-11073] ^patternCoding.system = "urn:iso:std:iso:11073:10101"
 * code.coding[IEEE-11073].system 1.. MS
@@ -70,26 +72,26 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * encounter MS
 
 * effective[x] 1.. MS
-* effective[x] only dateTime or Period
+* effective[x] only dateTime //or Period //Grundsätzlich wäre eine Period als Zeitangabe denkbar - in Acribis ist (evtl. vorläufig) ein fixes Datum einfacher zu händeln
 
 * performer MS
 * performer ^comment = "Motivation MS: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 
+* value[x] 1..1 MS
 * value[x] only Quantity
-* value[x] MS
 * value[x].value 1.. MS
-* value[x].unit MS
+* value[x].unit 1.. MS
 * value[x].system 1.. MS
 * value[x].code 1.. MS
 * valueQuantity MS // TODO learn how patterns work and how the are used
-* valueQuantity.unit = "percent"
-* valueQuantity.system = $unitsofmeasure
-* valueQuantity.code = $unitsofmeasure#%
+* valueQuantity.unit = "percent" (exactly)
+* valueQuantity.system = $ucum (exactly)
+* valueQuantity.code = $ucum#% (exactly)
 
 * dataAbsentReason MS
 * dataAbsentReason obeys mii-icu-1
 
-// TODO Intepretation --> ValueSet für high/low/normal (preferred?) 
+// Intepretation - ValueSet für high/low/normal (preferred?) als Referenzbereich
 * interpretation MS
 
 * bodySite MS
@@ -101,15 +103,38 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 
 * device MS
 
+// TODO refernzbereichsangaben prüfen
+* referenceRange ^slicing.discriminator.type = #pattern
+* referenceRange ^slicing.discriminator.path = "$this"
+* referenceRange ^slicing.rules = #closed
+* referenceRange ^slicing.ordered = true
+* referenceRange ^slicing.description = "Referenzbereiche nach ."
 * referenceRange MS
 
-* component MS
-* component.code MS
-* component.value[x] only Quantity
-* component.value[x] MS
-* component.dataAbsentReason MS
-* component.interpretation MS
-* component.referenceRange MS
+// Leitlinie: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (ESC - European Society of Cardiology)
+* referenceRange contains
+    normal 0..1 and
+    borderline 0..1 and
+    mild 0..1 and
+    reduced 0..1
+// Normal >=50. pEF nicht sinnvoll abgrenzbar.
+* referenceRange[normal].text = "Normal"
+* referenceRange[normal].low.value = 50
+* referenceRange[normal].low.unit = "%"
+* referenceRange[normal].low.system = $ucum
+// HFmrEF
+* referenceRange[mild].text = "Mildly reduced"
+* referenceRange[mild].high.value = 49
+* referenceRange[mild].low.value = 41
+* referenceRange[mild].low.unit = "%"
+* referenceRange[mild].low.system = $ucum
+* referenceRange[mild].high.unit = "%"
+* referenceRange[mild].high.system = $ucum
+// HFrEF LVEF <=40
+* referenceRange[reduced].text = "Reduced"
+* referenceRange[reduced].high.value = 40
+* referenceRange[reduced].high.unit = "%"
+* referenceRange[reduced].high.system = $ucum
 
 Invariant: vs-de-2
 Description: "If there is no component or hasMember element then either a value[x] or a data absent reason must be present"
@@ -125,8 +150,3 @@ Invariant: mii-icu-1
 Description: "If there is no Observation.value, a dataAbsentReason must be given."
 * severity = #error
 * expression = "value.exists().not() implies dataAbsentReason.exists()"
-
-// Intepretation --> ValueSet für high/low/normal
-// Methode?? per Loinc, per "method"?
-
-// TODO

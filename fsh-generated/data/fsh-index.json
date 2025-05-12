@@ -61,7 +61,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 66
+    "endLine": 67
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-device-device.json",
@@ -108,8 +108,8 @@
     "fshName": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
-    "startLine": 1,
-    "endLine": 5
+    "startLine": 7,
+    "endLine": 112
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-rauchen.json",

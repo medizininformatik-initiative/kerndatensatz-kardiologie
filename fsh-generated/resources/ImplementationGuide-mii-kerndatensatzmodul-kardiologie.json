@@ -121,32 +121,18 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-device"
-        },
-        "name": "MII PR Kardio Device",
-        "description": "Profil zur Abbildung eines implantierten Herzschrittmachers, Defibrillators oder ventrikulären Unterstützungssystems.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung"
-        },
-        "name": "MII VS Kardio Geräteprogrammierung",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-geraetetyp"
-        },
-        "name": "MII VS Kardio Gerätetyp",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
         },
         "name": "MII PR Kardio Condition Diagnose",
         "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-device"
+        },
+        "name": "MII PR Kardio Device",
+        "description": "Profil zur Abbildung eines implantierten Herzschrittmachers, Defibrillators oder ventrikulären Unterstützungssystems.",
         "exampleBoolean": false
       },
       {
@@ -223,6 +209,20 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung"
+        },
+        "name": "MII VS Kardio Geräteprogrammierung",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-geraetetyp"
+        },
+        "name": "MII VS Kardio Gerätetyp",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-kardiale-implantat-modi"
         },
         "name": "MII_CS_Kardio_Kardiale_Implantat_Modi_LOCAL",
@@ -231,18 +231,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-devicemetric-devicemode"
+          "reference": "StructureDefinition/mii-pr-geraeteprogrammierung"
         },
-        "name": "MII_PR_Kardio_DeviceMetric_DeviceMode",
-        "description": "Profil zur Angabe des Betriebsmodus eines Device im Kontext des Projekts Acribis.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-device-device"
-        },
-        "name": "MII_PR_Kardio_Device_Device",
-        "description": "Profil zur Abbildung eines Device im Kontext des Projekts Acribis.",
+        "name": "MII_PR_Kardio_Geraeteprogrammierung",
+        "description": "Der älsrjigoijr...",
         "exampleBoolean": false
       },
       {

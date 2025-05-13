@@ -3,7 +3,7 @@
     "outputFile": "CodeSystem-mii-cs-kardio-kardiale-implantat-modi.json",
     "fshName": "MII_CS_Kardio_Kardiale_Implantat_Modi_LOCAL",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems/MII_CS_Kardio_Kardiale_Implanatate.fsh",
+    "fshFile": "codesystems\\MII_CS_Kardio_Kardiale_Implanatate.fsh",
     "startLine": 1,
     "endLine": 14
   },
@@ -35,7 +35,7 @@
     "outputFile": "Observation-example-lvef.json",
     "fshName": "example-lvef",
     "fshType": "Instance",
-    "fshFile": "profiles/MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
     "startLine": 157,
     "endLine": 231
   },
@@ -93,7 +93,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 77
+    "endLine": 78
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-device.json",
@@ -101,21 +101,13 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
     "startLine": 1,
-    "endLine": 20
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio-devicemetric-devicemode.json",
-    "fshName": "MII_PR_Kardio_DeviceMetric_DeviceMode",
-    "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_DeviceMetric_DeviceMode.fsh",
-    "startLine": 1,
-    "endLine": 27
+    "endLine": 18
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",
     "fshName": "MII_PR_Kardio_EKG_Metadaten",
     "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_EKG_Metadaten.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Metadaten.fsh",
     "startLine": 1,
     "endLine": 14
   },
@@ -147,7 +139,7 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion.json",
     "fshName": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
     "fshType": "Profile",
-    "fshFile": "profiles/MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
     "startLine": 7,
     "endLine": 138
   },
@@ -203,7 +195,7 @@
     "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.json",
     "fshName": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/MII-VS-Kardio-Ausschlusskriterien-Acribis-Scores.fsh",
+    "fshFile": "valuesets\\MII-VS-Kardio-Ausschlusskriterien-Acribis-Scores.fsh",
     "startLine": 1,
     "endLine": 20
   },
@@ -211,7 +203,7 @@
     "outputFile": "ValueSet-mii-vs-kardio-device-types.json",
     "fshName": "MII_VS_Kardio_Device_Types_SNOMED",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/MII_VS_Kardio_device-types.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_device-types.fsh",
     "startLine": 1,
     "endLine": 13
   },
@@ -235,7 +227,23 @@
     "outputFile": "ValueSet-mii-vs-kardio-extended-condition-severity.json",
     "fshName": "MII_VS_Kardio_Extended_Condition_Severity_SNOMED",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/MII_VS_Kardio_extended-condition-severity.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_extended-condition-severity.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung.json",
+    "fshName": "MII_VS_Kardio_Geraeteprogrammierung",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Geraeteprogrammierung.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-geraetetyp.json",
+    "fshName": "MII_VS_Kardio_Geraetetyp",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Geraetetyp.fsh",
     "startLine": 1,
     "endLine": 14
   },

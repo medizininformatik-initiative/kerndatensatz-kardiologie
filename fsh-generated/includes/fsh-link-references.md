@@ -6,10 +6,8 @@
 [MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
 [MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
 [MII_PR_Kardio_Brady_Pacing_Mode]: StructureDefinition-mii-pr-kardio-brady-pacing-mode.html
-[MII_PR_Kardio_Device]: StructureDefinition-mii-pr-kardio-device.html
-[MII_VS_Kardio_Geraeteprogrammierung]: ValueSet-mii-vs-kardio-geraeteprogrammierung.html
-[MII_VS_Kardio_Geraetetyp]: ValueSet-mii-vs-kardio-geraetetyp.html
 [MII_PR_Kardio_Condition_Diagnose]: StructureDefinition-mii-pr-kardio-condition-diagnose.html
+[MII_PR_Kardio_Device]: StructureDefinition-mii-pr-kardio-device.html
 [MII_PR_Kardio_EKG_Metadaten]: StructureDefinition-mii-pr-kardio-ekg-metadaten.html
 [MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF]: StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.html
 [MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung]: StructureDefinition-mii-pr-kardio-observation-ausschluss-scoreberechnung.html
@@ -19,9 +17,10 @@
 [MII_PR_Kardio_Procedure_Implantation]: StructureDefinition-mii-pr-kardio-procedure-implantation.html
 [MII_PR_Kardio_Score_modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
+[MII_VS_Kardio_Geraeteprogrammierung]: ValueSet-mii-vs-kardio-geraeteprogrammierung.html
+[MII_VS_Kardio_Geraetetyp]: ValueSet-mii-vs-kardio-geraetetyp.html
 [MII_CS_Kardio_Kardiale_Implantat_Modi_LOCAL]: CodeSystem-mii-cs-kardio-kardiale-implantat-modi.html
-[MII_PR_Kardio_DeviceMetric_DeviceMode]: StructureDefinition-mii-pr-kardio-devicemetric-devicemode.html
-[MII_PR_Kardio_Device_Device]: StructureDefinition-mii-pr-kardio-device-device.html
+[MII_PR_Kardio_Geraeteprogrammierung]: StructureDefinition-mii-pr-geraeteprogrammierung.html
 [MII_VS_Kardio_Allergene_SNOMED]: ValueSet-mii-vs-kardio-allergene-snomed.html
 [MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED]: ValueSet-mii-vs-kardio-artherosklerotische-ereignisse.html
 [MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED]: ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.html

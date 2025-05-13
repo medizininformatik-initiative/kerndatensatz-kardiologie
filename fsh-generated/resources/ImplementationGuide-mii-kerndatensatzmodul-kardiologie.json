@@ -113,10 +113,32 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung"
+        },
+        "name": "MII VS Kardio Geräteprogrammierung",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-geraetetyp"
+        },
+        "name": "MII VS Kardio Gerätetyp",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
         },
         "name": "MII_PR_Kardio_Condition_Diagnose",
         "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-geraeteprogrammierung"
+        },
+        "name": "MII_PR_Kardio_Geraeteprogrammierung",
+        "description": "Der älsrjigoijr...",
         "exampleBoolean": false
       },
       {

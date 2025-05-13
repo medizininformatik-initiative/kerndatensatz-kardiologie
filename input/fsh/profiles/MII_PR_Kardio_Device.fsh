@@ -4,8 +4,8 @@ Parent: Device
 Title: "MII PR Kardio Device"
 Description: "Profil zur Abbildung eines implantierten Herzschrittmachers, Defibrillators oder ventrikulären Unterstützungssystems."
 
-* type from $device-type (required)
-* type MS
+* type from $geraetetyp (required)
+* type 1..
 * type ^comment = "Der Typ soll mit einem SNOMED-Code angegeben werden.
 Für ACRIBiS empfehlen sich die folgenden Codes (Stand 01.05.2025):
  - **ICD**: 72506001 - Implantable defibrillator, device (physical object)
@@ -15,9 +15,7 @@ Für ACRIBiS empfehlen sich die folgenden Codes (Stand 01.05.2025):
  - **RVAD**: 360065002 - Right ventricular assist device (physical object)
  - **BiVAD**: 360057000 - Biventricular assist device (physical object)"
 
-* patient 1..1
-
-// TODO: VS device type einschränken
+* patient 1..
 
 /*
 Device.property.type ist gedacht für staische Eigenschaften eines Geräts, z.B. Farbe und Größe.
@@ -28,4 +26,3 @@ Für ACRIBiS: ISO/IEEE 11073 - MDC_IDC_SET_BRADY_MODE "The brady pacing mode acc
 Die DeviceMetric referenziert Device.
 Die tatsächliche Einstellung eines Geräts zu einem Zeitpunkt wird dann per Observation abgebildet (Observation.subject ist das Device, focus die DeviceMetric).
 */
-// 

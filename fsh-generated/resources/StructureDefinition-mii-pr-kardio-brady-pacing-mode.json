@@ -40,11 +40,6 @@
         "fixedCode": "730752"
       },
       {
-        "id": "DeviceMetric.type.coding.display",
-        "path": "DeviceMetric.type.coding.display",
-        "fixedString": "MDC_IDC_SET_BRADY_MODE"
-      },
-      {
         "id": "DeviceMetric.unit",
         "path": "DeviceMetric.unit",
         "max": "0"
@@ -52,15 +47,7 @@
       {
         "id": "DeviceMetric.source",
         "path": "DeviceMetric.source",
-        "min": 1,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device"
-            ]
-          }
-        ]
+        "min": 1
       },
       {
         "id": "DeviceMetric.parent",

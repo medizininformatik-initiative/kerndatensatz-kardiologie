@@ -5,7 +5,10 @@
 [MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
 [MII_PR_Kardio_Brady_Pacing_Mode]: StructureDefinition-mii-pr-kardio-brady-pacing-mode.html
 [MII_PR_Kardio_Device]: StructureDefinition-mii-pr-kardio-device.html
+[MII_VS_Kardio_Geraeteprogrammierung]: ValueSet-mii-vs-kardio-geraeteprogrammierung.html
+[MII_VS_Kardio_Geraetetyp]: ValueSet-mii-vs-kardio-geraetetyp.html
 [MII_PR_Kardio_Condition_Diagnose]: StructureDefinition-mii-pr-kardio-condition-diagnose.html
+[MII_PR_Kardio_Geraeteprogrammierung]: StructureDefinition-mii-pr-geraeteprogrammierung.html
 [MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF]: StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.html
 [MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung]: StructureDefinition-mii-pr-kardio-observation-ausschluss-scoreberechnung.html
 [MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis]: StructureDefinition-mii-pr-kardio-observation-artherosklerotisches-erstereignis.html

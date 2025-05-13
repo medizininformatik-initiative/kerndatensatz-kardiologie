@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_Geraeteprogrammierung",
+  "id": "mii-vs-kardio-geraeteprogrammierung",
+  "title": "MII VS Kardio Geräteprogrammierung",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-geraeteprogrammierung",
+  "version": "0.0.1",
+  "experimental": true,
+  "date": "2025-05-13",
+  "publisher": "Medizininformatik Initative",
+  "purpose": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "concept": [
+          {
+            "code": "754753",
+            "display": "MDC_IDC_ENUM_BRADY_MODE_AAI"
+          },
+          {
+            "code": "754773",
+            "display": "MDC_IDC_ENUM_BRADY_MODE_VVI"
+          },
+          {
+            "code": "754760",
+            "display": "MDC_IDC_ENUM_BRADY_MODE_DDD"
+          },
+          {
+            "code": "754790",
+            "display": "MDC_IDC_ENUM_BRADY_MODE_Unknown"
+          }
+        ]
+      }
+    ]
+  }
+}

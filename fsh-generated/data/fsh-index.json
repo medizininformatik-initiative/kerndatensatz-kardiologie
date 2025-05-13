@@ -56,12 +56,20 @@
     "endLine": 6
   },
   {
+    "outputFile": "StructureDefinition-mii-pr-geraeteprogrammierung.json",
+    "fshName": "MII_PR_Kardio_Geraeteprogrammierung",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
     "outputFile": "StructureDefinition-mii-pr-kardio-brady-pacing-mode.json",
     "fshName": "MII_PR_Kardio_Brady_Pacing_Mode",
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Brady_Pacing_Mode.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-condition-diagnose.json",
@@ -190,6 +198,22 @@
     "fshFile": "valuesets\\MII_VS_Kardio_extended-condition-severity.fsh",
     "startLine": 1,
     "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung.json",
+    "fshName": "MII_VS_Kardio_Geraeteprogrammierung",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Geraeteprogrammierung.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-geraetetyp.json",
+    "fshName": "MII_VS_Kardio_Geraetetyp",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Geraetetyp.fsh",
+    "startLine": 1,
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomed.json",

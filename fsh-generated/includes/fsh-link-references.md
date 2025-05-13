@@ -1,5 +1,7 @@
+[example-lvef]: Observation-example-lvef.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
 [MII_CS_Kardio_modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html
+[kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
 [MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
@@ -30,4 +32,3 @@
 [MII_VS_Kardio_mRS_Stufen]: ValueSet-mii-vs-kardio-mrs-stufen.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMED]: ValueSet-mii-vs-kardio-nyha-klassen-snomed.html
 [MII_VS_Rauchen_Einheiten_LOCAL]: CodeSystem-mii-cs-rauchen-einheiten.html
-[kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html

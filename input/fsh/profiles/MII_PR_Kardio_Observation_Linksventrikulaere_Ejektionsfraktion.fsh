@@ -1,4 +1,4 @@
-Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+//Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category //defined in alias.fsh
 //Alias: $vs-mii-icu-code-monitoring-und-vitaldaten-snomed = https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-snomed
 //Alias: $vs-mii-icu-code-monitoring-und-vitaldaten-loinc = https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-loinc
 //Alias: $vs-mii-icu-code-monitoring-und-vitaldaten-iso11073 = https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-iso11073
@@ -9,13 +9,14 @@ Id: mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion
 Parent: Observation // VS zu restriktiv: SD_MII_ICU_Monitoring_Und_Vitaldaten
 Title: "MII PR Kardio Observation Linksventrikulaere Ejektionsfraktion"
 Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis."
-
-// Profil abgeleitet von ICU Vitalparameter (da LVEF kein Vitalzeichen ist, wird von Observation geerbt)
+* insert PR_CS_VS_Version
+* insert Publisher
+// Profil abgeleitet von ICU Vitalparameter (da LVEF kein Vitalzeichen ist, wird aber von Observation geerbt)
 // ICU Vitalparameter "Monitoring und Vitaldaten": "https://simplifier.net/isik-vitalparameter-v4/sd_mii_icu_monitoring_und_vitaldaten
 * ^version = "0.1"
-* ^experimental = false
+* ^experimental = true
 * ^date = "2025-05-12"
-* insert publisher-rule
+
 * obeys vs-de-2 // If there is no component or hasMember element then either a value[x] or a data absent reason must be present
 
 * identifier MS
@@ -53,14 +54,14 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * code.coding[sct].system 1.. MS
 * code.coding[sct].code 1.. MS
 * code.coding[sct] ^patternCoding.system = $sct
-* code.coding[sct] ^patternCoding.code = $sct#250908004
-* code.coding[sct] ^patternCoding.display = "Left ventricular ejection fraction (observable entity)"
+* code.coding[sct].code = $sct#250908004
+* code.coding[sct].display = "Left ventricular ejection fraction (observable entity)"
 * code.coding[loinc] from $loinc (required)
 * code.coding[loinc].system 1.. MS
 * code.coding[loinc].code 1.. MS
 * code.coding[loinc] ^patternCoding.system = $loinc
-* code.coding[loinc] ^patternCoding.code = $loinc#10230-1
-* code.coding[loinc] ^patternCoding.display = "Left ventricular Ejection fraction"
+* code.coding[loinc].code = $loinc#10230-1
+* code.coding[loinc].display = "Left ventricular ejection fraction"
 //* code.coding[IEEE-11073] from $vs-mii-icu-code-monitoring-und-vitaldaten-iso11073 (required)
 * code.coding[IEEE-11073] ^patternCoding.system = "urn:iso:std:iso:11073:10101"
 * code.coding[IEEE-11073].system 1.. MS
@@ -108,7 +109,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * referenceRange ^slicing.discriminator.path = "$this"
 * referenceRange ^slicing.rules = #closed
 * referenceRange ^slicing.ordered = true
-* referenceRange ^slicing.description = "Referenzbereiche nach ."
+* referenceRange ^slicing.description = "Referenzbereiche LVEF vgl. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure."
 * referenceRange MS
 
 // Leitlinie: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (ESC - European Society of Cardiology)
@@ -117,7 +118,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
     borderline 0..1 and
     mild 0..1 and
     reduced 0..1
-// Normal >=50. pEF nicht sinnvoll abgrenzbar.
+// Normal >=50. HFpEF nicht sinnvoll abgrenzbar.
 * referenceRange[normal].text = "Normal"
 * referenceRange[normal].low.value = 50
 * referenceRange[normal].low.unit = "%"
@@ -150,3 +151,81 @@ Invariant: mii-icu-1
 Description: "If there is no Observation.value, a dataAbsentReason must be given."
 * severity = #error
 * expression = "value.exists().not() implies dataAbsentReason.exists()"
+
+//_____________________________________________________________________________
+// Instance:
+Instance: example-lvef
+InstanceOf: MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion
+Title: "Beispiel LVEF Observation"
+Description: "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie"
+Usage: #example
+
+* identifier.system = "http://hospital.example.org/observation-lvef"
+* identifier.value = "lvef-123456"
+
+* basedOn.reference = "ServiceRequest/echokardiographie-anforderung"
+* partOf.reference = "Procedure/echokardiographie-2025"
+
+* status = #final
+
+* category[vs-cat].coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
+* category[vs-cat].coding.code = #imaging
+* category[vs-cat].coding.display = "Imaging"
+
+* code.coding[sct].system = "http://snomed.info/sct"
+* code.coding[sct].code = #250908004
+* code.coding[sct].display = "Left ventricular ejection fraction (observable entity)"
+* code.coding[loinc].system = "http://loinc.org"
+* code.coding[loinc].code = #10230-1
+* code.coding[loinc].display = "Left ventricular ejection fraction"
+* code.text = "Linksventrikuläre Ejektionsfraktion"
+
+* subject.reference = "Patient/patient-1234"
+* encounter.reference = "Encounter/aufnahme-2025"
+* effectiveDateTime = "2025-05-12T10:15:00+01:00"
+
+* performer[0].reference = "Practitioner/arzt-5678"
+
+* valueQuantity.value = 55
+* valueQuantity.unit = "percent"
+* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.code = #%
+
+* interpretation[0].coding[0].system = "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+* interpretation[0].coding[0].code = #N
+* interpretation[0].coding[0].display = "Normal"
+
+* bodySite.coding[0].system = "http://snomed.info/sct"
+* bodySite.coding[0].code = #87878005
+* bodySite.coding[0].display = "Left cardiac ventricular structure (body structure)"
+* bodySite.text = "Linker Ventrikel"
+
+* method.coding[0].system = "http://snomed.info/sct"
+* method.coding[0].code = #40701008
+* method.coding[0].display = "Echocardiography"
+* method.text = "Echokardiographie"
+
+* device.reference = "Device/echo-device-01"
+* device.display = "Philips EPIQ CVx Ultrasound System"
+
+* referenceRange[normal].text = "Normal"
+* referenceRange[normal].low.value = 50
+* referenceRange[normal].low.unit = "%"
+* referenceRange[normal].low.system = "http://unitsofmeasure.org"
+* referenceRange[normal].low.code = #%
+
+* referenceRange[mild].text = "Mildly reduced"
+* referenceRange[mild].low.value = 41
+* referenceRange[mild].low.unit = "%"
+* referenceRange[mild].low.system = "http://unitsofmeasure.org"
+* referenceRange[mild].low.code = #%
+* referenceRange[mild].high.value = 49
+* referenceRange[mild].high.unit = "%"
+* referenceRange[mild].high.system = "http://unitsofmeasure.org"
+* referenceRange[mild].high.code = #%
+
+* referenceRange[reduced].text = "Reduced"
+* referenceRange[reduced].high.value = 40
+* referenceRange[reduced].high.unit = "%"
+* referenceRange[reduced].high.system = "http://unitsofmeasure.org"
+* referenceRange[reduced].high.code = #%

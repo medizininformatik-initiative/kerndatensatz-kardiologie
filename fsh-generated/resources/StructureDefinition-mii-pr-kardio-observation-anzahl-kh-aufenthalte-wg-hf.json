@@ -2,9 +2,21 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf",
+  "version": "2025.0.0",
   "name": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF",
   "title": "MII PR Kardio Observation Anzahl KH Aufenthalte wg HF",
   "status": "draft",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
   "fhirVersion": "4.0.1",
   "kind": "resource",

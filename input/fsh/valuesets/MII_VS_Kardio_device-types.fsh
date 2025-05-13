@@ -2,6 +2,8 @@ ValueSet: MII_VS_Kardio_Device_Types_SNOMED
 Id: mii-vs-kardio-device-types
 Title: "MII_VS_Kardio_Device_Types_SNOMED"
 Description: "ValueSet for cardial device operation modes for cardial implantable devices."
+* insert PR_CS_VS_Version
+* insert Publisher
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-05-08"

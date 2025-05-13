@@ -3,6 +3,8 @@ Id: mii-pr-kardio-observation-artherosklerotisches-erstereignis
 Parent: Observation //MII_PR_Diagnose_Condition
 Title: "MII PR Kardio Observation Datum Artherosklerotisches Erstereignis"
 Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS."
+* insert PR_CS_VS_Version
+* insert Publisher
 
 // Code, um anzugeben, welches Ereignis das erste war: 
 // Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma.

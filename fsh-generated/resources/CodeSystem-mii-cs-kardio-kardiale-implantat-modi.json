@@ -29,5 +29,17 @@
       "display": "Dual-chamber Demand-Schrittmacher"
     }
   ],
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "count": 5
 }

@@ -3,6 +3,8 @@ Id: mii-cs-rauchen-einheiten
 Title: "MII_VS_Rauchen_Einheiten_LOCAL"
 Description: "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer."
 //* ^url = "http://example.org/fhir/CodeSystem/smoking-units"
+* insert PR_CS_VS_Version
+* insert Publisher
 * ^status = #draft
 //* ^content = #complete
 

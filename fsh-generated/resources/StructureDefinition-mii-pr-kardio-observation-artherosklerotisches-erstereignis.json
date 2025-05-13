@@ -2,9 +2,21 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-observation-artherosklerotisches-erstereignis",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-artherosklerotisches-erstereignis",
+  "version": "2025.0.0",
   "name": "MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis",
   "title": "MII PR Kardio Observation Datum Artherosklerotisches Erstereignis",
   "status": "draft",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
   "fhirVersion": "4.0.1",
   "kind": "resource",

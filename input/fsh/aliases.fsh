@@ -9,6 +9,7 @@ Alias: $anamnese-antwort = https://www.medizininformatik-initiative.de/fhir/ext/
 Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten
 Alias: $kardiale_implantat_modi_cs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-kardiale-implantat-modi
+Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 
 //ValueSets
 Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category
@@ -18,6 +19,7 @@ Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/
 Alias: $nyha-class-vs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomed
 Alias: $ausschlusskriterien-acribis-scores-vs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-scores
 Alias: $device-types = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-device-types
+Alias: $vs-v2-0532 = http://terminology.hl7.org/ValueSet/v2-0532
 
 //_________________
 Alias: $emdn = urn:oid:1.2.250.1.213.2.68 //urn:oid:1.2.250.1.213.2.68 //https://webgate.ec.europa.eu/dyna2/emdn/Z1206

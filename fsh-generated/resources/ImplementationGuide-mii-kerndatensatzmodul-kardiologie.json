@@ -3,7 +3,7 @@
   "id": "mii-kerndatensatzmodul-kardiologie",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
   "version": "0.1.0",
-  "name": "MII_IG_KARDIO_DE",
+  "name": "MII_IG_MODUL_KARDIO_DE",
   "status": "draft",
   "publisher": "Medizininformatik-Initiative",
   "contact": [
@@ -18,6 +18,7 @@
     }
   ],
   "packageId": "mii-kerndatensatzmodul-kardiologie",
+  "license": "CC-BY-4.0",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -57,6 +58,14 @@
     "resource": [
       {
         "reference": {
+          "reference": "Observation/example-lvef"
+        },
+        "name": "Beispiel LVEF Observation",
+        "description": "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
         },
         "name": "CodeSystem - Lebensmittelpunkt",
@@ -69,6 +78,13 @@
         },
         "name": "CodeSystem - modifizierte Rankin-Skala",
         "description": "Beeinträchtigung des Patienten nach Schlaganfall",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/kardio-patientenfragebogen"
+        },
+        "name": "ExampleQuestionnaire1",
         "exampleBoolean": false
       },
       {
@@ -309,13 +325,6 @@
         "name": "MII_VS_Rauchen_Einheiten_LOCAL",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Questionnaire/kardio-patientenfragebogen"
-        },
-        "name": "Questionnaire1",
-        "exampleBoolean": false
       }
     ],
     "page": {
@@ -326,6 +335,11 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "testpage.html",
+          "title": "Testpage",
           "generation": "markdown"
         }
       ]

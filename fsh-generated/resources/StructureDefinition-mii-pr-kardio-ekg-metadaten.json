@@ -2,9 +2,21 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-ekg-metadaten",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-metadaten",
+  "version": "2025.0.0",
   "name": "MII_PR_Kardio_EKG_Metadaten",
   "title": "MII PR Kardio EKG Metadaten",
   "status": "draft",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz auf den Speicherort.",
   "fhirVersion": "4.0.1",
   "kind": "resource",

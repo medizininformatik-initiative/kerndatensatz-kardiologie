@@ -3,6 +3,8 @@ Id: mii-pr-kardio-ekg-metadaten
 Parent: Procedure //Observation //Procedure
 Title: "MII PR Kardio EKG Metadaten"
 Description: "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz auf den Speicherort."
+* insert PR_CS_VS_Version
+* insert Publisher
 
 //* code = SNOMED TODO
 

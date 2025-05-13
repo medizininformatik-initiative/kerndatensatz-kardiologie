@@ -3,6 +3,8 @@ Id: mii-pr-kardio-condition-diagnose
 Parent: MII_PR_Diagnose_Condition
 Title: "MII PR Kardio Condition Diagnose"
 Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis."
+* insert PR_CS_VS_Version
+* insert Publisher
 
 //_________________________category
 // IG: Die relevanten Diagnosen sind nicht nur die Abrechnungsrelevanten, 

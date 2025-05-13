@@ -6,9 +6,20 @@
   "title": "MII_VS_Kardio_Device_Types_SNOMED",
   "description": "ValueSet for cardial device operation modes for cardial implantable devices.",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-device-types",
+  "version": "0.0.1",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "experimental": true,
   "date": "2025-05-08",
-  "version": "0.0.1",
   "compose": {
     "include": [
       {

@@ -2,6 +2,8 @@ ValueSet: MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED
 Id: mii-vs-kardio-ausschlusskriterien-acribis-scores
 Title: "MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED"
 Description: "ValueSet for exclusion criteria for score computation"
+* insert PR_CS_VS_Version
+* insert Publisher
 * ^status = #active
 
 // Obacht: Dieser Kommentar kann entfernt werden, sobald die Codes von Klinikern geprüft wurden.

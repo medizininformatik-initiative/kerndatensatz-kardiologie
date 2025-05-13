@@ -37,9 +37,20 @@
       "display": "Tod infolge des Schlaganfalls"
     }
   ],
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "experimental": false,
   "date": "2025-04-29",
-  "publisher": "Medizininformatik Initative",
   "purpose": "Dieses Code-System bildet die Stufen der modifizierten Rankin-Skala ab.",
   "caseSensitive": true,
   "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS",

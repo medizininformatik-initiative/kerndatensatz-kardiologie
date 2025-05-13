@@ -16,9 +16,21 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-procedure-implantation",
+  "version": "2025.0.0",
   "name": "MII_PR_Kardio_Procedure_Implantation",
   "title": "MII PR Kardio Prozedur Implantation",
   "status": "draft",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Profil zur Erfassung eines implantierten Devices mit Referenz auf Device und DeviceMetric.",
   "fhirVersion": "4.0.1",
   "kind": "resource",

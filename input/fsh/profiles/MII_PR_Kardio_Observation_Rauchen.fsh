@@ -3,9 +3,10 @@ Id: mii-pr-kardio-observation-rauchen
 Parent: ISiKRaucherStatus //Observation //https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
 Title: "MII PR Kardio Observation Rauchen"
 Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS."
-
 // Current Smoking Status - gematik ISiK --> https://simplifier.net/packages/de.gematik.isik-basismodul/4.0.3/files/2736495
 // Code = SCT 77176002 oder LOINC 72166-2
+* insert PR_CS_VS_Version
+* insert Publisher
 
 // value[x] from https://gematik.de/fhir/isik/ValueSet/current-smoking-status-uv-ips
 

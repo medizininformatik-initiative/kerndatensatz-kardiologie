@@ -2,7 +2,9 @@ ValueSet: MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED
 Id: mii-vs-kardio-artherosklerotische-ereignisse
 Title: "MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED"
 Description: "ValueSet for Relevant Codes for Atherosclerotic Events"
-* ^status = #active
+* insert PR_CS_VS_Version
+* insert Publisher
+* ^status = #draft
 
 // Obacht: Dieser Kommentar kann entfernt werden, sobald die Codes von Klinikern geprüft wurden.
 

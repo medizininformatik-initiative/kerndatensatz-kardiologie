@@ -3,6 +3,8 @@ Id: mii-pr-kardio-score-modifizierte-rankin-skala
 Parent: Observation //sd-mii-icu-score
 Title: "MII PR Kardio Score modifizierte Rankin Skala"
 Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala."
+* insert PR_CS_VS_Version
+* insert Publisher
 
 * code 1..1 MS
 * code.coding 1..1 MS

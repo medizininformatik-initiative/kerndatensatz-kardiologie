@@ -2,9 +2,21 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-observation-ausschluss-scoreberechnung",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung",
+  "version": "2025.0.0",
   "name": "MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung",
   "title": "MII PR Kardio Observation Ausschluss ScoreBerechnung",
   "status": "draft",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
   "fhirVersion": "4.0.1",
   "kind": "resource",

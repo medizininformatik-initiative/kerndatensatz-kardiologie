@@ -48,7 +48,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://terminology.hl7.org/CodeSystem/v2-0532"
+          "valueSet": "http://terminology.hl7.org/ValueSet/v2-0532"
         }
       }
     ]

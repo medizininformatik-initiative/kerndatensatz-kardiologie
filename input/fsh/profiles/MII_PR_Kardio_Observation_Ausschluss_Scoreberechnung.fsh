@@ -3,7 +3,8 @@ Id: mii-pr-kardio-observation-ausschluss-scoreberechnung
 Parent: Observation
 Title: "MII PR Kardio Observation Ausschluss ScoreBerechnung"
 Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis."
-// Parent: Observation
+* insert PR_CS_VS_Version
+* insert Publisher
 
 // Meint keinen Ausschluss für eine Studie!
 * ^description = "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann."

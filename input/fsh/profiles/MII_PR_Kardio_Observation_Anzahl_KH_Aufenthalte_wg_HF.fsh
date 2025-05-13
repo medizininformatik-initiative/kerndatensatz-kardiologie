@@ -4,6 +4,8 @@ Parent: Observation //korrekt so
 Title: "MII PR Kardio Observation Anzahl KH Aufenthalte wg HF"
 Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS."
 // Ermöglichen Anzahl Aufenhtalte wg. Herzinsuffizienz direkt anzugeben
+* insert PR_CS_VS_Version
+* insert Publisher
 
 * code 1..1 MS
 * code.coding 1..1 MS

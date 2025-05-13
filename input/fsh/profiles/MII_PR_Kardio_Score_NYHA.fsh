@@ -3,6 +3,8 @@ Id: mii-pr-kardio-score-nyha
 Parent: Observation // sd-mii-icu-score
 Title: "MII PR Kardio Score NYHA"
 Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association."
+* insert PR_CS_VS_Version
+* insert Publisher
 
 // Score als Observation, Codes in Value[x]
 // See https://simplifier.net/guide/GermanCoronaConsensusDataSet-ImplementationGuide/Home/GECCOCore/Demographics/Frailtyscore.guide.md?version=current

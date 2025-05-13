@@ -3,6 +3,8 @@ Id: mii-pr-kardio-procedure-implantation
 Parent: mii-pr-prozedur-procedure
 Title: "MII PR Kardio Prozedur Implantation"
 Description: "Profil zur Erfassung eines implantierten Devices mit Referenz auf Device und DeviceMetric."
+* insert PR_CS_VS_Version
+* insert Publisher
 
 * code.coding.code 1..1 MS
 // * code.coding.code = $ops#xyz

@@ -11,7 +11,18 @@
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
   },
-  "publisher": "https://www.medizininformatik-initiative.de",
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "experimental": true,
   "date": "2025-04-29",
   "copyright": "Public Domain",

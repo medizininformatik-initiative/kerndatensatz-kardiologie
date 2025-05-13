@@ -1,14 +1,12 @@
 ValueSet: MII_VS_Kardio_Gewichtsveraenderung_SNOMED
 Id: mii-vs-kardio-gewichtsveraenderung-snomed
-
 Title: "MII_VS_Kardio_Gewichtsveraenderung_SNOMED"
 Description: "Beschreibung von Gewichtsveränderungen"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomed"
-//* insert PR_CS_VS_Version
-//* insert Publisher //via rulesets TODO
-* ^publisher = "https://www.medizininformatik-initiative.de"
+* insert PR_CS_VS_Version
+* insert Publisher
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-03-05"

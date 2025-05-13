@@ -6,9 +6,19 @@
   "title": "MII_VS_Kardio_Lebensmittelpunkt_m49",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-lebensmittelpunkt",
   "version": "0.0.1",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "experimental": true,
   "date": "2025-03-03",
-  "publisher": "Medizininformatik Initative",
   "purpose": "Dieses Value Set bildet den aktuellen Lebensmittelpunkt des Patienten unabhängig von seiner Herkunft ab. Damit wird der Parameter 'Geographic region' des SMART-REACH-Scores mit der Ergänzung Deutschland abgebildet.",
   "compose": {
     "include": [

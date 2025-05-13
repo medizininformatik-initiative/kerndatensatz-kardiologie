@@ -1,5 +1,7 @@
+[example-lvef]: Observation-example-lvef.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
 [MII_CS_Kardio_modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html
+[kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
 [MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
@@ -8,7 +10,7 @@
 [MII_VS_Kardio_Geraeteprogrammierung]: ValueSet-mii-vs-kardio-geraeteprogrammierung.html
 [MII_VS_Kardio_Geraetetyp]: ValueSet-mii-vs-kardio-geraetetyp.html
 [MII_PR_Kardio_Condition_Diagnose]: StructureDefinition-mii-pr-kardio-condition-diagnose.html
-[MII_PR_Kardio_Geraeteprogrammierung]: StructureDefinition-mii-pr-geraeteprogrammierung.html
+[MII_PR_Kardio_EKG_Metadaten]: StructureDefinition-mii-pr-kardio-ekg-metadaten.html
 [MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF]: StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.html
 [MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung]: StructureDefinition-mii-pr-kardio-observation-ausschluss-scoreberechnung.html
 [MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis]: StructureDefinition-mii-pr-kardio-observation-artherosklerotisches-erstereignis.html
@@ -17,9 +19,13 @@
 [MII_PR_Kardio_Procedure_Implantation]: StructureDefinition-mii-pr-kardio-procedure-implantation.html
 [MII_PR_Kardio_Score_modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
+[MII_CS_Kardio_Kardiale_Implantat_Modi_LOCAL]: CodeSystem-mii-cs-kardio-kardiale-implantat-modi.html
+[MII_PR_Kardio_DeviceMetric_DeviceMode]: StructureDefinition-mii-pr-kardio-devicemetric-devicemode.html
+[MII_PR_Kardio_Device_Device]: StructureDefinition-mii-pr-kardio-device-device.html
 [MII_VS_Kardio_Allergene_SNOMED]: ValueSet-mii-vs-kardio-allergene-snomed.html
 [MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED]: ValueSet-mii-vs-kardio-artherosklerotische-ereignisse.html
 [MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED]: ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.html
+[MII_VS_Kardio_Device_Types_SNOMED]: ValueSet-mii-vs-kardio-device-types.html
 [MII_VS_Kardio_Diagnose_ICD10GM]: ValueSet-mii-vs-kardio-diagnose-icd10gm.html
 [MII_VS_Kardio_Ethnie_SNOMED]: ValueSet-mii-vs-kardio-ethnie-snomed.html
 [MII_VS_Kardio_Extended_Condition_Severity_SNOMED]: ValueSet-mii-vs-kardio-extended-condition-severity.html
@@ -30,4 +36,3 @@
 [MII_VS_Kardio_mRS_Stufen]: ValueSet-mii-vs-kardio-mrs-stufen.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMED]: ValueSet-mii-vs-kardio-nyha-klassen-snomed.html
 [MII_VS_Rauchen_Einheiten_LOCAL]: CodeSystem-mii-cs-rauchen-einheiten.html
-[kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html

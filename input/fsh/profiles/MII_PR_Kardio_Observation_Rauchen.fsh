@@ -1,13 +1,18 @@
 Profile: MII_PR_Kardio_Observation_Rauchen
 Id: mii-pr-kardio-observation-rauchen
 Parent: ISiKRaucherStatus //Observation //https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
-Title: "MII_PR_Kardio_Observation_Rauchen"
+Title: "MII PR Kardio Observation Rauchen"
 Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS."
-
 // Current Smoking Status - gematik ISiK --> https://simplifier.net/packages/de.gematik.isik-basismodul/4.0.3/files/2736495
 // Code = SCT 77176002 oder LOINC 72166-2
+* insert PR_CS_VS_Version
+* insert Publisher
 
 // value[x] from https://gematik.de/fhir/isik/ValueSet/current-smoking-status-uv-ips
+
+// BEZUG AUF PATIENT MS 1..1
+* subject 1..1 MS
+* subject only Reference(Patient)
 
 // Überlegung für Zukunft fuer Allgemeinen Datensatz:
   // Fuer weitere Details --> neue Observatin zu "history of tobacco use"
@@ -55,8 +60,8 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 //* component[rauchdauer].code = $smoking-units#cigarettes-per-day TODO
 * component[rauchdauer].value[x] only Quantity
 * component[rauchdauer].valueQuantity.unit = "year" // für Jahre (nach UCUM)
-* component[rauchdauer].valueQuantity.system = $unitsofmeasure
-* component[rauchdauer].valueQuantity.code = $unitsofmeasure#a
+* component[rauchdauer].valueQuantity.system = $ucum
+* component[rauchdauer].valueQuantity.code = $ucum#a
 * component[rauchdauer].valueQuantity.comparator 1..1 //MS
 // https://github.com/ucum-org/ucum/blob/main/common-units/TableOfExampleUcumCodesForElectronicMessaging.xlsx
 // Beispielwerte: < 1 Jahr; > 1 Jahr; > 5 Jahre; > 10 Jahre

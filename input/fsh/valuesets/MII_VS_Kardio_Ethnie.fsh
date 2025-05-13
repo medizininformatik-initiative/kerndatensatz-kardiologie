@@ -5,6 +5,8 @@ Description: "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie"
+* insert PR_CS_VS_Version
+* insert Publisher
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-03-03"

@@ -17,14 +17,14 @@
       "answerOption": [
         {
           "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
             "code": "Y",
             "display": "Ja"
           }
         },
         {
           "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
             "code": "N",
             "display": "Nein"
           }
@@ -115,7 +115,7 @@
       "enableWhen": [
         {
           "answerCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
             "code": "Y"
           },
           "question": "q1",
@@ -132,8 +132,8 @@
       "type": "integer"
     }
   ],
-  "name": "Questionnaire1",
-  "title": "Questionnaire1",
+  "name": "ExampleQuestionnaire1",
+  "title": "ExampleQuestionnaire1",
   "status": "draft",
   "date": "2024-10-07"
 }

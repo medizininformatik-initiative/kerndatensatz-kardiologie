@@ -1,5 +1,13 @@
 [
   {
+    "outputFile": "CodeSystem-mii-cs-kardio-kardiale-implantat-modi.json",
+    "fshName": "MII_CS_Kardio_Kardiale_Implantat_Modi_LOCAL",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/MII_CS_Kardio_Kardiale_Implanatate.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
     "outputFile": "CodeSystem-mii-cs-kardio-lebensmittelpunkt.json",
     "fshName": "MII_CS_Kardio_Lebensmittelpunkt",
     "fshType": "CodeSystem",
@@ -21,7 +29,15 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\MII_CS_Karido_Rauchen_Einheiten.fsh",
     "startLine": 1,
-    "endLine": 11
+    "endLine": 13
+  },
+  {
+    "outputFile": "Observation-example-lvef.json",
+    "fshName": "example-lvef",
+    "fshType": "Instance",
+    "fshFile": "profiles/MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
+    "startLine": 157,
+    "endLine": 231
   },
   {
     "outputFile": "Questionnaire-kardio-patientenfragebogen.json",
@@ -77,7 +93,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 66
+    "endLine": 77
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-device.json",
@@ -85,7 +101,23 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 20
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-devicemetric-devicemode.json",
+    "fshName": "MII_PR_Kardio_DeviceMetric_DeviceMode",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_DeviceMetric_DeviceMode.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",
+    "fshName": "MII_PR_Kardio_EKG_Metadaten",
+    "fshType": "Profile",
+    "fshFile": "profiles/MII_PR_Kardio_EKG_Metadaten.fsh",
+    "startLine": 1,
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
@@ -93,7 +125,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF.fsh",
     "startLine": 1,
-    "endLine": 44
+    "endLine": 51
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-artherosklerotisches-erstereignis.json",
@@ -101,7 +133,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Condition_Artherosklerotisches_Erstereignis.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 21
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-ausschluss-scoreberechnung.json",
@@ -109,15 +141,15 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung.fsh",
     "startLine": 1,
-    "endLine": 29
+    "endLine": 37
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion.json",
     "fshName": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
-    "startLine": 1,
-    "endLine": 5
+    "fshFile": "profiles/MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
+    "startLine": 7,
+    "endLine": 138
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-rauchen.json",
@@ -125,7 +157,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Rauchen.fsh",
     "startLine": 1,
-    "endLine": 60
+    "endLine": 65
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-procedure-implantation.json",
@@ -133,7 +165,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Procedure_Implantation.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 23
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json",
@@ -141,7 +173,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 23
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-nyha.json",
@@ -149,7 +181,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Score_NYHA.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 26
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-allergene-snomed.json",
@@ -157,7 +189,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Allergene.fsh",
     "startLine": 1,
-    "endLine": 57
+    "endLine": 56
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-artherosklerotische-ereignisse.json",
@@ -165,15 +197,23 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_artherosklerotische-ereignisse.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 19
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.json",
     "fshName": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII-VS-Kardio-Ausschlusskriterien-Acribis-Scores.fsh",
+    "fshFile": "valuesets/MII-VS-Kardio-Ausschlusskriterien-Acribis-Scores.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 20
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-device-types.json",
+    "fshName": "MII_VS_Kardio_Device_Types_SNOMED",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/MII_VS_Kardio_device-types.fsh",
+    "startLine": 1,
+    "endLine": 13
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-diagnose-icd10gm.json",
@@ -189,29 +229,13 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Ethnie.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 17
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-extended-condition-severity.json",
     "fshName": "MII_VS_Kardio_Extended_Condition_Severity_SNOMED",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_extended-condition-severity.fsh",
-    "startLine": 1,
-    "endLine": 12
-  },
-  {
-    "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung.json",
-    "fshName": "MII_VS_Kardio_Geraeteprogrammierung",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Geraeteprogrammierung.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "ValueSet-mii-vs-kardio-geraetetyp.json",
-    "fshName": "MII_VS_Kardio_Geraetetyp",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Geraetetyp.fsh",
+    "fshFile": "valuesets/MII_VS_Kardio_extended-condition-severity.fsh",
     "startLine": 1,
     "endLine": 14
   },
@@ -221,7 +245,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Gewichtsveraenderung.fsh",
     "startLine": 1,
-    "endLine": 33
+    "endLine": 31
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-implant-device-emdn.json",
@@ -229,7 +253,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_implant-device.fsh",
     "startLine": 1,
-    "endLine": 52
+    "endLine": 51
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.json",
@@ -237,7 +261,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Lebensmittelpunkt.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 18
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-medikation.json",
@@ -253,7 +277,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_mRS.fsh",
     "startLine": 1,
-    "endLine": 25
+    "endLine": 26
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-nyha-klassen-snomed.json",
@@ -261,6 +285,6 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_NYHA-Klassen.fsh",
     "startLine": 1,
-    "endLine": 22
+    "endLine": 21
   }
 ]

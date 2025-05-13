@@ -16,9 +16,21 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-diagnose",
+  "version": "2025.0.0",
   "name": "MII_PR_Kardio_Condition_Diagnose",
-  "title": "MII_PR_Kardio_Condition_Diagnose",
+  "title": "MII PR Kardio Condition Diagnose",
   "status": "draft",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -94,16 +106,32 @@
         }
       },
       {
+        "id": "Condition.subject",
+        "path": "Condition.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Condition.recorder",
         "path": "Condition.recorder",
         "comment": "Allows documentation about who recorded the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person.",
-        "mustSupport": true
+        "mustSupport": true,
+        "isModifier": true,
+        "isModifierReason": "Can express the uncertainty of a diagnosis by stating a recorder that is not authorized to define an confirmed diagnosis."
       },
       {
         "id": "Condition.asserter",
         "path": "Condition.asserter",
         "comment": "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person.",
-        "mustSupport": true
+        "mustSupport": true,
+        "isModifier": true,
+        "isModifierReason": "Can express the uncertainty of a diagnosis by stating a asserter that is not authorized to define an confirmed diagnosis."
       }
     ]
   }

@@ -4,3 +4,9 @@ Thumbs.db
 /output
 /temp
 /template
+./build.bat
+./build.sh
+./gencontinuous.bat
+./gencontinuous.sh
+./genonce.bat
+./genonce.sh

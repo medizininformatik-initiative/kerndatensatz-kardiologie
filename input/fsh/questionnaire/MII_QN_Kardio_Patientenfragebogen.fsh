@@ -2,8 +2,8 @@ Instance: kardio-patientenfragebogen
 InstanceOf: Questionnaire
 Usage: #definition
 
-* name = "Questionnaire1"
-* title = "Questionnaire1"
+* name = "ExampleQuestionnaire1"
+* title = "ExampleQuestionnaire1"
 * status = #draft
 * date = "2024-10-07"
 * subjectType = #Patient //ref
@@ -22,10 +22,10 @@ Usage: #definition
 * item[=].text = "Hatten Sie jemals Herzprobleme oder eine Herzerkrankung?"
 * item[=].type = #choice
 * item[=].required = true
-* item[=].answerOption[+].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0136"
+* item[=].answerOption[+].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[=].answerOption[=].valueCoding.code = #Y
 * item[=].answerOption[=].valueCoding.display = "Ja"
-* item[=].answerOption[+].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0136"
+* item[=].answerOption[+].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[=].answerOption[=].valueCoding.code = #N
 * item[=].answerOption[=].valueCoding.display = "Nein"
  
@@ -68,8 +68,8 @@ Usage: #definition
 * item[=].type = #text
 // EnableWhen: Frage q6 wird nur angezeigt, wenn Frage q1 mit "Ja" beantwortet wurde
 * item[=].enableWhen[+].question = "q1"
-* item[=].enableWhen[=].operator = http://hl7.org/fhir/questionnaire-enable-operator#=
-* item[=].enableWhen[=].answerCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0136"
+* item[=].enableWhen[=].operator = #=
+* item[=].enableWhen[=].answerCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[=].enableWhen[=].answerCoding.code = #Y
 
 * item[+].linkId = "q7"

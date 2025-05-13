@@ -3,7 +3,7 @@
   "id": "mii-kerndatensatzmodul-kardiologie",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
   "version": "0.1.0",
-  "name": "MII_IG_KARDIO_DE",
+  "name": "MII_IG_MODUL_KARDIO_DE",
   "status": "draft",
   "publisher": "Medizininformatik-Initiative",
   "contact": [
@@ -18,6 +18,7 @@
     }
   ],
   "packageId": "mii-kerndatensatzmodul-kardiologie",
+  "license": "CC-BY-4.0",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -57,6 +58,14 @@
     "resource": [
       {
         "reference": {
+          "reference": "Observation/example-lvef"
+        },
+        "name": "Beispiel LVEF Observation",
+        "description": "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
         },
         "name": "CodeSystem - Lebensmittelpunkt",
@@ -69,6 +78,13 @@
         },
         "name": "CodeSystem - modifizierte Rankin-Skala",
         "description": "Beeinträchtigung des Patienten nach Schlaganfall",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/kardio-patientenfragebogen"
+        },
+        "name": "ExampleQuestionnaire1",
         "exampleBoolean": false
       },
       {
@@ -129,23 +145,23 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
         },
-        "name": "MII_PR_Kardio_Condition_Diagnose",
+        "name": "MII PR Kardio Condition Diagnose",
         "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-geraeteprogrammierung"
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-metadaten"
         },
-        "name": "MII_PR_Kardio_Geraeteprogrammierung",
-        "description": "Der älsrjigoijr...",
+        "name": "MII PR Kardio EKG Metadaten",
+        "description": "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz auf den Speicherort.",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
         },
-        "name": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF",
+        "name": "MII PR Kardio Observation Anzahl KH Aufenthalte wg HF",
         "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
@@ -153,7 +169,7 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
         },
-        "name": "MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung",
+        "name": "MII PR Kardio Observation Ausschluss ScoreBerechnung",
         "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
         "exampleBoolean": false
       },
@@ -161,7 +177,7 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-artherosklerotisches-erstereignis"
         },
-        "name": "MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis",
+        "name": "MII PR Kardio Observation Datum Artherosklerotisches Erstereignis",
         "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
@@ -169,7 +185,7 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
         },
-        "name": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
+        "name": "MII PR Kardio Observation Linksventrikulaere Ejektionsfraktion",
         "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
         "exampleBoolean": false
       },
@@ -177,7 +193,7 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen"
         },
-        "name": "MII_PR_Kardio_Observation_Rauchen",
+        "name": "MII PR Kardio Observation Rauchen",
         "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
@@ -185,7 +201,7 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-procedure-implantation"
         },
-        "name": "MII_PR_Kardio_Prozedur_Implantation",
+        "name": "MII PR Kardio Prozedur Implantation",
         "description": "Profil zur Erfassung eines implantierten Devices mit Referenz auf Device und DeviceMetric.",
         "exampleBoolean": false
       },
@@ -193,7 +209,7 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
         },
-        "name": "MII_PR_Kardio_Score_modifizierte_Rankin_Skala",
+        "name": "MII PR Kardio Score modifizierte Rankin Skala",
         "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
         "exampleBoolean": false
       },
@@ -201,8 +217,32 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-score-nyha"
         },
-        "name": "MII_PR_Kardio_Score_NYHA",
+        "name": "MII PR Kardio Score NYHA",
         "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-kardiale-implantat-modi"
+        },
+        "name": "MII_CS_Kardio_Kardiale_Implantat_Modi_LOCAL",
+        "description": "Lokales Valueset für die Dokumentation des Funktionsmodus eines kardialen Implantats. In Zukunft Angabe über EMDN-Codes in Betracht ziehen/prüfen.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-devicemetric-devicemode"
+        },
+        "name": "MII_PR_Kardio_DeviceMetric_DeviceMode",
+        "description": "Profil zur Angabe des Betriebsmodus eines Device im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-device-device"
+        },
+        "name": "MII_PR_Kardio_Device_Device",
+        "description": "Profil zur Abbildung eines Device im Kontext des Projekts Acribis.",
         "exampleBoolean": false
       },
       {
@@ -227,6 +267,14 @@
         },
         "name": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED",
         "description": "ValueSet for exclusion criteria for score computation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-device-types"
+        },
+        "name": "MII_VS_Kardio_Device_Types_SNOMED",
+        "description": "ValueSet for cardial device operation modes for cardial implantable devices.",
         "exampleBoolean": false
       },
       {
@@ -307,13 +355,6 @@
         "name": "MII_VS_Rauchen_Einheiten_LOCAL",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Questionnaire/kardio-patientenfragebogen"
-        },
-        "name": "Questionnaire1",
-        "exampleBoolean": false
       }
     ],
     "page": {
@@ -324,6 +365,11 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "testpage.html",
+          "title": "Testpage",
           "generation": "markdown"
         }
       ]

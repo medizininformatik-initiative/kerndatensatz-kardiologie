@@ -1,20 +1,25 @@
 Profile: MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF
 Id: mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf
 Parent: Observation //korrekt so
-Title: "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF"
+Title: "MII PR Kardio Observation Anzahl KH Aufenthalte wg HF"
 Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS."
 // Ermöglichen Anzahl Aufenhtalte wg. Herzinsuffizienz direkt anzugeben
-// Erlaubt aber auch Anzahl auf 1 zu setzen und Details in der component anzugeben
+* insert PR_CS_VS_Version
+* insert Publisher
 
 * code 1..1 MS
 * code.coding 1..1 MS
 * code.coding.system = $sct
 * code.coding.code = $sct#32485007 //hospital admission (procedure)
-//* code.coding.display = "hospital admission (procedure)"
+* code.coding.display = "hospital admission (procedure)"
 
 // Anzahl als Value/Integer 
 * value[x] 1..1 MS
 * value[x] only integer
+
+// Subject 1..1 MS Reference(Patient)
+* subject 1..1 MS
+* subject only Reference(Patient)
 
 // Component
 * component MS
@@ -33,6 +38,8 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
 * component[Grund].valueString = "Herzinsuffizienz"
 * component[Grund].code = $sct#84114007 // Heart failure (Herzinsuffizienz)
 * component[Grund].valueCodeableConcept = $sct#84114007 "Heart failure"
+
+// TODO: Code muss geprüft werden. Eventuell sind noch weitere Codes relevant. Nicht immer wird bei Aufnahme wg. HF unbedingt HF angegeben --> indirekte Hinweise berücksichtigen?
 
 // Dauer
 * component[Dauer].valueDuration

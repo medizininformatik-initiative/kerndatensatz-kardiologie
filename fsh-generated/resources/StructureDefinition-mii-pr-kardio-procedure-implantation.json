@@ -16,9 +16,21 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-procedure-implantation",
+  "version": "2025.0.0",
   "name": "MII_PR_Kardio_Procedure_Implantation",
-  "title": "MII_PR_Kardio_Prozedur_Implantation",
+  "title": "MII PR Kardio Prozedur Implantation",
   "status": "draft",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Profil zur Erfassung eines implantierten Devices mit Referenz auf Device und DeviceMetric.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -29,8 +41,51 @@
   "differential": {
     "element": [
       {
-        "id": "Procedure",
-        "path": "Procedure"
+        "id": "Procedure.code.coding",
+        "path": "Procedure.code.coding"
+      },
+      {
+        "id": "Procedure.code.coding.code",
+        "path": "Procedure.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.subject",
+        "path": "Procedure.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.focalDevice",
+        "path": "Procedure.focalDevice",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.focalDevice.manipulated",
+        "path": "Procedure.focalDevice.manipulated",
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.usedReference",
+        "path": "Procedure.usedReference",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Device"
+            ]
+          }
+        ],
+        "mustSupport": true
       }
     ]
   }

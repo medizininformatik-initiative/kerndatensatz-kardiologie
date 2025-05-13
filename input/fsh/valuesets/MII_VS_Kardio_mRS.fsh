@@ -4,10 +4,9 @@ Title: "MII_VS_Kardio_mRS_Stufen"
 Description: "Stufen der modifizierten Rankin-Skala"
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-//* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen"
-//* insert PR_CS_VS_Version
-//* insert Publisher //via rulesets TODO
-* ^publisher = "https://www.medizininformatik-initiative.de"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen"
+* insert PR_CS_VS_Version
+* insert Publisher
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-04-29"
@@ -23,7 +22,8 @@ Description: "Stufen der modifizierten Rankin-Skala"
 * $mRS#mRS4 "Es besteht eine höhergradige Beeinträchtigung. Der Patient ist nicht mehr in der Lage, seinen Körper zu pflegen oder selbstständig zu laufen."
 * $mRS#mRS5 "Es besteht eine schwere Behinderung. Der Patient ist bettlägerig, inkontinent und auf ständige Pflege angewiesen."
 * $mRS#mRS6 "Tod infolge des Schlaganfalls"
-
+* $mRS#mRSbiggerequal3 "asdasd" //TODO Comparator >= angebbar bei VS? TODO
+* $mRS#mRSsmaller3 "asdasd" //TODO Comparator >= angebbar bei VS? TODO
 // Published: 1988, Van Swieten JC; Koudstaal PJ; Visser MC; Schouten HJA; Van Gijn J, 
 // Online: see https://pubmed.ncbi.nlm.nih.gov/3363593/
 // Lizenzbedingungen: Public Domain --> https://eprovide.mapi-trust.org/instruments/modified-rankin-scale

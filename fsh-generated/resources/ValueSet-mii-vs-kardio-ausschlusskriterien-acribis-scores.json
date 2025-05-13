@@ -6,6 +6,18 @@
   "title": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED",
   "description": "ValueSet for exclusion criteria for score computation",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-scores",
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "compose": {
     "include": [
       {

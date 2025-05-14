@@ -47,7 +47,9 @@ Leitung des Moduls:
 Technische Umsetzung und Implementation-Guide:
 * Philip Goos
 * Jendrik Richter
-* Dirk Meyer zum Büschenfelde 
+* Dirk Meyer zum Büschenfelde
+* Anatol Bollinger
+* Georg Fette
 
 Beratung:
 * Alexander Bartschke

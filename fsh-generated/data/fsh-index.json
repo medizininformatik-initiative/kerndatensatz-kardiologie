@@ -32,10 +32,26 @@
     "endLine": 13
   },
   {
+    "outputFile": "Device-mii-exa-kardio-device-icd.json",
+    "fshName": "mii-exa-kardio-device-icd",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
+    "startLine": 38,
+    "endLine": 49
+  },
+  {
+    "outputFile": "DeviceMetric-mii-exa-kardio-brady-pacing-mode.json",
+    "fshName": "mii-exa-kardio-brady-pacing-mode",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_Brady_Pacing_Mode.fsh",
+    "startLine": 30,
+    "endLine": 41
+  },
+  {
     "outputFile": "Observation-example-kardio-nyha.json",
     "fshName": "example-kardio-nyha",
     "fshType": "Instance",
-    "fshFile": "profiles/MII_PR_Kardio_Score_NYHA.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Score_NYHA.fsh",
     "startLine": 35,
     "endLine": 68
   },
@@ -48,10 +64,18 @@
     "endLine": 231
   },
   {
+    "outputFile": "Observation-mii-exa-kardio-geraeteprogrammierung-vvi.json",
+    "fshName": "mii-exa-kardio-geraeteprogrammierung-vvi",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
+    "startLine": 44,
+    "endLine": 61
+  },
+  {
     "outputFile": "PractitionerRole-example-role-kardiologe.json",
     "fshName": "example-role-kardiologe",
     "fshType": "Instance",
-    "fshFile": "profiles/MII_PR_Kardio_Score_NYHA.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Score_NYHA.fsh",
     "startLine": 71,
     "endLine": 79
   },
@@ -125,7 +149,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
     "startLine": 1,
-    "endLine": 43
+    "endLine": 42
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",

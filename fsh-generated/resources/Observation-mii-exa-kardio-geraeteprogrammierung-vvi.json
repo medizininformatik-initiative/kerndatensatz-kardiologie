@@ -24,6 +24,11 @@
       "reference": "DeviceMetric/mii-exa-kardio-brady-pacing-mode"
     }
   ],
+  "performer": [
+    {
+      "reference": "Practitioner/example-practitioner"
+    }
+  ],
   "valueCodeableConcept": {
     "coding": [
       {

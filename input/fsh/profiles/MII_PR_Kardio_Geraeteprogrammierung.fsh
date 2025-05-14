@@ -29,7 +29,6 @@ Das sollte eine Instanz von *MII PR Kardio Device* sein."
 * focus ^comment = "Hier wird die DeviceMetric referenziert.
 Das sollte eine Instanz von *MII PR Kardio Brady Pacing Mode* sein."
 * issued ..0
-* performer ..0
 * value[x] 1..
 * value[x] only CodeableConcept
 * valueCodeableConcept from $geraeteprogrammierung (required)
@@ -56,6 +55,7 @@ Usage: #example
 * subject.reference = "Device/mii-exa-kardio-device-icd"
 * focus.reference = "DeviceMetric/mii-exa-kardio-brady-pacing-mode"
 * effectiveDateTime = "2025-05-14T14:33:12+02:00"
+* performer.reference = "Practitioner/example-practitioner"
 * valueCodeableConcept.coding.system = $mdc
 * valueCodeableConcept.coding.code = #754773
 * valueCodeableConcept.coding.display = "MDC_IDC_ENUM_BRADY_MODE_VVI"

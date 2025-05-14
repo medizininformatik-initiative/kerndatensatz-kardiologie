@@ -4,6 +4,7 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
   "version": "0.1.0",
   "name": "MII_IG_MODUL_KARDIO_DE",
+  "title": "MII IG Modul Kardio DE",
   "status": "draft",
   "publisher": "Medizininformatik-Initiative",
   "contact": [
@@ -63,6 +64,14 @@
         "name": "Beispiel LVEF Observation",
         "description": "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
+      },
+      {
+        "reference": {
+          "reference": "Observation/example-kardio-nyha"
+        },
+        "name": "Beispielinstanz: NYHA-Klassifikation",
+        "description": "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation bei Herzinsuffizienz gemäß MII PR Kardio Score NYHA.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha"
       },
       {
         "reference": {
@@ -373,6 +382,14 @@
         "name": "MII_VS_Rauchen_Einheiten_LOCAL",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/example-role-kardiologe"
+        },
+        "name": "Rolle: Kardiologe im Klinikum",
+        "description": "Beispielhafte Rolle eines Kardiologen zur Verwendung in performer-Referenzen.",
+        "exampleBoolean": true
       }
     ],
     "page": {

@@ -10,7 +10,7 @@ Das vorliegende Projekt beschreibt die FHIR-Spezifikation des Erweiterungsmoduls
 
 Aktuelle stabile Version: keine </br>  <!-- Link Release -->
 Vorschauversion: keine </br>  <!--[yyyy-x.x.x](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~packages)-->
-Reifegrad: Draft - Version 0.1.0
+Reifegrad: Draft
 
 Alle veröffentlichen FHIR-Artefakte innerhalb des Projektes verfügen über einen Status durch welchen der jeweilige Reifegrad abgeleitet werden kann.
 Profile mit dem Status 'Draft' wurden noch nicht ballotiert und können noch diversen und substantiellen Änderungen unterliegen. Verpflichtende und ballotierte Ergebnisse sind zukünftig <!-- "zukünftig" --> unter dem Tab 'Packages' zu finden.
@@ -34,23 +34,24 @@ Für das Modul Kardiologie werden Umsetzungsstufen definiert. Dieses soll eine i
  * Stufe 3: Abbildung der gesamten Kardiologie
 
 ### Wichtige Dokumente und Links
+* [Modul im Simplifier](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~introduction)
+* [GitHub Repository](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie)
 * [Beschreibung des MII-Kerndatensatzes in der Version 1.0 vom 10.3.2017 (PDF)](https://www.medizininformatik-initiative.de/sites/default/files/inline-files/MII_04_Kerndatensatz_1-0.pdf)
 * [Datenmodellbeschreibung des MII-Kerndatensatzes in ART-DECOR](https://art-decor.org/art-decor/decor-project--mide-)
-* [GitHub Repository](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie)
 
-### Autoren und Ansprechpartner
+### Autoren und Ansprechpartner <!-- gerne ergänzen! -->
 
 Leitung des Moduls:
 * Merten Prüser
 
-Technische Umsetzung: <!-- noch nicht vollständig, gerne ergänzen! -->
-* Philip Goos (Technische Umsetzung FHIR Profile und ImplemenationGuides)
-* Dirk Meyer zum Büschenfelde
+Technische Umsetzung und Implementation-Guide:
+* Philip Goos
 * Jendrik Richter
+* Dirk Meyer zum Büschenfelde
 * Anatol Bollinger
 * Georg Fette
-* <<Weitere Personen: Namen und Rolle bitte ergänzen>>
 
 Beratung:
 * Alexander Bartschke
 * Julian Saß
+* Felix Erdfelder

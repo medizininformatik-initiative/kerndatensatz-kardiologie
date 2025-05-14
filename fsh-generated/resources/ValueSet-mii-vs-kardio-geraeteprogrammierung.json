@@ -4,12 +4,13 @@
   "name": "MII_VS_Kardio_Geraeteprogrammierung",
   "id": "mii-vs-kardio-geraeteprogrammierung",
   "title": "MII VS Kardio Geräteprogrammierung",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-geraeteprogrammierung",
-  "version": "0.0.1",
+  "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendetd.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung",
+  "version": "0.1.0",
   "experimental": true,
-  "date": "2025-05-13",
+  "date": "2025-05-14",
   "publisher": "Medizininformatik Initative",
-  "purpose": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.",
+  "purpose": "Mit Codes aus diesem Valueset soll abgebildet werden, ob es sich um einen AAI-, VVI- oder DDD-Schrittmacher handelt, falls das bekannt ist.",
   "compose": {
     "include": [
       {

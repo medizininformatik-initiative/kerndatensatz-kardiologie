@@ -113,6 +113,30 @@
       },
       {
         "reference": {
+          "reference": "DeviceMetric/mii-exa-kardio-brady-pacing-mode"
+        },
+        "name": "MII EXA Kardio Brady Pacing Mode",
+        "description": "Beispiel einer DeviceMetric für die Geräteprogrammierung eines ICD",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-brady-pacing-mode"
+      },
+      {
+        "reference": {
+          "reference": "Device/mii-exa-kardio-device-icd"
+        },
+        "name": "MII EXA Kardio Device ICD",
+        "description": "Beispiel eines implantierten Kardioverter-Defibrillators (ICD)",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-geraeteprogrammierung-vvi"
+        },
+        "name": "MII EXA Kardio Geräteprogrammierung VVI",
+        "description": "Beispiel der Einstellung eines Kardioverter-Defibrillators (ICD) im VVI-Modus",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-geraeteprogrammierung"
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-brady-pacing-mode"
         },
         "name": "MII PR Kardio Brady Pacing Mode",
@@ -141,6 +165,14 @@
         },
         "name": "MII PR Kardio EKG Metadaten",
         "description": "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz auf den Speicherort.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-geraeteprogrammierung"
+        },
+        "name": "MII PR Kardio Geräteprogrammierung",
+        "description": "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric \"Brady Pacing Mode\", eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden.",
         "exampleBoolean": false
       },
       {
@@ -212,6 +244,7 @@
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung"
         },
         "name": "MII VS Kardio Geräteprogrammierung",
+        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendetd.",
         "exampleBoolean": false
       },
       {
@@ -219,6 +252,7 @@
           "reference": "ValueSet/mii-vs-kardio-geraetetyp"
         },
         "name": "MII VS Kardio Gerätetyp",
+        "description": "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher zur kardialen Resynchronationstherapie und ventrikuläre Unterstützungssysteme ab.",
         "exampleBoolean": false
       },
       {
@@ -227,14 +261,6 @@
         },
         "name": "MII_CS_Kardio_Kardiale_Implantat_Modi_LOCAL",
         "description": "Lokales Valueset für die Dokumentation des Funktionsmodus eines kardialen Implantats. In Zukunft Angabe über EMDN-Codes in Betracht ziehen/prüfen.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-geraeteprogrammierung"
-        },
-        "name": "MII_PR_Kardio_Geraeteprogrammierung",
-        "description": "Der älsrjigoijr...",
         "exampleBoolean": false
       },
       {

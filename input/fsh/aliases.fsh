@@ -21,8 +21,8 @@ Alias: $nyha-class-vs = https://www.medizininformatik-initiative.de/fhir/ext/mod
 Alias: $ausschlusskriterien-acribis-scores-vs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-scores
 Alias: $device-type = http://hl7.org/fhir/ValueSet/device-type
 Alias: $devicemetric-type = http://hl7.org/fhir/ValueSet/devicemetric-type
-Alias: $geraetetyp = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-geraetetyp
-Alias: $geraeteprogrammierung = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-geraeteprogrammierung
+Alias: $geraetetyp = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp
+Alias: $geraeteprogrammierung = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung
 Alias: $vs-v2-0532 = http://terminology.hl7.org/ValueSet/v2-0532
 
 //_________________

@@ -1,14 +1,15 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "mii-pr-geraeteprogrammierung",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-geraeteprogrammierung",
-  "version": "0.0.1",
+  "id": "mii-pr-kardio-geraeteprogrammierung",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-geraeteprogrammierung",
+  "version": "0.1.0",
   "name": "MII_PR_Kardio_Geraeteprogrammierung",
+  "title": "MII PR Kardio Geräteprogrammierung",
   "status": "draft",
   "experimental": true,
   "date": "2025-05-13",
   "publisher": "Medizininformatik Initative",
-  "description": "Der älsrjigoijr...",
+  "description": "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric \"Brady Pacing Mode\", eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -31,8 +32,8 @@
         "id": "Observation.code",
         "path": "Observation.code",
         "binding": {
-          "strength": "example",
-          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/devicemetric-type"
         }
       },
       {
@@ -55,6 +56,7 @@
       {
         "id": "Observation.subject",
         "path": "Observation.subject",
+        "comment": "Hier wird das Device referenziert.\r\nDas sollte eine Instanz von *MII PR Kardio Device* sein.",
         "min": 1,
         "type": [
           {
@@ -68,6 +70,7 @@
       {
         "id": "Observation.focus",
         "path": "Observation.focus",
+        "comment": "Hier wird die DeviceMetric referenziert.\r\nDas sollte eine Instanz von *MII PR Kardio Brady Pacing Mode* sein.",
         "min": 1,
         "max": "1",
         "type": [
@@ -100,7 +103,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-geraeteprogrammierung"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung"
         }
       },
       {

@@ -1,0 +1,23 @@
+{
+  "resourceType": "DeviceMetric",
+  "id": "mii-exa-kardio-brady-pacing-mode",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-brady-pacing-mode"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "code": "730752",
+        "display": "MDC_IDC_SET_BRADY_MODE"
+      }
+    ],
+    "text": "The brady pacing mode according to the NBG standard."
+  },
+  "source": {
+    "reference": "Device/mii-exa-kardio-device-icd"
+  },
+  "category": "setting"
+}

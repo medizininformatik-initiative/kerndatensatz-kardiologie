@@ -32,12 +32,36 @@
     "endLine": 13
   },
   {
+    "outputFile": "Device-mii-exa-kardio-device-icd.json",
+    "fshName": "mii-exa-kardio-device-icd",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
+    "startLine": 38,
+    "endLine": 49
+  },
+  {
+    "outputFile": "DeviceMetric-mii-exa-kardio-brady-pacing-mode.json",
+    "fshName": "mii-exa-kardio-brady-pacing-mode",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_Brady_Pacing_Mode.fsh",
+    "startLine": 30,
+    "endLine": 41
+  },
+  {
     "outputFile": "Observation-example-lvef.json",
     "fshName": "example-lvef",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
     "startLine": 157,
     "endLine": 231
+  },
+  {
+    "outputFile": "Observation-mii-exa-kardio-geraeteprogrammierung-vvi.json",
+    "fshName": "mii-exa-kardio-geraeteprogrammierung-vvi",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
+    "startLine": 45,
+    "endLine": 61
   },
   {
     "outputFile": "Questionnaire-kardio-patientenfragebogen.json",
@@ -72,20 +96,12 @@
     "endLine": 6
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-geraeteprogrammierung.json",
-    "fshName": "MII_PR_Kardio_Geraeteprogrammierung",
-    "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
-    "startLine": 1,
-    "endLine": 36
-  },
-  {
     "outputFile": "StructureDefinition-mii-pr-kardio-brady-pacing-mode.json",
     "fshName": "MII_PR_Kardio_Brady_Pacing_Mode",
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Brady_Pacing_Mode.fsh",
     "startLine": 1,
-    "endLine": 24
+    "endLine": 28
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-condition-diagnose.json",
@@ -101,7 +117,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 26
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",
@@ -110,6 +126,14 @@
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Metadaten.fsh",
     "startLine": 1,
     "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-geraeteprogrammierung.json",
+    "fshName": "MII_PR_Kardio_Geraeteprogrammierung",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
+    "startLine": 1,
+    "endLine": 43
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
@@ -237,7 +261,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Geraeteprogrammierung.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 17
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-geraetetyp.json",
@@ -245,7 +269,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Geraetetyp.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 15
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomed.json",

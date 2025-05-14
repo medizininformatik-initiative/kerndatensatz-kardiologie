@@ -1,7 +1,8 @@
 ValueSet: MII_VS_Kardio_Geraetetyp
 Id: mii-vs-kardio-geraetetyp
 Title: "MII VS Kardio Gerätetyp"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-geraetetyp"
+Description: "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher zur kardialen Resynchronationstherapie und ventrikuläre Unterstützungssysteme ab."
+
 * ^version = "0.0.1"
 * ^status = #draft
 * ^experimental = true

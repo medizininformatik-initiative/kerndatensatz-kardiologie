@@ -1,0 +1,23 @@
+{
+  "resourceType": "Device",
+  "id": "mii-exa-kardio-device-icd",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72506001",
+        "display": "Implantable defibrillator, device (physical object)"
+      }
+    ]
+  },
+  "patient": {
+    "reference": "Patient/mii-exa-person-patient-minimal"
+  },
+  "status": "active",
+  "manufacturer": "Medtronic"
+}

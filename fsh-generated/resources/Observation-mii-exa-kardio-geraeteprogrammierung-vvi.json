@@ -1,0 +1,38 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-kardio-geraeteprogrammierung-vvi",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-geraeteprogrammierung"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "code": "730752",
+        "display": "MDC_IDC_SET_BRADY_MODE"
+      }
+    ],
+    "text": "The brady pacing mode according to the NBG standard"
+  },
+  "subject": {
+    "reference": "Device/mii-exa-kardio-device-icd"
+  },
+  "focus": [
+    {
+      "reference": "DeviceMetric/mii-exa-kardio-brady-pacing-mode"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "code": "754773",
+        "display": "MDC_IDC_ENUM_BRADY_MODE_VVI"
+      }
+    ]
+  },
+  "status": "final",
+  "effectiveDateTime": "2025-05-14T14:33:12+02:00"
+}

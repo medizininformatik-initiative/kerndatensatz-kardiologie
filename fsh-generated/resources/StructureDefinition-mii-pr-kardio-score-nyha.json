@@ -68,6 +68,11 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "mustSupport": true
+      },
+      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "min": 1,

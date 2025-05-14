@@ -32,12 +32,28 @@
     "endLine": 13
   },
   {
+    "outputFile": "Observation-example-kardio-nyha.json",
+    "fshName": "example-kardio-nyha",
+    "fshType": "Instance",
+    "fshFile": "profiles/MII_PR_Kardio_Score_NYHA.fsh",
+    "startLine": 35,
+    "endLine": 68
+  },
+  {
     "outputFile": "Observation-example-lvef.json",
     "fshName": "example-lvef",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
     "startLine": 157,
     "endLine": 231
+  },
+  {
+    "outputFile": "PractitionerRole-example-role-kardiologe.json",
+    "fshName": "example-role-kardiologe",
+    "fshType": "Instance",
+    "fshFile": "profiles/MII_PR_Kardio_Score_NYHA.fsh",
+    "startLine": 71,
+    "endLine": 79
   },
   {
     "outputFile": "Questionnaire-kardio-patientenfragebogen.json",
@@ -165,7 +181,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Score_NYHA.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 29
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-allergene-snomed.json",

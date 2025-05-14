@@ -1,0 +1,57 @@
+{
+  "resourceType": "Observation",
+  "id": "example-kardio-nyha",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha",
+      "https://www.medizininformatik-initiative.de/fhir/core/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://example.org/observation-ids",
+      "value": "NYHA-OBS-123456"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "420816009",
+        "display": "New York Heart Association Classification (assessment scale)"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "PractitionerRole/example-role-kardiologe"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA22794-2",
+        "display": "NYHA Class II"
+      }
+    ]
+  },
+  "note": [
+    {
+      "text": "Patient berichtet über leichte Einschränkungen bei moderater körperlicher Aktivität. Keine Beschwerden in Ruhe."
+    }
+  ],
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NYHA Klassifikation: Klasse II. Patient hat in Ruhe keine Beschwerden, leichte Symptome bei Aktivität.</div>"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/example-patient"
+  },
+  "encounter": {
+    "reference": "Encounter/example-ambulant"
+  },
+  "effectiveDateTime": "2024-11-12T14:23:00+01:00",
+  "issued": "2024-11-12T15:00:00+01:00"
+}

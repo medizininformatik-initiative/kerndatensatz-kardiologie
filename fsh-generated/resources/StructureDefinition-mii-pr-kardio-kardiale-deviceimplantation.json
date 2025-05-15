@@ -53,6 +53,11 @@
         "max": "0"
       },
       {
+        "id": "Procedure.category",
+        "path": "Procedure.category",
+        "min": 1
+      },
+      {
         "id": "Procedure.category.coding",
         "path": "Procedure.category.coding",
         "min": 1
@@ -67,6 +72,16 @@
         "id": "Procedure.category.coding:sct.code",
         "path": "Procedure.category.coding.code",
         "fixedCode": "387713003"
+      },
+      {
+        "id": "Procedure.code.coding:sct",
+        "path": "Procedure.code.coding",
+        "sliceName": "sct",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation"
+        }
       },
       {
         "id": "Procedure.subject",

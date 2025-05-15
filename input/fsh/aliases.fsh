@@ -24,6 +24,7 @@ Alias: $devicemetric-type = http://hl7.org/fhir/ValueSet/devicemetric-type
 Alias: $geraetetyp = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp
 Alias: $geraeteprogrammierung = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung
 Alias: $koerperstelle = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle
+Alias: $kardiale-deviceimplantation = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation
 Alias: $procedure-device-action-codes = https://hl7.org/fhir/ValueSet/device-action
 Alias: $vs-v2-0532 = http://terminology.hl7.org/ValueSet/v2-0532
 

@@ -14,8 +14,12 @@ Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers z
 * status = #completed
 * statusReason ..0
 
+* category 1..
 * category.coding[sct] 1..
 * category.coding[sct].code = #387713003 (exactly)
+
+* code.coding[sct] 1..
+* code.coding[sct] from $kardiale-deviceimplantation
 
 * subject only Reference(Patient)
 * bodySite from $koerperstelle (required)

@@ -5,11 +5,14 @@ Title: "MII PR Kardio Brady Pacing Mode"
 Description: "Dieses Profil bildet die DeviceMetric \"Brady Pacing Mode\" eines Herzschrittmacher nach dem NBG-Standard ab.
 Eine konkrete Programmierung eines Herzschrittmachers wird in einer Observation abgebildet."
 
-* ^version = "0.1.0"
+// TODO: Umbenennen Programmiermodus
+
+* insert PR_CS_VS_Version
+* insert Publisher
+
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-05-13"
-* ^publisher = "Medizininformatik Initative"
 
 * type from $devicemetric-type (required)
 * type.coding 1..

@@ -4,11 +4,12 @@ Parent: Observation
 Title: "MII PR Kardio Geräteprogrammierung"
 Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric \"Brady Pacing Mode\", eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden."
 
-* ^version = "0.1.0"
+* insert PR_CS_VS_Version
+* insert Publisher
+
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-05-13"
-* ^publisher = "Medizininformatik Initative"
 
 * basedOn ..0
 * partOf ..0

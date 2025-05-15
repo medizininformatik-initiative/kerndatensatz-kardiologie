@@ -186,6 +186,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation"
+        },
+        "name": "MII PR Kardio Kardiale Deviceimplantation",
+        "description": "Profil zur Erfassung einer Implantation eines Herzschrittmachers zur kardialen Resynchronationstherapie, Kardioverter-Defibrillators oder ventrikulären Unterstützungssystems.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
         },
         "name": "MII PR Kardio Observation Anzahl KH Aufenthalte wg HF",
@@ -226,14 +234,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-procedure-implantation"
-        },
-        "name": "MII PR Kardio Prozedur Implantation",
-        "description": "Profil zur Erfassung eines implantierten Devices mit Referenz auf Device und DeviceMetric.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
         },
         "name": "MII PR Kardio Score modifizierte Rankin Skala",
@@ -262,6 +262,22 @@
         },
         "name": "MII VS Kardio Gerätetyp",
         "description": "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher zur kardialen Resynchronationstherapie und ventrikuläre Unterstützungssysteme ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation"
+        },
+        "name": "MII VS Kardio Kardiale Devicemimplantation",
+        "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle"
+        },
+        "name": "MII VS Kardio Kardiale Devicemimplantation Körperstelle",
+        "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
         "exampleBoolean": false
       },
       {

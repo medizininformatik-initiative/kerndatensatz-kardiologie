@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle",
+  "id": "mii-vs-kardio-kardiale-deviceimplantation-koerperstelle",
+  "title": "MII VS Kardio Kardiale Devicemimplantation Körperstelle",
+  "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle",
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-05-13",
+  "purpose": "Codes aus diesem Value Set können in einer Prozedur die Körperstelle der Implantation eines kardialen Devices in der Kardiologie spezifizieren.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "80891009",
+            "display": "Heart structure (body structure)"
+          },
+          {
+            "code": "87878005",
+            "display": "Left cardiac ventricular structure (body structure)"
+          },
+          {
+            "code": "53085002",
+            "display": "Right cardiac ventricular structure (body structure)"
+          }
+        ]
+      }
+    ]
+  }
+}

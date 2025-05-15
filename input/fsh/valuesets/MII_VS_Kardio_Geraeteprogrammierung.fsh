@@ -4,11 +4,12 @@ Title: "MII VS Kardio Geräteprogrammierung"
 Description: "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.
 Dazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendetd."
 
-* ^version = "0.1.0"
+* insert PR_CS_VS_Version
+* insert Publisher
+
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-05-14"
-* ^publisher = "Medizininformatik Initative"
 * ^purpose = "Mit Codes aus diesem Valueset soll abgebildet werden, ob es sich um einen AAI-, VVI- oder DDD-Schrittmacher handelt, falls das bekannt ist."
 
 * $mdc#754753 "MDC_IDC_ENUM_BRADY_MODE_AAI"

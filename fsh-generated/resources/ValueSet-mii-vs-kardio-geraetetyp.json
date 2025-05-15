@@ -6,10 +6,20 @@
   "title": "MII VS Kardio Gerätetyp",
   "description": "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher zur kardialen Resynchronationstherapie und ventrikuläre Unterstützungssysteme ab.",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp",
-  "version": "0.0.1",
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "experimental": true,
   "date": "2025-05-13",
-  "publisher": "Medizininformatik Initative",
   "purpose": "Dieses Value Set bildet den Typ eines implantierten Gerätes in der Kardiologie ab.",
   "compose": {
     "include": [

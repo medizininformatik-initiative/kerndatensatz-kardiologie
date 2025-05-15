@@ -2,13 +2,23 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-brady-pacing-mode",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-brady-pacing-mode",
-  "version": "0.1.0",
+  "version": "2025.0.0",
   "name": "MII_PR_Kardio_Brady_Pacing_Mode",
   "title": "MII PR Kardio Brady Pacing Mode",
   "status": "draft",
   "experimental": true,
   "date": "2025-05-13",
-  "publisher": "Medizininformatik Initative",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Dieses Profil bildet die DeviceMetric \"Brady Pacing Mode\" eines Herzschrittmacher nach dem NBG-Standard ab.\r\nEine konkrete Programmierung eines Herzschrittmachers wird in einer Observation abgebildet.",
   "fhirVersion": "4.0.1",
   "kind": "resource",

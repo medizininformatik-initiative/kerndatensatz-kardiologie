@@ -4,11 +4,12 @@ Parent: Device
 Title: "MII PR Kardio Device"
 Description: "Profil zur Abbildung eines implantierten Herzschrittmachers, Defibrillators oder ventrikulären Unterstützungssystems."
 
-* ^version = "0.1.0"
+* insert PR_CS_VS_Version
+* insert Publisher
+
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-05-13"
-* ^publisher = "Medizininformatik Initative"
 
 * status MS
 

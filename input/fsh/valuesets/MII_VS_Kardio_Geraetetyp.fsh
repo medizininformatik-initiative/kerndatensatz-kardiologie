@@ -3,11 +3,12 @@ Id: mii-vs-kardio-geraetetyp
 Title: "MII VS Kardio Gerätetyp"
 Description: "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher zur kardialen Resynchronationstherapie und ventrikuläre Unterstützungssysteme ab."
 
-* ^version = "0.0.1"
+* insert PR_CS_VS_Version
+* insert Publisher
+
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-05-13"
-* ^publisher = "Medizininformatik Initative"
 * ^purpose = "Dieses Value Set bildet den Typ eines implantierten Gerätes in der Kardiologie ab."
 
 * include codes from system $sct where concept is-a #72506001 "Implantable defibrillator, device (physical object)"

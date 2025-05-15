@@ -2,13 +2,23 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-geraeteprogrammierung",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-geraeteprogrammierung",
-  "version": "0.1.0",
+  "version": "2025.0.0",
   "name": "MII_PR_Kardio_Geraeteprogrammierung",
   "title": "MII PR Kardio Geräteprogrammierung",
   "status": "draft",
   "experimental": true,
   "date": "2025-05-13",
-  "publisher": "Medizininformatik Initative",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric \"Brady Pacing Mode\", eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden.",
   "fhirVersion": "4.0.1",
   "kind": "resource",

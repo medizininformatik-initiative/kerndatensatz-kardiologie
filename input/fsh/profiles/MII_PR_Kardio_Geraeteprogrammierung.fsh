@@ -31,6 +31,8 @@ Das sollte eine Instanz von *MII PR Kardio Device* sein."
 * focus ^comment = "Hier wird die DeviceMetric referenziert.
 Das sollte eine Instanz von *MII PR NBG Schrittmachermodus* sein."
 
+* effective[x] 1.. MS
+
 * issued ..0
 
 * value[x] 1.. MS

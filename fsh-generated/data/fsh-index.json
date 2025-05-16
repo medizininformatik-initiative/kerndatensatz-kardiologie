@@ -68,8 +68,8 @@
     "fshName": "mii-exa-kardio-geraeteprogrammierung-vvi",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
-    "startLine": 49,
-    "endLine": 66
+    "startLine": 51,
+    "endLine": 68
   },
   {
     "outputFile": "PractitionerRole-example-role-kardiologe.json",
@@ -141,7 +141,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
     "startLine": 1,
-    "endLine": 47
+    "endLine": 49
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.json",

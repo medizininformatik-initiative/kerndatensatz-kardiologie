@@ -122,14 +122,6 @@
       },
       {
         "reference": {
-          "reference": "DeviceMetric/mii-exa-kardio-brady-pacing-mode"
-        },
-        "name": "MII EXA Kardio Brady Pacing Mode",
-        "description": "Beispiel einer DeviceMetric für die Geräteprogrammierung eines ICD",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-brady-pacing-mode"
-      },
-      {
-        "reference": {
           "reference": "Device/mii-exa-kardio-device-icd"
         },
         "name": "MII EXA Kardio Device ICD",
@@ -146,11 +138,11 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-brady-pacing-mode"
+          "reference": "DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus"
         },
-        "name": "MII PR Kardio Brady Pacing Mode",
-        "description": "Dieses Profil bildet die DeviceMetric \"Brady Pacing Mode\" eines Herzschrittmacher nach dem NBG-Standard ab.\r\nEine konkrete Programmierung eines Herzschrittmachers wird in einer Observation abgebildet.",
-        "exampleBoolean": false
+        "name": "MII EXA Kardio NBG Schrittmachermodus",
+        "description": "Beispiel einer DeviceMetric für die Geräteprogrammierung eines ICD",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"
       },
       {
         "reference": {
@@ -181,7 +173,7 @@
           "reference": "StructureDefinition/mii-pr-kardio-geraeteprogrammierung"
         },
         "name": "MII PR Kardio Geräteprogrammierung",
-        "description": "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric \"Brady Pacing Mode\", eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden.",
+        "description": "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric *Schrittmachermodus*, eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden.",
         "exampleBoolean": false
       },
       {
@@ -189,7 +181,15 @@
           "reference": "StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation"
         },
         "name": "MII PR Kardio Kardiale Deviceimplantation",
-        "description": "Profil zur Erfassung einer Implantation eines Herzschrittmachers zur kardialen Resynchronationstherapie, Kardioverter-Defibrillators oder ventrikulären Unterstützungssystems.",
+        "description": "Profil zur Erfassung einer Implantation eines Herzschrittmachers, Kardioverter-Defibrillators oder ventrikulären Unterstützungssystems.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"
+        },
+        "name": "MII PR Kardio NBG Schrittmachermodus",
+        "description": "Dieses Profil bildet die Einstellungsmöglichkeit eines Herzschrittmacher nach dem NBG-Standard ab.\r\nDie konkrete Programmierung eines Herzschrittmachers zu einem bestimmmten Zeitpunkt oder in einem Zeitraum wird in einer Observation abgebildet.",
         "exampleBoolean": false
       },
       {

@@ -40,10 +40,10 @@
     "endLine": 51
   },
   {
-    "outputFile": "DeviceMetric-mii-exa-kardio-brady-pacing-mode.json",
-    "fshName": "mii-exa-kardio-brady-pacing-mode",
+    "outputFile": "DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.json",
+    "fshName": "mii-exa-kardio-nbg-schrittmachermodus",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Brady_Pacing_Mode.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_NBG_Schrittmachermodus.fsh",
     "startLine": 33,
     "endLine": 44
   },
@@ -68,8 +68,8 @@
     "fshName": "mii-exa-kardio-geraeteprogrammierung-vvi",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
-    "startLine": 45,
-    "endLine": 62
+    "startLine": 49,
+    "endLine": 66
   },
   {
     "outputFile": "PractitionerRole-example-role-kardiologe.json",
@@ -112,14 +112,6 @@
     "endLine": 6
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-brady-pacing-mode.json",
-    "fshName": "MII_PR_Kardio_Brady_Pacing_Mode",
-    "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Brady_Pacing_Mode.fsh",
-    "startLine": 1,
-    "endLine": 31
-  },
-  {
     "outputFile": "StructureDefinition-mii-pr-kardio-condition-diagnose.json",
     "fshName": "MII_PR_Kardio_Condition_Diagnose",
     "fshType": "Profile",
@@ -149,7 +141,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
     "startLine": 1,
-    "endLine": 43
+    "endLine": 47
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.json",
@@ -157,7 +149,15 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Kardiale_Deviceimplantation.fsh",
     "startLine": 1,
-    "endLine": 47
+    "endLine": 48
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json",
+    "fshName": "MII_PR_Kardio_NBG_Schrittmachermodus",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_NBG_Schrittmachermodus.fsh",
+    "startLine": 1,
+    "endLine": 31
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",

@@ -9,8 +9,8 @@
   "code": {
     "coding": [
       {
-        "system": "urn:iso:std:iso:11073:10101",
         "code": "730752",
+        "system": "urn:iso:std:iso:11073:10101",
         "display": "MDC_IDC_SET_BRADY_MODE"
       }
     ],

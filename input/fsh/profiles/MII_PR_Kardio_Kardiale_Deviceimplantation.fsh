@@ -2,7 +2,7 @@ Profile: MII_PR_Kardio_Kardiale_Deviceimplantation
 Id: mii-pr-kardio-kardiale-deviceimplantation
 Parent: mii-pr-prozedur-procedure
 Title: "MII PR Kardio Kardiale Deviceimplantation"
-Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers zur kardialen Resynchronationstherapie, Kardioverter-Defibrillators oder ventrikulären Unterstützungssystems."
+Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers, Kardioverter-Defibrillators oder ventrikulären Unterstützungssystems."
 
 * insert PR_CS_VS_Version
 * insert Publisher
@@ -16,7 +16,7 @@ Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers z
 
 * category 1..
 * category.coding[sct] 1..
-* category.coding[sct].code = #387713003 (exactly)
+* category.coding[sct].code = #387713003
 
 * code.coding[sct] 1..
 * code.coding[sct] from $kardiale-deviceimplantation
@@ -41,6 +41,7 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
 "
 
 * focalDevice 1.. MS
+* focalDevice.action 1.. MS
 * focalDevice.action from $procedure-device-action-codes (required)
 * focalDevice.action = $procedure-device-action-codes#129338005
 * focalDevice.manipulated MS

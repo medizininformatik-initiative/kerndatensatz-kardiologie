@@ -14,7 +14,7 @@ Description: "Profil zur Abbildung eines implantierten Herzschrittmachers, Defib
 * status MS
 
 * type from $geraetetyp (required)
-* type 1..
+* type 1.. MS
 * type ^comment = "Der Typ soll mit einem SNOMED-Code angegeben werden.
 Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **ICD**: 72506001 - Implantable defibrillator, device (physical object)
@@ -25,7 +25,7 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **RVAD**: 360065002 - Right ventricular assist device (physical object)
  - **BiVAD**: 360057000 - Biventricular assist device (physical object)"
 
-* patient 1..
+* patient 1.. MS
 
 /*
 Device.property.type ist gedacht für statische Eigenschaften eines Geräts, z.B. Farbe und Größe.

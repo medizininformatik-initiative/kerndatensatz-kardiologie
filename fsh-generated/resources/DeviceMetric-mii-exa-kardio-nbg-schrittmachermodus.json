@@ -1,16 +1,16 @@
 {
   "resourceType": "DeviceMetric",
-  "id": "mii-exa-kardio-brady-pacing-mode",
+  "id": "mii-exa-kardio-nbg-schrittmachermodus",
   "meta": {
     "profile": [
-      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-brady-pacing-mode"
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"
     ]
   },
   "type": {
     "coding": [
       {
-        "system": "urn:iso:std:iso:11073:10101",
         "code": "730752",
+        "system": "urn:iso:std:iso:11073:10101",
         "display": "MDC_IDC_SET_BRADY_MODE"
       }
     ],

@@ -2,7 +2,7 @@ Profile: MII_PR_Kardio_Geraeteprogrammierung
 Id: mii-pr-kardio-geraeteprogrammierung
 Parent: Observation
 Title: "MII PR Kardio Geräteprogrammierung"
-Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric \"Brady Pacing Mode\", eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden."
+Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric *Schrittmachermodus*, eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden."
 
 * insert PR_CS_VS_Version
 * insert Publisher
@@ -15,24 +15,28 @@ Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die De
 * partOf ..0
 
 * code from $devicemetric-type (required)
-* code.coding 1..
-* code.coding.system 1..
-* code.coding.system = $mdc (exactly)
-* code.coding.code 1..
-* code.coding.code = #730752 (exactly)
+* code MS
+* code.coding 1.. MS
+* code.coding = $mdc#730752
+* code.coding.system 1.. MS
+* code.coding.code 1.. MS
 
-* subject 1..
+* subject 1.. MS
 * subject only Reference(Device)
 * subject ^comment = "Hier wird das Device referenziert.
 Das sollte eine Instanz von *MII PR Kardio Device* sein."
-* focus 1..1
+
+* focus 1..1 MS
 * focus only Reference(DeviceMetric)
 * focus ^comment = "Hier wird die DeviceMetric referenziert.
-Das sollte eine Instanz von *MII PR Kardio Brady Pacing Mode* sein."
+Das sollte eine Instanz von *MII PR NBG Schrittmachermodus* sein."
+
 * issued ..0
-* value[x] 1..
+
+* value[x] 1.. MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from $geraeteprogrammierung (required)
+
 * interpretation ..0
 * bodySite ..0
 * method ..0

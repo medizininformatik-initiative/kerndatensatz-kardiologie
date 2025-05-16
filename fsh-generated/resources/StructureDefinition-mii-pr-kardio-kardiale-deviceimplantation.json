@@ -33,7 +33,7 @@
       ]
     }
   ],
-  "description": "Profil zur Erfassung einer Implantation eines Herzschrittmachers zur kardialen Resynchronationstherapie, Kardioverter-Defibrillators oder ventrikulären Unterstützungssystems.",
+  "description": "Profil zur Erfassung einer Implantation eines Herzschrittmachers, Kardioverter-Defibrillators oder ventrikulären Unterstützungssystems.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -71,7 +71,7 @@
       {
         "id": "Procedure.category.coding:sct.code",
         "path": "Procedure.category.coding.code",
-        "fixedCode": "387713003"
+        "patternCode": "387713003"
       },
       {
         "id": "Procedure.code",
@@ -118,6 +118,7 @@
       {
         "id": "Procedure.focalDevice.action",
         "path": "Procedure.focalDevice.action",
+        "min": 1,
         "patternCodeableConcept": {
           "coding": [
             {
@@ -126,6 +127,7 @@
             }
           ]
         },
+        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "https://hl7.org/fhir/ValueSet/device-action"

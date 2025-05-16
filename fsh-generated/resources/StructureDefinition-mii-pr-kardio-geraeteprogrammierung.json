@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric \"Brady Pacing Mode\", eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden.",
+  "description": "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric *Schrittmachermodus*, eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -41,6 +41,7 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
+        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "http://hl7.org/fhir/ValueSet/devicemetric-type"
@@ -49,19 +50,24 @@
       {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "min": 1
+        "min": 1,
+        "patternCoding": {
+          "code": "730752",
+          "system": "urn:iso:std:iso:11073:10101"
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding.system",
         "path": "Observation.code.coding.system",
         "min": 1,
-        "fixedUri": "urn:iso:std:iso:11073:10101"
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
         "min": 1,
-        "fixedCode": "730752"
+        "mustSupport": true
       },
       {
         "id": "Observation.subject",
@@ -75,12 +81,13 @@
               "http://hl7.org/fhir/StructureDefinition/Device"
             ]
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.focus",
         "path": "Observation.focus",
-        "comment": "Hier wird die DeviceMetric referenziert.\r\nDas sollte eine Instanz von *MII PR Kardio Brady Pacing Mode* sein.",
+        "comment": "Hier wird die DeviceMetric referenziert.\r\nDas sollte eine Instanz von *MII PR NBG Schrittmachermodus* sein.",
         "min": 1,
         "max": "1",
         "type": [
@@ -90,7 +97,8 @@
               "http://hl7.org/fhir/StructureDefinition/DeviceMetric"
             ]
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.issued",
@@ -106,6 +114,7 @@
             "code": "CodeableConcept"
           }
         ],
+        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung"

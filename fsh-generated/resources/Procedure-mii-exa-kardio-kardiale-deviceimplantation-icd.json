@@ -1,0 +1,78 @@
+{
+  "resourceType": "Procedure",
+  "id": "mii-exa-kardio-kardiale-deviceimplantation-icd",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum",
+      "valueDateTime": "2025-05-16T16:23:12+02:00"
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "262202000",
+        "display": "Therapeutic intent (qualifier value)"
+      }
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "code": "387713003",
+        "system": "http://snomed.info/sct",
+        "display": "Surgical procedure (procedure)"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "395218007",
+        "display": "Implantation of internal cardiac defibrillator (procedure)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/mii-exa-person-patient-minimal"
+  },
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "code": "80891009",
+          "system": "http://snomed.info/sct",
+          "display": "Heart structure (body structure)"
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "text": "Implantation eines ICDs im April 2020"
+    }
+  ],
+  "focalDevice": [
+    {
+      "action": {
+        "coding": [
+          {
+            "code": "129338005",
+            "system": "http://snomed.info/sct",
+            "display": "Surgical implantation - action (qualifier value)"
+          }
+        ]
+      },
+      "manipulated": {
+        "reference": "Device/mii-exa-kardio-device-icd"
+      }
+    }
+  ],
+  "status": "completed",
+  "performedDateTime": "2020-04"
+}

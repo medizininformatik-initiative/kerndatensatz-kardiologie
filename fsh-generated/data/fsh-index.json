@@ -80,6 +80,14 @@
     "endLine": 79
   },
   {
+    "outputFile": "Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json",
+    "fshName": "mii-exa-kardio-kardiale-deviceimplantation-icd",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_Kardiale_Deviceimplantation.fsh",
+    "startLine": 52,
+    "endLine": 70
+  },
+  {
     "outputFile": "Questionnaire-kardio-patientenfragebogen.json",
     "fshName": "kardio-patientenfragebogen",
     "fshType": "Instance",

@@ -36,7 +36,7 @@
       {
         "id": "Device.type",
         "path": "Device.type",
-        "comment": "Der Typ soll mit einem SNOMED-Code angegeben werden.\r\nFür ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):\r\n - **ICD**: 72506001 - Implantable defibrillator, device (physical object)\r\n - **CRT**: 704708004 - Cardiac resynchronization therapy implantable pacemaker (physical object)\r\n - **ICD+CRT**: 704707009 - Cardiac resynchronization therapy implantable defibrillator (physical object)\r\n - **LVAD**: 360066001 - Left ventricular assist device (physical object)\r\n - **RVAD**: 360065002 - Right ventricular assist device (physical object)\r\n - **BiVAD**: 360057000 - Biventricular assist device (physical object)",
+        "comment": "Der Typ soll mit einem SNOMED-Code angegeben werden.\r\nFür ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):\r\n - **ICD**: 72506001 - Implantable defibrillator, device (physical object)\r\n - **CRT**: 704708004 - Cardiac resynchronization therapy implantable pacemaker (physical object)\r\n - **ICD+CRT**: 704707009 - Cardiac resynchronization therapy implantable defibrillator (physical object)\r\n - **Herzschrittmacher ohne genauere Bezeichnung**: 72506001 - Implantable defibrillator, device (physical object)\r\n - **LVAD**: 360066001 - Left ventricular assist device (physical object)\r\n - **RVAD**: 360065002 - Right ventricular assist device (physical object)\r\n - **BiVAD**: 360057000 - Biventricular assist device (physical object)",
         "min": 1,
         "binding": {
           "strength": "required",

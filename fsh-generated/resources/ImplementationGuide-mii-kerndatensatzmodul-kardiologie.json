@@ -261,7 +261,7 @@
           "reference": "ValueSet/mii-vs-kardio-geraetetyp"
         },
         "name": "MII VS Kardio Gerätetyp",
-        "description": "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher zur kardialen Resynchronationstherapie und ventrikuläre Unterstützungssysteme ab.",
+        "description": "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher und ventrikuläres Unterstützungssystem ab.",
         "exampleBoolean": false
       },
       {

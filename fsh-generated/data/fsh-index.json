@@ -36,8 +36,8 @@
     "fshName": "mii-exa-kardio-device-icd",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
-    "startLine": 39,
-    "endLine": 50
+    "startLine": 40,
+    "endLine": 51
   },
   {
     "outputFile": "DeviceMetric-mii-exa-kardio-brady-pacing-mode.json",
@@ -133,7 +133,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
     "startLine": 1,
-    "endLine": 27
+    "endLine": 28
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",
@@ -157,7 +157,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Kardiale_Deviceimplantation.fsh",
     "startLine": 1,
-    "endLine": 31
+    "endLine": 47
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",

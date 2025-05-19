@@ -121,6 +121,16 @@
         "id": "Condition.recorder",
         "path": "Condition.recorder",
         "comment": "Allows documentation about who recorded the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person.",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
+            ]
+          }
+        ],
         "mustSupport": true,
         "isModifier": true,
         "isModifierReason": "Can express the uncertainty of a diagnosis by stating a recorder that is not authorized to define an confirmed diagnosis."
@@ -129,6 +139,16 @@
         "id": "Condition.asserter",
         "path": "Condition.asserter",
         "comment": "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person.",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
+            ]
+          }
+        ],
         "mustSupport": true,
         "isModifier": true,
         "isModifierReason": "Can express the uncertainty of a diagnosis by stating a asserter that is not authorized to define an confirmed diagnosis."

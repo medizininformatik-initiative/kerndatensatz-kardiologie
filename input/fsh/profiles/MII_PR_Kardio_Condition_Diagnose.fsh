@@ -29,7 +29,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 //     Terminal/End-stage = 42796001;
 * severity 0..1 MS
 * severity from $extended-condition-severity (preferred)
-* severity ^comment = "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis." 
+* severity ^comment = "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis."
 
 // Subject
 * subject 1..1 MS
@@ -53,11 +53,14 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 //       Wenn Patient dann verificationStatus entsprechend setzen.
 //     Patient/study nurse (practicioner role) recorder --> arzt asserter = standardfall bei Patientenfragebogen
 // MS, damit (bei Vorhandensein der Information) die Angabe erfolgt und das in FDPG berücksichtigt wird.
-* recorder 0..1 MS
+* recorder 1..1 MS
+* recorder only Reference(Patient or PractitionerRole)
 * recorder ^isModifier = true
 * recorder ^isModifierReason = "Can express the uncertainty of a diagnosis by stating a recorder that is not authorized to define an confirmed diagnosis."
 * recorder ^comment = "Allows documentation about who recorded the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
-* asserter 0..1 MS
+
+* asserter 1..1 MS
+* asserter only Reference(Patient or PractitionerRole)
 * asserter ^isModifier = true
 * asserter ^isModifierReason = "Can express the uncertainty of a diagnosis by stating a asserter that is not authorized to define an confirmed diagnosis."
 * asserter ^comment = "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
@@ -78,3 +81,230 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * extension[Feststellungsdatum] 0..1 MS
 
 // IG TODO beschreiben, wie man welche wege angibt
+
+//_____________________________________________________________________________
+// Instance die wir brauchen:
+// Diagnose liegt vor = Ja
+// Diagnose liegt nicht vor = Nein
+// Diagnose ist unbekannt = Unbekannt
+
+//_____________________________________________________________________________
+Instance: Beispiel-Kardio-Condition-Diagnose-Is-Present
+InstanceOf: MII_PR_Kardio_Condition_Diagnose
+Title: "Beispiel Diagnose liegt vor"
+Description: "Beispielhafte vollständige Instanz einer Diagnose die vom Arzt bestätigt tatsächlich vorliegt gemäß dem Profil MII_PR_Kardio_Condition_Diagnose im Rahmen des ACRIBIS-Projekts."
+Usage: #example
+
+* id = "beispiel-kardio-diagnose-liegt-vor"
+
+// --------------------------------------
+// CATEGORY (problem-list-item)
+* category[diagnosis_category].coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
+* category[diagnosis_category].coding.code = #problem-list-item
+* category[diagnosis_category].coding.display = "Problem List Item"
+
+// --------------------------------------
+// CODE (ICD10-GM & SNOMED)
+* code.coding[0].system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
+* code.coding[0].code = #I21.9
+* code.coding[0].display = "Akuter Myokardinfarkt, nicht näher bezeichnet"
+* code.coding[1].system = "http://snomed.info/sct"
+* code.coding[1].version = "20250501_International"
+* code.coding[1].code = #22298006
+* code.coding[1].display = "Myocardial infarction (disorder)"
+
+// --------------------------------------
+// SEVERITY (terminal) --> Angabe fuer Krebserkrankung nicht im Endstadium/terminal
+* severity.coding.system = "http://snomed.info/sct"
+* severity.coding.code = #6736007
+* severity.coding.display = "Moderate (severity modifier) (qualifier value)"
+
+// --------------------------------------
+// SUBJECT (Patientenreferenz)
+* subject.reference = "Patient/beispiel-patient"
+* subject.display = "Max Mustermann"
+
+// --------------------------------------
+// RECORDER (Patient selbst hat Angabe gemacht / Patient)
+* recorder.reference = "Patient/beispiel-patient"
+* recorder.display = "Patient"
+
+// --------------------------------------
+// ASSERTER (Arzt)
+* asserter.reference = "PractitionerRole/role-onkologe"
+* asserter.display = "Facharzt für Kardiologie"
+
+// --------------------------------------
+// VERIFICATION STATUS -> Arzt hat festgestellt, dass Diagnose wohl nicht vorliegt
+* verificationStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+* verificationStatus.coding.code = #confirmed
+* verificationStatus.coding.display = "Confirmed"
+
+// --------------------------------------
+// EXTENSION: Feststellungsdatum --> Trifft hier nicht zu, siehe ModifierExtension, Patient gibt in Amanesefragebogen an es nicht zu wissen
+* extension[Feststellungsdatum].url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension[Feststellungsdatum].valueDateTime = "2023-11-05"
+
+// --------------------------------------
+// Recorded DATE
+* recordedDate = "2025-05-13"
+
+// --------------------------------------
+// ONSET DATE (Symptombeginn)
+* onsetDateTime = "2023-11-05"
+
+// --------------------------------------
+// ABATEMENT DATE (Symptombeendigung, falls relevant)
+//* abatementDateTime = "2023-11-12"
+
+//_____________________________________________________________________________
+// Example-Instance zu Krebserkrankung die nicht vorliegt
+Instance: Beispiel-Kardio-Condition-Krebs-Endstadium-Not-Present
+InstanceOf: MII_PR_Kardio_Condition_Diagnose
+Title: "Beispiel einer nicht vorliegenden terminalen Krebserkrankung"
+Description: "Vollständig befüllte FHIR-Instanz zur Repräsentation des Nicht-Vorliegens einer Krebserkrankung im Endstadium gemäß dem Profil MII_PR_Kardio_Condition_Diagnose."
+Usage: #example
+
+* id = "beispiel-kardio-krebs-terminal-liegt-nicht-vor"
+
+// --------------------------------------
+// CATEGORY (problem-list-item)
+* category[diagnosis_category].coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
+* category[diagnosis_category].coding.code = #problem-list-item
+* category[diagnosis_category].coding.display = "Problem List Item"
+
+// --------------------------------------
+// CODE (ICD10-GM & SNOMED)
+* code.coding[0].system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
+* code.coding[0].code = #C34.9
+* code.coding[0].display = "Bösartige Neubildung: Bronchien und Lunge, nicht näher bezeichnet"
+* code.coding[1].system = "http://snomed.info/sct"
+* code.coding[1].version = "20250501_International"
+* code.coding[1].code = #254637007
+* code.coding[1].display = "Non-small cell lung cancer (disorder)"
+
+// --------------------------------------
+// SEVERITY (Endstadium / Terminal)
+* severity.coding.system = "http://snomed.info/sct"
+* severity.coding.code = #42796001
+* severity.coding.display = "Terminal stage (qualifier value)"
+
+// --------------------------------------
+// SUBJECT
+* subject.reference = "Patient/beispiel-patient-krebs"
+* subject.display = "Erika Musterfrau"
+
+// --------------------------------------
+// RECORDER (Patient selbst hat Angabe gemacht / Patient)
+* recorder.reference = "Patient/beispiel-patient"
+* recorder.display = "Patient"
+
+// --------------------------------------
+// ASSERTER (Arzt)
+* asserter.reference = "PractitionerRole/role-onkologe"
+* asserter.display = "Onkologe"
+
+// --------------------------------------
+// VERIFICATION STATUS (confirmed) --> bezieht sich auf Status der Diagnose oben (nicht auf die Antwort des Patienten)
+* verificationStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+* verificationStatus.coding.code = #refuted
+* verificationStatus.coding.display = "Refuted"
+
+// --------------------------------------
+// EXTENSION: Feststellungsdatum
+//* extension[Feststellungsdatum].url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+//* extension[Feststellungsdatum].valueDateTime = "2021-05-15"
+
+// --------------------------------------
+// MODIFIER EXTENSION: Anamneseantwort (Diagnose unbekannt)
+* modifierExtension[AnamneseAntwort].url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort"
+* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
+* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.code = #N
+* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.display = "No"
+
+// --------------------------------------
+// Recorded DATE
+* recordedDate = "2025-05-13"
+
+// --------------------------------------
+// ONSET DATE
+//* onsetDateTime = "2021-05-15"
+
+// --------------------------------------
+// ABATEMENT DATE (nicht gesetzt, da Erkrankung aktiv und terminal)
+
+//_____________________________________________________________________________
+// Example-Instance zu die Diagnose ist unbekannt
+Instance: Beispiel-Kardio-Condition-Diagnose-Unknown
+InstanceOf: MII_PR_Kardio_Condition_Diagnose
+Title: "Beispiel einer Diagnose deren Vorliegen dem Arzt und evtl. Patienten unbekannt ist"
+Description: "Vollständig befüllte FHIR-Instanz zur Repräsentation des Nicht-Vorliegens einer Krebserkrankung im Endstadium gemäß dem Profil MII_PR_Kardio_Condition_Diagnose."
+Usage: #example
+
+* id = "beispiel-kardio-pavk-unbekannt"
+
+// --------------------------------------
+// CATEGORY (problem-list-item)
+* category[diagnosis_category].coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
+* category[diagnosis_category].coding.code = #problem-list-item
+* category[diagnosis_category].coding.display = "Problem List Item"
+
+// --------------------------------------
+// CODE (ICD10-GM & SNOMED)
+* code.coding[0].system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
+* code.coding[0].code = #I70.2
+* code.coding[0].display = "Arteriosklerose der Extremitäten"
+* code.coding[1].system = "http://snomed.info/sct"
+* code.coding[1].version = "20250501"
+* code.coding[1].code = #399957001
+* code.coding[1].display = "Peripheral arterial occlusive disease (disorder)"
+
+// --------------------------------------
+// SEVERITY (Endstadium / Terminal)
+//* severity.coding.system = "http://snomed.info/sct"
+//* severity.coding.code = #42796001
+//* severity.coding.display = "Terminal stage (qualifier value)"
+
+// --------------------------------------
+// SUBJECT
+* subject.reference = "Patient/beispiel-patient-krebs"
+* subject.display = "Erika Musterfrau"
+
+// --------------------------------------
+// RECORDER (Patient selbst hat Angabe gemacht / Patient)
+* recorder.reference = "Patient/beispiel-patient"
+* recorder.display = "Patient"
+
+// --------------------------------------
+// ASSERTER (Arzt)
+* asserter.reference = "PractitionerRole/role-kardiologe"
+* asserter.display = "kardiologe"
+
+// --------------------------------------
+// VERIFICATION STATUS (confirmed) --> bezieht sich auf Status der Diagnose oben (nicht auf die Antwort des Patienten)
+* verificationStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+* verificationStatus.coding.code = #unconfirmed
+* verificationStatus.coding.display = "Unconfirmed"
+
+// --------------------------------------
+// EXTENSION: Feststellungsdatum
+//* extension[Feststellungsdatum].url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+//* extension[Feststellungsdatum].valueDateTime = "2021-05-15"
+
+// --------------------------------------
+// MODIFIER EXTENSION: Anamneseantwort (Diagnose unbekannt)
+* modifierExtension[AnamneseAntwort].url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort"
+* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
+* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.code = #ASKU
+* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.display = "asked but unknown"
+
+// --------------------------------------
+// Recorded DATE
+* recordedDate = "2025-05-13"
+
+// --------------------------------------
+// ONSET DATE
+//* onsetDateTime = "2021-05-15"
+
+// --------------------------------------
+// ABATEMENT DATE (nicht gesetzt, da Erkrankung aktiv und terminal)

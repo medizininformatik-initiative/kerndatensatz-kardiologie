@@ -65,6 +65,30 @@
     "resource": [
       {
         "reference": {
+          "reference": "Condition/beispiel-kardio-diagnose-liegt-vor"
+        },
+        "name": "Beispiel Diagnose liegt vor",
+        "description": "Beispielhafte vollständige Instanz einer Diagnose die vom Arzt bestätigt tatsächlich vorliegt gemäß dem Profil MII_PR_Kardio_Condition_Diagnose im Rahmen des ACRIBIS-Projekts.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-diagnose"
+      },
+      {
+        "reference": {
+          "reference": "Condition/beispiel-kardio-pavk-unbekannt"
+        },
+        "name": "Beispiel einer Diagnose deren Vorliegen dem Arzt und evtl. Patienten unbekannt ist",
+        "description": "Vollständig befüllte FHIR-Instanz zur Repräsentation des Nicht-Vorliegens einer Krebserkrankung im Endstadium gemäß dem Profil MII_PR_Kardio_Condition_Diagnose.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-diagnose"
+      },
+      {
+        "reference": {
+          "reference": "Condition/beispiel-kardio-krebs-terminal-liegt-nicht-vor"
+        },
+        "name": "Beispiel einer nicht vorliegenden terminalen Krebserkrankung",
+        "description": "Vollständig befüllte FHIR-Instanz zur Repräsentation des Nicht-Vorliegens einer Krebserkrankung im Endstadium gemäß dem Profil MII_PR_Kardio_Condition_Diagnose.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-diagnose"
+      },
+      {
+        "reference": {
           "reference": "Observation/example-lvef"
         },
         "name": "Beispiel LVEF Observation",

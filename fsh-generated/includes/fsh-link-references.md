@@ -1,3 +1,6 @@
+[beispiel-kardio-diagnose-liegt-vor]: Condition-beispiel-kardio-diagnose-liegt-vor.html
+[beispiel-kardio-pavk-unbekannt]: Condition-beispiel-kardio-pavk-unbekannt.html
+[beispiel-kardio-krebs-terminal-liegt-nicht-vor]: Condition-beispiel-kardio-krebs-terminal-liegt-nicht-vor.html
 [example-lvef]: Observation-example-lvef.html
 [example-kardio-nyha]: Observation-example-kardio-nyha.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html

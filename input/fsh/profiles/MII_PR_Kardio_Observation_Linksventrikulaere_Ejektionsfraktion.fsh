@@ -22,7 +22,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * identifier MS
 * basedOn MS
 * basedOn ^short = "bei Übernahme aus ISiK Monitoring und Vitaldaten die category und restriktive valueSets abgeändert."
-* partOf only Reference(Procedure) //Procedure Echokradiographie
+* partOf only Reference(Procedure) //Procedure Echokardiographie
 * status MS
 * status ^comment = "Motivation MS: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung"
 
@@ -79,7 +79,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * performer ^comment = "Motivation MS: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 
 * value[x] 1..1 MS
-* value[x] only Quantity
+* value[x] only Quantity // Es kann sein, dass eine Angabe im Arztbrief bspw. als "eingeschränkt" o.ä. erfolgt. Das ist derzeit im Profil nicht vorgesehen.
 * value[x].value 1.. MS
 * value[x].unit 1.. MS
 * value[x].system 1.. MS
@@ -115,7 +115,6 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 // Leitlinie: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (ESC - European Society of Cardiology)
 * referenceRange contains
     normal 0..1 and
-    borderline 0..1 and
     mild 0..1 and
     reduced 0..1
 // Normal >=50. HFpEF nicht sinnvoll abgrenzbar.

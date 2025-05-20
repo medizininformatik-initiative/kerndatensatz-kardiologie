@@ -13,4 +13,8 @@ Description: "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz a
 
 * focalDevice 1..* MS
 
+// Link auf EKG in bspw. XNAT/PACS
+
 // TODO
+
+// Ausgewählte Metadatenfelder aus DICOM

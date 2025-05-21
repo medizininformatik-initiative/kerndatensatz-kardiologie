@@ -168,6 +168,22 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-erstereignis"
+        },
+        "name": "MII CS Kardio Atherosklerotisches Erstereignis",
+        "description": "Code für eine unbestimmtes atherosklerotisches Erstereignis",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-score"
+        },
+        "name": "MII CS Kardio Ausschlusskriterien ACRIBiS Score",
+        "description": "Ausschlusskriterien für ACRIBiS Scores",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Device/mii-exa-kardio-device-icd"
         },
         "name": "MII EXA Kardio Device ICD",
@@ -197,6 +213,30 @@
         "name": "MII EXA Kardio NBG Schrittmachermodus",
         "description": "Beispiel einer DeviceMetric für die Geräteprogrammierung eines ICD",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
+        },
+        "name": "MII EXA Kardio Observation Anzahl KH Aufenthalte WG HF",
+        "description": "Beispiel einer Observation für die Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-observation-atherosklerotisches-erstereignis"
+        },
+        "name": "MII EXA Kardio Observation Atherosklerotisches Erstereignis",
+        "description": "Beispiel einer Observation für das Datum eines unbestimmten atherosklerotischen Erstereignisses",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-atherosklerotisches-erstereignis"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-observation-ausschluss-scoreberechnung"
+        },
+        "name": "MII EXA Kardio Observation Ausschluss Scoreberechnung",
+        "description": "Beispiel einer Observation für das Ausschlusskriterium unbehandeltes, höhergradiges Vitium",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
       },
       {
         "reference": {
@@ -256,18 +296,18 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
+          "reference": "StructureDefinition/mii-pr-kardio-observation-atherosklerotisches-erstereignis"
         },
-        "name": "MII PR Kardio Observation Ausschluss ScoreBerechnung",
-        "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
+        "name": "MII PR Kardio Observation Atherosklerotisches Erstereignis",
+        "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-artherosklerotisches-erstereignis"
+          "reference": "StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
         },
-        "name": "MII PR Kardio Observation Datum Artherosklerotisches Erstereignis",
-        "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
+        "name": "MII PR Kardio Observation Ausschluss ScoreBerechnung",
+        "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
         "exampleBoolean": false
       },
       {
@@ -312,6 +352,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-atherosklerotische-erstereignisse"
+        },
+        "name": "MII VS Kardio Atherosklerotische Erstereignisse",
+        "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-score"
+        },
+        "name": "MII VS Kardio Ausschlusskriterien_Acribis Score",
+        "description": "ValueSet for exclusion criteria for score computation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung"
         },
         "name": "MII VS Kardio Geräteprogrammierung",
@@ -344,42 +400,10 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-kardiale-implantat-modi"
-        },
-        "name": "MII_CS_Kardio_Kardiale_Implantat_Modi_LOCAL",
-        "description": "Lokales Valueset für die Dokumentation des Funktionsmodus eines kardialen Implantats. In Zukunft Angabe über EMDN-Codes in Betracht ziehen/prüfen.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "ValueSet/mii-vs-kardio-allergene-snomed"
         },
         "name": "MII_VS_Kardio_Allergene_SNOMED",
         "description": "Liste von Substanzen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-artherosklerotische-ereignisse"
-        },
-        "name": "MII_VS_Kardio_Artherosklerotische_Ereignisse_SNOMED",
-        "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-scores"
-        },
-        "name": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores_SNOMED",
-        "description": "ValueSet for exclusion criteria for score computation",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-device-types"
-        },
-        "name": "MII_VS_Kardio_Device_Types_SNOMED",
-        "description": "ValueSet for cardial device operation modes for cardial implantable devices.",
         "exampleBoolean": false
       },
       {

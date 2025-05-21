@@ -36,22 +36,23 @@
         "path": "Observation.code.coding",
         "min": 1,
         "max": "1",
+        "patternCoding": {
+          "code": "32485007",
+          "system": "http://snomed.info/sct"
+        },
         "mustSupport": true
       },
       {
         "id": "Observation.code.coding.system",
         "path": "Observation.code.coding.system",
-        "patternUri": "http://snomed.info/sct"
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
-        "patternCode": "32485007"
-      },
-      {
-        "id": "Observation.code.coding.display",
-        "path": "Observation.code.coding.display",
-        "patternString": "hospital admission (procedure)"
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Observation.subject",
@@ -68,6 +69,12 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "min": 1,
@@ -77,6 +84,16 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "max": "0"
+      },
+      {
+        "id": "Observation.specimen",
+        "path": "Observation.specimen",
+        "max": "0"
       },
       {
         "id": "Observation.component",
@@ -106,48 +123,20 @@
       {
         "id": "Observation.component:Grund.code",
         "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "84114007",
-              "system": "http://snomed.info/sct"
-            }
-          ]
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Grund.code.coding",
+        "path": "Observation.component.code.coding",
+        "patternCoding": {
+          "code": "406524005",
+          "system": "http://snomed.info/sct"
         }
       },
       {
         "id": "Observation.component:Grund.value[x]",
         "path": "Observation.component.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Observation.component:Grund.value[x]:valueString",
-        "path": "Observation.component.value[x]",
-        "sliceName": "valueString",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "string"
-          }
-        ],
-        "patternString": "Herzinsuffizienz"
-      },
-      {
-        "id": "Observation.component:Grund.value[x]:valueCodeableConcept",
-        "path": "Observation.component.value[x]",
-        "sliceName": "valueCodeableConcept",
-        "min": 0,
-        "max": "1",
+        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
@@ -157,11 +146,11 @@
           "coding": [
             {
               "code": "84114007",
-              "system": "http://snomed.info/sct",
-              "display": "Heart failure"
+              "system": "http://snomed.info/sct"
             }
           ]
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.component:Dauer",

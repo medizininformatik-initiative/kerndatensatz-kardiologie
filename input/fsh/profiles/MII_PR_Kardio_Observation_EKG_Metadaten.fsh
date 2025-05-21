@@ -11,7 +11,7 @@ Description: "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz a
 * subject 1..1 MS
 * subject only Reference(Patient)
 
-* focalDevice 1..* MS
+//* focalDevice 1..* MS
 
 // Referenz auf noch anzulegende EKG Procedure
 

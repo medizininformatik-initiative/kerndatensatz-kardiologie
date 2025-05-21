@@ -1,7 +1,7 @@
-Profile: MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis
-Id: mii-pr-kardio-observation-artherosklerotisches-erstereignis
+Profile: MII_PR_Kardio_Observation_Atherosklerotisches_Erstereignis
+Id: mii-pr-kardio-observation-atherosklerotisches-erstereignis
 Parent: Observation //MII_PR_Diagnose_Condition
-Title: "MII PR Kardio Observation Datum Artherosklerotisches Erstereignis"
+Title: "MII PR Kardio Observation Atherosklerotisches Erstereignis"
 Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS."
 * insert PR_CS_VS_Version
 * insert Publisher
@@ -27,3 +27,14 @@ Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Er
 
 
 // IG Hinweis, dass evtl. aus Diagnosen abgefragt werden / soll kann. Standortabhängig? Feedback abwarten, bei Bedarf diskutieren.
+
+Instance: mii-exa-kardio-observation-atherosklerotisches-erstereignis
+InstanceOf: MII_PR_Kardio_Observation_Atherosklerotisches_Erstereignis
+Title: "MII EXA Kardio Observation Atherosklerotisches Erstereignis"
+Description: "Beispiel einer Observation für das Datum eines unbestimmten atherosklerotischen Erstereignisses"
+Usage: #example
+
+* status = #draft
+* code.coding = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse#aee "Atherosklerotisches Erstereignis"
+* subject.reference = "Patient/demo-patient"
+* valueDateTime = "2023-01"

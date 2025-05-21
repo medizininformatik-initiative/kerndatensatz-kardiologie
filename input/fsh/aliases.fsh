@@ -9,9 +9,9 @@ Alias: $anamnese-antwort = https://www.medizininformatik-initiative.de/fhir/ext/
 Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen
 Alias: $mdc = urn:iso:std:iso:11073:10101
-Alias: $kardiale_implantat_modi_cs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-kardiale-implantat-modi
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $mRS-cs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-cs-kardio-modifizierte-rankin-skala
+Alias: $ausschluss-cs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-score
 
 //ValueSets
 Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category

@@ -1,4 +1,4 @@
-Profile: MII_PR_Kardio_Observation_Ausschluss_ScoreBerechnung
+Profile: MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung
 Id: mii-pr-kardio-observation-ausschluss-scoreberechnung
 Parent: Observation
 Title: "MII PR Kardio Observation Ausschluss ScoreBerechnung"
@@ -11,8 +11,10 @@ Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnu
 
 // TODO Code für Ressource festlegen
 * code MS
-* code.coding.system = $sct     //  77765009 | Exclude (qualifier value) | TODO Diskutieren, ob Exclude + Score-Code + Component für Ausschlussgrund sinnvoll zu profilieren wäre?
-* code.coding.code = #77765009
+* code.coding 1.. MS
+* code.coding.system 1.. MS
+* code.coding.code 1.. MS
+* code.coding = $sct#271000124103     //  Medical reason for exclusion from performance measure (observable entity) | TODO Diskutieren, ob Exclude + Score-Code + Component für Ausschlussgrund sinnvoll zu profilieren wäre?
 
 // Patientenbezug vorschreiben MS! TODO
 * subject 1..1 MS
@@ -39,3 +41,15 @@ Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnu
 // TODO - evtl. noch weitere Ausschlusskriterien zum VS hinzunehmen
 // - angeborener herzfehler --> COdes prüfen und hinzufügen
 // * $mRS#mRSbigger3 "asdasd" //TODO ??
+
+Instance: mii-exa-kardio-observation-ausschluss-scoreberechnung
+InstanceOf: MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung
+Title: "MII EXA Kardio Observation Ausschluss Scoreberechnung"
+Description: "Beispiel einer Observation für das Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
+Usage: #example
+
+* status = #draft
+* code.coding = $sct#271000124103 "Medical reason for exclusion from performance measure (observable entity)"
+* subject.reference = "Patient/demo-patient"
+* effectiveDateTime = "2025-05-21T17:35:22+02:00"
+* valueCodeableConcept.coding = $sct#32485007 "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"

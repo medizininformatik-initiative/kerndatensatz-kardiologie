@@ -9,17 +9,22 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
 
 * code 1..1 MS
 * code.coding 1..1 MS
-* code.coding.system = $sct
-* code.coding.code = $sct#32485007 //hospital admission (procedure)
-* code.coding.display = "hospital admission (procedure)"
+* code.coding = $sct#32485007 //hospital admission (procedure)
+* code.coding.system 1.. MS
+* code.coding.code 1.. MS
+
+// Subject 1..1 MS Reference(Patient)
+* subject 1..1 MS
+* subject only Reference(Patient)
+
+* effective[x] 1.. MS
 
 // Anzahl als Value/Integer 
 * value[x] 1..1 MS
 * value[x] only integer
 
-// Subject 1..1 MS Reference(Patient)
-* subject 1..1 MS
-* subject only Reference(Patient)
+* bodySite ..0
+* specimen ..0
 
 // Component
 * component MS
@@ -35,9 +40,11 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
     Ende 0..1
 
 // Grund
-* component[Grund].valueString = "Herzinsuffizienz"
-* component[Grund].code = $sct#84114007 // Heart failure (Herzinsuffizienz)
-* component[Grund].valueCodeableConcept = $sct#84114007 "Heart failure"
+* component[Grund].code 1.. MS
+* component[Grund].code.coding = $sct#406524005 // Reason for visit diagnosis (attribute)
+* component[Grund].value[x] 1.. MS
+* component[Grund].value[x] only CodeableConcept
+* component[Grund].valueCodeableConcept = $sct#84114007
 
 // TODO: Code muss geprüft werden. Eventuell sind noch weitere Codes relevant. Nicht immer wird bei Aufnahme wg. HF unbedingt HF angegeben --> indirekte Hinweise berücksichtigen?
 
@@ -49,3 +56,16 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
 
 // Ende
 * component[Ende].valueDateTime
+
+Instance: mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf
+InstanceOf: MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF
+Title: "MII EXA Kardio Observation Anzahl KH Aufenthalte WG HF"
+Description: "Beispiel einer Observation für die Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr"
+Usage: #example
+
+* status = #draft
+* code.coding = $sct#32485007 "Hospital admission (procedure)"
+* subject.reference = "Patient/demo-patient"
+* effectiveDateTime = "2025-05-21T17:35:22+02:00"
+* valueInteger = 3
+* component[Grund].code.coding = $sct#406524005 "Reason for visit diagnosis (attribute)"

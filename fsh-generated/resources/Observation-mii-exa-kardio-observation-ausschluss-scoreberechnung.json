@@ -1,0 +1,32 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-kardio-observation-ausschluss-scoreberechnung",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "271000124103",
+        "system": "http://snomed.info/sct",
+        "display": "Medical reason for exclusion from performance measure (observable entity)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/demo-patient"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "32485007",
+        "system": "http://snomed.info/sct",
+        "display": "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
+      }
+    ]
+  },
+  "status": "draft",
+  "effectiveDateTime": "2025-05-21T17:35:22+02:00"
+}

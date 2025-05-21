@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_Artherosklerotisches_Erstereignisse",
+  "id": "mii-vs-kardio-atherosklerotische-erstereignisse",
+  "title": "MII VS Kardio Atherosklerotische Erstereignisse",
+  "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotische-erstereignisse",
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "53741008",
+            "display": "Coronary arteriosclerosis (disorder)"
+          },
+          {
+            "code": "88032003",
+            "display": "Amaurosis fugax (disorder)"
+          },
+          {
+            "code": "422504002",
+            "display": "Ischemic stroke (disorder)"
+          },
+          {
+            "code": "232035005",
+            "display": "Retinal artery occlusion (disorder)"
+          },
+          {
+            "code": "399957001",
+            "display": "Peripheral arterial occlusive disease (disorder)"
+          },
+          {
+            "code": "233985008",
+            "display": "Abdominal aortic aneurysm (disorder)"
+          },
+          {
+            "code": "1287902001",
+            "display": "Operation on carotid artery (procedure)"
+          }
+        ]
+      },
+      {
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse"
+      }
+    ]
+  }
+}

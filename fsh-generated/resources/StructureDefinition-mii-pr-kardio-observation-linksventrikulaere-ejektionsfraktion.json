@@ -390,13 +390,6 @@
         "patternString": "Normal"
       },
       {
-        "id": "Observation.referenceRange:borderline",
-        "path": "Observation.referenceRange",
-        "sliceName": "borderline",
-        "min": 0,
-        "max": "1"
-      },
-      {
         "id": "Observation.referenceRange:mild",
         "path": "Observation.referenceRange",
         "sliceName": "mild",

@@ -27,6 +27,16 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "min": 1,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "type": [
@@ -37,6 +47,26 @@
             ]
           }
         ]
+      },
+      {
+        "id": "Observation.focus",
+        "path": "Observation.focus",
+        "max": "0"
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "max": "0"
+      },
+      {
+        "id": "Observation.specimen",
+        "path": "Observation.specimen",
+        "max": "0"
       },
       {
         "id": "Observation.component",
@@ -67,7 +97,7 @@
           "coding": [
             {
               "code": "pack-years",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten"
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
             }
           ]
         }
@@ -94,7 +124,7 @@
       {
         "id": "Observation.component:packungsjahre.value[x].system",
         "path": "Observation.component.value[x].system",
-        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten"
+        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
       },
       {
         "id": "Observation.component:packungsjahre.value[x].code",
@@ -115,7 +145,7 @@
           "coding": [
             {
               "code": "packs-per-day",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten"
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
             }
           ]
         }
@@ -142,7 +172,7 @@
       {
         "id": "Observation.component:packungenProTag.value[x].system",
         "path": "Observation.component.value[x].system",
-        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten"
+        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
       },
       {
         "id": "Observation.component:packungenProTag.value[x].code",
@@ -163,7 +193,7 @@
           "coding": [
             {
               "code": "cigarettes-per-day",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten"
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
             }
           ]
         }
@@ -185,6 +215,18 @@
         "max": "*"
       },
       {
+        "id": "Observation.component:rauchbeginn.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "rauchbeginn",
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
+            }
+          ]
+        }
+      },
+      {
         "id": "Observation.component:rauchbeginn.value[x]",
         "path": "Observation.component.value[x]",
         "comment": "Die Angabe von 'fuzzy'-Datumsangaben mit nicht definiertem Monat oder Tag ist möglich.",
@@ -200,6 +242,18 @@
         "sliceName": "rauchdauer",
         "min": 0,
         "max": "*"
+      },
+      {
+        "id": "Observation.component:rauchdauer.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "rauchdauer",
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
+            }
+          ]
+        }
       },
       {
         "id": "Observation.component:rauchdauer.value[x]",

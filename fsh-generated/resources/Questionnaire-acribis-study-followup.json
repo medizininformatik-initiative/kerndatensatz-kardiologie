@@ -1,7 +1,7 @@
 {
   "resourceType": "Questionnaire",
-  "id": "kardio-patientenfragebogen",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/kardio-patientenfragebogen",
+  "id": "acribis-study-followup",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/acribis-study-followup",
   "subjectType": [
     "Patient"
   ],
@@ -132,8 +132,8 @@
       "type": "integer"
     }
   ],
-  "name": "ExampleQuestionnaire1",
-  "title": "ExampleQuestionnaire1",
+  "name": "Acribis-Studie FollowUp",
+  "title": "Acribis-Studie FollowUp",
   "status": "draft",
-  "date": "2024-10-07"
+  "date": "2025-05-21"
 }

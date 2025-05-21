@@ -35,6 +35,14 @@
     {
       "code": "mRS6",
       "display": "Tod infolge des Schlaganfalls"
+    },
+    {
+      "code": "mRSbigger3",
+      "display": "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
+    },
+    {
+      "code": "mRSsmaller3",
+      "display": "Die Einstufung auf der mRS-Skala liegt bei weniger als 3 (Patient kann ohne fremde Hilfe gehen (ggf. mit Hilfsmitteln))"
     }
   ],
   "version": "2025.0.0",
@@ -54,5 +62,5 @@
   "purpose": "Dieses Code-System bildet die Stufen der modifizierten Rankin-Skala ab.",
   "caseSensitive": true,
   "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS",
-  "count": 7
+  "count": 9
 }

@@ -29,7 +29,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen",
         "concept": [
           {
             "code": "mRS0",
@@ -60,12 +60,12 @@
             "display": "Tod infolge des Schlaganfalls"
           },
           {
-            "code": "mRSbiggerequal3",
-            "display": "asdasd"
+            "code": "mRSbigger3",
+            "display": "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
           },
           {
             "code": "mRSsmaller3",
-            "display": "asdasd"
+            "display": "Die Einstufung auf der mRS-Skala liegt bei weniger als 3 (Patient kann ohne fremde Hilfe gehen (ggf. mit Hilfsmitteln))."
           }
         ]
       }

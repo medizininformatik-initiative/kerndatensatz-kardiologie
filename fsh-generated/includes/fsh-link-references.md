@@ -1,11 +1,13 @@
+[acribis-study-followup]: Questionnaire-acribis-study-followup.html
 [beispiel-kardio-diagnose-liegt-vor]: Condition-beispiel-kardio-diagnose-liegt-vor.html
 [beispiel-kardio-pavk-unbekannt]: Condition-beispiel-kardio-pavk-unbekannt.html
 [beispiel-kardio-krebs-terminal-liegt-nicht-vor]: Condition-beispiel-kardio-krebs-terminal-liegt-nicht-vor.html
+[Example-Kardio-Observation-Rauchen]: Observation-Example-Kardio-Observation-Rauchen.html
 [example-lvef]: Observation-example-lvef.html
+[example-kardio-mrs]: Observation-example-kardio-mrs.html
 [example-kardio-nyha]: Observation-example-kardio-nyha.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
 [MII_CS_Kardio_modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html
-[kardio-patientenfragebogen]: Questionnaire-kardio-patientenfragebogen.html
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
 [MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
@@ -24,6 +26,7 @@
 [MII_PR_Kardio_Observation_Datum_Artherosklerotisches_Erstereignis]: StructureDefinition-mii-pr-kardio-observation-artherosklerotisches-erstereignis.html
 [MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion]: StructureDefinition-mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion.html
 [MII_PR_Kardio_Observation_Rauchen]: StructureDefinition-mii-pr-kardio-observation-rauchen.html
+[MII_PR_Kardio_Procedure_EKG]: StructureDefinition-mii-pr-kardio--procedure-ekg.html
 [MII_PR_Kardio_Score_modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
 [MII_VS_Kardio_Geraeteprogrammierung]: ValueSet-mii-vs-kardio-geraeteprogrammierung.html
@@ -44,5 +47,5 @@
 [MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
 [MII_VS_Kardio_mRS_Stufen]: ValueSet-mii-vs-kardio-mrs-stufen.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMED]: ValueSet-mii-vs-kardio-nyha-klassen-snomed.html
-[MII_VS_Rauchen_Einheiten_LOCAL]: CodeSystem-mii-cs-rauchen-einheiten.html
+[MII_CS_Rauchen_LOCAL]: CodeSystem-mii-cs-rauchen.html
 [example-role-kardiologe]: PractitionerRole-example-role-kardiologe.html

@@ -17,6 +17,8 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 // value[x] from Parent: https://gematik.de/fhir/isik/ValueSet/current-smoking-status-uv-ips
 * bodySite ..0
 * specimen ..0
+* hasMember only Reference(Observation or QuestionnaireResponse) //not MolecularSequence
+* derivedFrom only Reference(DocumentReference or Media or QuestionnaireResponse or Observation) //not imagingstudy + not molecularsequence
 // Folgende Items sind nicht Teil der Acribis-Kernscores, stehen daher - in der ersten Iteration - nicht im Fokus (nicht must-support).
 // TODO in Zukunft
 * component 0..* //MS

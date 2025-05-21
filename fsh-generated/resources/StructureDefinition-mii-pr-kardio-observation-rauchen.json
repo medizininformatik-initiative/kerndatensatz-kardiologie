@@ -59,6 +59,11 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "short": "Current Smoking Status als Loinc-Answer Code"
+      },
+      {
         "id": "Observation.bodySite",
         "path": "Observation.bodySite",
         "max": "0"

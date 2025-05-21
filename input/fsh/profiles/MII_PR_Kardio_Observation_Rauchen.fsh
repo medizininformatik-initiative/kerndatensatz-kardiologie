@@ -14,7 +14,8 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 * focus ..0
 * encounter MS
 * performer MS
-// value[x] from Parent: https://gematik.de/fhir/isik/ValueSet/current-smoking-status-uv-ips
+// value[x] from Parent: https://simplifier.net/packages/de.gematik.isik-basismodul/4.0.0/files/2539840
+* value[x] ^short = "Current Smoking Status als Loinc-Answer Code"
 * bodySite ..0
 * specimen ..0
 * hasMember only Reference(Observation or QuestionnaireResponse) //not MolecularSequence

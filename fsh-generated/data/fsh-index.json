@@ -76,8 +76,8 @@
     "fshName": "Example-Kardio-Observation-Rauchen",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Rauchen.fsh",
-    "startLine": 67,
-    "endLine": 103
+    "startLine": 68,
+    "endLine": 104
   },
   {
     "outputFile": "Observation-example-kardio-mrs.json",
@@ -253,7 +253,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Rauchen.fsh",
     "startLine": 1,
-    "endLine": 63
+    "endLine": 64
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json",

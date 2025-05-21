@@ -33,7 +33,8 @@
         "coding": [
           {
             "code": "84114007",
-            "system": "http://snomed.info/sct"
+            "system": "http://snomed.info/sct",
+            "display": "Heart failure (disorder)"
           }
         ]
       }

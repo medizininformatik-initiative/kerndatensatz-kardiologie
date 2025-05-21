@@ -125,7 +125,7 @@
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF.fsh",
     "startLine": 60,
-    "endLine": 71
+    "endLine": 72
   },
   {
     "outputFile": "Observation-mii-exa-kardio-observation-atherosklerotisches-erstereignis.json",

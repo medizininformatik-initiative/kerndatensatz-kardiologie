@@ -1,6 +1,6 @@
 Profile: MII_PR_Kardio_EKG_Metadaten
 Id: mii-pr-kardio-ekg-metadaten
-Parent: Procedure //Observation //Procedure
+Parent: Observation //Procedure //Observation
 Title: "MII PR Kardio EKG Metadaten"
 Description: "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz auf den Speicherort."
 * insert PR_CS_VS_Version
@@ -12,6 +12,8 @@ Description: "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz a
 * subject only Reference(Patient)
 
 * focalDevice 1..* MS
+
+// Referenz auf noch anzulegende EKG Procedure
 
 // Link auf EKG in bspw. XNAT/PACS
 

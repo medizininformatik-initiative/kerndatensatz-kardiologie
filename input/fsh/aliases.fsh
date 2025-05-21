@@ -7,7 +7,7 @@ Alias: $ucum = http://unitsofmeasure.org
 // CodeSystems
 Alias: $anamnese-antwort = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort
 Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
-Alias: $smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten
+Alias: $smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen
 Alias: $mdc = urn:iso:std:iso:11073:10101
 Alias: $kardiale_implantat_modi_cs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-kardiale-implantat-modi
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category

@@ -1,15 +1,16 @@
-Instance: kardio-patientenfragebogen
+Instance: acribis-study-followup
 InstanceOf: Questionnaire
 Usage: #definition
 
-* name = "ExampleQuestionnaire1"
-* title = "ExampleQuestionnaire1"
+* name = "Acribis-Studie FollowUp"
+* title = "Acribis-Studie FollowUp"
 * status = #draft
-* date = "2024-10-07"
+* date = "2025-05-21"
 * subjectType = #Patient //ref
 
-// types: #integer, #string, #date, #time, #quantity, #boolean, #choice
+// TODO - Nachfolgend noch Beispielfragen
 
+// types: #integer, #string, #date, #time, #quantity, #boolean, #choice
 // Frage 1: Hat der Patient Bluthochdruck?
 * item[+]
   * linkId = "Q1"

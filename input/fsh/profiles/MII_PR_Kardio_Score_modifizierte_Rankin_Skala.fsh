@@ -47,9 +47,9 @@ Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem S
 * effectiveDateTime = "2024-11-12T14:23:00+01:00"
 * issued = "2024-11-12T15:00:00+01:00"
 * performer[0] = Reference(PractitionerRole/example-role-kardiologe)
-* valueCodeableConcept.coding.system = $mRS
-* valueCodeableConcept.coding.code = $mRS#mRS4
-* valueCodeableConcept.coding.display = "Es besteht eine höhergradige Beeinträchtigung. Der Patient ist nicht mehr in der Lage, seinen Körper zu pflegen oder selbstständig zu laufen."
-* note.text = "Es besteht eine höhergradige Beeinträchtigung. Der Patient ist nicht mehr in der Lage, seinen Körper zu pflegen oder selbstständig zu laufen."
+* valueCodeableConcept.coding.system = $mRS-cs
+* valueCodeableConcept.coding.code = #mRSbigger3
+* valueCodeableConcept.coding.display = "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
+* note.text = "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">mRS Skala: Es besteht eine höhergradige Beeinträchtigung. Der Patient ist nicht mehr in der Lage, seinen Körper zu pflegen oder selbstständig zu laufen.</div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">mRS Skala: Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen).</div>"

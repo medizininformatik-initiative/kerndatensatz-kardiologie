@@ -11,6 +11,7 @@ Alias: $smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/mod
 Alias: $mdc = urn:iso:std:iso:11073:10101
 Alias: $kardiale_implantat_modi_cs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-kardiale-implantat-modi
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $mRS-cs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-cs-kardio-modifizierte-rankin-skala
 
 //ValueSets
 Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category

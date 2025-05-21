@@ -109,7 +109,8 @@
           "rules": "open",
           "ordered": false,
           "description": "Zusätzliche Angaben zum Rauchverhalten."
-        }
+        },
+        "short": "Zusätzliche Angaben zum Rauchverhalten als Komponenten."
       },
       {
         "id": "Observation.component:packungsjahre",

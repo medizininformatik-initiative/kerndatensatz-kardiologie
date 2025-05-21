@@ -22,6 +22,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 // Folgende Items sind nicht Teil der Acribis-Kernscores, stehen daher - in der ersten Iteration - nicht im Fokus (nicht must-support).
 // TODO in Zukunft
 * component 0..* //MS
+* component ^short = "Zusätzliche Angaben zum Rauchverhalten als Komponenten."
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "$this"
 * component ^slicing.rules = #open // erlaubt jegliche category slice (names)

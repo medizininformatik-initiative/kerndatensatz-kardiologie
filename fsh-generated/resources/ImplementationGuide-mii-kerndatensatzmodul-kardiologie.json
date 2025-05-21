@@ -476,13 +476,48 @@
       "generation": "html",
       "page": [
         {
-          "nameUrl": "index.html",
+          "nameUrl": "ekg.html",
+          "title": "Ekg",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "home.html",
           "title": "Home",
           "generation": "markdown"
         },
         {
-          "nameUrl": "testpage.html",
-          "title": "Testpage",
+          "nameUrl": "introduction.html",
+          "title": "Introduction",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "kds_icu_arterieller_blutdruck.html",
+          "title": "Kds Icu Arterieller Blutdruck",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "kds_labor.html",
+          "title": "Kds Labor",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "kds_medikation.html",
+          "title": "Kds Medikation",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "kds_patient_person.html",
+          "title": "Kds Patient Person",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "questionnaire.html",
+          "title": "Questionnaire",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "terminologies.html",
+          "title": "Terminologies",
           "generation": "markdown"
         }
       ]

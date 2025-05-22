@@ -17,20 +17,20 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 Profilübersicht:
 ### Profile zu den Acribis-Kernscore-Items (12 Profile)
 
-| Ressourcentyp      | Profilname         | Beschreibung                                                                 |
-|--------------------|--------------------|------------------------------------------------------------------------------|
-| Condition          | Kardio Diagnose    | Bildet jegliche Diagnosen (ja/nein/unbekannt) ab.                           |
-| Observation        | LVEF-Messwert      | Bildet den Messwert zur Linksventrikulären Ejektionsfraktion (LVEF) ab.     |
-| Procedure          | Implantation       | Bildet die Implantation eines kardialen Devices ab.                         |
-| Device             | Kardio Device      | Bildet ein kardiales Device ab.                                             |
-| Device Metric      | NBG Modus          | Bildet den Schrittmachermodus als NBG-Code ab.                              |
-| Observation        | Programmierung     | Bildet die Geräteprogrammierung eines Devices ab.                           |
-| Observation        | Rauchen            | Bildet den Raucherstatus ab.                                                |
-| Observation        | NYHA-Score         | Bildet die Stadien der Herzinsuffizienz gemäß NYHA-Score ab.                |
-| Observation        | Rankin-Skala       | Bildet die modifizierte Rankin-Skala (mRS) ab.                              |
-| Observation        | Ausschluss         | Bildet bestimmte Ausschlusskriterien für die Score-Berechnung ab.           |
-| Observation        | Arth. Erstereignis | Bildet ab, wann, welches erste artherosklerotisches Ereignis stattfand      |
-| Observation        | # KH Aufenthalte   | Bildet die Anzahl von KH Aufenthalten wegen Herzinsuffizienz ab             |
+| Ressourcentyp      | Profilname         | Beschreibung                                                                 | Examples |
+|--------------------|--------------------|------------------------------------------------------------------------------|----------|
+| Condition          | [Kardio Diagnose](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_condition_diagnose) | Bildet jegliche Diagnosen (ja/nein/unbekannt) ab.                           | [Liegt vor](https://simplifier.net/mii-erweiterungsmodul-kardiologie/beispiel-kardio-diagnose-liegt-vor), [Liegt nicht vor](https://simplifier.net/mii-erweiterungsmodul-kardiologie/beispiel-kardio-krebs-terminal-liegt-nicht-vor), [unbekannt](https://simplifier.net/mii-erweiterungsmodul-kardiologie/beispiel-kardio-pavk-unbekannt) |
+| Observation        | [LVEF-Messwert](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_observation_linksventrikulaere_ejektionsfraktion)     | Bildet den Messwert zur Linksventrikulären Ejektionsfraktion (LVEF) ab.     | [LVEF](https://simplifier.net/mii-erweiterungsmodul-kardiologie/example-lvef) |
+| Procedure          | [Implantation](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_kardiale_deviceimplantation)       | Bildet die Implantation eines kardialen Devices ab.                         | [Implantation](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-kardiale-deviceimplantation-icd) |
+| Device             | [Kardio Device](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_device)      | Bildet ein kardiales Device ab.                                             | [ICD Device](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-device-icd) |
+| Device Metric      | [NBG Modus](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_nbg_schrittmachermodus)          | Bildet den Schrittmachermodus als NBG-Code ab.                              | [Device Modus](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-nbg-schrittmachermodus) |
+| Observation        | [Programmierung](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_geraeteprogrammierung)     | Bildet die Geräteprogrammierung eines Devices ab.                           | [Device Mode](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-geraeteprogrammierung-vvi) |
+| Observation        | [Rauchen](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_observation_rauchen)            | Bildet den Raucherstatus ab.                                                | [Smoking Status](https://simplifier.net/mii-erweiterungsmodul-kardiologie/example-kardio-observation-rauchen) |
+| Observation        | [NYHA-Score](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_score_nyha)         | Bildet die Stadien der Herzinsuffizienz gemäß NYHA-Score ab.                | [NYHA-Score](https://simplifier.net/mii-erweiterungsmodul-kardiologie/example-kardio-nyha) |
+| Observation        | [mod. Rankin-Skala](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_score_modifizierte_rankin_skala)       | Bildet die modifizierte Rankin-Skala (mRS) ab.                              | [mod. Ranking Skala](https://simplifier.net/mii-erweiterungsmodul-kardiologie/example-kardio-mrs) |
+| Observation        | [Ausschluss](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_observation_ausschluss_scoreberechnung)         | Bildet bestimmte Ausschlusskriterien für die Score-Berechnung ab.           | [Ausschlusskriterium](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-observation-ausschluss-scoreberechnung) |
+| Observation        | [Arth. Erstereignis](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_observation_atherosklerotisches_erstereignis) | Bildet ab, wann, welches erste artherosklerotisches Ereignis stattfand      | [Arth. Erstereignis](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-observation-atherosklerotisches-erstereignis) |
+| Observation        | [# KH Aufenthalte](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_observation_anzahl_kh_aufenthalte_wg_hf)   | Bildet die Anzahl von KH Aufenthalten wegen Herzinsuffizienz ab             | [Hospital Admission](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf) |
 
 ### Profil zu EKG_Metadaten (2 Profile)
 

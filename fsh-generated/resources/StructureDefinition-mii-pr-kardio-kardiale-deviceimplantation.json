@@ -123,14 +123,14 @@
           "coding": [
             {
               "code": "129338005",
-              "system": "https://hl7.org/fhir/ValueSet/device-action"
+              "system": "http://snomed.info/sct"
             }
           ]
         },
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://hl7.org/fhir/ValueSet/device-action"
+          "valueSet": "http://hl7.org/fhir/ValueSet/device-action"
         }
       },
       {

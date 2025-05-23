@@ -34,7 +34,7 @@ Title: "MII EXA Kardio Observation Atherosklerotisches Erstereignis"
 Description: "Beispiel einer Observation für das Datum eines unbestimmten atherosklerotischen Erstereignisses"
 Usage: #example
 
-* status = #draft
+* status = #final
 * code.coding = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse#aee "Atherosklerotisches Erstereignis"
 * subject.reference = "Patient/demo-patient"
 * valueDateTime = "2023-01"

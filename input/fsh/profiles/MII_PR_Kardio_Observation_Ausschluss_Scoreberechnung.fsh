@@ -48,7 +48,7 @@ Title: "MII EXA Kardio Observation Ausschluss Scoreberechnung"
 Description: "Beispiel einer Observation für das Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
 Usage: #example
 
-* status = #draft
+* status = #final
 * code.coding = $sct#271000124103 "Medical reason for exclusion from performance measure (observable entity)"
 * subject.reference = "Patient/demo-patient"
 * effectiveDateTime = "2025-05-21T17:35:22+02:00"

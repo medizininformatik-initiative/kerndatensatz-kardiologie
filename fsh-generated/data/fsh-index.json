@@ -8,10 +8,10 @@
     "endLine": 15
   },
   {
-    "outputFile": "CodeSystem-mii-cs-kardio-ausschlusskriterien-acribis-score.json",
-    "fshName": "MII_CS_Kardio_Ausschlusskriterien_Acribis_Score",
+    "outputFile": "CodeSystem-mii-cs-kardio-ausschlusskriterien-acribis-scores.json",
+    "fshName": "MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_Ausschlusskriterien_Acribis_Score.fsh",
+    "fshFile": "codesystems\\MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores.fsh",
     "startLine": 1,
     "endLine": 15
   },
@@ -141,7 +141,7 @@
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung.fsh",
     "startLine": 45,
-    "endLine": 55
+    "endLine": 56
   },
   {
     "outputFile": "PractitionerRole-example-role-kardiologe.json",
@@ -320,10 +320,10 @@
     "endLine": 21
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-score.json",
-    "fshName": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Score",
+    "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.json",
+    "fshName": "MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores.fsh",
     "startLine": 1,
     "endLine": 18
   },

@@ -2,11 +2,11 @@
   "resourceType": "CodeSystem",
   "status": "draft",
   "content": "complete",
-  "name": "MII_CS_Kardio_Ausschlusskriterien_Acribis_Score",
-  "id": "mii-cs-kardio-ausschlusskriterien-acribis-score",
-  "title": "MII CS Kardio Ausschlusskriterien ACRIBiS Score",
+  "name": "MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores",
+  "id": "mii-cs-kardio-ausschlusskriterien-acribis-scores",
+  "title": "MII CS Kardio Ausschlusskriterien ACRIBiS Scores",
   "description": "Ausschlusskriterien für ACRIBiS Scores",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-score",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-scores",
   "concept": [
     {
       "code": "hv",
@@ -27,6 +27,6 @@
   ],
   "experimental": true,
   "date": "2025-05-21",
-  "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-score",
+  "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-scores",
   "count": 1
 }

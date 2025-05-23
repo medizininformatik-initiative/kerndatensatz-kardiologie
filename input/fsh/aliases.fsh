@@ -26,7 +26,7 @@ Alias: $geraetetyp = https://www.medizininformatik-initiative.de/fhir/ext/modul-
 Alias: $geraeteprogrammierung = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung
 Alias: $koerperstelle = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle
 Alias: $kardiale-deviceimplantation = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation
-Alias: $procedure-device-action-codes = https://hl7.org/fhir/ValueSet/device-action
+Alias: $procedure-device-action-codes = http://hl7.org/fhir/ValueSet/device-action
 Alias: $vs-v2-0532 = http://terminology.hl7.org/ValueSet/v2-0532
 
 //_________________
@@ -41,7 +41,6 @@ Alias: $null-flavor = http://hl7.org/fhir/v3/NullFlavor
 // Others not yet used - to be deleted?
 Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
-Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias: $MII-Reference = https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference
 

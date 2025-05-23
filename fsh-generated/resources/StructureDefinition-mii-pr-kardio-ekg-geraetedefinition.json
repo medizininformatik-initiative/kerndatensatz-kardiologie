@@ -1,0 +1,43 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-ekg-geraetedefinition",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition",
+  "version": "2025.0.0",
+  "name": "MII_PR_Kardio_EKG_Geraetedefinition",
+  "title": "MII PR Kardio EKG Gerätedefinition",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-05-22",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "description": "Profil zur Abbildung einer EKG-Gerätedefinition.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "DeviceDefinition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DeviceDefinition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DeviceDefinition.manufacturer[x]",
+        "path": "DeviceDefinition.manufacturer[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "DeviceDefinition.deviceName",
+        "path": "DeviceDefinition.deviceName",
+        "mustSupport": true
+      }
+    ]
+  }
+}

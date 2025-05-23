@@ -1,0 +1,14 @@
+{
+  "resourceType": "Device",
+  "id": "mii-exa-kardio-ekg-geraet-mortara",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet"
+    ]
+  },
+  "patient": {
+    "reference": "Patient/mii-exa-person-patient-minimal"
+  },
+  "status": "active",
+  "manufacturer": "..."
+}

@@ -72,6 +72,22 @@
     "endLine": 51
   },
   {
+    "outputFile": "Device-mii-exa-kardio-ekg-geraet-mortara.json",
+    "fshName": "mii-exa-kardio-ekg-geraet-mortara",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraet.fsh",
+    "startLine": 21,
+    "endLine": 29
+  },
+  {
+    "outputFile": "DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json",
+    "fshName": "mii-exa-kardio-ekg-geraetedefinition-mortara",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraetedefinition.fsh",
+    "startLine": 17,
+    "endLine": 42
+  },
+  {
     "outputFile": "DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.json",
     "fshName": "mii-exa-kardio-nbg-schrittmachermodus",
     "fshType": "Instance",
@@ -216,6 +232,22 @@
     "endLine": 28
   },
   {
+    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraet.json",
+    "fshName": "MII_PR_Kardio_EKG_Geraet",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraet.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json",
+    "fshName": "MII_PR_Kardio_EKG_Geraetedefinition",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraetedefinition.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",
     "fshName": "MII_PR_Kardio_EKG_Metadaten",
     "fshType": "Profile",
@@ -323,7 +355,7 @@
     "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.json",
     "fshName": "MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores.fsh",
     "startLine": 1,
     "endLine": 18
   },

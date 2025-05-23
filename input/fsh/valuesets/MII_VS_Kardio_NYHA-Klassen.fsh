@@ -7,7 +7,7 @@ Description: "Klassen der New York Heart Association Classification"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomed"
 * insert PR_CS_VS_Version
 * insert Publisher
-* ^status = #active
+* ^status = #draft
 * ^experimental = true
 * ^date = "2025-03-05"
 //* ^version = "1.0"
@@ -19,4 +19,4 @@ Description: "Klassen der New York Heart Association Classification"
 * $sct#421704003 "New York Heart Association Classification - Class II"
 * $sct#420913000 "New York Heart Association Classification - Class III"
 * $sct#422293003 "New York Heart Association Classification - Class IV"
-//* include codes from system $sct where concept in $sct#421518007 "New York Heart Classification finding"
+//* include codes from system $sct where concept in $sct#421518007 "New York Heart Classification finding"  

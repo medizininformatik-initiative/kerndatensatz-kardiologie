@@ -1,7 +1,7 @@
 Profile: MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung
 Id: mii-pr-kardio-observation-ausschluss-scoreberechnung
 Parent: Observation
-Title: "MII PR Kardio Observation Ausschluss ScoreBerechnung"
+Title: "MII PR Kardio Observation Ausschluss Scoreberechnung"
 Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis."
 * insert PR_CS_VS_Version
 * insert Publisher
@@ -52,4 +52,5 @@ Usage: #example
 * code.coding = $sct#271000124103 "Medical reason for exclusion from performance measure (observable entity)"
 * subject.reference = "Patient/demo-patient"
 * effectiveDateTime = "2025-05-21T17:35:22+02:00"
-* valueCodeableConcept.coding = $sct#32485007 "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
+* performer.reference = "PractitionerRole/demo-kardiologe"
+* valueCodeableConcept.coding = $ausschluss-cs#hv "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"

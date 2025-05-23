@@ -18,15 +18,20 @@
   "subject": {
     "reference": "Patient/demo-patient"
   },
+  "performer": [
+    {
+      "reference": "PractitionerRole/demo-kardiologe"
+    }
+  ],
   "valueCodeableConcept": {
     "coding": [
       {
-        "code": "32485007",
-        "system": "http://snomed.info/sct",
+        "code": "hv",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-scores",
         "display": "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
       }
     ]
   },
-  "status": "draft",
+  "status": "final",
   "effectiveDateTime": "2025-05-21T17:35:22+02:00"
 }

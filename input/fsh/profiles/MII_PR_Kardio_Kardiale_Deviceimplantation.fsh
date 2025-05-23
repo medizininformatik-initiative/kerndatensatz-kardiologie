@@ -43,7 +43,7 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
 * focalDevice 1.. MS
 * focalDevice.action 1.. MS
 * focalDevice.action from $procedure-device-action-codes (required)
-* focalDevice.action = $procedure-device-action-codes#129338005
+* focalDevice.action = $sct#129338005
 * focalDevice.manipulated MS
 * focalDevice.manipulated only Reference(Device)
 

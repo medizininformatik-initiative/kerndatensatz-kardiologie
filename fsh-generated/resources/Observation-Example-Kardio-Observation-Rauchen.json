@@ -45,8 +45,7 @@
         "unit": "Packungen pro Tag",
         "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen",
         "code": "packs-per-day",
-        "value": 1,
-        "comparator": "="
+        "value": 1
       },
       "code": {
         "coding": [

@@ -7,7 +7,7 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 * insert Publisher
 // See https://simplifier.net/guide/GermanCoronaConsensusDataSet-ImplementationGuide/Home/GECCOCore/Demographics/Frailtyscore.guide.md?version=current
 * category 1..1 MS
-* category from $observation-category (required)
+* category from http://hl7.org/fhir/ValueSet/observation-category (required)
 * category = $observation-category#survey
 * code 1..1 MS
 * code.coding 1..1 MS

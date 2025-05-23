@@ -102,7 +102,7 @@
           "discriminator": [
             {
               "type": "pattern",
-              "path": "$this"
+              "path": "code"
             }
           ],
           "rules": "closed",
@@ -123,15 +123,15 @@
       {
         "id": "Observation.component:Grund.code",
         "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "406524005",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        },
         "mustSupport": true
-      },
-      {
-        "id": "Observation.component:Grund.code.coding",
-        "path": "Observation.component.code.coding",
-        "patternCoding": {
-          "code": "406524005",
-          "system": "http://snomed.info/sct"
-        }
       },
       {
         "id": "Observation.component:Grund.value[x]",
@@ -151,27 +151,6 @@
           ]
         },
         "mustSupport": true
-      },
-      {
-        "id": "Observation.component:Dauer",
-        "path": "Observation.component",
-        "sliceName": "Dauer",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Observation.component:Beginn",
-        "path": "Observation.component",
-        "sliceName": "Beginn",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Observation.component:Ende",
-        "path": "Observation.component",
-        "sliceName": "Ende",
-        "min": 0,
-        "max": "1"
       }
     ]
   }

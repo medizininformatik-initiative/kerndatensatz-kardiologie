@@ -1,7 +1,7 @@
-CodeSystem: MII_CS_Kardio_Atherosklerotisches_Erstereignis
-Id: mii-cs-kardio-atherosklerotisches-erstereignis
-Title: "MII CS Kardio Atherosklerotisches Erstereignis"
-Description: "Code für eine unbestimmtes atherosklerotisches Erstereignis"
+CodeSystem: MII_CS_Kardio_Atherosklerotische_Erstereignisse
+Id: mii-cs-kardio-atherosklerotische-erstereignisse
+Title: "MII CS Kardio Atherosklerotische Erstereignisse"
+Description: "Code für ein unbestimmtes atherosklerotisches Erstereignis"
 
 * insert PR_CS_VS_Version
 * insert Publisher

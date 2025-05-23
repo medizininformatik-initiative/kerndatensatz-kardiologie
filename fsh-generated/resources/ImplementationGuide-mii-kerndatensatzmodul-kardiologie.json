@@ -168,10 +168,10 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-erstereignis"
+          "reference": "CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse"
         },
-        "name": "MII CS Kardio Atherosklerotisches Erstereignis",
-        "description": "Code für eine unbestimmtes atherosklerotisches Erstereignis",
+        "name": "MII CS Kardio Atherosklerotische Erstereignisse",
+        "description": "Code für ein unbestimmtes atherosklerotisches Erstereignis",
         "exampleBoolean": false
       },
       {

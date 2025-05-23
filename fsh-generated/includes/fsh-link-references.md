@@ -11,7 +11,7 @@
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
 [MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
-[MII_CS_Kardio_Atherosklerotisches_Erstereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-erstereignis.html
+[MII_CS_Kardio_Atherosklerotische_Erstereignisse]: CodeSystem-mii-cs-kardio-atherosklerotische-erstereignisse.html
 [MII_CS_Kardio_Ausschlusskriterien_Acribis_Score]: CodeSystem-mii-cs-kardio-ausschlusskriterien-acribis-score.html
 [mii-exa-kardio-device-icd]: Device-mii-exa-kardio-device-icd.html
 [mii-exa-kardio-geraeteprogrammierung-vvi]: Observation-mii-exa-kardio-geraeteprogrammierung-vvi.html

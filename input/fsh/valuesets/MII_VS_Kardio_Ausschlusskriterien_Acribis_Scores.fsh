@@ -1,10 +1,10 @@
-ValueSet: MII_VS_Kardio_Ausschlusskriterien_Acribis_Score
-Id: mii-vs-kardio-ausschlusskriterien-acribis-score
-Title: "MII VS Kardio Ausschlusskriterien_Acribis Score"
+ValueSet: MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores
+Id: mii-vs-kardio-ausschlusskriterien-acribis-scores
+Title: "MII VS Kardio Ausschlusskriterien ACRIBiS Scores"
 Description: "ValueSet for exclusion criteria for score computation"
 * insert PR_CS_VS_Version
 * insert Publisher
-* ^status = #active
+* ^status = #draft
 
 // Obacht: Dieser Kommentar kann entfernt werden, sobald die Codes von Klinikern geprüft wurden.
 

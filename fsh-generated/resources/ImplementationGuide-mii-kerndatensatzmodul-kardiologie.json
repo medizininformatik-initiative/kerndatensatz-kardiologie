@@ -168,17 +168,17 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-erstereignis"
+          "reference": "CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse"
         },
-        "name": "MII CS Kardio Atherosklerotisches Erstereignis",
-        "description": "Code für eine unbestimmtes atherosklerotisches Erstereignis",
+        "name": "MII CS Kardio Atherosklerotische Erstereignisse",
+        "description": "Code für ein unbestimmtes atherosklerotisches Erstereignis",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-score"
+          "reference": "CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-scores"
         },
-        "name": "MII CS Kardio Ausschlusskriterien ACRIBiS Score",
+        "name": "MII CS Kardio Ausschlusskriterien ACRIBiS Scores",
         "description": "Ausschlusskriterien für ACRIBiS Scores",
         "exampleBoolean": false
       },
@@ -306,7 +306,7 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
         },
-        "name": "MII PR Kardio Observation Ausschluss ScoreBerechnung",
+        "name": "MII PR Kardio Observation Ausschluss Scoreberechnung",
         "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
         "exampleBoolean": false
       },
@@ -360,9 +360,9 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-score"
+          "reference": "ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-scores"
         },
-        "name": "MII VS Kardio Ausschlusskriterien_Acribis Score",
+        "name": "MII VS Kardio Ausschlusskriterien ACRIBiS Scores",
         "description": "ValueSet for exclusion criteria for score computation",
         "exampleBoolean": false
       },

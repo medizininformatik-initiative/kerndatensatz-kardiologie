@@ -1,17 +1,17 @@
 [
   {
-    "outputFile": "CodeSystem-mii-cs-kardio-atherosklerotisches-erstereignis.json",
-    "fshName": "MII_CS_Kardio_Atherosklerotisches_Erstereignis",
+    "outputFile": "CodeSystem-mii-cs-kardio-atherosklerotische-erstereignisse.json",
+    "fshName": "MII_CS_Kardio_Atherosklerotische_Erstereignisse",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_Atherosklerptisches_Erstereignis.fsh",
+    "fshFile": "codesystems\\MII_CS_Kardio_Atherosklerptische_Erstereignisse.fsh",
     "startLine": 1,
     "endLine": 15
   },
   {
-    "outputFile": "CodeSystem-mii-cs-kardio-ausschlusskriterien-acribis-score.json",
-    "fshName": "MII_CS_Kardio_Ausschlusskriterien_Acribis_Score",
+    "outputFile": "CodeSystem-mii-cs-kardio-ausschlusskriterien-acribis-scores.json",
+    "fshName": "MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_Ausschlusskriterien_Acribis_Score.fsh",
+    "fshFile": "codesystems\\MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores.fsh",
     "startLine": 1,
     "endLine": 15
   },
@@ -85,7 +85,7 @@
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Rauchen.fsh",
     "startLine": 68,
-    "endLine": 104
+    "endLine": 103
   },
   {
     "outputFile": "Observation-example-kardio-mrs.json",
@@ -124,8 +124,8 @@
     "fshName": "mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF.fsh",
-    "startLine": 60,
-    "endLine": 72
+    "startLine": 48,
+    "endLine": 61
   },
   {
     "outputFile": "Observation-mii-exa-kardio-observation-atherosklerotisches-erstereignis.json",
@@ -133,7 +133,7 @@
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Atherosklerotisches_Erstereignis.fsh",
     "startLine": 31,
-    "endLine": 40
+    "endLine": 42
   },
   {
     "outputFile": "Observation-mii-exa-kardio-observation-ausschluss-scoreberechnung.json",
@@ -141,7 +141,7 @@
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung.fsh",
     "startLine": 45,
-    "endLine": 55
+    "endLine": 56
   },
   {
     "outputFile": "PractitionerRole-example-role-kardiologe.json",
@@ -253,7 +253,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF.fsh",
     "startLine": 1,
-    "endLine": 58
+    "endLine": 44
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-atherosklerotisches-erstereignis.json",
@@ -320,10 +320,10 @@
     "endLine": 21
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-score.json",
-    "fshName": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Score",
+    "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.json",
+    "fshName": "MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores.fsh",
     "startLine": 1,
     "endLine": 18
   },

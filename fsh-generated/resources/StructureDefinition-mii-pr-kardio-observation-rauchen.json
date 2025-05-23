@@ -148,7 +148,7 @@
       {
         "id": "Observation.component:packungsjahre.value[x].comparator",
         "path": "Observation.component.value[x].comparator",
-        "min": 1
+        "mustSupport": true
       },
       {
         "id": "Observation.component:packungsjahre.value[x].unit",
@@ -196,7 +196,7 @@
       {
         "id": "Observation.component:packungenProTag.value[x].comparator",
         "path": "Observation.component.value[x].comparator",
-        "min": 1
+        "mustSupport": true
       },
       {
         "id": "Observation.component:packungenProTag.value[x].unit",
@@ -301,7 +301,7 @@
       {
         "id": "Observation.component:rauchdauer.value[x].comparator",
         "path": "Observation.component.value[x].comparator",
-        "min": 1
+        "mustSupport": true
       },
       {
         "id": "Observation.component:rauchdauer.value[x].unit",

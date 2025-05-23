@@ -42,14 +42,14 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 * component[packungsjahre].valueQuantity.unit = "Packungsjahre"
 * component[packungsjahre].valueQuantity.system = $smoking-units //(preferred)
 * component[packungsjahre].valueQuantity.code = $smoking-units#pack-years
-* component[packungsjahre].valueQuantity.comparator 1..1 //MS 
+* component[packungsjahre].valueQuantity.comparator MS 
 // Beispielwerte: < 1/2 Packung; ca. 1/2 Packung; ca. 1 Packung; >= 2 Packungen
 * component[packungenProTag].code = $smoking-units#packs-per-day
 * component[packungenProTag].value[x] only Quantity
 * component[packungenProTag].valueQuantity.unit = "Packungen pro Tag"
 * component[packungenProTag].valueQuantity.system = $smoking-units //(preferred)
 * component[packungenProTag].valueQuantity.code = $smoking-units#packs-per-day
-* component[packungenProTag].valueQuantity.comparator 1..1 //MS 
+* component[packungenProTag].valueQuantity.comparator MS 
 * component[zigarettenProTag].code = $smoking-units#cigarettes-per-day
 * component[zigarettenProTag].value[x] only integer
 // Rauchdauer
@@ -61,7 +61,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 * component[rauchdauer].valueQuantity.unit = "year" // für Jahre (nach UCUM)
 * component[rauchdauer].valueQuantity.system = $ucum
 * component[rauchdauer].valueQuantity.code = $ucum#a
-* component[rauchdauer].valueQuantity.comparator 1..1 //MS
+* component[rauchdauer].valueQuantity.comparator MS
 // Beispielwerte: < 1 Jahr; > 1 Jahr; > 5 Jahre; > 10 Jahre
 
 //_____________________________________________________________________________
@@ -91,7 +91,6 @@ Usage: #example
 * component[packungenProTag].valueQuantity.unit = "Packungen pro Tag"
 * component[packungenProTag].valueQuantity.system = $smoking-units
 * component[packungenProTag].valueQuantity.code = #packs-per-day
-* component[packungenProTag].valueQuantity.comparator = #=
 * component[zigarettenProTag].code = $smoking-units#cigarettes-per-day
 * component[zigarettenProTag].valueInteger = 20
 * component[rauchbeginn].code = $smoking-units#rauchbeginn

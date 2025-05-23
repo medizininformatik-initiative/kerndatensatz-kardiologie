@@ -85,7 +85,7 @@
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Rauchen.fsh",
     "startLine": 68,
-    "endLine": 104
+    "endLine": 103
   },
   {
     "outputFile": "Observation-example-kardio-mrs.json",

@@ -31,6 +31,12 @@
       "id": "de_basisprofil_r4"
     },
     {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
+      "version": "2025.0.4",
+      "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.icu/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.icu",
+      "id": "de_medizininformatikinitiative_kerndatensatz_icu"
+    },
+    {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.diagnose",
       "version": "2025.0.0",
       "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ImplementationGuide/mii-ig-diagnose",
@@ -41,12 +47,6 @@
       "version": "2025.0.0",
       "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ImplementationGuide/mii-ig-prozedur",
       "id": "de_medizininformatikinitiative_kerndatensatz_prozedur"
-    },
-    {
-      "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
-      "version": "2025.0.4",
-      "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.icu/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.icu",
-      "id": "de_medizininformatikinitiative_kerndatensatz_icu"
     },
     {
       "packageId": "de.gematik.isik-vitalparameter",

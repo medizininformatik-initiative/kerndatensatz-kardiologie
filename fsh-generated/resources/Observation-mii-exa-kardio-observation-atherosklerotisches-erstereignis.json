@@ -18,6 +18,6 @@
   "subject": {
     "reference": "Patient/demo-patient"
   },
-  "status": "draft",
+  "status": "final",
   "valueDateTime": "2023-01"
 }

@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "active",
+  "status": "draft",
   "name": "MII_VS_Kardio_Ausschlusskriterien_Acribis_Score",
   "id": "mii-vs-kardio-ausschlusskriterien-acribis-score",
   "title": "MII VS Kardio Ausschlusskriterien_Acribis Score",

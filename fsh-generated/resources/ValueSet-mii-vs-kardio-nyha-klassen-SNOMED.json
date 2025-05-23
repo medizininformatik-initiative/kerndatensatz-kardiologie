@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "active",
+  "status": "draft",
   "name": "MII_VS_Kardio_NYHA_Klassen_SNOMED",
   "id": "mii-vs-kardio-nyha-klassen-snomed",
   "title": "MII_VS_Kardio_NYHA_Klassen_SNOMED",

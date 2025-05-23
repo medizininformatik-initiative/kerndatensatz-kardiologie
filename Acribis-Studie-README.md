@@ -41,11 +41,11 @@ Profilübersicht:
 
 ### Questionnaires zu Follow-Up (3 Questionnaires)
 
-| Fragebogentyp     | Profilname         | Beschreibung                                         |
-|-------------------|--------------------|------------------------------------------------------|
-| Acribis-FollowUp  | FollowUp           | Bildet die Items des Acribis-FollowUp-Fragebogens ab.|
-| EQ-5D-5L          | QoL-Fragebogen 1   | Siehe Modul PRO.                                     |
-| PROMIS-29         | QoL-Fragebogen 2   | Siehe Modul PRO.                                     |
+| Fragebogentyp     | Profilname         | Beschreibung                                         | Example |
+|-------------------|--------------------|------------------------------------------------------|---------|
+| Acribis-FollowUp  | FollowUp           | Bildet die Items des Acribis-FollowUp-Fragebogens ab.||
+| EQ-5D-5L          | QoL-Fragebogen 1   | Siehe Modul PRO.                                     | [Questionnaire-Example](https://simplifier.net/MII-Erweiterungsmodul-PRO-2025/mii-qst-pro-eq-5d-5l/~overview)|
+| PROMIS-29         | QoL-Fragebogen 2   | Siehe Modul PRO gegen Mitte/Ende 2025                ||
 
 ### Externe Profile (aus anderen KDS Modulen)
 

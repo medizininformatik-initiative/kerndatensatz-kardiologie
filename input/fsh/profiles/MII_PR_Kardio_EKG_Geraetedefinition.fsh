@@ -11,8 +11,8 @@ Description: "Profil zur Abbildung einer EKG-Gerätedefinition."
 * ^experimental = true
 * ^date = "2025-05-22"
 
-* manufacturer[x] MS
-* deviceName MS
+* manufacturer[x] 1.. MS
+* deviceName 1.. MS
 
 Instance: mii-exa-kardio-ekg-geraetedefinition-mortara
 InstanceOf: MII_PR_Kardio_EKG_Geraetedefinition

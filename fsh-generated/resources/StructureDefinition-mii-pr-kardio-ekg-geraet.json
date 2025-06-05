@@ -34,6 +34,36 @@
         "mustSupport": true
       },
       {
+        "id": "Device.manufacturer",
+        "path": "Device.manufacturer",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName",
+        "path": "Device.deviceName",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.type",
+        "path": "Device.type",
+        "min": 1,
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/devicemetric-type"
+        }
+      },
+      {
+        "id": "Device.type.coding",
+        "path": "Device.type.coding",
+        "patternCoding": {
+          "code": "69796",
+          "system": "urn:iso:std:iso:11073:10101"
+        }
+      },
+      {
         "id": "Device.patient",
         "path": "Device.patient",
         "min": 1,

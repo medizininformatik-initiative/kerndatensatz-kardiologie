@@ -12,9 +12,12 @@ Description: "Profil zur Abbildung eines EKG-Gerätes."
 * ^date = "2025-05-22"
 
 * status MS
+* manufacturer 1.. MS
+* deviceName 1.. MS
 
-// * type from $geraetetyp (required)
-// * type 1.. MS
+* type from $devicemetric-type (required)
+* type 1..1 MS
+* type.coding = $mdc#69796
 
 * patient 1.. MS
 
@@ -24,6 +27,10 @@ Title: "MII EXA Kardio EKG Geraet Mortara"
 Description: "Beispiel eines EKG Gerätes der Firma Mortara Instruments"
 Usage: #example
 
+* definition.reference = "DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara"
 * status = #active
-* manufacturer = "..."
+* manufacturer = "Mortara Instrument, Inc."
+* deviceName.name = "ELI 380"
+* deviceName.type = #model-name
+* type.coding = $mdc#69796 "MDC_DEV_ECG"
 * patient.reference = "Patient/mii-exa-person-patient-minimal"

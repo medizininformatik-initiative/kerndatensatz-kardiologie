@@ -76,8 +76,8 @@
     "fshName": "mii-exa-kardio-ekg-geraet-mortara",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraet.fsh",
-    "startLine": 21,
-    "endLine": 29
+    "startLine": 24,
+    "endLine": 36
   },
   {
     "outputFile": "DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json",
@@ -237,7 +237,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraet.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 22
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json",

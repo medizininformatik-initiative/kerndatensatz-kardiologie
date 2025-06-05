@@ -6,9 +6,27 @@
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet"
     ]
   },
+  "definition": {
+    "reference": "DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara"
+  },
+  "deviceName": [
+    {
+      "name": "ELI 380",
+      "type": "model-name"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "69796",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_DEV_ECG"
+      }
+    ]
+  },
   "patient": {
     "reference": "Patient/mii-exa-person-patient-minimal"
   },
   "status": "active",
-  "manufacturer": "..."
+  "manufacturer": "Mortara Instrument, Inc."
 }

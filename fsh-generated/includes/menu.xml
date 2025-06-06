@@ -11,50 +11,6 @@
 
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
-    <a href="toc.html">Table of Contents</a>
-  </li>
-  <li>
-    <a href="home.html">Startseite</a>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Einführung
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="introduction.html">Einführung</a>
-      </li>
-      <li>
-        <a href="kds_icu_arterieller_blutdruck.html">KDS Arterieller Blutdruck</a>
-      </li>
-      <li>
-        <a href="kds_labor.html">KDS Labor</a>
-      </li>
-      <li>
-        <a href="kds_medikation.html">KDS Medikation</a>
-      </li>
-      <li>
-        <a href="kds_patient_person.html">KDS Patient_Person</a>
-      </li>
-      <li>
-        <a href="questionnaire.html">KDS Fragebogen</a>
-      </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Modul Kardiologie
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="ekg.html">EKG Prozedur und Metadaten</a>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <a href="terminologies.html">Terminologien</a>
-  </li>
-  <li>
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>

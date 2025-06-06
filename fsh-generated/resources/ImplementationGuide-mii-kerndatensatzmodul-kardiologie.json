@@ -200,6 +200,14 @@
       },
       {
         "reference": {
+          "reference": "Observation/mii-exa-kardio-herzinsuffizienz-unbekannt"
+        },
+        "name": "MII EXA Kardio Herzinsuffizienz Unbekannt",
+        "description": "Beispiel: Der Patient weiß nicht, ob er Herzinsuffizienz hat.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-nein-unbekannt"
+      },
+      {
+        "reference": {
           "reference": "Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd"
         },
         "name": "MII EXA Kardio Kardiale Deviceimplantation",
@@ -252,6 +260,14 @@
         },
         "name": "MII PR Kardio Device",
         "description": "Profil zur Abbildung eines implantierten Herzschrittmachers, Defibrillators oder ventrikulären Unterstützungssystems.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-diagnose-nein-unbekannt"
+        },
+        "name": "MII PR Kardio Diagnose Nein Unbekannt",
+        "description": "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagnose oder Unklarheit darüber ab.",
         "exampleBoolean": false
       },
       {
@@ -364,6 +380,14 @@
         },
         "name": "MII VS Kardio Ausschlusskriterien ACRIBiS Scores",
         "description": "ValueSet for exclusion criteria for score computation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-diagnose-nein-unbekannt"
+        },
+        "name": "MII VS Kardio Diagnose Nein Unbekannt",
+        "description": "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnose oder Unklarheit darüber.",
         "exampleBoolean": false
       },
       {

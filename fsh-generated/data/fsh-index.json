@@ -120,6 +120,14 @@
     "endLine": 68
   },
   {
+    "outputFile": "Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.json",
+    "fshName": "mii-exa-kardio-herzinsuffizienz-unbekannt",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Nein_Unbekannt.fsh",
+    "startLine": 35,
+    "endLine": 49
+  },
+  {
     "outputFile": "Observation-mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
     "fshName": "mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf",
     "fshType": "Instance",
@@ -214,6 +222,14 @@
     "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
     "startLine": 1,
     "endLine": 28
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-diagnose-nein-unbekannt.json",
+    "fshName": "MII_PR_Kardio_Diagnose_Nein_Unbekannt",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Nein_Unbekannt.fsh",
+    "startLine": 1,
+    "endLine": 33
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",
@@ -323,7 +339,7 @@
     "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.json",
     "fshName": "MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores.fsh",
     "startLine": 1,
     "endLine": 18
   },
@@ -334,6 +350,14 @@
     "fshFile": "valuesets\\MII_VS_Kardio_Diagnose.fsh",
     "startLine": 1,
     "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-diagnose-nein-unbekannt.json",
+    "fshName": "MII_VS_Kardio_Diagnose_Nein_Unbekannt",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Diagnose_Nein_Unbekannt.fsh",
+    "startLine": 1,
+    "endLine": 16
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-ethnie-snomed.json",

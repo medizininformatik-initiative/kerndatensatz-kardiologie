@@ -72,6 +72,22 @@
     "endLine": 51
   },
   {
+    "outputFile": "Device-mii-exa-kardio-ekg-geraet-mortara.json",
+    "fshName": "mii-exa-kardio-ekg-geraet-mortara",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraet.fsh",
+    "startLine": 24,
+    "endLine": 36
+  },
+  {
+    "outputFile": "DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json",
+    "fshName": "mii-exa-kardio-ekg-geraetedefinition-mortara",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraetedefinition.fsh",
+    "startLine": 17,
+    "endLine": 42
+  },
+  {
     "outputFile": "DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.json",
     "fshName": "mii-exa-kardio-nbg-schrittmachermodus",
     "fshType": "Instance",
@@ -230,6 +246,22 @@
     "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Nein_Unbekannt.fsh",
     "startLine": 1,
     "endLine": 34
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraet.json",
+    "fshName": "MII_PR_Kardio_EKG_Geraet",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraet.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json",
+    "fshName": "MII_PR_Kardio_EKG_Geraetedefinition",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraetedefinition.fsh",
+    "startLine": 1,
+    "endLine": 15
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",

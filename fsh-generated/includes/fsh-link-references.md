@@ -14,6 +14,8 @@
 [MII_CS_Kardio_Atherosklerotische_Erstereignisse]: CodeSystem-mii-cs-kardio-atherosklerotische-erstereignisse.html
 [MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores]: CodeSystem-mii-cs-kardio-ausschlusskriterien-acribis-scores.html
 [mii-exa-kardio-device-icd]: Device-mii-exa-kardio-device-icd.html
+[mii-exa-kardio-ekg-geraet-mortara]: Device-mii-exa-kardio-ekg-geraet-mortara.html
+[mii-exa-kardio-ekg-geraetedefinition-mortara]: DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.html
 [mii-exa-kardio-geraeteprogrammierung-vvi]: Observation-mii-exa-kardio-geraeteprogrammierung-vvi.html
 [mii-exa-kardio-herzinsuffizienz-unbekannt]: Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.html
 [mii-exa-kardio-kardiale-deviceimplantation-icd]: Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.html
@@ -24,6 +26,8 @@
 [MII_PR_Kardio_Condition_Diagnose]: StructureDefinition-mii-pr-kardio-condition-diagnose.html
 [MII_PR_Kardio_Device]: StructureDefinition-mii-pr-kardio-device.html
 [MII_PR_Kardio_Diagnose_Nein_Unbekannt]: StructureDefinition-mii-pr-kardio-diagnose-nein-unbekannt.html
+[MII_PR_Kardio_EKG_Geraet]: StructureDefinition-mii-pr-kardio-ekg-geraet.html
+[MII_PR_Kardio_EKG_Geraetedefinition]: StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html
 [MII_PR_Kardio_EKG_Metadaten]: StructureDefinition-mii-pr-kardio-ekg-metadaten.html
 [MII_PR_Kardio_Geraeteprogrammierung]: StructureDefinition-mii-pr-kardio-geraeteprogrammierung.html
 [MII_PR_Kardio_Kardiale_Deviceimplantation]: StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.html

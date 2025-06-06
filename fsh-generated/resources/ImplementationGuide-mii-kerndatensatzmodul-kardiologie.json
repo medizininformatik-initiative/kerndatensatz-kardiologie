@@ -192,6 +192,22 @@
       },
       {
         "reference": {
+          "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
+        },
+        "name": "MII EXA Kardio EKG Geraet Mortara",
+        "description": "Beispiel eines EKG Gerätes der Firma Mortara Instruments",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet"
+      },
+      {
+        "reference": {
+          "reference": "DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara"
+        },
+        "name": "MII EXA Kardio EKG Geraetedefinition Mortara",
+        "description": "Beispiel einer EKG Gerätedefinition für ein EKG-Gerät der Firma Mortara Instruments",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition"
+      },
+      {
+        "reference": {
           "reference": "Observation/mii-exa-kardio-geraeteprogrammierung-vvi"
         },
         "name": "MII EXA Kardio Geräteprogrammierung VVI",
@@ -268,6 +284,22 @@
         },
         "name": "MII PR Kardio Diagnose Nein Unbekannt",
         "description": "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagnose oder Unklarheit darüber ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-geraet"
+        },
+        "name": "MII PR Kardio EKG Gerät",
+        "description": "Profil zur Abbildung eines EKG-Gerätes.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-geraetedefinition"
+        },
+        "name": "MII PR Kardio EKG Gerätedefinition",
+        "description": "Profil zur Abbildung einer EKG-Gerätedefinition.",
         "exampleBoolean": false
       },
       {

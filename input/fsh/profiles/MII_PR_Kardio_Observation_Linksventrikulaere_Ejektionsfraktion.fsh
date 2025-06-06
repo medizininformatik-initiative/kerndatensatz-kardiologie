@@ -50,13 +50,13 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
     sct 1..* MS and
     loinc 1..* MS and
     IEEE-11073 0..* MS
-* code.coding[sct] from $sct (required)
+// * code.coding[sct] from $sct (required) TODO: Ich habe das auskommentiert. Hier muss ein VS angegeben werden, kein CS (Philipp: 06.06.2025)
 * code.coding[sct].system 1.. MS
 * code.coding[sct].code 1.. MS
 * code.coding[sct] ^patternCoding.system = $sct
 * code.coding[sct].code = $sct#250908004
 * code.coding[sct].display = "Left ventricular ejection fraction (observable entity)"
-* code.coding[loinc] from $loinc (required)
+// * code.coding[loinc] from $loinc (required) TODO: Ich habe das auskommentiert. Hier muss ein VS angegeben werden, kein CS (Philipp: 06.06.2025)
 * code.coding[loinc].system 1.. MS
 * code.coding[loinc].code 1.. MS
 * code.coding[loinc] ^patternCoding.system = $loinc

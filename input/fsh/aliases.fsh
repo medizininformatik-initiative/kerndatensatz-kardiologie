@@ -15,6 +15,7 @@ Alias: $ausschluss-cs = https://www.medizininformatik-initiative.de/fhir/ext/mod
 
 //ValueSets
 Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category
+Alias: $observation-category-vs = http://hl7.org/fhir/ValueSet/observation-category
 Alias: $extended-condition-severity = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity
 Alias: $atherosklerotische-ereignisse = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotische-erstereignisse
 Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen

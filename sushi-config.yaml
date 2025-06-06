@@ -76,19 +76,6 @@ dependencies:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Table of Contents: toc.html
-  Startseite: home.html
-  Einführung:
-    Einführung: introduction.html
-    KDS Arterieller Blutdruck: kds_icu_arterieller_blutdruck.html
-    KDS Labor: kds_labor.html
-    KDS Medikation: kds_medikation.html
-    KDS Patient_Person: kds_patient_person.html
-    KDS Fragebogen: questionnaire.html
-  Modul Kardiologie:
-    EKG Prozedur und Metadaten: ekg.html
-    # Weitere Seiten zu den verschiedenen Profilen.
-  Terminologien: terminologies.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

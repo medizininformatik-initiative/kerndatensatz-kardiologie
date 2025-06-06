@@ -72,22 +72,6 @@
     "endLine": 51
   },
   {
-    "outputFile": "Device-mii-exa-kardio-ekg-geraet-mortara.json",
-    "fshName": "mii-exa-kardio-ekg-geraet-mortara",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraet.fsh",
-    "startLine": 24,
-    "endLine": 36
-  },
-  {
-    "outputFile": "DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json",
-    "fshName": "mii-exa-kardio-ekg-geraetedefinition-mortara",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraetedefinition.fsh",
-    "startLine": 17,
-    "endLine": 42
-  },
-  {
     "outputFile": "DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.json",
     "fshName": "mii-exa-kardio-nbg-schrittmachermodus",
     "fshType": "Instance",
@@ -134,6 +118,14 @@
     "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
     "startLine": 51,
     "endLine": 68
+  },
+  {
+    "outputFile": "Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.json",
+    "fshName": "mii-exa-kardio-herzinsuffizienz-unbekannt",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Nein_Unbekannt.fsh",
+    "startLine": 36,
+    "endLine": 50
   },
   {
     "outputFile": "Observation-mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
@@ -232,20 +224,12 @@
     "endLine": 28
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraet.json",
-    "fshName": "MII_PR_Kardio_EKG_Geraet",
+    "outputFile": "StructureDefinition-mii-pr-kardio-diagnose-nein-unbekannt.json",
+    "fshName": "MII_PR_Kardio_Diagnose_Nein_Unbekannt",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraet.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Nein_Unbekannt.fsh",
     "startLine": 1,
-    "endLine": 22
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json",
-    "fshName": "MII_PR_Kardio_EKG_Geraetedefinition",
-    "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraetedefinition.fsh",
-    "startLine": 1,
-    "endLine": 15
+    "endLine": 34
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",
@@ -366,6 +350,14 @@
     "fshFile": "valuesets\\MII_VS_Kardio_Diagnose.fsh",
     "startLine": 1,
     "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-diagnose-nein-unbekannt.json",
+    "fshName": "MII_VS_Kardio_Diagnose_Nein_Unbekannt",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Diagnose_Nein_Unbekannt.fsh",
+    "startLine": 1,
+    "endLine": 16
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-ethnie-snomed.json",

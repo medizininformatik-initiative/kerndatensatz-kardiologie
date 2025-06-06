@@ -1,0 +1,58 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-kardio-herzinsuffizienz-unbekannt",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-nein-unbekannt"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/mii-exa-person-patient-minimal"
+  },
+  "device": {
+    "reference": "Device/example-tablet"
+  },
+  "derivedFrom": [
+    {
+      "reference": "QuestionaireResponse/example-qr"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "84114007",
+        "system": "http://snomed.info/sct",
+        "display": "Heart failure (disorder)"
+      }
+    ]
+  },
+  "effectiveDateTime": "2025-06-06T14:29:34.214+02:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "ASKU",
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+        "display": "asked but unknown"
+      }
+    ]
+  },
+  "method": {
+    "coding": [
+      {
+        "code": "129431000",
+        "system": "http://snomed.info/sct",
+        "display": "History taking - action (qualifier value)"
+      }
+    ]
+  }
+}

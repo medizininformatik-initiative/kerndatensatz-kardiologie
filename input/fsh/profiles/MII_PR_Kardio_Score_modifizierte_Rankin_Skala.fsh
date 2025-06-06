@@ -6,7 +6,7 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * insert PR_CS_VS_Version
 * insert Publisher
 * category 1..1 MS
-* category from $observation-category (required)
+* category from $observation-category-vs (required)
 * category = $observation-category#survey
 * code 1..1 MS
 * code.coding 1..1 MS

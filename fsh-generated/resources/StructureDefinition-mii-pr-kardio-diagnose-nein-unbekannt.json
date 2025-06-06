@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "mii-pr-kardio-score-modifizierte-rankin-skala",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala",
+  "id": "mii-pr-kardio-diagnose-nein-unbekannt",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-nein-unbekannt",
   "version": "2025.0.0",
-  "name": "MII_PR_Kardio_Score_modifizierte_Rankin_Skala",
-  "title": "MII PR Kardio Score modifizierte Rankin Skala",
+  "name": "MII_PR_Kardio_Diagnose_Nein_Unbekannt",
+  "title": "MII PR Kardio Diagnose Nein Unbekannt",
   "status": "draft",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -17,7 +17,7 @@
       ]
     }
   ],
-  "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
+  "description": "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagnose oder Unklarheit darüber ab.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -29,17 +29,6 @@
       {
         "id": "Observation.category",
         "path": "Observation.category",
-        "min": 1,
-        "max": "1",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "survey",
-              "system": "http://terminology.hl7.org/CodeSystem/observation-category"
-            }
-          ]
-        },
-        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "http://hl7.org/fhir/ValueSet/observation-category"
@@ -48,7 +37,11 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct"
+        }
       },
       {
         "id": "Observation.code.coding",
@@ -60,12 +53,14 @@
       {
         "id": "Observation.code.coding.system",
         "path": "Observation.code.coding.system",
-        "patternUri": "http://snomed.info/sct"
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
-        "fixedCode": "1255866005"
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Observation.subject",
@@ -87,13 +82,14 @@
         "max": "0"
       },
       {
-        "id": "Observation.encounter",
-        "path": "Observation.encounter",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.performer",
-        "path": "Observation.performer",
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
         "mustSupport": true
       },
       {
@@ -108,8 +104,13 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-diagnose-nein-unbekannt"
         }
+      },
+      {
+        "id": "Observation.interpretation",
+        "path": "Observation.interpretation",
+        "max": "0"
       },
       {
         "id": "Observation.bodySite",
@@ -117,8 +118,18 @@
         "max": "0"
       },
       {
-        "id": "Observation.device",
-        "path": "Observation.device",
+        "id": "Observation.specimen",
+        "path": "Observation.specimen",
+        "max": "0"
+      },
+      {
+        "id": "Observation.referenceRange",
+        "path": "Observation.referenceRange",
+        "max": "0"
+      },
+      {
+        "id": "Observation.hasMember",
+        "path": "Observation.hasMember",
         "max": "0"
       },
       {

@@ -7,7 +7,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 * insert Publisher
 // Parent: Current Smoking Status - gematik ISiK -> https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
 * category 1..1 MS
-* category from $observation-category (required)
+* category from $observation-category-vs (required)
 * category = $observation-category#social-history
 // Code from Parent = SCT 77176002 "Smoker" oder LOINC 72166-2 "Tobacco smoking status"
 * subject only Reference(Patient)

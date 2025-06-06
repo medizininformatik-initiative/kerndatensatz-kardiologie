@@ -157,11 +157,7 @@
         "patternCoding": {
           "system": "http://snomed.info/sct"
         },
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://snomed.info/sct"
-        }
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding:sct.system",
@@ -190,11 +186,7 @@
         "patternCoding": {
           "system": "http://loinc.org"
         },
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://loinc.org"
-        }
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding:loinc.system",

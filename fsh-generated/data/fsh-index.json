@@ -100,8 +100,8 @@
     "fshName": "example-kardio-nyha",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Score_NYHA.fsh",
-    "startLine": 33,
-    "endLine": 55
+    "startLine": 34,
+    "endLine": 56
   },
   {
     "outputFile": "Observation-example-lvef.json",
@@ -156,8 +156,8 @@
     "fshName": "example-role-kardiologe",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Score_NYHA.fsh",
-    "startLine": 58,
-    "endLine": 65
+    "startLine": 59,
+    "endLine": 66
   },
   {
     "outputFile": "Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json",
@@ -317,7 +317,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Score_NYHA.fsh",
     "startLine": 1,
-    "endLine": 27
+    "endLine": 28
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-allergene-snomed.json",

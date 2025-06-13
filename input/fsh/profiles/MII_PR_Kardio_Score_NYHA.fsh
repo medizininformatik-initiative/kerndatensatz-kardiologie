@@ -10,6 +10,7 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 * category from http://hl7.org/fhir/ValueSet/observation-category (required)
 * category = $observation-category#survey
 * code 1..1 MS
+// * code from TODO: Passendes VS finden
 * code.coding 1..1 MS
 * code.coding.system = $sct
 * code.coding.code = $sct#420816009 (exactly) // 420816009 = "New York Heart Association Classification (assessment scale)"
@@ -35,7 +36,7 @@ InstanceOf: MII_PR_Kardio_Score_NYHA
 Usage: #example
 Title: "Beispielinstanz: NYHA-Klassifikation"
 Description: "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation bei Herzinsuffizienz gemäß MII PR Kardio Score NYHA."
-* meta.profile = "https://www.medizininformatik-initiative.de/fhir/core/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha"
+
 * identifier.system = "http://example.org/observation-ids"
 * identifier.value = "NYHA-OBS-123456"
 * status = #final
@@ -47,9 +48,9 @@ Description: "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation be
 * effectiveDateTime = "2024-11-12T14:23:00+01:00"
 * issued = "2024-11-12T15:00:00+01:00"
 * performer[0] = Reference(PractitionerRole/example-role-kardiologe)
-* valueCodeableConcept.coding.system = $loinc
-* valueCodeableConcept.coding.code = $loinc#LA22794-2 
-* valueCodeableConcept.coding.display = "NYHA Class II"
+* valueCodeableConcept.coding.system = $sct
+* valueCodeableConcept.coding.code = $sct#421704003 
+* valueCodeableConcept.coding.display = "New York Heart Association Classification - Class II"
 * note.text = "Patient berichtet über leichte Einschränkungen bei moderater körperlicher Aktivität. Keine Beschwerden in Ruhe."
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">NYHA Klassifikation: Klasse II. Patient hat in Ruhe keine Beschwerden, leichte Symptome bei Aktivität.</div>"

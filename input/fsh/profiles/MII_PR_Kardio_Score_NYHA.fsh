@@ -10,11 +10,21 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 * category from http://hl7.org/fhir/ValueSet/observation-category (required)
 * category = $observation-category#survey
 * code 1..1 MS
-// * code from TODO: Passendes VS finden
-* code.coding 1..1 MS
-* code.coding.system = $sct
-* code.coding.code = $sct#420816009 (exactly) // 420816009 = "New York Heart Association Classification (assessment scale)"
-* code.coding.display = "New York Heart Association Classification (assessment scale)"
+* code.coding 1..*
+* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.path = "system" //"$this"
+* code.coding ^slicing.rules = #closed
+* code.coding contains 
+    sct 0..1 MS and
+    loinc 0..1 MS
+* code.coding[sct] 1..1 MS
+* code.coding[sct].system = $sct
+* code.coding[sct].code = $sct#762994006 (exactly) // 420816009 = "New York Heart Association Classification (assessment scale)"
+//* code.coding[sct].display = "New York Heart Association Classification class (observable entity)"
+* code.coding[loinc] 1..1 MS
+* code.coding[loinc].system = $loinc
+* code.coding[loinc].code = $loinc#93124-6 (exactly) // 420816009 = "New York Heart Association Classification (assessment scale)"
+//* code.coding[loinc].display = "New York Heart Association Functional Classification panel"
 * subject 1..1 MS
 * subject only Reference(Patient)
 * value[x] 1..1 MS
@@ -40,9 +50,12 @@ Description: "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation be
 * identifier.system = "http://example.org/observation-ids"
 * identifier.value = "NYHA-OBS-123456"
 * status = #final
-* code.coding.system = "http://snomed.info/sct"
-* code.coding.code = #420816009
-* code.coding.display = "New York Heart Association Classification (assessment scale)"
+* code.coding[sct].system = "http://snomed.info/sct"
+* code.coding[sct].code = #762994006
+* code.coding[sct].display = "New York Heart Association Classification class (observable entity)"
+* code.coding[loinc].system = "http://loinc.org"
+* code.coding[loinc].code = #93124-6
+* code.coding[loinc].display = "New York Heart Association Functional Classification panel"
 * subject = Reference(Patient/example-patient)
 * encounter = Reference(Encounter/example-ambulant)
 * effectiveDateTime = "2024-11-12T14:23:00+01:00"

@@ -67,7 +67,8 @@
         "reference": {
           "reference": "Questionnaire/acribis-study-followup"
         },
-        "name": "Acribis-Studie FollowUp",
+        "name": "Acribis-Studie Follow-Up Fragebogen",
+        "description": "Ein Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
         "exampleBoolean": false
       },
       {
@@ -436,6 +437,14 @@
         },
         "name": "MII VS Kardio Kardiale Devicemimplantation Körperstelle",
         "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-follow-up"
+        },
+        "name": "MII_CS_Follow_Up",
+        "description": "Dieses CodeSystem enthält lokal definierte Einheiten zur Verwendung im Follow-Up Questionnaire.",
         "exampleBoolean": false
       },
       {

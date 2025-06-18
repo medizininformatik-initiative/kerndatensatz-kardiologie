@@ -1,139 +1,655 @@
 {
   "resourceType": "Questionnaire",
   "id": "acribis-study-followup",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/acribis-study-followup",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/Questionnaire/acribis-study-followup",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "useContext": [
+    {
+      "code": {
+        "code": "focus",
+        "system": "http://terminology.hl7.org/CodeSystem/usage-context-type"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "734163000",
+            "system": "http://snomed.info/sct",
+            "display": "Clinical trial (procedure)"
+          }
+        ]
+      }
+    }
+  ],
   "subjectType": [
     "Patient"
   ],
   "item": [
     {
-      "linkId": "Q1",
-      "text": "Leiden Sie an Bluthochdruck?",
-      "type": "boolean",
-      "required": false,
-      "repeats": false
+      "linkId": "patient-id",
+      "prefix": "Identifier",
+      "text": "Follow-Up Patienten-ID",
+      "type": "string"
     },
     {
       "answerOption": [
         {
           "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-            "code": "Y",
-            "display": "Ja"
+            "code": "116154003",
+            "system": "http://snomed.info/sct",
+            "display": "Patient"
           }
         },
         {
           "valueCoding": {
-            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-            "code": "N",
-            "display": "Nein"
+            "code": "2187007",
+            "system": "http://snomed.info/sct",
+            "display": "Relative"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "405279007",
+            "system": "http://snomed.info/sct",
+            "display": "Attending physician"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "74964007",
+            "system": "http://snomed.info/sct",
+            "display": "Other"
           }
         }
       ],
-      "linkId": "q1",
-      "text": "Hatten Sie jemals Herzprobleme oder eine Herzerkrankung?",
-      "type": "choice",
-      "required": true
-    },
-    {
-      "answerOption": [
+      "item": [
         {
-          "valueCoding": {
-            "code": "yes",
-            "display": "Ja"
-          }
-        },
-        {
-          "valueCoding": {
-            "code": "no",
-            "display": "Nein"
-          }
+          "enableWhen": [
+            {
+              "question": "who-filled",
+              "operator": "=",
+              "answerCoding": {
+                "code": "74964007",
+                "system": "http://snomed.info/sct"
+              }
+            }
+          ],
+          "linkId": "who-filled-other",
+          "text": "Andere Person",
+          "type": "string"
         }
       ],
-      "linkId": "q2",
-      "text": "Haben Sie in Ihrer Familie eine Vorgeschichte von Herzinfarkten?",
-      "type": "choice",
-      "required": true
-    },
-    {
-      "answerOption": [
-        {
-          "valueCoding": {
-            "code": "none",
-            "display": "Nie"
-          }
-        },
-        {
-          "valueCoding": {
-            "code": "rarely",
-            "display": "Selten"
-          }
-        },
-        {
-          "valueCoding": {
-            "code": "sometimes",
-            "display": "Manchmal"
-          }
-        },
-        {
-          "valueCoding": {
-            "code": "frequently",
-            "display": "Häufig"
-          }
-        }
-      ],
-      "linkId": "q3",
-      "text": "Wie oft erleben Sie Schmerzen in der Brust?",
+      "linkId": "who-filled",
+      "prefix": "Angaben zur Kontaktaufnahme",
+      "text": "Wer füllt den Fragebogen aus?",
       "type": "choice"
     },
     {
       "answerOption": [
         {
           "valueCoding": {
-            "code": "yes",
-            "display": "Ja"
+            "code": "116154003",
+            "system": "http://snomed.info/sct",
+            "display": "Patient"
           }
         },
         {
           "valueCoding": {
-            "code": "no",
-            "display": "Nein"
+            "code": "2187007",
+            "system": "http://snomed.info/sct",
+            "display": "Relative"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "405279007",
+            "system": "http://snomed.info/sct",
+            "display": "Attending physician"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "74964007",
+            "system": "http://snomed.info/sct",
+            "display": "Other"
           }
         }
       ],
-      "linkId": "q4",
-      "text": "Rauchen Sie?",
+      "item": [
+        {
+          "enableWhen": [
+            {
+              "question": "phone-contact",
+              "operator": "=",
+              "answerCoding": {
+                "code": "74964007",
+                "system": "http://snomed.info/sct",
+                "display": "Other"
+              }
+            }
+          ],
+          "linkId": "phone-contact-other",
+          "text": "Andere Person (Telefonat)",
+          "type": "string"
+        }
+      ],
+      "linkId": "phone-contact",
+      "prefix": "Angaben zur Kontaktaufnahme",
+      "text": "Telefonat mit",
       "type": "choice"
     },
     {
-      "linkId": "q5",
-      "text": "Wie alt sind Sie?",
-      "type": "integer",
-      "required": true
+      "linkId": "executing-staff",
+      "text": "Durchführender Mitarbeiter",
+      "type": "string"
+    },
+    {
+      "linkId": "recording-date",
+      "text": "Datum der Datenaufnahme (DD.MM.YYYY)",
+      "type": "date"
+    },
+    {
+      "item": [
+        {
+          "linkId": "call-date",
+          "text": "Datum",
+          "type": "date"
+        },
+        {
+          "linkId": "call-time",
+          "text": "Uhrzeit",
+          "type": "time"
+        },
+        {
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "Y",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "display": "Yes"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "N",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "display": "No"
+              }
+            }
+          ],
+          "linkId": "call-success",
+          "text": "Erfolgreich?",
+          "type": "choice"
+        }
+      ],
+      "linkId": "calls",
+      "prefix": "Angaben zur Kontaktaufnahme",
+      "text": "Telefonat",
+      "type": "group",
+      "repeats": true
+    },
+    {
+      "linkId": "gp-contact",
+      "prefix": "Kontaktaufnahme Hausarzt",
+      "text": "Kontaktaufnahme Hausarzt",
+      "type": "boolean"
     },
     {
       "enableWhen": [
         {
-          "answerCoding": {
+          "question": "gp-contact",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "linkId": "gp-contact-date",
+      "prefix": "Kontaktaufnahme Hausarzt",
+      "text": "Datum der Kontaktaufnahme",
+      "type": "date"
+    },
+    {
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "Y",
             "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "Yes"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "N",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "No"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "UNK",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "unknown"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "NASK",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "not asked"
+          }
+        }
+      ],
+      "linkId": "death-status",
+      "prefix": "Angaben zum Tod",
+      "text": "Tod",
+      "type": "choice"
+    },
+    {
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "UNK",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "unknown"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "NASK",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "not asked"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "Y",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "Yes"
+          }
+        }
+      ],
+      "enableWhen": [
+        {
+          "answerCoding": {
             "code": "Y"
           },
-          "question": "q1",
+          "question": "death-status",
           "operator": "="
         }
       ],
-      "linkId": "q6",
-      "text": "Haben Sie Medikamente für Ihr Herz eingenommen? Wenn ja, welche?",
-      "type": "text"
+      "item": [
+        {
+          "enableWhen": [
+            {
+              "question": "death-date",
+              "operator": "=",
+              "answerCoding": {
+                "code": "Y",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "display": "Yes"
+              }
+            }
+          ],
+          "linkId": "death-date-mm-yyyy",
+          "text": "MM.YYYY",
+          "type": "date"
+        }
+      ],
+      "linkId": "death-date",
+      "prefix": "Angaben zum Tod",
+      "text": "Datum des Todes",
+      "type": "choice"
     },
     {
-      "linkId": "q7",
-      "text": "Wie oft treiben Sie pro Woche Sport?",
-      "type": "integer"
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "cardiovascular-cause",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up",
+            "display": "kardiovaskulär"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "no-cardiovascular-cause",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up",
+            "display": "nicht kardiovaskulär"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "UNK",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "unknown"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "NASK",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "not asked"
+          }
+        }
+      ],
+      "enableWhen": [
+        {
+          "question": "death-status",
+          "operator": "=",
+          "answerCoding": {
+            "code": "Y",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "Yes"
+          }
+        }
+      ],
+      "linkId": "cause-of-death",
+      "prefix": "Angaben zum Tod",
+      "text": "Todesursache",
+      "type": "choice"
+    },
+    {
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "22298006",
+            "system": "http://snomed.info/sct",
+            "display": "Myocardial infarction"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "230690007",
+            "system": "http://snomed.info/sct",
+            "display": "Cerebrovascular accident"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "other-cardiovascular-cause",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "UNK",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "unknown"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "NASK",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "not asked"
+          }
+        }
+      ],
+      "enableWhen": [
+        {
+          "question": "cause-of-death",
+          "operator": "=",
+          "answerCoding": {
+            "code": "cardiovascular-cause",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up"
+          }
+        }
+      ],
+      "linkId": "cardiovascular-death-detail",
+      "prefix": "Angaben zum Tod",
+      "text": "Bei kardiovaskulärer Todesursache",
+      "type": "choice"
+    },
+    {
+      "enableWhen": [
+        {
+          "question": "cardiovascular-death-detail",
+          "operator": "=",
+          "answerCoding": {
+            "code": "230690007",
+            "system": "http://snomed.info/sct"
+          }
+        }
+      ],
+      "item": [
+        {
+          "linkId": "cv-death-ischemic-stroke",
+          "prefix": "Angaben zum Tod",
+          "text": "Ischämischer Schlaganfall",
+          "type": "boolean"
+        },
+        {
+          "linkId": "cv-death-intracerebral-bleeding",
+          "text": "Intrazerebrale Blutung",
+          "type": "boolean"
+        },
+        {
+          "linkId": "cv-death-subarachnoid-bleeding",
+          "text": "Subarachnoidalblutung",
+          "type": "boolean"
+        }
+      ],
+      "linkId": "cardiovascular-death-stroke-details",
+      "prefix": "Angaben zum Tod",
+      "text": "Details zum Schlaganfall",
+      "type": "group"
+    },
+    {
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "Y",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "Yes"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "N",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "No"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "UNK",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "unknown"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "NASK",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "not asked"
+          }
+        }
+      ],
+      "linkId": "cv-events-if-not-dead",
+      "prefix": "Angaben zu kardiovaskulären Ereignissen",
+      "text": "Wenn nein, sind kardiovaskuläre Ereignisse aufgetreten?",
+      "type": "choice"
+    },
+    {
+      "enableWhen": [
+        {
+          "question": "cv-events-if-not-dead",
+          "operator": "=",
+          "answerCoding": {
+            "code": "Y",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "Yes"
+          }
+        }
+      ],
+      "linkId": "cv-event-heart-attack",
+      "prefix": "Angaben zu kardiovaskulären Ereignissen",
+      "text": "Herzinfarkt",
+      "type": "boolean"
+    },
+    {
+      "enableWhen": [
+        {
+          "question": "cv-events-if-not-dead",
+          "operator": "=",
+          "answerCoding": {
+            "code": "Y",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "Yes"
+          }
+        }
+      ],
+      "item": [
+        {
+          "enableWhen": [
+            {
+              "question": "cv-event-stroke",
+              "operator": "=",
+              "answerBoolean": true
+            }
+          ],
+          "linkId": "cv-event-ischemic-stroke",
+          "prefix": "Angaben zu kardiovaskulären Ereignissen",
+          "text": "Ischämischer Schlaganfall",
+          "type": "boolean"
+        },
+        {
+          "enableWhen": [
+            {
+              "question": "cv-event-stroke",
+              "operator": "=",
+              "answerBoolean": true
+            }
+          ],
+          "linkId": "cv-event-icb",
+          "prefix": "Angaben zu kardiovaskulären Ereignissen",
+          "text": "Intrazerebrale Blutung",
+          "type": "boolean"
+        },
+        {
+          "enableWhen": [
+            {
+              "question": "cv-event-stroke",
+              "operator": "=",
+              "answerBoolean": true
+            }
+          ],
+          "linkId": "cv-event-sab",
+          "prefix": "Angaben zu kardiovaskulären Ereignissen",
+          "text": "Subarachnoidalblutung",
+          "type": "boolean"
+        },
+        {
+          "enableWhen": [
+            {
+              "question": "cv-event-stroke",
+              "operator": "=",
+              "answerBoolean": true
+            }
+          ],
+          "linkId": "cv-event-unknown",
+          "prefix": "Angaben zu kardiovaskulären Ereignissen",
+          "text": "unbekannt",
+          "type": "boolean"
+        }
+      ],
+      "linkId": "cv-event-stroke",
+      "prefix": "Angaben zu kardiovaskulären Ereignissen",
+      "text": "Schlaganfall",
+      "type": "boolean"
+    },
+    {
+      "enableWhen": [
+        {
+          "question": "cv-events-if-not-dead",
+          "operator": "=",
+          "answerCoding": {
+            "code": "Y",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "Yes"
+          }
+        }
+      ],
+      "linkId": "cv-event-tia",
+      "prefix": "Angaben zu kardiovaskulären Ereignissen",
+      "text": "Transiente Ischämische Attacke",
+      "type": "boolean"
+    },
+    {
+      "enableWhen": [
+        {
+          "question": "cv-events-if-not-dead",
+          "operator": "=",
+          "answerCoding": {
+            "code": "Y",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "Yes"
+          }
+        }
+      ],
+      "linkId": "cv-event-bleeding-other",
+      "prefix": "Angaben zu kardiovaskulären Ereignissen",
+      "text": "Blutungsereignis (außer Intrazerebrale Blutung/Subarachnoidblutung)",
+      "type": "boolean"
+    },
+    {
+      "enableWhen": [
+        {
+          "question": "cv-event-bleeding-other",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "linkId": "cv-event-bleeding-other-eingabe",
+      "prefix": "Angaben zu kardiovaskulären Ereignissen",
+      "text": "Blutungsereignis (außer Intrazerebrale Blutung/Subarachnoidblutung):",
+      "type": "string",
+      "enableBehavior": "all"
+    },
+    {
+      "enableWhen": [
+        {
+          "question": "cv-events-if-not-dead",
+          "operator": "=",
+          "answerCoding": {
+            "code": "Y",
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+            "display": "Yes"
+          }
+        }
+      ],
+      "linkId": "cv-event-other",
+      "prefix": "Angaben zu kardiovaskulären Ereignissen",
+      "text": "Anderes kardiovaskuläres Ereignis",
+      "type": "boolean"
+    },
+    {
+      "enableWhen": [
+        {
+          "question": "cv-event-other",
+          "operator": "=",
+          "answerBoolean": true
+        }
+      ],
+      "linkId": "cv-event-other-eingabe",
+      "prefix": "Angaben zu kardiovaskulären Ereignissen",
+      "text": "Anderes kardiovaskuläres Ereignis:",
+      "type": "string",
+      "enableBehavior": "all"
     }
   ],
-  "name": "Acribis-Studie FollowUp",
-  "title": "Acribis-Studie FollowUp",
+  "version": "2025.0.0",
+  "name": "Acribis_Study_FollowUp",
+  "title": "Acribis-Studie Follow-Up Fragebogen",
   "status": "draft",
-  "date": "2025-05-21"
+  "experimental": true,
+  "date": "2025-06-18",
+  "publisher": "Medizininformatik Initiative",
+  "description": "Ein Follow-Up-Fragebogen im Rahmen der Acribis-Studie."
 }

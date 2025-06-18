@@ -45,6 +45,7 @@
 [MII_VS_Kardio_Geraetetyp]: ValueSet-mii-vs-kardio-geraetetyp.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle.html
+[MII_CS_Follow_Up]: CodeSystem-mii-cs-follow-up.html
 [MII_VS_Kardio_Allergene_SNOMED]: ValueSet-mii-vs-kardio-allergene-snomed.html
 [MII_VS_Kardio_Diagnose_ICD10GM]: ValueSet-mii-vs-kardio-diagnose-icd10gm.html
 [MII_VS_Kardio_Ethnie_SNOMED]: ValueSet-mii-vs-kardio-ethnie-snomed.html

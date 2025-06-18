@@ -1,5 +1,13 @@
 [
   {
+    "outputFile": "CodeSystem-mii-cs-follow-up.json",
+    "fshName": "MII_CS_Follow_Up",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/MII_CS_Kardio_Follow_Up.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
     "outputFile": "CodeSystem-mii-cs-kardio-atherosklerotische-erstereignisse.json",
     "fshName": "MII_CS_Kardio_Atherosklerotische_Erstereignisse",
     "fshType": "CodeSystem",
@@ -35,7 +43,7 @@
     "outputFile": "CodeSystem-mii-cs-rauchen.json",
     "fshName": "MII_CS_Rauchen_LOCAL",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems/MII_CS_Karido_Rauchen_Einheiten.fsh",
+    "fshFile": "codesystems/MII_CS_Kardio_Rauchen_Einheiten.fsh",
     "startLine": 1,
     "endLine": 15
   },
@@ -181,7 +189,7 @@
     "fshType": "Instance",
     "fshFile": "questionnaire/MII_QN_Kardio_Acribis_Study_FollowUp.fsh",
     "startLine": 1,
-    "endLine": 78
+    "endLine": 317
   },
   {
     "outputFile": "StructureDefinition-mii-ex-kardio-ageatadmission.json",

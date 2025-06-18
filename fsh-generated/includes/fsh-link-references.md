@@ -3,6 +3,7 @@
 [beispiel-kardio-pavk-unbekannt]: Condition-beispiel-kardio-pavk-unbekannt.html
 [beispiel-kardio-krebs-terminal-liegt-nicht-vor]: Condition-beispiel-kardio-krebs-terminal-liegt-nicht-vor.html
 [Example-Kardio-Observation-Rauchen]: Observation-Example-Kardio-Observation-Rauchen.html
+[Example-Kardio-Observation-Rauchen-acribisalpha]: Observation-Example-Kardio-Observation-Rauchen-acribisalpha.html
 [example-lvef]: Observation-example-lvef.html
 [example-kardio-mrs]: Observation-example-kardio-mrs.html
 [example-kardio-nyha]: Observation-example-kardio-nyha.html
@@ -37,6 +38,7 @@
 [MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung]: StructureDefinition-mii-pr-kardio-observation-ausschluss-scoreberechnung.html
 [MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion]: StructureDefinition-mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion.html
 [MII_PR_Kardio_Observation_Rauchen]: StructureDefinition-mii-pr-kardio-observation-rauchen.html
+[MII_PR_Kardio_Observation_Rauchen_AcribisAlpha]: StructureDefinition-mii-pr-kardio-observation-rauchen-acribisalpha.html
 [MII_PR_Kardio_Procedure_EKG]: StructureDefinition-mii-pr-kardio--procedure-ekg.html
 [MII_PR_Kardio_Score_modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html

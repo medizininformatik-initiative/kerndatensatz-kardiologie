@@ -16,8 +16,13 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "420816009",
-        "display": "New York Heart Association Classification (assessment scale)"
+        "code": "762994006",
+        "display": "New York Heart Association Classification class (observable entity)"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "93124-6",
+        "display": "New York Heart Association Functional Classification panel"
       }
     ]
   },

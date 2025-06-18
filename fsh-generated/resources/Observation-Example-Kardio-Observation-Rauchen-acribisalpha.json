@@ -1,0 +1,125 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Kardio-Observation-Rauchen-acribisalpha",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "social-history",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Social History"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/example-role-kardiologe"
+    }
+  ],
+  "component": [
+    {
+      "valueQuantity": {
+        "unit": "Packungsjahre",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen",
+        "code": "pack-years",
+        "value": 35,
+        "comparator": ">"
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "pack-years",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
+          }
+        ]
+      }
+    },
+    {
+      "valueQuantity": {
+        "unit": "Packungen pro Tag",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen",
+        "code": "packs-per-day",
+        "value": 1
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "packs-per-day",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "cigarettes-per-day",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
+          }
+        ]
+      },
+      "valueInteger": 20
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "rauchbeginn",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
+          }
+        ]
+      },
+      "valueDateTime": "1990"
+    },
+    {
+      "valueQuantity": {
+        "unit": "year",
+        "system": "http://unitsofmeasure.org",
+        "code": "a",
+        "value": 35,
+        "comparator": ">="
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "rauchdauer",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen"
+          }
+        ]
+      }
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "72166-2",
+        "display": "Tobacco smoking status"
+      }
+    ]
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "encounter": {
+    "reference": "Encounter/ExampleEncounter"
+  },
+  "effectiveDateTime": "2023-12-01",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "current-every-day-smoker",
+        "system": "http://terminology.hl7.org/CodeSystem/observation-smoking-status",
+        "display": "Current every day smoker"
+      }
+    ]
+  }
+}

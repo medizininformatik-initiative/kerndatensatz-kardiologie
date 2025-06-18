@@ -19,6 +19,11 @@
         "system": "http://snomed.info/sct",
         "code": "1255866005",
         "display": "Modified Rankin Scale score (observable entity)"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "75859-9",
+        "display": "Modified rankin scale"
       }
     ]
   },

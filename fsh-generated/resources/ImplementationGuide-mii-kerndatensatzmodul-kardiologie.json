@@ -104,6 +104,14 @@
       },
       {
         "reference": {
+          "reference": "Observation/Example-Kardio-Observation-Rauchen-acribisalpha"
+        },
+        "name": "Beispiel für Raucherstatus im Kontext von ACRIBiS",
+        "description": "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
+      },
+      {
+        "reference": {
           "reference": "Observation/example-lvef"
         },
         "name": "Beispiel LVEF Observation",
@@ -369,6 +377,14 @@
       {
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen"
+        },
+        "name": "MII PR Kardio Observation Rauchen",
+        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
         },
         "name": "MII PR Kardio Observation Rauchen",
         "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",

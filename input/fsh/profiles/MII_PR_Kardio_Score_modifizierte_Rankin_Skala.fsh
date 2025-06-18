@@ -8,11 +8,24 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * category 1..1 MS
 * category from $observation-category-vs (required)
 * category = $observation-category#survey
+
 * code 1..1 MS
-* code.coding 1..1 MS
-* code.coding.system = $sct
-* code.coding.code = $sct#1255866005 (exactly) // 1255866005 = "Modified Rankin Scale score (observable entity)"
+* code.coding 1..*
+* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.path = "system" //"$this"
+* code.coding ^slicing.rules = #closed
+* code.coding contains 
+    sct 0..1 MS and
+    loinc 0..1 MS
+* code.coding[sct] 1..1 MS
+* code.coding[sct].system = $sct
+* code.coding[sct].code = $sct#1255866005 (exactly) // 1255866005 = "Modified Rankin Scale score (observable entity)"
 //* code.coding.display = "Modified Rankin Scale score (observable entity)"
+* code.coding[loinc] 1..1 MS
+* code.coding[loinc].system = $loinc
+* code.coding[loinc].code = $loinc#75859-9 (exactly) // 
+//* code.coding[loinc].display = "Modified rankin scale"
+
 * subject 1..1 MS
 * subject only Reference(Patient)
 * value[x] 1..1 MS
@@ -39,9 +52,12 @@ Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem S
 * identifier.system = "http://example.org/observation-ids"
 * identifier.value = "MRS-OBS-123457"
 * status = #final
-* code.coding.system = "http://snomed.info/sct"
-* code.coding.code = #1255866005
-* code.coding.display = "Modified Rankin Scale score (observable entity)"
+* code.coding[sct].system = "http://snomed.info/sct"
+* code.coding[sct].code = #1255866005
+* code.coding[sct].display = "Modified Rankin Scale score (observable entity)"
+* code.coding[loinc].system = "http://loinc.org"
+* code.coding[loinc].code = #75859-9
+* code.coding[loinc].display = "Modified rankin scale"
 * subject = Reference(Patient/example-patient)
 * encounter = Reference(Encounter/example-ambulant)
 * effectiveDateTime = "2024-11-12T14:23:00+01:00"

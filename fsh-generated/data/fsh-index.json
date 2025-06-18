@@ -275,9 +275,9 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",
     "fshName": "MII_PR_Kardio_EKG_Metadaten",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_EKG_Metadaten.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Metadaten.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 33
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-geraeteprogrammierung.json",

@@ -71,8 +71,7 @@ Usage: #definition
 * item[=].item.type = #string
 * item[=].item.enableWhen[0].question = "who-filled"
 * item[=].item.enableWhen[=].operator = #=
-* item[=].item.enableWhen[=].answerCoding.code = #74964007 //Other/Andere Person
-* item[=].item.enableWhen[=].answerCoding.system = "http://snomed.info/sct"
+* item[=].item.enableWhen[=].answerCoding = $sct#74964007 //Other/Andere Person
 
 // Telefonische Kontaktaufnahme (Choice mit Subitem)
 * item[+].linkId = "phone-contact"
@@ -148,7 +147,7 @@ Usage: #definition
 * item[=].type = #choice
 * item[=].answerOption[0].valueCoding = $v2-0532#UNK "unknown"
 * item[=].answerOption[+].valueCoding = $v2-0532#NASK "not asked"
-* item[=].answerOption[+].valueString = $v2-0532#Y "Yes"
+* item[=].answerOption[+].valueCoding = $v2-0532#Y "Yes"
 * item[=].enableWhen.question = "death-status"
 * item[=].enableWhen.operator = #=
 * item[=].enableWhen.answerCoding.code = $v2-0532#Y "Yes"
@@ -160,7 +159,7 @@ Usage: #definition
 * item[=].item.type = #date //#string    //TODO? Pruefen -> Unvollständiges Datum soll moeglich sein in FHIR! Alternativ: Recherche! Vllt. eigene StructureDefinition fuer approximateDate oder Regex angeben
 * item[=].item.enableWhen.question = "death-date"
 * item[=].item.enableWhen.operator = #=
-* item[=].item.enableWhen.answerString = $v2-0532#Y "Yes"
+* item[=].item.enableWhen.answerCoding = $v2-0532#Y "Yes"
 
 // Wenn ja, Todesursache
 * item[+].linkId = "cause-of-death"
@@ -196,9 +195,9 @@ Usage: #definition
 * item[=].type = #group
 * item[=].enableWhen.question = "cardiovascular-death-detail"
 * item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerString = $sct#230690007
+* item[=].enableWhen.answerCoding = $sct#230690007
 
-// Subitems in Gruppe item[12] – Spezifizierung des Schlaganfalls           //TODO Entscheiden Auswahl als Boolean oder als String mit vorgegebenem Wert?
+// Subitems in Gruppe item[12] – Spezifizierung des Schlaganfalls           //TODO Kodieren
 * item[=].item[0].linkId = "cv-death-ischemic-stroke"
 * item[=].item[=].prefix = "Angaben zum Tod"
 * item[=].item[=].text = "Ischämischer Schlaganfall"
@@ -279,7 +278,7 @@ Usage: #definition
 * item[=].type = #boolean
 * item[=].enableWhen.question = "cv-events-if-not-dead"
 * item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerBoolean = true //TODO boolean oder string? generelle entscheidung
+* item[=].enableWhen.answerCoding = $v2-0532#Y "Yes"
 
 // Abfrage von string, wenn "ja" und "Blutungsereignis"
 * item[+].linkId = "cv-event-bleeding-other"

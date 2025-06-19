@@ -22,7 +22,7 @@ Description: "Stufen der modifizierten Rankin-Skala"
 * $mRS#mRS5 "Es besteht eine schwere Behinderung. Der Patient ist bettlägerig, inkontinent und auf ständige Pflege angewiesen."
 * $mRS#mRS6 "Tod infolge des Schlaganfalls"
 * $mRS#mRSbigger3 "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
-* $mRS#mRSsmaller3 "Die Einstufung auf der mRS-Skala liegt bei weniger als 3 (Patient kann ohne fremde Hilfe gehen (ggf. mit Hilfsmitteln))."
+* $mRS#mRSsmallerequal3 "Die Einstufung auf der mRS-Skala liegt bei gleich 3 oder weniger als 3 (Patient kann ohne fremde Hilfe gehen (ggf. mit Hilfsmitteln))"
 // Published: 1988, Van Swieten JC; Koudstaal PJ; Visser MC; Schouten HJA; Van Gijn J, 
 // Online: see https://pubmed.ncbi.nlm.nih.gov/3363593/
 // Lizenzbedingungen: Public Domain --> https://eprovide.mapi-trust.org/instruments/modified-rankin-scale

@@ -108,8 +108,8 @@
     "fshName": "example-kardio-mrs",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
-    "startLine": 46,
-    "endLine": 71
+    "startLine": 47,
+    "endLine": 72
   },
   {
     "outputFile": "Observation-example-kardio-nyha.json",
@@ -333,7 +333,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 39
+    "endLine": 35
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-nyha.json",

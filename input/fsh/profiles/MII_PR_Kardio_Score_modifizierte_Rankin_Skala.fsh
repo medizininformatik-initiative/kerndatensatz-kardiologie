@@ -33,10 +33,11 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * valueCodeableConcept from $mRS (required)
 * performer MS
 * encounter MS
-* bodySite ..0
-* component ..0
-* device ..0
-* focus ..0
+// Wir grenzen hier nicht weiter ein, um spätere Inkompatibilitäten zu vermeiden. Bspw. ist die Angabe eine device oder focus auf eine andere ressource in anderen Spezifikationen durchaus denkbar.
+//* bodySite ..0
+//* component ..0
+//* device ..0
+//* focus ..0
 
 // Published: 1988, Van Swieten JC; Koudstaal PJ; Visser MC; Schouten HJA; Van Gijn J, 
 // Online: see https://pubmed.ncbi.nlm.nih.gov/3363593/

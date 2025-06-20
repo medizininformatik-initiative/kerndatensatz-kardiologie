@@ -117,11 +117,6 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.focus",
-        "path": "Observation.focus",
-        "max": "0"
-      },
-      {
         "id": "Observation.encounter",
         "path": "Observation.encounter",
         "mustSupport": true
@@ -145,21 +140,6 @@
           "strength": "required",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen"
         }
-      },
-      {
-        "id": "Observation.bodySite",
-        "path": "Observation.bodySite",
-        "max": "0"
-      },
-      {
-        "id": "Observation.device",
-        "path": "Observation.device",
-        "max": "0"
-      },
-      {
-        "id": "Observation.component",
-        "path": "Observation.component",
-        "max": "0"
       }
     ]
   }

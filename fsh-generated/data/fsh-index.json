@@ -84,8 +84,8 @@
     "fshName": "mii-exa-kardio-nbg-schrittmachermodus",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_NBG_Schrittmachermodus.fsh",
-    "startLine": 33,
-    "endLine": 44
+    "startLine": 26,
+    "endLine": 37
   },
   {
     "outputFile": "Observation-Example-Kardio-Observation-Rauchen-acribisalpha.json",
@@ -132,8 +132,8 @@
     "fshName": "mii-exa-kardio-geraeteprogrammierung-vvi",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Geraeteprogrammierung.fsh",
-    "startLine": 51,
-    "endLine": 68
+    "startLine": 37,
+    "endLine": 54
   },
   {
     "outputFile": "Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.json",
@@ -261,7 +261,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Geraeteprogrammierung.fsh",
     "startLine": 1,
-    "endLine": 49
+    "endLine": 35
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.json",
@@ -277,7 +277,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_NBG_Schrittmachermodus.fsh",
     "startLine": 1,
-    "endLine": 31
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",

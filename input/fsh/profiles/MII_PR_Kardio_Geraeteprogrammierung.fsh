@@ -11,9 +11,6 @@ Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die De
 * ^experimental = true
 * ^date = "2025-05-13"
 
-* basedOn ..0
-* partOf ..0
-
 * code from $devicemetric-type (required)
 * code MS
 * code.coding 1.. MS
@@ -33,20 +30,9 @@ Das sollte eine Instanz von *MII PR NBG Schrittmachermodus* sein."
 
 * effective[x] 1.. MS
 
-* issued ..0
-
 * value[x] 1.. MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from $geraeteprogrammierung (required)
-
-* interpretation ..0
-* bodySite ..0
-* method ..0
-* specimen ..0
-* referenceRange ..0
-* hasMember ..0
-* derivedFrom ..0 
-* component ..0
 
 Instance: mii-exa-kardio-geraeteprogrammierung-vvi
 InstanceOf: MII_PR_Kardio_Geraeteprogrammierung

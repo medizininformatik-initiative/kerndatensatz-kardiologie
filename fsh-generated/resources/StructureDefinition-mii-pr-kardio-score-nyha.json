@@ -81,7 +81,7 @@
       {
         "id": "Observation.code.coding:sct.code",
         "path": "Observation.code.coding.code",
-        "fixedCode": "762994006"
+        "patternCode": "762994006"
       },
       {
         "id": "Observation.code.coding:loinc",
@@ -100,7 +100,7 @@
       {
         "id": "Observation.code.coding:loinc.code",
         "path": "Observation.code.coding.code",
-        "fixedCode": "93124-6"
+        "patternCode": "93124-6"
       },
       {
         "id": "Observation.subject",

@@ -19,11 +19,11 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
     loinc 0..1 MS
 * code.coding[sct] 1..1 MS
 * code.coding[sct].system = $sct
-* code.coding[sct].code = $sct#1255866005 (exactly) // 1255866005 = "Modified Rankin Scale score (observable entity)"
+* code.coding[sct].code = $sct#1255866005 // 1255866005 = "Modified Rankin Scale score (observable entity)"
 //* code.coding.display = "Modified Rankin Scale score (observable entity)"
 * code.coding[loinc] 1..1 MS
 * code.coding[loinc].system = $loinc
-* code.coding[loinc].code = $loinc#75859-9 (exactly) // 
+* code.coding[loinc].code = $loinc#75859-9
 //* code.coding[loinc].display = "Modified rankin scale"
 
 * subject 1..1 MS

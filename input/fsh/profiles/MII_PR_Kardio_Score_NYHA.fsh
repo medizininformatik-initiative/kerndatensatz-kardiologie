@@ -32,10 +32,11 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 * valueCodeableConcept from $nyha-class-vs (required)
 * performer MS
 * encounter MS
-* bodySite ..0
-* component ..0
-* device ..0
-* focus ..0
+// Wir grenzen hier nicht weiter ein, um spätere Inkompatibilitäten zu vermeiden. Bspw. ist die Angabe eine device oder focus auf eine andere ressource in anderen Spezifikationen durchaus denkbar.
+//* bodySite ..0
+//* component ..0
+//* device ..0
+//* focus ..0
 
 // License: Credit appropietly to New York Heart Association
 // Online: see https://manual.jointcommission.org/releases/TJC2025B/DataElem0439.html

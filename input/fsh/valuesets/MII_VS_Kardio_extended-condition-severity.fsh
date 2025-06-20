@@ -12,3 +12,4 @@ Description: "An extended ValueSet including standard condition severity and SNO
 * include codes from system $sct where code = #6736007  // Moderate
 * include codes from system $sct where code = #255604002 // Mild
 * include codes from system $sct where code = #42796001 // End-stage //<--- value that is extended
+* include codes from system $sct where code = #261665006 // unknown (qualifier value)

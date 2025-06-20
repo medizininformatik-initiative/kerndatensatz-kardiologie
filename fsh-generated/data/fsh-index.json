@@ -245,7 +245,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose_Nein_Unbekannt.fsh",
     "startLine": 1,
-    "endLine": 34
+    "endLine": 27
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",

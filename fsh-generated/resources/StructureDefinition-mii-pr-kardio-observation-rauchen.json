@@ -49,11 +49,6 @@
         ]
       },
       {
-        "id": "Observation.focus",
-        "path": "Observation.focus",
-        "max": "0"
-      },
-      {
         "id": "Observation.performer",
         "path": "Observation.performer",
         "mustSupport": true
@@ -62,16 +57,6 @@
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "short": "Current Smoking Status als Loinc-Answer Code"
-      },
-      {
-        "id": "Observation.bodySite",
-        "path": "Observation.bodySite",
-        "max": "0"
-      },
-      {
-        "id": "Observation.specimen",
-        "path": "Observation.specimen",
-        "max": "0"
       },
       {
         "id": "Observation.hasMember",
@@ -122,7 +107,7 @@
         "path": "Observation.component",
         "sliceName": "packungsjahre",
         "min": 0,
-        "max": "1"
+        "max": "*"
       },
       {
         "id": "Observation.component:packungsjahre.code",
@@ -170,7 +155,7 @@
         "path": "Observation.component",
         "sliceName": "packungenProTag",
         "min": 0,
-        "max": "1"
+        "max": "*"
       },
       {
         "id": "Observation.component:packungenProTag.code",
@@ -218,7 +203,7 @@
         "path": "Observation.component",
         "sliceName": "zigarettenProTag",
         "min": 0,
-        "max": "1"
+        "max": "*"
       },
       {
         "id": "Observation.component:zigarettenProTag.code",

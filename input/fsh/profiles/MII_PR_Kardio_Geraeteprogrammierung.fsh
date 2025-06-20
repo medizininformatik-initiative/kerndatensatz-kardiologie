@@ -23,7 +23,7 @@ Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die De
 * subject ^comment = "Hier wird das Device referenziert.
 Das sollte eine Instanz von *MII PR Kardio Device* sein."
 
-* focus 1..1 MS
+* focus MS
 * focus only Reference(DeviceMetric)
 * focus ^comment = "Hier wird die DeviceMetric referenziert.
 Das sollte eine Instanz von *MII PR NBG Schrittmachermodus* sein."

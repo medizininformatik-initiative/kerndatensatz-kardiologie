@@ -12,7 +12,7 @@ Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers, 
 * ^date = "2025-05-13"
 
 * status = #completed
-* statusReason ..0
+//* statusReason ..0
 
 * category 1..
 * category.coding[sct] 1..

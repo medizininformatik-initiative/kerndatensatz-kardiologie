@@ -22,41 +22,26 @@
     "include": [
       {
         "system": "http://snomed.info/sct",
-        "filter": [
+        "concept": [
           {
-            "property": "code",
-            "op": "=",
-            "value": "24484000"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
+            "code": "24484000",
+            "display": "Severe"
+          },
           {
-            "property": "code",
-            "op": "=",
-            "value": "6736007"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
+            "code": "6736007",
+            "display": "Moderate severity"
+          },
           {
-            "property": "code",
-            "op": "=",
-            "value": "255604002"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "filter": [
+            "code": "255604002",
+            "display": "Mild"
+          },
           {
-            "property": "code",
-            "op": "=",
-            "value": "42796001"
+            "code": "42796001",
+            "display": "End-stage"
+          },
+          {
+            "code": "261665006",
+            "display": "Unknown"
           }
         ]
       }

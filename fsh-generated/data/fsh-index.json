@@ -397,7 +397,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_extended-condition-severity.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 21
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung.json",

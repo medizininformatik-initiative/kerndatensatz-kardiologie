@@ -23,8 +23,8 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gr
 * value[x] 1..1 MS
 * value[x] only integer
 
-* bodySite ..0
-* specimen ..0
+//* bodySite ..0
+//* specimen ..0
 
 // Component
 * component MS

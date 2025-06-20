@@ -86,16 +86,6 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.bodySite",
-        "path": "Observation.bodySite",
-        "max": "0"
-      },
-      {
-        "id": "Observation.specimen",
-        "path": "Observation.specimen",
-        "max": "0"
-      },
-      {
         "id": "Observation.component",
         "path": "Observation.component",
         "slicing": {

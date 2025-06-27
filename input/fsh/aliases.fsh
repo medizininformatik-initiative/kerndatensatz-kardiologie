@@ -12,6 +12,7 @@ Alias: $mdc = urn:iso:std:iso:11073:10101
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $mRS-cs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-cs-kardio-modifizierte-rankin-skala
 Alias: $ausschluss-cs = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-scores
+Alias: $cs-acribis-follow-up = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up
 
 //ValueSets
 Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category

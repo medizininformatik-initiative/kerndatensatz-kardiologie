@@ -18,17 +18,10 @@ Die konkrete Programmierung eines Herzschrittmachers zu einem bestimmmten Zeitpu
 * type.coding.system 1.. MS
 * type.coding.code 1.. MS
 
-* unit ..0
 * source 1.. MS
-* parent ..0
-* operationalStatus ..0
-* color ..0
 
 * category MS
 * category = #setting
-
-* measurementPeriod ..0
-* calibration ..0
 
 Instance: mii-exa-kardio-nbg-schrittmachermodus
 InstanceOf: MII_PR_Kardio_NBG_Schrittmachermodus

@@ -85,9 +85,9 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * value[x].system 1.. MS
 * value[x].code 1.. MS
 * valueQuantity MS // TODO learn how patterns work and how the are used
-* valueQuantity.unit = "percent" (exactly)
-* valueQuantity.system = $ucum (exactly)
-* valueQuantity.code = $ucum#% (exactly)
+* valueQuantity.unit = "percent"
+* valueQuantity.system = $ucum
+* valueQuantity.code = $ucum#%
 
 * dataAbsentReason MS
 * dataAbsentReason obeys mii-icu-1

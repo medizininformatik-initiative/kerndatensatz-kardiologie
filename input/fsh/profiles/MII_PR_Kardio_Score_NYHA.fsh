@@ -19,11 +19,11 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
     loinc 0..1 MS
 * code.coding[sct] 1..1 MS
 * code.coding[sct].system = $sct
-* code.coding[sct].code = $sct#762994006 (exactly) // 420816009 = "New York Heart Association Classification (assessment scale)"
+* code.coding[sct].code = $sct#762994006 // 420816009 = "New York Heart Association Classification (assessment scale)"
 //* code.coding[sct].display = "New York Heart Association Classification class (observable entity)"
 * code.coding[loinc] 1..1 MS
 * code.coding[loinc].system = $loinc
-* code.coding[loinc].code = $loinc#93124-6 (exactly) // 420816009 = "New York Heart Association Classification (assessment scale)"
+* code.coding[loinc].code = $loinc#93124-6 // 420816009 = "New York Heart Association Classification (assessment scale)"
 //* code.coding[loinc].display = "New York Heart Association Functional Classification panel"
 * subject 1..1 MS
 * subject only Reference(Patient)
@@ -32,10 +32,11 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 * valueCodeableConcept from $nyha-class-vs (required)
 * performer MS
 * encounter MS
-* bodySite ..0
-* component ..0
-* device ..0
-* focus ..0
+// Wir grenzen hier nicht weiter ein, um spätere Inkompatibilitäten zu vermeiden. Bspw. ist die Angabe eine device oder focus auf eine andere ressource in anderen Spezifikationen durchaus denkbar.
+//* bodySite ..0
+//* component ..0
+//* device ..0
+//* focus ..0
 
 // License: Credit appropietly to New York Heart Association
 // Online: see https://manual.jointcommission.org/releases/TJC2025B/DataElem0439.html

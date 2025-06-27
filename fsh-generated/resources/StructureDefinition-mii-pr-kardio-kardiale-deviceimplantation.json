@@ -48,11 +48,6 @@
         "patternCode": "completed"
       },
       {
-        "id": "Procedure.statusReason",
-        "path": "Procedure.statusReason",
-        "max": "0"
-      },
-      {
         "id": "Procedure.category",
         "path": "Procedure.category",
         "min": 1

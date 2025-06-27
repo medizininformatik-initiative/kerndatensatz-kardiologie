@@ -59,46 +59,16 @@
         "mustSupport": true
       },
       {
-        "id": "DeviceMetric.unit",
-        "path": "DeviceMetric.unit",
-        "max": "0"
-      },
-      {
         "id": "DeviceMetric.source",
         "path": "DeviceMetric.source",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "DeviceMetric.parent",
-        "path": "DeviceMetric.parent",
-        "max": "0"
-      },
-      {
-        "id": "DeviceMetric.operationalStatus",
-        "path": "DeviceMetric.operationalStatus",
-        "max": "0"
-      },
-      {
-        "id": "DeviceMetric.color",
-        "path": "DeviceMetric.color",
-        "max": "0"
-      },
-      {
         "id": "DeviceMetric.category",
         "path": "DeviceMetric.category",
         "patternCode": "setting",
         "mustSupport": true
-      },
-      {
-        "id": "DeviceMetric.measurementPeriod",
-        "path": "DeviceMetric.measurementPeriod",
-        "max": "0"
-      },
-      {
-        "id": "DeviceMetric.calibration",
-        "path": "DeviceMetric.calibration",
-        "max": "0"
       }
     ]
   }

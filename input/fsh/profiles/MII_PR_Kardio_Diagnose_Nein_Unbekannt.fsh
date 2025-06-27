@@ -17,7 +17,7 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * subject 1..1 MS
 * subject only Reference(Patient)
 
-* focus ..0
+//* focus ..0
 
 * effective[x] 1.. MS
 * effective[x] only dateTime
@@ -26,12 +26,12 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * value[x] only CodeableConcept
 * valueCodeableConcept from MII_VS_Kardio_Diagnose_Nein_Unbekannt (required)
 
-* interpretation ..0
-* bodySite ..0
-* specimen ..0
-* referenceRange ..0
-* hasMember ..0
-* component ..0
+//* interpretation ..0
+//* bodySite ..0
+//* specimen ..0
+//* referenceRange ..0
+//* hasMember ..0
+//* component ..0
 
 Instance: mii-exa-kardio-herzinsuffizienz-unbekannt
 InstanceOf: MII_PR_Kardio_Diagnose_Nein_Unbekannt

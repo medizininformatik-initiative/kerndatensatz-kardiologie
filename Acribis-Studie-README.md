@@ -51,9 +51,9 @@ Profilübersicht:
 
 ### Externe Profile (aus anderen KDS Modulen)
 
-| Profilname                 | Beschreibung                                           |
-|----------------------------|--------------------------------------------------------|
-| KDS Basis Patient\|Person  | Bildet Alter/Geburtsdatum und Geschlecht ab.           |
-| ICU Arterieller Blutdruck  | Bildet den Blutdruck ab.                               |
-| KDS Labor                  | Bildet jegliche Laborwerte ab.                         |
-| KDS Medikation             | Bildet jegliche Medikationseinträge ab.                |
+| Profilname                                                                                                                             | Beschreibung                                 |
+|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| [Person Patient](https://simplifier.net/mii-basismodul-person-2024/mii_pr_person_patient)                                              | Bildet Alter/Geburtsdatum und Geschlecht ab. |
+| [ICU Arterieller Blutdruck](https://simplifier.net/medizininformatikinitiative-modul-intensivmedizin/mii_pr_icu_arterieller_blutdruck) | Bildet den Blutdruck ab.                     |
+| [Labor Laboruntersuchung](https://simplifier.net/mii-basismodul-labor-2025/mii_pr_labor_laboruntersuchung)                             | Bildet jegliche Laborwerte ab.               |
+| [Medikation MedicationStatement](https://simplifier.net/mii-basismodul-medikation-2024/mii_pr_medikation_medicationstatement)          | Bildet jegliche Medikationseinträge ab.      |

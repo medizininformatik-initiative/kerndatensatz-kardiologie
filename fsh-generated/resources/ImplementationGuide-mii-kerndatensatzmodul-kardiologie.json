@@ -217,6 +217,14 @@
       },
       {
         "reference": {
+          "reference": "Device/mii-exa-kardio-ekg-kanal-i"
+        },
+        "name": "MII EXA Kardio EKG Kanal I",
+        "description": "Beispiel eines EKG Kanals (I) eines Gerätes der Firma Mortara Instruments",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal"
+      },
+      {
+        "reference": {
           "reference": "Observation/mii-exa-kardio-geraeteprogrammierung-vvi"
         },
         "name": "MII EXA Kardio Geräteprogrammierung VVI",
@@ -309,6 +317,14 @@
         },
         "name": "MII PR Kardio EKG Gerätedefinition",
         "description": "Profil zur Abbildung einer EKG-Gerätedefinition.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-kanal"
+        },
+        "name": "MII PR Kardio EKG Kanal",
+        "description": "Profil zur Abbildung eines EKG-Kanals.",
         "exampleBoolean": false
       },
       {
@@ -437,6 +453,14 @@
         },
         "name": "MII VS Kardio Diagnose Nein Unbekannt",
         "description": "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnose oder Unklarheit darüber.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ekg-kanaele"
+        },
+        "name": "MII VS Kardio EKG Kanäle",
+        "description": "ISO/IEEE 11073-10101 Codes für EKG Kanäle",
         "exampleBoolean": false
       },
       {

@@ -220,7 +220,23 @@
           "reference": "Device/mii-exa-kardio-ekg-kanal-i"
         },
         "name": "MII EXA Kardio EKG Kanal I",
-        "description": "Beispiel eines EKG Kanals (I) eines Gerätes der Firma Mortara Instruments",
+        "description": "Beispiel eines EKG-Kanals (I) eines Gerätes der Firma Mortara Instruments",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal"
+      },
+      {
+        "reference": {
+          "reference": "Device/mii-exa-kardio-ekg-kanal-ii"
+        },
+        "name": "MII EXA Kardio EKG Kanal II",
+        "description": "Beispiel eines EKG-Kanals (II) eines Gerätes der Firma Mortara Instruments",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal"
+      },
+      {
+        "reference": {
+          "reference": "Device/mii-exa-kardio-ekg-kanal-iii"
+        },
+        "name": "MII EXA Kardio EKG Kanal III",
+        "description": "Beispiel eines EKG-Kanals (III) eines Gerätes der Firma Mortara Instruments",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal"
       },
       {

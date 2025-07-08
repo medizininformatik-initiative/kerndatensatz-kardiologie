@@ -30,6 +30,7 @@ Alias: $koerperstelle = https://www.medizininformatik-initiative.de/fhir/ext/mod
 Alias: $kardiale-deviceimplantation = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation
 Alias: $procedure-device-action-codes = http://hl7.org/fhir/ValueSet/device-action
 Alias: $vs-v2-0532 = http://terminology.hl7.org/ValueSet/v2-0532
+Alias: $ekg-kanaele = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele
 
 //_________________
 Alias: $emdn = urn:oid:1.2.250.1.213.2.68 //urn:oid:1.2.250.1.213.2.68 //https://webgate.ec.europa.eu/dyna2/emdn/Z1206

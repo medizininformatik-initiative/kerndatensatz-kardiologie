@@ -10,4 +10,4 @@ Description: "ISO/IEEE 11073-10101 Codes für EKG Kanäle"
 * ^experimental = true
 * ^date = "2025-07-07"
 
-// * include codes from system $mdc where concept descendant-of #131072 "MDC_ECG_LEAD"
+* include codes from system $mdc where display regex "MDC_ECG_LEAD_.+"

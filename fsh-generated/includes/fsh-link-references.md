@@ -18,6 +18,8 @@
 [mii-exa-kardio-ekg-geraet-mortara]: Device-mii-exa-kardio-ekg-geraet-mortara.html
 [mii-exa-kardio-ekg-geraetedefinition-mortara]: DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.html
 [mii-exa-kardio-ekg-kanal-i]: Device-mii-exa-kardio-ekg-kanal-i.html
+[mii-exa-kardio-ekg-kanal-ii]: Device-mii-exa-kardio-ekg-kanal-ii.html
+[mii-exa-kardio-ekg-kanal-iii]: Device-mii-exa-kardio-ekg-kanal-iii.html
 [mii-exa-kardio-geraeteprogrammierung-vvi]: Observation-mii-exa-kardio-geraeteprogrammierung-vvi.html
 [mii-exa-kardio-herzinsuffizienz-unbekannt]: Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.html
 [mii-exa-kardio-kardiale-deviceimplantation-icd]: Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.html

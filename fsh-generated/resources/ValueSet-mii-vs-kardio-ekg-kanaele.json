@@ -19,5 +19,19 @@
     }
   ],
   "experimental": true,
-  "date": "2025-07-07"
+  "date": "2025-07-07",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "filter": [
+          {
+            "property": "display",
+            "op": "regex",
+            "value": "MDC_ECG_LEAD_.+"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -18,5 +18,26 @@
   "parent": {
     "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
   },
+  "property": [
+    {
+      "valueQuantity": [
+        {
+          "value": 1000,
+          "unit": "1 / (second)",
+          "system": "http://unitsofmeasure.org",
+          "code": "1/s"
+        }
+      ],
+      "type": {
+        "coding": [
+          {
+            "code": "666753",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "MDC_ECG_CTL_VBL_SAMPLE_RATE"
+          }
+        ]
+      }
+    }
+  ],
   "status": "active"
 }

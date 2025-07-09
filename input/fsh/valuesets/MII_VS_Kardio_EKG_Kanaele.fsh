@@ -8,6 +8,6 @@ Description: "ISO/IEEE 11073-10101 Codes für EKG Kanäle"
 
 * ^status = #draft
 * ^experimental = true
-* ^date = "2025-07-07"
+* ^date = "2025-07-09"
 
-* include codes from system $mdc where display regex "MDC_ECG_LEAD_.+"
+* include codes from system $mdc where code regex "(13107[2-9])|(1310[89][0-9])|(1311[0-9][0-9])|(1312[0-4][0-9])|(13125[0-6])"

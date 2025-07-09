@@ -30,11 +30,6 @@ Usage: #example
 * status = #active
 * type.coding = $mdc#131073 "MDC_ECG_LEAD_I"
 * parent.reference = "Device/mii-exa-kardio-ekg-geraet-mortara"
-* property.type = $mdc#666753 "MDC_ECG_CTL_VBL_SAMPLE_RATE"
-* property.valueQuantity.value = 1000
-* property.valueQuantity.unit = "1 / (second)"
-* property.valueQuantity.system = "http://unitsofmeasure.org"
-* property.valueQuantity.code = #1/s
 
 Instance: mii-exa-kardio-ekg-kanal-ii
 InstanceOf: MII_PR_Kardio_EKG_Kanal

@@ -13,8 +13,18 @@ Description: "Profil zur Abbildung eines EKG-Kanals."
 
 * status MS
 
-* type from $ekg-kanaele (required)
-* type 1..1 MS
+* type 1.. MS
+* type.coding ^slicing.discriminator.type = #pattern
+* type.coding ^slicing.discriminator.path = "$this"
+* type.coding ^slicing.rules = #open
+
+* type.coding contains
+    geraetetyp 1..1 MS and
+    kanalbezeichnung 1..1 MS
+
+* type.coding[geraetetyp] from $mdc-objects-devices (required)
+* type.coding[geraetetyp] = $mdc#69799 "MDC_DEV_ECG_CHAN"
+* type.coding[kanalbezeichnung] from $ekg-kanaele (required)
 
 * patient ..0
 
@@ -28,7 +38,8 @@ Description: "Beispiel eines EKG-Kanals (I) eines Gerätes der Firma Mortara Ins
 Usage: #example
 
 * status = #active
-* type.coding = $mdc#131073 "MDC_ECG_LEAD_I"
+* type.coding[geraetetyp] = $mdc#69799 "MDC_DEV_ECG_CHAN"
+* type.coding[kanalbezeichnung] = $mdc#131073 "MDC_ECG_LEAD_I"
 * parent.reference = "Device/mii-exa-kardio-ekg-geraet-mortara"
 
 Instance: mii-exa-kardio-ekg-kanal-ii
@@ -38,7 +49,8 @@ Description: "Beispiel eines EKG-Kanals (II) eines Gerätes der Firma Mortara In
 Usage: #example
 
 * status = #active
-* type.coding = $mdc#131074 "MDC_ECG_LEAD_II"
+* type.coding[geraetetyp] = $mdc#69799 "MDC_DEV_ECG_CHAN"
+* type.coding[kanalbezeichnung] = $mdc#131074 "MDC_ECG_LEAD_II"
 * parent.reference = "Device/mii-exa-kardio-ekg-geraet-mortara"
 
 Instance: mii-exa-kardio-ekg-kanal-iii
@@ -48,5 +60,6 @@ Description: "Beispiel eines EKG-Kanals (III) eines Gerätes der Firma Mortara I
 Usage: #example
 
 * status = #active
-* type.coding = $mdc#131133 "MDC_ECG_LEAD_III"
+* type.coding[geraetetyp] = $mdc#69799 "MDC_DEV_ECG_CHAN"
+* type.coding[kanalbezeichnung] = $mdc#131133 "MDC_ECG_LEAD_III"
 * parent.reference = "Device/mii-exa-kardio-ekg-geraet-mortara"

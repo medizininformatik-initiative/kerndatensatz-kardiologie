@@ -18,9 +18,14 @@
   "type": {
     "coding": [
       {
-        "code": "69796",
+        "code": "69797",
         "system": "urn:iso:std:iso:11073:10101",
-        "display": "MDC_DEV_ECG"
+        "display": "MDC_DEV_ECG_MDS"
+      },
+      {
+        "code": "69798",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_DEV_ECG_VMD"
       }
     ]
   },

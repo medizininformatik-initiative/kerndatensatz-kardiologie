@@ -52,16 +52,14 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/ValueSet/devicemetric-type"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mdc-objects-devices"
         }
       },
       {
         "id": "Device.type.coding",
         "path": "Device.type.coding",
-        "patternCoding": {
-          "code": "69796",
-          "system": "urn:iso:std:iso:11073:10101"
-        }
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Device.patient",

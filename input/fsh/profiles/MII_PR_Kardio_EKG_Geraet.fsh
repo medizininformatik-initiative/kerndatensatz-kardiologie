@@ -15,9 +15,9 @@ Description: "Profil zur Abbildung eines EKG-Gerätes."
 * manufacturer 1.. MS
 * deviceName 1.. MS
 
-* type from $devicemetric-type (required)
+* type from $mdc-objects-devices (required)
 * type 1..1 MS
-* type.coding = $mdc#69796
+* type.coding 1.. MS
 
 * patient 1.. MS
 
@@ -32,5 +32,6 @@ Usage: #example
 * manufacturer = "Mortara Instrument, Inc."
 * deviceName.name = "ELI 380"
 * deviceName.type = #model-name
-* type.coding = $mdc#69796 "MDC_DEV_ECG"
+* type.coding[0] = $mdc#69797 "MDC_DEV_ECG_MDS"
+* type.coding[1] = $mdc#69798 "MDC_DEV_ECG_VMD"
 * patient.reference = "Patient/mii-exa-person-patient-minimal"

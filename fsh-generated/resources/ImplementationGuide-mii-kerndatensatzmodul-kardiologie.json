@@ -513,6 +513,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-mdc-objects-devices"
+        },
+        "name": "MII VS Kardio MDC Objects Devices",
+        "description": "ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/mii-cs-follow-up"
         },
         "name": "MII_CS_Follow_Up",

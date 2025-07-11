@@ -253,7 +253,7 @@
         },
         "name": "MII EXA Kardio Herzinsuffizienz Unbekannt",
         "description": "Beispiel: Der Patient weiß nicht, ob er Herzinsuffizienz hat.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-nein-unbekannt"
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
       },
       {
         "reference": {
@@ -297,6 +297,14 @@
       },
       {
         "reference": {
+          "reference": "Observation/mii-exa-kardio-pci-nein"
+        },
+        "name": "MII EXA Kardio PCI/Stent Nein",
+        "description": "Beispiel: Der Patient hatte noch keine Koronarintervention mit PCI/Stent.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
         },
         "name": "MII PR Kardio Condition Diagnose",
@@ -313,10 +321,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-diagnose-nein-unbekannt"
+          "reference": "StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
         },
-        "name": "MII PR Kardio Diagnose Nein Unbekannt",
-        "description": "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagnose oder Unklarheit darüber ab.",
+        "name": "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
+        "description": "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagnose, bzw. Prozedur, oder Unklarheit darüber ab.",
         "exampleBoolean": false
       },
       {
@@ -465,14 +473,6 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-diagnose-nein-unbekannt"
-        },
-        "name": "MII VS Kardio Diagnose Nein Unbekannt",
-        "description": "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnose oder Unklarheit darüber.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "ValueSet/mii-vs-kardio-ekg-kanaele"
         },
         "name": "MII VS Kardio EKG Kanäle",
@@ -517,6 +517,14 @@
         },
         "name": "MII VS Kardio MDC Objects Devices",
         "description": "ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-nein-unbekannt"
+        },
+        "name": "MII VS Kardio Nein Unbekannt",
+        "description": "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnose, bzw. Prozedur, oder Unklarheit darüber.",
         "exampleBoolean": false
       },
       {

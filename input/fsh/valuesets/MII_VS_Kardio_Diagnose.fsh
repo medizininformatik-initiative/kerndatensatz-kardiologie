@@ -21,5 +21,5 @@ Description: "ICD10-GM Codes für kardiologische Erkrankungen"
 // Filter
   // * include codes from system http://loinc.org where display matches ".*blood.*"
 
-* $icd-10-gm-system#I05.0 "Mitralklappenstenose"
-* include codes from system $icd-10-gm-system where concept descendant-of #I21 "Akuter Myokardinfarkt"
+* $icd-10-gm-cs#I05.0 "Mitralklappenstenose"
+* include codes from system $icd-10-gm-cs where concept descendant-of #I21 "Akuter Myokardinfarkt"

@@ -65,12 +65,6 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * asserter ^isModifierReason = "Can express the uncertainty of a diagnosis by stating a asserter that is not authorized to define an confirmed diagnosis."
 * asserter ^comment = "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 
-//_________________________verificationStatus
-// Verification Status und die Angabe: Ja/Nein/unbekannt/weiß nicht --> http://terminology.hl7.org/CodeSystem/v2-0532
-// modifierExtension notwendig --> verändert Aussage anderer Werte in Ressource --> e.g. Diagnose-Code gegeben, aber modifier sagt, nicht vorhanden.
-* modifierExtension contains $anamnese-antwort named AnamneseAntwort 0..1 MS
-* modifierExtension[AnamneseAntwort] ^comment = "Can contradict the presence of a diagnosis by stating the given diagnosis status was stated as 'unknown', 'asked-unknown' or similar."
-
 // TODO: FHIR-invariant/rule: Abgleich mit VerificationStatus --> Plausibilität/Coconstraint prüfen
 * verificationStatus 1..1 MS
 // * insert invariant with plausi-check
@@ -216,13 +210,6 @@ Usage: #example
 //* extension[Feststellungsdatum].valueDateTime = "2021-05-15"
 
 // --------------------------------------
-// MODIFIER EXTENSION: Anamneseantwort (Diagnose unbekannt)
-* modifierExtension[AnamneseAntwort].url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort"
-* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.code = #N
-* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.display = "No"
-
-// --------------------------------------
 // Recorded DATE
 * recordedDate = "2025-05-13"
 
@@ -290,13 +277,6 @@ Usage: #example
 // EXTENSION: Feststellungsdatum
 //* extension[Feststellungsdatum].url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 //* extension[Feststellungsdatum].valueDateTime = "2021-05-15"
-
-// --------------------------------------
-// MODIFIER EXTENSION: Anamneseantwort (Diagnose unbekannt)
-* modifierExtension[AnamneseAntwort].url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-ex-kardio-anamneseantwort"
-* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.code = #ASKU
-* modifierExtension[AnamneseAntwort].valueCodeableConcept.coding.display = "asked but unknown"
 
 // --------------------------------------
 // Recorded DATE

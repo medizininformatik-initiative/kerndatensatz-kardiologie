@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_Diagnose_Nein_Unbekannt",
-  "id": "mii-vs-kardio-diagnose-nein-unbekannt",
-  "title": "MII VS Kardio Diagnose Nein Unbekannt",
-  "description": "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnose oder Unklarheit darüber.",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-diagnose-nein-unbekannt",
+  "name": "MII_VS_Kardio_Nein_Unbekannt",
+  "id": "mii-vs-kardio-nein-unbekannt",
+  "title": "MII VS Kardio Nein Unbekannt",
+  "description": "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnose, bzw. Prozedur, oder Unklarheit darüber.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nein-unbekannt",
   "version": "2025.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -19,7 +19,7 @@
     }
   ],
   "experimental": true,
-  "date": "2025-06-06",
+  "date": "2025-07-11",
   "compose": {
     "include": [
       {

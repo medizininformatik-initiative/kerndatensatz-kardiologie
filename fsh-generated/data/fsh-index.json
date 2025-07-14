@@ -92,24 +92,24 @@
     "fshName": "mii-exa-kardio-ekg-kanal-i",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Kanal.fsh",
-    "startLine": 34,
-    "endLine": 43
+    "startLine": 45,
+    "endLine": 55
   },
   {
     "outputFile": "Device-mii-exa-kardio-ekg-kanal-ii.json",
     "fshName": "mii-exa-kardio-ekg-kanal-ii",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Kanal.fsh",
-    "startLine": 45,
-    "endLine": 54
+    "startLine": 57,
+    "endLine": 67
   },
   {
     "outputFile": "Device-mii-exa-kardio-ekg-kanal-iii.json",
     "fshName": "mii-exa-kardio-ekg-kanal-iii",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Kanal.fsh",
-    "startLine": 56,
-    "endLine": 65
+    "startLine": 69,
+    "endLine": 79
   },
   {
     "outputFile": "DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json",
@@ -309,7 +309,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Kanal.fsh",
     "startLine": 1,
-    "endLine": 32
+    "endLine": 43
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",

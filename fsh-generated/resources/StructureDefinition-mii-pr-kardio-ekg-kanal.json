@@ -51,7 +51,7 @@
           ],
           "rules": "open"
         },
-        "min": 2
+        "min": 1
       },
       {
         "id": "Device.type.coding:geraetetyp",
@@ -61,8 +61,7 @@
         "max": "1",
         "patternCoding": {
           "code": "69799",
-          "system": "urn:iso:std:iso:11073:10101",
-          "display": "MDC_DEV_ECG_CHAN"
+          "system": "urn:iso:std:iso:11073:10101"
         },
         "mustSupport": true,
         "binding": {
@@ -71,9 +70,55 @@
         }
       },
       {
-        "id": "Device.type.coding:kanalbezeichnung",
-        "path": "Device.type.coding",
+        "id": "Device.property",
+        "path": "Device.property",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "type"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.property:kanalbezeichnung",
+        "path": "Device.property",
         "sliceName": "kanalbezeichnung",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.property:kanalbezeichnung.type",
+        "path": "Device.property.type",
+        "short": "Attribute \"Logical-Channel-No\" der Kanal-Klasse in ISO 11073",
+        "definition": "Code 68142 (1::2606) MDC_ATTR_CHAN_NUM_LOGICAL ist das Attribut \"Logical-Channel-No\" der Kanal-Klasse in ISO 11073",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "68142",
+              "system": "urn:iso:std:iso:11073:10101"
+            }
+          ]
+        },
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mdc-objects-devices"
+        }
+      },
+      {
+        "id": "Device.property:kanalbezeichnung.valueQuantity",
+        "path": "Device.property.valueQuantity",
+        "max": "0"
+      },
+      {
+        "id": "Device.property:kanalbezeichnung.valueCode",
+        "path": "Device.property.valueCode",
         "min": 1,
         "max": "1",
         "mustSupport": true,
@@ -81,11 +126,6 @@
           "strength": "required",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele"
         }
-      },
-      {
-        "id": "Device.patient",
-        "path": "Device.patient",
-        "max": "0"
       },
       {
         "id": "Device.parent",

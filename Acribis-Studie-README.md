@@ -11,7 +11,7 @@ Stufe 3: Abbildung der gesamten Kardiologie
 - Einsatz in allen DIZen    (?)
 - Datenausleitung aus DIZ   (?)
 
-> Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 25.06.2025). Arbeitsversionen werden sukzessive auf der [Acribis-Confluence-Seite: FHIR-Profilübersicht] bereitgestellt. 
+> Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 25.06.2025). Arbeitsversionen werden sukzessive auf der [Acribis-Confluence-Seite: FHIR-Profilübersicht](https://acribis.atlassian.net/wiki/spaces/Acribis/pages/390266939/FHIR+Profile+bersicht) bereitgestellt. 
 
 ## Übersicht - KDS Modul Kardio Profile <> Acribis-Datenitems (in Stufe 1)
 Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_Kernscores_V4.1.1".

@@ -52,24 +52,24 @@
     "fshName": "Beispiel-Kardio-Condition-Diagnose-Is-Present",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 92,
-    "endLine": 154
+    "startLine": 86,
+    "endLine": 148
   },
   {
     "outputFile": "Condition-beispiel-kardio-krebs-terminal-liegt-nicht-vor.json",
     "fshName": "Beispiel-Kardio-Condition-Krebs-Endstadium-Not-Present",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 162,
-    "endLine": 227
+    "startLine": 156,
+    "endLine": 214
   },
   {
     "outputFile": "Condition-beispiel-kardio-pavk-unbekannt.json",
     "fshName": "Beispiel-Kardio-Condition-Diagnose-Unknown",
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 238,
-    "endLine": 303
+    "startLine": 225,
+    "endLine": 283
   },
   {
     "outputFile": "Device-mii-exa-kardio-device-icd.json",
@@ -179,9 +179,9 @@
     "outputFile": "Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.json",
     "fshName": "mii-exa-kardio-herzinsuffizienz-unbekannt",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Nein_Unbekannt.fsh",
-    "startLine": 36,
-    "endLine": 50
+    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
+    "startLine": 39,
+    "endLine": 54
   },
   {
     "outputFile": "Observation-mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
@@ -206,6 +206,14 @@
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung.fsh",
     "startLine": 45,
     "endLine": 56
+  },
+  {
+    "outputFile": "Observation-mii-exa-kardio-pci-nein.json",
+    "fshName": "mii-exa-kardio-pci-nein",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
+    "startLine": 56,
+    "endLine": 72
   },
   {
     "outputFile": "PractitionerRole-example-role-kardiologe.json",
@@ -269,7 +277,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 81
+    "endLine": 75
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-device.json",
@@ -280,12 +288,12 @@
     "endLine": 28
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-diagnose-nein-unbekannt.json",
-    "fshName": "MII_PR_Kardio_Diagnose_Nein_Unbekannt",
+    "outputFile": "StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.json",
+    "fshName": "MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Nein_Unbekannt.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
     "startLine": 1,
-    "endLine": 27
+    "endLine": 37
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraet.json",
@@ -440,14 +448,6 @@
     "endLine": 25
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-diagnose-nein-unbekannt.json",
-    "fshName": "MII_VS_Kardio_Diagnose_Nein_Unbekannt",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Diagnose_Nein_Unbekannt.fsh",
-    "startLine": 1,
-    "endLine": 16
-  },
-  {
     "outputFile": "ValueSet-mii-vs-kardio-ekg-kanaele.json",
     "fshName": "MII_VS_Kardio_EKG_Kanaele",
     "fshType": "ValueSet",
@@ -550,6 +550,14 @@
     "fshFile": "valuesets\\MII_VS_Kardio_mRS.fsh",
     "startLine": 1,
     "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-nein-unbekannt.json",
+    "fshName": "MII_VS_Kardio_Nein_Unbekannt",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Nein_Unbekannt.fsh",
+    "startLine": 1,
+    "endLine": 16
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-nyha-klassen-snomed.json",

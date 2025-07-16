@@ -11,7 +11,7 @@ Stufe 3: Abbildung der gesamten Kardiologie
 - Einsatz in allen DIZen    (?)
 - Datenausleitung aus DIZ   (?)
 
-> Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 25.06.2025). Arbeitsversionen werden sukzessive auf der [Acribis-Confluence-Seite: FHIR-Profilübersicht] bereitgestellt. 
+> Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 25.06.2025). Arbeitsversionen werden sukzessive auf der [Acribis-Confluence-Seite: FHIR-Profilübersicht](https://acribis.atlassian.net/wiki/spaces/Acribis/pages/390266939/FHIR+Profile+bersicht) bereitgestellt. 
 
 ## Übersicht - KDS Modul Kardio Profile <> Acribis-Datenitems (in Stufe 1)
 Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_Kernscores_V4.1.1".
@@ -21,7 +21,8 @@ Profilübersicht:
 
 | Ressourcentyp      | Profilname         | Beschreibung                                                                 | Examples |
 |--------------------|--------------------|------------------------------------------------------------------------------|----------|
-| Condition          | [Kardio Diagnose](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_condition_diagnose) | Bildet jegliche Diagnosen (ja/nein/unbekannt) ab.                           | [Liegt vor](https://simplifier.net/mii-erweiterungsmodul-kardiologie/beispiel-kardio-diagnose-liegt-vor), [Liegt nicht vor](https://simplifier.net/mii-erweiterungsmodul-kardiologie/beispiel-kardio-krebs-terminal-liegt-nicht-vor), [unbekannt](https://simplifier.net/mii-erweiterungsmodul-kardiologie/beispiel-kardio-pavk-unbekannt) |
+| Condition          | [Kardio Diagnose](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_condition_diagnose) | Bildet jegliche Diagnosen ab. | [Akuter Myokardinfarkt](https://simplifier.net/mii-erweiterungsmodul-kardiologie/beispiel-kardio-diagnose-liegt-vor) |
+| Observation        | [Diagnose Prozdur Nein Unbekannt](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_diagnose_prozedur_nein_unbekannt) | Bildet das anamnestische Nichtvorliegen einer Diagnose, bzw. Prozedur, oder Unklarheit darüber ab. | [Herzinsuffizienz Unbekannt](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-herzinsuffizienz-unbekannt), [Keine Koronarintervention mit PCI/Stent](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-pci-nein) |
 | Observation        | [LVEF-Messwert](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_observation_linksventrikulaere_ejektionsfraktion)     | Bildet den Messwert zur Linksventrikulären Ejektionsfraktion (LVEF) ab.     | [LVEF](https://simplifier.net/mii-erweiterungsmodul-kardiologie/example-lvef) |
 | Procedure          | [Implantation](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_kardiale_deviceimplantation)       | Bildet die Implantation eines kardialen Devices ab.                         | [Implantation](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-kardiale-deviceimplantation-icd) |
 | Device             | [Kardio Device](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_device)      | Bildet ein kardiales Device ab.                                             | [ICD Device](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-device-icd) |

@@ -168,6 +168,14 @@
     "endLine": 230
   },
   {
+    "outputFile": "Observation-mii-exa-kardio-ekg-metadaten-sample-rate.json",
+    "fshName": "mii-exa-kardio-ekg-metadaten-sample-rate",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Metadaten.fsh",
+    "startLine": 34,
+    "endLine": 46
+  },
+  {
     "outputFile": "Observation-mii-exa-kardio-geraeteprogrammierung-vvi.json",
     "fshName": "mii-exa-kardio-geraeteprogrammierung-vvi",
     "fshType": "Instance",
@@ -325,7 +333,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Metadaten.fsh",
     "startLine": 1,
-    "endLine": 33
+    "endLine": 32
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-geraeteprogrammierung.json",
@@ -454,6 +462,14 @@
     "fshFile": "valuesets\\MII_VS_Kardio_EKG_Kanaele.fsh",
     "startLine": 1,
     "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-ekg-metadaten.json",
+    "fshName": "MII_VS_Kardio_EKG_Metadaten",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_EKG_Metadaten.fsh",
+    "startLine": 1,
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-ethnie-snomed.json",

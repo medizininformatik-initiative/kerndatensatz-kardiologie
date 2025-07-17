@@ -20,6 +20,7 @@
 [mii-exa-kardio-ekg-kanal-i]: Device-mii-exa-kardio-ekg-kanal-i.html
 [mii-exa-kardio-ekg-kanal-ii]: Device-mii-exa-kardio-ekg-kanal-ii.html
 [mii-exa-kardio-ekg-kanal-iii]: Device-mii-exa-kardio-ekg-kanal-iii.html
+[mii-exa-kardio-ekg-metadaten-sample-rate]: Observation-mii-exa-kardio-ekg-metadaten-sample-rate.html
 [mii-exa-kardio-geraeteprogrammierung-vvi]: Observation-mii-exa-kardio-geraeteprogrammierung-vvi.html
 [mii-exa-kardio-herzinsuffizienz-unbekannt]: Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.html
 [mii-exa-kardio-kardiale-deviceimplantation-icd]: Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.html
@@ -50,6 +51,7 @@
 [MII_VS_Kardio_Artherosklerotisches_Erstereignisse]: ValueSet-mii-vs-kardio-atherosklerotische-erstereignisse.html
 [MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores]: ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.html
 [MII_VS_Kardio_EKG_Kanaele]: ValueSet-mii-vs-kardio-ekg-kanaele.html
+[MII_VS_Kardio_EKG_Metadaten]: ValueSet-mii-vs-kardio-ekg-metadaten.html
 [MII_VS_Kardio_Geraeteprogrammierung]: ValueSet-mii-vs-kardio-geraeteprogrammierung.html
 [MII_VS_Kardio_Geraetetyp]: ValueSet-mii-vs-kardio-geraetetyp.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation.html

@@ -241,6 +241,14 @@
       },
       {
         "reference": {
+          "reference": "Observation/mii-exa-kardio-ekg-metadaten-sample-rate"
+        },
+        "name": "MII EXA Kardio EKG Sample Rate",
+        "description": "Beispiel einer Observation zur Darstellung der Sample Rate von Kanal I eines aufgezeichneten EKGs",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-metadaten"
+      },
+      {
+        "reference": {
           "reference": "Observation/mii-exa-kardio-geraeteprogrammierung-vvi"
         },
         "name": "MII EXA Kardio Geräteprogrammierung VVI",
@@ -477,6 +485,14 @@
         },
         "name": "MII VS Kardio EKG Kanäle",
         "description": "ISO/IEEE 11073-10101 Codes für EKG Kanäle",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ekg-metadaten"
+        },
+        "name": "MII VS Kardio EKG Metadaten",
+        "description": "ISO/IEEE 11073-10101 Codes für EKG Metadaten",
         "exampleBoolean": false
       },
       {

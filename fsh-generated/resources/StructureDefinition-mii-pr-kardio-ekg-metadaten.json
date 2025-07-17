@@ -36,36 +36,10 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "666752",
-              "system": "urn:iso:std:iso:11073:10101"
-            }
-          ]
-        },
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/ValueSet/devicemetric-type"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-metadaten"
         }
-      },
-      {
-        "id": "Observation.code.coding",
-        "path": "Observation.code.coding",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "mustSupport": true
       },
       {
         "id": "Observation.subject",
@@ -75,7 +49,8 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient"
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://hl7.org/fhir/StructureDefinition/Device"
             ]
           }
         ],
@@ -93,14 +68,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
-        "max": "0"
-      },
-      {
         "id": "Observation.device",
         "path": "Observation.device",
-        "min": 1,
         "type": [
           {
             "code": "Reference",
@@ -108,13 +77,38 @@
               "http://hl7.org/fhir/StructureDefinition/Device"
             ]
           }
-        ],
+        ]
+      },
+      {
+        "id": "Observation.derivedFrom",
+        "path": "Observation.derivedFrom",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.referenceRange",
-        "path": "Observation.referenceRange",
-        "max": "0"
+        "id": "Observation.derivedFrom:document",
+        "path": "Observation.derivedFrom",
+        "sliceName": "document",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+            ]
+          }
+        ],
+        "mustSupport": true
       }
     ]
   }

@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_EKG_Metadaten",
+  "id": "mii-vs-kardio-ekg-metadaten",
+  "title": "MII VS Kardio EKG Metadaten",
+  "description": "ISO/IEEE 11073-10101 Codes für EKG Metadaten",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-metadaten",
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-07-17",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "filter": [
+          {
+            "property": "partition",
+            "op": "=",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "filter": [
+          {
+            "property": "partition",
+            "op": "=",
+            "value": "10"
+          }
+        ]
+      }
+    ]
+  }
+}

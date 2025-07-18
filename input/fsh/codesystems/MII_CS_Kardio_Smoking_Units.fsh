@@ -1,8 +1,8 @@
-CodeSystem: MII_CS_Rauchen_LOCAL
-Id: mii-cs-rauchen
+CodeSystem: MII_CS_Kardio_Smoking_Units
+Id: mii-cs-kardio-smoking-units
 Title: "MII_VS_Rauchen_Einheiten_LOCAL"
 Description: "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer."
-//* ^url = "http://example.org/fhir/CodeSystem/smoking-units"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-smoking-units"
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #draft

@@ -41,26 +41,26 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
     rauchdauer 0..* //MS
 // Rauchmenge
 // Packungsjahr = (#tägl.Zigaretten/20)*Anzahl Jahre die geraucht wurde
-* component[packungsjahre].code = $smoking-units#pack-years
+* component[packungsjahre].code = $acribis-smoking-units#pack-years
 * component[packungsjahre].value[x] only Quantity
 * component[packungsjahre].valueQuantity.unit = "Packungsjahre"
-* component[packungsjahre].valueQuantity.system = $smoking-units //(preferred)
-* component[packungsjahre].valueQuantity.code = $smoking-units#pack-years
+* component[packungsjahre].valueQuantity.system = $acribis-smoking-units //(preferred)
+* component[packungsjahre].valueQuantity.code = $acribis-smoking-units#pack-years
 * component[packungsjahre].valueQuantity.comparator MS 
 // Beispielwerte: < 1/2 Packung; ca. 1/2 Packung; ca. 1 Packung; >= 2 Packungen
-* component[packungenProTag].code = $smoking-units#packs-per-day
+* component[packungenProTag].code = $acribis-smoking-units#packs-per-day
 * component[packungenProTag].value[x] only Quantity
 * component[packungenProTag].valueQuantity.unit = "Packungen pro Tag"
-* component[packungenProTag].valueQuantity.system = $smoking-units //(preferred)
-* component[packungenProTag].valueQuantity.code = $smoking-units#packs-per-day
+* component[packungenProTag].valueQuantity.system = $acribis-smoking-units //(preferred)
+* component[packungenProTag].valueQuantity.code = $acribis-smoking-units#packs-per-day
 * component[packungenProTag].valueQuantity.comparator MS 
-* component[zigarettenProTag].code = $smoking-units#cigarettes-per-day
+* component[zigarettenProTag].code = $acribis-smoking-units#cigarettes-per-day
 * component[zigarettenProTag].value[x] only integer
 // Rauchdauer
-* component[rauchbeginn].code = $smoking-units#rauchbeginn
+* component[rauchbeginn].code = $acribis-smoking-units#rauchbeginn
 * component[rauchbeginn].value[x] only dateTime // erlaubt auch fuzzy dates wie "1990" oder "1990-04"
 * component[rauchbeginn].valueDateTime ^comment = "Die Angabe von 'fuzzy'-Datumsangaben mit nicht definiertem Monat oder Tag ist möglich."
-* component[rauchdauer].code = $smoking-units#rauchdauer
+* component[rauchdauer].code = $acribis-smoking-units#rauchdauer
 * component[rauchdauer].value[x] only Quantity
 * component[rauchdauer].valueQuantity.unit = "year" // für Jahre (nach UCUM)
 * component[rauchdauer].valueQuantity.system = $ucum
@@ -84,22 +84,22 @@ Usage: #example
 * performer = Reference(Practitioner/example-role-kardiologe)
 * valueCodeableConcept = http://terminology.hl7.org/CodeSystem/observation-smoking-status#current-every-day-smoker "Current every day smoker"
 // Komponenten zur weiterführenden Beschreibung des Rauchverhaltens
-* component[packungsjahre].code = $smoking-units#pack-years
+* component[packungsjahre].code = $acribis-smoking-units#pack-years
 * component[packungsjahre].valueQuantity.value = 35
 * component[packungsjahre].valueQuantity.unit = "Packungsjahre"
-* component[packungsjahre].valueQuantity.system = $smoking-units
+* component[packungsjahre].valueQuantity.system = $acribis-smoking-units
 * component[packungsjahre].valueQuantity.code = #pack-years
 * component[packungsjahre].valueQuantity.comparator = #> 
-* component[packungenProTag].code = $smoking-units#packs-per-day
+* component[packungenProTag].code = $acribis-smoking-units#packs-per-day
 * component[packungenProTag].valueQuantity.value = 1
 * component[packungenProTag].valueQuantity.unit = "Packungen pro Tag"
-* component[packungenProTag].valueQuantity.system = $smoking-units
+* component[packungenProTag].valueQuantity.system = $acribis-smoking-units
 * component[packungenProTag].valueQuantity.code = #packs-per-day
-* component[zigarettenProTag].code = $smoking-units#cigarettes-per-day
+* component[zigarettenProTag].code = $acribis-smoking-units#cigarettes-per-day
 * component[zigarettenProTag].valueInteger = 20
-* component[rauchbeginn].code = $smoking-units#rauchbeginn
+* component[rauchbeginn].code = $acribis-smoking-units#rauchbeginn
 * component[rauchbeginn].valueDateTime = "1990" // fuzzy date erlaubt
-* component[rauchdauer].code = $smoking-units#rauchdauer
+* component[rauchdauer].code = $acribis-smoking-units#rauchdauer
 * component[rauchdauer].valueQuantity.value = 35
 * component[rauchdauer].valueQuantity.unit = "year"
 * component[rauchdauer].valueQuantity.system = $ucum

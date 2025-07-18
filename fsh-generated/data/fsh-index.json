@@ -37,7 +37,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems/MII_CS_Kardio_mRS.fsh",
     "startLine": 1,
-    "endLine": 27
+    "endLine": 28
   },
   {
     "outputFile": "CodeSystem-mii-cs-rauchen.json",
@@ -108,8 +108,8 @@
     "fshName": "example-kardio-mrs",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
-    "startLine": 47,
-    "endLine": 72
+    "startLine": 48,
+    "endLine": 73
   },
   {
     "outputFile": "Observation-example-kardio-nyha.json",
@@ -333,7 +333,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 35
+    "endLine": 36
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-nyha.json",
@@ -469,7 +469,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_mRS.fsh",
     "startLine": 1,
-    "endLine": 25
+    "endLine": 28
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-nyha-klassen-snomed.json",

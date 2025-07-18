@@ -1,0 +1,27 @@
+{
+  "resourceType": "Device",
+  "id": "mii-exa-kardio-ekg-kanal-i",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "69799",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_DEV_ECG_CHAN"
+      },
+      {
+        "code": "131073",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_ECG_LEAD_I"
+      }
+    ]
+  },
+  "parent": {
+    "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
+  },
+  "status": "active"
+}

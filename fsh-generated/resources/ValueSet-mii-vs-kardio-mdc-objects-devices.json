@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_MDC_Objects_Devices",
+  "id": "mii-vs-kardio-mdc-objects-devices",
+  "title": "MII VS Kardio MDC Objects Devices",
+  "description": "ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mdc-objects-devices",
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-07-09",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "filter": [
+          {
+            "property": "partition",
+            "op": "=",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

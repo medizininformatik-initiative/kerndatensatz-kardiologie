@@ -1,0 +1,72 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-ekg-geraet",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet",
+  "version": "2025.0.0",
+  "name": "MII_PR_Kardio_EKG_Geraet",
+  "title": "MII PR Kardio EKG Gerät",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-05-22",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "description": "Profil zur Abbildung eines EKG-Gerätes.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Device",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Device",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Device.status",
+        "path": "Device.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.manufacturer",
+        "path": "Device.manufacturer",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName",
+        "path": "Device.deviceName",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.type",
+        "path": "Device.type",
+        "min": 1,
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mdc-objects-devices"
+        }
+      },
+      {
+        "id": "Device.type.coding",
+        "path": "Device.type.coding",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.patient",
+        "path": "Device.patient",
+        "min": 1,
+        "mustSupport": true
+      }
+    ]
+  }
+}

@@ -11,7 +11,7 @@ Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die De
 * ^experimental = true
 * ^date = "2025-05-13"
 
-* code from $devicemetric-type (required)
+* code from $devicemetric-type-vs (required)
 * code MS
 * code.coding 1.. MS
 * code.coding = $mdc#730752
@@ -32,7 +32,7 @@ Das sollte eine Instanz von *MII PR NBG Schrittmachermodus* sein."
 
 * value[x] 1.. MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from $geraeteprogrammierung (required)
+* valueCodeableConcept from $geraeteprogrammierung-vs (required)
 
 Instance: mii-exa-kardio-geraeteprogrammierung-vvi
 InstanceOf: MII_PR_Kardio_Geraeteprogrammierung

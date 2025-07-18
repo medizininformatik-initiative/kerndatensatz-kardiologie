@@ -166,8 +166,8 @@ Usage: #definition
 * item[=].prefix = "Angaben zum Tod"
 * item[=].text = "Todesursache"
 * item[=].type = #choice
-* item[=].answerOption[0].valueCoding = $cs-acribis-follow-up#cardiovascular-cause "kardiovaskulär"
-* item[=].answerOption[+].valueCoding = $cs-acribis-follow-up#no-cardiovascular-cause "nicht kardiovaskulär"
+* item[=].answerOption[0].valueCoding = $acribis-follow-up#cardiovascular-cause "kardiovaskulär"
+* item[=].answerOption[+].valueCoding = $acribis-follow-up#no-cardiovascular-cause "nicht kardiovaskulär"
 * item[=].answerOption[+].valueCoding = $v2-0532#UNK "unknown"
 * item[=].answerOption[+].valueCoding = $v2-0532#NASK "not asked"
 * item[=].enableWhen.question = "death-status"
@@ -181,12 +181,12 @@ Usage: #definition
 * item[=].type = #choice
 * item[=].answerOption[0].valueCoding = $sct#22298006 "Myocardial infarction" //  Myocardial infarction (disorder) "Herzinfarkt"
 * item[=].answerOption[+].valueCoding = $sct#230690007 "Cerebrovascular accident" //"Schlaganfall" // Stroke = Cerebrovascular accident disorder
-* item[=].answerOption[+].valueCoding = $cs-acribis-follow-up#other-cardiovascular-cause
+* item[=].answerOption[+].valueCoding = $acribis-follow-up#other-cardiovascular-cause
 * item[=].answerOption[+].valueCoding = $v2-0532#UNK "unknown"
 * item[=].answerOption[+].valueCoding = $v2-0532#NASK "not asked"
 * item[=].enableWhen.question = "cause-of-death"
 * item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerCoding = $cs-acribis-follow-up#cardiovascular-cause
+* item[=].enableWhen.answerCoding = $acribis-follow-up#cardiovascular-cause
 
 // Item 12: Gruppe, nur sichtbar wenn "Schlaganfall" ausgewählt in item[11]
 * item[+].linkId = "cardiovascular-death-stroke-details"

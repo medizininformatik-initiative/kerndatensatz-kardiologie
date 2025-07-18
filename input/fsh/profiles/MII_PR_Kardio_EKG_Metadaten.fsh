@@ -13,7 +13,7 @@ Description: "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz a
 
 * status MS
 
-* code from $devicemetric-type (required)
+* code from $devicemetric-type-vs (required)
 * code = $mdc#666752
 * code.coding 1.. MS
 * code.coding.system 1.. MS

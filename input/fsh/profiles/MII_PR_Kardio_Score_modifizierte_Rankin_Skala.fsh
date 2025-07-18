@@ -30,8 +30,8 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * subject only Reference(Patient)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from $mRS (extensible) //(required)
-* valueCodeableConcept.extension contains $struct_data-absent-reason named data-absent-reason 0..1
+* valueCodeableConcept from $mRS-vs (extensible) //(required)
+* valueCodeableConcept.extension contains $data-absent-reason named data-absent-reason 0..1
 * performer MS
 * encounter MS
 // Keine weitere Eingrenzung, um spätere Inkompatibilitäten zu vermeiden. Bsp.: Angabe von device oder focus in anderen Spezifikationen denkbar.
@@ -65,7 +65,7 @@ Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem S
 * effectiveDateTime = "2024-11-12T14:23:00+01:00"
 * issued = "2024-11-12T15:00:00+01:00"
 * performer[0] = Reference(PractitionerRole/example-role-kardiologe)
-* valueCodeableConcept.coding.system = $mRS-cs
+* valueCodeableConcept.coding.system = $mRS
 * valueCodeableConcept.coding.code = #mRSbigger3
 * valueCodeableConcept.coding.display = "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
 * note.text = "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."

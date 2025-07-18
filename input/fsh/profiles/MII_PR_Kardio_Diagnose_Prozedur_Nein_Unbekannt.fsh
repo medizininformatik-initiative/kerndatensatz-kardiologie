@@ -45,7 +45,7 @@ Usage: #example
 * status = #final
 * category = #survey
 * code.coding[0] = $sct#84114007 "Heart failure (disorder)"
-* code.coding[1] = $icd-10-gm-cs#I50.9 "Herzinsuffizienz, nicht näher bezeichnet"
+* code.coding[1] = $icd-10-gm#I50.9 "Herzinsuffizienz, nicht näher bezeichnet"
 * subject.reference = "Patient/mii-exa-person-patient-minimal"
 * effectiveDateTime = "2025-06-06T14:29:34.214+02:00"
 * valueCodeableConcept = $v2-0532#ASKU "asked but unknown"
@@ -63,7 +63,7 @@ Usage: #example
 * category = #survey
 * code.text = "Koronarintervention mit PCI/Stent"
 * code.coding[0] = $sct#415070008 "Percutaneous transluminal coronary intervention using imaging guidance with contrast (procedure)"
-* code.coding[1] = $ops-cs#8-837.y "N.n.bez."
+* code.coding[1] = $ops#8-837.y "N.n.bez."
 * subject.reference = "Patient/mii-exa-person-patient-minimal"
 * effectiveDateTime = "2025-06-06T14:29:34.214+02:00"
 * valueCodeableConcept = $v2-0532#N "No"

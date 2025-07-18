@@ -53,4 +53,4 @@ Usage: #example
 * subject.reference = "Patient/demo-patient"
 * effectiveDateTime = "2025-05-21T17:35:22+02:00"
 * performer.reference = "PractitionerRole/demo-kardiologe"
-* valueCodeableConcept.coding = $ausschluss-cs#hv "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
+* valueCodeableConcept.coding = $acribis-ausschlusskriterien#hv "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"

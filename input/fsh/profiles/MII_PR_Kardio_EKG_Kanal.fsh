@@ -22,9 +22,9 @@ Description: "Profil zur Abbildung eines EKG-Kanals."
     geraetetyp 1..1 MS and
     kanalbezeichnung 1..1 MS
 
-* type.coding[geraetetyp] from $mdc-objects-devices (required)
+* type.coding[geraetetyp] from $mdc-objects-devices-vs (required)
 * type.coding[geraetetyp] = $mdc#69799 "MDC_DEV_ECG_CHAN"
-* type.coding[kanalbezeichnung] from $ekg-kanaele (required)
+* type.coding[kanalbezeichnung] from $ekg-kanaele-vs (required)
 
 * patient ..0
 

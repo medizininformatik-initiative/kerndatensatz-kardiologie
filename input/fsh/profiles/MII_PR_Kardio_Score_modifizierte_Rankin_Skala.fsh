@@ -30,10 +30,11 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * subject only Reference(Patient)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from $mRS (required)
+* valueCodeableConcept from $mRS (extensible) //(required)
+* valueCodeableConcept.extension contains $struct_data-absent-reason named data-absent-reason 0..1
 * performer MS
 * encounter MS
-// Wir grenzen hier nicht weiter ein, um spätere Inkompatibilitäten zu vermeiden. Bspw. ist die Angabe eine device oder focus auf eine andere ressource in anderen Spezifikationen durchaus denkbar.
+// Keine weitere Eingrenzung, um spätere Inkompatibilitäten zu vermeiden. Bsp.: Angabe von device oder focus in anderen Spezifikationen denkbar.
 //* bodySite ..0
 //* component ..0
 //* device ..0

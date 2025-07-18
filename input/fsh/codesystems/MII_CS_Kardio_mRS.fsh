@@ -13,9 +13,7 @@ Description: "Beeinträchtigung des Patienten nach Schlaganfall"
 * ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS"
 * ^content = #complete
 
-// TODO Recherche, ob es die Codes zum mRS schon in LOINC/SNOMED oder FHIR CS gibt.
-// TODO: Ordinal Value vergeben zum Sortieren
-
+// mRS-scale (erweitert s.u.)
 * #mRS0 "Es bestehen keine Symptome."
 * #mRS1 "Es bestehen keine relevanten Beeinträchtigungen. Der Patient ist in der Lage, seinen Alltag selbstständig zu gestalten."
 * #mRS2 "Es bestehen leichte Beeinträchtigungen. Der Patient hat Einschränkungen im Alltag, ist aber nicht auf Hilfe angewiesen."
@@ -23,5 +21,8 @@ Description: "Beeinträchtigung des Patienten nach Schlaganfall"
 * #mRS4 "Es besteht eine höhergradige Beeinträchtigung. Der Patient ist nicht mehr in der Lage, seinen Körper zu pflegen oder selbstständig zu laufen."
 * #mRS5 "Es besteht eine schwere Behinderung. Der Patient ist bettlägerig, inkontinent und auf ständige Pflege angewiesen."
 * #mRS6 "Tod infolge des Schlaganfalls"
+// Published: 1988, Van Swieten JC; Koudstaal PJ; Visser MC; Schouten HJA; Van Gijn J, 
+// Online: see https://pubmed.ncbi.nlm.nih.gov/3363593/
+// Lizenzbedingungen: Public Domain --> https://eprovide.mapi-trust.org/instruments/modified-rankin-scale
 * #mRSbigger3 "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
 * #mRSsmallerequal3 "Die Einstufung auf der mRS-Skala liegt bei gleich 3 oder weniger als 3 (Patient kann ohne fremde Hilfe gehen (ggf. mit Hilfsmitteln))"

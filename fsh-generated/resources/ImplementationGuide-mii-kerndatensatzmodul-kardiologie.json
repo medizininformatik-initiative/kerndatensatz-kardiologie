@@ -529,7 +529,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-follow-up"
+          "reference": "CodeSystem/mii-cs-kardio-follow-up"
         },
         "name": "MII_CS_Follow_Up",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zur Verwendung im Follow-Up Questionnaire.",
@@ -616,7 +616,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-rauchen"
+          "reference": "CodeSystem/mii-cs-kardio-smoking-units"
         },
         "name": "MII_VS_Rauchen_Einheiten_LOCAL",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",

@@ -1,13 +1,5 @@
 [
   {
-    "outputFile": "CodeSystem-mii-cs-follow-up.json",
-    "fshName": "MII_CS_Follow_Up",
-    "fshType": "CodeSystem",
-    "fshFile": "codesystems/MII_CS_Kardio_Follow_Up.fsh",
-    "startLine": 1,
-    "endLine": 13
-  },
-  {
     "outputFile": "CodeSystem-mii-cs-kardio-atherosklerotische-erstereignisse.json",
     "fshName": "MII_CS_Kardio_Atherosklerotische_Erstereignisse",
     "fshType": "CodeSystem",
@@ -22,6 +14,14 @@
     "fshFile": "codesystems/MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores.fsh",
     "startLine": 1,
     "endLine": 15
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-kardio-follow-up.json",
+    "fshName": "MII_CS_Kardio_Follow_Up",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/MII_CS_Kardio_Follow_Up.fsh",
+    "startLine": 1,
+    "endLine": 13
   },
   {
     "outputFile": "CodeSystem-mii-cs-kardio-lebensmittelpunkt.json",
@@ -40,10 +40,10 @@
     "endLine": 28
   },
   {
-    "outputFile": "CodeSystem-mii-cs-rauchen.json",
-    "fshName": "MII_CS_Rauchen_LOCAL",
+    "outputFile": "CodeSystem-mii-cs-kardio-smoking-units.json",
+    "fshName": "MII_CS_Kardio_Smoking_Units",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems/MII_CS_Kardio_Rauchen_Einheiten.fsh",
+    "fshFile": "codesystems/MII_CS_Kardio_Smoking_Units.fsh",
     "startLine": 1,
     "endLine": 15
   },

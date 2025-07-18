@@ -56,7 +56,7 @@
 [MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle.html
 [MII_VS_Kardio_MDC_Objects_Devices]: ValueSet-mii-vs-kardio-mdc-objects-devices.html
 [MII_VS_Kardio_Nein_Unbekannt]: ValueSet-mii-vs-kardio-nein-unbekannt.html
-[MII_CS_Follow_Up]: CodeSystem-mii-cs-follow-up.html
+[MII_CS_Kardio_Follow_Up]: CodeSystem-mii-cs-kardio-follow-up.html
 [MII_VS_Kardio_Allergene_SNOMED]: ValueSet-mii-vs-kardio-allergene-snomed.html
 [MII_VS_Kardio_Diagnose_ICD10GM]: ValueSet-mii-vs-kardio-diagnose-icd10gm.html
 [MII_VS_Kardio_Ethnie_SNOMED]: ValueSet-mii-vs-kardio-ethnie-snomed.html
@@ -67,5 +67,5 @@
 [MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
 [MII_VS_Kardio_mRS_Stufen]: ValueSet-mii-vs-kardio-mrs-stufen.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMED]: ValueSet-mii-vs-kardio-nyha-klassen-snomed.html
-[MII_CS_Rauchen_LOCAL]: CodeSystem-mii-cs-rauchen.html
+[MII_CS_Kardio_Smoking_Units]: CodeSystem-mii-cs-kardio-smoking-units.html
 [example-role-kardiologe]: PractitionerRole-example-role-kardiologe.html

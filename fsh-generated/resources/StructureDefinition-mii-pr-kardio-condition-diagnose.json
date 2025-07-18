@@ -41,11 +41,6 @@
   "differential": {
     "element": [
       {
-        "id": "Condition.verificationStatus",
-        "path": "Condition.verificationStatus",
-        "min": 1
-      },
-      {
         "id": "Condition.category",
         "path": "Condition.category",
         "slicing": {
@@ -104,7 +99,6 @@
         "id": "Condition.recorder",
         "path": "Condition.recorder",
         "comment": "Allows documentation about who recorded the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person.",
-        "min": 1,
         "type": [
           {
             "code": "Reference",
@@ -122,7 +116,6 @@
         "id": "Condition.asserter",
         "path": "Condition.asserter",
         "comment": "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person.",
-        "min": 1,
         "type": [
           {
             "code": "Reference",

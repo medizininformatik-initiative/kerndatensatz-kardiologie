@@ -26,7 +26,6 @@ publisher:
 #
 dependencies:
    de.basisprofil.r4: 1.5.3 # für Extension Dokumentationsdatum
-   de.medizininformatikinitiative.kerndatensatz.person: 2025.0.0
    de.medizininformatikinitiative.kerndatensatz.icu: 2025.0.4 #2024.0.0-alpha2 ## für koerpergewicht und 
    de.medizininformatikinitiative.kerndatensatz.diagnose: 2025.0.0 # für Kardio Diagnose
    de.medizininformatikinitiative.kerndatensatz.prozedur: 2025.0.0 # für Kardio Prozedur Implantation

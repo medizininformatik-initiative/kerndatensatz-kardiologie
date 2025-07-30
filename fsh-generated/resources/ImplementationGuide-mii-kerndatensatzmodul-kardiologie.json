@@ -31,6 +31,12 @@
       "id": "de_basisprofil_r4"
     },
     {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.person",
+      "version": "2025.0.0",
+      "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/ImplementationGuide/mii-ig-person",
+      "id": "de_medizininformatikinitiative_kerndatensatz_person"
+    },
+    {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
       "version": "2025.0.4",
       "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.icu/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.icu",
@@ -241,11 +247,19 @@
       },
       {
         "reference": {
-          "reference": "Observation/mii-exa-kardio-ekg-metadaten-sample-rate"
+          "reference": "DocumentReference/mii-exa-kardio-ekg-referenz"
         },
-        "name": "MII EXA Kardio EKG Sample Rate",
-        "description": "Beispiel einer Observation zur Darstellung der Sample Rate von Kanal I eines aufgezeichneten EKGs",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-metadaten"
+        "name": "MII EXA Kardio EKG Referenz",
+        "description": "Beispiel einer Referenz auf ein EKG, dessen Rohdaten an einem anderen Ort gespeichert werden.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-ekg-rr-interval"
+        },
+        "name": "MII EXA Kardio EKG RR Interval",
+        "description": "Beispiel einer Observation zur Darstellung des RR Intervals eines aufgezeichneten EKGs",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotationen"
       },
       {
         "reference": {
@@ -337,6 +351,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-annotationen"
+        },
+        "name": "MII PR Kardio EKG Annotationen",
+        "description": "Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Interpretationen, eines EKG.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-ekg-geraet"
         },
         "name": "MII PR Kardio EKG Gerät",
@@ -361,10 +383,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-ekg-metadaten"
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-referenz"
         },
-        "name": "MII PR Kardio EKG Metadaten",
-        "description": "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz auf den Speicherort.",
+        "name": "MII PR Kardio EKG Referenz",
+        "description": "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespeichert werden.",
         "exampleBoolean": false
       },
       {
@@ -489,14 +511,6 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ekg-metadaten"
-        },
-        "name": "MII VS Kardio EKG Metadaten",
-        "description": "ISO/IEEE 11073-10101 Codes für EKG Metadaten",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung"
         },
         "name": "MII VS Kardio Geräteprogrammierung",
@@ -525,6 +539,14 @@
         },
         "name": "MII VS Kardio Kardiale Devicemimplantation Körperstelle",
         "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen"
+        },
+        "name": "MII VS Kardio MDC Metriken EKG Annotationen",
+        "description": "ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)",
         "exampleBoolean": false
       },
       {

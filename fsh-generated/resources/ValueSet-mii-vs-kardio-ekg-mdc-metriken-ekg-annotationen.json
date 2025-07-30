@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_EKG_Metadaten",
-  "id": "mii-vs-kardio-ekg-metadaten",
-  "title": "MII VS Kardio EKG Metadaten",
-  "description": "ISO/IEEE 11073-10101 Codes für EKG Metadaten",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-metadaten",
+  "name": "MII_VS_Kardio_MDC_Metriken_EKG_Annotationen",
+  "id": "mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen",
+  "title": "MII VS Kardio MDC Metriken EKG Annotationen",
+  "description": "ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen",
   "version": "2025.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -19,7 +19,7 @@
     }
   ],
   "experimental": true,
-  "date": "2025-07-17",
+  "date": "2025-07-30",
   "compose": {
     "include": [
       {

@@ -38,7 +38,6 @@ Alias: $kardiale-deviceimplantation = https://www.medizininformatik-initiative.d
 Alias: $procedure-device-action-codes = http://hl7.org/fhir/ValueSet/device-action
 Alias: $vs-v2-0532 = http://terminology.hl7.org/ValueSet/v2-0532
 Alias: $ekg-kanaele = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele
-Alias: $ekg-metadaten = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-metadaten
 Alias: $mdc-objects-devices = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mdc-objects-devices
 
 //_________________

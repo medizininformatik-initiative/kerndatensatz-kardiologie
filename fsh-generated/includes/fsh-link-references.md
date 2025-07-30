@@ -20,7 +20,8 @@
 [mii-exa-kardio-ekg-kanal-i]: Device-mii-exa-kardio-ekg-kanal-i.html
 [mii-exa-kardio-ekg-kanal-ii]: Device-mii-exa-kardio-ekg-kanal-ii.html
 [mii-exa-kardio-ekg-kanal-iii]: Device-mii-exa-kardio-ekg-kanal-iii.html
-[mii-exa-kardio-ekg-metadaten-sample-rate]: Observation-mii-exa-kardio-ekg-metadaten-sample-rate.html
+[mii-exa-kardio-ekg-referenz]: DocumentReference-mii-exa-kardio-ekg-referenz.html
+[mii-exa-kardio-ekg-rr-interval]: Observation-mii-exa-kardio-ekg-rr-interval.html
 [mii-exa-kardio-geraeteprogrammierung-vvi]: Observation-mii-exa-kardio-geraeteprogrammierung-vvi.html
 [mii-exa-kardio-herzinsuffizienz-unbekannt]: Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.html
 [mii-exa-kardio-kardiale-deviceimplantation-icd]: Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.html
@@ -32,10 +33,11 @@
 [MII_PR_Kardio_Condition_Diagnose]: StructureDefinition-mii-pr-kardio-condition-diagnose.html
 [MII_PR_Kardio_Device]: StructureDefinition-mii-pr-kardio-device.html
 [MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt]: StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html
+[MII_PR_Kardio_EKG_Annotationen]: StructureDefinition-mii-pr-kardio-ekg-annotationen.html
 [MII_PR_Kardio_EKG_Geraet]: StructureDefinition-mii-pr-kardio-ekg-geraet.html
 [MII_PR_Kardio_EKG_Geraetedefinition]: StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html
 [MII_PR_Kardio_EKG_Kanal]: StructureDefinition-mii-pr-kardio-ekg-kanal.html
-[MII_PR_Kardio_EKG_Metadaten]: StructureDefinition-mii-pr-kardio-ekg-metadaten.html
+[MII_PR_Kardio_EKG_Referenz]: StructureDefinition-mii-pr-kardio-ekg-referenz.html
 [MII_PR_Kardio_Geraeteprogrammierung]: StructureDefinition-mii-pr-kardio-geraeteprogrammierung.html
 [MII_PR_Kardio_Kardiale_Deviceimplantation]: StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.html
 [MII_PR_Kardio_NBG_Schrittmachermodus]: StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.html
@@ -51,11 +53,11 @@
 [MII_VS_Kardio_Artherosklerotisches_Erstereignisse]: ValueSet-mii-vs-kardio-atherosklerotische-erstereignisse.html
 [MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores]: ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.html
 [MII_VS_Kardio_EKG_Kanaele]: ValueSet-mii-vs-kardio-ekg-kanaele.html
-[MII_VS_Kardio_EKG_Metadaten]: ValueSet-mii-vs-kardio-ekg-metadaten.html
 [MII_VS_Kardio_Geraeteprogrammierung]: ValueSet-mii-vs-kardio-geraeteprogrammierung.html
 [MII_VS_Kardio_Geraetetyp]: ValueSet-mii-vs-kardio-geraetetyp.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle.html
+[MII_VS_Kardio_MDC_Metriken_EKG_Annotationen]: ValueSet-mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen.html
 [MII_VS_Kardio_MDC_Objects_Devices]: ValueSet-mii-vs-kardio-mdc-objects-devices.html
 [MII_VS_Kardio_Nein_Unbekannt]: ValueSet-mii-vs-kardio-nein-unbekannt.html
 [MII_CS_Follow_Up]: CodeSystem-mii-cs-follow-up.html

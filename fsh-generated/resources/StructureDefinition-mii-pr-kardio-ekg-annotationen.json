@@ -1,13 +1,13 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "mii-pr-kardio-ekg-metadaten",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-metadaten",
+  "id": "mii-pr-kardio-ekg-annotationen",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotationen",
   "version": "2025.0.0",
-  "name": "MII_PR_Kardio_EKG_Metadaten",
-  "title": "MII PR Kardio EKG Metadaten",
+  "name": "MII_PR_Kardio_EKG_Annotationen",
+  "title": "MII PR Kardio EKG Annotationen",
   "status": "draft",
   "experimental": true,
-  "date": "2025-06-18",
+  "date": "2025-07-30",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz auf den Speicherort.",
+  "description": "Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Interpretationen, eines EKG.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -34,11 +34,42 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.category:vital-signs",
+        "path": "Observation.category",
+        "sliceName": "vital-signs",
+        "min": 1,
+        "max": "1",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "vital-signs",
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+            }
+          ]
+        },
+        "mustSupport": true
+      },
+      {
         "id": "Observation.code",
         "path": "Observation.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-metadaten"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen"
         }
       },
       {
@@ -49,8 +80,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient",
-              "http://hl7.org/fhir/StructureDefinition/Device"
+              "http://hl7.org/fhir/StructureDefinition/Patient"
             ]
           }
         ],
@@ -63,6 +93,12 @@
         "type": [
           {
             "code": "dateTime"
+          },
+          {
+            "code": "Period"
+          },
+          {
+            "code": "instant"
           }
         ],
         "mustSupport": true

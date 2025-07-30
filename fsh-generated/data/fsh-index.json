@@ -128,6 +128,14 @@
     "endLine": 37
   },
   {
+    "outputFile": "DocumentReference-mii-exa-kardio-ekg-referenz.json",
+    "fshName": "mii-exa-kardio-ekg-referenz",
+    "fshType": "Instance",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Referenz.fsh",
+    "startLine": 22,
+    "endLine": 36
+  },
+  {
     "outputFile": "Observation-Example-Kardio-Observation-Rauchen-acribisalpha.json",
     "fshName": "Example-Kardio-Observation-Rauchen-acribisalpha",
     "fshType": "Instance",
@@ -168,12 +176,12 @@
     "endLine": 230
   },
   {
-    "outputFile": "Observation-mii-exa-kardio-ekg-metadaten-sample-rate.json",
-    "fshName": "mii-exa-kardio-ekg-metadaten-sample-rate",
+    "outputFile": "Observation-mii-exa-kardio-ekg-rr-interval.json",
+    "fshName": "mii-exa-kardio-ekg-rr-interval",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Metadaten.fsh",
-    "startLine": 34,
-    "endLine": 46
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Annotationen.fsh",
+    "startLine": 41,
+    "endLine": 58
   },
   {
     "outputFile": "Observation-mii-exa-kardio-geraeteprogrammierung-vvi.json",
@@ -304,6 +312,14 @@
     "endLine": 37
   },
   {
+    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-annotationen.json",
+    "fshName": "MII_PR_Kardio_EKG_Annotationen",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Annotationen.fsh",
+    "startLine": 1,
+    "endLine": 39
+  },
+  {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraet.json",
     "fshName": "MII_PR_Kardio_EKG_Geraet",
     "fshType": "Profile",
@@ -328,12 +344,12 @@
     "endLine": 43
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-metadaten.json",
-    "fshName": "MII_PR_Kardio_EKG_Metadaten",
+    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-referenz.json",
+    "fshName": "MII_PR_Kardio_EKG_Referenz",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Metadaten.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Referenz.fsh",
     "startLine": 1,
-    "endLine": 32
+    "endLine": 20
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-geraeteprogrammierung.json",
@@ -464,10 +480,10 @@
     "endLine": 13
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-ekg-metadaten.json",
-    "fshName": "MII_VS_Kardio_EKG_Metadaten",
+    "outputFile": "ValueSet-mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen.json",
+    "fshName": "MII_VS_Kardio_MDC_Metriken_EKG_Annotationen",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_EKG_Metadaten.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Metriken_EK_Annotationen.fsh",
     "startLine": 1,
     "endLine": 14
   },

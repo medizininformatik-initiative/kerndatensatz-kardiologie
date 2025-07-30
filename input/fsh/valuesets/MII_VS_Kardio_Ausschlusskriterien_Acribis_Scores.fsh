@@ -15,4 +15,4 @@ Description: "ValueSet for exclusion criteria for score computation"
   // 838450006 = Severe mitral valve stenosis (disorder)
   // Severe stenosis of aortic valve (disorder) = SCTID: 836482000
 // Angeborener Herzfehler schon als Diagnose? Sonst hier TODO alle Ausschlusskriterien anlegen? Mehr Möglichkeiten besser oder verwirrend?
-* include codes from system $ausschluss-cs
+* include codes from system $acribis-ausschlusskriterien

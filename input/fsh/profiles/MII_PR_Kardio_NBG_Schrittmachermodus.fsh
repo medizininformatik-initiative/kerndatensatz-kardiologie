@@ -12,7 +12,7 @@ Die konkrete Programmierung eines Herzschrittmachers zu einem bestimmmten Zeitpu
 * ^experimental = true
 * ^date = "2025-05-13"
 
-* type from $devicemetric-type (required)
+* type from $devicemetric-type-vs (required)
 * type.coding 1.. MS
 * type.coding = $mdc#730752
 * type.coding.system 1.. MS

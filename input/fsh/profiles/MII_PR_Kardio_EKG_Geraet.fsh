@@ -15,7 +15,7 @@ Description: "Profil zur Abbildung eines EKG-Gerätes."
 * manufacturer 1.. MS
 * deviceName 1.. MS
 
-* type from $mdc-objects-devices-vs (required)
+* type from MII_VS_Kardio_MDC_Objects_Devices (required)
 * type 1..1 MS
 * type.coding 1.. MS
 

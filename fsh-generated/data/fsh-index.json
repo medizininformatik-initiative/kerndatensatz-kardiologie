@@ -180,8 +180,8 @@
     "fshName": "mii-exa-kardio-herzinsuffizienz-unbekannt",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
-    "startLine": 39,
-    "endLine": 54
+    "startLine": 40,
+    "endLine": 55
   },
   {
     "outputFile": "Observation-mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
@@ -212,8 +212,8 @@
     "fshName": "mii-exa-kardio-pci-nein",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
-    "startLine": 56,
-    "endLine": 72
+    "startLine": 57,
+    "endLine": 73
   },
   {
     "outputFile": "PractitionerRole-example-role-kardiologe.json",
@@ -293,7 +293,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
     "startLine": 1,
-    "endLine": 37
+    "endLine": 38
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraet.json",

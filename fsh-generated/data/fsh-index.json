@@ -52,24 +52,24 @@
     "fshName": "Beispiel-Kardio-Condition-Diagnose-Is-Present",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 85,
-    "endLine": 147
+    "startLine": 75,
+    "endLine": 137
   },
   {
     "outputFile": "Condition-beispiel-kardio-krebs-terminal-liegt-nicht-vor.json",
     "fshName": "Beispiel-Kardio-Condition-Krebs-Endstadium-Not-Present",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 155,
-    "endLine": 213
+    "startLine": 145,
+    "endLine": 203
   },
   {
     "outputFile": "Condition-beispiel-kardio-pavk-unbekannt.json",
     "fshName": "Beispiel-Kardio-Condition-Diagnose-Unknown",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 224,
-    "endLine": 282
+    "startLine": 214,
+    "endLine": 272
   },
   {
     "outputFile": "Device-mii-exa-kardio-device-icd.json",
@@ -277,7 +277,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 74
+    "endLine": 64
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-device.json",

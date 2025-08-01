@@ -34,7 +34,8 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 
 * value[x] 1.. MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from MII_VS_Kardio_Nein_Unbekannt (required)
+* valueCodeableConcept from MII_VS_Kardio_Nein_Unbekannt (extensible)
+* valueCodeableConcept.extension contains $data-absent-reason named data-absent-reason 0..1
 
 Instance: mii-exa-kardio-herzinsuffizienz-unbekannt
 InstanceOf: MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt

@@ -19,7 +19,7 @@ Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers, 
 * category.coding[sct].code = #387713003
 
 * code.coding[sct] 1..
-* code.coding[sct] from $kardiale-deviceimplantation-vs
+* code.coding[sct] from MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT
 * code ^comment = "Hier soll mindestens ein SNOMED-Code angegeben werden.
 Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **ICD**: 395218007 - Implantation of internal cardiac defibrillator (procedure)
@@ -31,7 +31,7 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **BiVAD**: 232968001 - Implantation of cardiac biventricular assist device (procedure)"
 
 * subject only Reference(Patient)
-* bodySite from $koerperstelle-vs (required)
+* bodySite from MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT (required)
 * bodySite ^comment = "Hier soll mindestens ein SNOMED-Code angegeben werden.
 Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **Herzschrittmacher/Implantierter Defibrillator**: 80891009 - Heart structure (body structure)

@@ -32,7 +32,7 @@ Das sollte eine Instanz von *MII PR NBG Schrittmachermodus* sein."
 
 * value[x] 1.. MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from $geraeteprogrammierung-vs (required)
+* valueCodeableConcept from MII_VS_Kardio_Geraeteprogrammierung (required)
 
 Instance: mii-exa-kardio-geraeteprogrammierung-vvi
 InstanceOf: MII_PR_Kardio_Geraeteprogrammierung

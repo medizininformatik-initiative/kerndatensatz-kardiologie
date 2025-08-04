@@ -36,7 +36,7 @@ Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnu
   // Chadvasc: hochgradige Mitralklappenstenose --> Ausschluss höhergradiges Vitium
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from $ausschlusskriterien-acribis-scores-vs (preferred)
+* valueCodeableConcept from MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores (preferred)
 
 // TODO - evtl. noch weitere Ausschlusskriterien zum VS hinzunehmen
 // - angeborener herzfehler --> COdes prüfen und hinzufügen

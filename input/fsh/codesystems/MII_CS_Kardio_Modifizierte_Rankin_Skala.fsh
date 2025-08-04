@@ -2,7 +2,7 @@ CodeSystem: MII_CS_Kardio_Modifizierte_Rankin_Skala
 Id: mii-cs-kardio-modifizierte-rankin-skala
 Title: "CodeSystem - modifizierte Rankin-Skala"
 Description: "Beeinträchtigung des Patienten nach Schlaganfall"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mRS"
+
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #draft
@@ -10,7 +10,7 @@ Description: "Beeinträchtigung des Patienten nach Schlaganfall"
 * ^date = "2025-04-29"
 * ^purpose = "Dieses Code-System bildet die Stufen der modifizierten Rankin-Skala ab."
 * ^caseSensitive = true
-* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mRS"
+* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala"
 * ^content = #complete
 
 // mRS-scale (erweitert s.u.)

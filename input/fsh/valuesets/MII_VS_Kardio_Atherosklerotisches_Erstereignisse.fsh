@@ -1,4 +1,4 @@
-ValueSet: MII_VS_Kardio_Artherosklerotisches_Erstereignisse
+ValueSet: MII_VS_Kardio_Artherosklerotische_Erstereignisse
 Id: mii-vs-kardio-atherosklerotische-erstereignisse
 Title: "MII VS Kardio Atherosklerotische Erstereignisse"
 Description: "ValueSet for Relevant Codes for Atherosclerotic Events"
@@ -18,14 +18,4 @@ Description: "ValueSet for Relevant Codes for Atherosclerotic Events"
 // Achtung, beim Folgenden handelt es sich um eine Prozedur, keine Diagnose
 * $sct#1287902001 "Operation on carotid artery (procedure)"
 
-* include codes from system https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse
-
-//* include codes from system $sct where code = #53741008   // Display: "transitorische ischämische Attacke (TIA)"
-//* include codes from system $sct where code = #88032003   // Display: "Amaurosis fugax"
-//* include codes from system $sct where code = #422504002    // Display: "Apoplex (ischämischer Schlaganfall)"
-//* include codes from system $sct where code = #232035005   // Display: "Retinainfarkt (z. B. retinaler Arterienverschluss)"
-//* include codes from system $sct where code = #399957001   // Display: "Periphere arterielle Verschlusskrankheit (pAVK)"
-//* include codes from system $sct where code = #233985008  // Display: "Bauchaortenaneurysma" = I71.1-9
-
-// Achtung, beim Folgenden handelt es sich um eine Prozedur, keine Diagnose
-//* include codes from system $sct where code = #1287902001   // Display: "Operation der Carotiden (Carotis-Endarteriektomie)"
+* include codes from system MII_CS_Kardio_Atherosklerotische_Erstereignisse

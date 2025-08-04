@@ -18,7 +18,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 //     Severe = 24484000; Moderate = 6736007; Mild = 255604002;
 //     Terminal/End-stage = 42796001;
 * severity 0..1 MS
-* severity from $extended-condition-severity-vs (preferred)
+* severity from MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT (preferred)
 * severity ^comment = "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis."
 
 // Subject

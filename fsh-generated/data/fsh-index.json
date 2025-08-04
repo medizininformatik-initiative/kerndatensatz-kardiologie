@@ -52,24 +52,24 @@
     "fshName": "Beispiel-Kardio-Condition-Diagnose-Is-Present",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 85,
-    "endLine": 147
+    "startLine": 75,
+    "endLine": 137
   },
   {
     "outputFile": "Condition-beispiel-kardio-krebs-terminal-liegt-nicht-vor.json",
     "fshName": "Beispiel-Kardio-Condition-Krebs-Endstadium-Not-Present",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 155,
-    "endLine": 213
+    "startLine": 145,
+    "endLine": 203
   },
   {
     "outputFile": "Condition-beispiel-kardio-pavk-unbekannt.json",
     "fshName": "Beispiel-Kardio-Condition-Diagnose-Unknown",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 224,
-    "endLine": 282
+    "startLine": 214,
+    "endLine": 272
   },
   {
     "outputFile": "Device-mii-exa-kardio-device-icd.json",
@@ -180,8 +180,8 @@
     "fshName": "mii-exa-kardio-herzinsuffizienz-unbekannt",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
-    "startLine": 39,
-    "endLine": 54
+    "startLine": 40,
+    "endLine": 55
   },
   {
     "outputFile": "Observation-mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
@@ -212,8 +212,8 @@
     "fshName": "mii-exa-kardio-pci-nein",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
-    "startLine": 56,
-    "endLine": 72
+    "startLine": 57,
+    "endLine": 73
   },
   {
     "outputFile": "PractitionerRole-example-role-kardiologe.json",
@@ -277,7 +277,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 74
+    "endLine": 64
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-device.json",
@@ -293,7 +293,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
     "startLine": 1,
-    "endLine": 37
+    "endLine": 38
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraet.json",

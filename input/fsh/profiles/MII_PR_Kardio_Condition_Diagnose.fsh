@@ -9,18 +9,8 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 //_________________________category
 // IG: Die relevanten Diagnosen sind nicht nur die Abrechnungsrelevanten, 
 //     wir nehmen auch Nebendiagnosen, ungesicherte Diagnosen etc. aka "Problem-List-Items".
-* category 0..*
-* category ^slicing.discriminator.type = #pattern
-* category ^slicing.discriminator.path = "$this"
-* category ^slicing.rules = #open // erlaubt jegliche category slice (names)
-* category ^slicing.ordered = false
-* category ^slicing.description = "Unterscheidung zwischen Falldiagnose und beliebiger Diagnose."
-* category contains                         // defines slice name(s), no need for ^sliceName-Rule
-    diagnosis_category 0..1
-* category[diagnosis_category] ^comment = "Unterscheidung zwischen Falldiagnose (encounter-diagnose) und beliebiger Diagnose (problem-list-item)."
-* category[diagnosis_category] only CodeableConcept
-* category[diagnosis_category].coding 1..1
-* category[diagnosis_category] from http://hl7.org/fhir/ValueSet/condition-category (required) //$condition-category-vs
+* category 0..* MS
+* category ^comment = "Unterscheidung zwischen Falldiagnose (encounter-diagnose) und beliebiger Diagnose (problem-list-item)."
 
 //_________________________severity
 // IG: Fuer  das Datenitem "terminale Krebserkrankung" soll abbildbar sein, ob eine erfasste Krebserkrankung Terminal ist. 
@@ -92,9 +82,9 @@ Usage: #example
 
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category[diagnosis_category].coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
-* category[diagnosis_category].coding.code = #problem-list-item
-* category[diagnosis_category].coding.display = "Problem List Item"
+* category.coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
+* category.coding.code = #problem-list-item
+* category.coding.display = "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
@@ -162,9 +152,9 @@ Usage: #example
 
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category[diagnosis_category].coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
-* category[diagnosis_category].coding.code = #problem-list-item
-* category[diagnosis_category].coding.display = "Problem List Item"
+* category.coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
+* category.coding.code = #problem-list-item
+* category.coding.display = "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
@@ -231,9 +221,9 @@ Usage: #example
 
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category[diagnosis_category].coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
-* category[diagnosis_category].coding.code = #problem-list-item
-* category[diagnosis_category].coding.display = "Problem List Item"
+* category.coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
+* category.coding.code = #problem-list-item
+* category.coding.display = "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)

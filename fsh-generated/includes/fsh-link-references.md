@@ -53,6 +53,7 @@
 [MII_VS_Kardio_Artherosklerotische_Erstereignisse]: ValueSet-mii-vs-kardio-atherosklerotische-erstereignisse.html
 [MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores]: ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.html
 [MII_VS_Kardio_EKG_Kanaele]: ValueSet-mii-vs-kardio-ekg-kanaele.html
+[MII_VS_Kardio_Ethnie_SNOMED]: ValueSet-mii-vs-kardio-ethnie-snomed.html
 [MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT]: ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.html
 [MII_VS_Kardio_Geraeteprogrammierung]: ValueSet-mii-vs-kardio-geraeteprogrammierung.html
 [MII_VS_Kardio_Geraetetyp]: ValueSet-mii-vs-kardio-geraetetyp.html
@@ -60,16 +61,14 @@
 [MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.html
 [MII_VS_Kardio_MDC_Metriken_EKG_Annotationen]: ValueSet-mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen.html
 [MII_VS_Kardio_MDC_Objects_Devices]: ValueSet-mii-vs-kardio-mdc-objects-devices.html
+[MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
 [MII_VS_Kardio_Modifizierte_Rankin_Skala]: ValueSet-mii-vs-kardio-modifizierte-rankin-skala.html
 [MII_VS_Kardio_Nein_Unbekannt]: ValueSet-mii-vs-kardio-nein-unbekannt.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMEDCT]: ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html
 [MII_CS_Follow_Up]: CodeSystem-mii-cs-follow-up.html
 [MII_VS_Kardio_Allergene_SNOMED]: ValueSet-mii-vs-kardio-allergene-snomed.html
-[MII_VS_Kardio_Diagnose_ICD10GM]: ValueSet-mii-vs-kardio-diagnose-icd10gm.html
-[MII_VS_Kardio_Ethnie_SNOMED]: ValueSet-mii-vs-kardio-ethnie-snomed.html
 [MII_VS_Kardio_Gewichtsveraenderung_SNOMED]: ValueSet-mii-vs-kardio-gewichtsveraenderung-snomed.html
 [MII_VS_Kardio_Implant_Device_EMDN]: ValueSet-mii-vs-kardio-implant-device-emdn.html
 [MII_VS_Kardio_Lebensmittelpunkt_m49]: ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.html
-[MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
 [MII_CS_Rauchen_LOCAL]: CodeSystem-mii-cs-rauchen.html
 [example-role-kardiologe]: PractitionerRole-example-role-kardiologe.html

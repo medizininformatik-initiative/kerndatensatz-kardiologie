@@ -26,7 +26,7 @@
   "dependsOn": [
     {
       "packageId": "de.basisprofil.r4",
-      "version": "1.5.3",
+      "version": "1.5.4",
       "uri": "http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4",
       "id": "de_basisprofil_r4"
     },
@@ -505,6 +505,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ethnie-snomed"
+        },
+        "name": "MII VS Kardio Ethnie [SNOMED]",
+        "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-extended-condition-severity-snomedct"
         },
         "name": "MII VS Kardio Extended Condition Severity [SNOMED CT]",
@@ -561,6 +569,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-medikation"
+        },
+        "name": "MII VS Kardio Medikation",
+        "description": "ATC-Codes der in der Kardiologie relevanter Medikamente.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-modifizierte-rankin-skala"
         },
         "name": "MII VS Kardio Modifizierte Rankin Skala",
@@ -601,22 +617,6 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-diagnose-icd10gm"
-        },
-        "name": "MII_VS_Kardio_Diagnose_ICD10-GM",
-        "description": "ICD10-GM Codes für kardiologische Erkrankungen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ethnie-snomed"
-        },
-        "name": "MII_VS_Kardio_Ethnie_SNOMED",
-        "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "ValueSet/mii-vs-kardio-gewichtsveraenderung-snomed"
         },
         "name": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
@@ -636,14 +636,6 @@
           "reference": "ValueSet/mii-vs-kardio-lebensmittelpunkt-m49"
         },
         "name": "MII_VS_Kardio_Lebensmittelpunkt_m49",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-medikation"
-        },
-        "name": "MII_VS_Kardio_Medikation",
-        "description": "ATC-Codes 'de' in der Kardiologie relevanter Medikamente.",
         "exampleBoolean": false
       },
       {

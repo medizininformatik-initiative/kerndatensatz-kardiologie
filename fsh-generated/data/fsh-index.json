@@ -464,14 +464,6 @@
     "endLine": 18
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-diagnose-icd10gm.json",
-    "fshName": "MII_VS_Kardio_Diagnose_ICD10GM",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Diagnose.fsh",
-    "startLine": 1,
-    "endLine": 25
-  },
-  {
     "outputFile": "ValueSet-mii-vs-kardio-ekg-kanaele.json",
     "fshName": "MII_VS_Kardio_EKG_Kanaele",
     "fshType": "ValueSet",
@@ -493,7 +485,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Ethnie.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 15
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.json",
@@ -573,7 +565,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Medikation.fsh",
     "startLine": 1,
-    "endLine": 164
+    "endLine": 162
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-modifizierte-rankin-skala.json",

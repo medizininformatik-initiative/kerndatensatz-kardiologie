@@ -467,7 +467,7 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
         },
-        "name": "MII PR Kardio Score modifizierte Rankin Skala",
+        "name": "MII PR Kardio Score Modifizierte Rankin Skala",
         "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
         "exampleBoolean": false
       },
@@ -505,6 +505,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-extended-condition-severity-snomedct"
+        },
+        "name": "MII VS Kardio Extended Condition Severity [SNOMED CT]",
+        "description": "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung"
         },
         "name": "MII VS Kardio Geräteprogrammierung",
@@ -521,18 +529,18 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation"
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"
         },
-        "name": "MII VS Kardio Kardiale Devicemimplantation",
-        "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+        "name": "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+        "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle"
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct"
         },
-        "name": "MII VS Kardio Kardiale Devicemimplantation Körperstelle",
-        "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
+        "name": "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
+        "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
         "exampleBoolean": false
       },
       {
@@ -553,10 +561,26 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-modifizierte-rankin-skala"
+        },
+        "name": "MII VS Kardio Modifizierte Rankin Skala",
+        "description": "Stufen der modifizierten Rankin-Skala",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-nein-unbekannt"
         },
         "name": "MII VS Kardio Nein Unbekannt",
         "description": "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnose, bzw. Prozedur, oder Unklarheit darüber.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-nyha-klassen-snomedct"
+        },
+        "name": "MII VS Kardio NYHA Klassen [SNOMED CT]",
+        "description": "Klassen der New York Heart Association Classification",
         "exampleBoolean": false
       },
       {
@@ -593,14 +617,6 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-extended-condition-severity"
-        },
-        "name": "MII_VS_Kardio_Extended_Condition_Severity_SNOMED",
-        "description": "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "ValueSet/mii-vs-kardio-gewichtsveraenderung-snomed"
         },
         "name": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
@@ -628,22 +644,6 @@
         },
         "name": "MII_VS_Kardio_Medikation",
         "description": "ATC-Codes 'de' in der Kardiologie relevanter Medikamente.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-mrs-stufen"
-        },
-        "name": "MII_VS_Kardio_mRS_Stufen",
-        "description": "Stufen der modifizierten Rankin-Skala",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-nyha-klassen-snomed"
-        },
-        "name": "MII_VS_Kardio_NYHA_Klassen_SNOMED",
-        "description": "Klassen der New York Heart Association Classification",
         "exampleBoolean": false
       },
       {

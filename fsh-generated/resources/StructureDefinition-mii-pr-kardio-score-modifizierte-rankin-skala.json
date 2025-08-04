@@ -3,8 +3,8 @@
   "id": "mii-pr-kardio-score-modifizierte-rankin-skala",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala",
   "version": "2025.0.0",
-  "name": "MII_PR_Kardio_Score_modifizierte_Rankin_Skala",
-  "title": "MII PR Kardio Score modifizierte Rankin Skala",
+  "name": "MII_PR_Kardio_Score_Modifizierte_Rankin_Skala",
+  "title": "MII PR Kardio Score Modifizierte Rankin Skala",
   "status": "draft",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -138,7 +138,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-mrs-stufen"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala"
         }
       },
       {

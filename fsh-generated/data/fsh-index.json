@@ -33,9 +33,9 @@
   },
   {
     "outputFile": "CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.json",
-    "fshName": "MII_CS_Kardio_modifizierte_Rankin_Skala",
+    "fshName": "MII_CS_Kardio_Modifizierte_Rankin_Skala",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_mRS.fsh",
+    "fshFile": "codesystems\\MII_CS_Kardio_Modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
     "endLine": 28
   },
@@ -51,7 +51,7 @@
     "outputFile": "Condition-beispiel-kardio-diagnose-liegt-vor.json",
     "fshName": "Beispiel-Kardio-Condition-Diagnose-Is-Present",
     "fshType": "Instance",
-    "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 75,
     "endLine": 137
   },
@@ -59,7 +59,7 @@
     "outputFile": "Condition-beispiel-kardio-krebs-terminal-liegt-nicht-vor.json",
     "fshName": "Beispiel-Kardio-Condition-Krebs-Endstadium-Not-Present",
     "fshType": "Instance",
-    "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 145,
     "endLine": 203
   },
@@ -67,7 +67,7 @@
     "outputFile": "Condition-beispiel-kardio-pavk-unbekannt.json",
     "fshName": "Beispiel-Kardio-Condition-Diagnose-Unknown",
     "fshType": "Instance",
-    "fshFile": "profiles/MII_PR_Kardio_Condition_Diagnose.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
     "startLine": 214,
     "endLine": 272
   },
@@ -157,7 +157,7 @@
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
     "startLine": 48,
-    "endLine": 73
+    "endLine": 71
   },
   {
     "outputFile": "Observation-example-kardio-nyha.json",
@@ -195,7 +195,7 @@
     "outputFile": "Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.json",
     "fshName": "mii-exa-kardio-herzinsuffizienz-unbekannt",
     "fshType": "Instance",
-    "fshFile": "profiles/MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
     "startLine": 40,
     "endLine": 55
   },
@@ -227,7 +227,7 @@
     "outputFile": "Observation-mii-exa-kardio-pci-nein.json",
     "fshName": "mii-exa-kardio-pci-nein",
     "fshType": "Instance",
-    "fshFile": "profiles/MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
     "startLine": 57,
     "endLine": 73
   },
@@ -425,7 +425,7 @@
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json",
-    "fshName": "MII_PR_Kardio_Score_modifizierte_Rankin_Skala",
+    "fshName": "MII_PR_Kardio_Score_Modifizierte_Rankin_Skala",
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
@@ -449,7 +449,7 @@
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-atherosklerotische-erstereignisse.json",
-    "fshName": "MII_VS_Kardio_Artherosklerotisches_Erstereignisse",
+    "fshName": "MII_VS_Kardio_Artherosklerotische_Erstereignisse",
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Atherosklerotisches_Erstereignisse.fsh",
     "startLine": 1,
@@ -496,12 +496,12 @@
     "endLine": 17
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-extended-condition-severity.json",
-    "fshName": "MII_VS_Kardio_Extended_Condition_Severity_SNOMED",
+    "outputFile": "ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.json",
+    "fshName": "MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_extended-condition-severity.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung.json",
@@ -536,18 +536,18 @@
     "endLine": 51
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle.json",
-    "fshName": "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle",
+    "outputFile": "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.json",
+    "fshName": "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT.fsh",
     "startLine": 1,
     "endLine": 16
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-kardiale-deviceimplantation.json",
-    "fshName": "MII_VS_Kardio_Kardiale_Deviceimplantation",
+    "outputFile": "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.json",
+    "fshName": "MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Kardiale_Deviceimplantation.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT.fsh",
     "startLine": 1,
     "endLine": 18
   },
@@ -576,12 +576,12 @@
     "endLine": 164
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-mrs-stufen.json",
-    "fshName": "MII_VS_Kardio_mRS_Stufen",
+    "outputFile": "ValueSet-mii-vs-kardio-modifizierte-rankin-skala.json",
+    "fshName": "MII_VS_Kardio_Modifizierte_Rankin_Skala",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_mRS.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 28
+    "endLine": 13
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-nein-unbekannt.json",
@@ -592,11 +592,11 @@
     "endLine": 16
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-nyha-klassen-snomed.json",
-    "fshName": "MII_VS_Kardio_NYHA_Klassen_SNOMED",
+    "outputFile": "ValueSet-mii-vs-kardio-nyha-klassen-snomedct.json",
+    "fshName": "MII_VS_Kardio_NYHA_Klassen_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_NYHA-Klassen.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_NYHA_Klassen_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 20
   }
 ]

@@ -10,7 +10,8 @@
     {
       "coding": [
         {
-          "code": "survey"
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
     }
@@ -31,14 +32,14 @@
     "text": "Koronarintervention mit PCI/Stent"
   },
   "subject": {
-    "reference": "Patient/mii-exa-person-patient-minimal"
+    "display": "Beispielpatient"
   },
   "device": {
-    "reference": "Device/example-tablet"
+    "display": "Beispieltablet"
   },
   "derivedFrom": [
     {
-      "reference": "QuestionaireResponse/example-qr"
+      "display": "Beispielfragebogen"
     }
   ],
   "status": "final",

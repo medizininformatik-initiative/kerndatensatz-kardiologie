@@ -39,7 +39,7 @@
     ]
   },
   "subject": {
-    "reference": "Patient/mii-exa-person-patient-minimal"
+    "display": "Beispielpatient"
   },
   "bodySite": [
     {

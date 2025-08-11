@@ -4,33 +4,15 @@
   "content": "complete",
   "name": "MII_CS_Kardio_Lebensmittelpunkt",
   "id": "mii-cs-kardio-lebensmittelpunkt",
-  "title": "CodeSystem - Lebensmittelpunkt",
+  "title": "MII CS Kardio Lebensmittelpunkt",
   "description": "Lebensmittelpunkt des Patienten",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/Lebensmittelpunkt",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-lebensmittelpunkt",
   "concept": [
     {
-      "code": "276",
-      "display": "Deutschland"
-    },
-    {
-      "code": "528",
-      "display": "Niederlande"
-    },
-    {
-      "code": "155",
-      "display": "Westeuropa"
-    },
-    {
-      "code": "021",
-      "display": "Nordamerika"
-    },
-    {
-      "code": "AO",
+      "code": "ao",
       "display": "Anderer Ort"
     }
   ],
-  "experimental": true,
-  "date": "2025-01-30",
   "version": "2025.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -43,8 +25,9 @@
       ]
     }
   ],
+  "experimental": true,
+  "date": "2025-01-30",
   "purpose": "Dieses Code System bildet die aktuellen Lebensmittelpunkt des Patienten unabhängig von seiner Herkunft ab. Damit wird der Parameter 'Geographic region' des SMART-REACH-Scores mit der Ergänzung Deutschland abgebildet.",
   "caseSensitive": true,
-  "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/Lebensmittelpunkt",
-  "count": 5
+  "count": 1
 }

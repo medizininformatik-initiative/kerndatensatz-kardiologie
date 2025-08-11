@@ -16,18 +16,18 @@
     ]
   },
   "subject": {
-    "reference": "Patient/demo-patient"
+    "display": "Beispielpatient"
   },
   "performer": [
     {
-      "reference": "PractitionerRole/demo-kardiologe"
+      "display": "Beispielkardiologe"
     }
   ],
   "valueCodeableConcept": {
     "coding": [
       {
         "code": "hv",
-        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-scores",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-ausschlusskriterium-acribis-scores",
         "display": "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
       }
     ]

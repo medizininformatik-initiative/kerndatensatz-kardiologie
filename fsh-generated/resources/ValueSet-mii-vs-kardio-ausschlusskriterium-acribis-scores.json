@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_Ausschlusskriterium_ACRIBiS_Scores",
+  "id": "mii-vs-kardio-ausschlusskriterium-acribis-scores",
+  "title": "MII VS Kardio Ausschlusskriterium ACRIBiS Scores",
+  "description": "ValueSet for exclusion criteria for score computation",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ausschlusskriterium-acribis-scores",
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-ausschlusskriterium-acribis-scores"
+      }
+    ]
+  }
+}

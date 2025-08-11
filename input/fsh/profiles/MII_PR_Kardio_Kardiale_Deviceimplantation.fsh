@@ -62,7 +62,7 @@ Usage: #example
 * status = #completed
 * category.coding[sct] = $sct#387713003 "Surgical procedure (procedure)"
 * code.coding[sct] = $sct#395218007 "Implantation of internal cardiac defibrillator (procedure)"
-* subject.reference = "Patient/mii-exa-person-patient-minimal"
+* subject.display = "Beispielpatient"
 * performedDateTime = "2020-04"
 * bodySite.coding = $sct#80891009 "Heart structure (body structure)"
 * note.text = "Implantation eines ICDs im April 2020"

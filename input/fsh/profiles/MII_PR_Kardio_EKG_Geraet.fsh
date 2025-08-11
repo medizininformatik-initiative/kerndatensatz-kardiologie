@@ -34,4 +34,4 @@ Usage: #example
 * deviceName.type = #model-name
 * type.coding[0] = $mdc#69797 "MDC_DEV_ECG_MDS"
 * type.coding[1] = $mdc#69798 "MDC_DEV_ECG_VMD"
-* patient.reference = "Patient/mii-exa-person-patient-minimal"
+* patient.display = "Beispielpatient"

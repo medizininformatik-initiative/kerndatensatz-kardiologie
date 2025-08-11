@@ -44,15 +44,15 @@ Description: "Beispiel: Der Patient weiß nicht, ob er Herzinsuffizienz hat."
 Usage: #example
 
 * status = #final
-* category = #survey
+* category = $observation-category#survey
 * code.coding[0] = $sct#84114007 "Heart failure (disorder)"
 * code.coding[1] = $icd-10-gm#I50.9 "Herzinsuffizienz, nicht näher bezeichnet"
-* subject.reference = "Patient/mii-exa-person-patient-minimal"
+* subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-06-06T14:29:34.214+02:00"
 * valueCodeableConcept = $v2-0532#ASKU "asked but unknown"
 * method =  $sct#129431000 "History taking - action (qualifier value)"
-* device.reference = "Device/example-tablet"
-* derivedFrom.reference = "QuestionaireResponse/example-qr"
+* device.display = "Beispieltablet"
+* derivedFrom.display = "Beispielfragebogen"
 
 Instance: mii-exa-kardio-pci-nein
 InstanceOf: MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt
@@ -61,13 +61,13 @@ Description: "Beispiel: Der Patient hatte noch keine Koronarintervention mit PCI
 Usage: #example
 
 * status = #final
-* category = #survey
+* category = $observation-category#survey
 * code.text = "Koronarintervention mit PCI/Stent"
 * code.coding[0] = $sct#415070008 "Percutaneous transluminal coronary intervention using imaging guidance with contrast (procedure)"
 * code.coding[1] = $ops#8-837.y "N.n.bez."
-* subject.reference = "Patient/mii-exa-person-patient-minimal"
+* subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-06-06T14:29:34.214+02:00"
 * valueCodeableConcept = $v2-0532#N "No"
 * method =  $sct#129431000 "History taking - action (qualifier value)"
-* device.reference = "Device/example-tablet"
-* derivedFrom.reference = "QuestionaireResponse/example-qr"
+* device.display = "Beispieltablet"
+* derivedFrom.display = "Beispielfragebogen"

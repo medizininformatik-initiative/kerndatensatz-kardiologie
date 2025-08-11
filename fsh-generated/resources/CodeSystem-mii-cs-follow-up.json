@@ -36,5 +36,7 @@
       ]
     }
   ],
+  "experimental": true,
+  "caseSensitive": true,
   "count": 3
 }

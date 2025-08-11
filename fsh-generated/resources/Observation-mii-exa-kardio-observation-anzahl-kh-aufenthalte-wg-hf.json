@@ -16,11 +16,11 @@
     ]
   },
   "subject": {
-    "reference": "Patient/demo-patient"
+    "display": "Beispielpatient"
   },
   "performer": [
     {
-      "reference": "PractitionerRole/demo-kardiologe"
+      "reference": "Beispielkardiologe"
     }
   ],
   "component": [

@@ -36,7 +36,7 @@ Description: "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnu
   // Chadvasc: hochgradige Mitralklappenstenose --> Ausschluss höhergradiges Vitium
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores (preferred)
+* valueCodeableConcept from MII_VS_Kardio_Ausschlusskriterium_ACRIBiS_Scores (preferred)
 
 // TODO - evtl. noch weitere Ausschlusskriterien zum VS hinzunehmen
 // - angeborener herzfehler --> COdes prüfen und hinzufügen
@@ -50,7 +50,7 @@ Usage: #example
 
 * status = #final
 * code.coding = $sct#271000124103 "Medical reason for exclusion from performance measure (observable entity)"
-* subject.reference = "Patient/demo-patient"
+* subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-05-21T17:35:22+02:00"
-* performer.reference = "PractitionerRole/demo-kardiologe"
-* valueCodeableConcept.coding = MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores#hv "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
+* performer.display = "Beispielkardiologe"
+* valueCodeableConcept.coding = MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores#hv "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"

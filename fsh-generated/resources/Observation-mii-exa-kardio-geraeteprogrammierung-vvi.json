@@ -21,12 +21,12 @@
   },
   "focus": [
     {
-      "reference": "DeviceMetric/mii-exa-kardio-brady-pacing-mode"
+      "reference": "DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus"
     }
   ],
   "performer": [
     {
-      "reference": "Practitioner/example-practitioner"
+      "display": "Beipielarzt"
     }
   ],
   "valueCodeableConcept": {

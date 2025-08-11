@@ -7,13 +7,12 @@
 [example-lvef]: Observation-example-lvef.html
 [example-kardio-mrs]: Observation-example-kardio-mrs.html
 [example-kardio-nyha]: Observation-example-kardio-nyha.html
-[MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
-[MII_CS_Kardio_Modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
 [MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
-[MII_CS_Kardio_Atherosklerotische_Erstereignisse]: CodeSystem-mii-cs-kardio-atherosklerotische-erstereignisse.html
-[MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores]: CodeSystem-mii-cs-kardio-ausschlusskriterien-acribis-scores.html
+[MII_CS_Kardio_Atherosklerotisches_Erstereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-erstereignis.html
+[MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: CodeSystem-mii-cs-kardio-ausschlusskriterium-acribis-scores.html
+[MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
 [mii-exa-kardio-device-icd]: Device-mii-exa-kardio-device-icd.html
 [mii-exa-kardio-ekg-geraet-mortara]: Device-mii-exa-kardio-ekg-geraet-mortara.html
 [mii-exa-kardio-ekg-geraetedefinition-mortara]: DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.html
@@ -50,8 +49,8 @@
 [MII_PR_Kardio_Procedure_EKG]: StructureDefinition-mii-pr-kardio--procedure-ekg.html
 [MII_PR_Kardio_Score_Modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
-[MII_VS_Kardio_Artherosklerotische_Erstereignisse]: ValueSet-mii-vs-kardio-atherosklerotische-erstereignisse.html
-[MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores]: ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.html
+[MII_VS_Kardio_Artherosklerotisches_Erstereignis]: ValueSet-mii-vs-kardio-atherosklerotisches-erstereignis.html
+[MII_VS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: ValueSet-mii-vs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_VS_Kardio_EKG_Kanaele]: ValueSet-mii-vs-kardio-ekg-kanaele.html
 [MII_VS_Kardio_Ethnie_SNOMED]: ValueSet-mii-vs-kardio-ethnie-snomed.html
 [MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT]: ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.html
@@ -59,6 +58,7 @@
 [MII_VS_Kardio_Geraetetyp]: ValueSet-mii-vs-kardio-geraetetyp.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.html
+[MII_VS_Kardio_Lebensmittelpunkt_M49]: ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.html
 [MII_VS_Kardio_MDC_Metriken_EKG_Annotationen]: ValueSet-mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen.html
 [MII_VS_Kardio_MDC_Objects_Devices]: ValueSet-mii-vs-kardio-mdc-objects-devices.html
 [MII_VS_Kardio_Medikation]: ValueSet-mii-vs-kardio-medikation.html
@@ -69,6 +69,6 @@
 [MII_VS_Kardio_Allergene_SNOMED]: ValueSet-mii-vs-kardio-allergene-snomed.html
 [MII_VS_Kardio_Gewichtsveraenderung_SNOMED]: ValueSet-mii-vs-kardio-gewichtsveraenderung-snomed.html
 [MII_VS_Kardio_Implant_Device_EMDN]: ValueSet-mii-vs-kardio-implant-device-emdn.html
-[MII_VS_Kardio_Lebensmittelpunkt_m49]: ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.html
-[MII_CS_Rauchen_LOCAL]: CodeSystem-mii-cs-rauchen.html
+[MII_CS_Rauchen_Einheiten]: CodeSystem-mii-cs-rauchen-einheiten.html
+[MII_CS_Kardio_Modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html
 [example-role-kardiologe]: PractitionerRole-example-role-kardiologe.html

@@ -48,4 +48,4 @@ Usage: #example
 * type.coding.system = $sct
 * type.coding.code = #72506001
 * type.coding.display = "Implantable defibrillator, device (physical object)"
-* patient.reference = "Patient/mii-exa-person-patient-minimal"
+* patient.display = "Beispielpatient"

@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_Artherosklerotische_Erstereignisse",
-  "id": "mii-vs-kardio-atherosklerotische-erstereignisse",
-  "title": "MII VS Kardio Atherosklerotische Erstereignisse",
+  "name": "MII_VS_Kardio_Artherosklerotisches_Erstereignis",
+  "id": "mii-vs-kardio-atherosklerotisches-erstereignis",
+  "title": "MII VS Kardio Atherosklerotisches Erstereignis",
   "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotische-erstereignisse",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-erstereignis",
   "version": "2025.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -54,7 +54,7 @@
         ]
       },
       {
-        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse"
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-erstereignis"
       }
     ]
   }

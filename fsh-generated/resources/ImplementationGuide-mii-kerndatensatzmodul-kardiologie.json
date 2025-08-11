@@ -137,22 +137,6 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
-        },
-        "name": "CodeSystem - Lebensmittelpunkt",
-        "description": "Lebensmittelpunkt des Patienten",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-modifizierte-rankin-skala"
-        },
-        "name": "CodeSystem - modifizierte Rankin-Skala",
-        "description": "Beeinträchtigung des Patienten nach Schlaganfall",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/mii-ex-kardio-ageatadmission"
         },
         "name": "Extension - AgeExtension",
@@ -177,18 +161,26 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse"
+          "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-erstereignis"
         },
-        "name": "MII CS Kardio Atherosklerotische Erstereignisse",
+        "name": "MII CS Kardio Atherosklerotisches Erstereignis",
         "description": "Code für ein unbestimmtes atherosklerotisches Erstereignis",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-scores"
+          "reference": "CodeSystem/mii-cs-kardio-ausschlusskriterium-acribis-scores"
         },
-        "name": "MII CS Kardio Ausschlusskriterien ACRIBiS Scores",
+        "name": "MII CS Kardio Ausschlusskriterium ACRIBiS Scores",
         "description": "Ausschlusskriterien für ACRIBiS Scores",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
+        },
+        "name": "MII CS Kardio Lebensmittelpunkt",
+        "description": "Lebensmittelpunkt des Patienten",
         "exampleBoolean": false
       },
       {
@@ -481,17 +473,17 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-atherosklerotische-erstereignisse"
+          "reference": "ValueSet/mii-vs-kardio-atherosklerotisches-erstereignis"
         },
-        "name": "MII VS Kardio Atherosklerotische Erstereignisse",
+        "name": "MII VS Kardio Atherosklerotisches Erstereignis",
         "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ausschlusskriterien-acribis-scores"
+          "reference": "ValueSet/mii-vs-kardio-ausschlusskriterium-acribis-scores"
         },
-        "name": "MII VS Kardio Ausschlusskriterien ACRIBiS Scores",
+        "name": "MII VS Kardio Ausschlusskriterium ACRIBiS Scores",
         "description": "ValueSet for exclusion criteria for score computation",
         "exampleBoolean": false
       },
@@ -549,6 +541,13 @@
         },
         "name": "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
         "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-lebensmittelpunkt-m49"
+        },
+        "name": "MII VS Kardio Lebensmittelpunkt [M49]",
         "exampleBoolean": false
       },
       {
@@ -633,17 +632,18 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-lebensmittelpunkt-m49"
+          "reference": "CodeSystem/mii-cs-rauchen-einheiten"
         },
-        "name": "MII_VS_Kardio_Lebensmittelpunkt_m49",
+        "name": "MII_VS_Rauchen_Einheiten",
+        "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-rauchen"
+          "reference": "CodeSystem/mii-cs-kardio-modifizierte-rankin-skala"
         },
-        "name": "MII_VS_Rauchen_Einheiten_LOCAL",
-        "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
+        "name": "Modifizierte Rankin-Skala",
+        "description": "Beeinträchtigung des Patienten nach Schlaganfall",
         "exampleBoolean": false
       },
       {

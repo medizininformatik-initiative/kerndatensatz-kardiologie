@@ -2,11 +2,11 @@
   "resourceType": "CodeSystem",
   "status": "draft",
   "content": "complete",
-  "name": "MII_CS_Rauchen_LOCAL",
-  "id": "mii-cs-rauchen",
-  "title": "MII_VS_Rauchen_Einheiten_LOCAL",
+  "name": "MII_CS_Rauchen_Einheiten",
+  "id": "mii-cs-rauchen-einheiten",
+  "title": "MII_VS_Rauchen_Einheiten",
   "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen-einheiten",
   "concept": [
     {
       "code": "pack-years",
@@ -44,5 +44,7 @@
       ]
     }
   ],
+  "experimental": true,
+  "caseSensitive": true,
   "count": 5
 }

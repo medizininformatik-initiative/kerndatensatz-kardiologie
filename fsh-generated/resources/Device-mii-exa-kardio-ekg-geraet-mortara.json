@@ -30,7 +30,7 @@
     ]
   },
   "patient": {
-    "reference": "Patient/mii-exa-person-patient-minimal"
+    "display": "Beispielpatient"
   },
   "status": "active",
   "manufacturer": "Mortara Instrument, Inc."

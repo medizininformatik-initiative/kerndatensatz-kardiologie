@@ -2,11 +2,11 @@
   "resourceType": "CodeSystem",
   "status": "draft",
   "content": "complete",
-  "name": "MII_CS_Kardio_Atherosklerotische_Erstereignisse",
-  "id": "mii-cs-kardio-atherosklerotische-erstereignisse",
-  "title": "MII CS Kardio Atherosklerotische Erstereignisse",
+  "name": "MII_CS_Kardio_Atherosklerotisches_Erstereignis",
+  "id": "mii-cs-kardio-atherosklerotisches-erstereignis",
+  "title": "MII CS Kardio Atherosklerotisches Erstereignis",
   "description": "Code für ein unbestimmtes atherosklerotisches Erstereignis",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-erstereignis",
   "concept": [
     {
       "code": "aee",
@@ -27,6 +27,6 @@
   ],
   "experimental": true,
   "date": "2025-05-21",
-  "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotische-erstereignisse",
+  "caseSensitive": true,
   "count": 1
 }

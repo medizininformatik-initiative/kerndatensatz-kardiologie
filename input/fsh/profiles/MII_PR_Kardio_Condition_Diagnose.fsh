@@ -21,6 +21,8 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * severity from MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT (preferred)
 * severity ^comment = "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis."
 
+* code.coding[icd10-gm] from http://fhir.de/ValueSet/bfarm/icd-10-gm|2025 (required)
+
 // Subject
 * subject 1..1 MS
 * subject only Reference(Patient)
@@ -82,46 +84,32 @@ Usage: #example
 
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category.coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
-* category.coding.code = #problem-list-item
-* category.coding.display = "Problem List Item"
+* category = http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
-* code.coding[0].system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
-* code.coding[0].code = #I21.9
-* code.coding[0].display = "Akuter Myokardinfarkt, nicht näher bezeichnet"
-* code.coding[1].system = "http://snomed.info/sct"
-* code.coding[1].version = "20250501_International"
-* code.coding[1].code = #22298006
-* code.coding[1].display = "Myocardial infarction (disorder)"
+* code.coding[icd10-gm] = http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025#I21.9 "Akuter Myokardinfarkt, nicht näher bezeichnet"
+* code.coding[sct] = http://snomed.info/sct#22298006 "Myocardial infarction (disorder)"
 
 // --------------------------------------
 // SEVERITY (terminal) --> Angabe fuer Krebserkrankung nicht im Endstadium/terminal
-* severity.coding.system = "http://snomed.info/sct"
-* severity.coding.code = #6736007
-* severity.coding.display = "Moderate (severity modifier) (qualifier value)"
+* severity.coding = http://snomed.info/sct#6736007 "Moderate (severity modifier) (qualifier value)"
 
 // --------------------------------------
 // SUBJECT (Patientenreferenz)
-* subject.reference = "Patient/beispiel-patient"
 * subject.display = "Max Mustermann"
 
 // --------------------------------------
 // RECORDER (Patient selbst hat Angabe gemacht / Patient)
-* recorder.reference = "Patient/beispiel-patient"
 * recorder.display = "Patient"
 
 // --------------------------------------
 // ASSERTER (Arzt)
-* asserter.reference = "PractitionerRole/role-onkologe"
 * asserter.display = "Facharzt für Kardiologie"
 
 // --------------------------------------
 // VERIFICATION STATUS -> Arzt hat festgestellt, dass Diagnose wohl nicht vorliegt
-* verificationStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-ver-status"
-* verificationStatus.coding.code = #confirmed
-* verificationStatus.coding.display = "Confirmed"
+* verificationStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status#confirmed "Confirmed"
 
 // --------------------------------------
 // EXTENSION: Feststellungsdatum --> Trifft hier nicht zu, siehe ModifierExtension, Patient gibt in Amanesefragebogen an es nicht zu wissen
@@ -152,46 +140,32 @@ Usage: #example
 
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category.coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
-* category.coding.code = #problem-list-item
-* category.coding.display = "Problem List Item"
+* category = http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
-* code.coding[0].system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
-* code.coding[0].code = #C34.9
-* code.coding[0].display = "Bösartige Neubildung: Bronchien und Lunge, nicht näher bezeichnet"
-* code.coding[1].system = "http://snomed.info/sct"
-* code.coding[1].version = "20250501_International"
-* code.coding[1].code = #254637007
-* code.coding[1].display = "Non-small cell lung cancer (disorder)"
+* code.coding[icd10-gm] = http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025#C34.9 "Bösartige Neubildung: Bronchus oder Lunge, nicht näher bezeichnet"
+* code.coding[sct] = http://snomed.info/sct#254637007 "Non-small cell lung cancer (disorder)"
 
 // --------------------------------------
 // SEVERITY (Endstadium / Terminal)
-* severity.coding.system = "http://snomed.info/sct"
-* severity.coding.code = #42796001
-* severity.coding.display = "Terminal stage (qualifier value)"
+* severity = http://snomed.info/sct#42796001 "End-stage (qualifier value)"
 
 // --------------------------------------
 // SUBJECT
-* subject.reference = "Patient/beispiel-patient-krebs"
-* subject.display = "Erika Musterfrau"
+* subject.display = "Erika Musterfrau (Beispielpatientin mit Krebserkrankung)"
 
 // --------------------------------------
 // RECORDER (Patient selbst hat Angabe gemacht / Patient)
-* recorder.reference = "Patient/beispiel-patient"
-* recorder.display = "Patient"
+* recorder.display = "Erika Musterfrau (Patientin hat selbst Angabe gemacht)"
 
 // --------------------------------------
 // ASSERTER (Arzt)
-* asserter.reference = "PractitionerRole/role-onkologe"
 * asserter.display = "Onkologe"
 
 // --------------------------------------
 // VERIFICATION STATUS (confirmed) --> bezieht sich auf Status der Diagnose oben (nicht auf die Antwort des Patienten)
-* verificationStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-ver-status"
-* verificationStatus.coding.code = #refuted
-* verificationStatus.coding.display = "Refuted"
+* verificationStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status#refuted "Refuted"
 
 // --------------------------------------
 // EXTENSION: Feststellungsdatum
@@ -221,19 +195,12 @@ Usage: #example
 
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category.coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
-* category.coding.code = #problem-list-item
-* category.coding.display = "Problem List Item"
+* category = http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
-* code.coding[0].system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
-* code.coding[0].code = #I70.2
-* code.coding[0].display = "Arteriosklerose der Extremitäten"
-* code.coding[1].system = "http://snomed.info/sct"
-* code.coding[1].version = "20250501"
-* code.coding[1].code = #399957001
-* code.coding[1].display = "Peripheral arterial occlusive disease (disorder)"
+* code.coding[icd10-gm] = http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025#I70.2 "Atherosklerose der Extremitätenarterien"
+* code.coding[sct] = http://snomed.info/sct#399957001 "Peripheral arterial occlusive disease (disorder)"
 
 // --------------------------------------
 // SEVERITY (Endstadium / Terminal)
@@ -243,24 +210,19 @@ Usage: #example
 
 // --------------------------------------
 // SUBJECT
-* subject.reference = "Patient/beispiel-patient-krebs"
 * subject.display = "Erika Musterfrau"
 
 // --------------------------------------
 // RECORDER (Patient selbst hat Angabe gemacht / Patient)
-* recorder.reference = "Patient/beispiel-patient"
 * recorder.display = "Patient"
 
 // --------------------------------------
 // ASSERTER (Arzt)
-* asserter.reference = "PractitionerRole/role-kardiologe"
 * asserter.display = "kardiologe"
 
 // --------------------------------------
 // VERIFICATION STATUS (confirmed) --> bezieht sich auf Status der Diagnose oben (nicht auf die Antwort des Patienten)
-* verificationStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-ver-status"
-* verificationStatus.coding.code = #unconfirmed
-* verificationStatus.coding.display = "Unconfirmed"
+* verificationStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status#unconfirmed "Unconfirmed"
 
 // --------------------------------------
 // EXTENSION: Feststellungsdatum

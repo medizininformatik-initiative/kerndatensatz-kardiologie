@@ -47,9 +47,10 @@ Usage: #example
 * status = #final
 * category[vital-signs] = $observation-category#vital-signs "Vital Signs"
 * code = $mdc#147240 "MDC_ECG_TIME_PD_RR_GL"
-* subject.reference = "https://www.medizininformatik-initiative.de/fhir/core/modul-person/Patient/mii-exa-person-patient-minimal"
+* subject.display = "Beispielpatient"
 * effectivePeriod.start = "2023-05-03T07:38:07Z"
 * effectivePeriod.end = "2023-05-03T07:38:17Z"
+* performer.display = "Kardiologe"
 * valueQuantity.value = 1000
 * valueQuantity.unit = "millisecond"
 * valueQuantity.system = $ucum

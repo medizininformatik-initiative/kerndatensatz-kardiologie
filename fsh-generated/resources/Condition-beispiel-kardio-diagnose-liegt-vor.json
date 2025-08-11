@@ -10,8 +10,8 @@
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
           "code": "problem-list-item",
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
           "display": "Problem List Item"
         }
       ]
@@ -20,13 +20,13 @@
   "code": {
     "coding": [
       {
-        "system": "http://fhir.de/CodeSystem/dimdi/icd-10-gm",
+        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
         "code": "I21.9",
+        "version": "2025",
         "display": "Akuter Myokardinfarkt, nicht näher bezeichnet"
       },
       {
         "system": "http://snomed.info/sct",
-        "version": "20250501_International",
         "code": "22298006",
         "display": "Myocardial infarction (disorder)"
       }
@@ -35,32 +35,20 @@
   "severity": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
         "code": "6736007",
+        "system": "http://snomed.info/sct",
         "display": "Moderate (severity modifier) (qualifier value)"
       }
     ]
   },
   "subject": {
-    "reference": "Patient/beispiel-patient",
     "display": "Max Mustermann"
   },
   "recorder": {
-    "reference": "Patient/beispiel-patient",
     "display": "Patient"
   },
   "asserter": {
-    "reference": "PractitionerRole/role-onkologe",
     "display": "Facharzt für Kardiologie"
-  },
-  "verificationStatus": {
-    "coding": [
-      {
-        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-        "code": "confirmed",
-        "display": "Confirmed"
-      }
-    ]
   },
   "extension": [
     {
@@ -68,6 +56,15 @@
       "valueDateTime": "2023-11-05"
     }
   ],
+  "verificationStatus": {
+    "coding": [
+      {
+        "code": "confirmed",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "display": "Confirmed"
+      }
+    ]
+  },
   "recordedDate": "2025-05-13",
   "onsetDateTime": "2023-11-05"
 }

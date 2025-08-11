@@ -10,7 +10,7 @@ Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Er
 // Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma.
 * code 1..1 MS
 * code.coding 1..1 MS
-* code.coding from MII_VS_Kardio_Artherosklerotische_Erstereignisse (preferred) //TODO SNOMED/ICD
+* code.coding from MII_VS_Kardio_Artherosklerotisches_Erstereignis (preferred) //TODO SNOMED/ICD
 
 // Subject Patient MS 1..1
 * subject 1..1 MS
@@ -36,7 +36,7 @@ Usage: #example
 
 * status = #final
 * code.coding = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse#aee "Atherosklerotisches Erstereignis"
-* subject.reference = "Patient/demo-patient"
+* subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-05-23T13:48:17+02:00"
-* performer.reference = "PractitionerRole/demo-kardiologe"
+* performer.display = "Beispielkardiologe"
 * valueDateTime = "2023-01"

@@ -1,9 +1,10 @@
-ValueSet: MII_VS_Kardio_Lebensmittelpunkt_m49
+ValueSet: MII_VS_Kardio_Lebensmittelpunkt_M49
 Id: mii-vs-kardio-lebensmittelpunkt-m49
-Title: "MII_VS_Kardio_Lebensmittelpunkt_m49"
+Title: "MII VS Kardio Lebensmittelpunkt [M49]"
+
 * insert PR_CS_VS_Version
 * insert Publisher
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-lebensmittelpunkt"
+
 * ^version = "0.0.1"
 * ^status = #draft
 * ^experimental = true
@@ -16,3 +17,5 @@ Title: "MII_VS_Kardio_Lebensmittelpunkt_m49"
 * $m49-geographic-region#021 "Northern America"
 
 * include codes from system $m49-geographic-region
+
+* MII_CS_Kardio_Lebensmittelpunkt#ao

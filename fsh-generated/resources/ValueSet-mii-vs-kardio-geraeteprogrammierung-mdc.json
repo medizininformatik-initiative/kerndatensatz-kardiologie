@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_Geraeteprogrammierung",
-  "id": "mii-vs-kardio-geraeteprogrammierung",
-  "title": "MII VS Kardio Geräteprogrammierung",
+  "name": "MII_VS_Kardio_Geraeteprogrammierung_MDC",
+  "id": "mii-vs-kardio-geraeteprogrammierung-mdc",
+  "title": "MII VS Kardio Geräteprogrammierung [MDC]",
   "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendetd.",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc",
   "version": "2025.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [

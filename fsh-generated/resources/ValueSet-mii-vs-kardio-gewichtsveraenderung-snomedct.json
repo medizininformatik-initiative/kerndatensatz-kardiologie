@@ -1,17 +1,12 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
-  "id": "mii-vs-kardio-gewichtsveraenderung-snomed",
-  "title": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
+  "name": "MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT",
+  "id": "mii-vs-kardio-gewichtsveraenderung-snomedct",
+  "title": "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
   "description": "Beschreibung von Gewichtsveränderungen",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomed",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
-  "version": "0.0.1",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct",
+  "version": "2025.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -32,20 +27,16 @@
         "system": "http://snomed.info/sct",
         "concept": [
           {
-            "code": "11717701000119108",
-            "display": "Slow weight gain"
+            "code": "11717701000119108"
           },
           {
-            "code": "161833006",
-            "display": "Abnormal weight gain"
+            "code": "161833006"
           },
           {
-            "code": "416528001",
-            "display": "Intentional weight loss"
+            "code": "416528001"
           },
           {
-            "code": "448765001",
-            "display": "Unintentional weight loss"
+            "code": "448765001"
           }
         ]
       }

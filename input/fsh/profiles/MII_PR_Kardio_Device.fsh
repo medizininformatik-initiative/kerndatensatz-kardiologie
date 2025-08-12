@@ -13,7 +13,7 @@ Description: "Profil zur Abbildung eines implantierten Herzschrittmachers, Defib
 
 * status MS
 
-* type from MII_VS_Kardio_Geraetetyp (required)
+* type from MII_VS_Kardio_Geraetetyp_SNOMEDCT (required)
 * type 1.. MS
 * type ^comment = "Der Typ soll mit einem SNOMED-Code angegeben werden.
 Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):

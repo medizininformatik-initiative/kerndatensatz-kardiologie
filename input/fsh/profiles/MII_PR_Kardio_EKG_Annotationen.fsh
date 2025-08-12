@@ -20,7 +20,7 @@ Description: "Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Int
 * category contains vital-signs 1..1 MS
 * category[vital-signs] = $observation-category#vital-signs
 
-* code from MII_VS_Kardio_MDC_Metriken_EKG_Annotationen (required)
+* code from MII_VS_Kardio_Metriken_EKG_Annotationen_MDC (required)
 
 * subject 1..1 MS
 * subject only Reference(Patient)

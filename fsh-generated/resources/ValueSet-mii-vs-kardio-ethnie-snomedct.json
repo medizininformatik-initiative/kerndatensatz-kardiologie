@@ -1,12 +1,12 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_Ethnie_SNOMED",
-  "id": "mii-vs-kardio-ethnie-snomed",
-  "title": "MII VS Kardio Ethnie [SNOMED]",
+  "name": "MII_VS_Kardio_Ethnie_SNOMEDCT",
+  "id": "mii-vs-kardio-ethnie-snomedct",
+  "title": "MII VS Kardio Ethnie [SNOMED CT]",
   "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomed",
-  "version": "0.0.1",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct",
+  "version": "2025.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -19,23 +19,20 @@
     }
   ],
   "experimental": true,
-  "date": "2025-03-03",
+  "date": "2025-08-12",
   "compose": {
     "include": [
       {
         "system": "http://snomed.info/sct",
         "concept": [
           {
-            "code": "413773004",
-            "display": "Caucasian"
+            "code": "413773004"
           },
           {
-            "code": "413464008",
-            "display": "African"
+            "code": "413464008"
           },
           {
-            "code": "74964007",
-            "display": "Other"
+            "code": "74964007"
           }
         ]
       }

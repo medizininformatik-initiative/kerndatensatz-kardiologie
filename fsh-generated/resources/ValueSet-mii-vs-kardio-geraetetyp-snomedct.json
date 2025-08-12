@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_Geraetetyp",
-  "id": "mii-vs-kardio-geraetetyp",
-  "title": "MII VS Kardio Gerätetyp",
+  "name": "MII_VS_Kardio_Geraetetyp_SNOMEDCT",
+  "id": "mii-vs-kardio-geraetetyp-snomedct",
+  "title": "MII VS Kardio Gerätetyp [SNOMED CT]",
   "description": "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher und ventrikuläres Unterstützungssystem ab.",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct",
   "version": "2025.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -20,7 +20,6 @@
   ],
   "experimental": true,
   "date": "2025-05-13",
-  "purpose": "Dieses Value Set bildet den Typ eines implantierten Gerätes in der Kardiologie ab.",
   "compose": {
     "include": [
       {

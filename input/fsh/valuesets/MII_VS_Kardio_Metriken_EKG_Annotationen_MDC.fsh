@@ -1,6 +1,6 @@
-ValueSet: MII_VS_Kardio_MDC_Metriken_EKG_Annotationen
-Id: mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen
-Title: "MII VS Kardio MDC Metriken EKG Annotationen"
+ValueSet: MII_VS_Kardio_Metriken_EKG_Annotationen_MDC
+Id: mii-vs-kardio-metriken-ekg-annotationen-mdc
+Title: "MII VS Kardio Metriken EKG Annotationen [MDC]"
 Description: "ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)"
 
 * insert PR_CS_VS_Version

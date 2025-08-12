@@ -10,7 +10,6 @@ Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-rauchen
 Alias: $mdc = urn:iso:std:iso:11073:10101 //ISO Nomenclature - Point-of-care medical device communication, see https://www.iso.org/standard/37890.html
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
-Alias: $emdn = urn:oid:1.2.250.1.213.2.68 //https://webgate.ec.europa.eu/dyna2/emdn/Z1206
 
 //ValueSets ("-vs"-Suffix)
 Alias: $icd-10-gm-vs = http://fhir.de/ValueSet/bfarm/icd-10-gm

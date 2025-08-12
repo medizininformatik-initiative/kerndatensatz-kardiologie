@@ -1,10 +1,13 @@
-ValueSet: MII_VS_Kardio_Artherosklerotisches_Erstereignis
-Id: mii-vs-kardio-atherosklerotisches-erstereignis
-Title: "MII VS Kardio Atherosklerotisches Erstereignis"
+ValueSet: MII_VS_Kardio_Artherosklerotisches_Erstereignis_SNOEMDCT
+Id: mii-vs-kardio-atherosklerotisches-erstereignis-snomedct
+Title: "MII VS Kardio Atherosklerotisches Erstereignis [SNOMED CT]"
 Description: "ValueSet for Relevant Codes for Atherosclerotic Events"
+
 * insert PR_CS_VS_Version
 * insert Publisher
+
 * ^status = #draft
+* ^experimental = true
 
 // Obacht: Dieser Kommentar kann entfernt werden, sobald die Codes von Klinikern geprüft wurden.
 

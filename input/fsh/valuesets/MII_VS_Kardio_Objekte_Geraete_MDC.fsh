@@ -1,6 +1,6 @@
-ValueSet: MII_VS_Kardio_MDC_Objects_Devices
-Id: mii-vs-kardio-mdc-objects-devices
-Title: "MII VS Kardio MDC Objects Devices"
+ValueSet: MII_VS_Kardio_Objekte_Geraete_MDC
+Id: mii-vs-kardio-objekte-geraete-mdc
+Title: "MII VS Kardio MDC Objects Devices [MDC]"
 Description: "ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)"
 
 * insert PR_CS_VS_Version

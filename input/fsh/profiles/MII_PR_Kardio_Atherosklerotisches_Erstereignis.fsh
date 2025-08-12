@@ -10,7 +10,7 @@ Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Er
 // Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma.
 * code 1..1 MS
 * code.coding 1..1 MS
-* code.coding from MII_VS_Kardio_Artherosklerotisches_Erstereignis (preferred) //TODO SNOMED/ICD
+* code.coding from MII_VS_Kardio_Artherosklerotisches_Erstereignis_SNOEMDCT (preferred) //TODO SNOMED/ICD
 
 // Subject Patient MS 1..1
 * subject 1..1 MS

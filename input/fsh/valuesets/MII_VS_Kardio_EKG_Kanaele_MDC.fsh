@@ -1,6 +1,6 @@
-ValueSet: MII_VS_Kardio_EKG_Kanaele
-Id: mii-vs-kardio-ekg-kanaele
-Title: "MII VS Kardio EKG Kanäle"
+ValueSet: MII_VS_Kardio_EKG_Kanaele_MDC
+Id: mii-vs-kardio-ekg-kanaele-mdc
+Title: "MII VS Kardio EKG Kanäle [MDC]"
 Description: "ISO/IEEE 11073-10101 Codes für EKG Kanäle"
 
 * insert PR_CS_VS_Version

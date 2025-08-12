@@ -440,20 +440,20 @@
     "endLine": 34
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-allergene-snomed.json",
-    "fshName": "MII_VS_Kardio_Allergene_SNOMED",
+    "outputFile": "ValueSet-mii-vs-kardio-allergene-snomedct.json",
+    "fshName": "MII_VS_Kardio_Allergene_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Allergene.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Allergene_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 56
+    "endLine": 43
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-atherosklerotisches-erstereignis.json",
-    "fshName": "MII_VS_Kardio_Artherosklerotisches_Erstereignis",
+    "outputFile": "ValueSet-mii-vs-kardio-atherosklerotisches-erstereignis-snomedct.json",
+    "fshName": "MII_VS_Kardio_Artherosklerotisches_Erstereignis_SNOEMDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Atherosklerotisches_Erstereignis.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Atherosklerotisches_Erstereignis_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 24
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterium-acribis-scores.json",
@@ -464,26 +464,18 @@
     "endLine": 18
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-ekg-kanaele.json",
-    "fshName": "MII_VS_Kardio_EKG_Kanaele",
+    "outputFile": "ValueSet-mii-vs-kardio-ekg-kanaele-mdc.json",
+    "fshName": "MII_VS_Kardio_EKG_Kanaele_MDC",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_EKG_Kanaele.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_EKG_Kanaele_MDC.fsh",
     "startLine": 1,
     "endLine": 13
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen.json",
-    "fshName": "MII_VS_Kardio_MDC_Metriken_EKG_Annotationen",
+    "outputFile": "ValueSet-mii-vs-kardio-ethnie-snomedct.json",
+    "fshName": "MII_VS_Kardio_Ethnie_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Metriken_EKG_Annotationen.fsh",
-    "startLine": 1,
-    "endLine": 14
-  },
-  {
-    "outputFile": "ValueSet-mii-vs-kardio-ethnie-snomed.json",
-    "fshName": "MII_VS_Kardio_Ethnie_SNOMED",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Ethnie.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Ethnie_SNOMEDCT.fsh",
     "startLine": 1,
     "endLine": 15
   },
@@ -496,36 +488,28 @@
     "endLine": 14
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung.json",
-    "fshName": "MII_VS_Kardio_Geraeteprogrammierung",
+    "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.json",
+    "fshName": "MII_VS_Kardio_Geraeteprogrammierung_MDC",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Geraeteprogrammierung.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Geraeteprogrammierung_MDC.fsh",
     "startLine": 1,
     "endLine": 18
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-geraetetyp.json",
-    "fshName": "MII_VS_Kardio_Geraetetyp",
+    "outputFile": "ValueSet-mii-vs-kardio-geraetetyp-snomedct.json",
+    "fshName": "MII_VS_Kardio_Geraetetyp_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Geraetetyp.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Geraetetyp_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 15
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomed.json",
-    "fshName": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
+    "outputFile": "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.json",
+    "fshName": "MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Gewichtsveraenderung.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 31
-  },
-  {
-    "outputFile": "ValueSet-mii-vs-kardio-implant-device-emdn.json",
-    "fshName": "MII_VS_Kardio_Implant_Device_EMDN",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_implant-device.fsh",
-    "startLine": 1,
-    "endLine": 51
+    "endLine": 19
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.json",
@@ -547,25 +531,17 @@
     "outputFile": "ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.json",
     "fshName": "MII_VS_Kardio_Lebensmittelpunkt_M49",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Lebensmittelpunkt.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Lebensmittelpunkt_M49.fsh",
     "startLine": 1,
     "endLine": 21
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-mdc-objects-devices.json",
-    "fshName": "MII_VS_Kardio_MDC_Objects_Devices",
+    "outputFile": "ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.json",
+    "fshName": "MII_VS_Kardio_Metriken_EKG_Annotationen_MDC",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_MDC_Objects_Devices.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Metriken_EKG_Annotationen_MDC.fsh",
     "startLine": 1,
-    "endLine": 13
-  },
-  {
-    "outputFile": "ValueSet-mii-vs-kardio-medikation.json",
-    "fshName": "MII_VS_Kardio_Medikation",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Medikation.fsh",
-    "startLine": 1,
-    "endLine": 162
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-modifizierte-rankin-skala.json",
@@ -573,7 +549,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-nein-unbekannt.json",
@@ -590,5 +566,13 @@
     "fshFile": "valuesets\\MII_VS_Kardio_NYHA_Klassen_SNOMEDCT.fsh",
     "startLine": 1,
     "endLine": 20
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-objekte-geraete-mdc.json",
+    "fshName": "MII_VS_Kardio_Objekte_Geraete_MDC",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Objekte_Geraete_MDC.fsh",
+    "startLine": 1,
+    "endLine": 13
   }
 ]

@@ -5,6 +5,7 @@ Description: "Stufen der modifizierten Rankin-Skala"
 
 * insert PR_CS_VS_Version
 * insert Publisher
+
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-04-29"

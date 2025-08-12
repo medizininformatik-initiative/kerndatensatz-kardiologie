@@ -473,9 +473,17 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-atherosklerotisches-erstereignis"
+          "reference": "ValueSet/mii-vs-kardio-allergene-snomedct"
         },
-        "name": "MII VS Kardio Atherosklerotisches Erstereignis",
+        "name": "MII VS Kardio Allergene [SNOMEDCT]",
+        "description": "Liste von Substanzen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-atherosklerotisches-erstereignis-snomedct"
+        },
+        "name": "MII VS Kardio Atherosklerotisches Erstereignis [SNOMED CT]",
         "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
         "exampleBoolean": false
       },
@@ -489,17 +497,17 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ekg-kanaele"
+          "reference": "ValueSet/mii-vs-kardio-ekg-kanaele-mdc"
         },
-        "name": "MII VS Kardio EKG Kanäle",
+        "name": "MII VS Kardio EKG Kanäle [MDC]",
         "description": "ISO/IEEE 11073-10101 Codes für EKG Kanäle",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ethnie-snomed"
+          "reference": "ValueSet/mii-vs-kardio-ethnie-snomedct"
         },
-        "name": "MII VS Kardio Ethnie [SNOMED]",
+        "name": "MII VS Kardio Ethnie [SNOMED CT]",
         "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
         "exampleBoolean": false
       },
@@ -513,18 +521,26 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung"
+          "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc"
         },
-        "name": "MII VS Kardio Geräteprogrammierung",
+        "name": "MII VS Kardio Geräteprogrammierung [MDC]",
         "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendetd.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-geraetetyp"
+          "reference": "ValueSet/mii-vs-kardio-geraetetyp-snomedct"
         },
-        "name": "MII VS Kardio Gerätetyp",
+        "name": "MII VS Kardio Gerätetyp [SNOMED CT]",
         "description": "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher und ventrikuläres Unterstützungssystem ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct"
+        },
+        "name": "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
+        "description": "Beschreibung von Gewichtsveränderungen",
         "exampleBoolean": false
       },
       {
@@ -552,26 +568,18 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen"
+          "reference": "ValueSet/mii-vs-kardio-objekte-geraete-mdc"
         },
-        "name": "MII VS Kardio MDC Metriken EKG Annotationen",
-        "description": "ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-mdc-objects-devices"
-        },
-        "name": "MII VS Kardio MDC Objects Devices",
+        "name": "MII VS Kardio MDC Objects Devices [MDC]",
         "description": "ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-medikation"
+          "reference": "ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc"
         },
-        "name": "MII VS Kardio Medikation",
-        "description": "ATC-Codes der in der Kardiologie relevanter Medikamente.",
+        "name": "MII VS Kardio Metriken EKG Annotationen [MDC]",
+        "description": "ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)",
         "exampleBoolean": false
       },
       {
@@ -604,30 +612,6 @@
         },
         "name": "MII_CS_Follow_Up",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zur Verwendung im Follow-Up Questionnaire.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-allergene-snomed"
-        },
-        "name": "MII_VS_Kardio_Allergene_SNOMED",
-        "description": "Liste von Substanzen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-gewichtsveraenderung-snomed"
-        },
-        "name": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
-        "description": "Beschreibung von Gewichtsveränderungen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-implant-device-emdn"
-        },
-        "name": "MII_VS_Kardio_Implant_Device_EMDN",
-        "description": "Implantierbare Devices nach EMDN",
         "exampleBoolean": false
       },
       {

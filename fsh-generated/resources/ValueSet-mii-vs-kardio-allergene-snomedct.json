@@ -1,17 +1,12 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_Allergene_SNOMED",
-  "id": "mii-vs-kardio-allergene-snomed",
-  "title": "MII_VS_Kardio_Allergene_SNOMED",
+  "name": "MII_VS_Kardio_Allergene_SNOMEDCT",
+  "id": "mii-vs-kardio-allergene-snomedct",
+  "title": "MII VS Kardio Allergene [SNOMEDCT]",
   "description": "Liste von Substanzen",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-allergene-snomed",
-  "meta": {
-    "profile": [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-    ]
-  },
-  "version": "0.0.1",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-allergene-snomedct",
+  "version": "2025.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

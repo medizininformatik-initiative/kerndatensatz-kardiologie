@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
+  "id": "mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
   "version": "0.1",
-  "name": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
-  "title": "MII PR Kardio Observation Linksventrikulaere Ejektionsfraktion",
+  "name": "MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion",
+  "title": "MII PR Kardio Linksventrikulaere Ejektionsfraktion",
   "status": "draft",
   "experimental": true,
   "date": "2025-05-12",
@@ -35,7 +35,7 @@
           {
             "key": "vs-de-2",
             "human": "If there is no component or hasMember element then either a value[x] or a data absent reason must be present",
-            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
+            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
             "severity": "error",
             "expression": "(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())"
           }
@@ -127,7 +127,7 @@
           {
             "key": "code-coding-icu",
             "human": "Es muss mindestens ein snomed oder loinc code vorhanden sein",
-            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
+            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
             "severity": "error",
             "expression": "coding.exists() implies coding.where(system = 'http://snomed.info/sct').exists() or coding.where(system = 'http://loinc.org').exists()"
           }
@@ -310,7 +310,7 @@
           {
             "key": "mii-icu-1",
             "human": "If there is no Observation.value, a dataAbsentReason must be given.",
-            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion",
+            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
             "severity": "error",
             "expression": "value.exists().not() implies dataAbsentReason.exists()"
           }

@@ -3,7 +3,7 @@
   "id": "beispiel-kardio-pavk-unbekannt",
   "meta": {
     "profile": [
-      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-diagnose"
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
     ]
   },
   "category": [

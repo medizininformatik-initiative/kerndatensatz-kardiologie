@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf",
+  "id": "mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf",
   "meta": {
     "profile": [
-      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
     ]
   },
   "code": {

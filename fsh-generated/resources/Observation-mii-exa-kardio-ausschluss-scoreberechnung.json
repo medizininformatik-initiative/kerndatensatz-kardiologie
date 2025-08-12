@@ -1,9 +1,9 @@
 {
   "resourceType": "Observation",
-  "id": "mii-exa-kardio-observation-ausschluss-scoreberechnung",
+  "id": "mii-exa-kardio-ausschluss-scoreberechnung",
   "meta": {
     "profile": [
-      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
     ]
   },
   "code": {

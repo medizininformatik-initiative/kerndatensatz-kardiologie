@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "mii-pr-kardio-observation-atherosklerotisches-erstereignis",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-atherosklerotisches-erstereignis",
+  "id": "mii-pr-kardio-atherosklerotisches-erstereignis",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis",
   "version": "2025.0.0",
-  "name": "MII_PR_Kardio_Observation_Atherosklerotisches_Erstereignis",
+  "name": "MII_PR_Kardio_Atherosklerotisches_Erstereignis",
   "title": "MII PR Kardio Observation Atherosklerotisches Erstereignis",
   "status": "draft",
   "publisher": "Medizininformatik Initiative",

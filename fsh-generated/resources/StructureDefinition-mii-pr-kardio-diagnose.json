@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "mii-pr-kardio-condition-diagnose",
+  "id": "mii-pr-kardio-diagnose",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -15,10 +15,10 @@
       }
     }
   ],
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-diagnose",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose",
   "version": "2025.0.0",
-  "name": "MII_PR_Kardio_Condition_Diagnose",
-  "title": "MII PR Kardio Condition Diagnose",
+  "name": "MII_PR_Kardio_Diagnose",
+  "title": "MII PR Kardio Diagnose",
   "status": "draft",
   "publisher": "Medizininformatik Initiative",
   "contact": [

@@ -76,24 +76,24 @@
           "reference": "Condition/beispiel-kardio-diagnose-liegt-vor"
         },
         "name": "Beispiel Diagnose liegt vor",
-        "description": "Beispielhafte vollständige Instanz einer Diagnose die vom Arzt bestätigt tatsächlich vorliegt gemäß dem Profil MII_PR_Kardio_Condition_Diagnose im Rahmen des ACRIBIS-Projekts.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-diagnose"
+        "description": "Beispielhafte vollständige Instanz einer Diagnose die vom Arzt bestätigt tatsächlich vorliegt gemäß dem Profil MII_PR_Kardio_Diagnose im Rahmen des ACRIBIS-Projekts.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
       },
       {
         "reference": {
           "reference": "Condition/beispiel-kardio-pavk-unbekannt"
         },
         "name": "Beispiel einer Diagnose deren Vorliegen dem Arzt und evtl. Patienten unbekannt ist",
-        "description": "Vollständig befüllte FHIR-Instanz zur Repräsentation des Nicht-Vorliegens einer Krebserkrankung im Endstadium gemäß dem Profil MII_PR_Kardio_Condition_Diagnose.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-diagnose"
+        "description": "Vollständig befüllte FHIR-Instanz zur Repräsentation des Nicht-Vorliegens einer Krebserkrankung im Endstadium gemäß dem Profil MII_PR_Kardio_Diagnose.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
       },
       {
         "reference": {
           "reference": "Condition/beispiel-kardio-krebs-terminal-liegt-nicht-vor"
         },
         "name": "Beispiel einer nicht vorliegenden terminalen Krebserkrankung",
-        "description": "Vollständig befüllte FHIR-Instanz zur Repräsentation des Nicht-Vorliegens einer Krebserkrankung im Endstadium gemäß dem Profil MII_PR_Kardio_Condition_Diagnose.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-condition-diagnose"
+        "description": "Vollständig befüllte FHIR-Instanz zur Repräsentation des Nicht-Vorliegens einer Krebserkrankung im Endstadium gemäß dem Profil MII_PR_Kardio_Diagnose.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
       },
       {
         "reference": {
@@ -117,7 +117,7 @@
         },
         "name": "Beispiel LVEF Observation",
         "description": "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"
       },
       {
         "reference": {
@@ -182,6 +182,30 @@
         "name": "MII CS Kardio Lebensmittelpunkt",
         "description": "Lebensmittelpunkt des Patienten",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf"
+        },
+        "name": "MII EXA Kardio Anzahl KH Aufenthalte WG HF",
+        "description": "Beispiel einer Observation für die Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-atherosklerotisches-erstereignis"
+        },
+        "name": "MII EXA Kardio Atherosklerotisches Erstereignis",
+        "description": "Beispiel einer Observation für das Datum eines unbestimmten atherosklerotischen Erstereignisses",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-ausschluss-scoreberechnung"
+        },
+        "name": "MII EXA Kardio Ausschluss Scoreberechnung",
+        "description": "Beispiel einer Observation für das Ausschlusskriterium unbehandeltes, höhergradiges Vitium",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
       },
       {
         "reference": {
@@ -281,30 +305,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
-        },
-        "name": "MII EXA Kardio Observation Anzahl KH Aufenthalte WG HF",
-        "description": "Beispiel einer Observation für die Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
-      },
-      {
-        "reference": {
-          "reference": "Observation/mii-exa-kardio-observation-atherosklerotisches-erstereignis"
-        },
-        "name": "MII EXA Kardio Observation Atherosklerotisches Erstereignis",
-        "description": "Beispiel einer Observation für das Datum eines unbestimmten atherosklerotischen Erstereignisses",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-atherosklerotisches-erstereignis"
-      },
-      {
-        "reference": {
-          "reference": "Observation/mii-exa-kardio-observation-ausschluss-scoreberechnung"
-        },
-        "name": "MII EXA Kardio Observation Ausschluss Scoreberechnung",
-        "description": "Beispiel einer Observation für das Ausschlusskriterium unbehandeltes, höhergradiges Vitium",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
-      },
-      {
-        "reference": {
           "reference": "Observation/mii-exa-kardio-pci-nein"
         },
         "name": "MII EXA Kardio PCI/Stent Nein",
@@ -313,10 +313,18 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-condition-diagnose"
+          "reference": "StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
         },
-        "name": "MII PR Kardio Condition Diagnose",
-        "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
+        "name": "MII PR Kardio Anzahl KH Aufenthalte wg HF",
+        "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
+        },
+        "name": "MII PR Kardio Ausschluss Scoreberechnung",
+        "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
         "exampleBoolean": false
       },
       {
@@ -325,6 +333,14 @@
         },
         "name": "MII PR Kardio Device",
         "description": "Profil zur Abbildung eines implantierten Herzschrittmachers, Defibrillators oder ventrikulären Unterstützungssystems.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-diagnose"
+        },
+        "name": "MII PR Kardio Diagnose",
+        "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
         "exampleBoolean": false
       },
       {
@@ -341,6 +357,14 @@
         },
         "name": "MII PR Kardio EKG Annotationen",
         "description": "Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Interpretationen, eines EKG.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-durchfuehrung"
+        },
+        "name": "MII PR Kardio EKG Durchführung",
+        "description": "Profil zur Erfassung der Durchführung eines EKG.",
         "exampleBoolean": false
       },
       {
@@ -393,6 +417,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"
+        },
+        "name": "MII PR Kardio Linksventrikulaere Ejektionsfraktion",
+        "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"
         },
         "name": "MII PR Kardio NBG Schrittmachermodus",
@@ -401,34 +433,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf"
-        },
-        "name": "MII PR Kardio Observation Anzahl KH Aufenthalte wg HF",
-        "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-atherosklerotisches-erstereignis"
+          "reference": "StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
         },
         "name": "MII PR Kardio Observation Atherosklerotisches Erstereignis",
         "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-ausschluss-scoreberechnung"
-        },
-        "name": "MII PR Kardio Observation Ausschluss Scoreberechnung",
-        "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
-        },
-        "name": "MII PR Kardio Observation Linksventrikulaere Ejektionsfraktion",
-        "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
         "exampleBoolean": false
       },
       {
@@ -445,14 +453,6 @@
         },
         "name": "MII PR Kardio Observation Rauchen",
         "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio--procedure-ekg"
-        },
-        "name": "MII PR Kardio Procedure EKG",
-        "description": "Profil zur Erfassung der Durchführung eines EKG.",
         "exampleBoolean": false
       },
       {

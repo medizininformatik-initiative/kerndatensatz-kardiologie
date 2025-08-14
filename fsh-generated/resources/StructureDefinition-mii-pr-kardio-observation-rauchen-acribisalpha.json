@@ -52,7 +52,7 @@
       {
         "id": "Observation.code.coding:snomed-ct.code",
         "path": "Observation.code.coding.code",
-        "patternCode": "77176002#"
+        "patternCode": "77176002"
       },
       {
         "id": "Observation.code.coding:loinc",

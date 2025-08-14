@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_Rauchen_AcribisAlpha",
+  "id": "mii-vs-kardio-rauchen-acribisalpha",
+  "title": "MII VS Kardio Rauchen AcribisAlpha",
+  "description": "Kombiniertes ValueSet mit Codes zur Abbildung des Rauchverhaltens im Kontext von Acribis",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-rauchen-acribisalpha",
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-08-14",
+  "copyright": "© 1995-2025 Regenstrief Institute, Inc. LOINC® is a registered United States trademark of Regenstrief Institute, Inc. This material contains LOINC codes and is subject to the LOINC license. For terms, see https://loinc.org/license/",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "https://gematik.de/fhir/isik/ValueSet/current-smoking-status-uv-ips"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "77176002",
+            "display": "Smoker (finding)"
+          }
+        ]
+      }
+    ]
+  }
+}

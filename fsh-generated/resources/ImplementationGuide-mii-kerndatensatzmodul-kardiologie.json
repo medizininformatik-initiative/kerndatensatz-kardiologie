@@ -444,15 +444,15 @@
           "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen"
         },
         "name": "MII PR Kardio Observation Rauchen",
-        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
+        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Modul Kardiologie.",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
         },
-        "name": "MII PR Kardio Observation Rauchen",
-        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
+        "name": "MII PR Kardio Observation Rauchen AcribisAlpha",
+        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Projekts ACRIBiS.",
         "exampleBoolean": false
       },
       {
@@ -597,6 +597,14 @@
         },
         "name": "MII VS Kardio NYHA Klassen [SNOMED CT]",
         "description": "Klassen der New York Heart Association Classification",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-rauchen-acribisalpha"
+        },
+        "name": "MII VS Kardio Rauchen AcribisAlpha",
+        "description": "Kombiniertes ValueSet mit Codes zur Abbildung des Rauchverhaltens im Kontext von Acribis",
         "exampleBoolean": false
       },
       {

@@ -14,7 +14,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 // Slices sind bereits in Parent ISiKLebensZustand definiert.
 * code.coding[snomed-ct] only $ISiKSnomedCTCoding
 * code.coding[snomed-ct].system = $sct
-* code.coding[snomed-ct].code = #77176002#
+* code.coding[snomed-ct].code = #77176002
 * code.coding[loinc] only $ISiKLoincCoding
 * code.coding[loinc].system = $loinc
 * code.coding[loinc].code = #72166-2

@@ -140,8 +140,8 @@
     "fshName": "Example-Kardio-Observation-Rauchen-acribisalpha",
     "fshType": "Instance",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Rauchen_AcribisAlpha.fsh",
-    "startLine": 78,
-    "endLine": 113
+    "startLine": 75,
+    "endLine": 110
   },
   {
     "outputFile": "Observation-Example-Kardio-Observation-Rauchen.json",
@@ -413,7 +413,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Rauchen_AcribisAlpha.fsh",
     "startLine": 1,
-    "endLine": 74
+    "endLine": 71
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-rauchen.json",

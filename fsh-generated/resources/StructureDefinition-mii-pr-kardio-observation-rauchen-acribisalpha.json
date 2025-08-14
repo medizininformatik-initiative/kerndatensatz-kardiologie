@@ -22,7 +22,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "baseDefinition": "https://gematik.de/fhir/isik/StructureDefinition/ISiKLebensZustand",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -39,58 +39,30 @@
             }
           ]
         },
-        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "http://hl7.org/fhir/ValueSet/observation-category"
         }
       },
       {
-        "id": "Observation.code.coding",
-        "path": "Observation.code.coding",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "pattern",
-              "path": "$this"
-            }
-          ],
-          "rules": "closed",
-          "ordered": false
-        },
-        "min": 1
-      },
-      {
         "id": "Observation.code.coding:snomed-ct",
         "path": "Observation.code.coding",
-        "sliceName": "snomed-ct",
-        "min": 0,
-        "max": "*",
-        "type": [
-          {
-            "code": "Coding",
-            "profile": [
-              "https://gematik.de/fhir/isik/StructureDefinition/ISiKSnomedCTCoding"
-            ]
-          }
-        ],
-        "mustSupport": true
+        "sliceName": "snomed-ct"
+      },
+      {
+        "id": "Observation.code.coding:snomed-ct.code",
+        "path": "Observation.code.coding.code",
+        "patternCode": "77176002#"
       },
       {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "min": 1,
-        "max": "*",
-        "type": [
-          {
-            "code": "Coding",
-            "profile": [
-              "https://gematik.de/fhir/isik/StructureDefinition/ISiKLoincCoding"
-            ]
-          }
-        ],
-        "mustSupport": true
+        "sliceName": "loinc"
+      },
+      {
+        "id": "Observation.code.coding:loinc.code",
+        "path": "Observation.code.coding.code",
+        "patternCode": "72166-2"
       },
       {
         "id": "Observation.subject",
@@ -103,11 +75,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": "Observation.encounter",
-        "path": "Observation.encounter",
-        "mustSupport": true
       },
       {
         "id": "Observation.performer",

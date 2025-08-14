@@ -1,8 +1,7 @@
 Profile: MII_PR_Kardio_Observation_Rauchen_AcribisAlpha
 // Profil nur für Acribis-Auswertung vorgesehen. Das andere Rauchen-Profil orientiert sich am ISiK-Standard. 
-
 Id: mii-pr-kardio-observation-rauchen-acribisalpha
-Parent: Observation //ISiKRaucherStatus --> wir erben hier nicht von ISiKRaucherStatus, da die Acribis Version ein anderes ValueSet benötigt.
+Parent: ISiKLebensZustand //Observation //ISiKRaucherStatus --> wir erben hier nicht von ISiKRaucherStatus, da die Acribis Version ein anderes ValueSet benötigt.
 Title: "MII PR Kardio Observation Rauchen AcribisAlpha"
 Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Projekts ACRIBiS."
 * insert PR_CS_VS_Version
@@ -12,15 +11,13 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * category from $observation-category-vs (required)
 * category = $observation-category#social-history
 // Code from Parent = SCT 77176002 "Smoker" oder LOINC 72166-2 "Tobacco smoking status"
-* code.coding ^slicing.discriminator.type = #pattern
-* code.coding ^slicing.discriminator.path = "$this"
-* code.coding ^slicing.rules = #closed // erlaubt jegliche category slice (names)
-* code.coding ^slicing.ordered = false
-* code.coding contains 
-    snomed-ct 0..* MS and
-    loinc 1..* MS
+// Slices sind bereits in Parent ISiKLebensZustand definiert.
 * code.coding[snomed-ct] only $ISiKSnomedCTCoding
+* code.coding[snomed-ct].system = $sct
+* code.coding[snomed-ct].code = #77176002#
 * code.coding[loinc] only $ISiKLoincCoding
+* code.coding[loinc].system = $loinc
+* code.coding[loinc].code = #72166-2
 * subject only Reference(Patient)
 * encounter MS
 * performer MS

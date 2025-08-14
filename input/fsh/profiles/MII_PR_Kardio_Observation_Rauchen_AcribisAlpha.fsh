@@ -1,12 +1,10 @@
 Profile: MII_PR_Kardio_Observation_Rauchen_AcribisAlpha
-// Offene Diskussion:
-// Eventuell brauchen wir hier ein zusätzliches Profil, um die Angabe ja/nein/unbekannt aus dem DS zu erlauben. 
-// Nur für Acribis-Auswertung. Das andere Rauchen-Profil ist standardbasiert. 
-// TODO Valueset anpassen, sodass Acribis-Antworten aus DS unterstützt werden oder modifierExtension mit Ja, ich rauche (aktuell)
+// Profil nur für Acribis-Auswertung vorgesehen. Das andere Rauchen-Profil orientiert sich am ISiK-Standard. 
+
 Id: mii-pr-kardio-observation-rauchen-acribisalpha
-Parent: ISiKRaucherStatus //Observation
-Title: "MII PR Kardio Observation Rauchen"
-Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS."
+Parent: Observation //ISiKRaucherStatus --> wir erben hier nicht von ISiKRaucherStatus, da die Acribis Version ein anderes ValueSet benötigt.
+Title: "MII PR Kardio Observation Rauchen AcribisAlpha"
+Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Projekts ACRIBiS."
 * insert PR_CS_VS_Version
 * insert Publisher
 // Parent: Current Smoking Status - gematik ISiK -> https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
@@ -14,20 +12,28 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 * category from $observation-category-vs (required)
 * category = $observation-category#social-history
 // Code from Parent = SCT 77176002 "Smoker" oder LOINC 72166-2 "Tobacco smoking status"
+* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.path = "$this"
+* code.coding ^slicing.rules = #closed // erlaubt jegliche category slice (names)
+* code.coding ^slicing.ordered = false
+* code.coding contains 
+    snomed-ct 0..* MS and
+    loinc 1..* MS
+* code.coding[snomed-ct] only $ISiKSnomedCTCoding
+* code.coding[loinc] only $ISiKLoincCoding
 * subject only Reference(Patient)
-//* focus ..0
 * encounter MS
 * performer MS
 // value[x] from Parent: https://simplifier.net/packages/de.gematik.isik-basismodul/4.0.0/files/2539840
-* value[x] ^short = "Current Smoking Status als Loinc-Answer Code"
-//* bodySite ..0
-//* specimen ..0
+* value[x] ^short = "Current Smoking Status als Loinc-Answer Code, Angabe 'Smoker' via SNOMED CT-Code."
+* value[x] only CodeableConcept
+* valueCodeableConcept from MII_VS_Kardio_Rauchen_AcribisAlpha (extensible)
 * hasMember only Reference(Observation or QuestionnaireResponse) //not MolecularSequence
 * derivedFrom only Reference(DocumentReference or Media or QuestionnaireResponse or Observation) //not imagingstudy + not molecularsequence
+
 // Folgende Items sind nicht Teil der Acribis-Kernscores, stehen daher - in der ersten Iteration - nicht im Fokus (nicht must-support).
-// TODO in Zukunft
 * component 0..* //MS
-* component ^short = "Zusätzliche Angaben zum Rauchverhalten als Komponenten."
+* component ^short = "Zusätzliche Angaben zum Rauchverhalten."
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "$this"
 * component ^slicing.rules = #open // erlaubt jegliche category slice (names)
@@ -82,7 +88,7 @@ Usage: #example
 * encounter = Reference(Encounter/ExampleEncounter)
 * effectiveDateTime = "2023-12-01"
 * performer = Reference(Practitioner/example-role-kardiologe)
-* valueCodeableConcept = http://terminology.hl7.org/CodeSystem/observation-smoking-status#current-every-day-smoker "Current every day smoker"
+* valueCodeableConcept = $sct#77176002 "Smoker (finding)"
 // Komponenten zur weiterführenden Beschreibung des Rauchverhaltens
 * component[packungsjahre].code = $smoking-units#pack-years
 * component[packungsjahre].valueQuantity.value = 35

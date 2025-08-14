@@ -26,3 +26,5 @@ Alias: $v2-0532-vs = http://terminology.hl7.org/ValueSet/v2-0532
 
 // Structure Definitions
 Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
+Alias: $ISiKSnomedCTCoding = https://gematik.de/fhir/isik/StructureDefinition/ISiKSnomedCTCoding
+Alias: $ISiKLoincCoding = https://gematik.de/fhir/isik/StructureDefinition/ISiKLoincCoding

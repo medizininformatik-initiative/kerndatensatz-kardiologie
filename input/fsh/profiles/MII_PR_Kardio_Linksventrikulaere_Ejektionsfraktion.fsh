@@ -28,7 +28,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 
 // Category
 * category MS
-* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.type = #value
 * category ^slicing.discriminator.path = "$this"
 * category ^slicing.ordered = false
 * category ^slicing.rules = #open
@@ -43,7 +43,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * code MS
 * code obeys code-coding-icu  // code-coding-icu: Es muss mindestens ein snomed oder loinc code vorhanden sein
 * code.coding 1..
-* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open
 * code.coding contains
@@ -106,7 +106,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 
 // TODO refernzbereichsangaben prüfen
 * referenceRange ^slicing.discriminator.type = #pattern
-* referenceRange ^slicing.discriminator.path = "$this"
+* referenceRange ^slicing.discriminator.path = "text"
 * referenceRange ^slicing.rules = #closed
 * referenceRange ^slicing.ordered = true
 * referenceRange ^slicing.description = "Referenzbereiche LVEF vgl. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure."
@@ -190,18 +190,12 @@ Usage: #example
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = #%
 
-* interpretation[0].coding[0].system = "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
-* interpretation[0].coding[0].code = #N
-* interpretation[0].coding[0].display = "Normal"
+* interpretation[0].coding[0] = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#N "Normal"
 
-* bodySite.coding[0].system = "http://snomed.info/sct"
-* bodySite.coding[0].code = #87878005
-* bodySite.coding[0].display = "Left cardiac ventricular structure (body structure)"
+* bodySite.coding[0] = $sct#87878005 "Left cardiac ventricular structure (body structure)"
 * bodySite.text = "Linker Ventrikel"
 
-* method.coding[0].system = "http://snomed.info/sct"
-* method.coding[0].code = #40701008
-* method.coding[0].display = "Echocardiography"
+* method.coding[0] = $sct#40701008 "Echocardiography"
 * method.text = "Echokardiographie"
 
 * device.display = "Philips EPIQ CVx Ultrasound System"

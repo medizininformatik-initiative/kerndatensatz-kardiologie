@@ -37,7 +37,7 @@ Description: "Profil zur Abbildung eines EKG-Kanals."
 * property[kanalbezeichnung].valueQuantity ..0
 
 * property[kanalbezeichnung].valueCode 1..1 MS
-* property[kanalbezeichnung].valueCode from MII_VS_Kardio_Objekte_Geraete_MDC (required)
+* property[kanalbezeichnung].valueCode from MII_VS_Kardio_EKG_Kanaele_MDC (required)
 
 * parent 1.. MS
 * parent only Reference(MII_PR_Kardio_EKG_Geraet)

@@ -116,8 +116,8 @@
   "valueCodeableConcept": {
     "coding": [
       {
-        "code": "current-every-day-smoker",
-        "system": "http://terminology.hl7.org/CodeSystem/observation-smoking-status",
+        "code": "LA18976-3",
+        "system": "http://loinc.org",
         "display": "Current every day smoker"
       }
     ]

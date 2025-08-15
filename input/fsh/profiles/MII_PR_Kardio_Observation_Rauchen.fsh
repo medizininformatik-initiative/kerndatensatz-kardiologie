@@ -21,7 +21,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component 0..* //MS
 * component ^short = "Zusätzliche Angaben zum Rauchverhalten."
 * component ^slicing.discriminator.type = #pattern
-* component ^slicing.discriminator.path = "$this"
+* component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open // erlaubt jegliche category slice (names)
 * component ^slicing.ordered = false
 * component ^slicing.description = "Zusätzliche Angaben zum Rauchverhalten."
@@ -74,7 +74,7 @@ Usage: #example
 * encounter = Reference(Encounter/ExampleEncounter)
 * effectiveDateTime = "2023-12-01"
 * performer = Reference(Practitioner/example-role-kardiologe)
-* valueCodeableConcept = http://terminology.hl7.org/CodeSystem/observation-smoking-status#current-every-day-smoker "Current every day smoker"
+* valueCodeableConcept = $loinc#LA18976-3 "Current every day smoker"
 // Komponenten zur weiterführenden Beschreibung des Rauchverhaltens
 * component[packungsjahre].code = $smoking-units#pack-years
 * component[packungsjahre].valueQuantity.value = 35

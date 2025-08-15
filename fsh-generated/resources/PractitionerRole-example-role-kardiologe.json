@@ -1,6 +1,9 @@
 {
   "resourceType": "PractitionerRole",
   "id": "example-role-kardiologe",
+  "organization": {
+    "display": "Klinikum Musterstadt"
+  },
   "code": [
     {
       "coding": [
@@ -22,8 +25,5 @@
         }
       ]
     }
-  ],
-  "organization": {
-    "reference": "Organization/example-klinikum"
-  }
+  ]
 }

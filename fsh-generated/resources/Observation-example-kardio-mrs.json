@@ -27,23 +27,20 @@
       }
     ]
   },
+  "subject": {
+    "display": "Beispielpatient"
+  },
+  "encounter": {
+    "display": "Beispielfall"
+  },
   "performer": [
     {
-      "reference": "PractitionerRole/example-role-kardiologe"
+      "display": "Beispielkardiologe"
     }
   ],
-  "valueCodeableConcept": {
-    "coding": [
-      {
-        "code": "mRSbigger3",
-        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
-        "display": "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
-      }
-    ]
-  },
   "note": [
     {
-      "text": "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
+      "text": "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
     }
   ],
   "text": {
@@ -61,12 +58,15 @@
     }
   ],
   "status": "final",
-  "subject": {
-    "reference": "Patient/example-patient"
-  },
-  "encounter": {
-    "reference": "Encounter/example-ambulant"
-  },
   "effectiveDateTime": "2024-11-12T14:23:00+01:00",
-  "issued": "2024-11-12T15:00:00+01:00"
+  "issued": "2024-11-12T15:00:00+01:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "mRSbigger3",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
+        "display": "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
+      }
+    ]
+  }
 }

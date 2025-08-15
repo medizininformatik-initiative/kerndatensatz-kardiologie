@@ -26,6 +26,12 @@
       }
     ]
   },
+  "subject": {
+    "display": "Beispielpatient"
+  },
+  "encounter": {
+    "display": "Beispielfall"
+  },
   "performer": [
     {
       "reference": "PractitionerRole/example-role-kardiologe"
@@ -60,12 +66,6 @@
     }
   ],
   "status": "final",
-  "subject": {
-    "reference": "Patient/example-patient"
-  },
-  "encounter": {
-    "reference": "Encounter/example-ambulant"
-  },
   "effectiveDateTime": "2024-11-12T14:23:00+01:00",
   "issued": "2024-11-12T15:00:00+01:00"
 }

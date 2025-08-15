@@ -57,8 +57,8 @@ Description: "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation be
 * code.coding[loinc].system = "http://loinc.org"
 * code.coding[loinc].code = #93124-6
 * code.coding[loinc].display = "New York Heart Association Functional Classification panel"
-* subject = Reference(Patient/example-patient)
-* encounter = Reference(Encounter/example-ambulant)
+* subject.display = "Beispielpatient"
+* encounter.display = "Beispielfall"
 * effectiveDateTime = "2024-11-12T14:23:00+01:00"
 * issued = "2024-11-12T15:00:00+01:00"
 * performer[0] = Reference(PractitionerRole/example-role-kardiologe)
@@ -75,6 +75,6 @@ InstanceOf: PractitionerRole
 Title: "Rolle: Kardiologe im Klinikum"
 Description: "Beispielhafte Rolle eines Kardiologen zur Verwendung in performer-Referenzen."
 //* practitioner = Reference(Practitioner/example-arzt) //kein Verweis auf best. Person, sondern nur auf Rolle
-* organization = Reference(Organization/example-klinikum)
+* organization.display = "Klinikum Musterstadt"
 * code = $sct#17561000 "Cardiologist"
 * specialty = $sct#394579002 "Cardiology"

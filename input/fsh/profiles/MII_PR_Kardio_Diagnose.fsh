@@ -21,6 +21,8 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * severity from MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT (preferred)
 * severity ^comment = "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis."
 
+// TODO: Diese Zeile wieder entfernen. Das ist nur eine temporäre Lösung, da Ontoserver sonst nicht validiert.
+// * statt Version referenziert alle Versionen des ValueSets
 * code.coding[icd10-gm] from http://fhir.de/ValueSet/bfarm/icd-10-gm|2025 (required)
 
 // Subject
@@ -88,12 +90,12 @@ Usage: #example
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
-* code.coding[icd10-gm] = http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025#I21.9 "Akuter Myokardinfarkt, nicht näher bezeichnet"
-* code.coding[sct] = http://snomed.info/sct#22298006 "Myocardial infarction (disorder)"
+* code.coding[icd10-gm] = $icd-10-gm|2025#I21.9 "Akuter Myokardinfarkt, nicht näher bezeichnet"
+* code.coding[sct] = $sct#22298006 "Myocardial infarction (disorder)"
 
 // --------------------------------------
 // SEVERITY (terminal) --> Angabe fuer Krebserkrankung nicht im Endstadium/terminal
-* severity.coding = http://snomed.info/sct#6736007 "Moderate (severity modifier) (qualifier value)"
+* severity.coding = $sct#6736007 "Moderate (severity modifier) (qualifier value)"
 
 // --------------------------------------
 // SUBJECT (Patientenreferenz)
@@ -144,12 +146,12 @@ Usage: #example
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
-* code.coding[icd10-gm] = http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025#C34.9 "Bösartige Neubildung: Bronchus oder Lunge, nicht näher bezeichnet"
-* code.coding[sct] = http://snomed.info/sct#254637007 "Non-small cell lung cancer (disorder)"
+* code.coding[icd10-gm] = $icd-10-gm|2025#C34.9 "Bösartige Neubildung: Bronchus oder Lunge, nicht näher bezeichnet"
+* code.coding[sct] = $sct#254637007 "Non-small cell lung cancer (disorder)"
 
 // --------------------------------------
 // SEVERITY (Endstadium / Terminal)
-* severity = http://snomed.info/sct#42796001 "End-stage (qualifier value)"
+* severity = $sct#42796001 "End-stage (qualifier value)"
 
 // --------------------------------------
 // SUBJECT
@@ -199,8 +201,8 @@ Usage: #example
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
-* code.coding[icd10-gm] = http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025#I70.2 "Atherosklerose der Extremitätenarterien"
-* code.coding[sct] = http://snomed.info/sct#399957001 "Peripheral arterial occlusive disease (disorder)"
+* code.coding[icd10-gm] = $icd-10-gm|2025#I70.2 "Atherosklerose der Extremitätenarterien"
+* code.coding[sct] = $sct#399957001 "Peripheral arterial occlusive disease (disorder)"
 
 // --------------------------------------
 // SEVERITY (Endstadium / Terminal)

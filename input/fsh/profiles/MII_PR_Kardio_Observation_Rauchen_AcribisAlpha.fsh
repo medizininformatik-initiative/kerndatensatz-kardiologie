@@ -32,7 +32,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component 0..* //MS
 * component ^short = "Zusätzliche Angaben zum Rauchverhalten."
 * component ^slicing.discriminator.type = #pattern
-* component ^slicing.discriminator.path = "$this"
+* component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open // erlaubt jegliche category slice (names)
 * component ^slicing.ordered = false
 * component ^slicing.description = "Zusätzliche Angaben zum Rauchverhalten."

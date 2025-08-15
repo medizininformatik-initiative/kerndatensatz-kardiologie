@@ -345,7 +345,7 @@
           "discriminator": [
             {
               "type": "pattern",
-              "path": "$this"
+              "path": "text"
             }
           ],
           "rules": "closed",
@@ -379,6 +379,7 @@
       {
         "id": "Observation.referenceRange:normal.text",
         "path": "Observation.referenceRange.text",
+        "min": 1,
         "patternString": "Normal"
       },
       {
@@ -421,6 +422,7 @@
       {
         "id": "Observation.referenceRange:mild.text",
         "path": "Observation.referenceRange.text",
+        "min": 1,
         "patternString": "Mildly reduced"
       },
       {
@@ -448,6 +450,7 @@
       {
         "id": "Observation.referenceRange:reduced.text",
         "path": "Observation.referenceRange.text",
+        "min": 1,
         "patternString": "Reduced"
       }
     ]

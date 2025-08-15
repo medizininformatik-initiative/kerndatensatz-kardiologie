@@ -130,7 +130,7 @@
           "discriminator": [
             {
               "type": "pattern",
-              "path": "$this"
+              "path": "code"
             }
           ],
           "rules": "open",

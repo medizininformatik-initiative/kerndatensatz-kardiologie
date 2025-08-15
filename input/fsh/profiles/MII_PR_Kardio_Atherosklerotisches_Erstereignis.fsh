@@ -35,7 +35,7 @@ Description: "Beispiel einer Observation für das Datum eines unbestimmten ather
 Usage: #example
 
 * status = #final
-* code.coding = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotische-erstereignisse#aee "Atherosklerotisches Erstereignis"
+* code.coding = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-erstereignis#aee "Atherosklerotisches Erstereignis"
 * subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-05-23T13:48:17+02:00"
 * performer.display = "Beispielkardiologe"

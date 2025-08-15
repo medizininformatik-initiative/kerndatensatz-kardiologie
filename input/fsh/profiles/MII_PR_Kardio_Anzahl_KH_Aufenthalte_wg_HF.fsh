@@ -55,7 +55,7 @@ Usage: #example
 * code.coding = $sct#32485007 "Hospital admission (procedure)"
 * subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-05-21T17:35:22+02:00"
-* performer.reference = "Beispielkardiologe"
+* performer.display = "Beispielkardiologe"
 * valueInteger = 3
 * component[Grund].code.coding = $sct#406524005 "Reason for visit diagnosis (attribute)"
 * component[Grund].valueCodeableConcept = $sct#84114007 "Heart failure (disorder)"

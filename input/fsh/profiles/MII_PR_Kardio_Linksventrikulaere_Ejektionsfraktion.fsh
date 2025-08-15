@@ -162,8 +162,8 @@ Usage: #example
 * identifier.system = "http://hospital.example.org/observation-lvef"
 * identifier.value = "lvef-123456"
 
-* basedOn.reference = "ServiceRequest/echokardiographie-anforderung"
-* partOf.reference = "Procedure/echokardiographie-2025"
+* basedOn.display = "Echokardiographie: Beispielanforderung"
+* partOf.display = "Echokardiographie: Beispieluntersuchung"
 
 * status = #final
 
@@ -179,11 +179,11 @@ Usage: #example
 * code.coding[loinc].display = "Left ventricular ejection fraction"
 * code.text = "Linksventrikuläre Ejektionsfraktion"
 
-* subject.reference = "Patient/patient-1234"
-* encounter.reference = "Encounter/aufnahme-2025"
+* subject.display = "Beispielpatient"
+* encounter.display = "Beispielfall"
 * effectiveDateTime = "2025-05-12T10:15:00+01:00"
 
-* performer[0].reference = "Practitioner/arzt-5678"
+* performer[0].display = "Beispielarzt"
 
 * valueQuantity.value = 55
 * valueQuantity.unit = "percent"
@@ -204,7 +204,6 @@ Usage: #example
 * method.coding[0].display = "Echocardiography"
 * method.text = "Echokardiographie"
 
-* device.reference = "Device/echo-device-01"
 * device.display = "Philips EPIQ CVx Ultrasound System"
 
 * referenceRange[normal].text = "Normal"

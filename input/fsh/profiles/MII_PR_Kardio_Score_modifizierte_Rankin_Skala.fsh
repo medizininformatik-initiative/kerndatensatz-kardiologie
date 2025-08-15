@@ -60,11 +60,11 @@ Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem S
 * code.coding[loinc].system = "http://loinc.org"
 * code.coding[loinc].code = #75859-9
 * code.coding[loinc].display = "Modified rankin scale"
-* subject = Reference(Patient/example-patient)
-* encounter = Reference(Encounter/example-ambulant)
+* subject.display = "Beispielpatient"
+* encounter.display = "Beispielfall"
 * effectiveDateTime = "2024-11-12T14:23:00+01:00"
 * issued = "2024-11-12T15:00:00+01:00"
-* performer[0] = Reference(PractitionerRole/example-role-kardiologe)
+* performer[0].display = "Beispielkardiologe"
 * valueCodeableConcept.coding = MII_CS_Kardio_Modifizierte_Rankin_Skala#mRSbigger3 "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
 * note.text = "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
 * text.status = #generated

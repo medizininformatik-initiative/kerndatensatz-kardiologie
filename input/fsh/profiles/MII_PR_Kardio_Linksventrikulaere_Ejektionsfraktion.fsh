@@ -17,7 +17,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * ^experimental = true
 * ^date = "2025-05-12"
 
-* obeys vs-de-2 // If there is no component or hasMember element then either a value[x] or a data absent reason must be present
+* obeys vs-de-2 and mii-icu-1 // If there is no component or hasMember element then either a value[x] or a data absent reason must be present
 
 * identifier MS
 * basedOn MS
@@ -90,7 +90,6 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * valueQuantity.code = $ucum#%
 
 * dataAbsentReason MS
-* dataAbsentReason obeys mii-icu-1
 
 // Intepretation - ValueSet für high/low/normal (preferred?) als Referenzbereich
 * interpretation MS

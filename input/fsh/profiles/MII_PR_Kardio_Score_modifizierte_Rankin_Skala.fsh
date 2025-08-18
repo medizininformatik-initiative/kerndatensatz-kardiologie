@@ -50,7 +50,7 @@ InstanceOf: MII_PR_Kardio_Score_Modifizierte_Rankin_Skala
 Usage: #example
 Title: "Beispielinstanz: mRS-Skala"
 Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem Schlaganfall gemäß MII PR Kardio Score mRS."
-* meta.profile = "https://www.medizininformatik-initiative.de/fhir/core/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
+
 * identifier.system = "http://example.org/observation-ids"
 * identifier.value = "MRS-OBS-123457"
 * status = #final

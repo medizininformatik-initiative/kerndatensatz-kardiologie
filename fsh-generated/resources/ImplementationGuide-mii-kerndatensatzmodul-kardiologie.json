@@ -321,6 +321,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
+        },
+        "name": "MII PR Kardio Atherosklerotisches Erstereignis",
+        "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
         },
         "name": "MII PR Kardio Ausschluss Scoreberechnung",
@@ -429,14 +437,6 @@
         },
         "name": "MII PR Kardio NBG Schrittmachermodus",
         "description": "Dieses Profil bildet die Einstellungsmöglichkeit eines Herzschrittmacher nach dem NBG-Standard ab.\r\nDie konkrete Programmierung eines Herzschrittmachers zu einem bestimmmten Zeitpunkt oder in einem Zeitraum wird in einer Observation abgebildet.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
-        },
-        "name": "MII PR Kardio Observation Atherosklerotisches Erstereignis",
-        "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
       {
@@ -564,6 +564,7 @@
           "reference": "ValueSet/mii-vs-kardio-lebensmittelpunkt-m49"
         },
         "name": "MII VS Kardio Lebensmittelpunkt [M49]",
+        "description": "Dieses Value Set bildet den aktuellen Lebensmittelpunkt des Patienten unabhängig von seiner Herkunft ab. Damit wird der Parameter 'Geographic region' des SMART-REACH-Scores mit der Ergänzung Deutschland abgebildet.",
         "exampleBoolean": false
       },
       {
@@ -624,9 +625,9 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-rauchen-einheiten"
+          "reference": "CodeSystem/mii-cs-kardio-rauchen-einheiten"
         },
-        "name": "MII_VS_Rauchen_Einheiten",
+        "name": "MII_CS_Kardio_Rauchen_Einheiten",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
         "exampleBoolean": false
       },

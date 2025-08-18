@@ -31,7 +31,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 // Folgende Items sind nicht Teil der Acribis-Kernscores, stehen daher - in der ersten Iteration - nicht im Fokus (nicht must-support).
 * component 0..* //MS
 * component ^short = "Zusätzliche Angaben zum Rauchverhalten."
-* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open // erlaubt jegliche category slice (names)
 * component ^slicing.ordered = false
@@ -81,10 +81,10 @@ Usage: #example
 * status = #final
 * category = $observation-category#social-history "Social History"
 * code = http://loinc.org#72166-2 "Tobacco smoking status"
-* subject = Reference(Patient/ExamplePatient)
-* encounter = Reference(Encounter/ExampleEncounter)
+* subject.reference = "Patient/Beispielpatient"
+* encounter.reference = "Encounter/Beispielfall"
 * effectiveDateTime = "2023-12-01"
-* performer = Reference(Practitioner/example-role-kardiologe)
+* performer.display = "Beispielkardiologe"
 * valueCodeableConcept = $sct#77176002 "Smoker (finding)"
 // Komponenten zur weiterführenden Beschreibung des Rauchverhaltens
 * component[packungsjahre].code = $smoking-units#pack-years

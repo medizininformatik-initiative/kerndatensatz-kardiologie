@@ -30,6 +30,7 @@
 [mii-exa-kardio-nbg-schrittmachermodus]: DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.html
 [mii-exa-kardio-pci-nein]: Observation-mii-exa-kardio-pci-nein.html
 [MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF]: StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.html
+[MII_PR_Kardio_Atherosklerotisches_Erstereignis]: StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html
 [MII_PR_Kardio_Ausschluss_Scoreberechnung]: StructureDefinition-mii-pr-kardio-ausschluss-scoreberechnung.html
 [MII_PR_Kardio_Device]: StructureDefinition-mii-pr-kardio-device.html
 [MII_PR_Kardio_Diagnose]: StructureDefinition-mii-pr-kardio-diagnose.html
@@ -44,7 +45,6 @@
 [MII_PR_Kardio_Kardiale_Deviceimplantation]: StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.html
 [MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion]: StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.html
 [MII_PR_Kardio_NBG_Schrittmachermodus]: StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.html
-[MII_PR_Kardio_Atherosklerotisches_Erstereignis]: StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html
 [MII_PR_Kardio_Observation_Rauchen]: StructureDefinition-mii-pr-kardio-observation-rauchen.html
 [MII_PR_Kardio_Observation_Rauchen_AcribisAlpha]: StructureDefinition-mii-pr-kardio-observation-rauchen-acribisalpha.html
 [MII_PR_Kardio_Score_Modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
@@ -68,6 +68,6 @@
 [MII_VS_Kardio_NYHA_Klassen_SNOMEDCT]: ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html
 [MII_VS_Kardio_Rauchen_AcribisAlpha]: ValueSet-mii-vs-kardio-rauchen-acribisalpha.html
 [MII_CS_Follow_Up]: CodeSystem-mii-cs-follow-up.html
-[MII_CS_Rauchen_Einheiten]: CodeSystem-mii-cs-rauchen-einheiten.html
+[MII_CS_Kardio_Rauchen_Einheiten]: CodeSystem-mii-cs-kardio-rauchen-einheiten.html
 [MII_CS_Kardio_Modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html
 [example-role-kardiologe]: PractitionerRole-example-role-kardiologe.html

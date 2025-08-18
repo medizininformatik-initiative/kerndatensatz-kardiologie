@@ -20,7 +20,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 // Folgende Items sind nicht Teil der Acribis-Kernscores, stehen daher - in der ersten Iteration - nicht im Fokus (nicht must-support).
 * component 0..* //MS
 * component ^short = "Zusätzliche Angaben zum Rauchverhalten."
-* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open // erlaubt jegliche category slice (names)
 * component ^slicing.ordered = false
@@ -70,10 +70,10 @@ Usage: #example
 * status = #final
 * category = $observation-category#social-history "Social History"
 * code = http://loinc.org#72166-2 "Tobacco smoking status"
-* subject = Reference(Patient/ExamplePatient)
-* encounter = Reference(Encounter/ExampleEncounter)
+* subject.reference = "Patient/Beispielpatient"
+* encounter.reference = "Encounter/Beispielfall"
 * effectiveDateTime = "2023-12-01"
-* performer = Reference(Practitioner/example-role-kardiologe)
+* performer.display = "Beispielkardiologe"
 * valueCodeableConcept = $loinc#LA18976-3 "Current every day smoker"
 // Komponenten zur weiterführenden Beschreibung des Rauchverhaltens
 * component[packungsjahre].code = $smoking-units#pack-years
@@ -97,3 +97,31 @@ Usage: #example
 * component[rauchdauer].valueQuantity.system = $ucum
 * component[rauchdauer].valueQuantity.code = #a
 * component[rauchdauer].valueQuantity.comparator = #>=
+
+Instance: Beispielpatient
+InstanceOf: Patient
+Usage:  #inline
+
+* identifier.use = #usual
+* identifier.type = $v2-0203#MR "Medical record number"
+* identifier.value = "0123456789"
+* name.use = #official
+* name.family = "Mustermann"
+* name.given = "Max"
+* gender = #male
+* birthDate = "1980-01-01"
+* address.type = #both
+* address.line = "Musterstraße 1"
+* address.city = "Musterstadt"
+* address.postalCode = "12345"
+* address.country = "DE"
+
+Instance: Beispielfall
+InstanceOf: Encounter
+Usage: #inline
+
+* status = #finished
+* class = $v3-ActCode#IMP
+* subject.reference = "Patient/Beispielpatient"
+* period.start = "2023-12-01T10:00:00+01:00"
+* period.end = "2023-12-03T11:00:00+01:00"

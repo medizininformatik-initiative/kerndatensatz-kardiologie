@@ -31,6 +31,11 @@
       }
     ]
   },
+  "performer": [
+    {
+      "display": "Beispielkardiologe"
+    }
+  ],
   "subject": {
     "display": "Beispielpatient"
   },

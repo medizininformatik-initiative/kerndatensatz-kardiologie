@@ -141,7 +141,7 @@
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Rauchen_AcribisAlpha.fsh",
     "startLine": 75,
-    "endLine": 110
+    "endLine": 112
   },
   {
     "outputFile": "Observation-Example-Kardio-Observation-Rauchen.json",
@@ -149,7 +149,7 @@
     "fshType": "Instance",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Rauchen.fsh",
     "startLine": 64,
-    "endLine": 99
+    "endLine": 101
   },
   {
     "outputFile": "Observation-example-kardio-mrs.json",
@@ -253,7 +253,7 @@
     "fshType": "Instance",
     "fshFile": "questionnaire\\MII_QN_Kardio_Acribis_Study_FollowUp.fsh",
     "startLine": 1,
-    "endLine": 317
+    "endLine": 316
   },
   {
     "outputFile": "StructureDefinition-mii-ex-kardio-ageatadmission.json",

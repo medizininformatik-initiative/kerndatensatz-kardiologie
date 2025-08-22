@@ -67,11 +67,13 @@ Title: "Beispiel für Raucherstatus im Kontext von ACRIBiS"
 Description: "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen."
 Usage: #example
 
+* contained[0] = Beispielpatient
+* contained[1] = Beispielfall
 * status = #final
 * category = $observation-category#social-history "Social History"
 * code = http://loinc.org#72166-2 "Tobacco smoking status"
-* subject.reference = "Patient/Beispielpatient"
-* encounter.reference = "Encounter/Beispielfall"
+* subject = Reference(Beispielpatient)
+* encounter = Reference(Beispielfall)
 * effectiveDateTime = "2023-12-01"
 * performer.display = "Beispielkardiologe"
 * valueCodeableConcept = $loinc#LA18976-3 "Current every day smoker"
@@ -99,6 +101,8 @@ Usage: #example
 * component[rauchdauer].valueQuantity.comparator = #>=
 
 Instance: Beispielpatient
+Title: "Beispielpatient"
+Description: "Ein Beispielpatient für die Verwendung in Beispielinstanzen."
 InstanceOf: Patient
 Usage:  #inline
 
@@ -118,6 +122,8 @@ Usage:  #inline
 
 Instance: Beispielfall
 InstanceOf: Encounter
+Title: "Beispielfall"
+Description: "Ein Beispielfall für die Verwendung in Beispielinstanzen."
 Usage: #inline
 
 * status = #finished

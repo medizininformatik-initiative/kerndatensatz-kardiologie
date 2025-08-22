@@ -4,7 +4,6 @@ Usage: #definition
 
 // ========================================================
 // Metadata
-* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/Questionnaire/acribis-study-followup" // Eindeutige URL (canonical); sollte stabil bleiben
 //* identifier.system = "http://example.org/questionnaires"              // Optional: System fuer Identifier
 //* identifier.value = "followup-001"                                    // Optional: Interne ID
 * insert Version
@@ -16,7 +15,7 @@ Usage: #definition
 * insert Instance_Publisher
 * description = "Ein Follow-Up-Fragebogen im Rahmen der Acribis-Studie." // Beschreibung
 * useContext[0].code = http://terminology.hl7.org/CodeSystem/usage-context-type#focus
-* useContext[0].valueCodeableConcept = http://snomed.info/sct#734163000 "Clinical trial (procedure)" // Optionaler Anwendungskontext
+* useContext[0].valueCodeableConcept = http://snomed.info/sct#110465008 "Clinical trial (procedure)" // Optionaler Anwendungskontext
 * subjectType[0] = #Patient                                              // #Patient | #Practitioner | #Group | #Location
 
 // ========================================================
@@ -60,7 +59,7 @@ Usage: #definition
 * item[=].text = "Wer füllt den Fragebogen aus?"
 * item[=].type = #choice
 * item[=].answerOption[0].valueCoding = $sct#116154003 "Patient"  //Patient (person)
-* item[=].answerOption[+].valueCoding = $sct#2187007 "Relative" //Relative (person)
+* item[=].answerOption[+].valueCoding = $sct#125677006 "Relative" //Relative (person)
 * item[=].answerOption[+].valueCoding = $sct#405279007 "Attending physician" //Attending physician (occupation)
 * item[=].answerOption[+].valueCoding = $sct#74964007 "Other" //Andere Person
 
@@ -79,7 +78,7 @@ Usage: #definition
 * item[=].text = "Telefonat mit"
 * item[=].type = #choice
 * item[=].answerOption[0].valueCoding = $sct#116154003 "Patient"  //Patient (person)
-* item[=].answerOption[+].valueCoding = $sct#2187007 "Relative" //Relative (person)
+* item[=].answerOption[+].valueCoding = $sct#125677006 "Relative" //Relative (person)
 * item[=].answerOption[+].valueCoding = $sct#405279007 "Attending physician" //Attending physician (occupation)
 * item[=].answerOption[+].valueCoding = $sct#74964007 "Other" //Andere Person
 

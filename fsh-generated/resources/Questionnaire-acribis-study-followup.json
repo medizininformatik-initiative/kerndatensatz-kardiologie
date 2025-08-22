@@ -1,7 +1,7 @@
 {
   "resourceType": "Questionnaire",
   "id": "acribis-study-followup",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/Questionnaire/acribis-study-followup",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/acribis-study-followup",
   "contact": [
     {
       "telecom": [
@@ -21,7 +21,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "code": "734163000",
+            "code": "110465008",
             "system": "http://snomed.info/sct",
             "display": "Clinical trial (procedure)"
           }
@@ -50,7 +50,7 @@
         },
         {
           "valueCoding": {
-            "code": "2187007",
+            "code": "125677006",
             "system": "http://snomed.info/sct",
             "display": "Relative"
           }
@@ -103,7 +103,7 @@
         },
         {
           "valueCoding": {
-            "code": "2187007",
+            "code": "125677006",
             "system": "http://snomed.info/sct",
             "display": "Relative"
           }

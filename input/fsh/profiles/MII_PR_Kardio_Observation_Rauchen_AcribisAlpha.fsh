@@ -78,11 +78,13 @@ Title: "Beispiel für Raucherstatus im Kontext von ACRIBiS"
 Description: "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen."
 Usage: #example
 
+* contained[0] = Beispielpatient
+* contained[1] = Beispielfall
 * status = #final
 * category = $observation-category#social-history "Social History"
 * code = http://loinc.org#72166-2 "Tobacco smoking status"
-* subject.reference = "Patient/Beispielpatient"
-* encounter.reference = "Encounter/Beispielfall"
+* subject = Reference(Beispielpatient)
+* encounter = Reference(Beispielfall)
 * effectiveDateTime = "2023-12-01"
 * performer.display = "Beispielkardiologe"
 * valueCodeableConcept = $sct#77176002 "Smoker (finding)"

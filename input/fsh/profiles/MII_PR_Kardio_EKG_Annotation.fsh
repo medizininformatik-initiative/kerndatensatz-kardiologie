@@ -1,7 +1,7 @@
-Profile: MII_PR_Kardio_EKG_Annotationen
-Id: mii-pr-kardio-ekg-annotationen
+Profile: MII_PR_Kardio_EKG_Annotation
+Id: mii-pr-kardio-ekg-annotation
 Parent: Observation
-Title: "MII PR Kardio EKG Annotationen"
+Title: "MII PR Kardio EKG Annotation"
 Description: "Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Interpretationen, eines EKG."
 
 * insert PR_CS_VS_Version
@@ -39,7 +39,7 @@ Description: "Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Int
 * derivedFrom[document] only Reference(DocumentReference)
 
 Instance: mii-exa-kardio-ekg-rr-interval
-InstanceOf: MII_PR_Kardio_EKG_Annotationen
+InstanceOf: MII_PR_Kardio_EKG_Annotation
 Title: "MII EXA Kardio EKG RR Interval"
 Description: "Beispiel einer Observation zur Darstellung des RR Intervals eines aufgezeichneten EKGs"
 Usage: #example

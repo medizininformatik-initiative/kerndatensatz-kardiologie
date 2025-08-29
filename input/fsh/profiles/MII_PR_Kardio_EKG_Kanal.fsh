@@ -14,7 +14,7 @@ Description: "Profil zur Abbildung eines EKG-Kanals."
 * status MS
 
 * type 1.. MS
-* type.coding ^slicing.discriminator.type = #pattern
+* type.coding ^slicing.discriminator.type = #value
 * type.coding ^slicing.discriminator.path = "$this"
 * type.coding ^slicing.rules = #open
 * type.coding contains geraetetyp 1..1 MS
@@ -22,7 +22,7 @@ Description: "Profil zur Abbildung eines EKG-Kanals."
 * type.coding[geraetetyp] = $mdc#69799
 
 * property 1.. MS
-* property ^slicing.discriminator.type = #pattern
+* property ^slicing.discriminator.type = #value
 * property ^slicing.discriminator.path = "type"
 * property ^slicing.rules = #open
 

@@ -41,31 +41,17 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * category[vs-cat] ^comment = "Category 'imaging', da meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen."
 
 * code MS
-* code obeys code-coding-icu  // code-coding-icu: Es muss mindestens ein snomed oder loinc code vorhanden sein
-* code.coding 1..
+// * code obeys code-coding-icu  // code-coding-icu: Es muss mindestens ein snomed oder loinc code vorhanden sein
+* code.coding 2..
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open
 * code.coding contains
     sct 1..* MS and
-    loinc 1..* MS and
-    IEEE-11073 0..* MS
-// * code.coding[sct] from $sct (required) TODO: Ich habe das auskommentiert. Hier muss ein VS angegeben werden, kein CS (Philipp: 06.06.2025)
-* code.coding[sct].system 1.. MS
-* code.coding[sct].code 1.. MS
-* code.coding[sct] ^patternCoding.system = $sct
-* code.coding[sct].code = $sct#250908004
-* code.coding[sct].display = "Left ventricular ejection fraction (observable entity)"
-// * code.coding[loinc] from $loinc (required) TODO: Ich habe das auskommentiert. Hier muss ein VS angegeben werden, kein CS (Philipp: 06.06.2025)
-* code.coding[loinc].system 1.. MS
-* code.coding[loinc].code 1.. MS
-* code.coding[loinc] ^patternCoding.system = $loinc
-* code.coding[loinc].code = $loinc#10230-1
-* code.coding[loinc].display = "Left ventricular ejection fraction"
-//* code.coding[IEEE-11073] from $vs-mii-icu-code-monitoring-und-vitaldaten-iso11073 (required)
-* code.coding[IEEE-11073] ^patternCoding.system = "urn:iso:std:iso:11073:10101"
-* code.coding[IEEE-11073].system 1.. MS
-* code.coding[IEEE-11073].code 1.. MS
+    loinc 1..* MS
+
+* code.coding[sct] = $sct#250908004
+* code.coding[loinc] = $loinc#10230-1
 
 * subject 1.. MS
 * subject only Reference(Patient)
@@ -104,7 +90,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * device MS
 
 // TODO refernzbereichsangaben prüfen
-* referenceRange ^slicing.discriminator.type = #pattern
+* referenceRange ^slicing.discriminator.type = #value
 * referenceRange ^slicing.discriminator.path = "text"
 * referenceRange ^slicing.rules = #closed
 * referenceRange ^slicing.ordered = true
@@ -113,9 +99,9 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 
 // Leitlinie: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (ESC - European Society of Cardiology)
 * referenceRange contains
-    normal 0..1 and
-    mild 0..1 and
-    reduced 0..1
+    normal 0..1 MS and
+    mild 0..1 MS and
+    reduced 0..1 MS
 // Normal >=50. HFpEF nicht sinnvoll abgrenzbar.
 * referenceRange[normal].text = "Normal"
 * referenceRange[normal].low.value = 50

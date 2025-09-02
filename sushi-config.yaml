@@ -29,7 +29,7 @@ dependencies:
    de.medizininformatikinitiative.kerndatensatz.icu: 2025.0.4 #2024.0.0-alpha2 ## für koerpergewicht und 
    de.medizininformatikinitiative.kerndatensatz.diagnose: 2025.0.0 # für Kardio Diagnose
    de.medizininformatikinitiative.kerndatensatz.prozedur: 2025.0.0 # für Kardio Prozedur Implantation
-   de.gematik.isik-vitalparameter: 4.0.2 #für lvef
+#   de.gematik.isik-vitalparameter: 4.0.2 #für lvef
    de.gematik.isik-basismodul: 4.0.3
 #
 #

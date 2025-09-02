@@ -1,43 +1,46 @@
 ValueSet: MII_VS_Kardio_Allergene_SNOMEDCT
 Id: mii-vs-kardio-allergene-snomedct
-Title: "MII VS Kardio Allergene [SNOMEDCT]"
+Title: "MII VS Kardio Allergene [SNOMED CT]"
 Description: "Liste von Substanzen"
 
 * insert PR_CS_VS_Version
 * insert Publisher
+
 * ^status = #draft
 * ^experimental = true
-* ^date = "2025-03-05"
+* ^date = "2025-08-29"
 * ^purpose = "Dieses Value Set listet relevante Substanzen kodiert in SNOMED CT für die Verwendung in einer Observation zu Allergien."
 * ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."
 
 // Allergene Antibiotika
-* $sct#764146007 "Penicillin"
-* $sct#387170002 "Ampicillin"
-* include codes from system $sct where concept in $sct#764147003 "Cephalosporin"
-* $sct#372809001 "Tetracyclin"
-* $sct#763805006 "Aminoglycoside"
-* $sct#396345004 "Carbapenem"
-* $sct#395977002 "Fluocinolon"
-* $sct#301844007 "Glycopeptide"
-* include codes from system $sct where concept in $sct#428787002 "Makrolide"
-* $sct#764436002 "Oxazolidinone"
-* include codes from system $sct where concept in $sct#387406002 "Sulfonamide"
-* $sct#775439002 "Dalfopristin and quinupristin only product" //Eines davon oder beide?
-* $sct#324352008 "Dalfopristin- and quinupristin-containing product" //Eines davon oder beide?
+// TODO: Viele der Codes haben Kind-Konzepte: Substance with ... structure and antibacterial mechanism of action (substance). Sollen wir auf diese Codes beschränken?
+* include codes from system $sct where concept is-a $sct#764146007 // "Substance with penicillin structure (substance)" (als Kind-Konzepte: Ampicillin)
+* include codes from system $sct where concept is-a $sct#764147003 // "Cephalosporin (substance)"
+* include codes from system $sct where concept is-a $sct#372809001 // "Tetracyclin (substance)"
+* include codes from system $sct where concept is-a $sct#763805006 // "Aminoglycoside (substance)"
+* include codes from system $sct where concept is-a $sct#396345004 // "Carbapenem (substance)"
+* include codes from system $sct where concept is-a $sct#395977002 // "Fluocinolon (substance)"
+* include codes from system $sct where concept is-a $sct#301844007 // "Glycopeptide (substance)"
+* include codes from system $sct where concept is-a $sct#428787002 // "Makrolide (substance)"
+* include codes from system $sct where concept is-a $sct#764436002 // "Oxazolidinone (substance)"
+* include codes from system $sct where concept is-a $sct#387406002 // "Sulfonamide (substance)"
+* include codes from system $sct where concept is-a $sct#324352008 // "Product containing dalfopristin and quinupristin (medicinal product)"
+* $sct#372786004 // "Clindamycin (substance)"
+* $sct#372677003 // "Lincomycin (substance)"
+
+// TODO: Statt SNOMED eignen sich vielleicht ATC-Codes besser?
 
 // Allergene Kontrastmittel
-* include codes from system $sct where concept in $sct#426722004 "Iodinated contrast media"
-* $sct#105879004 "Gadolinium AND/OR gadolinium compound (inactive)" // bestimmte Elemente aus 419909004 MRT-Kontrastmittel. TODO Abgleich mit Informationsmodell.
+* include codes from system $sct where concept is-a $sct#426722004 // "Iodinated contrast media"
+* include codes from system $sct where concept is-a $sct#1348311005 // "Gadolinium-based contrast media (substance)"
 
 // "Häufige" Allergene
-* $sct#260147004 "Hausstaubmilben"
-* $sct#33396006 "Nickel"
-* $sct#54808007 "Kobalt"
-* include codes from system $sct where concept in $sct#256277009 "Gräserpollen"
-//Excludes notwendig? TODO Abgleich mit abgestimmtem Informationsmodell!
-* $sct#418785009 "Parfüm"
-* $sct#255840003 "Kolophonium"
-* $sct#111095003 "Formaldehyd"
-* $sct#289954006 "Pilzmaterial"
-* $sct#733010002 "Pflaster"
+* include codes from system $sct where concept is-a $sct#260147004 // "House dust mite (organism)"
+* include codes from system $sct where concept is-a $sct#33396006 // "Nickel (substance)"
+* include codes from system $sct where concept is-a $sct#54808007 // "Cobalt (substance)"
+* include codes from system $sct where concept is-a $sct#256277009 // "Grass pollen (substance)"
+* include codes from system $sct where concept is-a $sct#418785009 // "Perfume (substance)"
+* include codes from system $sct where concept is-a $sct#255840003 // "Colophony (substance)"
+* include codes from system $sct where concept is-a $sct#111095003 // "Formaldehyde (substance)"
+* include codes from system $sct where concept is-a $sct#289954006 // "Fungal material (substance)"
+* include codes from system $sct where concept is-a $sct#830076001 // "Adhesive plaster (physical object)"

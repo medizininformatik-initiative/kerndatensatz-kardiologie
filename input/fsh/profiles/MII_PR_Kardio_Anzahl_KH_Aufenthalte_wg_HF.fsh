@@ -1,49 +1,40 @@
 Profile: MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF
 Id: mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf
-Parent: Observation //korrekt so
+Parent: Observation
 Title: "MII PR Kardio Anzahl KH Aufenthalte wg HF"
-Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS."
-// Ermöglichen Anzahl Aufenhtalte wg. Herzinsuffizienz direkt anzugeben
+Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS."
+
 * insert PR_CS_VS_Version
 * insert Publisher
 
 * code 1..1 MS
 * code.coding 1..1 MS
-* code.coding = $sct#32485007 //hospital admission (procedure)
+* code.coding = $sct#32485007 // Hospital admission (procedure)
 * code.coding.system 1.. MS
 * code.coding.code 1.. MS
 
-// Subject 1..1 MS Reference(Patient)
 * subject 1..1 MS
 * subject only Reference(Patient)
 
 * effective[x] 1.. MS
+// TODO: Sollten wir das auf den Period einschränken, damit der genaue Zeitraum angegeben wird?
 
-// Anzahl als Value/Integer 
-* value[x] 1..1 MS
+* value[x] 1.. MS
 * value[x] only integer
 
-//* bodySite ..0
-//* specimen ..0
-
-// Component
-* component MS
-* component ^slicing.discriminator.type = #pattern
+* component 1.. MS
+* component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
-* component ^slicing.rules = #closed
-* component ^slicing.ordered = false
-* component ^slicing.description = "Details zu den Krankenhausaufenthalten ()."
+* component ^slicing.rules = #open
+* component ^slicing.description = "Details zu den Krankenhausaufenthalten."
 * component contains
     Grund 1..1 MS
 
-// Grund
 * component[Grund].code 1.. MS
 * component[Grund].code = $sct#406524005 // Reason for visit diagnosis (attribute)
 * component[Grund].value[x] 1.. MS
 * component[Grund].value[x] only CodeableConcept
 * component[Grund].valueCodeableConcept = $sct#84114007
-
-// TODO: Code muss geprüft werden. Eventuell sind noch weitere Codes relevant. Nicht immer wird bei Aufnahme wg. HF unbedingt HF angegeben --> indirekte Hinweise berücksichtigen?
 
 Instance: mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf
 InstanceOf: MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF
@@ -54,7 +45,8 @@ Usage: #example
 * status = #final
 * code.coding = $sct#32485007 "Hospital admission (procedure)"
 * subject.display = "Beispielpatient"
-* effectiveDateTime = "2025-05-21T17:35:22+02:00"
+* effectivePeriod.start = "2024-05-21"
+* effectivePeriod.end = "2025-05-20"
 * performer.display = "Beispielkardiologe"
 * valueInteger = 3
 * component[Grund].code.coding = $sct#406524005 "Reason for visit diagnosis (attribute)"

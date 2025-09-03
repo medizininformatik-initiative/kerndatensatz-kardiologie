@@ -6,11 +6,11 @@ Description: "Ausschlusskriterien für ACRIBiS Scores"
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-05-21"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-03"
 * ^caseSensitive = true
-* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ausschlusskriterium-acribis-scores"
 * ^content = #complete
 
 * #hv "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
+* #tk "Ausschlusskriterium terminale Krebserkrankung"

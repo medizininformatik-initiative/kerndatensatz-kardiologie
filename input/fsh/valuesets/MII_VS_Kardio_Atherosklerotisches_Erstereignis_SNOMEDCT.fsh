@@ -1,6 +1,6 @@
-ValueSet: MII_VS_Kardio_Artherosklerotisches_Erstereignis_SNOEMDCT
-Id: mii-vs-kardio-atherosklerotisches-erstereignis-snomedct
-Title: "MII VS Kardio Atherosklerotisches Erstereignis [SNOMED CT]"
+ValueSet: MII_VS_Kardio_Artherosklerotisches_Ereignis_SNOEMDCT
+Id: mii-vs-kardio-atherosklerotisches-ereignis-snomedct
+Title: "MII VS Kardio Atherosklerotisches Eereignis [SNOMED CT]"
 Description: "ValueSet for Relevant Codes for Atherosclerotic Events"
 
 * insert PR_CS_VS_Version
@@ -22,4 +22,4 @@ Description: "ValueSet for Relevant Codes for Atherosclerotic Events"
 // Achtung, beim Folgenden handelt es sich um eine Prozedur, keine Diagnose
 * $sct#1287902001 // "Operation on carotid artery (procedure)"
 
-* include codes from system MII_CS_Kardio_Atherosklerotisches_Erstereignis
+* include codes from system MII_CS_Kardio_Atherosklerotisches_Ereignis

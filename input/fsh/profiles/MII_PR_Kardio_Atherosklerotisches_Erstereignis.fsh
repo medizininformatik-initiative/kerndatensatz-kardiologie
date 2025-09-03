@@ -1,32 +1,28 @@
 Profile: MII_PR_Kardio_Atherosklerotisches_Erstereignis
 Id: mii-pr-kardio-atherosklerotisches-erstereignis
-Parent: Observation //MII_PR_Diagnose_Condition
+Parent: Observation
 Title: "MII PR Kardio Atherosklerotisches Erstereignis"
 Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS."
+
 * insert PR_CS_VS_Version
 * insert Publisher
 
-// Code, um anzugeben, welches Ereignis das erste war: 
-// Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma.
-* code 1..1 MS
-* code.coding 1..1 MS
-* code.coding from MII_VS_Kardio_Artherosklerotisches_Erstereignis_SNOEMDCT (preferred) //TODO SNOMED/ICD
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-03"
 
-// Subject Patient MS 1..1
-* subject 1..1 MS
+* code MS
+* code from MII_VS_Kardio_Artherosklerotisches_Ereignis_SNOEMDCT (preferred) //TODO SNOMED/ICD
+* code ^comment = "Code, um anzugeben, welches Ereignis das erste war: 
+Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma."
+* code.coding 1..1 MS
+
+* subject 1.. MS
 * subject only Reference(Patient)
 
-// Erstdiagnosedatum als Feststellungsdatum der Condition/Observation
 * value[x] only dateTime
-* valueDateTime 1..1 MS
-//* extension[Feststellungsdatum] 1..1 MS
-
-//_____________________
-//Diskussion: Observation mit SNOMED Code oder Condition mit SNOMED oder ICD-Code? --> Observation
-//Wenn "Operation an den Karotiden" (Prozedur) teil des ValueSets ist, lässt sich das ganze nicht als Diagnose abbilden.
-
-
-// IG Hinweis, dass evtl. aus Diagnosen abgefragt werden / soll kann. Standortabhängig? Feedback abwarten, bei Bedarf diskutieren.
+* value[x] ^comment = "Datum des bezeichneten ersten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK)"
+* valueDateTime 1.. MS
 
 Instance: mii-exa-kardio-atherosklerotisches-erstereignis
 InstanceOf: MII_PR_Kardio_Atherosklerotisches_Erstereignis
@@ -35,7 +31,7 @@ Description: "Beispiel einer Observation für das Datum eines unbestimmten ather
 Usage: #example
 
 * status = #final
-* code.coding = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-erstereignis#aee "Atherosklerotisches Erstereignis"
+* code.coding = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis#ae "Atherosklerotisches Ereignis"
 * subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-05-23T13:48:17+02:00"
 * performer.display = "Beispielkardiologe"

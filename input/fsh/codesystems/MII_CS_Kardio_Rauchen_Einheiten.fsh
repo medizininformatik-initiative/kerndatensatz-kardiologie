@@ -6,8 +6,9 @@ Description: "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschrei
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-03"
 * ^caseSensitive = true
 //* ^content = #complete
 

@@ -7,11 +7,13 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-03"
+
 * code 1..1 MS
 * code.coding 1..1 MS
 * code.coding = $sct#32485007 // Hospital admission (procedure)
-* code.coding.system 1.. MS
-* code.coding.code 1.. MS
 
 * subject 1..1 MS
 * subject only Reference(Patient)

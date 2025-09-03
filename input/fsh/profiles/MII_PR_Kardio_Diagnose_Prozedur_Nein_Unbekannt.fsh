@@ -7,6 +7,10 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^status = #draft
+* ^experimental = true
+* ^date = "2025-05-13"
+
 * category from $observation-category-vs (required)
 
 * code 1.. MS

@@ -6,7 +6,7 @@ Description: "Beeinträchtigung des Patienten nach Schlaganfall"
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
+* ^status = #active
 * ^experimental = false
 * ^date = "2025-04-29"
 * ^purpose = "Dieses Code-System bildet die Stufen der modifizierten Rankin-Skala ab."

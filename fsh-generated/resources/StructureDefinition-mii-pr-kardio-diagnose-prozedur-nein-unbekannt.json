@@ -6,6 +6,8 @@
   "name": "MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt",
   "title": "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
   "status": "draft",
+  "experimental": true,
+  "date": "2025-05-13",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

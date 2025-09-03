@@ -37,13 +37,13 @@
     "coding": [
       {
         "code": "250908004",
-        "display": "Left ventricular ejection fraction (observable entity)",
-        "system": "http://snomed.info/sct"
+        "system": "http://snomed.info/sct",
+        "display": "Left ventricular ejection fraction (observable entity)"
       },
       {
         "code": "10230-1",
-        "display": "Left ventricular ejection fraction",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Left ventricular ejection fraction"
       }
     ],
     "text": "Linksventrikuläre Ejektionsfraktion"

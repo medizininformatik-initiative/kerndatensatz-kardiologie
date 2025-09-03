@@ -9,9 +9,9 @@
   "code": {
     "coding": [
       {
-        "code": "aee",
-        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-erstereignis",
-        "display": "Atherosklerotisches Erstereignis"
+        "code": "ae",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
+        "display": "Atherosklerotisches Ereignis"
       }
     ]
   },

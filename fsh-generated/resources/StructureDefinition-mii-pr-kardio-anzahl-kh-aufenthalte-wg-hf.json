@@ -5,7 +5,9 @@
   "version": "2025.0.0",
   "name": "MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF",
   "title": "MII PR Kardio Anzahl KH Aufenthalte wg HF",
-  "status": "draft",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-09-03",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -17,7 +19,7 @@
       ]
     }
   ],
-  "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
+  "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -40,18 +42,6 @@
           "code": "32485007",
           "system": "http://snomed.info/sct"
         },
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
         "mustSupport": true
       },
       {
@@ -91,13 +81,12 @@
         "slicing": {
           "discriminator": [
             {
-              "type": "pattern",
+              "type": "value",
               "path": "code"
             }
           ],
-          "rules": "closed",
-          "ordered": false,
-          "description": "Details zu den Krankenhausaufenthalten ()."
+          "rules": "open",
+          "description": "Details zu den Krankenhausaufenthalten."
         },
         "min": 1,
         "mustSupport": true

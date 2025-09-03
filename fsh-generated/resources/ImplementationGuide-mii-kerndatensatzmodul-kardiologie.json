@@ -49,12 +49,6 @@
       "id": "de_medizininformatikinitiative_kerndatensatz_prozedur"
     },
     {
-      "packageId": "de.gematik.isik-vitalparameter",
-      "version": "4.0.2",
-      "uri": "http://fhir.org/packages/de.gematik.isik-vitalparameter/ImplementationGuide/de.gematik.isik-vitalparameter",
-      "id": "de_gematik_isik_vitalparameter"
-    },
-    {
       "packageId": "de.gematik.isik-basismodul",
       "version": "4.0.3",
       "uri": "http://fhir.org/packages/de.gematik.isik-basismodul/ImplementationGuide/de.gematik.isik-basismodul",
@@ -161,10 +155,10 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-erstereignis"
+          "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-Ereignis"
         },
-        "name": "MII CS Kardio Atherosklerotisches Erstereignis",
-        "description": "Code für ein unbestimmtes atherosklerotisches Erstereignis",
+        "name": "MII CS Kardio Atherosklerotisches Ereignis",
+        "description": "Code für ein unbestimmtes atherosklerotisches Ereignis",
         "exampleBoolean": false
       },
       {
@@ -269,7 +263,7 @@
         },
         "name": "MII EXA Kardio EKG RR Interval",
         "description": "Beispiel einer Observation zur Darstellung des RR Intervals eines aufgezeichneten EKGs",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotationen"
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotation"
       },
       {
         "reference": {
@@ -316,7 +310,7 @@
           "reference": "StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
         },
         "name": "MII PR Kardio Anzahl KH Aufenthalte wg HF",
-        "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten und Gründen in einem Zeitraum im Kontext von ACRIBiS.",
+        "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
       {
@@ -332,7 +326,7 @@
           "reference": "StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
         },
         "name": "MII PR Kardio Ausschluss Scoreberechnung",
-        "description": "Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
+        "description": "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis.\r\nVorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
         "exampleBoolean": false
       },
       {
@@ -361,9 +355,9 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-ekg-annotationen"
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-annotation"
         },
-        "name": "MII PR Kardio EKG Annotationen",
+        "name": "MII PR Kardio EKG Annotation",
         "description": "Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Interpretationen, eines EKG.",
         "exampleBoolean": false
       },
@@ -475,15 +469,15 @@
         "reference": {
           "reference": "ValueSet/mii-vs-kardio-allergene-snomedct"
         },
-        "name": "MII VS Kardio Allergene [SNOMEDCT]",
+        "name": "MII VS Kardio Allergene [SNOMED CT]",
         "description": "Liste von Substanzen",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-atherosklerotisches-erstereignis-snomedct"
+          "reference": "ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct"
         },
-        "name": "MII VS Kardio Atherosklerotisches Erstereignis [SNOMED CT]",
+        "name": "MII VS Kardio Atherosklerotisches Eereignis [SNOMED CT]",
         "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
         "exampleBoolean": false
       },
@@ -662,6 +656,10 @@
       {
         "code": "releaselabel",
         "value": "ci-build"
+      },
+      {
+        "code": "pin-canonicals",
+        "value": "pin-all"
       }
     ]
   }

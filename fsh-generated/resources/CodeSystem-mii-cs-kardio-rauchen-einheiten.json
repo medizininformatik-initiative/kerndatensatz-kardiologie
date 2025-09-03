@@ -1,6 +1,6 @@
 {
   "resourceType": "CodeSystem",
-  "status": "draft",
+  "status": "active",
   "content": "complete",
   "name": "MII_CS_Kardio_Rauchen_Einheiten",
   "id": "mii-cs-kardio-rauchen-einheiten",
@@ -44,7 +44,8 @@
       ]
     }
   ],
-  "experimental": true,
+  "experimental": false,
+  "date": "2025-09-03",
   "caseSensitive": true,
   "count": 5
 }

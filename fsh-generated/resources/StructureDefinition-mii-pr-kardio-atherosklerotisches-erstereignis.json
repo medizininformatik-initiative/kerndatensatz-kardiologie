@@ -5,7 +5,9 @@
   "version": "2025.0.0",
   "name": "MII_PR_Kardio_Atherosklerotisches_Erstereignis",
   "title": "MII PR Kardio Atherosklerotisches Erstereignis",
-  "status": "draft",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-09-03",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -29,18 +31,19 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "mustSupport": true
+        "comment": "Code, um anzugeben, welches Ereignis das erste war: \r\nKoronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma.",
+        "mustSupport": true,
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct"
+        }
       },
       {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
         "min": 1,
         "max": "1",
-        "mustSupport": true,
-        "binding": {
-          "strength": "preferred",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-erstereignis-snomedct"
-        }
+        "mustSupport": true
       },
       {
         "id": "Observation.subject",
@@ -59,6 +62,7 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "comment": "Datum des bezeichneten ersten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK)",
         "min": 1,
         "type": [
           {

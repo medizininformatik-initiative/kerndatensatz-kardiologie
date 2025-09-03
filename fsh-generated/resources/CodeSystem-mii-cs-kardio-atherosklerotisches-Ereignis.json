@@ -1,0 +1,32 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "MII_CS_Kardio_Atherosklerotisches_Ereignis",
+  "id": "mii-cs-kardio-atherosklerotisches-Ereignis",
+  "title": "MII CS Kardio Atherosklerotisches Ereignis",
+  "description": "Code für ein unbestimmtes atherosklerotisches Ereignis",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-Ereignis",
+  "concept": [
+    {
+      "code": "ae",
+      "display": "Atherosklerotisches Ereignis"
+    }
+  ],
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "date": "2025-09-03",
+  "caseSensitive": true,
+  "count": 1
+}

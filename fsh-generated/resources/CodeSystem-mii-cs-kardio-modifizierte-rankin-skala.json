@@ -1,6 +1,6 @@
 {
   "resourceType": "CodeSystem",
-  "status": "draft",
+  "status": "active",
   "content": "complete",
   "name": "MII_CS_Kardio_Modifizierte_Rankin_Skala",
   "id": "mii-cs-kardio-modifizierte-rankin-skala",

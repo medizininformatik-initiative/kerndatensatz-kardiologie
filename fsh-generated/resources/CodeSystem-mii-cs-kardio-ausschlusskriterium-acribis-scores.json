@@ -1,6 +1,6 @@
 {
   "resourceType": "CodeSystem",
-  "status": "draft",
+  "status": "active",
   "content": "complete",
   "name": "MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores",
   "id": "mii-cs-kardio-ausschlusskriterium-acribis-scores",
@@ -11,6 +11,10 @@
     {
       "code": "hv",
       "display": "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
+    },
+    {
+      "code": "tk",
+      "display": "Ausschlusskriterium terminale Krebserkrankung"
     }
   ],
   "version": "2025.0.0",
@@ -25,9 +29,8 @@
       ]
     }
   ],
-  "experimental": true,
-  "date": "2025-05-21",
+  "experimental": false,
+  "date": "2025-09-03",
   "caseSensitive": true,
-  "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ausschlusskriterium-acribis-scores",
-  "count": 1
+  "count": 2
 }

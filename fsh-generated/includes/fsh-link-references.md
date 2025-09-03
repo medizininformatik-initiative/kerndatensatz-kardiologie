@@ -10,7 +10,7 @@
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
 [MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
-[MII_CS_Kardio_Atherosklerotisches_Erstereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-erstereignis.html
+[MII_CS_Kardio_Atherosklerotisches_Ereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-Ereignis.html
 [MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: CodeSystem-mii-cs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
 [mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf]: Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.html
@@ -35,7 +35,7 @@
 [MII_PR_Kardio_Device]: StructureDefinition-mii-pr-kardio-device.html
 [MII_PR_Kardio_Diagnose]: StructureDefinition-mii-pr-kardio-diagnose.html
 [MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt]: StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html
-[MII_PR_Kardio_EKG_Annotationen]: StructureDefinition-mii-pr-kardio-ekg-annotationen.html
+[MII_PR_Kardio_EKG_Annotation]: StructureDefinition-mii-pr-kardio-ekg-annotation.html
 [MII_PR_Kardio_EKG_Durchfuehrung]: StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.html
 [MII_PR_Kardio_EKG_Geraet]: StructureDefinition-mii-pr-kardio-ekg-geraet.html
 [MII_PR_Kardio_EKG_Geraetedefinition]: StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html
@@ -50,7 +50,7 @@
 [MII_PR_Kardio_Score_Modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
 [MII_VS_Kardio_Allergene_SNOMEDCT]: ValueSet-mii-vs-kardio-allergene-snomedct.html
-[MII_VS_Kardio_Artherosklerotisches_Erstereignis_SNOEMDCT]: ValueSet-mii-vs-kardio-atherosklerotisches-erstereignis-snomedct.html
+[MII_VS_Kardio_Artherosklerotisches_Ereignis_SNOEMDCT]: ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html
 [MII_VS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: ValueSet-mii-vs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_VS_Kardio_EKG_Kanaele_MDC]: ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html
 [MII_VS_Kardio_Ethnie_SNOMEDCT]: ValueSet-mii-vs-kardio-ethnie-snomedct.html

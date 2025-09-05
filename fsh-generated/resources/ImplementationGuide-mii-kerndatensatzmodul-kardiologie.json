@@ -67,67 +67,11 @@
       },
       {
         "reference": {
-          "reference": "Condition/beispiel-kardio-diagnose-liegt-vor"
-        },
-        "name": "Beispiel Diagnose liegt vor",
-        "description": "Beispielhafte vollständige Instanz einer Diagnose die vom Arzt bestätigt tatsächlich vorliegt gemäß dem Profil MII_PR_Kardio_Diagnose im Rahmen des ACRIBIS-Projekts.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
-      },
-      {
-        "reference": {
-          "reference": "Condition/beispiel-kardio-pavk-unbekannt"
-        },
-        "name": "Beispiel einer Diagnose deren Vorliegen dem Arzt und evtl. Patienten unbekannt ist",
-        "description": "Vollständig befüllte FHIR-Instanz zur Repräsentation des Nicht-Vorliegens einer Krebserkrankung im Endstadium gemäß dem Profil MII_PR_Kardio_Diagnose.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
-      },
-      {
-        "reference": {
-          "reference": "Condition/beispiel-kardio-krebs-terminal-liegt-nicht-vor"
-        },
-        "name": "Beispiel einer nicht vorliegenden terminalen Krebserkrankung",
-        "description": "Vollständig befüllte FHIR-Instanz zur Repräsentation des Nicht-Vorliegens einer Krebserkrankung im Endstadium gemäß dem Profil MII_PR_Kardio_Diagnose.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
-      },
-      {
-        "reference": {
-          "reference": "Observation/Example-Kardio-Observation-Rauchen"
-        },
-        "name": "Beispiel für Raucherstatus im Kontext von ACRIBiS",
-        "description": "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen"
-      },
-      {
-        "reference": {
-          "reference": "Observation/Example-Kardio-Observation-Rauchen-acribisalpha"
-        },
-        "name": "Beispiel für Raucherstatus im Kontext von ACRIBiS",
-        "description": "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
-      },
-      {
-        "reference": {
           "reference": "Observation/example-lvef"
         },
         "name": "Beispiel LVEF Observation",
         "description": "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"
-      },
-      {
-        "reference": {
-          "reference": "Observation/example-kardio-mrs"
-        },
-        "name": "Beispielinstanz: mRS-Skala",
-        "description": "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem Schlaganfall gemäß MII PR Kardio Score mRS.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
-      },
-      {
-        "reference": {
-          "reference": "Observation/example-kardio-nyha"
-        },
-        "name": "Beispielinstanz: NYHA-Klassifikation",
-        "description": "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation bei Herzinsuffizienz gemäß MII PR Kardio Score NYHA.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha"
       },
       {
         "reference": {
@@ -182,7 +126,7 @@
           "reference": "Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf"
         },
         "name": "MII EXA Kardio Anzahl KH Aufenthalte WG HF",
-        "description": "Beispiel einer Observation für die Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr",
+        "description": "Beispiel einer Observation für 3 Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
       },
       {
@@ -195,9 +139,9 @@
       },
       {
         "reference": {
-          "reference": "Observation/mii-exa-kardio-ausschluss-scoreberechnung"
+          "reference": "Observation/mii-exa-kardio-ausschluss-scoreberechnung-vitium"
         },
-        "name": "MII EXA Kardio Ausschluss Scoreberechnung",
+        "name": "MII EXA Kardio Ausschluss Scoreberechnung Vitium",
         "description": "Beispiel einer Observation für das Ausschlusskriterium unbehandeltes, höhergradiges Vitium",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
       },
@@ -285,9 +229,17 @@
         "reference": {
           "reference": "Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd"
         },
-        "name": "MII EXA Kardio Kardiale Deviceimplantation",
+        "name": "MII EXA Kardio Kardiale Deviceimplantation ICD",
         "description": "Beispiel einer Implantation eines Kardioverter-Defibrillators (ICD)",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-mrs"
+        },
+        "name": "MII EXA Kardio MRS",
+        "description": "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem Schlaganfall gemäß MII PR Kardio Score mRS.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
       },
       {
         "reference": {
@@ -304,6 +256,46 @@
         "name": "MII EXA Kardio PCI/Stent Nein",
         "description": "Beispiel: Der Patient hatte noch keine Koronarintervention mit PCI/Stent.",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-raucherstatus"
+        },
+        "name": "MII EXA Kardio Raucherstatus",
+        "description": "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-raucherstatus-acribisalpha"
+        },
+        "name": "MII EXA Kardio Raucherstatus ACRIBiS Alpha",
+        "description": "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen im Kontext von ACRIBiS.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/mii-exa-kardio-rolle-kardiologe"
+        },
+        "name": "MII EXA Kardio Rolle Kardiologe",
+        "description": "Beispielhafte Rolle eines Kardiologen zur Verwendung in performer-Referenzen.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-score-nyha-ii"
+        },
+        "name": "MII EXA Kardio Score NYHA II",
+        "description": "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation bei Herzinsuffizienz gemäß MII PR Kardio Score NYHA.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha"
+      },
+      {
+        "reference": {
+          "reference": "Condition/mii-exa-kardio-diagnose-myokardinfarkt"
+        },
+        "name": "MII Kardio Diagnose Myokardinfarkt",
+        "description": "Beispielhafte vollständige Instanz einer Diagnose die vom Arzt bestätigt tatsächlich vorliegt gemäß dem Profil MII_PR_Kardio_Diagnose im Rahmen des ACRIBIS-Projekts.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
       },
       {
         "reference": {
@@ -477,7 +469,7 @@
         "reference": {
           "reference": "ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct"
         },
-        "name": "MII VS Kardio Atherosklerotisches Eereignis [SNOMED CT]",
+        "name": "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
         "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
         "exampleBoolean": false
       },
@@ -632,14 +624,6 @@
         "name": "Modifizierte Rankin-Skala",
         "description": "Beeinträchtigung des Patienten nach Schlaganfall",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "PractitionerRole/example-role-kardiologe"
-        },
-        "name": "Rolle: Kardiologe im Klinikum",
-        "description": "Beispielhafte Rolle eines Kardiologen zur Verwendung in performer-Referenzen.",
-        "exampleBoolean": true
       }
     ],
     "page": {

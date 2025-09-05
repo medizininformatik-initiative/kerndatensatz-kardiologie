@@ -17,19 +17,14 @@
     }
   ],
   "code": {
+    "text": "Koronarintervention mit PCI/Stent",
     "coding": [
       {
         "code": "415070008",
         "system": "http://snomed.info/sct",
-        "display": "Percutaneous transluminal coronary intervention using imaging guidance with contrast (procedure)"
-      },
-      {
-        "code": "8-837.y",
-        "system": "http://fhir.de/CodeSystem/bfarm/ops",
-        "display": "Perkutan-transluminale Gefäßintervention an Herz und Koronargefäßen: N.n.bez."
+        "display": "Percutaneous coronary intervention"
       }
-    ],
-    "text": "Koronarintervention mit PCI/Stent"
+    ]
   },
   "performer": [
     {

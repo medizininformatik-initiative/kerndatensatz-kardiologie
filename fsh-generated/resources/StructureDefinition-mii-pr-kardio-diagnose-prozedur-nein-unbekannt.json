@@ -5,9 +5,9 @@
   "version": "2025.0.0",
   "name": "MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt",
   "title": "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
-  "status": "draft",
-  "experimental": true,
-  "date": "2025-05-13",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-09-04",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -78,30 +78,6 @@
         "binding": {
           "strength": "required",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct"
-        }
-      },
-      {
-        "id": "Observation.code.coding:icd-10-gm",
-        "path": "Observation.code.coding",
-        "sliceName": "icd-10-gm",
-        "min": 0,
-        "max": "1",
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://fhir.de/ValueSet/bfarm/icd-10-gm"
-        }
-      },
-      {
-        "id": "Observation.code.coding:ops",
-        "path": "Observation.code.coding",
-        "sliceName": "ops",
-        "min": 0,
-        "max": "1",
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://fhir.de/ValueSet/bfarm/ops"
         }
       },
       {

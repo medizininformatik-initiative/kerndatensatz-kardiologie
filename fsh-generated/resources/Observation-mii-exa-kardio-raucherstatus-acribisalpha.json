@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "Example-Kardio-Observation-Rauchen-acribisalpha",
+  "id": "mii-exa-kardio-raucherstatus-acribisalpha",
   "meta": {
     "profile": [
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"

@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "example-kardio-nyha",
+  "id": "mii-exa-kardio-score-nyha-ii",
   "meta": {
     "profile": [
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha"
@@ -15,13 +15,13 @@
   "code": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
         "code": "762994006",
+        "system": "http://snomed.info/sct",
         "display": "New York Heart Association Classification class (observable entity)"
       },
       {
-        "system": "http://loinc.org",
         "code": "93124-6",
+        "system": "http://loinc.org",
         "display": "New York Heart Association Functional Classification panel"
       }
     ]
@@ -34,18 +34,9 @@
   },
   "performer": [
     {
-      "reference": "PractitionerRole/example-role-kardiologe"
+      "reference": "PractitionerRole/mii-exa-kardio-rolle-kardiologe"
     }
   ],
-  "valueCodeableConcept": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "code": "421704003",
-        "display": "New York Heart Association Classification - Class II"
-      }
-    ]
-  },
   "note": [
     {
       "text": "Patient berichtet über leichte Einschränkungen bei moderater körperlicher Aktivität. Keine Beschwerden in Ruhe."
@@ -67,5 +58,14 @@
   ],
   "status": "final",
   "effectiveDateTime": "2024-11-12T14:23:00+01:00",
-  "issued": "2024-11-12T15:00:00+01:00"
+  "issued": "2024-11-12T15:00:00+01:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "421704003",
+        "system": "http://snomed.info/sct",
+        "display": "New York Heart Association Classification - Class II"
+      }
+    ]
+  }
 }

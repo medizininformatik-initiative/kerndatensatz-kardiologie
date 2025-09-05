@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "example-kardio-mrs",
+  "id": "mii-exa-kardio-mrs",
   "meta": {
     "profile": [
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"

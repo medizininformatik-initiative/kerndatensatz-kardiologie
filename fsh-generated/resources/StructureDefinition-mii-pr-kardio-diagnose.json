@@ -19,9 +19,9 @@
   "version": "2025.0.0",
   "name": "MII_PR_Kardio_Diagnose",
   "title": "MII PR Kardio Diagnose",
-  "status": "draft",
-  "experimental": true,
-  "date": "2025-09-03",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-09-04",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -42,12 +42,6 @@
   "derivation": "constraint",
   "differential": {
     "element": [
-      {
-        "id": "Condition.category",
-        "path": "Condition.category",
-        "comment": "Unterscheidung zwischen Falldiagnose (encounter-diagnose) und beliebiger Diagnose (problem-list-item).",
-        "mustSupport": true
-      },
       {
         "id": "Condition.severity",
         "path": "Condition.severity",
@@ -94,7 +88,7 @@
         ],
         "mustSupport": true,
         "isModifier": true,
-        "isModifierReason": "Can express the uncertainty of a diagnosis by stating a recorder that is not authorized to define an confirmed diagnosis."
+        "isModifierReason": "Can express the uncertainty of a diagnosis by stating a recorder that is not authorized to define a confirmed diagnosis."
       },
       {
         "id": "Condition.asserter",
@@ -111,7 +105,7 @@
         ],
         "mustSupport": true,
         "isModifier": true,
-        "isModifierReason": "Can express the uncertainty of a diagnosis by stating a asserter that is not authorized to define an confirmed diagnosis."
+        "isModifierReason": "Can express the uncertainty of a diagnosis by stating an asserter that is not authorized to define a confirmed diagnosis."
       }
     ]
   }

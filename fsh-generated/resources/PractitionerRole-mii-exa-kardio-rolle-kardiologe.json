@@ -1,6 +1,6 @@
 {
   "resourceType": "PractitionerRole",
-  "id": "example-role-kardiologe",
+  "id": "mii-exa-kardio-rolle-kardiologe",
   "organization": {
     "display": "Klinikum Musterstadt"
   },

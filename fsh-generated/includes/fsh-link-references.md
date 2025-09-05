@@ -1,12 +1,5 @@
 [acribis-study-followup]: Questionnaire-acribis-study-followup.html
-[beispiel-kardio-diagnose-liegt-vor]: Condition-beispiel-kardio-diagnose-liegt-vor.html
-[beispiel-kardio-pavk-unbekannt]: Condition-beispiel-kardio-pavk-unbekannt.html
-[beispiel-kardio-krebs-terminal-liegt-nicht-vor]: Condition-beispiel-kardio-krebs-terminal-liegt-nicht-vor.html
-[Example-Kardio-Observation-Rauchen]: Observation-Example-Kardio-Observation-Rauchen.html
-[Example-Kardio-Observation-Rauchen-acribisalpha]: Observation-Example-Kardio-Observation-Rauchen-acribisalpha.html
 [example-lvef]: Observation-example-lvef.html
-[example-kardio-mrs]: Observation-example-kardio-mrs.html
-[example-kardio-nyha]: Observation-example-kardio-nyha.html
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
 [MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
@@ -15,7 +8,7 @@
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
 [mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf]: Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.html
 [mii-exa-kardio-atherosklerotisches-erstereignis]: Observation-mii-exa-kardio-atherosklerotisches-erstereignis.html
-[mii-exa-kardio-ausschluss-scoreberechnung]: Observation-mii-exa-kardio-ausschluss-scoreberechnung.html
+[mii-exa-kardio-ausschluss-scoreberechnung-vitium]: Observation-mii-exa-kardio-ausschluss-scoreberechnung-vitium.html
 [mii-exa-kardio-device-icd]: Device-mii-exa-kardio-device-icd.html
 [mii-exa-kardio-ekg-geraet-mortara]: Device-mii-exa-kardio-ekg-geraet-mortara.html
 [mii-exa-kardio-ekg-geraetedefinition-mortara]: DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.html
@@ -27,8 +20,14 @@
 [mii-exa-kardio-geraeteprogrammierung-vvi]: Observation-mii-exa-kardio-geraeteprogrammierung-vvi.html
 [mii-exa-kardio-herzinsuffizienz-unbekannt]: Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.html
 [mii-exa-kardio-kardiale-deviceimplantation-icd]: Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.html
+[mii-exa-kardio-mrs]: Observation-mii-exa-kardio-mrs.html
 [mii-exa-kardio-nbg-schrittmachermodus]: DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.html
 [mii-exa-kardio-pci-nein]: Observation-mii-exa-kardio-pci-nein.html
+[mii-exa-kardio-raucherstatus]: Observation-mii-exa-kardio-raucherstatus.html
+[mii-exa-kardio-raucherstatus-acribisalpha]: Observation-mii-exa-kardio-raucherstatus-acribisalpha.html
+[mii-exa-kardio-rolle-kardiologe]: PractitionerRole-mii-exa-kardio-rolle-kardiologe.html
+[mii-exa-kardio-score-nyha-ii]: Observation-mii-exa-kardio-score-nyha-ii.html
+[mii-exa-kardio-diagnose-myokardinfarkt]: Condition-mii-exa-kardio-diagnose-myokardinfarkt.html
 [MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF]: StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.html
 [MII_PR_Kardio_Atherosklerotisches_Erstereignis]: StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html
 [MII_PR_Kardio_Ausschluss_Scoreberechnung]: StructureDefinition-mii-pr-kardio-ausschluss-scoreberechnung.html
@@ -70,4 +69,3 @@
 [MII_CS_Follow_Up]: CodeSystem-mii-cs-follow-up.html
 [MII_CS_Kardio_Rauchen_Einheiten]: CodeSystem-mii-cs-kardio-rauchen-einheiten.html
 [MII_CS_Kardio_Modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html
-[example-role-kardiologe]: PractitionerRole-example-role-kardiologe.html

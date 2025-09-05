@@ -19,9 +19,9 @@
   "version": "2025.0.0",
   "name": "MII_PR_Kardio_Kardiale_Deviceimplantation",
   "title": "MII PR Kardio Kardiale Deviceimplantation",
-  "status": "draft",
-  "experimental": true,
-  "date": "2025-09-03",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-09-04",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -46,27 +46,6 @@
         "id": "Procedure.status",
         "path": "Procedure.status",
         "patternCode": "completed"
-      },
-      {
-        "id": "Procedure.category",
-        "path": "Procedure.category",
-        "min": 1
-      },
-      {
-        "id": "Procedure.category.coding",
-        "path": "Procedure.category.coding",
-        "min": 1
-      },
-      {
-        "id": "Procedure.category.coding:sct",
-        "path": "Procedure.category.coding",
-        "sliceName": "sct",
-        "min": 1
-      },
-      {
-        "id": "Procedure.category.coding:sct.code",
-        "path": "Procedure.category.coding.code",
-        "patternCode": "387713003"
       },
       {
         "id": "Procedure.code",

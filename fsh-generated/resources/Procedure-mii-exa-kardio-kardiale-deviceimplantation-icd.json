@@ -23,8 +23,8 @@
   "category": {
     "coding": [
       {
-        "code": "387713003",
         "system": "http://snomed.info/sct",
+        "code": "387713003",
         "display": "Surgical procedure (procedure)"
       }
     ]
@@ -59,6 +59,9 @@
   ],
   "focalDevice": [
     {
+      "manipulated": {
+        "reference": "Device/mii-exa-kardio-device-icd"
+      },
       "action": {
         "coding": [
           {
@@ -67,9 +70,6 @@
             "display": "Surgical implantation - action (qualifier value)"
           }
         ]
-      },
-      "manipulated": {
-        "reference": "Device/mii-exa-kardio-device-icd"
       }
     }
   ],

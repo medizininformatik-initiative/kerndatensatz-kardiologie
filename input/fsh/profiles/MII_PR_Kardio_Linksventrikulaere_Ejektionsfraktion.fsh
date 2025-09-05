@@ -1,9 +1,3 @@
-//Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category //defined in alias.fsh
-//Alias: $vs-mii-icu-code-monitoring-und-vitaldaten-snomed = https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-snomed
-//Alias: $vs-mii-icu-code-monitoring-und-vitaldaten-loinc = https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-loinc
-//Alias: $vs-mii-icu-code-monitoring-und-vitaldaten-iso11073 = https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-code-monitoring-und-vitaldaten-iso11073
-//Alias: $vs-mii-icu-bodysite-observation-monitoring-und-vitaldaten = https://gematik.de/fhir/isik/ValueSet/vs-mii-icu-bodysite-observation-monitoring-und-vitaldaten
-
 Profile: MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion
 Id: mii-pr-kardio-linksventrikulaere-ejektionsfraktion
 Parent: Observation // VS zu restriktiv: SD_MII_ICU_Monitoring_Und_Vitaldaten
@@ -13,31 +7,28 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * insert Publisher
 // Profil abgeleitet von ICU Vitalparameter (da LVEF kein Vitalzeichen ist, wird aber von Observation geerbt)
 // ICU Vitalparameter "Monitoring und Vitaldaten": "https://simplifier.net/isik-vitalparameter-v4/sd_mii_icu_monitoring_und_vitaldaten
-* ^version = "0.1"
+// bei Übernahme aus ISiK Monitoring und Vitaldaten die category und restriktive valueSets abgeändert.
+
+* ^status = #draft
 * ^experimental = true
-* ^date = "2025-05-12"
+* ^date = "2025-09-04"
 
 * obeys vs-de-2 and mii-icu-1 // If there is no component or hasMember element then either a value[x] or a data absent reason must be present
 
 * identifier MS
-* basedOn MS
-* basedOn ^short = "bei Übernahme aus ISiK Monitoring und Vitaldaten die category und restriktive valueSets abgeändert."
+
 * partOf only Reference(Procedure) //Procedure Echokardiographie
 * status MS
 * status ^comment = "Motivation MS: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung"
 
 // Category
-* category MS
+* category 1.. MS
 * category ^slicing.discriminator.type = #value
 * category ^slicing.discriminator.path = "$this"
-* category ^slicing.ordered = false
 * category ^slicing.rules = #open
 * category contains 
     vs-cat 1..1 MS
 * category[vs-cat] = $observation-category#imaging
-* category[vs-cat].coding MS
-* category[vs-cat].coding.system 1.. MS
-* category[vs-cat].coding.code 1.. MS
 * category[vs-cat] ^comment = "Category 'imaging', da meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen."
 
 * code MS
@@ -50,8 +41,8 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
     sct 1..* MS and
     loinc 1..* MS
 
-* code.coding[sct] = $sct#250908004
-* code.coding[loinc] = $loinc#10230-1
+* code.coding[sct] = $sct#250908004 // Left ventricular ejection fraction (observable entity)
+* code.coding[loinc] = $loinc#10230-1 // Left ventricular Ejection fraction
 
 * subject 1.. MS
 * subject only Reference(Patient)

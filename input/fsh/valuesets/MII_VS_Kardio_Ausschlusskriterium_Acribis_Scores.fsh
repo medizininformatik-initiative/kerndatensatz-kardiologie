@@ -21,3 +21,4 @@ Description: "ValueSet for exclusion criteria for score computation"
 * MII_CS_Kardio_Modifizierte_Rankin_Skala#mRSbigger3 // Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)
 
 // Marcumar, Heparin
+// Kardiogener Schock

@@ -7,15 +7,11 @@ Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers, 
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-09-03"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-04"
 
 * status = #completed
-
-* category 1..
-* category.coding[sct] 1..
-* category.coding[sct].code = #387713003
 
 * code.coding[sct] 1..
 * code.coding[sct] from MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT

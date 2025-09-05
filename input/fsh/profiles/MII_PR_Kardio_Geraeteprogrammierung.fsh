@@ -7,9 +7,9 @@ Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die De
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-05-13"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-04"
 
 * code from $devicemetric-type-vs (required)
 * code MS

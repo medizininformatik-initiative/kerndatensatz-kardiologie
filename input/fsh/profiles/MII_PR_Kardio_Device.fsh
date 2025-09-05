@@ -9,7 +9,7 @@ Description: "Profil zur Abbildung eines implantierten Herzschrittmachers, Defib
 
 * ^status = #draft
 * ^experimental = true
-* ^date = "2025-05-13"
+* ^date = "2025-09-04"
 
 * status MS
 
@@ -26,16 +26,6 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **BiVAD**: 360057000 - Biventricular assist device (physical object)"
 
 * patient 1.. MS
-
-/*
-Device.property.type ist gedacht für statische Eigenschaften eines Geräts, z.B. Farbe und Größe.
-Es soll explizit nicht verwendet werden für Einstellungen: https://chat.fhir.org/#narrow/channel/179199-devices/topic/Device.20settings/near/398100646
-
-Gedacht ist: Mit DeviceMetric wird eine Einstellungsmöglichkeit, die ein Device hat, definiert.
-Für ACRIBiS: ISO/IEEE 11073 - MDC_IDC_SET_BRADY_MODE "The brady pacing mode according to the NBG standard."
-Die DeviceMetric referenziert Device.
-Die tatsächliche Einstellung eines Geräts zu einem Zeitpunkt wird dann per Observation abgebildet (Observation.subject ist das Device, Observation.focus die DeviceMetric).
-*/
 
 Instance: mii-exa-kardio-device-icd
 InstanceOf: MII_PR_Kardio_Device

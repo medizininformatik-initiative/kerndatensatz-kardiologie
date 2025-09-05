@@ -5,9 +5,9 @@
   "version": "2025.0.0",
   "name": "MII_PR_Kardio_Device",
   "title": "MII PR Kardio Device",
-  "status": "draft",
-  "experimental": true,
-  "date": "2025-09-04",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-09-05",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

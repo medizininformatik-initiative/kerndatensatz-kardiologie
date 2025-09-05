@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT",
   "id": "mii-vs-kardio-extended-condition-severity-snomedct",
   "title": "MII VS Kardio Extended Condition Severity [SNOMED CT]",
@@ -18,6 +18,7 @@
       ]
     }
   ],
+  "experimental": false,
   "compose": {
     "include": [
       {

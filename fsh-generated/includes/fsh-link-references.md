@@ -1,8 +1,6 @@
 [acribis-study-followup]: Questionnaire-acribis-study-followup.html
 [example-lvef]: Observation-example-lvef.html
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
-[MII_EX_Kardio_AnamneseAntwort]: StructureDefinition-mii-ex-kardio-anamneseantwort.html
-[MII_EX_Kardio_Region]: StructureDefinition-mii-ex-kardio-region.html
 [MII_CS_Kardio_Atherosklerotisches_Ereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-Ereignis.html
 [MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: CodeSystem-mii-cs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html

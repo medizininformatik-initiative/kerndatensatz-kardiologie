@@ -248,22 +248,6 @@
     "endLine": 5
   },
   {
-    "outputFile": "StructureDefinition-mii-ex-kardio-anamneseantwort.json",
-    "fshName": "MII_EX_Kardio_AnamneseAntwort",
-    "fshType": "Extension",
-    "fshFile": "extensions\\MII_EX_Kardio_AnamneseAntwort.fsh",
-    "startLine": 1,
-    "endLine": 10
-  },
-  {
-    "outputFile": "StructureDefinition-mii-ex-kardio-region.json",
-    "fshName": "MII_EX_Kardio_Region",
-    "fshType": "Extension",
-    "fshFile": "extensions\\MII_EX_Kardio_Region.fsh",
-    "startLine": 1,
-    "endLine": 6
-  },
-  {
     "outputFile": "StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json",
     "fshName": "MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF",
     "fshType": "Profile",
@@ -469,7 +453,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 16
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.json",
@@ -549,7 +533,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_NYHA_Klassen_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 19
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-objekte-geraete-mdc.json",
@@ -565,6 +549,6 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Rauchen_AcribisAlpha.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 18
   }
 ]

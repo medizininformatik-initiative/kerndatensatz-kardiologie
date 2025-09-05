@@ -83,22 +83,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-ex-kardio-anamneseantwort"
-        },
-        "name": "Extension - AnamneseAntwort",
-        "description": "Antworten zu Anamnesefragen aus ärztlicher Befragung oder Patientenfragebogen im Kontext des Projekts ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-ex-kardio-region"
-        },
-        "name": "Extension - Region",
-        "description": "Angabe einer Region mit einem ValueSet (Region (Wohnort/Land) nach SMART-Score) definiert in ACRIBiS-Datensatz.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-Ereignis"
         },
         "name": "MII CS Kardio Atherosklerotisches Ereignis",

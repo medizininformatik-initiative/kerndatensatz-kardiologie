@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "MII_VS_Kardio_Geraeteprogrammierung_MDC",
   "id": "mii-vs-kardio-geraeteprogrammierung-mdc",
   "title": "MII VS Kardio Geräteprogrammierung [MDC]",
@@ -18,8 +18,8 @@
       ]
     }
   ],
-  "experimental": true,
-  "date": "2025-05-14",
+  "experimental": false,
+  "date": "2025-09-05",
   "purpose": "Mit Codes aus diesem Valueset soll abgebildet werden, ob es sich um einen AAI-, VVI- oder DDD-Schrittmacher handelt, falls das bekannt ist.",
   "compose": {
     "include": [

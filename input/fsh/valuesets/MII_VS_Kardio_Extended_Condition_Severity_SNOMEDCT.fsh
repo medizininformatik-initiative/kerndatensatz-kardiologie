@@ -5,7 +5,9 @@ Description: "An extended ValueSet including standard condition severity and SNO
 
 * insert PR_CS_VS_Version
 * insert Publisher
-* ^status = #draft
+
+* ^status = #active
+* ^experimental = false
 
 * $sct#24484000 // Severe (severity modifier) (qualifier value)
 * $sct#6736007 // Moderate (severity modifier) (qualifier value)

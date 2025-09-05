@@ -6,11 +6,11 @@ Description: "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-07-11"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-05"
 
-* $v2-0532#N "No"
-* $v2-0532#UNK "unknown"
-* $v2-0532#NASK "not asked"
-* $v2-0532#ASKU "asked but unknown"
+* $v2-0532#N // No
+* $v2-0532#UNK // unknown
+* $v2-0532#NASK // not asked
+* $v2-0532#ASKU // asked but unknown

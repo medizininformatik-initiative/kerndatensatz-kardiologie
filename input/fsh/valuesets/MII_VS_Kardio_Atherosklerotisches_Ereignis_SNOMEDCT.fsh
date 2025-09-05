@@ -6,9 +6,9 @@ Description: "ValueSet for Relevant Codes for Atherosclerotic Events"
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-08-29"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-05"
 
 // Obacht: Dieser Kommentar kann entfernt werden, sobald die Codes von Klinikern geprüft wurden.
 

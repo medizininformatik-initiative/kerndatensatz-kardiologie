@@ -6,9 +6,9 @@ Description: "Stufen der modifizierten Rankin-Skala"
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-04-29"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-05"
 * ^copyright = "Public Domain"
 
 * include codes from system MII_CS_Kardio_Modifizierte_Rankin_Skala

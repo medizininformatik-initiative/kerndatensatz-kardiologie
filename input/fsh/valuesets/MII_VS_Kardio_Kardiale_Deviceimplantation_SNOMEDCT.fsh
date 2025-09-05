@@ -6,9 +6,9 @@ Description: "Dieses Value Set bildet die Implantation der kardialen Devices Kar
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-05-13"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-05"
 * ^purpose = "Codes aus diesem Value Set können in einer Prozedur die Implantation eines kardialen Devices in der Kardiologie spezifizieren."
 
 * include codes from system $sct where concept is-a #395218007 // Implantation of internal cardiac defibrillator (procedure)

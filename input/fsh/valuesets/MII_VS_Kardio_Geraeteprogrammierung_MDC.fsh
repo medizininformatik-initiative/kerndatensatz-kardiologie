@@ -7,9 +7,9 @@ Dazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendetd."
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-05-14"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-05"
 * ^purpose = "Mit Codes aus diesem Valueset soll abgebildet werden, ob es sich um einen AAI-, VVI- oder DDD-Schrittmacher handelt, falls das bekannt ist."
 
 * $mdc#754753 // MDC_IDC_ENUM_BRADY_MODE_AAI

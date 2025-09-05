@@ -6,9 +6,9 @@ Description: "Dieses Value Set bildet die Gerätetypen implantierter Kardioverte
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-05-13"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-05"
 
 * include codes from system $sct where concept is-a #72506001 // Implantable defibrillator, device (physical object)
 * include codes from system $sct where concept is-a #706004007 // Implantable cardiac pacemaker (physical object)

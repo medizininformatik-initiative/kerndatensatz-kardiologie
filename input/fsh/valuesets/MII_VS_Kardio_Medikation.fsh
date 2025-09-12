@@ -1,10 +1,8 @@
 ValueSet: MII_VS_Kardio_Medikation
 Id: mii-vs-kardio-medikation
-Title: "MII_VS_Kardio_Medikation"
-Description: "ATC-Codes 'de' in der Kardiologie relevanter Medikamente."
+Title: "MII VS Kardio Medikation"
+Description: "ATC-Codes der in der Kardiologie relevanter Medikamente."
 
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-medikation"
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #draft

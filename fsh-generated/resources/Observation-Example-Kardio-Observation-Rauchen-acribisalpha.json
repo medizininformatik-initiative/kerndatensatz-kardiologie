@@ -116,9 +116,9 @@
   "valueCodeableConcept": {
     "coding": [
       {
-        "code": "current-every-day-smoker",
-        "system": "http://terminology.hl7.org/CodeSystem/observation-smoking-status",
-        "display": "Current every day smoker"
+        "code": "77176002",
+        "system": "http://snomed.info/sct",
+        "display": "Smoker (finding)"
       }
     ]
   }

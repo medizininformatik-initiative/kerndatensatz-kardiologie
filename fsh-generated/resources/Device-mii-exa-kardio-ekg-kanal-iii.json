@@ -12,14 +12,33 @@
         "code": "69799",
         "system": "urn:iso:std:iso:11073:10101",
         "display": "MDC_DEV_ECG_CHAN"
-      },
-      {
-        "code": "131133",
-        "system": "urn:iso:std:iso:11073:10101",
-        "display": "MDC_ECG_LEAD_III"
       }
     ]
   },
+  "property": [
+    {
+      "valueCode": [
+        {
+          "coding": [
+            {
+              "code": "131133",
+              "system": "urn:iso:std:iso:11073:10101",
+              "display": "MDC_ECG_LEAD_III"
+            }
+          ]
+        }
+      ],
+      "type": {
+        "coding": [
+          {
+            "code": "68142",
+            "system": "urn:iso:std:iso:11073:10101",
+            "display": "MDC_ATTR_CHAN_NUM_LOGICAL"
+          }
+        ]
+      }
+    }
+  ],
   "parent": {
     "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
   },

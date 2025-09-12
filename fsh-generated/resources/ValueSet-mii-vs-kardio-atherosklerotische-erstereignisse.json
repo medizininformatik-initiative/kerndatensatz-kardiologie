@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_Artherosklerotisches_Erstereignisse",
+  "name": "MII_VS_Kardio_Artherosklerotische_Erstereignisse",
   "id": "mii-vs-kardio-atherosklerotische-erstereignisse",
   "title": "MII VS Kardio Atherosklerotische Erstereignisse",
   "description": "ValueSet for Relevant Codes for Atherosclerotic Events",

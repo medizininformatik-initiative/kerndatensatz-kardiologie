@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "draft",
-  "name": "MII_VS_Kardio_Kardiale_Deviceimplantation",
-  "id": "mii-vs-kardio-kardiale-deviceimplantation",
-  "title": "MII VS Kardio Kardiale Devicemimplantation",
+  "name": "MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT",
+  "id": "mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
+  "title": "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
   "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
   "version": "2025.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [

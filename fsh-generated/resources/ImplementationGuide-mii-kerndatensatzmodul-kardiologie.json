@@ -26,7 +26,7 @@
   "dependsOn": [
     {
       "packageId": "de.basisprofil.r4",
-      "version": "1.5.3",
+      "version": "1.5.4",
       "uri": "http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4",
       "id": "de_basisprofil_r4"
     },
@@ -241,6 +241,22 @@
       },
       {
         "reference": {
+          "reference": "DocumentReference/mii-exa-kardio-ekg-referenz"
+        },
+        "name": "MII EXA Kardio EKG Referenz",
+        "description": "Beispiel einer Referenz auf ein EKG, dessen Rohdaten an einem anderen Ort gespeichert werden.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-ekg-rr-interval"
+        },
+        "name": "MII EXA Kardio EKG RR Interval",
+        "description": "Beispiel einer Observation zur Darstellung des RR Intervals eines aufgezeichneten EKGs",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotationen"
+      },
+      {
+        "reference": {
           "reference": "Observation/mii-exa-kardio-geraeteprogrammierung-vvi"
         },
         "name": "MII EXA Kardio Geräteprogrammierung VVI",
@@ -329,6 +345,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-annotationen"
+        },
+        "name": "MII PR Kardio EKG Annotationen",
+        "description": "Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Interpretationen, eines EKG.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-ekg-geraet"
         },
         "name": "MII PR Kardio EKG Gerät",
@@ -353,10 +377,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-ekg-metadaten"
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-referenz"
         },
-        "name": "MII PR Kardio EKG Metadaten",
-        "description": "Profil zur Erfassung der Metadaten eines EKG inkl. Link/Referenz auf den Speicherort.",
+        "name": "MII PR Kardio EKG Referenz",
+        "description": "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespeichert werden.",
         "exampleBoolean": false
       },
       {
@@ -420,15 +444,15 @@
           "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen"
         },
         "name": "MII PR Kardio Observation Rauchen",
-        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
+        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Modul Kardiologie.",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
         },
-        "name": "MII PR Kardio Observation Rauchen",
-        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
+        "name": "MII PR Kardio Observation Rauchen AcribisAlpha",
+        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Projekts ACRIBiS.",
         "exampleBoolean": false
       },
       {
@@ -443,7 +467,7 @@
         "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
         },
-        "name": "MII PR Kardio Score modifizierte Rankin Skala",
+        "name": "MII PR Kardio Score Modifizierte Rankin Skala",
         "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
         "exampleBoolean": false
       },
@@ -481,6 +505,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ethnie-snomed"
+        },
+        "name": "MII VS Kardio Ethnie [SNOMED]",
+        "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-extended-condition-severity-snomedct"
+        },
+        "name": "MII VS Kardio Extended Condition Severity [SNOMED CT]",
+        "description": "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung"
         },
         "name": "MII VS Kardio Geräteprogrammierung",
@@ -497,18 +537,26 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation"
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"
         },
-        "name": "MII VS Kardio Kardiale Devicemimplantation",
+        "name": "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+        "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct"
+        },
+        "name": "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
         "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle"
+          "reference": "ValueSet/mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen"
         },
-        "name": "MII VS Kardio Kardiale Devicemimplantation Körperstelle",
-        "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
+        "name": "MII VS Kardio MDC Metriken EKG Annotationen",
+        "description": "ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)",
         "exampleBoolean": false
       },
       {
@@ -521,6 +569,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-medikation"
+        },
+        "name": "MII VS Kardio Medikation",
+        "description": "ATC-Codes der in der Kardiologie relevanter Medikamente.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-modifizierte-rankin-skala"
+        },
+        "name": "MII VS Kardio Modifizierte Rankin Skala",
+        "description": "Stufen der modifizierten Rankin-Skala",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-nein-unbekannt"
         },
         "name": "MII VS Kardio Nein Unbekannt",
@@ -529,7 +593,23 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-follow-up"
+          "reference": "ValueSet/mii-vs-kardio-nyha-klassen-snomedct"
+        },
+        "name": "MII VS Kardio NYHA Klassen [SNOMED CT]",
+        "description": "Klassen der New York Heart Association Classification",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-rauchen-acribisalpha"
+        },
+        "name": "MII VS Kardio Rauchen AcribisAlpha",
+        "description": "Kombiniertes ValueSet mit Codes zur Abbildung des Rauchverhaltens im Kontext von Acribis",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-follow-up"
         },
         "name": "MII_CS_Follow_Up",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zur Verwendung im Follow-Up Questionnaire.",
@@ -541,30 +621,6 @@
         },
         "name": "MII_VS_Kardio_Allergene_SNOMED",
         "description": "Liste von Substanzen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-diagnose-icd10gm"
-        },
-        "name": "MII_VS_Kardio_Diagnose_ICD10-GM",
-        "description": "ICD10-GM Codes für kardiologische Erkrankungen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ethnie-snomed"
-        },
-        "name": "MII_VS_Kardio_Ethnie_SNOMED",
-        "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-extended-condition-severity"
-        },
-        "name": "MII_VS_Kardio_Extended_Condition_Severity_SNOMED",
-        "description": "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)",
         "exampleBoolean": false
       },
       {
@@ -592,31 +648,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-medikation"
-        },
-        "name": "MII_VS_Kardio_Medikation",
-        "description": "ATC-Codes 'de' in der Kardiologie relevanter Medikamente.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-mrs-stufen"
-        },
-        "name": "MII_VS_Kardio_mRS_Stufen",
-        "description": "Stufen der modifizierten Rankin-Skala",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-nyha-klassen-snomed"
-        },
-        "name": "MII_VS_Kardio_NYHA_Klassen_SNOMED",
-        "description": "Klassen der New York Heart Association Classification",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-smoking-units"
+          "reference": "CodeSystem/mii-cs-rauchen"
         },
         "name": "MII_VS_Rauchen_Einheiten_LOCAL",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",

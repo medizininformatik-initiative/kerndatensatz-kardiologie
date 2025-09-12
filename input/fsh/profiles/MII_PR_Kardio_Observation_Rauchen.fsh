@@ -2,7 +2,7 @@ Profile: MII_PR_Kardio_Observation_Rauchen
 Id: mii-pr-kardio-observation-rauchen
 Parent: ISiKRaucherStatus //Observation
 Title: "MII PR Kardio Observation Rauchen"
-Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS."
+Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Modul Kardiologie."
 * insert PR_CS_VS_Version
 * insert Publisher
 // Parent: Current Smoking Status - gematik ISiK -> https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
@@ -11,19 +11,15 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext v
 * category = $observation-category#social-history
 // Code from Parent = SCT 77176002 "Smoker" oder LOINC 72166-2 "Tobacco smoking status"
 * subject only Reference(Patient)
-//* focus ..0
 * encounter MS
 * performer MS
 // value[x] from Parent: https://simplifier.net/packages/de.gematik.isik-basismodul/4.0.0/files/2539840
 * value[x] ^short = "Current Smoking Status als Loinc-Answer Code"
-//* bodySite ..0
-//* specimen ..0
 * hasMember only Reference(Observation or QuestionnaireResponse) //not MolecularSequence
 * derivedFrom only Reference(DocumentReference or Media or QuestionnaireResponse or Observation) //not imagingstudy + not molecularsequence
 // Folgende Items sind nicht Teil der Acribis-Kernscores, stehen daher - in der ersten Iteration - nicht im Fokus (nicht must-support).
-// TODO in Zukunft
 * component 0..* //MS
-* component ^short = "Zusätzliche Angaben zum Rauchverhalten als Komponenten."
+* component ^short = "Zusätzliche Angaben zum Rauchverhalten."
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "$this"
 * component ^slicing.rules = #open // erlaubt jegliche category slice (names)

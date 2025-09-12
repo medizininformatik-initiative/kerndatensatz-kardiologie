@@ -27,20 +27,16 @@
         "system": "urn:iso:std:iso:11073:10101",
         "concept": [
           {
-            "code": "754753",
-            "display": "MDC_IDC_ENUM_BRADY_MODE_AAI"
+            "code": "754753"
           },
           {
-            "code": "754773",
-            "display": "MDC_IDC_ENUM_BRADY_MODE_VVI"
+            "code": "754773"
           },
           {
-            "code": "754760",
-            "display": "MDC_IDC_ENUM_BRADY_MODE_DDD"
+            "code": "754760"
           },
           {
-            "code": "754790",
-            "display": "MDC_IDC_ENUM_BRADY_MODE_Unknown"
+            "code": "754790"
           }
         ]
       }

@@ -1,7 +1,7 @@
-Profile: MII_PR_Kardio_Score_modifizierte_Rankin_Skala
+Profile: MII_PR_Kardio_Score_Modifizierte_Rankin_Skala
 Id: mii-pr-kardio-score-modifizierte-rankin-skala
 Parent: Observation //sd-mii-icu-score
-Title: "MII PR Kardio Score modifizierte Rankin Skala"
+Title: "MII PR Kardio Score Modifizierte Rankin Skala"
 Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala."
 * insert PR_CS_VS_Version
 * insert Publisher
@@ -30,7 +30,7 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * subject only Reference(Patient)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from $mRS-vs (extensible) //(required)
+* valueCodeableConcept from MII_VS_Kardio_Modifizierte_Rankin_Skala (extensible) //(required)
 * valueCodeableConcept.extension contains $data-absent-reason named data-absent-reason 0..1
 * performer MS
 * encounter MS
@@ -46,7 +46,7 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 
 //_____________________________________________________________________________
 Instance: example-kardio-mrs
-InstanceOf: MII_PR_Kardio_Score_modifizierte_Rankin_Skala
+InstanceOf: MII_PR_Kardio_Score_Modifizierte_Rankin_Skala
 Usage: #example
 Title: "Beispielinstanz: mRS-Skala"
 Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem Schlaganfall gemäß MII PR Kardio Score mRS."
@@ -65,9 +65,7 @@ Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem S
 * effectiveDateTime = "2024-11-12T14:23:00+01:00"
 * issued = "2024-11-12T15:00:00+01:00"
 * performer[0] = Reference(PractitionerRole/example-role-kardiologe)
-* valueCodeableConcept.coding.system = $mRS
-* valueCodeableConcept.coding.code = #mRSbigger3
-* valueCodeableConcept.coding.display = "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
+* valueCodeableConcept.coding = MII_CS_Kardio_Modifizierte_Rankin_Skala#mRSbigger3 "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
 * note.text = "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)."
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">mRS Skala: Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen).</div>"

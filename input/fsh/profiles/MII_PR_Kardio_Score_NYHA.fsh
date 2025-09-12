@@ -29,7 +29,7 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 * subject only Reference(Patient)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from $nyha-class-vs (required)
+* valueCodeableConcept from MII_VS_Kardio_NYHA_Klassen_SNOMEDCT (required)
 * performer MS
 * encounter MS
 // Wir grenzen hier nicht weiter ein, um spätere Inkompatibilitäten zu vermeiden. Bspw. ist die Angabe eine device oder focus auf eine andere ressource in anderen Spezifikationen durchaus denkbar.

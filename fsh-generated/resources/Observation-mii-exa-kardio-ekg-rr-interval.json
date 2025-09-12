@@ -1,0 +1,51 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-kardio-ekg-rr-interval",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotationen"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/Patient/mii-exa-person-patient-minimal"
+  },
+  "effectivePeriod": {
+    "start": "2023-05-03T07:38:07Z",
+    "end": "2023-05-03T07:38:17Z"
+  },
+  "valueQuantity": {
+    "value": 1000,
+    "unit": "millisecond",
+    "system": "http://unitsofmeasure.org",
+    "code": "ms"
+  },
+  "device": {
+    "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
+  },
+  "derivedFrom": [
+    {
+      "reference": "DocumentReference/mii-exa-kardio-ekg-referenz"
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "147240",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_ECG_TIME_PD_RR_GL"
+      }
+    ]
+  }
+}

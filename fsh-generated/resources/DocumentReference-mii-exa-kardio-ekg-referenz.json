@@ -1,0 +1,42 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "mii-exa-kardio-ekg-referenz",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/mii-exa-person-patient-minimal"
+  },
+  "author": [
+    {
+      "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
+    }
+  ],
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/dicom",
+        "url": "https://example.com/EKGs/beispiel-ekg",
+        "title": "Beispiel EKG an einem anteren Ort"
+      },
+      "format": {
+        "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+        "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+        "display": "mimeType Sufficient"
+      }
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "11524-6",
+        "system": "http://loinc.org",
+        "display": "ECG Document"
+      }
+    ]
+  },
+  "status": "active",
+  "date": "2025-07-17T16:41:22+02:00"
+}

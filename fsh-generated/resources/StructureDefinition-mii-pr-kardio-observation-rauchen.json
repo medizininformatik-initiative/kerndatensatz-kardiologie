@@ -17,7 +17,7 @@
       ]
     }
   ],
-  "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext von ACRIBiS.",
+  "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Modul Kardiologie.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -100,7 +100,7 @@
           "ordered": false,
           "description": "Zusätzliche Angaben zum Rauchverhalten."
         },
-        "short": "Zusätzliche Angaben zum Rauchverhalten als Komponenten."
+        "short": "Zusätzliche Angaben zum Rauchverhalten."
       },
       {
         "id": "Observation.component:packungsjahre",

@@ -401,6 +401,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-klappenvitium"
+        },
+        "name": "MII PR Kardio Klappenvitium",
+        "description": "Profil zur Abbildung einer Herzklappenerkrankung.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"
         },
         "name": "MII PR Kardio NBG Schrittmachermodus",
@@ -553,6 +561,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-klappenvitium-icd"
+        },
+        "name": "MII VS Kardio Klappenvitium [ICD 10 GM]",
+        "description": "ICD-Codes für Klappenerkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-klappenvitium-snomedct"
+        },
+        "name": "MII VS Kardio Klappenvitium [SNOMED CT]",
+        "description": "SNOMED CT Codes für Klappenerkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen"
         },
         "name": "MII VS Kardio MDC Metriken EKG Annotationen",
@@ -609,7 +633,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-follow-up"
+          "reference": "CodeSystem/mii-cs-kardio-follow-up"
         },
         "name": "MII_CS_Follow_Up",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zur Verwendung im Follow-Up Questionnaire.",
@@ -648,7 +672,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-rauchen"
+          "reference": "CodeSystem/mii-cs-kardio-smoking-units"
         },
         "name": "MII_VS_Rauchen_Einheiten_LOCAL",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",

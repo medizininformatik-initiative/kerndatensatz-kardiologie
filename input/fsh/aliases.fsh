@@ -1,15 +1,19 @@
 // CodeSystems
 Alias: $loinc = http://loinc.org
 Alias: $sct = http://snomed.info/sct
-Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $m49-geographic-region = http://unstats.un.org/unsd/methods/m49/m49.htm
+Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
 Alias: $icd-10-gm = http://fhir.de/CodeSystem/bfarm/icd-10-gm
 Alias: $ops = http://fhir.de/CodeSystem/bfarm/ops
 Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten
 Alias: $mdc = urn:iso:std:iso:11073:10101 //ISO Nomenclature - Point-of-care medical device communication, see https://www.iso.org/standard/37890.html
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-cs-kardio-modifizierte-rankin-skala
+Alias: $acribis-ausschlusskriterien = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-ausschlusskriterien-acribis-scores
+Alias: $acribis-follow-up = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up
+Alias: $acribis-smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-smoking-units
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
 

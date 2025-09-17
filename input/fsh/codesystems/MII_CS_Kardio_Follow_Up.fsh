@@ -1,8 +1,7 @@
-CodeSystem: MII_CS_Follow_Up
-Id: mii-cs-follow-up
+CodeSystem: MII_CS_Kardio_Follow_Up
+Id: mii-cs-kardio-follow-up
 Title: "MII_CS_Follow_Up"
 Description: "Dieses CodeSystem enthält lokal definierte Einheiten zur Verwendung im Follow-Up Questionnaire."
-
 * insert PR_CS_VS_Version
 * insert Publisher
 

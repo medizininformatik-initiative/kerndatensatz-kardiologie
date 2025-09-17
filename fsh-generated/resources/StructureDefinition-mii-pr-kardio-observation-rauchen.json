@@ -116,7 +116,7 @@
           "coding": [
             {
               "code": "pack-years",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-smoking-units"
             }
           ]
         }
@@ -143,7 +143,7 @@
       {
         "id": "Observation.component:packungsjahre.value[x].system",
         "path": "Observation.component.value[x].system",
-        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-smoking-units"
       },
       {
         "id": "Observation.component:packungsjahre.value[x].code",
@@ -164,7 +164,7 @@
           "coding": [
             {
               "code": "packs-per-day",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-smoking-units"
             }
           ]
         }
@@ -191,7 +191,7 @@
       {
         "id": "Observation.component:packungenProTag.value[x].system",
         "path": "Observation.component.value[x].system",
-        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-smoking-units"
       },
       {
         "id": "Observation.component:packungenProTag.value[x].code",
@@ -212,7 +212,7 @@
           "coding": [
             {
               "code": "cigarettes-per-day",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-smoking-units"
             }
           ]
         }
@@ -240,7 +240,7 @@
           "coding": [
             {
               "code": "rauchbeginn",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-smoking-units"
             }
           ]
         }
@@ -269,7 +269,7 @@
           "coding": [
             {
               "code": "rauchdauer",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-smoking-units"
             }
           ]
         }

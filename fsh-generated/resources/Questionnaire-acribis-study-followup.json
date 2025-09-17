@@ -312,14 +312,14 @@
         {
           "valueCoding": {
             "code": "cardiovascular-cause",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-follow-up",
             "display": "kardiovaskulär"
           }
         },
         {
           "valueCoding": {
             "code": "no-cardiovascular-cause",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-follow-up",
             "display": "nicht kardiovaskulär"
           }
         },
@@ -373,7 +373,7 @@
         {
           "valueCoding": {
             "code": "other-cardiovascular-cause",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up"
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-follow-up"
           }
         },
         {
@@ -397,7 +397,7 @@
           "operator": "=",
           "answerCoding": {
             "code": "cardiovascular-cause",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up"
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-follow-up"
           }
         }
       ],

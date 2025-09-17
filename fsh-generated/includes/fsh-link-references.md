@@ -1,5 +1,4 @@
 [acribis-study-followup]: Questionnaire-acribis-study-followup.html
-[example-lvef]: Observation-example-lvef.html
 [MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_CS_Kardio_Atherosklerotisches_Ereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-Ereignis.html
 [MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: CodeSystem-mii-cs-kardio-ausschlusskriterium-acribis-scores.html
@@ -18,6 +17,7 @@
 [mii-exa-kardio-geraeteprogrammierung-vvi]: Observation-mii-exa-kardio-geraeteprogrammierung-vvi.html
 [mii-exa-kardio-herzinsuffizienz-unbekannt]: Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.html
 [mii-exa-kardio-kardiale-deviceimplantation-icd]: Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.html
+[mii-exa-kardio-lvef]: Observation-mii-exa-kardio-lvef.html
 [mii-exa-kardio-mrs]: Observation-mii-exa-kardio-mrs.html
 [mii-exa-kardio-nbg-schrittmachermodus]: DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.html
 [mii-exa-kardio-pci-nein]: Observation-mii-exa-kardio-pci-nein.html

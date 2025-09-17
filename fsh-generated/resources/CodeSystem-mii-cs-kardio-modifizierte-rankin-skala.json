@@ -43,6 +43,10 @@
     {
       "code": "mRSsmallerequal3",
       "display": "Die Einstufung auf der mRS-Skala liegt bei gleich 3 oder weniger als 3 (Patient kann ohne fremde Hilfe gehen (ggf. mit Hilfsmitteln))"
+    },
+    {
+      "code": "mRSunknown",
+      "display": "Die Einstufung auf der mRS-Skala ist unbekannt"
     }
   ],
   "version": "2025.0.0",
@@ -62,5 +66,5 @@
   "purpose": "Dieses Code-System bildet die Stufen der modifizierten Rankin-Skala ab.",
   "caseSensitive": true,
   "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala",
-  "count": 9
+  "count": 10
 }

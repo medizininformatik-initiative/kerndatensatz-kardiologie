@@ -37,7 +37,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\MII_CS_Kardio_Modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 29
+    "endLine": 30
   },
   {
     "outputFile": "CodeSystem-mii-cs-kardio-rauchen-einheiten.json",
@@ -120,14 +120,6 @@
     "endLine": 15
   },
   {
-    "outputFile": "Observation-example-lvef.json",
-    "fshName": "example-lvef",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion.fsh",
-    "startLine": 132,
-    "endLine": 199
-  },
-  {
     "outputFile": "Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.json",
     "fshName": "mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf",
     "fshType": "Instance",
@@ -174,6 +166,14 @@
     "fshFile": "instances\\MII_EXA_Kardio_Diagnose_Herzinsuffizienz_Unbekannt.fsh",
     "startLine": 1,
     "endLine": 16
+  },
+  {
+    "outputFile": "Observation-mii-exa-kardio-lvef.json",
+    "fshName": "mii-exa-kardio-lvef",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_LVEF.fsh",
+    "startLine": 1,
+    "endLine": 68
   },
   {
     "outputFile": "Observation-mii-exa-kardio-mrs.json",

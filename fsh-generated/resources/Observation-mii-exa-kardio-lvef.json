@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "example-lvef",
+  "id": "mii-exa-kardio-lvef",
   "meta": {
     "profile": [
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"

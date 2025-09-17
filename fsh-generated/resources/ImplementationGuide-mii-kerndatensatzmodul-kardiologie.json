@@ -67,14 +67,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/example-lvef"
-        },
-        "name": "Beispiel LVEF Observation",
-        "description": "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/mii-ex-kardio-ageatadmission"
         },
         "name": "Extension - AgeExtension",
@@ -216,6 +208,14 @@
         "name": "MII EXA Kardio Kardiale Deviceimplantation ICD",
         "description": "Beispiel einer Implantation eines Kardioverter-Defibrillators (ICD)",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-lvef"
+        },
+        "name": "MII EXA Kardio LVEF",
+        "description": "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"
       },
       {
         "reference": {

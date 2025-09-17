@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT",
   "id": "mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
   "title": "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
@@ -18,8 +18,8 @@
       ]
     }
   ],
-  "experimental": true,
-  "date": "2025-05-13",
+  "experimental": false,
+  "date": "2025-09-05",
   "purpose": "Codes aus diesem Value Set können in einer Prozedur die Körperstelle der Implantation eines kardialen Devices in der Kardiologie spezifizieren.",
   "compose": {
     "include": [

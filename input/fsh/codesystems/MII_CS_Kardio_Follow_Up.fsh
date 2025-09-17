@@ -4,7 +4,10 @@ Title: "MII_CS_Follow_Up"
 Description: "Dieses CodeSystem enthält lokal definierte Einheiten zur Verwendung im Follow-Up Questionnaire."
 * insert PR_CS_VS_Version
 * insert Publisher
+
 * ^status = #draft
+* ^experimental = true
+* ^caseSensitive = true
 //* ^content = #complete
 
 * #cardiovascular-cause "kardiovaskulär" "kardiovaskuläre Todesursache"

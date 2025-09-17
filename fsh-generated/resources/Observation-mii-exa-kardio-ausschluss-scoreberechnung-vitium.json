@@ -1,0 +1,37 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-kardio-ausschluss-scoreberechnung-vitium",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "271000124103",
+        "system": "http://snomed.info/sct",
+        "display": "Medical reason for exclusion from performance measure (observable entity)"
+      }
+    ]
+  },
+  "subject": {
+    "display": "Beispielpatient"
+  },
+  "performer": [
+    {
+      "display": "Beispielkardiologe"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "hv",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-ausschlusskriterium-acribis-scores",
+        "display": "Ausschlusskriterium unbehandeltes, höhergradiges Vitium"
+      }
+    ]
+  },
+  "status": "final",
+  "effectiveDateTime": "2025-05-21T17:35:22+02:00"
+}

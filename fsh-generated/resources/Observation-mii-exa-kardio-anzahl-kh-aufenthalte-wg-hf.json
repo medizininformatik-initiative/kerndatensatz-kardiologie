@@ -1,0 +1,54 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "32485007",
+        "system": "http://snomed.info/sct",
+        "display": "Hospital admission (procedure)"
+      }
+    ]
+  },
+  "subject": {
+    "display": "Beispielpatient"
+  },
+  "effectivePeriod": {
+    "start": "2024-05-21",
+    "end": "2025-05-20"
+  },
+  "performer": [
+    {
+      "display": "Beispielkardiologe"
+    }
+  ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "406524005",
+            "system": "http://snomed.info/sct",
+            "display": "Reason for visit diagnosis (attribute)"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "84114007",
+            "system": "http://snomed.info/sct",
+            "display": "Heart failure (disorder)"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "final",
+  "valueInteger": 3
+}

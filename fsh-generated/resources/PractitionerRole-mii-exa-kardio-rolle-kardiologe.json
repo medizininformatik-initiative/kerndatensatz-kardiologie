@@ -1,0 +1,29 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "mii-exa-kardio-rolle-kardiologe",
+  "organization": {
+    "display": "Klinikum Musterstadt"
+  },
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "17561000",
+          "system": "http://snomed.info/sct",
+          "display": "Cardiologist"
+        }
+      ]
+    }
+  ],
+  "specialty": [
+    {
+      "coding": [
+        {
+          "code": "394579002",
+          "system": "http://snomed.info/sct",
+          "display": "Cardiology"
+        }
+      ]
+    }
+  ]
+}

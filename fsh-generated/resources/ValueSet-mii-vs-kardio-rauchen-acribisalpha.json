@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "MII_VS_Kardio_Rauchen_AcribisAlpha",
   "id": "mii-vs-kardio-rauchen-acribisalpha",
   "title": "MII VS Kardio Rauchen AcribisAlpha",
@@ -18,8 +18,8 @@
       ]
     }
   ],
-  "experimental": true,
-  "date": "2025-08-14",
+  "experimental": false,
+  "date": "2025-09-05",
   "copyright": "© 1995-2025 Regenstrief Institute, Inc. LOINC® is a registered United States trademark of Regenstrief Institute, Inc. This material contains LOINC codes and is subject to the LOINC license. For terms, see https://loinc.org/license/",
   "compose": {
     "include": [
@@ -32,8 +32,7 @@
         "system": "http://snomed.info/sct",
         "concept": [
           {
-            "code": "77176002",
-            "display": "Smoker (finding)"
+            "code": "77176002"
           }
         ]
       }

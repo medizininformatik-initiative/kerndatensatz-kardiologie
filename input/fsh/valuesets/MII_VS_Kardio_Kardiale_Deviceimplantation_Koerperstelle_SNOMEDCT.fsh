@@ -6,9 +6,9 @@ Description: "Dieses Value Set bildet die Körperstellen, an denen eine Implanta
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-05-13"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-05"
 * ^purpose = "Codes aus diesem Value Set können in einer Prozedur die Körperstelle der Implantation eines kardialen Devices in der Kardiologie spezifizieren."
 
 * $sct#80891009 // Heart structure (body structure)

@@ -1,0 +1,29 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-kardio-atherosklerotisches-erstereignis",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "ae",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-Ereignis",
+        "display": "Atherosklerotisches Ereignis"
+      }
+    ]
+  },
+  "subject": {
+    "display": "Beispielpatient"
+  },
+  "performer": [
+    {
+      "display": "Beispielkardiologe"
+    }
+  ],
+  "status": "final",
+  "effectiveDateTime": "2025-05-23T13:48:17+02:00",
+  "valueDateTime": "2023-01"
+}

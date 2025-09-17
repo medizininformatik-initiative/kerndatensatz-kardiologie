@@ -5,9 +5,9 @@
   "version": "2025.0.0",
   "name": "MII_PR_Kardio_Geraeteprogrammierung",
   "title": "MII PR Kardio Geräteprogrammierung",
-  "status": "draft",
-  "experimental": true,
-  "date": "2025-05-13",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-09-04",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -106,7 +106,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc"
         }
       }
     ]

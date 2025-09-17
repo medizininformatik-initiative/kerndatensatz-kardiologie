@@ -31,32 +31,18 @@
       {
         "id": "DeviceMetric.type",
         "path": "DeviceMetric.type",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "730752",
+              "system": "urn:iso:std:iso:11073:10101"
+            }
+          ]
+        },
         "binding": {
           "strength": "required",
           "valueSet": "http://hl7.org/fhir/ValueSet/devicemetric-type"
         }
-      },
-      {
-        "id": "DeviceMetric.type.coding",
-        "path": "DeviceMetric.type.coding",
-        "min": 1,
-        "patternCoding": {
-          "code": "730752",
-          "system": "urn:iso:std:iso:11073:10101"
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "DeviceMetric.type.coding.system",
-        "path": "DeviceMetric.type.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "DeviceMetric.type.coding.code",
-        "path": "DeviceMetric.type.coding.code",
-        "min": 1,
-        "mustSupport": true
       },
       {
         "id": "DeviceMetric.source",

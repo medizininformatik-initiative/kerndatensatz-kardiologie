@@ -10,35 +10,36 @@
     {
       "coding": [
         {
-          "code": "survey"
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
     }
   ],
   "code": {
+    "text": "Koronarintervention mit PCI/Stent",
     "coding": [
       {
         "code": "415070008",
         "system": "http://snomed.info/sct",
-        "display": "Percutaneous transluminal coronary intervention using imaging guidance with contrast (procedure)"
-      },
-      {
-        "code": "8-837.y",
-        "system": "http://fhir.de/CodeSystem/bfarm/ops",
-        "display": "N.n.bez."
+        "display": "Percutaneous coronary intervention"
       }
-    ],
-    "text": "Koronarintervention mit PCI/Stent"
+    ]
   },
+  "performer": [
+    {
+      "display": "Beispielkardiologe"
+    }
+  ],
   "subject": {
-    "reference": "Patient/mii-exa-person-patient-minimal"
+    "display": "Beispielpatient"
   },
   "device": {
-    "reference": "Device/example-tablet"
+    "display": "Beispieltablet"
   },
   "derivedFrom": [
     {
-      "reference": "QuestionaireResponse/example-qr"
+      "display": "Beispielfragebogen"
     }
   ],
   "status": "final",

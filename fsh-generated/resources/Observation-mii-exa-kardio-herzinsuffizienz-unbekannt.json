@@ -10,7 +10,8 @@
     {
       "coding": [
         {
-          "code": "survey"
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
         }
       ]
     }
@@ -21,23 +22,23 @@
         "code": "84114007",
         "system": "http://snomed.info/sct",
         "display": "Heart failure (disorder)"
-      },
-      {
-        "code": "I50.9",
-        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
-        "display": "Herzinsuffizienz, nicht näher bezeichnet"
       }
     ]
   },
+  "performer": [
+    {
+      "display": "Beispielkardiologe"
+    }
+  ],
   "subject": {
-    "reference": "Patient/mii-exa-person-patient-minimal"
+    "display": "Beispielpatient"
   },
   "device": {
-    "reference": "Device/example-tablet"
+    "display": "Beispieltablet"
   },
   "derivedFrom": [
     {
-      "reference": "QuestionaireResponse/example-qr"
+      "display": "Beispielfragebogen"
     }
   ],
   "status": "final",

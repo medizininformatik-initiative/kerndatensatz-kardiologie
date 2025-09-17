@@ -3,7 +3,7 @@
   "id": "example-lvef",
   "meta": {
     "profile": [
-      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion"
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"
     ]
   },
   "identifier": [
@@ -14,12 +14,12 @@
   ],
   "basedOn": [
     {
-      "reference": "ServiceRequest/echokardiographie-anforderung"
+      "display": "Echokardiographie: Beispielanforderung"
     }
   ],
   "partOf": [
     {
-      "reference": "Procedure/echokardiographie-2025"
+      "display": "Echokardiographie: Beispieluntersuchung"
     }
   ],
   "category": [
@@ -37,26 +37,26 @@
     "coding": [
       {
         "code": "250908004",
-        "display": "Left ventricular ejection fraction (observable entity)",
-        "system": "http://snomed.info/sct"
+        "system": "http://snomed.info/sct",
+        "display": "Left ventricular ejection fraction (observable entity)"
       },
       {
         "code": "10230-1",
-        "display": "Left ventricular ejection fraction",
-        "system": "http://loinc.org"
+        "system": "http://loinc.org",
+        "display": "Left ventricular ejection fraction"
       }
     ],
     "text": "Linksventrikuläre Ejektionsfraktion"
   },
   "subject": {
-    "reference": "Patient/patient-1234"
+    "display": "Beispielpatient"
   },
   "encounter": {
-    "reference": "Encounter/aufnahme-2025"
+    "display": "Beispielfall"
   },
   "performer": [
     {
-      "reference": "Practitioner/arzt-5678"
+      "display": "Beispielarzt"
     }
   ],
   "valueQuantity": {
@@ -69,8 +69,8 @@
     {
       "coding": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
           "code": "N",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
           "display": "Normal"
         }
       ]
@@ -79,8 +79,8 @@
   "bodySite": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
         "code": "87878005",
+        "system": "http://snomed.info/sct",
         "display": "Left cardiac ventricular structure (body structure)"
       }
     ],
@@ -89,15 +89,14 @@
   "method": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
         "code": "40701008",
+        "system": "http://snomed.info/sct",
         "display": "Echocardiography"
       }
     ],
     "text": "Echokardiographie"
   },
   "device": {
-    "reference": "Device/echo-device-01",
     "display": "Philips EPIQ CVx Ultrasound System"
   },
   "referenceRange": [

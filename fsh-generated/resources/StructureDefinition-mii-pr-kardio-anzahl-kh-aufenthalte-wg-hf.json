@@ -1,0 +1,136 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",
+  "version": "2025.0.0",
+  "name": "MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF",
+  "title": "MII PR Kardio Anzahl KH Aufenthalte wg HF",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-09-03",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "32485007",
+          "system": "http://snomed.info/sct"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "code"
+            }
+          ],
+          "rules": "open",
+          "description": "Details zu den Krankenhausaufenthalten."
+        },
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Grund",
+        "path": "Observation.component",
+        "sliceName": "Grund",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Grund.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "406524005",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:Grund.value[x]",
+        "path": "Observation.component.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "84114007",
+              "system": "http://snomed.info/sct"
+            }
+          ]
+        },
+        "mustSupport": true
+      }
+    ]
+  }
+}

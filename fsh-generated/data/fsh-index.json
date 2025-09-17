@@ -1,19 +1,19 @@
 [
   {
-    "outputFile": "CodeSystem-mii-cs-kardio-atherosklerotische-erstereignisse.json",
-    "fshName": "MII_CS_Kardio_Atherosklerotische_Erstereignisse",
+    "outputFile": "CodeSystem-mii-cs-kardio-atherosklerotisches-Ereignis.json",
+    "fshName": "MII_CS_Kardio_Atherosklerotisches_Ereignis",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_Atherosklerptische_Erstereignisse.fsh",
+    "fshFile": "codesystems\\MII_CS_Kardio_Atherosklerotisches_Ereignis.fsh",
     "startLine": 1,
     "endLine": 15
   },
   {
-    "outputFile": "CodeSystem-mii-cs-kardio-ausschlusskriterien-acribis-scores.json",
-    "fshName": "MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores",
+    "outputFile": "CodeSystem-mii-cs-kardio-ausschlusskriterium-acribis-scores.json",
+    "fshName": "MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_Ausschlusskriterien_ACRIBiS_Scores.fsh",
+    "fshFile": "codesystems\\MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 16
   },
   {
     "outputFile": "CodeSystem-mii-cs-kardio-follow-up.json",
@@ -21,7 +21,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\MII_CS_Kardio_Follow_Up.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 15
   },
   {
     "outputFile": "CodeSystem-mii-cs-kardio-lebensmittelpunkt.json",
@@ -29,7 +29,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\MII_CS_Kardio_Lebensmittelpunkt.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 16
   },
   {
     "outputFile": "CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.json",
@@ -37,215 +37,199 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\MII_CS_Kardio_Modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 28
+    "endLine": 29
   },
   {
-    "outputFile": "CodeSystem-mii-cs-kardio-smoking-units.json",
-    "fshName": "MII_CS_Kardio_Smoking_Units",
+    "outputFile": "CodeSystem-mii-cs-kardio-rauchen-einheiten.json",
+    "fshName": "MII_CS_Kardio_Rauchen_Einheiten",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_Smoking_Units.fsh",
+    "fshFile": "codesystems\\MII_CS_Kardio_Kardio_Rauchen_Einheiten.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 19
   },
   {
-    "outputFile": "Condition-beispiel-kardio-diagnose-liegt-vor.json",
-    "fshName": "Beispiel-Kardio-Condition-Diagnose-Is-Present",
+    "outputFile": "Condition-mii-exa-kardio-diagnose-myokardinfarkt.json",
+    "fshName": "mii-exa-kardio-diagnose-myokardinfarkt",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 75,
-    "endLine": 137
-  },
-  {
-    "outputFile": "Condition-beispiel-kardio-krebs-terminal-liegt-nicht-vor.json",
-    "fshName": "Beispiel-Kardio-Condition-Krebs-Endstadium-Not-Present",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 145,
-    "endLine": 203
-  },
-  {
-    "outputFile": "Condition-beispiel-kardio-pavk-unbekannt.json",
-    "fshName": "Beispiel-Kardio-Condition-Diagnose-Unknown",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
-    "startLine": 214,
-    "endLine": 272
+    "fshFile": "instances\\MII_EXA_Kardio_Diagnose_Myokardinfarkt.fsh",
+    "startLine": 1,
+    "endLine": 47
   },
   {
     "outputFile": "Device-mii-exa-kardio-device-icd.json",
     "fshName": "mii-exa-kardio-device-icd",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
-    "startLine": 40,
-    "endLine": 51
+    "fshFile": "instances\\MII_EXA_Kardio_Device_ICD.fsh",
+    "startLine": 1,
+    "endLine": 12
   },
   {
     "outputFile": "Device-mii-exa-kardio-ekg-geraet-mortara.json",
     "fshName": "mii-exa-kardio-ekg-geraet-mortara",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraet.fsh",
-    "startLine": 24,
-    "endLine": 37
+    "fshFile": "instances\\MII_EXA_Kardio_EKG_Geraet_Mortara.fsh",
+    "startLine": 1,
+    "endLine": 14
   },
   {
     "outputFile": "Device-mii-exa-kardio-ekg-kanal-i.json",
     "fshName": "mii-exa-kardio-ekg-kanal-i",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Kanal.fsh",
-    "startLine": 45,
-    "endLine": 55
+    "fshFile": "instances\\MII_EXA_Kardio_EKG_Kanal_I.fsh",
+    "startLine": 1,
+    "endLine": 11
   },
   {
     "outputFile": "Device-mii-exa-kardio-ekg-kanal-ii.json",
     "fshName": "mii-exa-kardio-ekg-kanal-ii",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Kanal.fsh",
-    "startLine": 57,
-    "endLine": 67
+    "fshFile": "instances\\MII_EXA_Kardio_EKG_Kanal_II.fsh",
+    "startLine": 1,
+    "endLine": 11
   },
   {
     "outputFile": "Device-mii-exa-kardio-ekg-kanal-iii.json",
     "fshName": "mii-exa-kardio-ekg-kanal-iii",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Kanal.fsh",
-    "startLine": 69,
-    "endLine": 79
+    "fshFile": "instances\\MII_EXA_Kardio_EKG_Kanal_III.fsh",
+    "startLine": 1,
+    "endLine": 11
   },
   {
     "outputFile": "DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json",
     "fshName": "mii-exa-kardio-ekg-geraetedefinition-mortara",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraetedefinition.fsh",
-    "startLine": 17,
-    "endLine": 42
+    "fshFile": "instances\\MII_EXA_Kardio_EKG_Geraetedefinition_Mortara.fsh",
+    "startLine": 1,
+    "endLine": 26
   },
   {
     "outputFile": "DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.json",
     "fshName": "mii-exa-kardio-nbg-schrittmachermodus",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_NBG_Schrittmachermodus.fsh",
-    "startLine": 26,
-    "endLine": 37
+    "fshFile": "instances\\MII_EXA_Kardio_NBG_Schrittmachermodus.fsh",
+    "startLine": 1,
+    "endLine": 10
   },
   {
     "outputFile": "DocumentReference-mii-exa-kardio-ekg-referenz.json",
     "fshName": "mii-exa-kardio-ekg-referenz",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Referenz.fsh",
-    "startLine": 22,
-    "endLine": 36
-  },
-  {
-    "outputFile": "Observation-Example-Kardio-Observation-Rauchen-acribisalpha.json",
-    "fshName": "Example-Kardio-Observation-Rauchen-acribisalpha",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Rauchen_AcribisAlpha.fsh",
-    "startLine": 75,
-    "endLine": 110
-  },
-  {
-    "outputFile": "Observation-Example-Kardio-Observation-Rauchen.json",
-    "fshName": "Example-Kardio-Observation-Rauchen",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Rauchen.fsh",
-    "startLine": 64,
-    "endLine": 99
-  },
-  {
-    "outputFile": "Observation-example-kardio-mrs.json",
-    "fshName": "example-kardio-mrs",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
-    "startLine": 48,
-    "endLine": 71
-  },
-  {
-    "outputFile": "Observation-example-kardio-nyha.json",
-    "fshName": "example-kardio-nyha",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Score_NYHA.fsh",
-    "startLine": 45,
-    "endLine": 70
+    "fshFile": "instances\\MII_EXA_Kardio_EKG_Referenz.fsh",
+    "startLine": 1,
+    "endLine": 15
   },
   {
     "outputFile": "Observation-example-lvef.json",
     "fshName": "example-lvef",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
-    "startLine": 156,
-    "endLine": 230
+    "fshFile": "profiles\\MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion.fsh",
+    "startLine": 132,
+    "endLine": 199
+  },
+  {
+    "outputFile": "Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.json",
+    "fshName": "mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_Anzahl_KH_Aufenthalte_wg_HF.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Observation-mii-exa-kardio-atherosklerotisches-erstereignis.json",
+    "fshName": "mii-exa-kardio-atherosklerotisches-erstereignis",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_Atherosklerotisches_Erstereignis.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "Observation-mii-exa-kardio-ausschluss-scoreberechnung-vitium.json",
+    "fshName": "mii-exa-kardio-ausschluss-scoreberechnung-vitium",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_Ausschluss_Scoreberechnung_Vitium.fsh",
+    "startLine": 1,
+    "endLine": 12
   },
   {
     "outputFile": "Observation-mii-exa-kardio-ekg-rr-interval.json",
     "fshName": "mii-exa-kardio-ekg-rr-interval",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Annotationen.fsh",
-    "startLine": 41,
-    "endLine": 58
+    "fshFile": "instances\\MII_EXA_Kardio_EKG_RR_Interval.fsh",
+    "startLine": 1,
+    "endLine": 19
   },
   {
     "outputFile": "Observation-mii-exa-kardio-geraeteprogrammierung-vvi.json",
     "fshName": "mii-exa-kardio-geraeteprogrammierung-vvi",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
-    "startLine": 37,
-    "endLine": 54
+    "fshFile": "instances\\MII_EXA_Kardio_Geräteprogrammierung_VVI.fsh",
+    "startLine": 1,
+    "endLine": 14
   },
   {
     "outputFile": "Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.json",
     "fshName": "mii-exa-kardio-herzinsuffizienz-unbekannt",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
-    "startLine": 40,
-    "endLine": 55
+    "fshFile": "instances\\MII_EXA_Kardio_Diagnose_Herzinsuffizienz_Unbekannt.fsh",
+    "startLine": 1,
+    "endLine": 16
   },
   {
-    "outputFile": "Observation-mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
-    "fshName": "mii-exa-kardio-observation-anzahl-kh-aufenthalte-wg-hf",
+    "outputFile": "Observation-mii-exa-kardio-mrs.json",
+    "fshName": "mii-exa-kardio-mrs",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF.fsh",
-    "startLine": 48,
-    "endLine": 61
-  },
-  {
-    "outputFile": "Observation-mii-exa-kardio-observation-atherosklerotisches-erstereignis.json",
-    "fshName": "mii-exa-kardio-observation-atherosklerotisches-erstereignis",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Atherosklerotisches_Erstereignis.fsh",
-    "startLine": 31,
-    "endLine": 42
-  },
-  {
-    "outputFile": "Observation-mii-exa-kardio-observation-ausschluss-scoreberechnung.json",
-    "fshName": "mii-exa-kardio-observation-ausschluss-scoreberechnung",
-    "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung.fsh",
-    "startLine": 45,
-    "endLine": 56
+    "fshFile": "instances\\MII_EXA_Kardio_MRS.fsh",
+    "startLine": 1,
+    "endLine": 20
   },
   {
     "outputFile": "Observation-mii-exa-kardio-pci-nein.json",
     "fshName": "mii-exa-kardio-pci-nein",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
-    "startLine": 57,
-    "endLine": 73
+    "fshFile": "instances\\MII_EXA_Kardio_Prozedur_PCI_Nein.fsh",
+    "startLine": 1,
+    "endLine": 17
   },
   {
-    "outputFile": "PractitionerRole-example-role-kardiologe.json",
-    "fshName": "example-role-kardiologe",
+    "outputFile": "Observation-mii-exa-kardio-raucherstatus-acribisalpha.json",
+    "fshName": "mii-exa-kardio-raucherstatus-acribisalpha",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Score_NYHA.fsh",
-    "startLine": 73,
-    "endLine": 80
+    "fshFile": "instances\\MII_EXA_Kardio_Raucherstatus_ACRIBiS_Alpha.fsh",
+    "startLine": 1,
+    "endLine": 38
+  },
+  {
+    "outputFile": "Observation-mii-exa-kardio-raucherstatus.json",
+    "fshName": "mii-exa-kardio-raucherstatus",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_Raucherstatus.fsh",
+    "startLine": 1,
+    "endLine": 38
+  },
+  {
+    "outputFile": "Observation-mii-exa-kardio-score-nyha-ii.json",
+    "fshName": "mii-exa-kardio-score-nyha-ii",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_Score_NYHA_II.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "PractitionerRole-mii-exa-kardio-rolle-kardiologe.json",
+    "fshName": "mii-exa-kardio-rolle-kardiologe",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_Rolle_Kardiologe.fsh",
+    "startLine": 1,
+    "endLine": 9
   },
   {
     "outputFile": "Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json",
     "fshName": "mii-exa-kardio-kardiale-deviceimplantation-icd",
     "fshType": "Instance",
-    "fshFile": "profiles\\MII_PR_Kardio_Kardiale_Deviceimplantation.fsh",
-    "startLine": 52,
-    "endLine": 70
+    "fshFile": "instances\\MII_EXA_Kardio_Kardiale_Deviceimplantation_ICD.fsh",
+    "startLine": 1,
+    "endLine": 19
   },
   {
     "outputFile": "Questionnaire-acribis-study-followup.json",
@@ -253,7 +237,7 @@
     "fshType": "Instance",
     "fshFile": "questionnaire\\MII_QN_Kardio_Acribis_Study_FollowUp.fsh",
     "startLine": 1,
-    "endLine": 317
+    "endLine": 316
   },
   {
     "outputFile": "StructureDefinition-mii-ex-kardio-ageatadmission.json",
@@ -264,36 +248,28 @@
     "endLine": 5
   },
   {
-    "outputFile": "StructureDefinition-mii-ex-kardio-anamneseantwort.json",
-    "fshName": "MII_EX_Kardio_AnamneseAntwort",
-    "fshType": "Extension",
-    "fshFile": "extensions\\MII_EX_Kardio_AnamneseAntwort.fsh",
-    "startLine": 1,
-    "endLine": 10
-  },
-  {
-    "outputFile": "StructureDefinition-mii-ex-kardio-region.json",
-    "fshName": "MII_EX_Kardio_Region",
-    "fshType": "Extension",
-    "fshFile": "extensions\\MII_EX_Kardio_Region.fsh",
-    "startLine": 1,
-    "endLine": 6
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio--procedure-ekg.json",
-    "fshName": "MII_PR_Kardio_Procedure_EKG",
+    "outputFile": "StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json",
+    "fshName": "MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Procedure_EKG.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF.fsh",
     "startLine": 1,
-    "endLine": 11
+    "endLine": 39
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-condition-diagnose.json",
-    "fshName": "MII_PR_Kardio_Condition_Diagnose",
+    "outputFile": "StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.json",
+    "fshName": "MII_PR_Kardio_Atherosklerotisches_Erstereignis",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Condition_Diagnose.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Atherosklerotisches_Erstereignis.fsh",
     "startLine": 1,
-    "endLine": 64
+    "endLine": 25
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-ausschluss-scoreberechnung.json",
+    "fshName": "MII_PR_Kardio_Ausschluss_Scoreberechnung",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_Ausschluss_Scoreberechnung.fsh",
+    "startLine": 1,
+    "endLine": 27
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-device.json",
@@ -312,12 +288,28 @@
     "endLine": 38
   },
   {
-    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-annotationen.json",
-    "fshName": "MII_PR_Kardio_EKG_Annotationen",
+    "outputFile": "StructureDefinition-mii-pr-kardio-diagnose.json",
+    "fshName": "MII_PR_Kardio_Diagnose",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_EKG_Annotationen.fsh",
+    "fshFile": "profiles\\MII_PR_Kardio_Diagnose.fsh",
+    "startLine": 1,
+    "endLine": 57
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-annotation.json",
+    "fshName": "MII_PR_Kardio_EKG_Annotation",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Annotation.fsh",
     "startLine": 1,
     "endLine": 39
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.json",
+    "fshName": "MII_PR_Kardio_EKG_Durchfuehrung",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_EKG_Durchführung.fsh",
+    "startLine": 1,
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraet.json",
@@ -365,7 +357,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Kardiale_Deviceimplantation.fsh",
     "startLine": 1,
-    "endLine": 48
+    "endLine": 43
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-klappenvitium.json",
@@ -376,44 +368,20 @@
     "endLine": 25
   },
   {
+    "outputFile": "StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json",
+    "fshName": "MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion",
+    "fshType": "Profile",
+    "fshFile": "profiles\\MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion.fsh",
+    "startLine": 1,
+    "endLine": 113
+  },
+  {
     "outputFile": "StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json",
     "fshName": "MII_PR_Kardio_NBG_Schrittmachermodus",
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_NBG_Schrittmachermodus.fsh",
     "startLine": 1,
-    "endLine": 24
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio-observation-anzahl-kh-aufenthalte-wg-hf.json",
-    "fshName": "MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF",
-    "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Anzahl_KH_Aufenthalte_wg_HF.fsh",
-    "startLine": 1,
-    "endLine": 44
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio-observation-atherosklerotisches-erstereignis.json",
-    "fshName": "MII_PR_Kardio_Observation_Atherosklerotisches_Erstereignis",
-    "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Atherosklerotisches_Erstereignis.fsh",
-    "startLine": 1,
     "endLine": 21
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio-observation-ausschluss-scoreberechnung.json",
-    "fshName": "MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung",
-    "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Ausschluss_Scoreberechnung.fsh",
-    "startLine": 1,
-    "endLine": 39
-  },
-  {
-    "outputFile": "StructureDefinition-mii-pr-kardio-observation-linksventrikulaere-ejektionsfraktion.json",
-    "fshName": "MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion",
-    "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Linksventrikulaere_Ejektionsfraktion.fsh",
-    "startLine": 7,
-    "endLine": 137
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-rauchen-acribisalpha.json",
@@ -448,50 +416,42 @@
     "endLine": 34
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-allergene-snomed.json",
-    "fshName": "MII_VS_Kardio_Allergene_SNOMED",
+    "outputFile": "ValueSet-mii-vs-kardio-allergene-snomedct.json",
+    "fshName": "MII_VS_Kardio_Allergene_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Allergene.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Allergene_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 56
+    "endLine": 46
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-atherosklerotische-erstereignisse.json",
-    "fshName": "MII_VS_Kardio_Artherosklerotische_Erstereignisse",
+    "outputFile": "ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.json",
+    "fshName": "MII_VS_Kardio_Artherosklerotisches_Ereignis_SNOEMDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Atherosklerotisches_Erstereignisse.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterium-acribis-scores.json",
+    "fshName": "MII_VS_Kardio_Ausschlusskriterium_ACRIBiS_Scores",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterium_Acribis_Scores.fsh",
     "startLine": 1,
     "endLine": 21
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterien-acribis-scores.json",
-    "fshName": "MII_VS_Kardio_Ausschlusskriterien_ACRIBiS_Scores",
+    "outputFile": "ValueSet-mii-vs-kardio-ekg-kanaele-mdc.json",
+    "fshName": "MII_VS_Kardio_EKG_Kanaele_MDC",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterien_Acribis_Scores.fsh",
-    "startLine": 1,
-    "endLine": 18
-  },
-  {
-    "outputFile": "ValueSet-mii-vs-kardio-ekg-kanaele.json",
-    "fshName": "MII_VS_Kardio_EKG_Kanaele",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_EKG_Kanaele.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_EKG_Kanaele_MDC.fsh",
     "startLine": 1,
     "endLine": 13
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen.json",
-    "fshName": "MII_VS_Kardio_MDC_Metriken_EKG_Annotationen",
+    "outputFile": "ValueSet-mii-vs-kardio-ethnie-snomedct.json",
+    "fshName": "MII_VS_Kardio_Ethnie_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Metriken_EKG_Annotationen.fsh",
-    "startLine": 1,
-    "endLine": 14
-  },
-  {
-    "outputFile": "ValueSet-mii-vs-kardio-ethnie-snomed.json",
-    "fshName": "MII_VS_Kardio_Ethnie_SNOMED",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Ethnie.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Ethnie_SNOMEDCT.fsh",
     "startLine": 1,
     "endLine": 15
   },
@@ -501,39 +461,31 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 16
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung.json",
-    "fshName": "MII_VS_Kardio_Geraeteprogrammierung",
+    "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.json",
+    "fshName": "MII_VS_Kardio_Geraeteprogrammierung_MDC",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Geraeteprogrammierung.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Geraeteprogrammierung_MDC.fsh",
     "startLine": 1,
     "endLine": 18
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-geraetetyp.json",
-    "fshName": "MII_VS_Kardio_Geraetetyp",
+    "outputFile": "ValueSet-mii-vs-kardio-geraetetyp-snomedct.json",
+    "fshName": "MII_VS_Kardio_Geraetetyp_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Geraetetyp.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Geraetetyp_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 15
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomed.json",
-    "fshName": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
+    "outputFile": "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.json",
+    "fshName": "MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Gewichtsveraenderung.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 31
-  },
-  {
-    "outputFile": "ValueSet-mii-vs-kardio-implant-device-emdn.json",
-    "fshName": "MII_VS_Kardio_Implant_Device_EMDN",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_implant-device.fsh",
-    "startLine": 1,
-    "endLine": 51
+    "endLine": 19
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.json",
@@ -569,27 +521,19 @@
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.json",
-    "fshName": "MII_VS_Kardio_Lebensmittelpunkt_m49",
+    "fshName": "MII_VS_Kardio_Lebensmittelpunkt_M49",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Lebensmittelpunkt.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Lebensmittelpunkt_M49.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 21
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-mdc-objects-devices.json",
-    "fshName": "MII_VS_Kardio_MDC_Objects_Devices",
+    "outputFile": "ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.json",
+    "fshName": "MII_VS_Kardio_Metriken_EKG_Annotationen_MDC",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_MDC_Objects_Devices.fsh",
+    "fshFile": "valuesets\\MII_VS_Kardio_Metriken_EKG_Annotationen_MDC.fsh",
     "startLine": 1,
-    "endLine": 13
-  },
-  {
-    "outputFile": "ValueSet-mii-vs-kardio-medikation.json",
-    "fshName": "MII_VS_Kardio_Medikation",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Medikation.fsh",
-    "startLine": 1,
-    "endLine": 162
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-modifizierte-rankin-skala.json",
@@ -597,7 +541,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-nein-unbekannt.json",
@@ -613,7 +557,15 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_NYHA_Klassen_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-objekte-geraete-mdc.json",
+    "fshName": "MII_VS_Kardio_Objekte_Geraete_MDC",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Objekte_Geraete_MDC.fsh",
+    "startLine": 1,
+    "endLine": 13
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-rauchen-acribisalpha.json",
@@ -621,6 +573,6 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Rauchen_AcribisAlpha.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 18
   }
 ]

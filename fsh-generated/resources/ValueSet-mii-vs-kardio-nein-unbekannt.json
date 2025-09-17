@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "MII_VS_Kardio_Nein_Unbekannt",
   "id": "mii-vs-kardio-nein-unbekannt",
   "title": "MII VS Kardio Nein Unbekannt",
@@ -18,28 +18,24 @@
       ]
     }
   ],
-  "experimental": true,
-  "date": "2025-07-11",
+  "experimental": false,
+  "date": "2025-09-05",
   "compose": {
     "include": [
       {
         "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
         "concept": [
           {
-            "code": "N",
-            "display": "No"
+            "code": "N"
           },
           {
-            "code": "UNK",
-            "display": "unknown"
+            "code": "UNK"
           },
           {
-            "code": "NASK",
-            "display": "not asked"
+            "code": "NASK"
           },
           {
-            "code": "ASKU",
-            "display": "asked but unknown"
+            "code": "ASKU"
           }
         ]
       }

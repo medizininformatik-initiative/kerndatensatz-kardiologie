@@ -7,16 +7,11 @@ Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers, 
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
-* ^experimental = true
-* ^date = "2025-05-13"
+* ^status = #active
+* ^experimental = false
+* ^date = "2025-09-04"
 
 * status = #completed
-//* statusReason ..0
-
-* category 1..
-* category.coding[sct] 1..
-* category.coding[sct].code = #387713003
 
 * code.coding[sct] 1..
 * code.coding[sct] from MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT
@@ -48,23 +43,3 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
 * focalDevice.manipulated only Reference(Device)
 
 // Anmerkung FE: Wieviele Sonden hat das Gerät --> andere Metric / erstmal nicht für Acribis --> dann für KDS Kardio gesamt
-
-Instance: mii-exa-kardio-kardiale-deviceimplantation-icd
-InstanceOf: MII_PR_Kardio_Kardiale_Deviceimplantation
-Title: "MII EXA Kardio Kardiale Deviceimplantation"
-Description: "Beispiel einer Implantation eines Kardioverter-Defibrillators (ICD)"
-Usage: #example
-
-* extension[Dokumentationsdatum].url = "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum"
-* extension[Dokumentationsdatum].valueDateTime = "2025-05-16T16:23:12+02:00"
-* extension[durchfuehrungsabsicht].url = "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht"
-* extension[durchfuehrungsabsicht].valueCoding = $sct#262202000 "Therapeutic intent (qualifier value)"
-* status = #completed
-* category.coding[sct] = $sct#387713003 "Surgical procedure (procedure)"
-* code.coding[sct] = $sct#395218007 "Implantation of internal cardiac defibrillator (procedure)"
-* subject.reference = "Patient/mii-exa-person-patient-minimal"
-* performedDateTime = "2020-04"
-* bodySite.coding = $sct#80891009 "Heart structure (body structure)"
-* note.text = "Implantation eines ICDs im April 2020"
-* focalDevice.action.coding = $sct#129338005 "Surgical implantation - action (qualifier value)"
-* focalDevice.manipulated.reference = "Device/mii-exa-kardio-device-icd"

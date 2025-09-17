@@ -1,0 +1,51 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "MII_CS_Kardio_Rauchen_Einheiten",
+  "id": "mii-cs-kardio-rauchen-einheiten",
+  "title": "MII_CS_Kardio_Rauchen_Einheiten",
+  "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten",
+  "concept": [
+    {
+      "code": "pack-years",
+      "display": "Packungsjahre",
+      "definition": "Anzahl der Packungsjahre (pack-years)"
+    },
+    {
+      "code": "packs-per-day",
+      "display": "Packungen pro Tag",
+      "definition": "Anzahl der täglich gerauchten Packungen"
+    },
+    {
+      "code": "cigarettes-per-day",
+      "display": "Zigaretten pro Tag",
+      "definition": "Anzahl der täglich gerauchten Zigaretten"
+    },
+    {
+      "code": "rauchdauer",
+      "display": "Anzahl Jahre seit denen geraucht wurde"
+    },
+    {
+      "code": "rauchbeginn",
+      "display": "Fuzzy Datum seit dem geraucht wird"
+    }
+  ],
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "date": "2025-09-03",
+  "caseSensitive": true,
+  "count": 5
+}

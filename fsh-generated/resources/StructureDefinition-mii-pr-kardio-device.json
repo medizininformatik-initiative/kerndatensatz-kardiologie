@@ -5,9 +5,9 @@
   "version": "2025.0.0",
   "name": "MII_PR_Kardio_Device",
   "title": "MII PR Kardio Device",
-  "status": "draft",
-  "experimental": true,
-  "date": "2025-05-13",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-09-05",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -41,7 +41,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct"
         }
       },
       {

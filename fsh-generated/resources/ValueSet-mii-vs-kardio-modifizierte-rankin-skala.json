@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "MII_VS_Kardio_Modifizierte_Rankin_Skala",
   "id": "mii-vs-kardio-modifizierte-rankin-skala",
   "title": "MII VS Kardio Modifizierte Rankin Skala",
@@ -18,8 +18,8 @@
       ]
     }
   ],
-  "experimental": true,
-  "date": "2025-04-29",
+  "experimental": false,
+  "date": "2025-09-05",
   "copyright": "Public Domain",
   "compose": {
     "include": [

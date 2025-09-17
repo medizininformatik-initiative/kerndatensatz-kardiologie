@@ -1,0 +1,112 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-diagnose",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/spdx-license",
+            "code": "CC-BY-4.0",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose",
+  "version": "2025.0.0",
+  "name": "MII_PR_Kardio_Diagnose",
+  "title": "MII PR Kardio Diagnose",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-09-04",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition.severity",
+        "path": "Condition.severity",
+        "comment": "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis.",
+        "mustSupport": true,
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct"
+        }
+      },
+      {
+        "id": "Condition.code.coding:icd10-gm",
+        "path": "Condition.code.coding",
+        "sliceName": "icd10-gm",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/bfarm/icd-10-gm|2025"
+        }
+      },
+      {
+        "id": "Condition.subject",
+        "path": "Condition.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Condition.recorder",
+        "path": "Condition.recorder",
+        "comment": "Allows documentation about who recorded the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person.",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": true,
+        "isModifierReason": "Can express the uncertainty of a diagnosis by stating a recorder that is not authorized to define a confirmed diagnosis."
+      },
+      {
+        "id": "Condition.asserter",
+        "path": "Condition.asserter",
+        "comment": "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person.",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient",
+              "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": true,
+        "isModifierReason": "Can express the uncertainty of a diagnosis by stating an asserter that is not authorized to define a confirmed diagnosis."
+      }
+    ]
+  }
+}

@@ -7,7 +7,7 @@
     ]
   },
   "subject": {
-    "reference": "Patient/mii-exa-person-patient-minimal"
+    "display": "Beispielpatient"
   },
   "author": [
     {
@@ -23,7 +23,7 @@
       },
       "format": {
         "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
-        "system": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem",
+        "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
         "display": "mimeType Sufficient"
       }
     }
@@ -33,10 +33,10 @@
       {
         "code": "11524-6",
         "system": "http://loinc.org",
-        "display": "ECG Document"
+        "display": "EKG study"
       }
     ]
   },
-  "status": "active",
+  "status": "current",
   "date": "2025-07-17T16:41:22+02:00"
 }

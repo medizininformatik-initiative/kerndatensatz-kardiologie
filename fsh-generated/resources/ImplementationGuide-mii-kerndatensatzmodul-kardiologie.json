@@ -403,6 +403,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"
+        },
+        "name": "MII PR Kardio Linksventrikulaere Ejektionsfraktion",
+        "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"
         },
         "name": "MII PR Kardio NBG Schrittmachermodus",
@@ -547,7 +555,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ekg-mdc-metriken-ekg-annotationen"
+          "reference": "ValueSet/mii-vs-kardio-lebensmittelpunkt-m49"
         },
         "name": "MII VS Kardio Lebensmittelpunkt [M49]",
         "description": "Dieses Value Set bildet den aktuellen Lebensmittelpunkt des Patienten unabhängig von seiner Herkunft ab. Damit wird der Parameter 'Geographic region' des SMART-REACH-Scores mit der Ergänzung Deutschland abgebildet.",
@@ -613,38 +621,7 @@
         "reference": {
           "reference": "CodeSystem/mii-cs-kardio-rauchen-einheiten"
         },
-        "name": "MII_VS_Kardio_Allergene_SNOMED",
-        "description": "Liste von Substanzen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-gewichtsveraenderung-snomed"
-        },
-        "name": "MII_VS_Kardio_Gewichtsveraenderung_SNOMED",
-        "description": "Beschreibung von Gewichtsveränderungen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-implant-device-emdn"
-        },
-        "name": "MII_VS_Kardio_Implant_Device_EMDN",
-        "description": "Implantierbare Devices nach EMDN",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-lebensmittelpunkt-m49"
-        },
-        "name": "MII_VS_Kardio_Lebensmittelpunkt_m49",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-smoking-units"
-        },
-        "name": "MII_VS_Rauchen_Einheiten_LOCAL",
+        "name": "MII_CS_Kardio_Rauchen_Einheiten",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
         "exampleBoolean": false
       },

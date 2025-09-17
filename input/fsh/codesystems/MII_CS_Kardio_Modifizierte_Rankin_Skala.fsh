@@ -27,3 +27,4 @@ Description: "Beeinträchtigung des Patienten nach Schlaganfall"
 // Lizenzbedingungen: Public Domain --> https://eprovide.mapi-trust.org/instruments/modified-rankin-scale
 * #mRSbigger3 "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
 * #mRSsmallerequal3 "Die Einstufung auf der mRS-Skala liegt bei gleich 3 oder weniger als 3 (Patient kann ohne fremde Hilfe gehen (ggf. mit Hilfsmitteln))"
+* #mRSunknown "Die Einstufung auf der mRS-Skala ist unbekannt"

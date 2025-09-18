@@ -10,4 +10,4 @@ Description: "SNOMED CT Codes für Klappenerkrankungen"
 * ^experimental = true
 * ^date = "2025-09-16"
 
-* include codes from system $sct where concept is-a $sct#368009 // "Heart valve disorder (disorder)"
+* include codes from system $sct where concept is-a #368009 // "Heart valve disorder (disorder)"

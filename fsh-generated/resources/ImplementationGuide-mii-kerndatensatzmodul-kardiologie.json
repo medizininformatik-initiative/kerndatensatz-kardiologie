@@ -539,6 +539,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct"
+        },
+        "name": "MII VS Kardio Klappenvitium Grad [SNOMED CT]",
+        "description": "SNOMED CT Codes für den Grad Klappenerkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-klappenvitium-alphaid"
+        },
+        "name": "MII VS Kardio Klappenvitium [ALPHA-ID]",
+        "description": "Alpha-ID-Codes für Klappenerkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-klappenvitium-icd"
         },
         "name": "MII VS Kardio Klappenvitium [ICD 10 GM]",

@@ -45,11 +45,11 @@
       {
         "id": "Condition.severity",
         "path": "Condition.severity",
-        "comment": "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis.",
+        "comment": "Grad der Klappenerkrankung auf einer drei- oder vierstufigen Skala.",
         "mustSupport": true,
         "binding": {
-          "strength": "preferred",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct"
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct"
         }
       },
       {
@@ -62,6 +62,15 @@
         }
       },
       {
+        "id": "Condition.code.coding:alpha-id",
+        "path": "Condition.code.coding",
+        "sliceName": "alpha-id",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid"
+        }
+      },
+      {
         "id": "Condition.code.coding:sct",
         "path": "Condition.code.coding",
         "sliceName": "sct",
@@ -69,6 +78,12 @@
           "strength": "required",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct"
         }
+      },
+      {
+        "id": "Condition.code.coding:orphanet",
+        "path": "Condition.code.coding",
+        "sliceName": "orphanet",
+        "max": "0"
       },
       {
         "id": "Condition.subject",
@@ -81,16 +96,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": "Condition.recorder",
-        "path": "Condition.recorder",
-        "mustSupport": true
-      },
-      {
-        "id": "Condition.asserter",
-        "path": "Condition.asserter",
-        "mustSupport": true
       }
     ]
   }

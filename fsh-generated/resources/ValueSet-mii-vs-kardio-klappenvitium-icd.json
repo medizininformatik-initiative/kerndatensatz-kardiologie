@@ -74,6 +74,50 @@
             "code": "I09.8"
           }
         ]
+      },
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+        "version": "2025",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "I34"
+          }
+        ]
+      },
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+        "version": "2025",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "I35"
+          }
+        ]
+      },
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+        "version": "2025",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "I36"
+          }
+        ]
+      },
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+        "version": "2025",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "I37"
+          }
+        ]
       }
     ]
   }

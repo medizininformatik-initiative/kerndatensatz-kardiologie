@@ -365,7 +365,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Klappenvitium.fsh",
     "startLine": 1,
-    "endLine": 25
+    "endLine": 24
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json",
@@ -504,12 +504,28 @@
     "endLine": 18
   },
   {
+    "outputFile": "ValueSet-mii-vs-kardio-klappenvitium-alphaid.json",
+    "fshName": "MII_VS_Kardio_Klappenvitium_ALPHAID",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Klappenvitium_ALPHAID.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.json",
+    "fshName": "MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
     "outputFile": "ValueSet-mii-vs-kardio-klappenvitium-icd.json",
     "fshName": "MII_VS_Kardio_Klappenvitium_ICD",
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Klappenvitium_ICD.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 24
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-klappenvitium-snomedct.json",

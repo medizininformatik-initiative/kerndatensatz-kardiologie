@@ -12,14 +12,13 @@ Description: "Profil zur Abbildung einer Herzklappenerkrankung."
 * ^date = "2025-09-16"
 
 * severity MS
-* severity from MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT (preferred)
-* severity ^comment = "Extended valueSet to allow value'terminal'/'end-stage' as additional information for a given cancer diagnosis."
+* severity from MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT (required)
+* severity ^comment = "Grad der Klappenerkrankung auf einer drei- oder vierstufigen Skala."
 
 * code.coding[icd10-gm] from MII_VS_Kardio_Klappenvitium_ICD (required)
 * code.coding[sct] from MII_VS_Kardio_Klappenvitium_SNOMEDCT (required)
+* code.coding[alpha-id] from MII_VS_Kardio_Klappenvitium_ALPHAID (required)
+* code.coding[orphanet] ..0
 
 // Subject
 * subject only Reference(Patient)
-
-* recorder MS
-* asserter MS

@@ -5,6 +5,7 @@ Alias: $ucum = http://unitsofmeasure.org
 Alias: $m49-geographic-region = http://unstats.un.org/unsd/methods/m49/m49.htm
 Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
 Alias: $icd-10-gm = http://fhir.de/CodeSystem/bfarm/icd-10-gm
+Alias: $alpha-id = http://fhir.de/CodeSystem/bfarm/alpha-id
 Alias: $ops = http://fhir.de/CodeSystem/bfarm/ops
 Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten

@@ -10,8 +10,15 @@ Description: "ICD-Codes für Klappenerkrankungen"
 * ^experimental = true
 * ^date = "2025-09-16"
 
+// Rheumatische Klappenerkrankungen
 * include codes from system $icd-10-gm|2025 where concept descendent-of #I05 // "Rheumatische Mitralklappenkrankheiten"
 * include codes from system $icd-10-gm|2025 where concept descendent-of #I06 // "Rheumatische Aortenklappenkrankheiten"
 * include codes from system $icd-10-gm|2025 where concept descendent-of #I07 // "Rheumatische Trikuspidalklappenkrankheiten"
 * include codes from system $icd-10-gm|2025 where concept descendent-of #I08 // "Krankheiten mehrerer Herzklappen"
 * $icd-10-gm|2025#I09.8 // Sonstige näher bezeichnete rheumatische Herzkrankheiten
+
+// Nicht-rheumatische Klappenerkrankungen
+* include codes from system $icd-10-gm|2025 where concept descendent-of #I34 // "Nicht-rheumatische Mitralklappenkrankheiten"
+* include codes from system $icd-10-gm|2025 where concept descendent-of #I35 // "Nicht-rheumatische Aortenklappenkrankheiten"
+* include codes from system $icd-10-gm|2025 where concept descendent-of #I36 // "Nicht-rheumatische Trikuspidalklappenkrankheiten"
+* include codes from system $icd-10-gm|2025 where concept descendent-of #I37 // "Pulmonalklappenkrankheiten"

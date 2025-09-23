@@ -1,0 +1,31 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "supplement",
+  "name": "MII_CS_Kardio_Vitium_Supplement_SNOMEDCT",
+  "id": "mii-cs-kardio-vitium-supplement-snomedct",
+  "title": "MII CS Kardio Vitium Supplement [SNOMED CT]",
+  "description": "Supplement für die Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-vitium-supplement-snomedct",
+  "concept": [
+    {
+      "code": "368009:{116676008=49755003,363698007=17401000}",
+      "display": "Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure}"
+    }
+  ],
+  "version": "2025.0.0",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "date": "2025-09-22",
+  "supplements": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+}

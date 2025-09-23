@@ -3,6 +3,7 @@
 [MII_CS_Kardio_Atherosklerotisches_Ereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-Ereignis.html
 [MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: CodeSystem-mii-cs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
+[MII_CS_Kardio_Vitium_Supplement_SNOMEDCT]: CodeSystem-mii-cs-kardio-vitium-supplement-snomedct.html
 [mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf]: Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.html
 [mii-exa-kardio-atherosklerotisches-erstereignis]: Observation-mii-exa-kardio-atherosklerotisches-erstereignis.html
 [mii-exa-kardio-ausschluss-scoreberechnung-vitium]: Observation-mii-exa-kardio-ausschluss-scoreberechnung-vitium.html
@@ -16,6 +17,7 @@
 [mii-exa-kardio-ekg-rr-interval]: Observation-mii-exa-kardio-ekg-rr-interval.html
 [mii-exa-kardio-geraeteprogrammierung-vvi]: Observation-mii-exa-kardio-geraeteprogrammierung-vvi.html
 [mii-exa-kardio-herzinsuffizienz-unbekannt]: Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.html
+[mii-exa-kardio-hoehergradiges-vitium]: Condition-mii-exa-kardio-hoehergradiges-vitium.html
 [mii-exa-kardio-kardiale-deviceimplantation-icd]: Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.html
 [mii-exa-kardio-lvef]: Observation-mii-exa-kardio-lvef.html
 [mii-exa-kardio-mrs]: Observation-mii-exa-kardio-mrs.html

@@ -1,6 +1,7 @@
 // CodeSystems
 Alias: $loinc = http://loinc.org
 Alias: $sct = http://snomed.info/sct
+Alias: $sct-20250701 = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $m49-geographic-region = http://unstats.un.org/unsd/methods/m49/m49.htm
 Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc
@@ -17,6 +18,8 @@ Alias: $acribis-follow-up = https://www.medizininformatik-initiative.de/fhir/ext
 Alias: $acribis-smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
+Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
+Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
 
 //ValueSets ("-vs"-Suffix)
 Alias: $icd-10-gm-vs = http://fhir.de/ValueSet/bfarm/icd-10-gm

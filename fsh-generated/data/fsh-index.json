@@ -48,12 +48,28 @@
     "endLine": 19
   },
   {
+    "outputFile": "CodeSystem-mii-cs-kardio-vitium-supplement-snomedct.json",
+    "fshName": "MII_CS_Kardio_Vitium_Supplement_SNOMEDCT",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems\\MII_CS_Kardio_Vitium_Supplement_SNOMEDCT.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
     "outputFile": "Condition-mii-exa-kardio-diagnose-myokardinfarkt.json",
     "fshName": "mii-exa-kardio-diagnose-myokardinfarkt",
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Diagnose_Myokardinfarkt.fsh",
     "startLine": 1,
     "endLine": 47
+  },
+  {
+    "outputFile": "Condition-mii-exa-kardio-hoehergradiges-vitium.json",
+    "fshName": "mii-exa-kardio-hoehergradiges-vitium",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_Hoehergradiges_Vitium.fsh",
+    "startLine": 1,
+    "endLine": 19
   },
   {
     "outputFile": "Device-mii-exa-kardio-device-icd.json",
@@ -533,7 +549,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Klappenvitium_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 15
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.json",

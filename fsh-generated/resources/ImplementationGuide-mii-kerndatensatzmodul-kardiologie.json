@@ -99,6 +99,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-vitium-supplement-snomedct"
+        },
+        "name": "MII CS Kardio Vitium Supplement [SNOMED CT]",
+        "description": "Supplement für die Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf"
         },
         "name": "MII EXA Kardio Anzahl KH Aufenthalte WG HF",
@@ -200,6 +208,14 @@
         "name": "MII EXA Kardio Herzinsuffizienz Unbekannt",
         "description": "Beispiel: Der Patient weiß nicht, ob er Herzinsuffizienz hat.",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+      },
+      {
+        "reference": {
+          "reference": "Condition/mii-exa-kardio-hoehergradiges-vitium"
+        },
+        "name": "MII EXA Kardio Höhergradiges Vitium",
+        "description": "Beispiel zur Abbildung eines unbestimmten höhergradigen Klappenvitiums.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-klappenvitium"
       },
       {
         "reference": {

@@ -1,6 +1,6 @@
 CodeSystem: MII_CS_Kardio_Rauchen_Einheiten
 Id: mii-cs-kardio-rauchen-einheiten
-Title: "MII_CS_Kardio_Rauchen_Einheiten"
+Title: "MII CS Kardio Rauchen Einheiten"
 Description: "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer."
 
 * insert PR_CS_VS_Version

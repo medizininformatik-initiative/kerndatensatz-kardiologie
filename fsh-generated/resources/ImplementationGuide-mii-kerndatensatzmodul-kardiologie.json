@@ -107,6 +107,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-rauchen-einheiten"
+        },
+        "name": "MII CS Kardio Rauchen Einheiten",
+        "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf"
         },
         "name": "MII EXA Kardio Anzahl KH Aufenthalte WG HF",
@@ -647,14 +655,6 @@
         },
         "name": "MII_CS_Follow_Up",
         "description": "Dieses CodeSystem enthält lokal definierte Einheiten zur Verwendung im Follow-Up Questionnaire.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-rauchen-einheiten"
-        },
-        "name": "MII_CS_Kardio_Rauchen_Einheiten",
-        "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
         "exampleBoolean": false
       },
       {

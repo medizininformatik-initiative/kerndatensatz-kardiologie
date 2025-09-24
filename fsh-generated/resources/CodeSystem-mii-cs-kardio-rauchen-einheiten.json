@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "MII_CS_Kardio_Rauchen_Einheiten",
   "id": "mii-cs-kardio-rauchen-einheiten",
-  "title": "MII_CS_Kardio_Rauchen_Einheiten",
+  "title": "MII CS Kardio Rauchen Einheiten",
   "description": "Dieses CodeSystem enthält lokal definierte Einheiten zum Beschreiben der Rauchdauer.",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten",
   "concept": [

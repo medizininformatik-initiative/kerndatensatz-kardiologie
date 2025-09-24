@@ -6,9 +6,9 @@ Description: "Supplement für die Abbildung des höhergradigen Vitiums primärer
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #active
-* ^experimental = false
-* ^date = "2025-09-22"
+* ^status = #draft
+* ^experimental = true
+* ^date = "2025-09-24"
 * ^content = #supplement
 * ^supplements = $sct-20250701
 

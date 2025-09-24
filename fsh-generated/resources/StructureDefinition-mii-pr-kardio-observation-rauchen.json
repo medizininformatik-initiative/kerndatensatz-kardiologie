@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-observation-rauchen",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen",
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "name": "MII_PR_Kardio_Observation_Rauchen",
   "title": "MII PR Kardio Observation Rauchen",
   "status": "draft",

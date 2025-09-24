@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "mii-kerndatensatzmodul-kardiologie",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
-  "version": "0.1.0",
+  "version": "2026.0.0-alpha.1",
   "name": "MII_IG_MODUL_KARDIO_DE",
   "title": "MII IG Modul Kardio DE",
   "status": "draft",
@@ -91,18 +91,18 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
+          "reference": "CodeSystem/mii-cs-kardio-klappenvitium-supplement-snomedct"
         },
-        "name": "MII CS Kardio Lebensmittelpunkt",
-        "description": "Lebensmittelpunkt des Patienten",
+        "name": "MII CS Kardio Klappenvitium Supplement [SNOMED CT]",
+        "description": "Supplement für die Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-vitium-supplement-snomedct"
+          "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
         },
-        "name": "MII CS Kardio Vitium Supplement [SNOMED CT]",
-        "description": "Supplement für die Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code.",
+        "name": "MII CS Kardio Lebensmittelpunkt",
+        "description": "Lebensmittelpunkt des Patienten",
         "exampleBoolean": false
       },
       {

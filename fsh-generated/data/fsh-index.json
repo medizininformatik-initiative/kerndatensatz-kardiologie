@@ -24,6 +24,14 @@
     "endLine": 15
   },
   {
+    "outputFile": "CodeSystem-mii-cs-kardio-klappenvitium-supplement-snomedct.json",
+    "fshName": "MII_CS_Kardio_Klappenvitium_Supplement_SNOMEDCT",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems\\MII_CS_Kardio_Klappenvitium_Supplement_SNOMEDCT.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
     "outputFile": "CodeSystem-mii-cs-kardio-lebensmittelpunkt.json",
     "fshName": "MII_CS_Kardio_Lebensmittelpunkt",
     "fshType": "CodeSystem",
@@ -46,14 +54,6 @@
     "fshFile": "codesystems\\MII_CS_Kardio_Kardio_Rauchen_Einheiten.fsh",
     "startLine": 1,
     "endLine": 19
-  },
-  {
-    "outputFile": "CodeSystem-mii-cs-kardio-vitium-supplement-snomedct.json",
-    "fshName": "MII_CS_Kardio_Vitium_Supplement_SNOMEDCT",
-    "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_Vitium_Supplement_SNOMEDCT.fsh",
-    "startLine": 1,
-    "endLine": 15
   },
   {
     "outputFile": "Condition-mii-exa-kardio-diagnose-myokardinfarkt.json",

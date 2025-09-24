@@ -6,7 +6,7 @@
   "title": "MII VS Kardio EKG Kanäle [MDC]",
   "description": "ISO/IEEE 11073-10101 Codes für EKG Kanäle",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc",
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

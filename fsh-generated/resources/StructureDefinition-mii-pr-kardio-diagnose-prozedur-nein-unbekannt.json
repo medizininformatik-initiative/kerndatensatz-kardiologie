@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-diagnose-prozedur-nein-unbekannt",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt",
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "name": "MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt",
   "title": "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
   "status": "active",

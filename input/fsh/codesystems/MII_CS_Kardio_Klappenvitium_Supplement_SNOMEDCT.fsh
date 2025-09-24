@@ -1,6 +1,6 @@
-CodeSystem: MII_CS_Kardio_Vitium_Supplement_SNOMEDCT
-Id: mii-cs-kardio-vitium-supplement-snomedct
-Title: "MII CS Kardio Vitium Supplement [SNOMED CT]"
+CodeSystem: MII_CS_Kardio_Klappenvitium_Supplement_SNOMEDCT
+Id: mii-cs-kardio-klappenvitium-supplement-snomedct
+Title: "MII CS Kardio Klappenvitium Supplement [SNOMED CT]"
 Description: "Supplement für die Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code."
 
 * insert PR_CS_VS_Version

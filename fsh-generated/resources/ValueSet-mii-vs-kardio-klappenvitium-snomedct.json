@@ -9,10 +9,10 @@
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/valueset-supplement",
-      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-vitium-supplement-snomedct|2025.0.0"
+      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-klappenvitium-supplement-snomedct"
     }
   ],
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

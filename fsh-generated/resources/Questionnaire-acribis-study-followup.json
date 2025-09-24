@@ -644,7 +644,7 @@
       "enableBehavior": "all"
     }
   ],
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "name": "Acribis_Study_FollowUp",
   "title": "Acribis-Studie Follow-Up Fragebogen",
   "status": "draft",

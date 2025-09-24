@@ -6,7 +6,7 @@
   "title": "MII VS Kardio Allergene [SNOMED CT]",
   "description": "Liste von Substanzen",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-allergene-snomedct",
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

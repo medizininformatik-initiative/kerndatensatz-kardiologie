@@ -16,7 +16,7 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-klappenvitium",
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "name": "MII_PR_Kardio_Klappenvitium",
   "title": "MII PR Kardio Klappenvitium",
   "status": "draft",

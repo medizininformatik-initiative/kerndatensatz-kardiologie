@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-score-nyha",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha",
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "name": "MII_PR_Kardio_Score_NYHA",
   "title": "MII PR Kardio Score NYHA",
   "status": "draft",

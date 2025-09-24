@@ -9,7 +9,7 @@ name: MII_IG_MODUL_KARDIO_DE
 title: MII IG Modul Kardio DE
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 2026.0.0-alpha.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 releaseLabel: ci-build

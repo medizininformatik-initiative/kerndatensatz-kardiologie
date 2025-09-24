@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-geraeteprogrammierung",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-geraeteprogrammierung",
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "name": "MII_PR_Kardio_Geraeteprogrammierung",
   "title": "MII PR Kardio Geräteprogrammierung",
   "status": "active",

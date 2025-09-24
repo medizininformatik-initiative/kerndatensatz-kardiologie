@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-score-modifizierte-rankin-skala",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala",
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "name": "MII_PR_Kardio_Score_Modifizierte_Rankin_Skala",
   "title": "MII PR Kardio Score Modifizierte Rankin Skala",
   "status": "draft",

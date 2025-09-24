@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "name": "MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF",
   "title": "MII PR Kardio Anzahl KH Aufenthalte wg HF",
   "status": "active",

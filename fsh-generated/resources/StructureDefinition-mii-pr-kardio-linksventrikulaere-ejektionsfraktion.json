@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
-  "version": "2025.0.0",
+  "version": "2026.0.0-alpha.1",
   "name": "MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion",
   "title": "MII PR Kardio Linksventrikulaere Ejektionsfraktion",
   "status": "draft",

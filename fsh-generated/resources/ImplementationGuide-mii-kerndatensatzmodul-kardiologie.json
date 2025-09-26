@@ -227,6 +227,14 @@
       },
       {
         "reference": {
+          "reference": "Observation/mii-exa-kardio-hoehergradiges-vitium-unbekannt"
+        },
+        "name": "MII EXA Kardio Höhergradiges Vitium Unbekannt",
+        "description": "Beispiel um abzubilden, dass das Vorliegen eines höhergradigen Klappenvitiums unbekannt ist.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+      },
+      {
+        "reference": {
           "reference": "Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd"
         },
         "name": "MII EXA Kardio Kardiale Deviceimplantation ICD",

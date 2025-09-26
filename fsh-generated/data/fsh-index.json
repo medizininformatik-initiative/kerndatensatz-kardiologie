@@ -184,6 +184,14 @@
     "endLine": 16
   },
   {
+    "outputFile": "Observation-mii-exa-kardio-hoehergradiges-vitium-unbekannt.json",
+    "fshName": "mii-exa-kardio-hoehergradiges-vitium-unbekannt",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_Hoehergradiges_Vitium_Unbekannt.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
     "outputFile": "Observation-mii-exa-kardio-lvef.json",
     "fshName": "mii-exa-kardio-lvef",
     "fshType": "Instance",

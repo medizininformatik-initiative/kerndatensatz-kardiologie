@@ -1,0 +1,121 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-kardio-hoehergradiges-vitium-unbekannt",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+    ]
+  },
+  "contained": [
+    {
+      "resourceType": "Patient",
+      "id": "Beispielpatient",
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "coding": [
+              {
+                "code": "MR",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "display": "Medical record number"
+              }
+            ]
+          },
+          "value": "0123456789"
+        }
+      ],
+      "name": [
+        {
+          "given": [
+            "Max"
+          ],
+          "use": "official",
+          "family": "Mustermann"
+        }
+      ],
+      "address": [
+        {
+          "line": [
+            "Musterstraße 1"
+          ],
+          "type": "both",
+          "city": "Musterstadt",
+          "postalCode": "12345",
+          "country": "DE"
+        }
+      ],
+      "gender": "male",
+      "birthDate": "1980-01-01"
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Survey"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "368009:{116676008=49755003,363698007=17401000},{246112005=24484000}",
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "display": "Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure},{Severity=Severe}"
+      }
+    ],
+    "text": "Höhergradiges Vitium primärer Genese"
+  },
+  "performer": [
+    {
+      "display": "Facharzt für Kardiologie"
+    }
+  ],
+  "device": {
+    "display": "Beispieltablet"
+  },
+  "derivedFrom": [
+    {
+      "display": "Beispielfragebogen"
+    }
+  ],
+  "status": "final",
+  "bodySite": {
+    "coding": [
+      {
+        "code": "17401000",
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+        "display": "Cardiac valve structure (body structure)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "#Beispielpatient"
+  },
+  "effectiveDateTime": "2025-06-06T14:29:34.214+02:00",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "N",
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+        "display": "No"
+      }
+    ]
+  },
+  "method": {
+    "coding": [
+      {
+        "code": "129431000",
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+        "display": "History taking - action (qualifier value)"
+      }
+    ]
+  }
+}

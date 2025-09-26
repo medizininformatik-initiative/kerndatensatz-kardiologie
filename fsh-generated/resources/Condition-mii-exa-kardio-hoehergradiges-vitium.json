@@ -54,7 +54,7 @@
       {
         "code": "423343006",
         "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
         "display": "Grade 3 on a scale of 1 to 3"
       }
     ]
@@ -76,7 +76,7 @@
         {
           "system": "http://snomed.info/sct",
           "code": "17401000",
-          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
           "display": "Cardiac valve structure (body structure)"
         }
       ]

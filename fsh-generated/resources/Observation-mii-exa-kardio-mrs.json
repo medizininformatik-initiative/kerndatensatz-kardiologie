@@ -15,13 +15,14 @@
   "code": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
         "code": "1255866005",
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
         "display": "Modified Rankin Scale score (observable entity)"
       },
       {
-        "system": "http://loinc.org",
         "code": "75859-9",
+        "system": "http://loinc.org",
         "display": "Modified rankin scale"
       }
     ]

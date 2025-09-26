@@ -11,6 +11,7 @@
       {
         "code": "271000124103",
         "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
         "display": "Medical reason for exclusion from performance measure (observable entity)"
       }
     ]

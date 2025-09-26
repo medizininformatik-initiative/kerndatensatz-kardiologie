@@ -11,20 +11,16 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 
 * code 1..1 MS
 * code.coding 1..*
-* code.coding ^slicing.discriminator.type = #pattern
-* code.coding ^slicing.discriminator.path = "system" //"$this"
+* code.coding ^slicing.discriminator.type = #value
+* code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #closed
 * code.coding contains 
     sct 0..1 MS and
     loinc 0..1 MS
 * code.coding[sct] 1..1 MS
-* code.coding[sct].system = $sct
-* code.coding[sct].code = $sct#1255866005 // 1255866005 = "Modified Rankin Scale score (observable entity)"
-//* code.coding.display = "Modified Rankin Scale score (observable entity)"
+* code.coding[sct] = $sct#1255866005 // Modified Rankin Scale score (observable entity)
 * code.coding[loinc] 1..1 MS
-* code.coding[loinc].system = $loinc
-* code.coding[loinc].code = $loinc#75859-9
-//* code.coding[loinc].display = "Modified rankin scale"
+* code.coding[loinc] = $loinc#75859-9 // Modified rankin scale
 
 * subject 1..1 MS
 * subject only Reference(Patient)
@@ -34,11 +30,6 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * valueCodeableConcept.extension contains $data-absent-reason named data-absent-reason 0..1
 * performer MS
 * encounter MS
-// Keine weitere Eingrenzung, um spätere Inkompatibilitäten zu vermeiden. Bsp.: Angabe von device oder focus in anderen Spezifikationen denkbar.
-//* bodySite ..0
-//* component ..0
-//* device ..0
-//* focus ..0
 
 // Published: 1988, Van Swieten JC; Koudstaal PJ; Visser MC; Schouten HJA; Van Gijn J, 
 // Online: see https://pubmed.ncbi.nlm.nih.gov/3363593/

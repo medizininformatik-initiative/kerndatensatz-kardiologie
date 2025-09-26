@@ -40,7 +40,8 @@
         "max": "1",
         "patternCoding": {
           "code": "32485007",
-          "system": "http://snomed.info/sct"
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20240701"
         },
         "mustSupport": true
       },
@@ -106,7 +107,8 @@
           "coding": [
             {
               "code": "406524005",
-              "system": "http://snomed.info/sct"
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/900000000000207008/version/20240701"
             }
           ]
         },
@@ -125,7 +127,8 @@
           "coding": [
             {
               "code": "84114007",
-              "system": "http://snomed.info/sct"
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/900000000000207008/version/20240701"
             }
           ]
         },

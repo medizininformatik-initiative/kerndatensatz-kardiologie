@@ -11,6 +11,7 @@
       {
         "code": "32485007",
         "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
         "display": "Hospital admission (procedure)"
       }
     ]
@@ -34,6 +35,7 @@
           {
             "code": "406524005",
             "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20240701",
             "display": "Reason for visit diagnosis (attribute)"
           }
         ]
@@ -43,6 +45,7 @@
           {
             "code": "84114007",
             "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20240701",
             "display": "Heart failure (disorder)"
           }
         ]

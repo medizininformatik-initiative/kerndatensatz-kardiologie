@@ -1,6 +1,6 @@
 // CodeSystems
 Alias: $loinc = http://loinc.org
-Alias: $sct = http://snomed.info/sct
+Alias: $sct = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701
 Alias: $sct-20250701 = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $m49-geographic-region = http://unstats.un.org/unsd/methods/m49/m49.htm

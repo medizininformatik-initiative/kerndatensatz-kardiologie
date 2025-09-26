@@ -10,6 +10,7 @@
         {
           "code": "17561000",
           "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
           "display": "Cardiologist"
         }
       ]
@@ -21,6 +22,7 @@
         {
           "code": "394579002",
           "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
           "display": "Cardiology"
         }
       ]

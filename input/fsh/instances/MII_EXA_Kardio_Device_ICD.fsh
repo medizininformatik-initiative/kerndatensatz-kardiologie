@@ -6,7 +6,5 @@ Usage: #example
 
 * status = #active
 * manufacturer = "Medtronic"
-* type.coding.system = $sct
-* type.coding.code = #72506001
-* type.coding.display = "Implantable defibrillator, device (physical object)"
+* type.coding = $sct#72506001 "Implantable defibrillator, device (physical object)"
 * patient.display = "Beispielpatient"

@@ -17,6 +17,7 @@
       {
         "code": "762994006",
         "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
         "display": "New York Heart Association Classification class (observable entity)"
       },
       {
@@ -64,6 +65,7 @@
       {
         "code": "421704003",
         "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
         "display": "New York Heart Association Classification - Class II"
       }
     ]

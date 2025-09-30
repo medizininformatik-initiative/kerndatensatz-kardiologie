@@ -1,11 +1,27 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-ekg-durchfuehrung",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/spdx-license",
+            "code": "CC-BY-4.0",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-durchfuehrung",
   "version": "2026.0.0-alpha.1",
   "name": "MII_PR_Kardio_EKG_Durchfuehrung",
   "title": "MII PR Kardio EKG Durchführung",
   "status": "draft",
+  "experimental": true,
+  "date": "2025-07-30",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -22,14 +38,54 @@
   "kind": "resource",
   "abstract": false,
   "type": "Procedure",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Procedure",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure",
   "derivation": "constraint",
   "differential": {
     "element": [
       {
-        "id": "Procedure.focalDevice",
-        "path": "Procedure.focalDevice",
+        "id": "Procedure.category.coding:sct",
+        "path": "Procedure.category.coding",
+        "sliceName": "sct",
+        "patternCoding": {
+          "code": "165197003",
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20240701"
+        }
+      },
+      {
+        "id": "Procedure.code.coding:sct",
+        "path": "Procedure.code.coding",
+        "sliceName": "sct",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct"
+        }
+      },
+      {
+        "id": "Procedure.bodySite",
+        "path": "Procedure.bodySite",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "80891009",
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/900000000000207008/version/20240701"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Procedure.usedReference",
+        "path": "Procedure.usedReference",
         "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Device"
+            ]
+          }
+        ],
         "mustSupport": true
       }
     ]

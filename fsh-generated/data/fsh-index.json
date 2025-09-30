@@ -333,7 +333,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Durchführung.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 21
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraet.json",
@@ -468,6 +468,14 @@
     "fshName": "MII_VS_Kardio_EKG_Kanaele_MDC",
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_EKG_Kanaele_MDC.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.json",
+    "fshName": "MII_VS_Kardio_EKG_Prozedur_SNOMEDCT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\MII_VS_Kardio_EKG_Prozedur_SNOMEDCT.fsh",
     "startLine": 1,
     "endLine": 13
   },

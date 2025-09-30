@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_EKG_Prozedur_SNOMEDCT",
+  "id": "mii-vs-kardio-ekg-prozedur-snomedct",
+  "title": "MII VS Kardio EKG Prozedur [SNOMED CT]",
+  "description": "SNOMED CT Codes für verschieden EKG-Prozeduren.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct",
+  "version": "2026.0.0-alpha.1",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": true,
+  "date": "2025-09-30",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "29303009"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -515,6 +515,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ekg-prozedur-snomedct"
+        },
+        "name": "MII VS Kardio EKG Prozedur [SNOMED CT]",
+        "description": "SNOMED CT Codes für verschieden EKG-Prozeduren.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-ethnie-snomedct"
         },
         "name": "MII VS Kardio Ethnie [SNOMED CT]",

@@ -55,6 +55,7 @@
 [MII_VS_Kardio_Artherosklerotisches_Ereignis_SNOEMDCT]: ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html
 [MII_VS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: ValueSet-mii-vs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_VS_Kardio_EKG_Kanaele_MDC]: ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html
+[MII_VS_Kardio_EKG_Prozedur_SNOMEDCT]: ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.html
 [MII_VS_Kardio_Ethnie_SNOMEDCT]: ValueSet-mii-vs-kardio-ethnie-snomedct.html
 [MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT]: ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.html
 [MII_VS_Kardio_Geraeteprogrammierung_MDC]: ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.html

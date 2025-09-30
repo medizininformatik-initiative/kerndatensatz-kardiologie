@@ -21,7 +21,7 @@
   "title": "MII PR Kardio Klappenvitium",
   "status": "draft",
   "experimental": true,
-  "date": "2025-09-16",
+  "date": "2025-09-30",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -38,7 +38,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Condition",
-  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose",
+  "baseDefinition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -46,7 +46,6 @@
         "id": "Condition.severity",
         "path": "Condition.severity",
         "comment": "Grad der Klappenerkrankung auf einer drei- oder vierstufigen Skala.",
-        "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct"
@@ -84,18 +83,6 @@
         "path": "Condition.code.coding",
         "sliceName": "orphanet",
         "max": "0"
-      },
-      {
-        "id": "Condition.subject",
-        "path": "Condition.subject",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient"
-            ]
-          }
-        ]
       }
     ]
   }

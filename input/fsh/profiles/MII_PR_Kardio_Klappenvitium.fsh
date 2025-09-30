@@ -1,6 +1,6 @@
 Profile: MII_PR_Kardio_Klappenvitium
 Id: mii-pr-kardio-klappenvitium
-Parent: MII_PR_Diagnose_Condition
+Parent: MII_PR_Kardio_Diagnose
 Title: "MII PR Kardio Klappenvitium"
 Description: "Profil zur Abbildung einer Herzklappenerkrankung."
 
@@ -9,9 +9,8 @@ Description: "Profil zur Abbildung einer Herzklappenerkrankung."
 
 * ^status = #draft
 * ^experimental = true
-* ^date = "2025-09-16"
+* ^date = "2025-09-30"
 
-* severity MS
 * severity from MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT (required)
 * severity ^comment = "Grad der Klappenerkrankung auf einer drei- oder vierstufigen Skala."
 
@@ -19,6 +18,3 @@ Description: "Profil zur Abbildung einer Herzklappenerkrankung."
 * code.coding[sct] from MII_VS_Kardio_Klappenvitium_SNOMEDCT (required)
 * code.coding[alpha-id] from MII_VS_Kardio_Klappenvitium_ALPHAID (required)
 * code.coding[orphanet] ..0
-
-// Subject
-* subject only Reference(Patient)

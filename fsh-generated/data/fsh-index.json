@@ -389,7 +389,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Klappenvitium.fsh",
     "startLine": 1,
-    "endLine": 24
+    "endLine": 20
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json",

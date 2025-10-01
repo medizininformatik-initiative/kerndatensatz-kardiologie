@@ -18,5 +18,3 @@ Description: "Profil zur Abbildung eines EKG-Gerätes."
 * type from MII_VS_Kardio_Objekte_Geraete_MDC (required)
 * type 1..1 MS
 * type.coding 1.. MS
-
-* patient 1.. MS

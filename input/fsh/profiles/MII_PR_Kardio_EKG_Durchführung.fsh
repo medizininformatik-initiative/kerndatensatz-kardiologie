@@ -11,7 +11,7 @@ Description: "Profil zur Erfassung der Durchführung eines EKG."
 * ^experimental = true
 * ^date = "2025-07-30"
 
-* category.coding[sct] = $sct#165197003
+* category.coding[sct] = $sct#165197003 // Diagnostic assessment (procedure)
 
 * code.coding[sct] from MII_VS_Kardio_EKG_Prozedur_SNOMEDCT (required)
 

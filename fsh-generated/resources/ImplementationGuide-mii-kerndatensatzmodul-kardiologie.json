@@ -147,6 +147,14 @@
       },
       {
         "reference": {
+          "reference": "Procedure/mii-exa-kardio-ekg-durchfuehrung"
+        },
+        "name": "MII EXA Kardio EKG Durchführung",
+        "description": "Beispiel einer Durchführung eines 12-Kanal Ruhe-EKGs",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-durchfuehrung"
+      },
+      {
+        "reference": {
           "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
         },
         "name": "MII EXA Kardio EKG Geraet Mortara",

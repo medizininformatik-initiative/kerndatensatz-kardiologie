@@ -60,12 +60,6 @@
         "path": "Device.type.coding",
         "min": 1,
         "mustSupport": true
-      },
-      {
-        "id": "Device.patient",
-        "path": "Device.patient",
-        "min": 1,
-        "mustSupport": true
       }
     ]
   }

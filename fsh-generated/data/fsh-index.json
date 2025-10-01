@@ -85,7 +85,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_EKG_Geraet_Mortara.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 13
   },
   {
     "outputFile": "Device-mii-exa-kardio-ekg-kanal-i.json",
@@ -248,6 +248,14 @@
     "endLine": 9
   },
   {
+    "outputFile": "Procedure-mii-exa-kardio-ekg-durchfuehrung.json",
+    "fshName": "mii-exa-kardio-ekg-durchfuehrung",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_EKG_Durchführung.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
     "outputFile": "Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json",
     "fshName": "mii-exa-kardio-kardiale-deviceimplantation-icd",
     "fshType": "Instance",
@@ -341,7 +349,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Geraet.fsh",
     "startLine": 1,
-    "endLine": 22
+    "endLine": 20
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json",

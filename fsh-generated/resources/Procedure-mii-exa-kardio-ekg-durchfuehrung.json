@@ -1,0 +1,74 @@
+{
+  "resourceType": "Procedure",
+  "id": "mii-exa-kardio-ekg-durchfuehrung",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-durchfuehrung"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum",
+      "valueDateTime": "2025-01-10T16:23:12+02:00"
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht",
+      "valueCoding": {
+        "system": "http://snomed.info/sct",
+        "code": "261004008",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+        "display": "Diagnostic intent"
+      }
+    }
+  ],
+  "category": {
+    "coding": [
+      {
+        "code": "165197003",
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+        "display": "Diagnostic assessment (procedure)"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447113005",
+        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+        "display": "12 lead electrocardiogram at rest (procedure)"
+      }
+    ]
+  },
+  "subject": {
+    "display": "Beispielpatient"
+  },
+  "performedPeriod": {
+    "start": "2023-05-03T07:38:07Z",
+    "end": "2023-05-03T07:38:17Z"
+  },
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "code": "80891009",
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+          "display": "Heart structure (body structure)"
+        }
+      ]
+    }
+  ],
+  "note": [
+    {
+      "text": "ICD Kontrolle"
+    }
+  ],
+  "usedReference": [
+    {
+      "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
+    }
+  ],
+  "status": "completed"
+}

@@ -11,8 +11,6 @@ Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers, 
 * ^experimental = false
 * ^date = "2025-10-07"
 
-* status = #completed
-
 * code.coding[sct] 0..1
 * code.coding[sct] from MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT
 * code ^comment = "Hier sollen mindestens ein SNOMED- oder ein OPS-Code angegeben werden.

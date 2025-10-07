@@ -389,7 +389,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Kardiale_Deviceimplantation.fsh",
     "startLine": 1,
-    "endLine": 43
+    "endLine": 41
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-klappenvitium.json",

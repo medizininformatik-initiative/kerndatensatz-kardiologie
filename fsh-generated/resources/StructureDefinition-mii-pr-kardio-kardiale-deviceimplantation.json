@@ -43,11 +43,6 @@
   "differential": {
     "element": [
       {
-        "id": "Procedure.status",
-        "path": "Procedure.status",
-        "patternCode": "completed"
-      },
-      {
         "id": "Procedure.code",
         "path": "Procedure.code",
         "comment": "Hier sollen mindestens ein SNOMED- oder ein OPS-Code angegeben werden.\r\nFür ACRIBiS eignen sich die folgenden Codes (Stand 01.05.2025):\r\n - **ICD**: 395218007 - Implantation of internal cardiac defibrillator (procedure)\r\n - **CRT**: 429064006 - Implantation of cardiac resynchronization therapy implantable pacemaker (procedure)\r\n - **ICD+CRT**: 1236755008 - Implantation of cardiac resynchronization defibrillator system (procedure)\r\n - **Herzschrittmacher ohne genauere Bezeichnung**: 307280005 - Implantation of cardiac pacemaker (procedure)\r\n - **LVAD**: 232967006 - Implantation of left cardiac ventricular assist device (procedure)\r\n - **RVAD**: 232966002 - Implantation of right cardiac ventricular assist device (procedure)\r\n - **BiVAD**: 232968001 - Implantation of cardiac biventricular assist device (procedure)"

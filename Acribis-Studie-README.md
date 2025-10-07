@@ -6,17 +6,17 @@ Stufe 2: Integration weiterer Vorarbeiten (vollständiger Datensatz aus ACRIBiS,
 Stufe 3: Abbildung der gesamten Kardiologie
 
 ## Grober Zeitplan
-- Studiendatenerfassung     (Ab 10/24; Follow-Ups 10/25)
-- Testen erster Profile     (Ab 05/2025)
-- Einsatz in allen DIZen    (?)
-- Datenausleitung aus DIZ   (?)
+- Studiendatenerfassung       (Ab 10/24; Follow-Ups ab 10/25)
+- Testen erster Profile       (Ab 05/2025)
+- Erstes Alpha-Profile-Package (Geplant für 10/2025)
+- Einsatz in allen DIZen      (?)
+- Datenausleitung aus DIZ     (?)
 
 > Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 25.06.2025). Arbeitsversionen werden sukzessive auf der [Acribis-Confluence-Seite: FHIR-Profilübersicht](https://acribis.atlassian.net/wiki/spaces/Acribis/pages/390266939/FHIR+Profile+bersicht) bereitgestellt. 
 
 ## Übersicht - KDS Modul Kardio Profile <> Acribis-Datenitems (in Stufe 1)
 Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_Kernscores_V4.1.1".
 
-Profilübersicht:
 ### Profile zu den Acribis-Kernscore-Items (12 Profile)
 
 | Ressourcentyp      | Profilname         | Beschreibung                                                                 | Examples |
@@ -46,9 +46,9 @@ Profilübersicht:
 
 | Fragebogentyp     | Profilname         | Beschreibung                                         | Example |
 |-------------------|--------------------|------------------------------------------------------|---------|
-| Acribis-FollowUp  | FollowUp           | Bildet die Items des Acribis-FollowUp-Fragebogens ab.||
-| EQ-5D-5L          | QoL-Fragebogen 1   | Siehe Modul PRO.                                     | [Questionnaire-Example](https://simplifier.net/MII-Erweiterungsmodul-PRO-2025/mii-qst-pro-eq-5d-5l/~overview)|
-| PROMIS-29         | QoL-Fragebogen 2   | Siehe Modul PRO gegen Mitte/Ende 2025                ||
+| Acribis-FollowUp  | FollowUp           | Bildet die Items des Acribis-FollowUp-Fragebogens ab.| tbd |
+| EQ-5D-5L          | QoL-Fragebogen 1   | Siehe Modul PRO [[2026 IG Link](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_PRO/MIIIGModulPRO-PRO-Bibliothek-EQ-5D-5L.html)]                                     | [2025 QuestionnaireResponse-Example](https://simplifier.net/mii-erweiterungsmodul-pro-2025/mii-exa-pro-euroqol-eq5d5l-coded-response) |
+| PROMIS-29         | QoL-Fragebogen 2   | Siehe Modul PRO [[2026 IG Link](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_PRO/MIIIGModulPRO-PRO-Bibliothek-PROMIS.html)] | [2025 Questionnaire-Example](https://simplifier.net/MII-Erweiterungsmodul-PRO-2025/mii-qst-pro-promis-29/~overview) |
 
 ### Externe Profile (aus anderen KDS Modulen)
 
@@ -58,5 +58,6 @@ Profilübersicht:
 | [ICU Arterieller Blutdruck](https://simplifier.net/medizininformatikinitiative-modul-intensivmedizin/mii_pr_icu_arterieller_blutdruck) | Bildet den Blutdruck ab.                     |
 | [Labor Laboruntersuchung](https://simplifier.net/mii-basismodul-labor-2025/mii_pr_labor_laboruntersuchung)                             | Bildet jegliche Laborwerte ab.               |
 | [Medikation MedicationStatement](https://simplifier.net/mii-basismodul-medikation-2024/mii_pr_medikation_medicationstatement)          | Bildet jegliche Medikationseinträge ab.      |
+
 
 

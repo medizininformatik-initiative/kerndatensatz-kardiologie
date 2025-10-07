@@ -21,7 +21,7 @@
   "title": "MII PR Kardio Diagnose",
   "status": "active",
   "experimental": false,
-  "date": "2025-09-04",
+  "date": "2025-10-07",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -86,9 +86,7 @@
             ]
           }
         ],
-        "mustSupport": true,
-        "isModifier": true,
-        "isModifierReason": "Can express the uncertainty of a diagnosis by stating a recorder that is not authorized to define a confirmed diagnosis."
+        "mustSupport": true
       },
       {
         "id": "Condition.asserter",
@@ -103,9 +101,7 @@
             ]
           }
         ],
-        "mustSupport": true,
-        "isModifier": true,
-        "isModifierReason": "Can express the uncertainty of a diagnosis by stating an asserter that is not authorized to define a confirmed diagnosis."
+        "mustSupport": true
       }
     ]
   }

@@ -9,7 +9,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-09-04"
+* ^date = "2025-10-07"
 
 //_________________________severity
 // IG: Fuer  das Datenitem "terminale Krebserkrankung" soll abbildbar sein, ob eine erfasste Krebserkrankung Terminal ist. 
@@ -46,14 +46,14 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 // MS, damit (bei Vorhandensein der Information) die Angabe erfolgt und das in FDPG berücksichtigt wird.
 * recorder 0..1 MS
 * recorder only Reference(Patient or PractitionerRole)
-* recorder ^isModifier = true
-* recorder ^isModifierReason = "Can express the uncertainty of a diagnosis by stating a recorder that is not authorized to define a confirmed diagnosis."
+// * recorder ^isModifier = true
+// * recorder ^isModifierReason = "Can express the uncertainty of a diagnosis by stating a recorder that is not authorized to define a confirmed diagnosis."
 * recorder ^comment = "Allows documentation about who recorded the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 
 * asserter 0..1 MS
 * asserter only Reference(Patient or PractitionerRole)
-* asserter ^isModifier = true
-* asserter ^isModifierReason = "Can express the uncertainty of a diagnosis by stating an asserter that is not authorized to define a confirmed diagnosis."
+// * asserter ^isModifier = true
+// * asserter ^isModifierReason = "Can express the uncertainty of a diagnosis by stating an asserter that is not authorized to define a confirmed diagnosis."
 * asserter ^comment = "Allows documentation about who asserted the given information. This might be the Patient (see subject reference), a Study Nurse or a Doctor. May focus on the role (PracticionerRole-Reference) and not reference a specific person."
 
 // TODO: FHIR-invariant/rule: Abgleich mit VerificationStatus --> Plausibilität/Co-constraint prüfen

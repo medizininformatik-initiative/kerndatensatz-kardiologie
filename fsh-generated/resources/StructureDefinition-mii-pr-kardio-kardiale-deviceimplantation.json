@@ -21,7 +21,7 @@
   "title": "MII PR Kardio Kardiale Deviceimplantation",
   "status": "active",
   "experimental": false,
-  "date": "2025-09-04",
+  "date": "2025-10-07",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -50,13 +50,12 @@
       {
         "id": "Procedure.code",
         "path": "Procedure.code",
-        "comment": "Hier soll mindestens ein SNOMED-Code angegeben werden.\r\nFür ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):\r\n - **ICD**: 395218007 - Implantation of internal cardiac defibrillator (procedure)\r\n - **CRT**: 429064006 - Implantation of cardiac resynchronization therapy implantable pacemaker (procedure)\r\n - **ICD+CRT**: 1236755008 - Implantation of cardiac resynchronization defibrillator system (procedure)\r\n - **Herzschrittmacher ohne genauere Bezeichnung**: 307280005 - Implantation of cardiac pacemaker (procedure)\r\n - **LVAD**: 232967006 - Implantation of left cardiac ventricular assist device (procedure)\r\n - **RVAD**: 232966002 - Implantation of right cardiac ventricular assist device (procedure)\r\n - **BiVAD**: 232968001 - Implantation of cardiac biventricular assist device (procedure)"
+        "comment": "Hier sollen mindestens ein SNOMED- oder ein OPS-Code angegeben werden.\r\nFür ACRIBiS eignen sich die folgenden Codes (Stand 01.05.2025):\r\n - **ICD**: 395218007 - Implantation of internal cardiac defibrillator (procedure)\r\n - **CRT**: 429064006 - Implantation of cardiac resynchronization therapy implantable pacemaker (procedure)\r\n - **ICD+CRT**: 1236755008 - Implantation of cardiac resynchronization defibrillator system (procedure)\r\n - **Herzschrittmacher ohne genauere Bezeichnung**: 307280005 - Implantation of cardiac pacemaker (procedure)\r\n - **LVAD**: 232967006 - Implantation of left cardiac ventricular assist device (procedure)\r\n - **RVAD**: 232966002 - Implantation of right cardiac ventricular assist device (procedure)\r\n - **BiVAD**: 232968001 - Implantation of cardiac biventricular assist device (procedure)"
       },
       {
         "id": "Procedure.code.coding:sct",
         "path": "Procedure.code.coding",
         "sliceName": "sct",
-        "min": 1,
         "binding": {
           "strength": "required",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct"

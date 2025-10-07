@@ -9,14 +9,14 @@ Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers, 
 
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-09-04"
+* ^date = "2025-10-07"
 
 * status = #completed
 
-* code.coding[sct] 1..
+* code.coding[sct] 0..1
 * code.coding[sct] from MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT
-* code ^comment = "Hier soll mindestens ein SNOMED-Code angegeben werden.
-Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
+* code ^comment = "Hier sollen mindestens ein SNOMED- oder ein OPS-Code angegeben werden.
+Für ACRIBiS eignen sich die folgenden Codes (Stand 01.05.2025):
  - **ICD**: 395218007 - Implantation of internal cardiac defibrillator (procedure)
  - **CRT**: 429064006 - Implantation of cardiac resynchronization therapy implantable pacemaker (procedure)
  - **ICD+CRT**: 1236755008 - Implantation of cardiac resynchronization defibrillator system (procedure)

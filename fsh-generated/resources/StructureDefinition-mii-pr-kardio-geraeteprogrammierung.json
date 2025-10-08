@@ -97,7 +97,6 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"

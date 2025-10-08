@@ -108,7 +108,6 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
@@ -119,21 +118,6 @@
           "strength": "extensible",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nein-unbekannt"
         }
-      },
-      {
-        "id": "Observation.value[x].extension:data-absent-reason",
-        "path": "Observation.value[x].extension",
-        "sliceName": "data-absent-reason",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
-            ]
-          }
-        ]
       }
     ]
   }

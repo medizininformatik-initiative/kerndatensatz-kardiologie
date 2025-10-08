@@ -68,7 +68,6 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "integer"
@@ -117,7 +116,6 @@
       {
         "id": "Observation.component:Grund.value[x]",
         "path": "Observation.component.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"

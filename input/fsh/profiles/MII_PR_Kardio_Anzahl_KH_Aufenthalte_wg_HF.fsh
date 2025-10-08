@@ -21,7 +21,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * effective[x] 1.. MS
 // TODO: Sollten wir das auf den Period einschränken, damit der genaue Zeitraum angegeben wird?
 
-* value[x] 1.. MS
+* value[x] MS
 * value[x] only integer
 
 * component 1.. MS
@@ -34,6 +34,6 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 
 * component[Grund].code 1.. MS
 * component[Grund].code = $sct#406524005 // Reason for visit diagnosis (attribute)
-* component[Grund].value[x] 1.. MS
+* component[Grund].value[x] MS
 * component[Grund].value[x] only CodeableConcept
 * component[Grund].valueCodeableConcept = $sct#84114007

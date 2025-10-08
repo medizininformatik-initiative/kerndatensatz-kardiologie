@@ -32,7 +32,7 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * effective[x] 1.. MS
 * effective[x] only dateTime
 
-* value[x] 1.. MS
+* value[x] MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from MII_VS_Kardio_Nein_Unbekannt (extensible)
 * valueCodeableConcept.extension contains $data-absent-reason named data-absent-reason 0..1

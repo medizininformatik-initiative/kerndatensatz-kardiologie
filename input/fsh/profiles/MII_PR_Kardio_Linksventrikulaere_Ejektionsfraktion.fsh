@@ -55,7 +55,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * performer MS
 * performer ^comment = "Motivation MS: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
 
-* value[x] 1..1 MS
+* value[x] MS
 * value[x] only Quantity // Es kann sein, dass eine Angabe im Arztbrief bspw. als "eingeschränkt" o.ä. erfolgt. Das ist derzeit im Profil nicht vorgesehen.
 * value[x].value 1.. MS
 * value[x].unit 1.. MS

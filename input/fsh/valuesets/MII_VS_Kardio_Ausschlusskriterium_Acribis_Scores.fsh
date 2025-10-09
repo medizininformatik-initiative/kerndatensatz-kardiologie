@@ -6,9 +6,9 @@ Description: "ValueSet for exclusion criteria for score computation"
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #active
+* ^status = #retired
 * ^experimental = false
-* ^date = "2025-09-03"
+* ^date = "2025-10-09"
 
 // Obacht: Dieser Kommentar kann entfernt werden, sobald die Codes von Klinikern geprüft wurden.
 

@@ -131,14 +131,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/mii-exa-kardio-ausschluss-scoreberechnung-vitium"
-        },
-        "name": "MII EXA Kardio Ausschluss Scoreberechnung Vitium",
-        "description": "Beispiel einer Observation für das Ausschlusskriterium unbehandeltes, höhergradiges Vitium",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
-      },
-      {
-        "reference": {
           "reference": "Device/mii-exa-kardio-device-icd"
         },
         "name": "MII EXA Kardio Device ICD",

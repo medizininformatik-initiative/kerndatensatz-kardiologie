@@ -6,9 +6,9 @@ Description: "Ausschlusskriterien für ACRIBiS Scores"
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #active
+* ^status = #retired
 * ^experimental = false
-* ^date = "2025-09-03"
+* ^date = "2025-10-09"
 * ^caseSensitive = true
 * ^content = #complete
 

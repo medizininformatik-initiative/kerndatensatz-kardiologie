@@ -5,7 +5,9 @@
   "version": "2026.0.0-alpha.1",
   "name": "MII_PR_Kardio_Ausschluss_Scoreberechnung",
   "title": "MII PR Kardio Ausschluss Scoreberechnung",
-  "status": "draft",
+  "status": "retired",
+  "experimental": false,
+  "date": "2025-10-09",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

@@ -7,7 +7,6 @@
 [MII_CS_Kardio_Rauchen_Einheiten]: CodeSystem-mii-cs-kardio-rauchen-einheiten.html
 [mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf]: Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.html
 [mii-exa-kardio-atherosklerotisches-erstereignis]: Observation-mii-exa-kardio-atherosklerotisches-erstereignis.html
-[mii-exa-kardio-ausschluss-scoreberechnung-vitium]: Observation-mii-exa-kardio-ausschluss-scoreberechnung-vitium.html
 [mii-exa-kardio-device-icd]: Device-mii-exa-kardio-device-icd.html
 [mii-exa-kardio-ekg-durchfuehrung]: Procedure-mii-exa-kardio-ekg-durchfuehrung.html
 [mii-exa-kardio-ekg-geraet-mortara]: Device-mii-exa-kardio-ekg-geraet-mortara.html

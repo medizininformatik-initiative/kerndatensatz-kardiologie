@@ -45,13 +45,17 @@ Leitung des Moduls:
 * Merten Prüser
 
 Technische Umsetzung und Implementation-Guide:
-* Philip Goos
-* Jendrik Richter
-* Dirk Meyer zum Büschenfelde
 * Anatol Bollinger
+* Dirk Meyer zum Büschenfelde
 * Georg Fette
+* Jendrik Richter
+* Philip Goos
 
 Beratung:
 * Alexander Bartschke
-* Julian Saß
 * Felix Erdfelder
+* Hannes Schmidt
+* Hendrik Lapp
+* Julian Saß
+* Kai Günther
+* Karoline Buckow

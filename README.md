@@ -9,7 +9,7 @@ Das vorliegende Projekt beschreibt die FHIR-Spezifikation des Erweiterungsmoduls
 ### Status:
 
 Aktuelle stabile Version: keine </br>  <!-- Link Release -->
-Vorschauversion: keine </br>  <!--[yyyy-x.x.x](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~packages)-->
+Vorschauversion: [2026.0.0-alpha.1](https://simplifier.net/mii-erweiterungsmodul-kardiologie/~releases) </br>  <!--[yyyy-x.x.x](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~packages)-->
 Reifegrad: Draft
 
 Alle veröffentlichen FHIR-Artefakte innerhalb des Projektes verfügen über einen Status durch welchen der jeweilige Reifegrad abgeleitet werden kann.

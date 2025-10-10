@@ -18,7 +18,7 @@ Profile mit dem Status 'Draft' wurden noch nicht ballotiert und können noch div
 ### Mitwirkungs- und Kommentierungsmöglichkeiten
 
 * Kommentareinreichung via [GitHub](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie)
-* Diskussionsforum im int. [FHIR-Chat](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative)
+* Diskussionsforum im [MII Modul Kardio Chat](https://mii.zulipchat.com/#narrow/channel/505571-MII-KDS-Kardio)
 <!-- * Teilnahme am [Interoperabilitätsforum](https://wiki.hl7.de/index.php?title=Interoperabilitätsforum) -->
 
 ### Kurzzusammenfassung

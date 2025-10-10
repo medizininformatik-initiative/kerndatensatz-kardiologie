@@ -8,7 +8,10 @@ Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzie
 * insert PR_CS_VS_Version
 * insert Publisher
 
-// TODO Code für Ressource festlegen
+* ^status = #retired
+* ^experimental = false
+* ^date = "2025-10-09"
+
 * code MS
 * code.coding 1.. MS
 * code.coding = $sct#271000124103 //  Medical reason for exclusion from performance measure (observable entity)

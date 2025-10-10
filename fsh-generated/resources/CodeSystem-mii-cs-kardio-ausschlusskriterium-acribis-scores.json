@@ -1,6 +1,6 @@
 {
   "resourceType": "CodeSystem",
-  "status": "active",
+  "status": "retired",
   "content": "complete",
   "name": "MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores",
   "id": "mii-cs-kardio-ausschlusskriterium-acribis-scores",
@@ -30,7 +30,7 @@
     }
   ],
   "experimental": false,
-  "date": "2025-09-03",
+  "date": "2025-10-09",
   "caseSensitive": true,
   "count": 2
 }

@@ -57,9 +57,47 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.code.coding:diagnose-snomed",
+        "id": "Observation.code.coding:icd10-gm",
         "path": "Observation.code.coding",
-        "sliceName": "diagnose-snomed",
+        "sliceName": "icd10-gm",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Coding",
+            "profile": [
+              "http://fhir.de/StructureDefinition/CodingICD10GM"
+            ]
+          }
+        ],
+        "patternCoding": {
+          "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
+        },
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/bfarm/icd-10-gm"
+        }
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm.system",
+        "path": "Observation.code.coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm.version",
+        "path": "Observation.code.coding.version",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm.code",
+        "path": "Observation.code.coding.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:diagnoseSnomed",
+        "path": "Observation.code.coding",
+        "sliceName": "diagnoseSnomed",
         "min": 0,
         "max": "1",
         "mustSupport": true,
@@ -69,9 +107,9 @@
         }
       },
       {
-        "id": "Observation.code.coding:prozedur-snomed",
+        "id": "Observation.code.coding:prozedurSnomed",
         "path": "Observation.code.coding",
-        "sliceName": "prozedur-snomed",
+        "sliceName": "prozedurSnomed",
         "min": 0,
         "max": "1",
         "mustSupport": true,
@@ -79,6 +117,66 @@
           "strength": "required",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct"
         }
+      },
+      {
+        "id": "Observation.code.coding:alpha-id",
+        "path": "Observation.code.coding",
+        "sliceName": "alpha-id",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Coding",
+            "profile": [
+              "http://fhir.de/StructureDefinition/CodingAlphaID"
+            ]
+          }
+        ],
+        "patternCoding": {
+          "system": "http://fhir.de/CodeSystem/bfarm/alpha-id"
+        },
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.de/ValueSet/bfarm/alpha-id"
+        }
+      },
+      {
+        "id": "Observation.code.coding:alpha-id.system",
+        "path": "Observation.code.coding.system",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:alpha-id.code",
+        "path": "Observation.code.coding.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:orphanet",
+        "path": "Observation.code.coding",
+        "sliceName": "orphanet",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "system": "http://www.orpha.net"
+        },
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-orphanet"
+        }
+      },
+      {
+        "id": "Observation.code.coding:orphanet.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:orphanet.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Observation.subject",

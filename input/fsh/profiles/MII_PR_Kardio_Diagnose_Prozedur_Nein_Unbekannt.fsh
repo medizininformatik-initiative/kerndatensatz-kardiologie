@@ -20,11 +20,30 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * code.coding ^slicing.rules = #open
 
 * code.coding contains
-    diagnose-snomed 0..1 MS and
-    prozedur-snomed 0..1 MS
+    icd10-gm 0..1 MS and
+    diagnoseSnomed 0..1 MS and
+    prozedurSnomed 0..1 MS and
+    alpha-id 0..1 MS and
+    orphanet 0..1 MS
 
-* code.coding[diagnose-snomed] from $diagnoses-sct-vs (required)
-* code.coding[prozedur-snomed] from $prozedur-sct-vs (required)
+* code.coding[diagnoseSnomed] from $diagnoses-sct-vs (required)
+* code.coding[prozedurSnomed] from $prozedur-sct-vs (required)
+* code.coding[icd10-gm] only CodingICD10GM
+* code.coding[icd10-gm] from $icd-10-gm-vs (required)
+* code.coding[icd10-gm] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
+* code.coding[icd10-gm].system 1.. MS
+* code.coding[icd10-gm].version 1.. MS
+* code.coding[icd10-gm].code 1.. MS
+* code.coding[alpha-id] only CodingAlphaID
+* code.coding[alpha-id] from $alpha-id-vs (required)
+* code.coding[alpha-id] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/alpha-id"
+* code.coding[alpha-id].system 1.. MS
+* code.coding[alpha-id].code 1.. MS
+* code.coding[orphanet] from mii-vs-diagnose-orphanet (required)
+* code.coding[orphanet] ^patternCoding.system = "http://www.orpha.net"
+* code.coding[orphanet].system 1.. MS
+* code.coding[orphanet].code 1.. MS
+
 
 * subject 1..1 MS
 * subject only Reference(Patient)

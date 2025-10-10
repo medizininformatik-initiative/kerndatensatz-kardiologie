@@ -317,7 +317,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
     "startLine": 1,
-    "endLine": 37
+    "endLine": 56
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-diagnose.json",

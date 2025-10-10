@@ -22,7 +22,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 
 // TODO: Diese Zeile wieder entfernen. Das ist nur eine temporäre Lösung, da Ontoserver sonst nicht validiert.
 // * statt Version referenziert alle Versionen des ValueSets
-* code.coding[icd10-gm] from http://fhir.de/ValueSet/bfarm/icd-10-gm|2025 (required)
+//* code.coding[icd10-gm] from http://fhir.de/ValueSet/bfarm/icd-10-gm|2025 (required)
 
 // Subject
 * subject only Reference(Patient)

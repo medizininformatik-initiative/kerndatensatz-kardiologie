@@ -1,6 +1,6 @@
 {
   "resourceType": "CodeSystem",
-  "status": "draft",
+  "status": "active",
   "content": "supplement",
   "name": "MII_CS_Kardio_Klappenvitium_Supplement_SNOMEDCT",
   "id": "mii-cs-kardio-klappenvitium-supplement-snomedct",

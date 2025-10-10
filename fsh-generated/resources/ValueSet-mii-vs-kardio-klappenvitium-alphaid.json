@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "MII_VS_Kardio_Klappenvitium_ALPHAID",
   "id": "mii-vs-kardio-klappenvitium-alphaid",
   "title": "MII VS Kardio Klappenvitium [ALPHA-ID]",

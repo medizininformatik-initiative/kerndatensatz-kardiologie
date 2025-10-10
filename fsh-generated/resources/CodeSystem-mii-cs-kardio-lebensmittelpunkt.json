@@ -1,6 +1,6 @@
 {
   "resourceType": "CodeSystem",
-  "status": "draft",
+  "status": "active",
   "content": "complete",
   "name": "MII_CS_Kardio_Lebensmittelpunkt",
   "id": "mii-cs-kardio-lebensmittelpunkt",

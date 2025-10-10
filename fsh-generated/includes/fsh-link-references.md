@@ -1,5 +1,4 @@
 [acribis-study-followup]: Questionnaire-acribis-study-followup.html
-[MII_EX_Kardio_AgeAtAdmission]: StructureDefinition-mii-ex-kardio-ageatadmission.html
 [MII_CS_Kardio_Atherosklerotisches_Ereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-Ereignis.html
 [MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: CodeSystem-mii-cs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_CS_Kardio_Klappenvitium_Supplement_SNOMEDCT]: CodeSystem-mii-cs-kardio-klappenvitium-supplement-snomedct.html

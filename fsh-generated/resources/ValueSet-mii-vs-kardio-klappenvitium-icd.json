@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "MII_VS_Kardio_Klappenvitium_ICD",
   "id": "mii-vs-kardio-klappenvitium-icd",
   "title": "MII VS Kardio Klappenvitium [ICD 10 GM]",

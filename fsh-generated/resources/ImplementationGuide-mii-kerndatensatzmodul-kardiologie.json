@@ -67,14 +67,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-ex-kardio-ageatadmission"
-        },
-        "name": "Extension - AgeExtension",
-        "description": "Diese Erweiterung gibt das berechnete Alter zum Zeitpunkt der Behandlung/Datenaufnahme basierend auf dem Geburtsdatum an.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-Ereignis"
         },
         "name": "MII CS Kardio Atherosklerotisches Ereignis",

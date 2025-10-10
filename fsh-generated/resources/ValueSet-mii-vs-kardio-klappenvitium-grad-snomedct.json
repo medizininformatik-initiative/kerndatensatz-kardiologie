@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT",
   "id": "mii-vs-kardio-klappenvitium-grad-snomedct",
   "title": "MII VS Kardio Klappenvitium Grad [SNOMED CT]",

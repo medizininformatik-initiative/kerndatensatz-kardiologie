@@ -53,15 +53,6 @@
         }
       },
       {
-        "id": "Condition.code.coding:icd10-gm",
-        "path": "Condition.code.coding",
-        "sliceName": "icd10-gm",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://fhir.de/ValueSet/bfarm/icd-10-gm|2025"
-        }
-      },
-      {
         "id": "Condition.subject",
         "path": "Condition.subject",
         "type": [

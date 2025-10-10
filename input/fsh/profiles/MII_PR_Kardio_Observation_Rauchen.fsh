@@ -5,6 +5,9 @@ Title: "MII PR Kardio Observation Rauchen"
 Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Modul Kardiologie."
 * insert PR_CS_VS_Version
 * insert Publisher
+
+* ^status = #draft
+
 // Parent: Current Smoking Status - gematik ISiK -> https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
 * category 1..1 MS
 * category from $observation-category-vs (required)

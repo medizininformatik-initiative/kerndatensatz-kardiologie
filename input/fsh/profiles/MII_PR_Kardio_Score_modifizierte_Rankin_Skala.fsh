@@ -8,6 +8,7 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * category 1..1 MS
 * category from $observation-category-vs (required)
 * category = $observation-category#survey
+* ^status = #active
 
 * code 1..1 MS
 * code.coding 1..*

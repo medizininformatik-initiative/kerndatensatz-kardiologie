@@ -8,7 +8,7 @@ Die konkrete Programmierung eines Herzschrittmachers zu einem bestimmmten Zeitpu
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
+* ^status = #active
 * ^experimental = true
 * ^date = "2025-05-13"
 

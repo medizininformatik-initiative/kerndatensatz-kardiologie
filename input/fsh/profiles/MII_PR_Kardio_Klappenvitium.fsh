@@ -7,7 +7,7 @@ Description: "Profil zur Abbildung einer Herzklappenerkrankung."
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
+* ^status = #active
 * ^experimental = true
 * ^date = "2025-09-30"
 

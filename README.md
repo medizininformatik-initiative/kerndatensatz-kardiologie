@@ -48,6 +48,7 @@ Technische Umsetzung und Implementation-Guide:
 * Malik Atamne
 * Philip Goos
 * Jendrik Richter
+* Alexandra Cieslak
 
 Beratung:
 * Alexander Bartschke
@@ -63,3 +64,4 @@ Beratung:
 Beratung und Organisation:
 * Alexandra Cieslak
 * Karoline Buckow
+

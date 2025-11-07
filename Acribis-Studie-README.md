@@ -12,7 +12,7 @@ Stufe 3: Abbildung der gesamten Kardiologie
 - Einsatz in allen DIZen      (?)
 - Datenausleitung aus DIZ     (?)
 
-> Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 25.06.2025). Arbeitsversionen werden sukzessive auf der [Acribis-Confluence-Seite: FHIR-Profilübersicht](https://acribis.atlassian.net/wiki/spaces/Acribis/pages/390266939/FHIR+Profile+bersicht) bereitgestellt. 
+> Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 07.11.2025). Die aktuelle [Mapping-Hilfe-tabelle ist im Github-Wiki](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/Mapping%E2%80%90Hilfe) verfügbar. Einzelne Codes fehlen noch und werden sukzessive ergänzt (insbesondere SNOMED CT für Mapping von Fragebogen auf FHIR-Profile).
 
 ## Übersicht - KDS Modul Kardio Profile <> Acribis-Datenitems (in Stufe 1)
 Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_Kernscores_V4.1.1".
@@ -58,6 +58,7 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 | [ICU Arterieller Blutdruck](https://simplifier.net/medizininformatikinitiative-modul-intensivmedizin/mii_pr_icu_arterieller_blutdruck) | Bildet den Blutdruck ab.                     |
 | [Labor Laboruntersuchung](https://simplifier.net/mii-basismodul-labor-2025/mii_pr_labor_laboruntersuchung)                             | Bildet jegliche Laborwerte ab.               |
 | [Medikation MedicationStatement](https://simplifier.net/mii-basismodul-medikation-2024/mii_pr_medikation_medicationstatement)          | Bildet jegliche Medikationseinträge ab.      |
+
 
 
 

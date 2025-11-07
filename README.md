@@ -62,6 +62,6 @@ Beratung:
 * Hannes Schmidt
 
 Beratung und Organisation:
-* Alexandra Cieslak
 * Karoline Buckow
+
 

@@ -50,6 +50,7 @@ Technische Umsetzung und Implementation-Guide:
 * Georg Fette
 * Jendrik Richter
 * Philip Goos
+* Malik Atamne
 
 Beratung:
 * Alexander Bartschke
@@ -58,4 +59,5 @@ Beratung:
 * Hendrik Lapp
 * Julian Saß
 * Kai Günther
+
 * Karoline Buckow

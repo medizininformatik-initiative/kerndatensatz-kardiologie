@@ -8,8 +8,9 @@ Stufe 3: Abbildung der gesamten Kardiologie
 ## Grober Zeitplan
 - Studiendatenerfassung       (Ab 10/24; Follow-Ups ab 10/25)
 - Testen erster Profile       (Ab 05/2025)
-- Erstes Alpha-Profile-Package (Geplant für 10/2025)
-- Einsatz in allen DIZen      (?)
+- Erstes [Alpha-Profile-Package](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~releases) (10/2025)
+- Testen in den DIZ / bei Bedarf Überarbeitung und Ergänzung der Profile (10/25 - Q3/26)
+- Einsatz in allen DIZen      (Q3/26 / Q4/26)
 - Datenausleitung aus DIZ     (?)
 
 > Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 07.11.2025). Die aktuelle [Mapping-Hilfe-tabelle ist im Github-Wiki](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/Mapping%E2%80%90Hilfe) verfügbar. Einzelne Codes fehlen noch und werden sukzessive ergänzt (insbesondere SNOMED CT für Mapping von Fragebogen auf FHIR-Profile).
@@ -58,6 +59,7 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 | [ICU Arterieller Blutdruck](https://simplifier.net/medizininformatikinitiative-modul-intensivmedizin/mii_pr_icu_arterieller_blutdruck) | Bildet den Blutdruck ab.                     |
 | [Labor Laboruntersuchung](https://simplifier.net/mii-basismodul-labor-2025/mii_pr_labor_laboruntersuchung)                             | Bildet jegliche Laborwerte ab.               |
 | [Medikation MedicationStatement](https://simplifier.net/mii-basismodul-medikation-2024/mii_pr_medikation_medicationstatement)          | Bildet jegliche Medikationseinträge ab.      |
+
 
 
 

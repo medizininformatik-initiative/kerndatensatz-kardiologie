@@ -13,12 +13,12 @@ Stufe 3: Abbildung der gesamten Kardiologie
 - Einsatz in allen DIZen      (Q3/26 / Q4/26)
 - Datenausleitung aus DIZ     (?)
 
-> Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 07.11.2025). Die aktuelle [Mapping-Hilfe-tabelle ist im Github-Wiki](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/Mapping%E2%80%90Hilfe) verfügbar. Einzelne Codes fehlen noch und werden sukzessive ergänzt (insbesondere SNOMED CT für Mapping von Fragebogen auf FHIR-Profile).
+> Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 07.11.2025). Die aktuelle [Mapping-Hilfe-Tabelle ist im Github-Wiki](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/Mapping%E2%80%90Hilfe) verfügbar. Einzelne Codes fehlen noch und werden sukzessive ergänzt (insbesondere SNOMED CT für Mapping von Fragebogen auf FHIR-Profile).
 
 ## Übersicht - KDS Modul Kardio Profile <> Acribis-Datenitems (in Stufe 1)
 Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_Kernscores_V4.1.1".
 
-### Profile zu den Acribis-Kernscore-Items (12 Profile)
+### Profile zu den Acribis-Kernscore-Items (13 Profile)
 
 | Ressourcentyp      | Profilname         | Beschreibung                                                                 | Examples |
 |--------------------|--------------------|------------------------------------------------------------------------------|----------|
@@ -36,18 +36,11 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 | Observation        | [Arth. Erstereignis](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_atherosklerotisches_erstereignis) | Bildet ab, wann, welches erste artherosklerotisches Ereignis stattfand      | [Arth. Erstereignis](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-atherosklerotisches-erstereignis) |
 | Observation        | [# KH Aufenthalte](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_anzahl_kh_aufenthalte_wg_hf)   | Bildet die Anzahl von KH Aufenthalten wegen Herzinsuffizienz ab             | [Hospital Admission](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf) |
 
-### Profil zu EKG_Metadaten (2 Profile) - NICHT MEHR AKTUELL
-
-| Ressourcentyp   | Profilname      | Beschreibung                                                               |
-|-----------------|-----------------|----------------------------------------------------------------------------|
-| Procedure       | EKG-Prozedur    | Bildet die Durchführung eines EKGs ab.                                     |
-| Observation     | EKG-Metadaten   | Bildet die Metadaten zu einem EKG ab (mit Link z. B. zu XNAT/PACS).        |
-
 ### Questionnaires zu Follow-Up (3 Questionnaires)
 
 | Fragebogentyp     | Profilname         | Beschreibung                                         | Example |
 |-------------------|--------------------|------------------------------------------------------|---------|
-| Acribis-FollowUp  | FollowUp           | Bildet die Items des Acribis-FollowUp-Fragebogens ab.| tbd |
+| Acribis-FollowUp  | [FollowUp](https://simplifier.net/mii-erweiterungsmodul-kardiologie/acribis-study-followup)         | Bildet die Items des Acribis-FollowUp-Fragebogens ab.| work-in-progress |
 | EQ-5D-5L          | QoL-Fragebogen 1   | Siehe Modul PRO [[2026 IG Link](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_PRO/MIIIGModulPRO-PRO-Bibliothek-EQ-5D-5L.html)]                                     | [2025 QuestionnaireResponse-Example](https://simplifier.net/mii-erweiterungsmodul-pro-2025/mii-exa-pro-euroqol-eq5d5l-coded-response) |
 | PROMIS-29         | QoL-Fragebogen 2   | Siehe Modul PRO [[2026 IG Link](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_PRO/MIIIGModulPRO-PRO-Bibliothek-PROMIS.html)] | [2025 Questionnaire-Example](https://simplifier.net/MII-Erweiterungsmodul-PRO-2025/mii-qst-pro-promis-29/~overview) |
 
@@ -60,7 +53,13 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 | [Labor Laboruntersuchung](https://simplifier.net/mii-basismodul-labor-2025/mii_pr_labor_laboruntersuchung)                             | Bildet jegliche Laborwerte ab.               |
 | [Medikation MedicationStatement](https://simplifier.net/mii-basismodul-medikation-2024/mii_pr_medikation_medicationstatement)          | Bildet jegliche Medikationseinträge ab.      |
 
+### Profile zu EKG Metadaten (x Profile) - DRAFT
 
-
-
-
+| Ressourcentyp     | Profilname      | Beschreibung                                                               |
+|-------------------|-----------------|----------------------------------------------------------------------------|
+| Procedure         | EKG Durchführung| Profil zur Erfassung der Durchführung eines EKG (individuelles Gerät).     |
+| Observation       | EKG-Annotation  | Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Interpretationen, eines EKG.  |
+| DocumentReference | EKG Referenz    | Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespeichert werden. |
+| Device            | EKG Gerät       | Profil zur Abbildung eines EKG-Gerätes. |
+| DeviceDefinition  | EKG Gerätedefinition | Profil zur Abbildung einer EKG-Gerätedefinition (Gerätetyp oder Modell). |
+| Device            | EKG Kanal       | Profil zur Abbildung eines EKG-Kanals. |

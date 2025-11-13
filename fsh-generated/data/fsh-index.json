@@ -184,6 +184,14 @@
     "endLine": 21
   },
   {
+    "outputFile": "Observation-mii-exa-kardio-kein-device.json",
+    "fshName": "mii-exa-kardio-kein-device",
+    "fshType": "Instance",
+    "fshFile": "instances\\MII_EXA_Kardio_Kein_Device.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
     "outputFile": "Observation-mii-exa-kardio-lvef.json",
     "fshName": "mii-exa-kardio-lvef",
     "fshType": "Instance",

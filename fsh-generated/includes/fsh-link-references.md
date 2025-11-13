@@ -20,6 +20,7 @@
 [mii-exa-kardio-hoehergradiges-vitium]: Condition-mii-exa-kardio-hoehergradiges-vitium.html
 [mii-exa-kardio-hoehergradiges-vitium-unbekannt]: Observation-mii-exa-kardio-hoehergradiges-vitium-unbekannt.html
 [mii-exa-kardio-kardiale-deviceimplantation-icd]: Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.html
+[mii-exa-kardio-kein-device]: Observation-mii-exa-kardio-kein-device.html
 [mii-exa-kardio-lvef]: Observation-mii-exa-kardio-lvef.html
 [mii-exa-kardio-mrs]: Observation-mii-exa-kardio-mrs.html
 [mii-exa-kardio-nbg-schrittmachermodus]: DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.html

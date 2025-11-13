@@ -235,6 +235,14 @@
       },
       {
         "reference": {
+          "reference": "Observation/mii-exa-kardio-kein-device"
+        },
+        "name": "MII EXA Kardio Kein Device",
+        "description": "Beispiel: Der Patient hat kein implantiertes kardiales Device.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+      },
+      {
+        "reference": {
           "reference": "Observation/mii-exa-kardio-lvef"
         },
         "name": "MII EXA Kardio LVEF",

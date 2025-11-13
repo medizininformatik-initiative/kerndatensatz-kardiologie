@@ -13,7 +13,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 
 * code 1..1 MS
 * code.coding 1..1 MS
-* code.coding = $sct#32485007 // Hospital admission (procedure)
+* code.coding = $sct#298060002 // Number of admissions (observable entity)
 
 * subject 1..1 MS
 * subject only Reference(Patient)

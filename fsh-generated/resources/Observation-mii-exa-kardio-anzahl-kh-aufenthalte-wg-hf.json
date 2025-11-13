@@ -9,10 +9,10 @@
   "code": {
     "coding": [
       {
-        "code": "32485007",
+        "code": "298060002",
         "system": "http://snomed.info/sct",
         "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-        "display": "Hospital admission (procedure)"
+        "display": "Number of admissions (observable entity)"
       }
     ]
   },

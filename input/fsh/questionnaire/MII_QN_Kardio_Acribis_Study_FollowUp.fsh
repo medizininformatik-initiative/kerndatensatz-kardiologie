@@ -1,325 +1,275 @@
-Instance: acribis-study-followup
+Instance: MII-QN-Kardio-Acribis-Study-FollowUp
 InstanceOf: Questionnaire
 Usage: #definition
 
 // ========================================================
 // Metadata
-//* identifier.system = "http://example.org/questionnaires"              // Optional: System fuer Identifier
-//* identifier.value = "followup-001"                                    // Optional: Interne ID
 * insert Version
-* name = "Acribis_Study_FollowUp"                                        // Technischer Name (PascalCase empfohlen)
-* title = "Acribis-Studie Follow-Up Fragebogen"                          // Titel zur Anzeige
+* insert Instance_Publisher
+* name = "MII_QN_Kardio_Acribis_Study_FollowUp"                          // Technischer Name (PascalCase empfohlen)
+* title = "Acribis Study FollowUp"                                       // Titel zur Anzeige
 * status = #draft                                                        // #draft | #active | #retired | #unknown
 * experimental = true                                                    // true = fuer experimentellen Gebrauch, sonst false
-* date = "2025-06-18"  
-* insert Instance_Publisher
-* description = "Ein Follow-Up-Fragebogen im Rahmen der Acribis-Studie." // Beschreibung
+* date = "2025-11-17"  
+* description = "Follow-Up-Fragebogen im Rahmen der Acribis-Studie."     // Beschreibung
 * useContext[0].code = http://terminology.hl7.org/CodeSystem/usage-context-type#focus
 * useContext[0].valueCodeableConcept = http://snomed.info/sct#110465008 "Clinical trial (procedure)" // Optionaler Anwendungskontext
 * subjectType[0] = #Patient                                              // #Patient | #Practitioner | #Group | #Location
 
 // ========================================================
-// Item-Template
-//* item[0].linkId = "q1"
-//* item[0].text = "Wie heißen Sie?"
-//* item[0].type = #boolean             // Moegliche Typen: group, display, boolean, decimal, integer, date, dateTime, time, string, text, url, choice, open-choice, attachment, reference, quantity
-//* item[0].required = true             // true oder false
-//* item[0].repeats = false             // true = kann mehrfach beantwortet werden
+// Questionnaire Items
 
-// Dynamic Behaviour with "enableWhen"
-//* item[1].linkId = "q2"
-//* item[1].text = "Welche Haustiere haben Sie?"
-//* item[1].type = #string
-//* item[1].enableWhen[0].question = "q1"
-//* item[1].enableWhen[0].operator #=          // Weitere Operatoren: !=, >, <, >=, <=, exists
-//* item[1].enableWhen[0].answerBoolean = true
-//* item[1].enableBehavior = #all                 // Moegliche Werte: all (alle Bedingungen erfuellt), any (mind. eine erfuellt)
+// Questionnaire Group 1 - Allgemeine Angaben
+* item[0].linkId = "group1"
+* item[0].text = "Allgemeine Angaben"
+* item[0].type = #group
+* item[0].item[0].linkId = "o_infobox_zeitraum"
+* item[0].item[0].text = "Infobox Zeitraum
+Sehr geehrte Teilnehmende, die folgenden Fragen beziehen sich auf Diagnosen, Krankenhausaufenthalte oder auch Behandlungen die seit Ihrer Teilnahme an der ACRIBiS Studie vor einem Jahr stattfanden. Diese Nachfolgebefragung dient dem Zweck festzustellen in wie weit sich der Gesundheitszustand des/der Probanden/in geändert hat und in wie weit diese Veränderungen Ihr Wohlbefinden beeinflusst haben. Die Teilnahme an der Studie fand am "Datum Einschluß" statt."
+* item[0].item[0].type = #string
+* item[0].item[1].linkId = "o_2a"
+* item[0].item[1].text = "Wann ist die Patientin/der Patient verstorben?"
+* item[0].item[1].type = #string
+* item[0].item[2].linkId = "o_2"
+* item[0].item[2].text = "Ist die Patientin/der Patient verstorben?"
+* item[0].item[2].type = #choice
+* item[0].item[2].answerOption[0].valueCoding.code = "1"
+* item[0].item[2].answerOption[0].valueCoding.display = "Ja"
+* item[0].item[2].answerOption[1].valueCoding.code = "2"
+* item[0].item[2].answerOption[1].valueCoding.display = "Nein"
+* item[0].item[2].answerOption[2].valueCoding.code = "3"
+* item[0].item[2].answerOption[2].valueCoding.display = "Unbekannt"
+* item[0].item[3].linkId = "o_2c"
+* item[0].item[3].text = "Welche der im Antwortschema aufgeführte Herz-kreislauf-bedingte Todesursache lag vor?"
+* item[0].item[3].type = #choice
+* item[0].item[3].answerOption[0].valueCoding.code = "1"
+* item[0].item[3].answerOption[0].valueCoding.display = "Herzinfarkt"
+* item[0].item[3].answerOption[1].valueCoding.code = "2"
+* item[0].item[3].answerOption[1].valueCoding.display = "Schlaganfall durch Gefässverschluss"
+* item[0].item[3].answerOption[2].valueCoding.code = "3"
+* item[0].item[3].answerOption[2].valueCoding.display = "Hirnblutung (interzerebral oder subarachnoidal)"
+* item[0].item[3].answerOption[3].valueCoding.code = "4"
+* item[0].item[3].answerOption[3].valueCoding.display = "Andere Herz-Kreislauf bedingte Ursache"
+* item[0].item[3].answerOption[4].valueCoding.code = "5"
+* item[0].item[3].answerOption[4].valueCoding.display = "Unbekannt"
+* item[0].item[4].linkId = "o_1a"
+* item[0].item[4].text = "Um wen handelt es sich (Name)?"
+* item[0].item[4].type = #string
+* item[0].item[5].linkId = "o_1"
+* item[0].item[5].text = "Wer füllt den Fragebogen aus?"
+* item[0].item[5].type = #choice
+* item[0].item[5].answerOption[0].valueCoding.code = "1"
+* item[0].item[5].answerOption[0].valueCoding.display = "Patient/Patientin"
+* item[0].item[5].answerOption[1].valueCoding.code = "2"
+* item[0].item[5].answerOption[1].valueCoding.display = "Angehöriger/Angehörige"
+* item[0].item[5].answerOption[2].valueCoding.code = "3"
+* item[0].item[5].answerOption[2].valueCoding.display = "Arzt/Ärztin"
+* item[0].item[5].answerOption[3].valueCoding.code = "4"
+* item[0].item[5].answerOption[3].valueCoding.display = "Andere Person"
+* item[0].item[6].linkId = "o_2b"
+* item[0].item[6].text = "Ist eine Herz-Kreislauf-Erkrankung als Todesursache fesgestellt worden?"
+* item[0].item[6].type = #choice
+* item[0].item[6].answerOption[0].valueCoding.code = "1"
+* item[0].item[6].answerOption[0].valueCoding.display = "Ja"
+* item[0].item[6].answerOption[1].valueCoding.code = "2"
+* item[0].item[6].answerOption[1].valueCoding.display = "Nein"
+* item[0].item[6].answerOption[2].valueCoding.code = "3"
+* item[0].item[6].answerOption[2].valueCoding.display = "Unbekannt"
 
-// Indexierung mit item[+] und item[=] ist moeglich, verhindert allerdings refernzierung mittels subitems, da hierfuer feste indizes notwendig sind -> item[0].item[+]
-
-// Mögliche Typen: 
-// group, display, boolean, decimal, integer, date, dateTime, time, string, text, url, choice, open-choice, attachment, reference, quantity
-
-// ========================================================
-// Items (nested)
-
-// TODO Codierte Antworten!!!!!!!!!! ja/nein/unbekannt mit FHIR VS bspw.
-
-// TODO Alle Items die Typ #string abfragen kritisch hinterfragen.
-
-// Patienten-ID
-* item[0].linkId = "patient-id"
-* item[=].prefix = "Identifier"
-* item[=].text = "Follow-Up Patienten-ID"
-* item[=].type = #string
-
-// Wer fuellt den Fragebogen aus?
-* item[+].linkId = "who-filled"
-* item[=].prefix = "Angaben zum Ausfüllenden"
-* item[=].text = "Wer füllt den Fragebogen aus?"
-* item[=].type = #choice
-* item[=].answerOption[0].valueCoding = $sct#116154003 "Patient"  //Patient (person)
-* item[=].answerOption[+].valueCoding = $sct#125677006 "Relative" //Relative (person)
-* item[=].answerOption[+].valueCoding = $sct#405279007 "Attending physician" //Attending physician (occupation)
-* item[=].answerOption[+].valueCoding = $sct#74964007 "Other" //Andere Person
-
-// Andere Person (nur wenn "Andere Person" gewählt)
-* item[=].item.linkId = "who-filled-other"
-* item[=].prefix = "Angaben zur Kontaktaufnahme"
-* item[=].item.text = "Andere Person"
-* item[=].item.type = #string
-* item[=].item.enableWhen[0].question = "who-filled"
-* item[=].item.enableWhen[=].operator = #=
-* item[=].item.enableWhen[=].answerCoding = $sct#74964007 //Other/Andere Person
-
-// Telefonische Kontaktaufnahme (Choice mit Subitem)
-* item[+].linkId = "phone-contact"
-* item[=].prefix = "Angaben zur Kontaktaufnahme"
-* item[=].text = "Telefonat mit"
-* item[=].type = #choice
-* item[=].answerOption[0].valueCoding = $sct#116154003 "Patient"  //Patient (person)
-* item[=].answerOption[+].valueCoding = $sct#125677006 "Relative" //Relative (person)
-* item[=].answerOption[+].valueCoding = $sct#405279007 "Attending physician" //Attending physician (occupation)
-* item[=].answerOption[+].valueCoding = $sct#74964007 "Other" //Andere Person
-
-// Unterelement (Subitem) von item[3], nur wenn "Andere Person" gewählt wird
-* item[=].item.linkId = "phone-contact-other"
-* item[=].prefix = "Angaben zur Kontaktaufnahme"
-* item[=].item.text = "Andere Person (Telefonat)"
-* item[=].item.type = #string
-* item[=].item.enableWhen.question = "phone-contact"
-* item[=].item.enableWhen.operator = #=
-* item[=].item.enableWhen.answerCoding = $sct#74964007 "Other" //Andere Person
-* item[+].linkId = "executing-staff"
-* item[=].text = "Durchführender Mitarbeiter"
-* item[=].type = #string //Referenz auf Person denkbar: * item[4].answerReference.targetProfile = ["Patient", "Practitioner", "RelatedPerson"]
-* item[+].linkId = "recording-date"
-* item[=].text = "Datum der Datenaufnahme (DD.MM.YYYY)"
-* item[=].type = #date
-
-// Telefonate
-* item[+].linkId = "calls"
-* item[=].prefix = "Angaben zur Kontaktaufnahme"
-* item[=].text = "Telefonat"
-* item[=].type = #group
-* item[=].repeats = true
-* item[=].item[0].linkId = "call-date"
-* item[=].item[=].text = "Datum"
-* item[=].item[=].type = #date
-* item[=].item[+].linkId = "call-time"
-* item[=].item[=].text = "Uhrzeit"
-* item[=].item[=].type = #time
-* item[=].item[+].linkId = "call-success"
-* item[=].item[=].text = "Erfolgreich?"
-* item[=].item[=].type = #choice
-* item[=].item[=].answerOption[0].valueCoding = $v2-0532#Y "Yes"
-* item[=].item[=].answerOption[+].valueCoding = $v2-0532#N "No"
-
-// Kontaktaufnahme Hausarzt
-* item[+].linkId = "gp-contact"
-* item[=].prefix = "Kontaktaufnahme Hausarzt"
-* item[=].text = "Kontaktaufnahme Hausarzt"
-* item[=].type = #boolean
-
-* item[+].linkId = "gp-contact-date"
-* item[=].prefix = "Kontaktaufnahme Hausarzt"
-* item[=].text = "Datum der Kontaktaufnahme"
-* item[=].type = #date
-* item[=].enableWhen.question = "gp-contact"
-* item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerBoolean = true
-
-// Tod
-* item[+].linkId = "death-status"
-* item[=].prefix = "Angaben zum Tod"
-* item[=].text = "Tod"
-* item[=].type = #choice
-* item[=].answerOption[0].valueCoding = $v2-0532#Y "Yes"
-* item[=].answerOption[+].valueCoding = $v2-0532#N "No"
-* item[=].answerOption[+].valueCoding = $v2-0532#UNK "unknown"
-* item[=].answerOption[+].valueCoding = $v2-0532#NASK "not asked"
-
-// Wenn ja, Datum des Todes
-* item[+].linkId = "death-date"
-* item[=].prefix = "Angaben zum Tod"
-* item[=].text = "Datum des Todes"
-* item[=].type = #choice
-* item[=].answerOption[0].valueCoding = $v2-0532#UNK "unknown"
-* item[=].answerOption[+].valueCoding = $v2-0532#NASK "not asked"
-* item[=].answerOption[+].valueCoding = $v2-0532#Y "Yes"
-* item[=].enableWhen.question = "death-status"
-* item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerCoding.code = $v2-0532#Y "Yes"
-
-// Subitem fuer Datum im Format MM.YYYY (optional sichtbar bei Auswahl)
-* item[=].item.linkId = "death-date-mm-yyyy"
-* item[=].prefix = "Angaben zum Tod"
-* item[=].item.text = "MM.YYYY"
-* item[=].item.type = #date //#string    //TODO? Pruefen -> Unvollständiges Datum soll moeglich sein in FHIR! Alternativ: Recherche! Vllt. eigene StructureDefinition fuer approximateDate oder Regex angeben
-* item[=].item.enableWhen.question = "death-date"
-* item[=].item.enableWhen.operator = #=
-* item[=].item.enableWhen.answerCoding = $v2-0532#Y "Yes"
-
-// Wenn ja, Todesursache
-* item[+].linkId = "cause-of-death"
-* item[=].prefix = "Angaben zum Tod"
-* item[=].text = "Todesursache"
-* item[=].type = #choice
-* item[=].answerOption[0].valueCoding = MII_CS_Kardio_Follow_Up#cardiovascular-cause "kardiovaskulär"
-* item[=].answerOption[+].valueCoding = MII_CS_Kardio_Follow_Up#no-cardiovascular-cause "nicht kardiovaskulär"
-* item[=].answerOption[+].valueCoding = $v2-0532#UNK "unknown"
-* item[=].answerOption[+].valueCoding = $v2-0532#NASK "not asked"
-* item[=].enableWhen.question = "death-status"
-* item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerCoding = $v2-0532#Y "Yes"
-
-// Item 11: kardiovaskuläre Todesursache (Hauptfrage)               //TODO Codes pruefen
-* item[+].linkId = "cardiovascular-death-detail"
-* item[=].prefix = "Angaben zum Tod"
-* item[=].text = "Bei kardiovaskulärer Todesursache"
-* item[=].type = #choice
-* item[=].answerOption[0].valueCoding = $sct#22298006 "Myocardial infarction" //  Myocardial infarction (disorder) "Herzinfarkt"
-* item[=].answerOption[+].valueCoding = $sct#230690007 "Cerebrovascular accident" //"Schlaganfall" // Stroke = Cerebrovascular accident disorder
-* item[=].answerOption[+].valueCoding = MII_CS_Kardio_Follow_Up#other-cardiovascular-cause
-* item[=].answerOption[+].valueCoding = $v2-0532#UNK "unknown"
-* item[=].answerOption[+].valueCoding = $v2-0532#NASK "not asked"
-* item[=].enableWhen.question = "cause-of-death"
-* item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerCoding = MII_CS_Kardio_Follow_Up#cardiovascular-cause
-
-// Item 12: Gruppe, nur sichtbar wenn "Schlaganfall" ausgewählt in item[11]
-* item[+].linkId = "cardiovascular-death-stroke-details"
-* item[=].prefix = "Angaben zum Tod"
-* item[=].text = "Details zum Schlaganfall"
-* item[=].type = #group
-* item[=].enableWhen.question = "cardiovascular-death-detail"
-* item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerCoding = $sct#230690007
-
-// Subitems in Gruppe item[12] – Spezifizierung des Schlaganfalls           //TODO Kodieren
-* item[=].item[0].linkId = "cv-death-ischemic-stroke"
-* item[=].item[=].prefix = "Angaben zum Tod"
-* item[=].item[=].text = "Ischämischer Schlaganfall"
-* item[=].item[=].type = #boolean
-* item[=].item[+].linkId = "cv-death-intracerebral-bleeding"
-* item[=].item[=].text = "Intrazerebrale Blutung"
-* item[=].item[=].type = #boolean
-* item[=].item[+].linkId = "cv-death-subarachnoid-bleeding"
-* item[=].item[=].text = "Subarachnoidalblutung"
-* item[=].item[=].type = #boolean 
-// TODO Warum hier fuer Item 12 keine Sub-Auswahl "unbekannt", wenn die bei Item "cv-event-ischemic-stroke" vorgesehen ist?
-
-// Wenn nein, sind kardiovaskuläre Ereignisse aufgetreten?
-* item[+].linkId = "cv-events-if-not-dead"
-* item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].text = "Wenn nein, sind kardiovaskuläre Ereignisse aufgetreten?"
-* item[=].type = #choice
-* item[=].answerOption[0].valueCoding = $v2-0532#Y "Yes"
-* item[=].answerOption[+].valueCoding = $v2-0532#N "No"
-* item[=].answerOption[+].valueCoding = $v2-0532#UNK "unknown"
-* item[=].answerOption[+].valueCoding = $v2-0532#NASK "not asked"
-
-// Ebene 1: Sichtbar nur bei Antwort "Y" Yes
-* item[+].linkId = "cv-event-heart-attack"
-* item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].text = "Herzinfarkt"
-* item[=].type = #boolean
-* item[=].enableWhen.question = "cv-events-if-not-dead"
-* item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerCoding = $v2-0532#Y "Yes"
-
-// Ebene 1: Schlaganfall ausgewählt?
-* item[+].linkId = "cv-event-stroke"
-* item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].text = "Schlaganfall"
-* item[=].type = #boolean      // TODO als choice anlegen?
-* item[=].enableWhen.question = "cv-events-if-not-dead"
-* item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerCoding = $v2-0532#Y "Yes"
-
-// Ebene 2: Unteritems, nur wenn Schlaganfall ausgewählt wurde (als Subitems von item 14)
-* item[=].item[0].linkId = "cv-event-ischemic-stroke"
-* item[=].item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].item[=].text = "Ischämischer Schlaganfall"
-* item[=].item[=].type = #boolean
-* item[=].item[=].enableWhen.question = "cv-event-stroke"
-* item[=].item[=].enableWhen.operator = #=
-* item[=].item[=].enableWhen.answerBoolean = true
-
-* item[=].item[+].linkId = "cv-event-icb"
-* item[=].item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].item[=].text = "Intrazerebrale Blutung"
-* item[=].item[=].type = #boolean
-* item[=].item[=].enableWhen.question = "cv-event-stroke"
-* item[=].item[=].enableWhen.operator = #=
-* item[=].item[=].enableWhen.answerBoolean = true
-
-* item[=].item[+].linkId = "cv-event-sab"
-* item[=].item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].item[=].text = "Subarachnoidalblutung"
-* item[=].item[=].type = #boolean
-* item[=].item[=].enableWhen.question = "cv-event-stroke"
-* item[=].item[=].enableWhen.operator = #=
-* item[=].item[=].enableWhen.answerBoolean = true
-
-* item[=].item[+].linkId = "cv-event-unknown"
-* item[=].item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].item[=].text = "unbekannt"               // TODO kein boolean sondern codiert?
-* item[=].item[=].type = #boolean
-* item[=].item[=].enableWhen.question = "cv-event-stroke"
-* item[=].item[=].enableWhen.operator = #=
-* item[=].item[=].enableWhen.answerBoolean = true
-
-// Weiter auf Ebene 1
-* item[+].linkId = "cv-event-tia"
-* item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].text = "Transiente Ischämische Attacke"
-* item[=].type = #boolean
-* item[=].enableWhen.question = "cv-events-if-not-dead"
-* item[=].enableWhen.operator = #=
-* item[=].enableWhen.answerCoding = $v2-0532#Y "Yes"
-
-// Abfrage von string, wenn "ja" und "Blutungsereignis"
-* item[+].linkId = "cv-event-bleeding-other"
-* item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].text = "Blutungsereignis (außer Intrazerebrale Blutung/Subarachnoidblutung)"   // Typo: Hier schließende Klammer ")" hinzugefuegt
-* item[=].type = #boolean
-* item[=].enableWhen[0].question = "cv-events-if-not-dead"
-* item[=].enableWhen[=].operator = #=
-* item[=].enableWhen[=].answerCoding = $v2-0532#Y "Yes"
-
-* item[+].linkId = "cv-event-bleeding-other-eingabe"
-* item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].text = "Blutungsereignis (außer Intrazerebrale Blutung/Subarachnoidblutung):"   // Typo: Hier schließende Klammer ")" hinzugefuegt
-* item[=].type = #string
-* item[=].enableWhen[+].question = "cv-event-bleeding-other"
-* item[=].enableWhen[=].operator = #=
-* item[=].enableWhen[=].answerBoolean = true
-* item[=].enableBehavior = #all
-
-// Abfrage von string, wenn "ja" und "Anderes kardiovaskuläres Ereignis"
-* item[+].linkId = "cv-event-other"
-* item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].text = "Anderes kardiovaskuläres Ereignis"
-* item[=].type = #boolean
-* item[=].enableWhen[0].question = "cv-events-if-not-dead"
-* item[=].enableWhen[=].operator = #=
-* item[=].enableWhen[=].answerCoding = $v2-0532#Y "Yes"
-
-* item[+].linkId = "cv-event-other-eingabe"
-* item[=].prefix = "Angaben zu kardiovaskulären Ereignissen"
-* item[=].text = "Anderes kardiovaskuläres Ereignis:"
-* item[=].type = #string
-* item[=].enableWhen[+].question = "cv-event-other"
-* item[=].enableWhen[=].operator = #=
-* item[=].enableWhen[=].answerBoolean = true
-* item[=].enableBehavior = #all
-
-// ========================================================
-// Weitere Befragung ab Seite 4 des Fragebogens (PDF-Version mit Titelblatt)
-
-// Wurde seit Ihrem Krankenhausaufenthalt vor einem Jahr eine der folgenden Krankheiten bei Ihnen diagnostiziert?
-
-//* item[=].prefix = "Angaben zu Diagnosen seit Studieneinschluss"
-
-// TODO Noch 3 weitere Seiten Formular umsetzen
+// Questionnaire Group 2 - Telefonische Kontaktversuche
+* item[1].linkId = "group2"
+* item[1].text = "Telefonische Kontaktversuche"
+* item[1].type = #group
+* item[1].item[0].linkId = "first_telefon_datum"
+* item[1].item[0].text = "Telefonat 1. Versuch (Tag 0 bis 7)"
+* item[1].item[0].type = #string
+* item[1].item[1].linkId = "first_telefon_erfolgreich"
+* item[1].item[1].text = "1. Telefonat erfolgreich?"
+* item[1].item[1].type = #boolean
+* item[1].item[2].linkId = "second_telefon_datum"
+* item[1].item[2].text = "Telefonat 2. Versuch (Tag 0 bis 7)"
+* item[1].item[2].type = #string
+* item[1].item[3].linkId = "second_telefon_erfolgreich"
+* item[1].item[3].text = "2. Telefonat erfolgreich?"
+* item[1].item[3].type = #boolean
+* item[1].item[4].linkId = "third_telefon_datum"
+* item[1].item[4].text = "Telefonat 3. Versuch (Tag 0 bis 7)"
+* item[1].item[4].type = #string
+* item[1].item[5].linkId = "third_telefon_erfolgreich"
+* item[1].item[5].text = "3. Telefonat erfolgreich?"
+* item[1].item[5].type = #boolean
+* item[1].item[6].linkId = "fourth_telefon_datum"
+* item[1].item[6].text = "Telefonat 4. Versuch (Tag 21 bis 28)"
+* item[1].item[6].type = #string
+* item[1].item[7].linkId = "fourth_telefon_erfolgreich"
+* item[1].item[7].text = "4. Telefonat erfolgreich?"
+* item[1].item[7].type = #boolean
+* item[1].item[8].linkId = "fifth_telefon_datum"
+* item[1].item[8].text = "Telefonat 5. Versuch (Tag 21 bis 28)"
+* item[1].item[8].type = #string
+* item[1].item[9].linkId = "fifth_telefon_erfolgreich"
+* item[1].item[9].text = "5. Telefonat erfolgreich?"
+* item[1].item[9].type = #boolean
+* item[1].item[10].linkId = "sixth_telefon_datum"
+* item[1].item[10].text = "Telefonat 6. Versuch (Tag 21 bis 28)"
+* item[1].item[10].type = #string
+* item[1].item[11].linkId = "sixth_telefon_erfolgreich"
+* item[1].item[11].text = "6. Telefonat erfolgreich?"
+* item[1].item[11].type = #boolean
+* item[1].item[12].linkId = "seventh_telefon_datum"
+* item[1].item[12].text = "Telefonat 7. Versuch (Tag 42 bis 49)"
+* item[1].item[12].type = #string
+* item[1].item[13].linkId = "seventh_telefon_erfolgreich"
+* item[1].item[13].text = "7. Telefonat erfolgreich?"
+* item[1].item[13].type = #boolean
+* item[1].item[14].linkId = "eighth_telefon_datum"
+* item[1].item[14].text = "Telefonat 8. Versuch (Tag 42 bis 49)"
+* item[1].item[14].type = #string
+* item[1].item[15].linkId = "eighth_telefon_erfolgreich"
+* item[1].item[15].text = "8. Telefonat erfolgreich?"
+* item[1].item[15].type = #boolean
+* item[1].item[16].linkId = "ninth_telefon_datum"
+* item[1].item[16].text = "Telefonat 9. Versuch (Tag 42 bis 49)"
+* item[1].item[16].type = #string
+* item[1].item[17].linkId = "ninth_telefon_erfolgreich"
+* item[1].item[17].text = "9. Telefonat erfolgreich?"
+* item[1].item[17].type = #boolean
+* item[2].linkId = "group3"
+* item[2].text = "Vitalstatus"
+* item[2].type = #group
+* item[2].item[0].linkId = "o_4b"
+* item[2].item[0].text = "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?"
+* item[2].item[0].type = #choice
+* item[2].item[0].answerOption[0].valueCoding.code = "1"
+* item[2].item[0].answerOption[0].valueCoding.display = "Schlaganfall durch Gefässverschluss"
+* item[2].item[0].answerOption[1].valueCoding.code = "2"
+* item[2].item[0].answerOption[1].valueCoding.display = "Hirnblutung (interzerebral oder subarachnoidal)"
+* item[2].item[0].answerOption[2].valueCoding.code = "3"
+* item[2].item[0].answerOption[2].valueCoding.display = "Nein"
+* item[2].item[1].linkId = "o_4"
+* item[2].item[1].text = "Wurde ein Schlaganfall oder Erkrankung der Hirngefäße diagnostiziert?"
+* item[2].item[1].type = #choice
+* item[2].item[1].answerOption[0].valueCoding.code = "1"
+* item[2].item[1].answerOption[0].valueCoding.display = "Ja"
+* item[2].item[1].answerOption[1].valueCoding.code = "2"
+* item[2].item[1].answerOption[1].valueCoding.display = "Nein"
+* item[2].item[1].answerOption[2].valueCoding.code = "3"
+* item[2].item[1].answerOption[2].valueCoding.display = "Unbekannt"
+* item[2].item[2].linkId = "o_4a"
+* item[2].item[2].text = "Wann wurde der Schlaganfall / die Erkrankung der Hirngefäße diagnostiziert?"
+* item[2].item[2].type = #string
+* item[2].item[3].linkId = "o_3"
+* item[2].item[3].text = "Wurde ein Herzinfarkt diagnostiziert?"
+* item[2].item[3].type = #choice
+* item[2].item[3].answerOption[0].valueCoding.code = "1"
+* item[2].item[3].answerOption[0].valueCoding.display = "Ja"
+* item[2].item[3].answerOption[1].valueCoding.code = "2"
+* item[2].item[3].answerOption[1].valueCoding.display = "Nein"
+* item[2].item[3].answerOption[2].valueCoding.code = "3"
+* item[2].item[3].answerOption[2].valueCoding.display = "Unbekannt"
+* item[2].item[4].linkId = "o_3a"
+* item[2].item[4].text = "Wann wurde der Herzinfarkt diagnostiziert?"
+* item[2].item[4].type = #string
+* item[3].linkId = "group4"
+* item[3].text = "Diagnosen im letzten Jahr"
+* item[3].type = #group
+* item[3].item[0].linkId = "o_infobox_starke_blutung"
+* item[3].item[0].text = "Infobox Starke Blutung
+Gemeint sind im Folgenden innere Blutung, oder spontane äussere Blutungen, die ohne (starke) äusserliche Krafteinwirkung ausgelöst worden sind, wie starkes Nasenbluten oder Magen-Darmblutung beispielsweise."
+* item[3].item[0].type = #string
+* item[3].item[1].linkId = "o_5"
+* item[3].item[1].text = "Trat eine starke spontane Blutung (Starke Blutung, siehe Infobox) auf, die diagnostiziert wurde und ärztlch behandelt werden musste?"
+* item[3].item[1].type = #choice
+* item[3].item[1].answerOption[0].valueCoding.code = "1"
+* item[3].item[1].answerOption[0].valueCoding.display = "Ja"
+* item[3].item[1].answerOption[1].valueCoding.code = "2"
+* item[3].item[1].answerOption[1].valueCoding.display = "Nein"
+* item[3].item[1].answerOption[2].valueCoding.code = "3"
+* item[3].item[1].answerOption[2].valueCoding.display = "Unbekannt"
+* item[3].item[2].linkId = "o_5a"
+* item[3].item[2].text = "Wann trat(en) diese starke Blutung(en) letztmalig auf?"
+* item[3].item[2].type = #string
+* item[3].item[3].linkId = "o_inforbox_tia"
+* item[3].item[3].text = "Transiente Ischämische Attacke oder TIA ist eine Art "Vorstufe zu einem Schlaganfall" bzw. "Mini"-Schlaganfall genannte Unterversorgng des Gehirns bei dem es zur zeitweisen Verlust von Sprache, Lähmungen oder auch sonstige Symptome von Schlaganfällen kommen, die sich jedoch innerhalb eines Tages und meist vollkommen zurückbilden."
+* item[3].item[3].type = #string
+* item[3].item[4].linkId = "o_6"
+* item[3].item[4].text = "Wurde eine Transiente Ischämische Attacke (TIA, siehe Infobox) diagnostiziert?"
+* item[3].item[4].type = #choice
+* item[3].item[4].answerOption[0].valueCoding.code = "1"
+* item[3].item[4].answerOption[0].valueCoding.display = "Ja"
+* item[3].item[4].answerOption[1].valueCoding.code = "2"
+* item[3].item[4].answerOption[1].valueCoding.display = "Nein"
+* item[3].item[4].answerOption[2].valueCoding.code = "3"
+* item[3].item[4].answerOption[2].valueCoding.display = "Unbekannt"
+* item[3].item[5].linkId = "o_6a"
+* item[3].item[5].text = "Wann wurde die Transiente Ischämische Attacke (TIA) letztmalig diagnostiziert?"
+* item[3].item[5].type = #string
+* item[3].item[6].linkId = "o_7"
+* item[3].item[6].text = "Wurde ein Vorhofflimmern (dauerhaft oder anfallsartig) diagnostiziert?"
+* item[3].item[6].type = #choice
+* item[3].item[6].answerOption[0].valueCoding.code = "1"
+* item[3].item[6].answerOption[0].valueCoding.display = "Ja"
+* item[3].item[6].answerOption[1].valueCoding.code = "2"
+* item[3].item[6].answerOption[1].valueCoding.display = "Nein"
+* item[3].item[6].answerOption[2].valueCoding.code = "3"
+* item[3].item[6].answerOption[2].valueCoding.display = "Unbekannt"
+* item[3].item[7].linkId = "o_7a"
+* item[3].item[7].text = "Wann wurde das Vorhofflimmern diagnostiziert?"
+* item[3].item[7].type = #string
+* item[3].item[8].linkId = "o_infobox_herzinsuffizienz"
+* item[3].item[8].text = "Infobox Herzinsuffizienz
+Bei einer Herzinsuffizienz -die auch Herzschwäche genannt wird- hat das Herz nicht mehr genügend Kraft ausreichend Blut durch den Körper zu pumpen und es kommt zu einer zunehmend verminderten körperlichen Belastbarkeit, vermehrte Luftnot oder Einlagerung von Flüssigkeit (z.B. in den Beinen). Das kann zu behandlungsbedürftigen Zuständen führen, die mit Krankenhausaufenthalten verbunden sind."
+* item[3].item[8].type = #string
+* item[3].item[9].linkId = "o_8"
+* item[3].item[9].text = "Wurde eine Herzinsuffizienz (Herzschwäche, siehe Infobox) diagnostiziert?"
+* item[3].item[9].type = #choice
+* item[3].item[9].answerOption[0].valueCoding.code = "1"
+* item[3].item[9].answerOption[0].valueCoding.display = "Ja"
+* item[3].item[9].answerOption[1].valueCoding.code = "2"
+* item[3].item[9].answerOption[1].valueCoding.display = "Nein"
+* item[3].item[9].answerOption[2].valueCoding.code = "3"
+* item[3].item[9].answerOption[2].valueCoding.display = "Unbekannt"
+* item[3].item[10].linkId = "o_8a"
+* item[3].item[10].text = "Wann wurde die Herzinsuffizienz diagnostiziert?"
+* item[3].item[10].type = #string
+* item[3].item[11].linkId = "o_9"
+* item[3].item[11].text = "Wurden der Proband/die Probandin aufgrund einer Verschlechterung Ihrer Herzinsuffizienz (siehe Infobox) im letzten Jahr im Krankenhaus behandelt?"
+* item[3].item[11].type = #choice
+* item[3].item[11].answerOption[0].valueCoding.code = "1"
+* item[3].item[11].answerOption[0].valueCoding.display = "Ja"
+* item[3].item[11].answerOption[1].valueCoding.code = "2"
+* item[3].item[11].answerOption[1].valueCoding.display = "Nein"
+* item[3].item[11].answerOption[2].valueCoding.code = "3"
+* item[3].item[11].answerOption[2].valueCoding.display = "Unbekannt"
+* item[3].item[12].linkId = "o_9a"
+* item[3].item[12].text = "Wie häufig war aus diesem Grund im letzten Jahr im Krankenhaus notwendig?"
+* item[3].item[12].type = #string
+* item[3].item[13].linkId = "o_9b"
+* item[3].item[13].text = "Wann kam es das letzte Mal wegen eine Verschlechterung der Herzinsuffizienz zu einer stationären Aufnahme im Krankenhaus?"
+* item[3].item[13].type = #string
+* item[3].item[14].linkId = "o_10"
+* item[3].item[14].text = "Wurde eine weitere Herz-Kreislauf-Erkrankung diagnostiziert?"
+* item[3].item[14].type = #choice
+* item[3].item[14].answerOption[0].valueCoding.code = "1"
+* item[3].item[14].answerOption[0].valueCoding.display = "Ja"
+* item[3].item[14].answerOption[1].valueCoding.code = "2"
+* item[3].item[14].answerOption[1].valueCoding.display = "Nein"
+* item[3].item[14].answerOption[2].valueCoding.code = "3"
+* item[3].item[14].answerOption[2].valueCoding.display = "Unbekannt"
+* item[3].item[15].linkId = "o_10a"
+* item[3].item[15].text = "Um welche weiteren Herz-Kreislauf-Erkrankungen handelt es sich?"
+* item[3].item[15].type = #string
+* item[3].item[16].linkId = "o_10b"
+* item[3].item[16].text = "Wann wurde diese Erkrankung diagnostiziert?"
+* item[3].item[16].type = #string
+* item[3].item[17].linkId = "o_11"
+* item[3].item[17].text = "Wie wurde das Follow-Up erhoben?"
+* item[3].item[17].type = #choice
+* item[3].item[17].answerOption[0].valueCoding.code = "1"
+* item[3].item[17].answerOption[0].valueCoding.display = "E-Mail"
+* item[3].item[17].answerOption[1].valueCoding.code = "2"
+* item[3].item[17].answerOption[1].valueCoding.display = "Postalisch"
+* item[3].item[17].answerOption[2].valueCoding.code = "3"
+* item[3].item[17].answerOption[2].valueCoding.display = "Telefonisch"
+* item[3].item[17].answerOption[3].valueCoding.code = "4"
+* item[3].item[17].answerOption[3].valueCoding.display = "Unbekannt"

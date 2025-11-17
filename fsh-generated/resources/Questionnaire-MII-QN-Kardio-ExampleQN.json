@@ -1,7 +1,7 @@
 {
   "resourceType": "Questionnaire",
-  "id": "acribis-study-followup",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/acribis-study-followup",
+  "id": "MII-QN-Kardio-ExampleQN",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/MII-QN-Kardio-ExampleQN",
   "contact": [
     {
       "telecom": [
@@ -658,11 +658,11 @@
     }
   ],
   "version": "2026.0.0-alpha.1",
-  "name": "Acribis_Study_FollowUp",
-  "title": "Acribis-Studie Follow-Up Fragebogen",
+  "name": "MII_QN_Kardio_ExampleQN",
+  "title": "ExampleQN",
   "status": "draft",
   "experimental": true,
   "date": "2025-06-18",
   "publisher": "Medizininformatik Initiative",
-  "description": "Ein Follow-Up-Fragebogen im Rahmen der Acribis-Studie."
+  "description": "Beispiel / Test der Implementation eines Fragebogen als FHIR R4 Questionnaire."
 }

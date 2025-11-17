@@ -59,10 +59,18 @@
     "resource": [
       {
         "reference": {
-          "reference": "Questionnaire/acribis-study-followup"
+          "reference": "Questionnaire/MII-QN-Kardio-Acribis-Study-FollowUp"
         },
-        "name": "Acribis-Studie Follow-Up Fragebogen",
-        "description": "Ein Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
+        "name": "Acribis Study FollowUp",
+        "description": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/MII-QN-Kardio-ExampleQN"
+        },
+        "name": "ExampleQN",
+        "description": "Beispiel / Test der Implementation eines Fragebogen als FHIR R4 Questionnaire.",
         "exampleBoolean": false
       },
       {

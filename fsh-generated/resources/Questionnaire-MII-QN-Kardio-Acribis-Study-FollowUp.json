@@ -1,0 +1,1920 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "MII-QN-Kardio-Acribis-Study-FollowUp",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/MII-QN-Kardio-Acribis-Study-FollowUp",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "useContext": [
+    {
+      "code": {
+        "code": "focus",
+        "system": "http://terminology.hl7.org/CodeSystem/usage-context-type"
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "110465008",
+            "system": "http://snomed.info/sct",
+            "display": "Clinical trial (procedure)"
+          }
+        ]
+      }
+    }
+  ],
+  "subjectType": [
+    "Patient"
+  ],
+  "item": [
+    {
+      "item": [
+        {
+          "item": [
+            {
+              "enableWhen": [
+                {
+                  "answerCoding": {
+                    "code": "4"
+                  },
+                  "question": "o_1",
+                  "operator": "="
+                }
+              ],
+              "type": "string",
+              "linkId": "o_1a",
+              "prefix": "Ausfüllende Person",
+              "text": "Um wen handelt es sich (Name oder Rolle)?",
+              "enableBehavior": "all"
+            }
+          ],
+          "extension": [
+            {
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "radio-button",
+                    "display": "Radio Button"
+                  }
+                ]
+              },
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+            }
+          ],
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "1",
+                "display": "Patient/Patientin"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Angehöriger/Angehörige"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "3",
+                "display": "Arzt/Ärztin"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "4",
+                "display": "Andere Person"
+              }
+            }
+          ],
+          "type": "choice",
+          "linkId": "o_1",
+          "prefix": "Ausfüllende Person",
+          "text": "Wer füllt den Fragebogen aus?",
+          "repeats": false
+        },
+        {
+          "item": [
+            {
+              "item": [
+                {
+                  "item": [
+                    {
+                      "code": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "385668008",
+                          "display": "Success of action"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "question": "first_telefon_datum",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "first_telefon_erfolgreich",
+                      "text": "1. Telefonat erfolgreich?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    }
+                  ],
+                  "type": "dateTime",
+                  "linkId": "first_telefon_datum",
+                  "text": "Telefonat 1. Versuch (Tag 0 bis 7)",
+                  "repeats": false
+                },
+                {
+                  "item": [
+                    {
+                      "code": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "385668008",
+                          "display": "Success of action"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "question": "second_telefon_datum",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "second_telefon_erfolgreich",
+                      "text": "2. Telefonat erfolgreich?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "first_telefon_erfolgreich",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "dateTime",
+                  "linkId": "second_telefon_datum",
+                  "text": "Telefonat 2. Versuch (Tag 0 bis 7)",
+                  "enableBehavior": "all",
+                  "repeats": false
+                },
+                {
+                  "item": [
+                    {
+                      "code": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "385668008",
+                          "display": "Success of action"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "question": "third_telefon_datum",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "third_telefon_erfolgreich",
+                      "text": "3. Telefonat erfolgreich?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "second_telefon_erfolgreich",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "dateTime",
+                  "linkId": "third_telefon_datum",
+                  "text": "Telefonat 3. Versuch (Tag 0 bis 7)",
+                  "enableBehavior": "all",
+                  "repeats": false
+                },
+                {
+                  "enableWhen": [
+                    {
+                      "question": "third_telefon_erfolgreich",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "259984180805",
+                  "text": "ggf. Versand schriftlicher Information (Tag 7 bis 21)",
+                  "repeats": false
+                },
+                {
+                  "item": [
+                    {
+                      "code": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "385668008",
+                          "display": "Success of action"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "question": "fourth_telefon_datum",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "fourth_telefon_erfolgreich",
+                      "text": "4. Telefonat erfolgreich?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "third_telefon_erfolgreich",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "dateTime",
+                  "linkId": "fourth_telefon_datum",
+                  "text": "Telefonat 4. Versuch (Tag 21 bis 28)",
+                  "enableBehavior": "all",
+                  "repeats": false
+                },
+                {
+                  "item": [
+                    {
+                      "code": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "385668008",
+                          "display": "Success of action"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "question": "fifth_telefon_datum",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "fifth_telefon_erfolgreich",
+                      "text": "5. Telefonat erfolgreich?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "fourth_telefon_erfolgreich",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "dateTime",
+                  "linkId": "fifth_telefon_datum",
+                  "text": "Telefonat 5. Versuch (Tag 21 bis 28)",
+                  "enableBehavior": "all",
+                  "repeats": false
+                },
+                {
+                  "item": [
+                    {
+                      "code": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "385668008",
+                          "display": "Success of action"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "question": "sixth_telefon_datum",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "sixth_telefon_erfolgreich",
+                      "text": "6. Telefonat erfolgreich?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "fifth_telefon_erfolgreich",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "dateTime",
+                  "linkId": "sixth_telefon_datum",
+                  "text": "Telefonat 6. Versuch (Tag 21 bis 28)",
+                  "enableBehavior": "all",
+                  "repeats": false
+                },
+                {
+                  "enableWhen": [
+                    {
+                      "question": "sixth_telefon_erfolgreich",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "430864563593",
+                  "text": "ggf. Versand schriftlicher Information (Tag 28 bis 42)",
+                  "repeats": false
+                },
+                {
+                  "item": [
+                    {
+                      "code": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "385668008",
+                          "display": "Success of action"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "question": "seventh_telefon_datum",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "seventh_telefon_erfolgreich",
+                      "text": "7. Telefonat erfolgreich?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "sixth_telefon_erfolgreich",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "dateTime",
+                  "linkId": "seventh_telefon_datum",
+                  "text": "Telefonat 7. Versuch (Tag 42 bis 49)",
+                  "enableBehavior": "all",
+                  "repeats": false
+                },
+                {
+                  "item": [
+                    {
+                      "code": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "385668008",
+                          "display": "Success of action"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "question": "eighth_telefon_datum",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "eighth_telefon_erfolgreich",
+                      "text": "8. Telefonat erfolgreich?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "seventh_telefon_erfolgreich",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "dateTime",
+                  "linkId": "eighth_telefon_datum",
+                  "text": "Telefonat 8. Versuch (Tag 42 bis 49)",
+                  "enableBehavior": "all",
+                  "repeats": false
+                },
+                {
+                  "item": [
+                    {
+                      "code": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "385668008",
+                          "display": "Success of action"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "question": "ninth_telefon_datum",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "ninth_telefon_erfolgreich",
+                      "text": "9. Telefonat erfolgreich?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "eighth_telefon_erfolgreich",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "dateTime",
+                  "linkId": "ninth_telefon_datum",
+                  "text": "Telefonat 9. Versuch (Tag 42 bis 49)",
+                  "enableBehavior": "all",
+                  "repeats": false
+                }
+              ],
+              "enableWhen": [
+                {
+                  "answerCoding": {
+                    "code": "4",
+                    "display": "Andere Person"
+                  },
+                  "question": "o_1",
+                  "operator": "="
+                },
+                {
+                  "answerCoding": {
+                    "code": "VERBAL",
+                    "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+                  },
+                  "question": "243134446838",
+                  "operator": "="
+                }
+              ],
+              "type": "group",
+              "linkId": "group2",
+              "text": "Telefonisches Follow-Up",
+              "enableBehavior": "all",
+              "repeats": false
+            },
+            {
+              "item": [
+                {
+                  "item": [
+                    {
+                      "enableWhen": [
+                        {
+                          "question": "531811477735",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "dateTime",
+                      "linkId": "551754048694",
+                      "text": "ggf. Telefonat 1. Versuch (Tag 14 bis 21)",
+                      "repeats": false
+                    },
+                    {
+                      "enableWhen": [
+                        {
+                          "question": "531811477735",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "dateTime",
+                      "linkId": "339142957184",
+                      "text": "ggf. Telefonat 2. Versuch (Tag 14 bis 21)",
+                      "repeats": false
+                    },
+                    {
+                      "enableWhen": [
+                        {
+                          "question": "531811477735",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "dateTime",
+                      "linkId": "336352021151",
+                      "text": "ggf. Telefonat 3. Versuch (Tag 14 bis 21)",
+                      "repeats": false
+                    },
+                    {
+                      "enableWhen": [
+                        {
+                          "question": "531811477735",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "683622335202",
+                      "text": "1. schriftlicher Kontakt erfolgreich?",
+                      "repeats": false
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "531811477735",
+                  "text": "Schriftlicher 1. Versuch (Tag 0 bis 14)",
+                  "repeats": false
+                },
+                {
+                  "item": [
+                    {
+                      "type": "string",
+                      "linkId": "354842802717",
+                      "text": "ggf. Telefonat 1. Versuch (Tag 35 bis 42)",
+                      "repeats": false
+                    },
+                    {
+                      "type": "string",
+                      "linkId": "638025827421",
+                      "text": "ggf. Telefonat 2. Versuch (Tag 35 bis 42)",
+                      "repeats": false
+                    },
+                    {
+                      "type": "string",
+                      "linkId": "283707904427",
+                      "text": "ggf. Telefonat 3. Versuch (Tag 35 bis 42)",
+                      "repeats": false
+                    },
+                    {
+                      "enableWhen": [
+                        {
+                          "question": "708234487988",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "343328919972",
+                      "text": "2. schriftlicher Kontakt erfolgreich?",
+                      "repeats": false
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "683622335202",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "708234487988",
+                  "text": "Schriftlicher 2. Versuch (Tag 21 bis 35)",
+                  "repeats": false
+                },
+                {
+                  "item": [
+                    {
+                      "enableWhen": [
+                        {
+                          "question": "120750438814",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "boolean",
+                      "linkId": "994511806344",
+                      "text": "3. schriftlicher Kontakt erfolgreich?",
+                      "repeats": false
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "343328919972",
+                      "operator": "=",
+                      "answerBoolean": false
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "120750438814",
+                  "text": "Schriftlicher 3. Versuch (Tag 42 bis 49)",
+                  "repeats": false
+                }
+              ],
+              "enableWhen": [
+                {
+                  "answerCoding": {
+                    "code": "4",
+                    "display": "Andere Person"
+                  },
+                  "question": "o_1",
+                  "operator": "="
+                },
+                {
+                  "answerCoding": {
+                    "code": "WRITTEN",
+                    "display": "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+                  },
+                  "question": "243134446838",
+                  "operator": "="
+                }
+              ],
+              "type": "group",
+              "linkId": "653817429944",
+              "text": "Schriftliches Follow-Up",
+              "enableBehavior": "all",
+              "repeats": false
+            },
+            {
+              "item": [
+                {
+                  "enableWhen": [
+                    {
+                      "question": "175302299373",
+                      "operator": "exists",
+                      "answerBoolean": true
+                    }
+                  ],
+                  "type": "boolean",
+                  "linkId": "242587999496",
+                  "text": "War die Kontaktaufnahme mit dem Hausarzt erfolgreich?",
+                  "repeats": false
+                }
+              ],
+              "enableWhen": [
+                {
+                  "question": "994511806344",
+                  "operator": "=",
+                  "answerBoolean": false
+                },
+                {
+                  "question": "ninth_telefon_erfolgreich",
+                  "operator": "=",
+                  "answerBoolean": false
+                }
+              ],
+              "type": "dateTime",
+              "linkId": "175302299373",
+              "text": "Kontaktaufnahme Hausarzt (nach Tag 49)",
+              "enableBehavior": "any",
+              "repeats": true
+            },
+            {
+              "item": [
+                {
+                  "enableWhen": [
+                    {
+                      "question": "247749186905",
+                      "operator": "exists",
+                      "answerBoolean": true
+                    }
+                  ],
+                  "type": "boolean",
+                  "linkId": "915186845968",
+                  "text": "War die Kontaktaufnahme mit dem Einwohnermeldeamt erfolgreich?",
+                  "repeats": false
+                }
+              ],
+              "enableWhen": [
+                {
+                  "question": "ninth_telefon_erfolgreich",
+                  "operator": "=",
+                  "answerBoolean": false
+                },
+                {
+                  "question": "994511806344",
+                  "operator": "=",
+                  "answerBoolean": false
+                }
+              ],
+              "type": "dateTime",
+              "linkId": "247749186905",
+              "text": "Kontaktaufnahme Einwohnermeldeamt (nach Tag 49)",
+              "enableBehavior": "any",
+              "repeats": true
+            }
+          ],
+          "extension": [
+            {
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "radio-button",
+                    "display": "Radio Button"
+                  }
+                ]
+              },
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+            }
+          ],
+          "enableWhen": [
+            {
+              "answerCoding": {
+                "code": "4",
+                "display": "Andere Person"
+              },
+              "question": "o_1",
+              "operator": "="
+            },
+            {
+              "answerCoding": {
+                "code": "3",
+                "display": "Arzt/Ärztin"
+              },
+              "question": "o_1",
+              "operator": "="
+            }
+          ],
+          "answerOption": [
+            {
+              "valueCoding": {
+                "code": "WRITTEN",
+                "display": "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+              }
+            },
+            {
+              "valueCoding": {
+                "code": "VERBAL",
+                "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+              }
+            }
+          ],
+          "type": "choice",
+          "linkId": "243134446838",
+          "text": "In welcher Form erfolgt an Ihrem Standort das Follow-Up?",
+          "enableBehavior": "any",
+          "repeats": false
+        }
+      ],
+      "type": "group",
+      "linkId": "group1",
+      "text": "Allgemeine Angaben",
+      "repeats": false
+    },
+    {
+      "item": [
+        {
+          "item": [
+            {
+              "code": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "399753006",
+                  "display": "Date of death"
+                }
+              ],
+              "enableWhen": [
+                {
+                  "answerCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "question": "o_2",
+                  "operator": "="
+                }
+              ],
+              "type": "date",
+              "linkId": "o_2a",
+              "text": "Wann ist die Patientin/der Patient verstorben?",
+              "enableBehavior": "all",
+              "repeats": false
+            },
+            {
+              "item": [
+                {
+                  "extension": [
+                    {
+                      "valueCodeableConcept": {
+                        "coding": [
+                          {
+                            "system": "http://hl7.org/fhir/questionnaire-item-control",
+                            "code": "drop-down",
+                            "display": "Drop down"
+                          }
+                        ]
+                      },
+                      "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                    }
+                  ],
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "184305005",
+                      "display": "Cause of death"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "answerCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "question": "o_2b",
+                      "operator": "="
+                    }
+                  ],
+                  "answerOption": [
+                    {
+                      "valueCoding": {
+                        "code": "1",
+                        "display": "Herzinfarkt"
+                      }
+                    },
+                    {
+                      "valueCoding": {
+                        "code": "2",
+                        "display": "Schlaganfall durch Gefässverschluss"
+                      }
+                    },
+                    {
+                      "valueCoding": {
+                        "code": "3a",
+                        "display": "Hirnblutung (interzerebral)"
+                      }
+                    },
+                    {
+                      "valueCoding": {
+                        "code": "3b",
+                        "display": "Hirnblutung (subarachnoidal)"
+                      }
+                    },
+                    {
+                      "valueCoding": {
+                        "code": "3",
+                        "display": "Hirnblutung (interzerebral oder subarachnoidal)"
+                      }
+                    },
+                    {
+                      "valueCoding": {
+                        "code": "4",
+                        "display": "Andere Herz-Kreislauf bedingte Ursache"
+                      }
+                    },
+                    {
+                      "valueCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "ASKU",
+                        "display": "Unbekannt"
+                      }
+                    },
+                    {
+                      "valueCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "NASK",
+                        "display": "Nicht erhoben"
+                      },
+                      "initialSelected": true
+                    }
+                  ],
+                  "type": "choice",
+                  "linkId": "o_2c",
+                  "text": "Welche der im Antwortschema aufgeführten Herz-Kreislauf-bedingte Todesursache lag vor?",
+                  "enableBehavior": "all",
+                  "repeats": true
+                }
+              ],
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "drop-down",
+                        "display": "Drop down"
+                      }
+                    ]
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                }
+              ],
+              "enableWhen": [
+                {
+                  "answerCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "question": "o_2",
+                  "operator": "="
+                }
+              ],
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "N",
+                    "display": "Nein"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "ASKU",
+                    "display": "Unbekannt"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "NASK",
+                    "display": "Nicht erhoben"
+                  },
+                  "initialSelected": true
+                }
+              ],
+              "type": "choice",
+              "linkId": "o_2b",
+              "text": "Ist eine Herz-Kreislauf-Erkrankung als Todesursache fesgestellt worden?",
+              "enableBehavior": "all",
+              "repeats": false
+            }
+          ],
+          "extension": [
+            {
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "drop-down",
+                    "display": "Drop down"
+                  }
+                ]
+              },
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+            }
+          ],
+          "code": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "419099009",
+              "display": "Deceased"
+            }
+          ],
+          "enableWhen": [
+            {
+              "answerCoding": {
+                "code": "2"
+              },
+              "question": "o_1",
+              "operator": "="
+            },
+            {
+              "answerCoding": {
+                "code": "3"
+              },
+              "question": "o_1",
+              "operator": "="
+            },
+            {
+              "answerCoding": {
+                "code": "4"
+              },
+              "question": "o_1",
+              "operator": "="
+            }
+          ],
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "Y",
+                "display": "Ja"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "N",
+                "display": "Nein"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "ASKU",
+                "display": "Unbekannt"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "NASK",
+                "display": "Nicht erhoben"
+              },
+              "initialSelected": true
+            }
+          ],
+          "type": "choice",
+          "linkId": "o_2",
+          "text": "Ist die Patientin/der Patient verstorben?",
+          "enableBehavior": "any",
+          "repeats": false
+        }
+      ],
+      "enableWhen": [
+        {
+          "answerCoding": {
+            "code": "2",
+            "display": "Angehöriger/Angehörige"
+          },
+          "question": "o_1",
+          "operator": "="
+        },
+        {
+          "answerCoding": {
+            "code": "3",
+            "display": "Arzt/Ärztin"
+          },
+          "question": "o_1",
+          "operator": "="
+        },
+        {
+          "answerCoding": {
+            "code": "4",
+            "display": "Andere Person"
+          },
+          "question": "o_1",
+          "operator": "="
+        }
+      ],
+      "type": "group",
+      "linkId": "group3",
+      "text": "Vitalstatus",
+      "enableBehavior": "any",
+      "repeats": false
+    },
+    {
+      "item": [
+        {
+          "type": "display",
+          "linkId": "o_infobox_zeitraum",
+          "prefix": "Infobox Zeitraum:",
+          "text": "Sehr geehrte Teilnehmende, die folgenden Fragen beziehen sich auf Diagnosen, Krankenhausaufenthalte oder auch Behandlungen die seit Ihrer Teilnahme an der ACRIBiS Studie vor einem Jahr stattfanden. Diese Nachfolgebefragung dient dem Zweck festzustellen in wie weit sich der Gesundheitszustand des/der Probanden/in geändert hat und in wie weit diese Veränderungen Ihr Wohlbefinden beeinflusst haben. Die Teilnahme an der Studie fand am \"Datum Einschluß\" statt."
+        },
+        {
+          "item": [
+            {
+              "code": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "432213005",
+                  "display": "Date of diagnosis"
+                }
+              ],
+              "enableWhen": [
+                {
+                  "answerCoding": {
+                    "code": "1"
+                  },
+                  "question": "o_3",
+                  "operator": "="
+                }
+              ],
+              "type": "date",
+              "linkId": "o_3a",
+              "text": "Wann wurde der Herzinfarkt diagnostiziert?",
+              "enableBehavior": "all",
+              "repeats": true
+            }
+          ],
+          "extension": [
+            {
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "radio-button",
+                    "display": "Radio Button"
+                  }
+                ]
+              },
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+            }
+          ],
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "Y",
+                "display": "Ja"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "N",
+                "display": "Nein"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "ASKU",
+                "display": "Unbekannt"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "NASK",
+                "display": "Nicht erhoben"
+              },
+              "initialSelected": true
+            }
+          ],
+          "type": "choice",
+          "linkId": "o_3",
+          "text": "Wurde ein Herzinfarkt diagnostiziert?",
+          "repeats": false
+        },
+        {
+          "item": [
+            {
+              "code": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "432213005",
+                  "display": "Date of diagnosis"
+                }
+              ],
+              "enableWhen": [
+                {
+                  "answerCoding": {
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "question": "o_4",
+                  "operator": "="
+                }
+              ],
+              "type": "date",
+              "linkId": "o_4a",
+              "text": "Wann wurde der Schlaganfall / die Erkrankung der Hirngefäße diagnostiziert?",
+              "enableBehavior": "all",
+              "repeats": true
+            },
+            {
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "drop-down",
+                        "display": "Drop down"
+                      }
+                    ]
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                }
+              ],
+              "enableWhen": [
+                {
+                  "answerCoding": {
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "question": "o_4",
+                  "operator": "="
+                }
+              ],
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "code": "1",
+                    "display": "Schlaganfall durch Gefässverschluss"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "2a",
+                    "display": "Hirnblutung (interzerebral)"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "2b",
+                    "display": "Hirnblutung (subarachnoidal)"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "2",
+                    "display": "Hirnblutung (interzerebral oder subarachnoidal)"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "3",
+                    "display": "Unbekannt"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "code": "4",
+                    "display": "Nicht erhoben"
+                  },
+                  "initialSelected": true
+                }
+              ],
+              "type": "choice",
+              "linkId": "o_4b",
+              "text": "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?",
+              "enableBehavior": "all"
+            }
+          ],
+          "extension": [
+            {
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "radio-button",
+                    "display": "Radio Button"
+                  }
+                ]
+              },
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+            }
+          ],
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "Y",
+                "display": "Ja"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "N",
+                "display": "Nein"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "ASKU",
+                "display": "Unbekannt"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "NASK",
+                "display": "Nicht erhoben"
+              },
+              "initialSelected": true
+            }
+          ],
+          "type": "choice",
+          "linkId": "o_4",
+          "text": "Wurde ein Schlaganfall oder Erkrankung der Hirngefäße diagnostiziert?",
+          "repeats": false
+        },
+        {
+          "item": [
+            {
+              "type": "display",
+              "linkId": "o_infobox_starke_blutung",
+              "prefix": "Infobox Starke Blutung:",
+              "text": "Gemeint sind im Folgenden innere Blutung, oder spontane äussere Blutungen, die ohne (starke) äusserliche Krafteinwirkung ausgelöst worden sind, wie starkes Nasenbluten oder Magen-Darmblutung beispielsweise."
+            },
+            {
+              "item": [
+                {
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "432213005",
+                      "display": "Date of diagnosis"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "answerCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "question": "o_5",
+                      "operator": "="
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "o_5a",
+                  "text": "Wann trat(en) diese starke Blutung(en) auf?",
+                  "enableBehavior": "all",
+                  "repeats": true
+                }
+              ],
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "radio-button",
+                        "display": "Radio Button"
+                      }
+                    ]
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                }
+              ],
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "N",
+                    "display": "Nein"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "ASKU",
+                    "display": "Unbekannt"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "NASK",
+                    "display": "Nicht erhoben"
+                  },
+                  "initialSelected": true
+                }
+              ],
+              "type": "choice",
+              "linkId": "o_5",
+              "text": "Trat eine starke spontane Blutung (Starke Blutung, siehe Infobox) auf, die diagnostiziert wurde und ärztlch behandelt werden musste?"
+            }
+          ],
+          "type": "group",
+          "linkId": "881254946120",
+          "text": "Starke Blutung",
+          "repeats": false
+        },
+        {
+          "item": [
+            {
+              "type": "display",
+              "linkId": "877536769611",
+              "prefix": "Infobox TIA:",
+              "text": "Transiente Ischämische Attacke oder TIA ist eine Art \"Vorstufe zu einem Schlaganfall\" bzw. \"Mini\"-Schlaganfall genannte Unterversorgng des Gehirns bei dem es zur zeitweisen Verlust von Sprache, Lähmungen oder auch sonstige Symptome von Schlaganfällen kommen, die sich jedoch innerhalb eines Tages und meist vollkommen zurückbilden."
+            },
+            {
+              "item": [
+                {
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "432213005",
+                      "display": "Date of diagnosis"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "answerCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "question": "o_6",
+                      "operator": "="
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "o_6a",
+                  "text": "Wann wurde die Transiente Ischämische Attacke (TIA) diagnostiziert?",
+                  "enableBehavior": "all",
+                  "repeats": true
+                }
+              ],
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "radio-button",
+                        "display": "Radio Button"
+                      }
+                    ]
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                }
+              ],
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "N",
+                    "display": "Nein"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "ASKU",
+                    "display": "Unbekannt"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "NASK",
+                    "display": "Nicht erhoben"
+                  },
+                  "initialSelected": true
+                }
+              ],
+              "type": "choice",
+              "linkId": "o_6",
+              "text": "Wurde eine Transiente Ischämische Attacke (TIA, siehe Infobox) diagnostiziert?"
+            }
+          ],
+          "type": "group",
+          "linkId": "245973210113",
+          "text": "TIA",
+          "repeats": false
+        },
+        {
+          "item": [
+            {
+              "item": [
+                {
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "432213005",
+                      "display": "Date of diagnosis"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "answerCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "question": "o_7",
+                      "operator": "="
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "o_7a",
+                  "text": "Wann wurde das Vorhofflimmern diagnostiziert?",
+                  "enableBehavior": "all",
+                  "repeats": true
+                }
+              ],
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "radio-button",
+                        "display": "Radio Button"
+                      }
+                    ]
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                }
+              ],
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "N",
+                    "display": "Nein"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "ASKU",
+                    "display": "Unbekannt"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "NASK",
+                    "display": "Nicht erhoben"
+                  },
+                  "initialSelected": true
+                }
+              ],
+              "type": "choice",
+              "linkId": "o_7",
+              "text": "Wurde ein Vorhofflimmern (dauerhaft oder anfallsartig) diagnostiziert?"
+            }
+          ],
+          "type": "group",
+          "linkId": "826742623985",
+          "text": "Vorhofflimmern",
+          "repeats": false
+        },
+        {
+          "item": [
+            {
+              "type": "display",
+              "linkId": "o_infobox_herzinsuffizienz",
+              "prefix": "Infobox Herzinsuffizienz:",
+              "text": "Bei einer Herzinsuffizienz -die auch Herzschwäche genannt wird- hat das Herz nicht mehr genügend Kraft ausreichend Blut durch den Körper zu pumpen und es kommt zu einer zunehmend verminderten körperlichen Belastbarkeit, vermehrte Luftnot oder Einlagerung von Flüssigkeit (z.B. in den Beinen). Das kann zu behandlungsbedürftigen Zuständen führen, die mit Krankenhausaufenthalten verbunden sind."
+            },
+            {
+              "item": [
+                {
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "432213005",
+                      "display": "Date of diagnosis"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "answerCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "question": "o_8",
+                      "operator": "="
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "o_8a",
+                  "text": "Wann wurde die Herzinsuffizienz diagnostiziert?",
+                  "enableBehavior": "all",
+                  "repeats": true
+                }
+              ],
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "N",
+                    "display": "Nein"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "ASKU",
+                    "display": "Unbekannt"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "NASK",
+                    "display": "Nicht erhoben"
+                  }
+                }
+              ],
+              "type": "choice",
+              "linkId": "o_8",
+              "text": "Wurde eine Herzinsuffizienz (Herzschwäche, siehe Infobox) diagnostiziert?"
+            },
+            {
+              "item": [
+                {
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "298060002",
+                      "display": "Number of admissions"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "answerCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "question": "o_9",
+                      "operator": "="
+                    }
+                  ],
+                  "type": "integer",
+                  "linkId": "o_9a",
+                  "text": "Wie häufig war aus diesem Grund im letzten Jahr im Krankenhaus notwendig?",
+                  "enableBehavior": "all"
+                },
+                {
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "399423000",
+                      "display": "Date of admission"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "answerCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "question": "o_9",
+                      "operator": "="
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "o_9b",
+                  "text": "Wann kam es wegen eine Verschlechterung der Herzinsuffizienz zu einer stationären Aufnahme im Krankenhaus?",
+                  "enableBehavior": "all",
+                  "repeats": true
+                }
+              ],
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "N",
+                    "display": "Nein"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "ASKU",
+                    "display": "Unbekannt"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "NASK",
+                    "display": "Nicht erhoben"
+                  }
+                }
+              ],
+              "type": "choice",
+              "linkId": "o_9",
+              "text": "Wurden der Proband/die Probandin aufgrund einer Verschlechterung Ihrer Herzinsuffizienz (siehe Infobox) im letzten Jahr im Krankenhaus behandelt?",
+              "repeats": false
+            }
+          ],
+          "type": "group",
+          "linkId": "944193442011",
+          "text": "Herzinsuffizienz",
+          "repeats": false
+        },
+        {
+          "item": [
+            {
+              "item": [
+                {
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "432213005",
+                      "display": "Date of diagnosis"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "question": "o_10a",
+                      "operator": "exists",
+                      "answerBoolean": true
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "o_10b",
+                  "text": "Wann wurde diese Erkrankung diagnostiziert?",
+                  "enableBehavior": "all",
+                  "repeats": false
+                }
+              ],
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "autocomplete",
+                        "display": "Auto-complete"
+                      }
+                    ]
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                }
+              ],
+              "code": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "439401001",
+                  "display": "Diagnosis"
+                }
+              ],
+              "enableWhen": [
+                {
+                  "answerCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "question": "o_10",
+                  "operator": "="
+                }
+              ],
+              "type": "choice",
+              "linkId": "o_10a",
+              "text": "Um welche weiteren Herz-Kreislauf-Erkrankungen handelt es sich?",
+              "enableBehavior": "all",
+              "repeats": true,
+              "answerValueSet": "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
+            }
+          ],
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "Y",
+                "display": "Ja"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "N",
+                "display": "Nein"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "ASKU",
+                "display": "Unbekannt"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "NASK",
+                "display": "Nicht erhoben"
+              }
+            }
+          ],
+          "type": "choice",
+          "linkId": "o_10",
+          "text": "Wurde eine weitere Herz-Kreislauf-Erkrankung diagnostiziert?",
+          "repeats": false
+        }
+      ],
+      "type": "group",
+      "linkId": "group4",
+      "text": "Diagnosen im letzten Jahr",
+      "repeats": false
+    },
+    {
+      "item": [
+        {
+          "extension": [
+            {
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
+                    "code": "drop-down",
+                    "display": "Drop down"
+                  }
+                ]
+              },
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+            }
+          ],
+          "answerOption": [
+            {
+              "valueCoding": {
+                "system": "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html",
+                "code": "EMAILWRIT",
+                "display": "E-Mail"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html",
+                "code": "MAILWRIT",
+                "display": "Postalisch"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html",
+                "code": "PHONE",
+                "display": "Telefonisch"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html",
+                "code": "APPWRIT",
+                "display": "App"
+              }
+            },
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "NI",
+                "display": "Unbekannt"
+              },
+              "initialSelected": true
+            }
+          ],
+          "type": "choice",
+          "linkId": "o_11",
+          "text": "Wie wurde das Follow-Up erhoben?"
+        },
+        {
+          "type": "display",
+          "linkId": "504755903209",
+          "prefix": "Infobox QoL-Fragebögen",
+          "text": "Im Kontext der Follow-Up Befragung der Acribis-Studie ist vorgesehen, dass, neben den in diesem Fragebogen enthaltenen Follow-Up-Fragen, auch Quality of Life (QoL) Fragebögen befüllt werden. Konkret handelt es sich um PROMIS-29 und EQ-5D-5L."
+        }
+      ],
+      "type": "group",
+      "linkId": "101636668393",
+      "text": "Allgemeine Angaben 2",
+      "repeats": false
+    }
+  ],
+  "version": "2026.0.0-alpha.1",
+  "publisher": "Medizininformatik Initiative",
+  "name": "MII_QN_Kardio_Acribis_Study_FollowUp",
+  "title": "Acribis Study FollowUp",
+  "status": "draft",
+  "experimental": true,
+  "date": "2025-11-17",
+  "description": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
+  "purpose": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie."
+}

@@ -269,7 +269,7 @@
     "fshType": "Instance",
     "fshFile": "questionnaire/MII_QN_Kardio_Acribis_Study_FollowUp.fsh",
     "startLine": 1,
-    "endLine": 904
+    "endLine": 951
   },
   {
     "outputFile": "Questionnaire-MII-QN-Kardio-ExampleQN.json",

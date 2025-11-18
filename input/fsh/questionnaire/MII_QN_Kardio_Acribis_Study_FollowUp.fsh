@@ -15,7 +15,9 @@ Usage: #definition
 * useContext[0].valueCodeableConcept = http://snomed.info/sct#110465008 "Clinical trial (procedure)" // Optionaler Anwendungskontext
 * subjectType[0] = #Patient                                              // #Patient | #Practitioner | #Group | #Location
 
-//Struktur des Fragebogens:
+// Details zur Codierung der Med. Items sowie verwendeten Vorlagen im zugehörigen Issue unter https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/18
+
+//Grobe Struktur des Fragebogens:
 // 1 Allgemeine Angaben
 //   1.1 Wer füllt den Fragebogen aus?
 //   1.2 In welcher Form erfolgt an Ihrem Standort das Follow-Up?
@@ -282,7 +284,7 @@ Usage: #definition
 * item[0].item[1].item[1].item[0].item[2].repeats = false
 * item[0].item[1].item[1].item[0].item[3].type = #boolean
 * item[0].item[1].item[1].item[0].item[3].linkId = "683622335202"
-* item[0].item[1].item[1].item[0].item[3].text = "1. schriftlicher Kontakt erfolgreich?"
+* item[0].item[1].item[1].item[0].item[3].text = "1. Kontakt erfolgreich?"
 * item[0].item[1].item[1].item[0].item[3].enableWhen[0].question = "531811477735"
 * item[0].item[1].item[1].item[0].item[3].enableWhen[0].operator = #exists
 * item[0].item[1].item[1].item[0].item[3].enableWhen[0].answerBoolean = true
@@ -305,7 +307,7 @@ Usage: #definition
 * item[0].item[1].item[1].item[1].item[2].repeats = false
 * item[0].item[1].item[1].item[1].item[3].type = #boolean
 * item[0].item[1].item[1].item[1].item[3].linkId = "343328919972"
-* item[0].item[1].item[1].item[1].item[3].text = "2. schriftlicher Kontakt erfolgreich?"
+* item[0].item[1].item[1].item[1].item[3].text = "2. Kontakt erfolgreich?"
 * item[0].item[1].item[1].item[1].item[3].enableWhen[0].question = "708234487988"
 * item[0].item[1].item[1].item[1].item[3].enableWhen[0].operator = #exists
 * item[0].item[1].item[1].item[1].item[3].enableWhen[0].answerBoolean = true
@@ -319,7 +321,7 @@ Usage: #definition
 * item[0].item[1].item[1].item[1].repeats = false
 * item[0].item[1].item[1].item[2].item[0].type = #boolean
 * item[0].item[1].item[1].item[2].item[0].linkId = "994511806344"
-* item[0].item[1].item[1].item[2].item[0].text = "3. schriftlicher Kontakt erfolgreich?"
+* item[0].item[1].item[1].item[2].item[0].text = "3. Kontakt erfolgreich?"
 * item[0].item[1].item[1].item[2].item[0].enableWhen[0].question = "120750438814"
 * item[0].item[1].item[1].item[2].item[0].enableWhen[0].operator = #exists
 * item[0].item[1].item[1].item[2].item[0].enableWhen[0].answerBoolean = true
@@ -419,33 +421,39 @@ Usage: #definition
 * item[1].item[0].item[0].enableBehavior = #all
 * item[1].item[0].item[0].repeats = false
 * item[1].item[0].item[1].item[0].type = #choice
-* item[1].item[0].item[1].item[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
-* item[1].item[0].item[1].item[0].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
-* item[1].item[0].item[1].item[0].extension[0].valueCodeableConcept.coding[0].code = #drop-down
-* item[1].item[0].item[1].item[0].extension[0].valueCodeableConcept.coding[0].display = "Drop down"
+* item[1].item[0].item[1].item[0].extension[0].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-preferredTerminologyServer"
+* item[1].item[0].item[1].item[0].extension[0].valueUrl = "https://snowstorm.ihtsdotools.org/fhir"
+* item[1].item[0].item[1].item[0].extension[1].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[1].item[0].item[1].item[0].extension[1].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
+* item[1].item[0].item[1].item[0].extension[1].valueCodeableConcept.coding[0].code = #drop-down
+* item[1].item[0].item[1].item[0].extension[1].valueCodeableConcept.coding[0].display = "Drop down"
 * item[1].item[0].item[1].item[0].linkId = "o_2c"
 * item[1].item[0].item[1].item[0].code[0].system = "http://snomed.info/sct"
 * item[1].item[0].item[1].item[0].code[0].code = #184305005
 * item[1].item[0].item[1].item[0].code[0].display = "Cause of death"
-* item[1].item[0].item[1].item[0].text = "Welche der im Antwortschema aufgeführten Herz-Kreislauf-bedingte Todesursache lag vor?"
+* item[1].item[0].item[1].item[0].text = "Welche der im Antwortschema aufgeführten Herz-Kreislauf-bedingten Todesursachen lag vor?"
 * item[1].item[0].item[1].item[0].enableWhen[0].question = "o_2b"
 * item[1].item[0].item[1].item[0].enableWhen[0].operator = #=
 * item[1].item[0].item[1].item[0].enableWhen[0].answerCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[1].item[0].item[1].item[0].enableWhen[0].answerCoding.code = #Y
 * item[1].item[0].item[1].item[0].enableWhen[0].answerCoding.display = "Ja"
 * item[1].item[0].item[1].item[0].enableBehavior = #all
-* item[1].item[0].item[1].item[0].repeats = true
-* item[1].item[0].item[1].item[0].answerOption[0].valueCoding.code = #1
+* item[1].item[0].item[1].item[0].repeats = false
+* item[1].item[0].item[1].item[0].answerOption[0].valueCoding.system = "http://snomed.info/sct"
+* item[1].item[0].item[1].item[0].answerOption[0].valueCoding.code = #22298006
 * item[1].item[0].item[1].item[0].answerOption[0].valueCoding.display = "Herzinfarkt"
-* item[1].item[0].item[1].item[0].answerOption[1].valueCoding.code = #2
-* item[1].item[0].item[1].item[0].answerOption[1].valueCoding.display = "Schlaganfall durch Gefässverschluss"
-* item[1].item[0].item[1].item[0].answerOption[2].valueCoding.code = #3a
-* item[1].item[0].item[1].item[0].answerOption[2].valueCoding.display = "Hirnblutung (interzerebral)"
-* item[1].item[0].item[1].item[0].answerOption[3].valueCoding.code = #3b
+* item[1].item[0].item[1].item[0].answerOption[1].valueCoding.system = "http://snomed.info/sct"
+* item[1].item[0].item[1].item[0].answerOption[1].valueCoding.code = #422504002
+* item[1].item[0].item[1].item[0].answerOption[1].valueCoding.display = "Schlaganfall durch Gefäßverschluss"
+* item[1].item[0].item[1].item[0].answerOption[2].valueCoding.system = "http://snomed.info/sct"
+* item[1].item[0].item[1].item[0].answerOption[2].valueCoding.code = #274100004
+* item[1].item[0].item[1].item[0].answerOption[2].valueCoding.display = "Hirnblutung (intrazerebral)"
+* item[1].item[0].item[1].item[0].answerOption[3].valueCoding.system = "http://snomed.info/sct"
+* item[1].item[0].item[1].item[0].answerOption[3].valueCoding.code = #21454007
 * item[1].item[0].item[1].item[0].answerOption[3].valueCoding.display = "Hirnblutung (subarachnoidal)"
-* item[1].item[0].item[1].item[0].answerOption[4].valueCoding.code = #3
-* item[1].item[0].item[1].item[0].answerOption[4].valueCoding.display = "Hirnblutung (interzerebral oder subarachnoidal)"
-* item[1].item[0].item[1].item[0].answerOption[5].valueCoding.code = #4
+* item[1].item[0].item[1].item[0].answerOption[4].valueCoding.code = #hirnblutung__intrazerebral_oder_subarachnoidal
+* item[1].item[0].item[1].item[0].answerOption[4].valueCoding.display = "Hirnblutung (intrazerebral oder subarachnoidal)"
+* item[1].item[0].item[1].item[0].answerOption[5].valueCoding.code = #andere_kardiovaskulaere__ursache
 * item[1].item[0].item[1].item[0].answerOption[5].valueCoding.display = "Andere Herz-Kreislauf bedingte Ursache"
 * item[1].item[0].item[1].item[0].answerOption[6].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[1].item[0].item[1].item[0].answerOption[6].valueCoding.code = #ASKU
@@ -544,17 +552,22 @@ Usage: #definition
 * item[2].item[1].item[0].text = "Wann wurde der Herzinfarkt diagnostiziert?"
 * item[2].item[1].item[0].enableWhen[0].question = "o_3"
 * item[2].item[1].item[0].enableWhen[0].operator = #=
-* item[2].item[1].item[0].enableWhen[0].answerCoding.code = #1
+* item[2].item[1].item[0].enableWhen[0].answerCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
+* item[2].item[1].item[0].enableWhen[0].answerCoding.code = #Y
+* item[2].item[1].item[0].enableWhen[0].answerCoding.display = "Ja"
 * item[2].item[1].item[0].enableBehavior = #all
-* item[2].item[1].item[0].repeats = true
+* item[2].item[1].item[0].repeats = false
 * item[2].item[1].type = #choice
 * item[2].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[2].item[1].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
 * item[2].item[1].extension[0].valueCodeableConcept.coding[0].code = #radio-button
 * item[2].item[1].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[2].item[1].linkId = "o_3"
+* item[2].item[1].code[0].system = "http://snomed.info/sct"
+* item[2].item[1].code[0].code = #22298006
+* item[2].item[1].code[0].display = "Myocardial infarction"
 * item[2].item[1].text = "Wurde ein Herzinfarkt diagnostiziert?"
-* item[2].item[1].repeats = false
+* item[2].item[1].repeats = true
 * item[2].item[1].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[2].item[1].answerOption[0].valueCoding.code = #Y
 * item[2].item[1].answerOption[0].valueCoding.display = "Ja"
@@ -576,10 +589,11 @@ Usage: #definition
 * item[2].item[2].item[0].text = "Wann wurde der Schlaganfall / die Erkrankung der Hirngefäße diagnostiziert?"
 * item[2].item[2].item[0].enableWhen[0].question = "o_4"
 * item[2].item[2].item[0].enableWhen[0].operator = #=
+* item[2].item[2].item[0].enableWhen[0].answerCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[2].item[2].item[0].enableWhen[0].answerCoding.code = #Y
 * item[2].item[2].item[0].enableWhen[0].answerCoding.display = "Ja"
 * item[2].item[2].item[0].enableBehavior = #all
-* item[2].item[2].item[0].repeats = true
+* item[2].item[2].item[0].repeats = false
 * item[2].item[2].item[1].type = #choice
 * item[2].item[2].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[2].item[2].item[1].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
@@ -589,20 +603,26 @@ Usage: #definition
 * item[2].item[2].item[1].text = "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?"
 * item[2].item[2].item[1].enableWhen[0].question = "o_4"
 * item[2].item[2].item[1].enableWhen[0].operator = #=
+* item[2].item[2].item[1].enableWhen[0].answerCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[2].item[2].item[1].enableWhen[0].answerCoding.code = #Y
 * item[2].item[2].item[1].enableWhen[0].answerCoding.display = "Ja"
 * item[2].item[2].item[1].enableBehavior = #all
-* item[2].item[2].item[1].answerOption[0].valueCoding.code = #1
+* item[2].item[2].item[1].answerOption[0].valueCoding.system = "http://snomed.info/sct"
+* item[2].item[2].item[1].answerOption[0].valueCoding.code = #422504002
 * item[2].item[2].item[1].answerOption[0].valueCoding.display = "Schlaganfall durch Gefässverschluss"
-* item[2].item[2].item[1].answerOption[1].valueCoding.code = #2a
-* item[2].item[2].item[1].answerOption[1].valueCoding.display = "Hirnblutung (interzerebral)"
-* item[2].item[2].item[1].answerOption[2].valueCoding.code = #2b
+* item[2].item[2].item[1].answerOption[1].valueCoding.system = "http://snomed.info/sct"
+* item[2].item[2].item[1].answerOption[1].valueCoding.code = #274100004
+* item[2].item[2].item[1].answerOption[1].valueCoding.display = "Hirnblutung (intrazerebral)"
+* item[2].item[2].item[1].answerOption[2].valueCoding.system = "http://snomed.info/sct"
+* item[2].item[2].item[1].answerOption[2].valueCoding.code = #21454007
 * item[2].item[2].item[1].answerOption[2].valueCoding.display = "Hirnblutung (subarachnoidal)"
-* item[2].item[2].item[1].answerOption[3].valueCoding.code = #2
-* item[2].item[2].item[1].answerOption[3].valueCoding.display = "Hirnblutung (interzerebral oder subarachnoidal)"
-* item[2].item[2].item[1].answerOption[4].valueCoding.code = #3
+* item[2].item[2].item[1].answerOption[3].valueCoding.code = #hirnblutung__intrazerebral_oder_subarachnoidal
+* item[2].item[2].item[1].answerOption[3].valueCoding.display = "Hirnblutung (intrazerebral oder subarachnoidal)"
+* item[2].item[2].item[1].answerOption[4].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
+* item[2].item[2].item[1].answerOption[4].valueCoding.code = #ASKU
 * item[2].item[2].item[1].answerOption[4].valueCoding.display = "Unbekannt"
-* item[2].item[2].item[1].answerOption[5].valueCoding.code = #4
+* item[2].item[2].item[1].answerOption[5].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
+* item[2].item[2].item[1].answerOption[5].valueCoding.code = #NASK
 * item[2].item[2].item[1].answerOption[5].valueCoding.display = "Nicht erhoben"
 * item[2].item[2].item[1].answerOption[5].initialSelected = true
 * item[2].item[2].type = #choice
@@ -612,7 +632,7 @@ Usage: #definition
 * item[2].item[2].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[2].item[2].linkId = "o_4"
 * item[2].item[2].text = "Wurde ein Schlaganfall oder Erkrankung der Hirngefäße diagnostiziert?"
-* item[2].item[2].repeats = false
+* item[2].item[2].repeats = true
 * item[2].item[2].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[2].item[2].answerOption[0].valueCoding.code = #Y
 * item[2].item[2].answerOption[0].valueCoding.display = "Ja"
@@ -642,14 +662,18 @@ Usage: #definition
 * item[2].item[3].item[1].item[0].enableWhen[0].answerCoding.code = #Y
 * item[2].item[3].item[1].item[0].enableWhen[0].answerCoding.display = "Ja"
 * item[2].item[3].item[1].item[0].enableBehavior = #all
-* item[2].item[3].item[1].item[0].repeats = true
+* item[2].item[3].item[1].item[0].repeats = false
 * item[2].item[3].item[1].type = #choice
 * item[2].item[3].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[2].item[3].item[1].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
 * item[2].item[3].item[1].extension[0].valueCodeableConcept.coding[0].code = #radio-button
 * item[2].item[3].item[1].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[2].item[3].item[1].linkId = "o_5"
+* item[2].item[3].item[1].code[0].system = "http://snomed.info/sct"
+* item[2].item[3].item[1].code[0].code = #===_131148009_|Bleeding_(finding)|+_64572001_|Disease_(disorder)|_:{_116676008_|Associated_morphology_(attribute)|_=_50960005_|Hemorrhage_(morphologic_abnormality)|_}_{_42752001_|Due_to_(attribute)|_=_789750003_|Spontaneous_event_(event)|_}_{_246112005_|_Severity_(attribute)|_=_24484000_|Severe_(severity_modifier)_(qualifier_value)|_}
+* item[2].item[3].item[1].code[0].display = "(Severe) Spontaneous Bleeding "
 * item[2].item[3].item[1].text = "Trat eine starke spontane Blutung (Starke Blutung, siehe Infobox) auf, die diagnostiziert wurde und ärztlch behandelt werden musste?"
+* item[2].item[3].item[1].repeats = true
 * item[2].item[3].item[1].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[2].item[3].item[1].answerOption[0].valueCoding.code = #Y
 * item[2].item[3].item[1].answerOption[0].valueCoding.display = "Ja"
@@ -683,14 +707,18 @@ Usage: #definition
 * item[2].item[4].item[1].item[0].enableWhen[0].answerCoding.code = #Y
 * item[2].item[4].item[1].item[0].enableWhen[0].answerCoding.display = "Ja"
 * item[2].item[4].item[1].item[0].enableBehavior = #all
-* item[2].item[4].item[1].item[0].repeats = true
+* item[2].item[4].item[1].item[0].repeats = false
 * item[2].item[4].item[1].type = #choice
 * item[2].item[4].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[2].item[4].item[1].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
 * item[2].item[4].item[1].extension[0].valueCodeableConcept.coding[0].code = #radio-button
 * item[2].item[4].item[1].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[2].item[4].item[1].linkId = "o_6"
+* item[2].item[4].item[1].code[0].system = "http://snomed.info/sct"
+* item[2].item[4].item[1].code[0].code = #266257000
+* item[2].item[4].item[1].code[0].display = "Transient ischemic attack"
 * item[2].item[4].item[1].text = "Wurde eine Transiente Ischämische Attacke (TIA, siehe Infobox) diagnostiziert?"
+* item[2].item[4].item[1].repeats = true
 * item[2].item[4].item[1].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[2].item[4].item[1].answerOption[0].valueCoding.code = #Y
 * item[2].item[4].item[1].answerOption[0].valueCoding.display = "Ja"
@@ -720,14 +748,18 @@ Usage: #definition
 * item[2].item[5].item[0].item[0].enableWhen[0].answerCoding.code = #Y
 * item[2].item[5].item[0].item[0].enableWhen[0].answerCoding.display = "Ja"
 * item[2].item[5].item[0].item[0].enableBehavior = #all
-* item[2].item[5].item[0].item[0].repeats = true
+* item[2].item[5].item[0].item[0].repeats = false
 * item[2].item[5].item[0].type = #choice
 * item[2].item[5].item[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[2].item[5].item[0].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
 * item[2].item[5].item[0].extension[0].valueCodeableConcept.coding[0].code = #radio-button
 * item[2].item[5].item[0].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[2].item[5].item[0].linkId = "o_7"
+* item[2].item[5].item[0].code[0].system = "http://snomed.info/sct"
+* item[2].item[5].item[0].code[0].code = #49436004
+* item[2].item[5].item[0].code[0].display = "Atrial fibrillation"
 * item[2].item[5].item[0].text = "Wurde ein Vorhofflimmern (dauerhaft oder anfallsartig) diagnostiziert?"
+* item[2].item[5].item[0].repeats = true
 * item[2].item[5].item[0].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[2].item[5].item[0].answerOption[0].valueCoding.code = #Y
 * item[2].item[5].item[0].answerOption[0].valueCoding.display = "Ja"
@@ -761,10 +793,14 @@ Usage: #definition
 * item[2].item[6].item[1].item[0].enableWhen[0].answerCoding.code = #Y
 * item[2].item[6].item[1].item[0].enableWhen[0].answerCoding.display = "Ja"
 * item[2].item[6].item[1].item[0].enableBehavior = #all
-* item[2].item[6].item[1].item[0].repeats = true
+* item[2].item[6].item[1].item[0].repeats = false
 * item[2].item[6].item[1].type = #choice
 * item[2].item[6].item[1].linkId = "o_8"
+* item[2].item[6].item[1].code[0].system = "http://snomed.info/sct"
+* item[2].item[6].item[1].code[0].code = #48447003
+* item[2].item[6].item[1].code[0].display = "Chronic heart failure"
 * item[2].item[6].item[1].text = "Wurde eine Herzinsuffizienz (Herzschwäche, siehe Infobox) diagnostiziert?"
+* item[2].item[6].item[1].repeats = true
 * item[2].item[6].item[1].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[2].item[6].item[1].answerOption[0].valueCoding.code = #Y
 * item[2].item[6].item[1].answerOption[0].valueCoding.display = "Ja"
@@ -833,11 +869,21 @@ Usage: #definition
 * item[2].item[7].item[0].item[0].enableWhen[0].answerBoolean = true
 * item[2].item[7].item[0].item[0].enableBehavior = #all
 * item[2].item[7].item[0].item[0].repeats = false
+* item[2].item[7].item[0].item[1].linkId = "o_10a_helpText"
+* item[2].item[7].item[0].item[1].type = #display
+* item[2].item[7].item[0].item[1].text = "Angabe als Code aus dem System: snomed ct"
+* item[2].item[7].item[0].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[2].item[7].item[0].item[1].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
+* item[2].item[7].item[0].item[1].extension[0].valueCodeableConcept.coding[0].code = #help
+* item[2].item[7].item[0].item[1].extension[0].valueCodeableConcept.coding[0].display = "Help-Button"
+* item[2].item[7].item[0].item[1].extension[0].valueCodeableConcept.text = "Help-Button"
 * item[2].item[7].item[0].type = #choice
-* item[2].item[7].item[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
-* item[2].item[7].item[0].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
-* item[2].item[7].item[0].extension[0].valueCodeableConcept.coding[0].code = #autocomplete
-* item[2].item[7].item[0].extension[0].valueCodeableConcept.coding[0].display = "Auto-complete"
+* item[2].item[7].item[0].extension[0].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-preferredTerminologyServer"
+* item[2].item[7].item[0].extension[0].valueUrl = "https://snowstorm.ihtsdotools.org/fhir"
+* item[2].item[7].item[0].extension[1].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[2].item[7].item[0].extension[1].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
+* item[2].item[7].item[0].extension[1].valueCodeableConcept.coding[0].code = #autocomplete
+* item[2].item[7].item[0].extension[1].valueCodeableConcept.coding[0].display = "Auto-complete"
 * item[2].item[7].item[0].linkId = "o_10a"
 * item[2].item[7].item[0].code[0].system = "http://snomed.info/sct"
 * item[2].item[7].item[0].code[0].code = #439401001
@@ -849,12 +895,12 @@ Usage: #definition
 * item[2].item[7].item[0].enableWhen[0].answerCoding.code = #Y
 * item[2].item[7].item[0].enableWhen[0].answerCoding.display = "Ja"
 * item[2].item[7].item[0].enableBehavior = #all
-* item[2].item[7].item[0].repeats = true
-* item[2].item[7].item[0].answerValueSet = "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
+* item[2].item[7].item[0].repeats = false
+* item[2].item[7].item[0].answerValueSet = "http://snomed.info/sct/900000000000207008/version/20251201?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C"
 * item[2].item[7].type = #choice
 * item[2].item[7].linkId = "o_10"
 * item[2].item[7].text = "Wurde eine weitere Herz-Kreislauf-Erkrankung diagnostiziert?"
-* item[2].item[7].repeats = false
+* item[2].item[7].repeats = true
 * item[2].item[7].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
 * item[2].item[7].answerOption[0].valueCoding.code = #Y
 * item[2].item[7].answerOption[0].valueCoding.display = "Ja"
@@ -878,6 +924,7 @@ Usage: #definition
 * item[3].item[0].extension[0].valueCodeableConcept.coding[0].display = "Drop down"
 * item[3].item[0].linkId = "o_11"
 * item[3].item[0].text = "Wie wurde das Follow-Up erhoben?"
+* item[3].item[0].repeats = false
 * item[3].item[0].answerOption[0].valueCoding.system = "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html"
 * item[3].item[0].answerOption[0].valueCoding.code = #EMAILWRIT
 * item[3].item[0].answerOption[0].valueCoding.display = "E-Mail"

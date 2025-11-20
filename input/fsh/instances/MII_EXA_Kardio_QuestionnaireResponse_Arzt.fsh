@@ -1,6 +1,10 @@
 Instance: MII-EXA-Kardio-QuestionnaireResponse-Arzt
 InstanceOf: QuestionnaireResponse
-* id = "5497857"
+
+Title: "MII EXA Kardio QuestionnaireResponse Arzt"
+Description: "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Arztes/Ärztin"
+Usage: #example
+
 * status = #completed
 * subject = Reference(Beispielpatient)
 * authored = "2025-11-20T14:07:36.673Z"

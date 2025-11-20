@@ -1,6 +1,6 @@
 {
   "resourceType": "QuestionnaireResponse",
-  "id": "5497855",
+  "id": "MII-EXA-Kardio-QuestionnaireResponse-Patient",
   "status": "completed",
   "subject": {
     "reference": "Patient/Beispielpatient"

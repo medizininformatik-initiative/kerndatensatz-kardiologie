@@ -275,6 +275,38 @@
       },
       {
         "reference": {
+          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Andere"
+        },
+        "name": "MII EXA Kardio QuestionnaireResponse Andere",
+        "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht einer Anderen-Person (hier: Study Nurse)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Angehoerige"
+        },
+        "name": "MII EXA Kardio QuestionnaireResponse Angehoerige",
+        "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Angehörigen",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Arzt"
+        },
+        "name": "MII EXA Kardio QuestionnaireResponse Arzt",
+        "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Arztes/Ärztin",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Patient"
+        },
+        "name": "MII EXA Kardio QuestionnaireResponse Patient",
+        "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Patienten/in",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Observation/mii-exa-kardio-raucherstatus"
         },
         "name": "MII EXA Kardio Raucherstatus",
@@ -664,34 +696,6 @@
         "name": "MII VS Kardio Rauchen AcribisAlpha",
         "description": "Kombiniertes ValueSet mit Codes zur Abbildung des Rauchverhaltens im Kontext von Acribis",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/5497858"
-        },
-        "name": "MII-EXA-Kardio-QuestionnaireResponse-Andere",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/5497853"
-        },
-        "name": "MII-EXA-Kardio-QuestionnaireResponse-Angehoerige",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/5497857"
-        },
-        "name": "MII-EXA-Kardio-QuestionnaireResponse-Arzt",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/5497855"
-        },
-        "name": "MII-EXA-Kardio-QuestionnaireResponse-Patient",
-        "exampleBoolean": true
       },
       {
         "reference": {

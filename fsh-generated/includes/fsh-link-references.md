@@ -25,6 +25,10 @@
 [mii-exa-kardio-mrs]: Observation-mii-exa-kardio-mrs.html
 [mii-exa-kardio-nbg-schrittmachermodus]: DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.html
 [mii-exa-kardio-pci-nein]: Observation-mii-exa-kardio-pci-nein.html
+[MII-EXA-Kardio-QuestionnaireResponse-Andere]: QuestionnaireResponse-MII-EXA-Kardio-QuestionnaireResponse-Andere.html
+[MII-EXA-Kardio-QuestionnaireResponse-Angehoerige]: QuestionnaireResponse-MII-EXA-Kardio-QuestionnaireResponse-Angehoerige.html
+[MII-EXA-Kardio-QuestionnaireResponse-Arzt]: QuestionnaireResponse-MII-EXA-Kardio-QuestionnaireResponse-Arzt.html
+[MII-EXA-Kardio-QuestionnaireResponse-Patient]: QuestionnaireResponse-MII-EXA-Kardio-QuestionnaireResponse-Patient.html
 [mii-exa-kardio-raucherstatus]: Observation-mii-exa-kardio-raucherstatus.html
 [mii-exa-kardio-raucherstatus-acribisalpha]: Observation-mii-exa-kardio-raucherstatus-acribisalpha.html
 [mii-exa-kardio-rolle-kardiologe]: PractitionerRole-mii-exa-kardio-rolle-kardiologe.html
@@ -74,9 +78,5 @@
 [MII_VS_Kardio_Nein_Unbekannt]: ValueSet-mii-vs-kardio-nein-unbekannt.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMEDCT]: ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html
 [MII_VS_Kardio_Rauchen_AcribisAlpha]: ValueSet-mii-vs-kardio-rauchen-acribisalpha.html
-[5497858]: QuestionnaireResponse-5497858.html
-[5497853]: QuestionnaireResponse-5497853.html
-[5497857]: QuestionnaireResponse-5497857.html
-[5497855]: QuestionnaireResponse-5497855.html
 [MII_CS_Kardio_Follow_Up]: CodeSystem-mii-cs-kardio-follow-up.html
 [MII_CS_Kardio_Modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html

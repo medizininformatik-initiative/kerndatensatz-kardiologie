@@ -67,14 +67,6 @@
       },
       {
         "reference": {
-          "reference": "Questionnaire/MII-QN-Kardio-ExampleQN"
-        },
-        "name": "ExampleQN",
-        "description": "Beispiel / Test der Implementation eines Fragebogen als FHIR R4 Questionnaire.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-Ereignis"
         },
         "name": "MII CS Kardio Atherosklerotisches Ereignis",

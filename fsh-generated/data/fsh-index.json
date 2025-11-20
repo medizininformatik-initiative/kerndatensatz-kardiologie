@@ -269,15 +269,7 @@
     "fshType": "Instance",
     "fshFile": "questionnaire/MII_QN_Kardio_Acribis_Study_FollowUp.fsh",
     "startLine": 1,
-    "endLine": 951
-  },
-  {
-    "outputFile": "Questionnaire-MII-QN-Kardio-ExampleQN.json",
-    "fshName": "MII-QN-Kardio-ExampleQN",
-    "fshType": "Instance",
-    "fshFile": "questionnaire/MII_QN_Kardio_ExampleQN.fsh",
-    "startLine": 1,
-    "endLine": 316
+    "endLine": 982
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json",

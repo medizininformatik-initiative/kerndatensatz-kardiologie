@@ -459,14 +459,6 @@
               "enableWhen": [
                 {
                   "answerCoding": {
-                    "code": "4",
-                    "display": "Andere Person"
-                  },
-                  "question": "o_1",
-                  "operator": "="
-                },
-                {
-                  "answerCoding": {
                     "code": "VERBAL",
                     "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
                   },
@@ -618,14 +610,6 @@
                 }
               ],
               "enableWhen": [
-                {
-                  "answerCoding": {
-                    "code": "4",
-                    "display": "Andere Person"
-                  },
-                  "question": "o_1",
-                  "operator": "="
-                },
                 {
                   "answerCoding": {
                     "code": "WRITTEN",
@@ -906,8 +890,8 @@
                     "coding": [
                       {
                         "system": "http://hl7.org/fhir/questionnaire-item-control",
-                        "code": "drop-down",
-                        "display": "Drop down"
+                        "code": "radio-button",
+                        "display": "Radio Button"
                       }
                     ]
                   },
@@ -969,8 +953,8 @@
                 "coding": [
                   {
                     "system": "http://hl7.org/fhir/questionnaire-item-control",
-                    "code": "drop-down",
-                    "display": "Drop down"
+                    "code": "radio-button",
+                    "display": "Radio Button"
                   }
                 ]
               },
@@ -1078,177 +1062,76 @@
       "repeats": false
     },
     {
+      "type": "display",
+      "linkId": "943114148728",
+      "text": "Sehr geehrte Teilnehmende, die folgenden Fragen beziehen sich auf Diagnosen, Krankenhausaufenthalte oder auch Behandlungen die seit Ihrer Teilnahme an der ACRIBiS Studie vor einem Jahr stattfanden. Diese Nachfolgebefragung dient dem Zweck festzustellen in wie weit sich der Gesundheitszustand des/der Probanden/in geändert hat und in wie weit diese Veränderungen Ihr Wohlbefinden beeinflusst haben. Die Teilnahme an der Studie fand am \"Datum Einschluß\" statt."
+    },
+    {
       "item": [
         {
-          "type": "display",
-          "linkId": "o_infobox_zeitraum",
-          "prefix": "Infobox Zeitraum:",
-          "text": "Sehr geehrte Teilnehmende, die folgenden Fragen beziehen sich auf Diagnosen, Krankenhausaufenthalte oder auch Behandlungen die seit Ihrer Teilnahme an der ACRIBiS Studie vor einem Jahr stattfanden. Diese Nachfolgebefragung dient dem Zweck festzustellen in wie weit sich der Gesundheitszustand des/der Probanden/in geändert hat und in wie weit diese Veränderungen Ihr Wohlbefinden beeinflusst haben. Die Teilnahme an der Studie fand am \"Datum Einschluß\" statt."
-        },
-        {
           "item": [
             {
-              "code": [
+              "item": [
                 {
-                  "system": "http://snomed.info/sct",
-                  "code": "432213005",
-                  "display": "Date of diagnosis"
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "432213005",
+                      "display": "Date of diagnosis"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "answerCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "question": "o_3",
+                      "operator": "="
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "o_3a",
+                  "text": "Wann wurde der Herzinfarkt diagnostiziert?",
+                  "enableBehavior": "all",
+                  "repeats": true
                 }
               ],
-              "enableWhen": [
-                {
-                  "answerCoding": {
-                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "Y",
-                    "display": "Ja"
-                  },
-                  "question": "o_3",
-                  "operator": "="
-                }
-              ],
-              "type": "date",
-              "linkId": "o_3a",
-              "text": "Wann wurde der Herzinfarkt diagnostiziert?",
-              "enableBehavior": "all",
-              "repeats": false
-            }
-          ],
-          "extension": [
-            {
-              "valueCodeableConcept": {
-                "coding": [
-                  {
-                    "system": "http://hl7.org/fhir/questionnaire-item-control",
-                    "code": "radio-button",
-                    "display": "Radio Button"
-                  }
-                ]
-              },
-              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
-            }
-          ],
-          "code": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "22298006",
-              "display": "Myocardial infarction"
-            }
-          ],
-          "answerOption": [
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "Y",
-                "display": "Ja"
-              }
-            },
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "N",
-                "display": "Nein"
-              }
-            },
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "ASKU",
-                "display": "Unbekannt"
-              }
-            },
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "NASK",
-                "display": "Nicht erhoben"
-              },
-              "initialSelected": true
-            }
-          ],
-          "type": "choice",
-          "linkId": "o_3",
-          "text": "Wurde ein Herzinfarkt diagnostiziert?",
-          "repeats": true
-        },
-        {
-          "item": [
-            {
-              "code": [
-                {
-                  "system": "http://snomed.info/sct",
-                  "code": "432213005",
-                  "display": "Date of diagnosis"
-                }
-              ],
-              "enableWhen": [
-                {
-                  "answerCoding": {
-                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "Y",
-                    "display": "Ja"
-                  },
-                  "question": "o_4",
-                  "operator": "="
-                }
-              ],
-              "type": "date",
-              "linkId": "o_4a",
-              "text": "Wann wurde der Schlaganfall / die Erkrankung der Hirngefäße diagnostiziert?",
-              "enableBehavior": "all",
-              "repeats": false
-            },
-            {
               "extension": [
                 {
                   "valueCodeableConcept": {
                     "coding": [
                       {
                         "system": "http://hl7.org/fhir/questionnaire-item-control",
-                        "code": "drop-down",
-                        "display": "Drop down"
+                        "code": "radio-button",
+                        "display": "Radio Button"
                       }
                     ]
                   },
                   "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
                 }
               ],
-              "enableWhen": [
+              "code": [
                 {
-                  "answerCoding": {
-                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "Y",
-                    "display": "Ja"
-                  },
-                  "question": "o_4",
-                  "operator": "="
+                  "system": "http://snomed.info/sct",
+                  "code": "22298006",
+                  "display": "Myocardial infarction"
                 }
               ],
               "answerOption": [
                 {
                   "valueCoding": {
-                    "system": "http://snomed.info/sct",
-                    "code": "422504002",
-                    "display": "Schlaganfall durch Gefässverschluss"
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
                   }
                 },
                 {
                   "valueCoding": {
-                    "system": "http://snomed.info/sct",
-                    "code": "274100004",
-                    "display": "Hirnblutung (intrazerebral)"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "system": "http://snomed.info/sct",
-                    "code": "21454007",
-                    "display": "Hirnblutung (subarachnoidal)"
-                  }
-                },
-                {
-                  "valueCoding": {
-                    "code": "hirnblutung__intrazerebral_oder_subarachnoidal",
-                    "display": "Hirnblutung (intrazerebral oder subarachnoidal)"
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "N",
+                    "display": "Nein"
                   }
                 },
                 {
@@ -1268,69 +1151,182 @@
                 }
               ],
               "type": "choice",
-              "linkId": "o_4b",
-              "text": "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?",
-              "enableBehavior": "all"
+              "linkId": "o_3",
+              "text": "Wurde ein Herzinfarkt diagnostiziert?",
+              "repeats": false
             }
           ],
-          "extension": [
-            {
-              "valueCodeableConcept": {
-                "coding": [
-                  {
-                    "system": "http://hl7.org/fhir/questionnaire-item-control",
-                    "code": "radio-button",
-                    "display": "Radio Button"
-                  }
-                ]
-              },
-              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
-            }
-          ],
-          "answerOption": [
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "Y",
-                "display": "Ja"
-              }
-            },
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "N",
-                "display": "Nein"
-              }
-            },
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "ASKU",
-                "display": "Unbekannt"
-              }
-            },
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "NASK",
-                "display": "Nicht erhoben"
-              },
-              "initialSelected": true
-            }
-          ],
-          "type": "choice",
-          "linkId": "o_4",
-          "text": "Wurde ein Schlaganfall oder Erkrankung der Hirngefäße diagnostiziert?",
-          "repeats": true
+          "type": "group",
+          "linkId": "834093031358",
+          "text": "Herzinfarkt",
+          "repeats": false
         },
         {
           "item": [
             {
-              "type": "display",
-              "linkId": "o_infobox_starke_blutung",
-              "prefix": "Infobox Starke Blutung:",
-              "text": "Gemeint sind im Folgenden innere Blutung, oder spontane äussere Blutungen, die ohne (starke) äusserliche Krafteinwirkung ausgelöst worden sind, wie starkes Nasenbluten oder Magen-Darmblutung beispielsweise."
-            },
+              "item": [
+                {
+                  "item": [
+                    {
+                      "extension": [
+                        {
+                          "valueCodeableConcept": {
+                            "coding": [
+                              {
+                                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                                "code": "drop-down",
+                                "display": "Drop down"
+                              }
+                            ]
+                          },
+                          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "answerCoding": {
+                            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                            "code": "Y",
+                            "display": "Ja"
+                          },
+                          "question": "o_4",
+                          "operator": "="
+                        }
+                      ],
+                      "answerOption": [
+                        {
+                          "valueCoding": {
+                            "system": "http://snomed.info/sct",
+                            "code": "422504002",
+                            "display": "Schlaganfall durch Gefässverschluss"
+                          }
+                        },
+                        {
+                          "valueCoding": {
+                            "system": "http://snomed.info/sct",
+                            "code": "274100004",
+                            "display": "Hirnblutung (intrazerebral)"
+                          }
+                        },
+                        {
+                          "valueCoding": {
+                            "system": "http://snomed.info/sct",
+                            "code": "21454007",
+                            "display": "Hirnblutung (subarachnoidal)"
+                          }
+                        },
+                        {
+                          "valueCoding": {
+                            "code": "hirnblutung__intrazerebral_oder_subarachnoidal",
+                            "display": "Hirnblutung (intrazerebral oder subarachnoidal)"
+                          }
+                        },
+                        {
+                          "valueCoding": {
+                            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                            "code": "ASKU",
+                            "display": "Unbekannt"
+                          }
+                        },
+                        {
+                          "valueCoding": {
+                            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                            "code": "NASK",
+                            "display": "Nicht erhoben"
+                          },
+                          "initialSelected": true
+                        }
+                      ],
+                      "type": "choice",
+                      "linkId": "o_4b",
+                      "text": "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    }
+                  ],
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "432213005",
+                      "display": "Date of diagnosis"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "answerCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "question": "o_4",
+                      "operator": "="
+                    }
+                  ],
+                  "type": "date",
+                  "linkId": "o_4a",
+                  "text": "Wann wurde der Schlaganfall / die Erkrankung der Hirngefäße diagnostiziert?",
+                  "enableBehavior": "all",
+                  "repeats": true
+                }
+              ],
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "radio-button",
+                        "display": "Radio Button"
+                      }
+                    ]
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                }
+              ],
+              "answerOption": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "N",
+                    "display": "Nein"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "ASKU",
+                    "display": "Unbekannt"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "NASK",
+                    "display": "Nicht erhoben"
+                  },
+                  "initialSelected": true
+                }
+              ],
+              "type": "choice",
+              "linkId": "o_4",
+              "text": "Wurde ein Schlaganfall oder Erkrankung der Hirngefäße diagnostiziert?",
+              "repeats": false
+            }
+          ],
+          "type": "group",
+          "linkId": "650578614260",
+          "text": "Schlaganfall oder Hirnblutung",
+          "repeats": false
+        },
+        {
+          "item": [
             {
               "item": [
                 {
@@ -1356,7 +1352,7 @@
                   "linkId": "o_5a",
                   "text": "Wann trat(en) diese starke Blutung(en) auf?",
                   "enableBehavior": "all",
-                  "repeats": false
+                  "repeats": true
                 }
               ],
               "extension": [
@@ -1414,7 +1410,27 @@
               "type": "choice",
               "linkId": "o_5",
               "text": "Trat eine starke spontane Blutung (Starke Blutung, siehe Infobox) auf, die diagnostiziert wurde und ärztlch behandelt werden musste?",
-              "repeats": true
+              "repeats": false
+            },
+            {
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "help",
+                        "display": "Help-Button"
+                      }
+                    ],
+                    "text": "Help-Button"
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                }
+              ],
+              "linkId": "881254946120_helpText",
+              "type": "display",
+              "text": "Gemeint sind im Folgenden innere Blutung, oder spontane äussere Blutungen, die ohne (starke) äusserliche Krafteinwirkung ausgelöst worden sind, wie starkes Nasenbluten oder Magen-Darmblutung beispielsweise."
             }
           ],
           "type": "group",
@@ -1424,12 +1440,6 @@
         },
         {
           "item": [
-            {
-              "type": "display",
-              "linkId": "877536769611",
-              "prefix": "Infobox TIA:",
-              "text": "Transiente Ischämische Attacke oder TIA ist eine Art \"Vorstufe zu einem Schlaganfall\" bzw. \"Mini\"-Schlaganfall genannte Unterversorgng des Gehirns bei dem es zur zeitweisen Verlust von Sprache, Lähmungen oder auch sonstige Symptome von Schlaganfällen kommen, die sich jedoch innerhalb eines Tages und meist vollkommen zurückbilden."
-            },
             {
               "item": [
                 {
@@ -1455,7 +1465,7 @@
                   "linkId": "o_6a",
                   "text": "Wann wurde die Transiente Ischämische Attacke (TIA) diagnostiziert?",
                   "enableBehavior": "all",
-                  "repeats": false
+                  "repeats": true
                 }
               ],
               "extension": [
@@ -1513,7 +1523,27 @@
               "type": "choice",
               "linkId": "o_6",
               "text": "Wurde eine Transiente Ischämische Attacke (TIA, siehe Infobox) diagnostiziert?",
-              "repeats": true
+              "repeats": false
+            },
+            {
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "help",
+                        "display": "Help-Button"
+                      }
+                    ],
+                    "text": "Help-Button"
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                }
+              ],
+              "linkId": "245973210113_helpText",
+              "type": "display",
+              "text": "Transiente Ischämische Attacke oder TIA ist eine Art \"Vorstufe zu einem Schlaganfall\" bzw. \"Mini\"-Schlaganfall genannte Unterversorgng des Gehirns bei dem es zur zeitweisen Verlust von Sprache, Lähmungen oder auch sonstige Symptome von Schlaganfällen kommen, die sich jedoch innerhalb eines Tages und meist vollkommen zurückbilden."
             }
           ],
           "type": "group",
@@ -1548,7 +1578,7 @@
                   "linkId": "o_7a",
                   "text": "Wann wurde das Vorhofflimmern diagnostiziert?",
                   "enableBehavior": "all",
-                  "repeats": false
+                  "repeats": true
                 }
               ],
               "extension": [
@@ -1606,7 +1636,7 @@
               "type": "choice",
               "linkId": "o_7",
               "text": "Wurde ein Vorhofflimmern (dauerhaft oder anfallsartig) diagnostiziert?",
-              "repeats": true
+              "repeats": false
             }
           ],
           "type": "group",
@@ -1616,12 +1646,6 @@
         },
         {
           "item": [
-            {
-              "type": "display",
-              "linkId": "o_infobox_herzinsuffizienz",
-              "prefix": "Infobox Herzinsuffizienz:",
-              "text": "Bei einer Herzinsuffizienz -die auch Herzschwäche genannt wird- hat das Herz nicht mehr genügend Kraft ausreichend Blut durch den Körper zu pumpen und es kommt zu einer zunehmend verminderten körperlichen Belastbarkeit, vermehrte Luftnot oder Einlagerung von Flüssigkeit (z.B. in den Beinen). Das kann zu behandlungsbedürftigen Zuständen führen, die mit Krankenhausaufenthalten verbunden sind."
-            },
             {
               "item": [
                 {
@@ -1647,7 +1671,21 @@
                   "linkId": "o_8a",
                   "text": "Wann wurde die Herzinsuffizienz diagnostiziert?",
                   "enableBehavior": "all",
-                  "repeats": false
+                  "repeats": true
+                }
+              ],
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "radio-button",
+                        "display": "Radio Button"
+                      }
+                    ]
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
                 }
               ],
               "code": [
@@ -1684,13 +1722,14 @@
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "NASK",
                     "display": "Nicht erhoben"
-                  }
+                  },
+                  "initialSelected": true
                 }
               ],
               "type": "choice",
               "linkId": "o_8",
               "text": "Wurde eine Herzinsuffizienz (Herzschwäche, siehe Infobox) diagnostiziert?",
-              "repeats": true
+              "repeats": false
             },
             {
               "item": [
@@ -1716,7 +1755,8 @@
                   "type": "integer",
                   "linkId": "o_9a",
                   "text": "Wie häufig war aus diesem Grund im letzten Jahr im Krankenhaus notwendig?",
-                  "enableBehavior": "all"
+                  "enableBehavior": "all",
+                  "repeats": false
                 },
                 {
                   "code": [
@@ -1742,6 +1782,20 @@
                   "text": "Wann kam es wegen eine Verschlechterung der Herzinsuffizienz zu einer stationären Aufnahme im Krankenhaus?",
                   "enableBehavior": "all",
                   "repeats": true
+                }
+              ],
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "radio-button",
+                        "display": "Radio Button"
+                      }
+                    ]
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
                 }
               ],
               "answerOption": [
@@ -1771,13 +1825,34 @@
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "NASK",
                     "display": "Nicht erhoben"
-                  }
+                  },
+                  "initialSelected": true
                 }
               ],
               "type": "choice",
               "linkId": "o_9",
               "text": "Wurden der Proband/die Probandin aufgrund einer Verschlechterung Ihrer Herzinsuffizienz (siehe Infobox) im letzten Jahr im Krankenhaus behandelt?",
               "repeats": false
+            },
+            {
+              "extension": [
+                {
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
+                        "code": "help",
+                        "display": "Help-Button"
+                      }
+                    ],
+                    "text": "Help-Button"
+                  },
+                  "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                }
+              ],
+              "linkId": "944193442011_helpText",
+              "type": "display",
+              "text": "Bei einer Herzinsuffizienz -die auch Herzschwäche genannt wird- hat das Herz nicht mehr genügend Kraft ausreichend Blut durch den Körper zu pumpen und es kommt zu einer zunehmend verminderten körperlichen Belastbarkeit, vermehrte Luftnot oder Einlagerung von Flüssigkeit (z.B. in den Beinen). Das kann zu behandlungsbedürftigen Zuständen führen, die mit Krankenhausaufenthalten verbunden sind."
             }
           ],
           "type": "group",
@@ -1790,130 +1865,153 @@
             {
               "item": [
                 {
-                  "code": [
+                  "item": [
                     {
-                      "system": "http://snomed.info/sct",
-                      "code": "432213005",
-                      "display": "Date of diagnosis"
+                      "code": [
+                        {
+                          "system": "http://snomed.info/sct",
+                          "code": "432213005",
+                          "display": "Date of diagnosis"
+                        }
+                      ],
+                      "enableWhen": [
+                        {
+                          "question": "o_10a",
+                          "operator": "exists",
+                          "answerBoolean": true
+                        }
+                      ],
+                      "type": "date",
+                      "linkId": "o_10b",
+                      "text": "Wann wurde diese Erkrankung diagnostiziert?",
+                      "enableBehavior": "all",
+                      "repeats": false
+                    },
+                    {
+                      "extension": [
+                        {
+                          "valueCodeableConcept": {
+                            "coding": [
+                              {
+                                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                                "code": "help",
+                                "display": "Help-Button"
+                              }
+                            ],
+                            "text": "Help-Button"
+                          },
+                          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+                        }
+                      ],
+                      "linkId": "o_10a_helpText",
+                      "type": "display",
+                      "text": "Angabe aus SNOMED-CT (Unterelemente von \"Disorder of cardiovascular system (disorder)\")"
                     }
                   ],
-                  "enableWhen": [
-                    {
-                      "question": "o_10a",
-                      "operator": "exists",
-                      "answerBoolean": true
-                    }
-                  ],
-                  "type": "date",
-                  "linkId": "o_10b",
-                  "text": "Wann wurde diese Erkrankung diagnostiziert?",
-                  "enableBehavior": "all",
-                  "repeats": false
-                },
-                {
                   "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-preferredTerminologyServer",
+                      "valueUrl": "https://snowstorm.ihtsdotools.org/fhir"
+                    },
                     {
                       "valueCodeableConcept": {
                         "coding": [
                           {
                             "system": "http://hl7.org/fhir/questionnaire-item-control",
-                            "code": "help",
-                            "display": "Help-Button"
+                            "code": "autocomplete",
+                            "display": "Auto-complete"
                           }
-                        ],
-                        "text": "Help-Button"
+                        ]
                       },
                       "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
                     }
                   ],
-                  "linkId": "o_10a_helpText",
-                  "type": "display",
-                  "text": "Angabe als Code aus dem System: snomed ct"
+                  "code": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "439401001",
+                      "display": "Diagnosis"
+                    }
+                  ],
+                  "enableWhen": [
+                    {
+                      "answerCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "question": "o_10",
+                      "operator": "="
+                    }
+                  ],
+                  "type": "open-choice",
+                  "linkId": "o_10a",
+                  "text": "Um welche weitere Herz-Kreislauf-Erkrankung handelt es sich?",
+                  "enableBehavior": "all",
+                  "repeats": true,
+                  "answerValueSet": "http://snomed.info/sct/900000000000207008/version/20251201?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C"
                 }
               ],
               "extension": [
-                {
-                  "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-preferredTerminologyServer",
-                  "valueUrl": "https://snowstorm.ihtsdotools.org/fhir"
-                },
                 {
                   "valueCodeableConcept": {
                     "coding": [
                       {
                         "system": "http://hl7.org/fhir/questionnaire-item-control",
-                        "code": "autocomplete",
-                        "display": "Auto-complete"
+                        "code": "radio-button",
+                        "display": "Radio Button"
                       }
                     ]
                   },
                   "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
                 }
               ],
-              "code": [
+              "answerOption": [
                 {
-                  "system": "http://snomed.info/sct",
-                  "code": "439401001",
-                  "display": "Diagnosis"
-                }
-              ],
-              "enableWhen": [
-                {
-                  "answerCoding": {
+                  "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "Y",
                     "display": "Ja"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "N",
+                    "display": "Nein"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "ASKU",
+                    "display": "Unbekannt"
+                  }
+                },
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "NASK",
+                    "display": "Nicht erhoben"
                   },
-                  "question": "o_10",
-                  "operator": "="
+                  "initialSelected": true
                 }
               ],
               "type": "choice",
-              "linkId": "o_10a",
-              "text": "Um welche weiteren Herz-Kreislauf-Erkrankungen handelt es sich?",
-              "enableBehavior": "all",
-              "repeats": false,
-              "answerValueSet": "http://snomed.info/sct/900000000000207008/version/20251201?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C"
+              "linkId": "o_10",
+              "text": "Wurden weitere Herz-Kreislauf-Erkrankungen diagnostiziert?",
+              "repeats": false
             }
           ],
-          "answerOption": [
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "Y",
-                "display": "Ja"
-              }
-            },
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "N",
-                "display": "Nein"
-              }
-            },
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "ASKU",
-                "display": "Unbekannt"
-              }
-            },
-            {
-              "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "NASK",
-                "display": "Nicht erhoben"
-              }
-            }
-          ],
-          "type": "choice",
-          "linkId": "o_10",
-          "text": "Wurde eine weitere Herz-Kreislauf-Erkrankung diagnostiziert?",
-          "repeats": true
+          "type": "group",
+          "linkId": "442060932628",
+          "text": "Weitere Herz-Kreislauf-Erkrankung",
+          "repeats": false
         }
       ],
       "type": "group",
       "linkId": "group4",
-      "text": "Diagnosen im letzten Jahr",
+      "text": "Diagnosen im letzten Jahr (seit Teilnahme an der Acribis-Studie)",
       "repeats": false
     },
     {
@@ -1975,18 +2073,17 @@
           "linkId": "o_11",
           "text": "Wie wurde das Follow-Up erhoben?",
           "repeats": false
-        },
-        {
-          "type": "display",
-          "linkId": "504755903209",
-          "prefix": "Infobox QoL-Fragebögen",
-          "text": "Im Kontext der Follow-Up Befragung der Acribis-Studie ist vorgesehen, dass, neben den in diesem Fragebogen enthaltenen Follow-Up-Fragen, auch Quality of Life (QoL) Fragebögen befüllt werden. Konkret handelt es sich um PROMIS-29 und EQ-5D-5L."
         }
       ],
       "type": "group",
       "linkId": "101636668393",
       "text": "Allgemeine Angaben 2",
       "repeats": false
+    },
+    {
+      "type": "display",
+      "linkId": "504755903209",
+      "text": "Im Kontext der Follow-Up-Befragung der Acribis-Studie ist vorgesehen, dass neben den in diesem Fragebogen enthaltenen Follow-Up-Fragen auch Quality-of-Life-(QoL)-Fragebögen befüllt werden. Konkret handelt es sich um PROMIS-29 und EQ-5D-5L."
     }
   ],
   "version": "2026.0.0-alpha.1",

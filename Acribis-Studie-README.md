@@ -40,7 +40,7 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 
 | Fragebogentyp     | Profilname         | Beschreibung                                         | Example |
 |-------------------|--------------------|------------------------------------------------------|---------|
-| Acribis-FollowUp  | [Acribis Study FollowUp](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-qn-kardio-acribis-study-followup)         | Bildet die Items des Acribis-FollowUp-Fragebogens ab. Bildet ebenfalls die Follow-Up Kontaktierung ab. Perspektiven: Patient/Angehöriger und Arzt/Andere(Study Nurse o.ä.) | work-in-progress |
+| Acribis-FollowUp  | [Acribis Study FollowUp](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-qn-kardio-acribis-study-followup)         | Bildet die Items des Acribis-FollowUp-Fragebogens ab. Bildet ebenfalls die Follow-Up Kontaktierung ab. Perspektiven: Patient/Angehöriger und Arzt/Andere(Study Nurse o.ä.) | Sicht: [Patient](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/MII-EXA-Kardio-QuestionnaireResponse-Patient/~overview), [Angehörige/r](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-questionnaireresponse-angehoerige), [Arzt/Ärztin](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-questionnaireresponse-arzt), [Andere, z.B. Study Nurse](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii-exa-kardio-questionnaireresponse-andere) |
 | EQ-5D-5L          | QoL-Fragebogen 1   | Siehe Modul PRO [[2026 IG Link](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_PRO/MIIIGModulPRO-PRO-Bibliothek-EQ-5D-5L.html)]                                     | [2025 QuestionnaireResponse-Example](https://simplifier.net/mii-erweiterungsmodul-pro-2025/mii-exa-pro-euroqol-eq5d5l-coded-response) |
 | PROMIS-29         | QoL-Fragebogen 2   | Siehe Modul PRO [[2026 IG Link](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_PRO/MIIIGModulPRO-PRO-Bibliothek-PROMIS.html)] | [2025 Questionnaire-Example](https://simplifier.net/MII-Erweiterungsmodul-PRO-2025/mii-qst-pro-promis-29/~overview) |
 
@@ -63,4 +63,5 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 | Device            | EKG Gerät       | Profil zur Abbildung eines EKG-Gerätes. |
 | DeviceDefinition  | EKG Gerätedefinition | Profil zur Abbildung einer EKG-Gerätedefinition (Gerätetyp oder Modell). |
 | Device            | EKG Kanal       | Profil zur Abbildung eines EKG-Kanals. |
+
 

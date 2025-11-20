@@ -1,0 +1,442 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "5497853",
+  "item": [
+    {
+      "item": [
+        {
+          "answer": [
+            {
+              "valueCoding": {
+                "code": "2",
+                "display": "Angehöriger/Angehörige"
+              }
+            }
+          ],
+          "linkId": "o_1",
+          "text": "Wer füllt den Fragebogen aus?"
+        }
+      ],
+      "linkId": "group1",
+      "text": "Allgemeine Angaben"
+    },
+    {
+      "item": [
+        {
+          "answer": [
+            {
+              "valueCoding": {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                "code": "Y",
+                "display": "Ja"
+              },
+              "item": [
+                {
+                  "answer": [
+                    {
+                      "valueDate": "2025-11-20"
+                    }
+                  ],
+                  "linkId": "o_2a",
+                  "text": "Wann ist die Patientin/der Patient verstorben?"
+                },
+                {
+                  "answer": [
+                    {
+                      "valueCoding": {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                        "code": "Y",
+                        "display": "Ja"
+                      },
+                      "item": [
+                        {
+                          "answer": [
+                            {
+                              "valueCoding": {
+                                "system": "http://snomed.info/sct",
+                                "code": "21454007",
+                                "display": "Hirnblutung (subarachnoidal)"
+                              }
+                            }
+                          ],
+                          "linkId": "o_2c",
+                          "text": "Welche der im Antwortschema aufgeführten Herz-Kreislauf-bedingten Todesursachen lag vor?"
+                        }
+                      ]
+                    }
+                  ],
+                  "linkId": "o_2b",
+                  "text": "Ist eine Herz-Kreislauf-Erkrankung als Todesursache fesgestellt worden?"
+                }
+              ]
+            }
+          ],
+          "linkId": "o_2",
+          "text": "Ist die Patientin/der Patient verstorben?"
+        }
+      ],
+      "linkId": "group3",
+      "text": "Vitalstatus"
+    },
+    {
+      "item": [
+        {
+          "item": [
+            {
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "item": [
+                    {
+                      "answer": [
+                        {
+                          "valueDate": "2025-08-11"
+                        },
+                        {
+                          "valueDate": "2025-07-08"
+                        }
+                      ],
+                      "linkId": "o_3a",
+                      "text": "Wann wurde der Herzinfarkt diagnostiziert?"
+                    }
+                  ]
+                }
+              ],
+              "linkId": "o_3",
+              "text": "Wurde ein Herzinfarkt diagnostiziert?"
+            }
+          ],
+          "linkId": "834093031358",
+          "text": "Herzinfarkt"
+        },
+        {
+          "item": [
+            {
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "item": [
+                    {
+                      "answer": [
+                        {
+                          "item": [
+                            {
+                              "answer": [
+                                {
+                                  "valueCoding": {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "422504002",
+                                    "display": "Schlaganfall durch Gefässverschluss"
+                                  }
+                                }
+                              ],
+                              "linkId": "o_4b",
+                              "text": "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?"
+                            }
+                          ],
+                          "valueDate": "2025-11-04"
+                        },
+                        {
+                          "item": [
+                            {
+                              "answer": [
+                                {
+                                  "valueCoding": {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "21454007",
+                                    "display": "Hirnblutung (subarachnoidal)"
+                                  }
+                                }
+                              ],
+                              "linkId": "o_4b",
+                              "text": "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?"
+                            }
+                          ],
+                          "valueDate": "2025-06-10"
+                        }
+                      ],
+                      "linkId": "o_4a",
+                      "text": "Wann wurde der Schlaganfall / die Erkrankung der Hirngefäße diagnostiziert?"
+                    }
+                  ]
+                }
+              ],
+              "linkId": "o_4",
+              "text": "Wurde ein Schlaganfall oder Erkrankung der Hirngefäße diagnostiziert?"
+            }
+          ],
+          "linkId": "650578614260",
+          "text": "Schlaganfall oder Hirnblutung"
+        },
+        {
+          "item": [
+            {
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "item": [
+                    {
+                      "answer": [
+                        {
+                          "valueDate": "2025-11-03"
+                        },
+                        {
+                          "valueDate": "2025-11-04"
+                        }
+                      ],
+                      "linkId": "o_5a",
+                      "text": "Wann trat(en) diese starke Blutung(en) auf?"
+                    }
+                  ]
+                }
+              ],
+              "linkId": "o_5",
+              "text": "Trat eine starke spontane Blutung (Starke Blutung, siehe Infobox) auf, die diagnostiziert wurde und ärztlch behandelt werden musste?"
+            }
+          ],
+          "linkId": "881254946120",
+          "text": "Starke Blutung"
+        },
+        {
+          "item": [
+            {
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "item": [
+                    {
+                      "answer": [
+                        {
+                          "valueDate": "2024-11-20"
+                        },
+                        {
+                          "valueDate": "2024-12-11"
+                        }
+                      ],
+                      "linkId": "o_6a",
+                      "text": "Wann wurde die Transiente Ischämische Attacke (TIA) diagnostiziert?"
+                    }
+                  ]
+                }
+              ],
+              "linkId": "o_6",
+              "text": "Wurde eine Transiente Ischämische Attacke (TIA, siehe Infobox) diagnostiziert?"
+            }
+          ],
+          "linkId": "245973210113",
+          "text": "TIA"
+        },
+        {
+          "item": [
+            {
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "item": [
+                    {
+                      "answer": [
+                        {
+                          "valueDate": "2025-11-17"
+                        },
+                        {
+                          "valueDate": "2025-11-05"
+                        }
+                      ],
+                      "linkId": "o_7a",
+                      "text": "Wann wurde das Vorhofflimmern diagnostiziert?"
+                    }
+                  ]
+                }
+              ],
+              "linkId": "o_7",
+              "text": "Wurde ein Vorhofflimmern (dauerhaft oder anfallsartig) diagnostiziert?"
+            }
+          ],
+          "linkId": "826742623985",
+          "text": "Vorhofflimmern"
+        },
+        {
+          "item": [
+            {
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "item": [
+                    {
+                      "answer": [
+                        {
+                          "valueDate": "2025-11-11"
+                        },
+                        {
+                          "valueDate": "2025-11-06"
+                        }
+                      ],
+                      "linkId": "o_8a",
+                      "text": "Wann wurde die Herzinsuffizienz diagnostiziert?"
+                    }
+                  ]
+                }
+              ],
+              "linkId": "o_8",
+              "text": "Wurde eine Herzinsuffizienz (Herzschwäche, siehe Infobox) diagnostiziert?"
+            },
+            {
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "item": [
+                    {
+                      "answer": [
+                        {
+                          "valueInteger": 3
+                        }
+                      ],
+                      "linkId": "o_9a",
+                      "text": "Wie häufig war aus diesem Grund im letzten Jahr im Krankenhaus notwendig?"
+                    },
+                    {
+                      "answer": [
+                        {
+                          "valueDate": "2025-07-07"
+                        },
+                        {
+                          "valueDate": "2025-08-13"
+                        },
+                        {
+                          "valueDate": "2025-11-19"
+                        }
+                      ],
+                      "linkId": "o_9b",
+                      "text": "Wann kam es wegen eine Verschlechterung der Herzinsuffizienz zu einer stationären Aufnahme im Krankenhaus?"
+                    }
+                  ]
+                }
+              ],
+              "linkId": "o_9",
+              "text": "Wurden der Proband/die Probandin aufgrund einer Verschlechterung Ihrer Herzinsuffizienz (siehe Infobox) im letzten Jahr im Krankenhaus behandelt?"
+            }
+          ],
+          "linkId": "944193442011",
+          "text": "Herzinsuffizienz"
+        },
+        {
+          "item": [
+            {
+              "answer": [
+                {
+                  "valueCoding": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "code": "Y",
+                    "display": "Ja"
+                  },
+                  "item": [
+                    {
+                      "answer": [
+                        {
+                          "valueCoding": {
+                            "system": "http://snomed.info/sct",
+                            "code": "307409006",
+                            "display": "Ischemic finger"
+                          },
+                          "item": [
+                            {
+                              "answer": [
+                                {
+                                  "valueDate": "2025-11-10"
+                                }
+                              ],
+                              "linkId": "o_10b",
+                              "text": "Wann wurde diese Erkrankung diagnostiziert?"
+                            }
+                          ]
+                        },
+                        {
+                          "valueCoding": {
+                            "system": "http://snomed.info/sct",
+                            "code": "387842002",
+                            "display": "Neoplasm of heart"
+                          },
+                          "item": [
+                            {
+                              "answer": [
+                                {
+                                  "valueDate": "2025-06-09"
+                                }
+                              ],
+                              "linkId": "o_10b",
+                              "text": "Wann wurde diese Erkrankung diagnostiziert?"
+                            }
+                          ]
+                        }
+                      ],
+                      "linkId": "o_10a",
+                      "text": "Um welche weitere Herz-Kreislauf-Erkrankung handelt es sich?"
+                    }
+                  ]
+                }
+              ],
+              "linkId": "o_10",
+              "text": "Wurden weitere Herz-Kreislauf-Erkrankungen diagnostiziert?"
+            }
+          ],
+          "linkId": "442060932628",
+          "text": "Weitere Herz-Kreislauf-Erkrankung"
+        }
+      ],
+      "linkId": "group4",
+      "text": "Diagnosen im letzten Jahr (seit Teilnahme an der Acribis-Studie)"
+    },
+    {
+      "item": [
+        {
+          "answer": [
+            {
+              "valueCoding": {
+                "system": "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html",
+                "code": "APPWRIT",
+                "display": "App"
+              }
+            }
+          ],
+          "linkId": "o_11",
+          "text": "Wie wurde das Follow-Up erhoben?"
+        }
+      ],
+      "linkId": "101636668393",
+      "text": "Allgemeine Angaben 2"
+    }
+  ],
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/Beispielpatient"
+  },
+  "authored": "2025-11-20T13:55:45.733Z"
+}

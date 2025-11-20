@@ -74,5 +74,9 @@
 [MII_VS_Kardio_Nein_Unbekannt]: ValueSet-mii-vs-kardio-nein-unbekannt.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMEDCT]: ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html
 [MII_VS_Kardio_Rauchen_AcribisAlpha]: ValueSet-mii-vs-kardio-rauchen-acribisalpha.html
+[5497858]: QuestionnaireResponse-5497858.html
+[5497853]: QuestionnaireResponse-5497853.html
+[5497857]: QuestionnaireResponse-5497857.html
+[5497855]: QuestionnaireResponse-5497855.html
 [MII_CS_Kardio_Follow_Up]: CodeSystem-mii-cs-kardio-follow-up.html
 [MII_CS_Kardio_Modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html

@@ -667,6 +667,34 @@
       },
       {
         "reference": {
+          "reference": "QuestionnaireResponse/5497858"
+        },
+        "name": "MII-EXA-Kardio-QuestionnaireResponse-Andere",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/5497853"
+        },
+        "name": "MII-EXA-Kardio-QuestionnaireResponse-Angehoerige",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/5497857"
+        },
+        "name": "MII-EXA-Kardio-QuestionnaireResponse-Arzt",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/5497855"
+        },
+        "name": "MII-EXA-Kardio-QuestionnaireResponse-Patient",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-follow-up"
         },
         "name": "MII_CS_Follow_Up",

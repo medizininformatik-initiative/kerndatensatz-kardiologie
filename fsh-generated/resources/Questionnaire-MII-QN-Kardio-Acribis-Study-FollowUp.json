@@ -537,19 +537,19 @@
                 {
                   "item": [
                     {
-                      "type": "string",
+                      "type": "dateTime",
                       "linkId": "354842802717",
                       "text": "ggf. Telefonat 1. Versuch (Tag 35 bis 42)",
                       "repeats": false
                     },
                     {
-                      "type": "string",
+                      "type": "dateTime",
                       "linkId": "638025827421",
                       "text": "ggf. Telefonat 2. Versuch (Tag 35 bis 42)",
                       "repeats": false
                     },
                     {
-                      "type": "string",
+                      "type": "dateTime",
                       "linkId": "283707904427",
                       "text": "ggf. Telefonat 3. Versuch (Tag 35 bis 42)",
                       "repeats": false

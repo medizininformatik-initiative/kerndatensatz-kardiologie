@@ -15,6 +15,8 @@ Stufe 3: Abbildung der gesamten Kardiologie
 
 > Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 07.11.2025). Die aktuelle [Mapping-Hilfe-Tabelle ist im Github-Wiki](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/Mapping%E2%80%90Hilfe) verfügbar. Einzelne Codes fehlen noch und werden sukzessive ergänzt (insbesondere SNOMED CT für Mapping von Fragebogen auf FHIR-Profile).
 
+---
+
 ## Übersicht - KDS Modul Kardio Profile <> Acribis-Datenitems (in Stufe 1)
 Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_Kernscores_V4.1.1".
 
@@ -64,4 +66,23 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 | DeviceDefinition  | EKG Gerätedefinition | Profil zur Abbildung einer EKG-Gerätedefinition (Gerätetyp oder Modell). |
 | Device            | EKG Kanal       | Profil zur Abbildung eines EKG-Kanals. |
 
+---
+
+## FAQ --> Eigene Frage nicht gefunden? Frage jetzt im [MII ZULIP-Chat](https://mii.zulipchat.com/#narrow/channel/505571-MII-KDS-Kardio/topic/Kanalereignisse/with/520042531) stellen!
+Die FAQ sammeln die während des Anlaufs der Nutzung aufgekommen Fragen zu den Profilen
+
+### Profil LVEF: Wie ist die Methode der LVEF-Messung im Profil abbildbar?
+Profil: [MII PR Kardio Linksventrikulaere Ejektionsfraktion](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_linksventrikulaere_ejektionsfraktion)
+Updates: Für das Alpha.2-Package soll das Profil Anfang Dez 2025 überarbeitet werden. Ein Slicing von Observation.method könnte eine technisch relevante Anpassung sein.
+Beschreibung: Das Item "Observation.method" erlaubt die Angabe eines CodeableConcepts, wie bspw. SNOMED CT oder LOINC.
+
+### Profil Anzahl Krankenhausaufenthalte wegen Verschlechterung der Herzinsuffizienz: Warum habe ich einen Validierungsfehler bezüglich des im Profil verwendeten Codes?
+Profil: [MII PR Kardio Anzahl KH Aufenthalte wg HF]([Link](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_anzahl_kh_aufenthalte_wg_hf))
+Updates: Für das Alpha.2-Package wird der Observation.code aktualisiert.
+Beschreibung: Der im Alpha.1-Package verwendete Code wurde aktualisiert (s. [Issue](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/29)). Mit Alpha.2 sollte das Profil dann korrekt validieren. Im Simplifier ist das überarbeitete Profil einsehbar, die Überarbeitung ist aber noch nicht Teil eines Releases.
+
+### Profil X: Platzhalter?
+Profil: [Title](Link)
+Updates: keine
+Beschreibung:
 

@@ -109,7 +109,7 @@
                     {
                       "code": [
                         {
-                          "system": "http://snomed.info/sct",
+                          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                           "code": "385668008",
                           "display": "Success of action"
                         }
@@ -138,7 +138,7 @@
                     {
                       "code": [
                         {
-                          "system": "http://snomed.info/sct",
+                          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                           "code": "385668008",
                           "display": "Success of action"
                         }
@@ -175,7 +175,7 @@
                     {
                       "code": [
                         {
-                          "system": "http://snomed.info/sct",
+                          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                           "code": "385668008",
                           "display": "Success of action"
                         }
@@ -225,7 +225,7 @@
                     {
                       "code": [
                         {
-                          "system": "http://snomed.info/sct",
+                          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                           "code": "385668008",
                           "display": "Success of action"
                         }
@@ -262,7 +262,7 @@
                     {
                       "code": [
                         {
-                          "system": "http://snomed.info/sct",
+                          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                           "code": "385668008",
                           "display": "Success of action"
                         }
@@ -299,7 +299,7 @@
                     {
                       "code": [
                         {
-                          "system": "http://snomed.info/sct",
+                          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                           "code": "385668008",
                           "display": "Success of action"
                         }
@@ -349,7 +349,7 @@
                     {
                       "code": [
                         {
-                          "system": "http://snomed.info/sct",
+                          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                           "code": "385668008",
                           "display": "Success of action"
                         }
@@ -386,7 +386,7 @@
                     {
                       "code": [
                         {
-                          "system": "http://snomed.info/sct",
+                          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                           "code": "385668008",
                           "display": "Success of action"
                         }
@@ -423,7 +423,7 @@
                     {
                       "code": [
                         {
-                          "system": "http://snomed.info/sct",
+                          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                           "code": "385668008",
                           "display": "Success of action"
                         }
@@ -759,7 +759,7 @@
             {
               "code": [
                 {
-                  "system": "http://snomed.info/sct",
+                  "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                   "code": "399753006",
                   "display": "Date of death"
                 }
@@ -804,7 +804,7 @@
                   ],
                   "code": [
                     {
-                      "system": "http://snomed.info/sct",
+                      "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                       "code": "184305005",
                       "display": "Cause of death"
                     }
@@ -823,28 +823,28 @@
                   "answerOption": [
                     {
                       "valueCoding": {
-                        "system": "http://snomed.info/sct",
+                        "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                         "code": "22298006",
                         "display": "Herzinfarkt"
                       }
                     },
                     {
                       "valueCoding": {
-                        "system": "http://snomed.info/sct",
+                        "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                         "code": "422504002",
                         "display": "Schlaganfall durch Gefäßverschluss"
                       }
                     },
                     {
                       "valueCoding": {
-                        "system": "http://snomed.info/sct",
+                        "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                         "code": "274100004",
                         "display": "Hirnblutung (intrazerebral)"
                       }
                     },
                     {
                       "valueCoding": {
-                        "system": "http://snomed.info/sct",
+                        "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                         "code": "21454007",
                         "display": "Hirnblutung (subarachnoidal)"
                       }
@@ -871,7 +871,7 @@
                     {
                       "valueCoding": {
                         "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                        "code": "NASK",
+                        "code": "UNK",
                         "display": "Nicht erhoben"
                       },
                       "initialSelected": true
@@ -934,7 +934,7 @@
                 {
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "NASK",
+                    "code": "UNK",
                     "display": "Nicht erhoben"
                   },
                   "initialSelected": true
@@ -963,7 +963,7 @@
           ],
           "code": [
             {
-              "system": "http://snomed.info/sct",
+              "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
               "code": "419099009",
               "display": "Deceased"
             }
@@ -1016,7 +1016,7 @@
             {
               "valueCoding": {
                 "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                "code": "NASK",
+                "code": "UNK",
                 "display": "Nicht erhoben"
               },
               "initialSelected": true
@@ -1075,7 +1075,7 @@
                 {
                   "code": [
                     {
-                      "system": "http://snomed.info/sct",
+                      "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                       "code": "432213005",
                       "display": "Date of diagnosis"
                     }
@@ -1114,7 +1114,7 @@
               ],
               "code": [
                 {
-                  "system": "http://snomed.info/sct",
+                  "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                   "code": "22298006",
                   "display": "Myocardial infarction"
                 }
@@ -1144,7 +1144,7 @@
                 {
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "NASK",
+                    "code": "UNK",
                     "display": "Nicht erhoben"
                   },
                   "initialSelected": true
@@ -1196,21 +1196,21 @@
                       "answerOption": [
                         {
                           "valueCoding": {
-                            "system": "http://snomed.info/sct",
+                            "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                             "code": "422504002",
                             "display": "Schlaganfall durch Gefässverschluss"
                           }
                         },
                         {
                           "valueCoding": {
-                            "system": "http://snomed.info/sct",
+                            "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                             "code": "274100004",
                             "display": "Hirnblutung (intrazerebral)"
                           }
                         },
                         {
                           "valueCoding": {
-                            "system": "http://snomed.info/sct",
+                            "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                             "code": "21454007",
                             "display": "Hirnblutung (subarachnoidal)"
                           }
@@ -1231,7 +1231,7 @@
                         {
                           "valueCoding": {
                             "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                            "code": "NASK",
+                            "code": "UNK",
                             "display": "Nicht erhoben"
                           },
                           "initialSelected": true
@@ -1246,7 +1246,7 @@
                   ],
                   "code": [
                     {
-                      "system": "http://snomed.info/sct",
+                      "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                       "code": "432213005",
                       "display": "Date of diagnosis"
                     }
@@ -1308,7 +1308,7 @@
                 {
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "NASK",
+                    "code": "UNK",
                     "display": "Nicht erhoben"
                   },
                   "initialSelected": true
@@ -1332,7 +1332,7 @@
                 {
                   "code": [
                     {
-                      "system": "http://snomed.info/sct",
+                      "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                       "code": "432213005",
                       "display": "Date of diagnosis"
                     }
@@ -1371,9 +1371,9 @@
               ],
               "code": [
                 {
-                  "system": "http://snomed.info/sct",
-                  "code": "===_131148009_|Bleeding_(finding)|+_64572001_|Disease_(disorder)|_:{_116676008_|Associated_morphology_(attribute)|_=_50960005_|Hemorrhage_(morphologic_abnormality)|_}_{_42752001_|Due_to_(attribute)|_=_789750003_|Spontaneous_event_(event)|_}_{_246112005_|_Severity_(attribute)|_=_24484000_|Severe_(severity_modifier)_(qualifier_value)|_}",
-                  "display": "(Severe) Spontaneous Bleeding "
+                  "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
+                  "code": "131148009+64572001:{116676008=50960005,42752001=789750003,246112005=24484000}",
+                  "display": "(Severe) Spontaneous Bleeding"
                 }
               ],
               "answerOption": [
@@ -1401,7 +1401,7 @@
                 {
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "NASK",
+                    "code": "UNK",
                     "display": "Nicht erhoben"
                   },
                   "initialSelected": true
@@ -1445,7 +1445,7 @@
                 {
                   "code": [
                     {
-                      "system": "http://snomed.info/sct",
+                      "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                       "code": "432213005",
                       "display": "Date of diagnosis"
                     }
@@ -1484,7 +1484,7 @@
               ],
               "code": [
                 {
-                  "system": "http://snomed.info/sct",
+                  "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                   "code": "266257000",
                   "display": "Transient ischemic attack"
                 }
@@ -1514,7 +1514,7 @@
                 {
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "NASK",
+                    "code": "UNK",
                     "display": "Nicht erhoben"
                   },
                   "initialSelected": true
@@ -1558,7 +1558,7 @@
                 {
                   "code": [
                     {
-                      "system": "http://snomed.info/sct",
+                      "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                       "code": "432213005",
                       "display": "Date of diagnosis"
                     }
@@ -1597,7 +1597,7 @@
               ],
               "code": [
                 {
-                  "system": "http://snomed.info/sct",
+                  "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                   "code": "49436004",
                   "display": "Atrial fibrillation"
                 }
@@ -1627,7 +1627,7 @@
                 {
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "NASK",
+                    "code": "UNK",
                     "display": "Nicht erhoben"
                   },
                   "initialSelected": true
@@ -1651,7 +1651,7 @@
                 {
                   "code": [
                     {
-                      "system": "http://snomed.info/sct",
+                      "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                       "code": "432213005",
                       "display": "Date of diagnosis"
                     }
@@ -1690,7 +1690,7 @@
               ],
               "code": [
                 {
-                  "system": "http://snomed.info/sct",
+                  "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                   "code": "48447003",
                   "display": "Chronic heart failure"
                 }
@@ -1720,7 +1720,7 @@
                 {
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "NASK",
+                    "code": "UNK",
                     "display": "Nicht erhoben"
                   },
                   "initialSelected": true
@@ -1736,7 +1736,7 @@
                 {
                   "code": [
                     {
-                      "system": "http://snomed.info/sct",
+                      "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                       "code": "298060002",
                       "display": "Number of admissions"
                     }
@@ -1761,7 +1761,7 @@
                 {
                   "code": [
                     {
-                      "system": "http://snomed.info/sct",
+                      "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                       "code": "399423000",
                       "display": "Date of admission"
                     }
@@ -1823,7 +1823,7 @@
                 {
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "NASK",
+                    "code": "UNK",
                     "display": "Nicht erhoben"
                   },
                   "initialSelected": true
@@ -1869,7 +1869,7 @@
                     {
                       "code": [
                         {
-                          "system": "http://snomed.info/sct",
+                          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                           "code": "432213005",
                           "display": "Date of diagnosis"
                         }
@@ -1928,7 +1928,7 @@
                   ],
                   "code": [
                     {
-                      "system": "http://snomed.info/sct",
+                      "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
                       "code": "439401001",
                       "display": "Diagnosis"
                     }
@@ -1991,7 +1991,7 @@
                 {
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "NASK",
+                    "code": "UNK",
                     "display": "Nicht erhoben"
                   },
                   "initialSelected": true
@@ -2034,28 +2034,28 @@
           "answerOption": [
             {
               "valueCoding": {
-                "system": "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
                 "code": "EMAILWRIT",
                 "display": "E-Mail"
               }
             },
             {
               "valueCoding": {
-                "system": "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
                 "code": "MAILWRIT",
                 "display": "Postalisch"
               }
             },
             {
               "valueCoding": {
-                "system": "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
                 "code": "PHONE",
                 "display": "Telefonisch"
               }
             },
             {
               "valueCoding": {
-                "system": "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
                 "code": "APPWRIT",
                 "display": "App"
               }

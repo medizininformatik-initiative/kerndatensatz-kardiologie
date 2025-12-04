@@ -5,7 +5,7 @@ Usage: #definition
 * insert Version
 * insert Instance_Publisher
 * name = "MII_QN_Kardio_Acribis_Study_FollowUp"                          // Technischer Name (PascalCase empfohlen)
-* title = "Acribis Study FollowUp"                                       // Titel zur Anzeige
+* title = "MII QN Kardio Acribis Study FollowUp"                         // Titel zur Anzeige
 * status = #draft                                                        // #draft | #active | #retired | #unknown
 * experimental = true                                                    // true = fuer experimentellen Gebrauch, sonst false
 * date = "2025-11-17"  
@@ -666,7 +666,7 @@ Usage: #definition
 * item[3].item[2].item[0].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[3].item[2].item[0].linkId = "o_5"
 * item[3].item[2].item[0].code[0].system = $sct
-* item[3].item[2].item[0].code[0].code = #131148009+(64572001:{116676008=50960005,42752001=789750003,246112005=24484000})
+* item[3].item[2].item[0].code[0].code = #64572001:(116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000)
 * item[3].item[2].item[0].code[0].display = "(Severe) Spontaneous Bleeding"
 * item[3].item[2].item[0].text = "Trat eine starke spontane Blutung (Starke Blutung, siehe Infobox) auf, die diagnostiziert wurde und ärztlch behandelt werden musste?"
 * item[3].item[2].item[0].repeats = false

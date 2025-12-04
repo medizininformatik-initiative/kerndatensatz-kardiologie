@@ -65,14 +65,6 @@
     "resource": [
       {
         "reference": {
-          "reference": "Questionnaire/MII-QN-Kardio-Acribis-Study-FollowUp"
-        },
-        "name": "Acribis Study FollowUp",
-        "description": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-Ereignis"
         },
         "name": "MII CS Kardio Atherosklerotisches Ereignis",
@@ -517,6 +509,14 @@
         },
         "name": "MII PR Kardio Score NYHA",
         "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/MII-QN-Kardio-Acribis-Study-FollowUp"
+        },
+        "name": "MII QN Kardio Acribis Study FollowUp",
+        "description": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
         "exampleBoolean": false
       },
       {

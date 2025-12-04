@@ -1372,7 +1372,7 @@
               "code": [
                 {
                   "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240701",
-                  "code": "131148009+64572001:{116676008=50960005,42752001=789750003,246112005=24484000}",
+                  "code": "64572001:(116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000)",
                   "display": "(Severe) Spontaneous Bleeding"
                 }
               ],
@@ -2089,7 +2089,7 @@
   "version": "2026.0.0-alpha.1",
   "publisher": "Medizininformatik Initiative",
   "name": "MII_QN_Kardio_Acribis_Study_FollowUp",
-  "title": "Acribis Study FollowUp",
+  "title": "MII QN Kardio Acribis Study FollowUp",
   "status": "draft",
   "experimental": true,
   "date": "2025-11-17",

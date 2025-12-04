@@ -25,12 +25,13 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-   de.basisprofil.r4: 1.5.4 # für Extension Dokumentationsdatum
-   de.medizininformatikinitiative.kerndatensatz.icu: 2025.0.4 #2024.0.0-alpha2 ## für koerpergewicht und 
-   de.medizininformatikinitiative.kerndatensatz.diagnose: 2025.0.0 # für Kardio Diagnose
-   de.medizininformatikinitiative.kerndatensatz.prozedur: 2025.0.0 # für Kardio Prozedur Implantation
+  de.basisprofil.r4: 1.5.4 # für Extension Dokumentationsdatum
+  de.medizininformatikinitiative.kerndatensatz.icu: 2025.0.4 #2024.0.0-alpha2 ## für koerpergewicht und 
+  de.medizininformatikinitiative.kerndatensatz.diagnose: 2025.0.1 # für Kardio Diagnose #update von 2025.0.0
+  de.medizininformatikinitiative.kerndatensatz.prozedur: 2025.0.1 # für Kardio Prozedur Implantation #update von 2025.0.0
+  de.medizininformatikinitiative.kerndatensatz.meta: 2026.0.0 # hinzugefuegt
+  de.gematik.isik: 5.1.0 #update von de.gematik.isik-basismodul: 4.0.3
 #   de.gematik.isik-vitalparameter: 4.0.2 #für lvef
-   de.gematik.isik-basismodul: 4.0.3
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can

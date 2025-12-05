@@ -81,18 +81,18 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-klappenvitium-supplement-snomedct"
-        },
-        "name": "MII CS Kardio Klappenvitium Supplement [SNOMED CT]",
-        "description": "Supplement für die Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
         },
         "name": "MII CS Kardio Lebensmittelpunkt",
         "description": "Lebensmittelpunkt des Patienten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-modul-supplement-snomedct"
+        },
+        "name": "MII CS Kardio Modul Supplement [SNOMED CT]",
+        "description": "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul Kardiologie.",
         "exampleBoolean": false
       },
       {

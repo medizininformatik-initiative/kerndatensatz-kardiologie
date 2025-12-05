@@ -24,14 +24,6 @@
     "endLine": 15
   },
   {
-    "outputFile": "CodeSystem-mii-cs-kardio-klappenvitium-supplement-snomedct.json",
-    "fshName": "MII_CS_Kardio_Klappenvitium_Supplement_SNOMEDCT",
-    "fshType": "CodeSystem",
-    "fshFile": "codesystems/MII_CS_Kardio_Klappenvitium_Supplement_SNOMEDCT.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
     "outputFile": "CodeSystem-mii-cs-kardio-lebensmittelpunkt.json",
     "fshName": "MII_CS_Kardio_Lebensmittelpunkt",
     "fshType": "CodeSystem",
@@ -46,6 +38,14 @@
     "fshFile": "codesystems/MII_CS_Kardio_Modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
     "endLine": 30
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-kardio-modul-supplement-snomedct.json",
+    "fshName": "MII_CS_Kardio_Modul_Supplement_SNOMEDCT",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/MII_CS_Kardio_Modul_Supplement_SNOMEDCT.fsh",
+    "startLine": 1,
+    "endLine": 19
   },
   {
     "outputFile": "CodeSystem-mii-cs-kardio-rauchen-einheiten.json",
@@ -269,7 +269,7 @@
     "fshType": "Instance",
     "fshFile": "questionnaire/MII_QN_Kardio_Acribis_Study_FollowUp.fsh",
     "startLine": 1,
-    "endLine": 982
+    "endLine": 919
   },
   {
     "outputFile": "QuestionnaireResponse-MII-EXA-Kardio-QuestionnaireResponse-Andere.json",
@@ -277,7 +277,7 @@
     "fshType": "Instance",
     "fshFile": "instances/MII_EXA_Kardio_QuestionnaireResponse_Andere.fsh",
     "startLine": 1,
-    "endLine": 244
+    "endLine": 231
   },
   {
     "outputFile": "QuestionnaireResponse-MII-EXA-Kardio-QuestionnaireResponse-Angehoerige.json",
@@ -285,7 +285,7 @@
     "fshType": "Instance",
     "fshFile": "instances/MII_EXA_Kardio_QuestionnaireResponse_Angehoerige.fsh",
     "startLine": 1,
-    "endLine": 155
+    "endLine": 146
   },
   {
     "outputFile": "QuestionnaireResponse-MII-EXA-Kardio-QuestionnaireResponse-Arzt.json",
@@ -293,7 +293,7 @@
     "fshType": "Instance",
     "fshFile": "instances/MII_EXA_Kardio_QuestionnaireResponse_Arzt.fsh",
     "startLine": 1,
-    "endLine": 217
+    "endLine": 207
   },
   {
     "outputFile": "QuestionnaireResponse-MII-EXA-Kardio-QuestionnaireResponse-Patient.json",
@@ -301,7 +301,7 @@
     "fshType": "Instance",
     "fshFile": "instances/MII_EXA_Kardio_QuestionnaireResponse_Patient.fsh",
     "startLine": 1,
-    "endLine": 135
+    "endLine": 127
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json",

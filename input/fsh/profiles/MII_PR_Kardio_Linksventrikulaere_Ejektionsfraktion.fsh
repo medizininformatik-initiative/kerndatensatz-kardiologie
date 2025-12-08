@@ -11,15 +11,14 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 
 * ^status = #active
 * ^experimental = true
-* ^date = "2025-09-04"
+* ^date = "2025-12-08"
 
 * obeys vs-de-2 and mii-icu-1 // If there is no component or hasMember element then either a value[x] or a data absent reason must be present
 
-* identifier MS
-
 * partOf only Reference(Procedure) //Procedure Echokardiographie
-* status MS
-* status ^comment = "Motivation MS: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung"
+* partOf ^comment = "Angabe einer übergeordnete (Echokardiographie-) Prozedur"
+
+* status ^comment = "Dieses Feld dient der Präzisierung des Status der Untersuchung"
 
 // Category
 * category 1.. MS
@@ -27,9 +26,9 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * category ^slicing.discriminator.path = "$this"
 * category ^slicing.rules = #open
 * category contains 
-    vs-cat 1..1 MS
+    vs-cat 0..1 MS
 * category[vs-cat] = $observation-category#imaging
-* category[vs-cat] ^comment = "Category 'imaging', da meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen."
+* category[vs-cat] ^comment = "Category 'imaging', da LVEF meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen."
 
 * code MS
 // * code obeys code-coding-icu  // code-coding-icu: Es muss mindestens ein snomed oder loinc code vorhanden sein
@@ -40,59 +39,46 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * code.coding contains
     sct 1..* MS and
     loinc 1..* MS
-
 * code.coding[sct] = $sct#250908004 // Left ventricular ejection fraction (observable entity)
 * code.coding[loinc] = $loinc#10230-1 // Left ventricular Ejection fraction
 
 * subject 1.. MS
 * subject only Reference(Patient)
 
-* encounter MS
-
 * effective[x] 1.. MS
 * effective[x] only dateTime //or Period //Grundsätzlich wäre eine Period als Zeitangabe denkbar - in Acribis ist (evtl. vorläufig) ein fixes Datum einfacher zu händeln
 
-* performer MS
-* performer ^comment = "Motivation MS: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
-
 * value[x] MS
-* value[x] only Quantity // Es kann sein, dass eine Angabe im Arztbrief bspw. als "eingeschränkt" o.ä. erfolgt. Das ist derzeit im Profil nicht vorgesehen.
-* value[x].value 1.. MS
-* value[x].unit 1.. MS
-* value[x].system 1.. MS
-* value[x].code 1.. MS
-* valueQuantity MS // TODO learn how patterns work and how the are used
+* value[x] only Quantity // Es kann sein, dass eine Angabe im Arztbrief bspw. mit Wert "eingeschränkt" o.ä. erfolgt. Das ist derzeit im Profil nicht vorgesehen.
+* value[x].value 1..
+* value[x].unit 1..
+* value[x].system 1..
+* value[x].code 1..
+// Pattern
+* valueQuantity MS
 * valueQuantity.unit = "percent"
 * valueQuantity.system = $ucum
 * valueQuantity.code = $ucum#%
 
-* dataAbsentReason MS
-
-// Intepretation - ValueSet für high/low/normal (preferred?) als Referenzbereich
-* interpretation MS
-
-* bodySite MS
 //* bodySite from $vs-mii-icu-bodysite-observation-monitoring-und-vitaldaten (extensible)
 
-// TODO Methode?? per Loinc, per "method"?
+// Verwendete Berechnungsmethode
 * method MS
-* method ^comment = "Motivation MS: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit"
+* method ^comment = "Angabe der für die Ermittlung/Berechnung verwendeten Methode (2D,Simpson,3D,CMR, etc.) als SNOMED CT oder als LOINC-Code."
 
-* device MS
-
-// TODO refernzbereichsangaben prüfen
+// TODO Refernzbereichsangaben prüfen - nicht relevant fuer Kernscores in Acribis-Studie
 * referenceRange ^slicing.discriminator.type = #value
 * referenceRange ^slicing.discriminator.path = "text"
 * referenceRange ^slicing.rules = #closed
 * referenceRange ^slicing.ordered = true
 * referenceRange ^slicing.description = "Referenzbereiche LVEF vgl. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure."
-* referenceRange MS
+* referenceRange 
 
 // Leitlinie: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (ESC - European Society of Cardiology)
 * referenceRange contains
-    normal 0..1 MS and
-    mild 0..1 MS and
-    reduced 0..1 MS
+    normal 0..1 and
+    mild 0..1 and
+    reduced 0..1
 // Normal >=50. HFpEF nicht sinnvoll abgrenzbar.
 * referenceRange[normal].text = "Normal"
 * referenceRange[normal].low.value = 50

@@ -9,9 +9,12 @@ Description: "Profil zur Abbildung eines implantierten Herzschrittmachers, Defib
 
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-09-05"
+* ^date = "2025-12-08"
 
 * status MS
+
+* expirationDate MS
+* expirationDate ^comment = "Dieses Feld kann (ergänzend zum Status) genutzt werden, um anzugeben, dass ein Gerät nicht mehr verwendbar ist oder seit wann es nicht mehr verwendet wird. In solchen Fällen sollte davon ausgegangen werden, dass das Gerät nicht mehr implantiert ist und daher bei der Bestimmung aktuell implantierter Geräte nicht berücksichtigt werden sollte."
 
 * type from MII_VS_Kardio_Geraetetyp_SNOMEDCT (required)
 * type 1.. MS
@@ -25,4 +28,4 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **RVAD**: 360065002 - Right ventricular assist device (physical object)
  - **BiVAD**: 360057000 - Biventricular assist device (physical object)"
 
-* patient 1.. MS
+* patient MS

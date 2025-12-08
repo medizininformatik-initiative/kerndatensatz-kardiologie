@@ -38,33 +38,31 @@
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.diagnose",
-      "version": "2025.0.0",
+      "version": "2025.0.1",
       "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ImplementationGuide/mii-ig-diagnose",
       "id": "de_medizininformatikinitiative_kerndatensatz_diagnose"
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.prozedur",
-      "version": "2025.0.0",
+      "version": "2025.0.1",
       "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ImplementationGuide/mii-ig-prozedur",
       "id": "de_medizininformatikinitiative_kerndatensatz_prozedur"
     },
     {
-      "packageId": "de.gematik.isik-basismodul",
-      "version": "4.0.3",
-      "uri": "http://fhir.org/packages/de.gematik.isik-basismodul/ImplementationGuide/de.gematik.isik-basismodul",
-      "id": "de_gematik_isik_basismodul"
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.meta",
+      "version": "2026.0.0",
+      "uri": "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
+      "id": "de_medizininformatikinitiative_kerndatensatz_meta"
+    },
+    {
+      "packageId": "de.gematik.isik",
+      "version": "5.1.0",
+      "uri": "http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik",
+      "id": "de_gematik_isik"
     }
   ],
   "definition": {
     "resource": [
-      {
-        "reference": {
-          "reference": "Questionnaire/MII-QN-Kardio-Acribis-Study-FollowUp"
-        },
-        "name": "Acribis Study FollowUp",
-        "description": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
-        "exampleBoolean": false
-      },
       {
         "reference": {
           "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-Ereignis"
@@ -83,18 +81,18 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-klappenvitium-supplement-snomedct"
-        },
-        "name": "MII CS Kardio Klappenvitium Supplement [SNOMED CT]",
-        "description": "Supplement für die Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
         },
         "name": "MII CS Kardio Lebensmittelpunkt",
         "description": "Lebensmittelpunkt des Patienten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-modul-supplement-snomedct"
+        },
+        "name": "MII CS Kardio Modul Supplement [SNOMED CT]",
+        "description": "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul Kardiologie.",
         "exampleBoolean": false
       },
       {
@@ -366,7 +364,7 @@
           "reference": "StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
         },
         "name": "MII PR Kardio Ausschluss Scoreberechnung",
-        "description": "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis.\r\nVorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
+        "description": "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis.\nVorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
         "exampleBoolean": false
       },
       {
@@ -515,6 +513,14 @@
       },
       {
         "reference": {
+          "reference": "Questionnaire/MII-QN-Kardio-Acribis-Study-FollowUp"
+        },
+        "name": "MII QN Kardio Acribis Study FollowUp",
+        "description": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-allergene-snomedct"
         },
         "name": "MII VS Kardio Allergene [SNOMED CT]",
@@ -574,7 +580,7 @@
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc"
         },
         "name": "MII VS Kardio Geräteprogrammierung [MDC]",
-        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendetd.",
+        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendetd.",
         "exampleBoolean": false
       },
       {

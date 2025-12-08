@@ -2,15 +2,19 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "supplement",
-  "name": "MII_CS_Kardio_Klappenvitium_Supplement_SNOMEDCT",
-  "id": "mii-cs-kardio-klappenvitium-supplement-snomedct",
-  "title": "MII CS Kardio Klappenvitium Supplement [SNOMED CT]",
-  "description": "Supplement für die Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code.",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-klappenvitium-supplement-snomedct",
+  "name": "MII_CS_Kardio_Modul_Supplement_SNOMEDCT",
+  "id": "mii-cs-kardio-modul-supplement-snomedct",
+  "title": "MII CS Kardio Modul Supplement [SNOMED CT]",
+  "description": "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul Kardiologie.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modul-supplement-snomedct",
   "concept": [
     {
       "code": "368009:{116676008=49755003,363698007=17401000}",
       "display": "Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure}"
+    },
+    {
+      "code": "64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000}",
+      "display": "Disease:{Associated morphology=Hemorrhage,Associated with=Bleeding,Due to=Spontaneous event,Severity=Severe}"
     }
   ],
   "version": "2026.0.0-alpha.1",
@@ -26,6 +30,6 @@
     }
   ],
   "experimental": true,
-  "date": "2025-09-24",
+  "date": "2025-12-05",
   "supplements": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
 }

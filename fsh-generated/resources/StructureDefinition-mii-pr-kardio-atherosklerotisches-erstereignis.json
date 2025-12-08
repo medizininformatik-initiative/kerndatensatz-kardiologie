@@ -31,7 +31,7 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "comment": "Code, um anzugeben, welches Ereignis das erste war: \r\nKoronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma.",
+        "comment": "Code, um anzugeben, welches Ereignis das erste war: \nKoronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma.",
         "mustSupport": true,
         "binding": {
           "strength": "preferred",

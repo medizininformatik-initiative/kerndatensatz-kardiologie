@@ -1,6 +1,9 @@
 {
   "resourceType": "QuestionnaireResponse",
   "id": "MII-EXA-Kardio-QuestionnaireResponse-Patient",
+  "subject": {
+    "display": "Beispielpatient"
+  },
   "item": [
     {
       "item": [
@@ -30,16 +33,16 @@
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "Y",
-                    "display": "Ja"
+                    "display": "Yes"
                   },
                   "item": [
                     {
                       "answer": [
                         {
-                          "valueDate": "2025-08-11"
+                          "valueDate": "2025-12-01"
                         },
                         {
-                          "valueDate": "2025-07-08"
+                          "valueDate": "2025-12-15"
                         }
                       ],
                       "linkId": "o_3a",
@@ -63,7 +66,7 @@
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "Y",
-                    "display": "Ja"
+                    "display": "Yes"
                   },
                   "item": [
                     {
@@ -74,9 +77,10 @@
                               "answer": [
                                 {
                                   "valueCoding": {
-                                    "system": "http://snomed.info/sct",
                                     "code": "422504002",
-                                    "display": "Schlaganfall durch Gefässverschluss"
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                                    "display": "Ischemic stroke"
                                   }
                                 }
                               ],
@@ -84,7 +88,7 @@
                               "text": "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?"
                             }
                           ],
-                          "valueDate": "2025-11-04"
+                          "valueDate": "2025-12-01"
                         },
                         {
                           "item": [
@@ -92,9 +96,10 @@
                               "answer": [
                                 {
                                   "valueCoding": {
-                                    "system": "http://snomed.info/sct",
                                     "code": "21454007",
-                                    "display": "Hirnblutung (subarachnoidal)"
+                                    "system": "http://snomed.info/sct",
+                                    "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                                    "display": "Subarachnoid hemorrhage"
                                   }
                                 }
                               ],
@@ -102,7 +107,7 @@
                               "text": "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?"
                             }
                           ],
-                          "valueDate": "2025-06-10"
+                          "valueDate": "2024-12-11"
                         }
                       ],
                       "linkId": "o_4a",
@@ -126,16 +131,16 @@
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "Y",
-                    "display": "Ja"
+                    "display": "Yes"
                   },
                   "item": [
                     {
                       "answer": [
                         {
-                          "valueDate": "2025-11-03"
+                          "valueDate": "2025-09-02"
                         },
                         {
-                          "valueDate": "2025-11-04"
+                          "valueDate": "2025-08-05"
                         }
                       ],
                       "linkId": "o_5a",
@@ -159,16 +164,16 @@
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "Y",
-                    "display": "Ja"
+                    "display": "Yes"
                   },
                   "item": [
                     {
                       "answer": [
                         {
-                          "valueDate": "2024-11-20"
+                          "valueDate": "2025-07-31"
                         },
                         {
-                          "valueDate": "2024-12-11"
+                          "valueDate": "2025-08-06"
                         }
                       ],
                       "linkId": "o_6a",
@@ -192,16 +197,16 @@
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "Y",
-                    "display": "Ja"
+                    "display": "Yes"
                   },
                   "item": [
                     {
                       "answer": [
                         {
-                          "valueDate": "2025-11-17"
+                          "valueDate": "2025-12-02"
                         },
                         {
-                          "valueDate": "2025-11-05"
+                          "valueDate": "2025-07-29"
                         }
                       ],
                       "linkId": "o_7a",
@@ -225,16 +230,16 @@
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "Y",
-                    "display": "Ja"
+                    "display": "Yes"
                   },
                   "item": [
                     {
                       "answer": [
                         {
-                          "valueDate": "2025-11-11"
+                          "valueDate": "2025-07-01"
                         },
                         {
-                          "valueDate": "2025-11-06"
+                          "valueDate": "2025-02-12"
                         }
                       ],
                       "linkId": "o_8a",
@@ -252,7 +257,7 @@
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "Y",
-                    "display": "Ja"
+                    "display": "Yes"
                   },
                   "item": [
                     {
@@ -267,13 +272,13 @@
                     {
                       "answer": [
                         {
-                          "valueDate": "2025-07-07"
+                          "valueDate": "2025-12-02"
                         },
                         {
                           "valueDate": "2025-08-13"
                         },
                         {
-                          "valueDate": "2025-11-19"
+                          "valueDate": "2025-05-13"
                         }
                       ],
                       "linkId": "o_9b",
@@ -297,46 +302,48 @@
                   "valueCoding": {
                     "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "Y",
-                    "display": "Ja"
+                    "display": "Yes"
                   },
                   "item": [
                     {
                       "answer": [
                         {
-                          "valueCoding": {
-                            "system": "http://snomed.info/sct",
-                            "code": "307409006",
-                            "display": "Ischemic finger"
-                          },
                           "item": [
                             {
                               "answer": [
                                 {
-                                  "valueDate": "2025-11-10"
+                                  "valueDate": "2025-12-02"
                                 }
                               ],
                               "linkId": "o_10b",
                               "text": "Wann wurde diese Erkrankung diagnostiziert?"
                             }
-                          ]
+                          ],
+                          "valueCoding": {
+                            "code": "233916004",
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                            "display": "Heart block"
+                          }
                         },
                         {
-                          "valueCoding": {
-                            "system": "http://snomed.info/sct",
-                            "code": "387842002",
-                            "display": "Neoplasm of heart"
-                          },
                           "item": [
                             {
                               "answer": [
                                 {
-                                  "valueDate": "2025-06-09"
+                                  "valueDate": "2025-06-17"
                                 }
                               ],
                               "linkId": "o_10b",
                               "text": "Wann wurde diese Erkrankung diagnostiziert?"
                             }
-                          ]
+                          ],
+                          "valueCoding": {
+                            "code": "307409006",
+                            "system": "http://snomed.info/sct",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                            "display": "Ischemic finger"
+                          }
                         }
                       ],
                       "linkId": "o_10a",
@@ -362,9 +369,9 @@
           "answer": [
             {
               "valueCoding": {
-                "system": "https://terminology.hl7.org/7.0.0/CodeSystem-v3-ParticipationMode.html",
-                "code": "APPWRIT",
-                "display": "App"
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+                "code": "ONLINEWRIT",
+                "display": "online written"
               }
             }
           ],
@@ -377,8 +384,5 @@
     }
   ],
   "status": "completed",
-  "subject": {
-    "reference": "Patient/Beispielpatient"
-  },
   "authored": "2025-11-20T13:57:45.476Z"
 }

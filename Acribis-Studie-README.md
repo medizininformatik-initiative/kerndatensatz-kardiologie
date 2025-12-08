@@ -69,20 +69,35 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 ---
 
 ## FAQ --> Eigene Frage nicht gefunden? Frage jetzt im [MII ZULIP-Chat](https://mii.zulipchat.com/#narrow/channel/505571-MII-KDS-Kardio/topic/Kanalereignisse/with/520042531) stellen!
-Die FAQ sammeln die während des Anlaufs der Nutzung aufgekommen Fragen zu den Profilen
+Die FAQ sammeln die während des Anlaufs der Nutzung aufgekommen Fragen zu den Profilen.
+
+### Wie gebe ich an, ob ein Patient derzeit ein kardiologisches Device implantiert hat?
+Profile:
+- [MII PR Kardio Kardiale Deviceimplantation](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_kardiale_deviceimplantation)  
+- [MII PR Kardio Diagnose Prozedur Nein Unbekannt](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_diagnose_prozedur_nein_unbekannt)
+- [MII PR Kardio Device](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_device)
+
+Updates: Für das Alpha.2-Release wird das Device-Profil aktualisiert.  
+
+Beschreibung: Bevorzugte Implementation als Prozedur. Falls bspw. kein Datum (Procedure.performed[x]) vorliegt, kann dafür eine Data Absent Reason verwendet werden). Bei der Abbildung des Device selbst, kann mittels Status und expirationDate im `Kardio Device`-Profil ebenfalls ausgedrückt werden, inwiefern das Device zum Zeitpunkt der Anamnese für die Acribis-Studie implantiert war.
 
 ### Profil LVEF: Wie ist die Methode der LVEF-Messung im Profil abbildbar?
-Profil: [MII PR Kardio Linksventrikulaere Ejektionsfraktion](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_linksventrikulaere_ejektionsfraktion)
-Updates: Für das Alpha.2-Package soll das Profil Anfang Dez 2025 überarbeitet werden. Ein Slicing von Observation.method könnte eine technisch relevante Anpassung sein.
-Beschreibung: Das Item "Observation.method" erlaubt die Angabe eines CodeableConcepts, wie bspw. SNOMED CT oder LOINC.
+Profil: [MII PR Kardio Linksventrikulaere Ejektionsfraktion](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_linksventrikulaere_ejektionsfraktion)  
 
-### Profil Anzahl Krankenhausaufenthalte wegen Verschlechterung der Herzinsuffizienz: Warum habe ich einen Validierungsfehler bezüglich des im Profil verwendeten Codes?
-Profil: [MII PR Kardio Anzahl KH Aufenthalte wg HF]([Link](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_anzahl_kh_aufenthalte_wg_hf))
-Updates: Für das Alpha.2-Package wird der Observation.code aktualisiert.
-Beschreibung: Der im Alpha.1-Package verwendete Code wurde aktualisiert (s. [Issue](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/29)). Mit Alpha.2 sollte das Profil dann korrekt validieren. Im Simplifier ist das überarbeitete Profil einsehbar, die Überarbeitung ist aber noch nicht Teil eines Releases.
+Updates: Für das Alpha.2-Release wird das Profil aktualisiert. ([#34](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/34))  
 
-### Profil X: Platzhalter?
-Profil: [Title](Link)
-Updates: keine
-Beschreibung:
+Beschreibung: Das Item "Observation.method" erlaubt die Angabe eines CodeableConcepts, wie bspw. SNOMED CT oder LOINC. Für das Alpha.2-Release wird das Profil bezüglich der MS-Angaben etc. überarbeitet.
 
+### Warum habe ich einen Validierungsfehler bezüglich des Observation.Code im Profil zu Krankenhausaufenthalten?
+Profil: [MII PR Kardio Anzahl KH Aufenthalte wg HF]([Link](https://simplifier.net/mii-erweiterungsmodul-kardiologie/mii_pr_kardio_anzahl_kh_aufenthalte_wg_hf))  
+
+Updates: Für das Alpha.2-Release wird das Profil aktualisiert. ([#29](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/29))  
+
+Beschreibung: Der im Alpha.1-Release verwendete Code wurde aktualisiert. Mit Alpha.2 sollte das Profil dann korrekt validieren. Im Simplifier ist das überarbeitete Profil einsehbar, die Überarbeitung ist aber noch nicht Teil eines Releases.
+
+### Template
+Profil: [Profiltitel](Link)  
+
+Updates: keine  
+
+Beschreibung: Text

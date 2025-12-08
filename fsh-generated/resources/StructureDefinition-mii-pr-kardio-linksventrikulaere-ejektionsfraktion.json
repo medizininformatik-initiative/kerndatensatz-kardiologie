@@ -7,7 +7,7 @@
   "title": "MII PR Kardio Linksventrikulaere Ejektionsfraktion",
   "status": "active",
   "experimental": true,
-  "date": "2025-09-04",
+  "date": "2025-12-08",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -49,13 +49,9 @@
         ]
       },
       {
-        "id": "Observation.identifier",
-        "path": "Observation.identifier",
-        "mustSupport": true
-      },
-      {
         "id": "Observation.partOf",
         "path": "Observation.partOf",
+        "comment": "Angabe einer übergeordnete (Echokardiographie-) Prozedur",
         "type": [
           {
             "code": "Reference",
@@ -68,8 +64,7 @@
       {
         "id": "Observation.status",
         "path": "Observation.status",
-        "comment": "Motivation MS: Observation.status ist bereits durch die Kardinalität der Basisklasse Observation erzwungen. Dieses Feld dient der Präzisierung des Status der Untersuchung",
-        "mustSupport": true
+        "comment": "Dieses Feld dient der Präzisierung des Status der Untersuchung"
       },
       {
         "id": "Observation.category",
@@ -90,8 +85,8 @@
         "id": "Observation.category:vs-cat",
         "path": "Observation.category",
         "sliceName": "vs-cat",
-        "comment": "Category 'imaging', da meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen.",
-        "min": 1,
+        "comment": "Category 'imaging', da LVEF meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen.",
+        "min": 0,
         "max": "1",
         "patternCodeableConcept": {
           "coding": [
@@ -162,11 +157,6 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.encounter",
-        "path": "Observation.encounter",
-        "mustSupport": true
-      },
-      {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
         "min": 1,
@@ -175,12 +165,6 @@
             "code": "dateTime"
           }
         ],
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.performer",
-        "path": "Observation.performer",
-        "comment": "Motivation MS: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
         "mustSupport": true
       },
       {
@@ -196,54 +180,30 @@
       {
         "id": "Observation.value[x].value",
         "path": "Observation.value[x].value",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
         "id": "Observation.value[x].unit",
         "path": "Observation.value[x].unit",
         "min": 1,
-        "patternString": "percent",
-        "mustSupport": true
+        "patternString": "percent"
       },
       {
         "id": "Observation.value[x].system",
         "path": "Observation.value[x].system",
         "min": 1,
-        "patternUri": "http://unitsofmeasure.org",
-        "mustSupport": true
+        "patternUri": "http://unitsofmeasure.org"
       },
       {
         "id": "Observation.value[x].code",
         "path": "Observation.value[x].code",
         "min": 1,
-        "patternCode": "%",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.dataAbsentReason",
-        "path": "Observation.dataAbsentReason",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.interpretation",
-        "path": "Observation.interpretation",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.bodySite",
-        "path": "Observation.bodySite",
-        "mustSupport": true
+        "patternCode": "%"
       },
       {
         "id": "Observation.method",
         "path": "Observation.method",
-        "comment": "Motivation MS: Dieses Feld stellt eine präzisierende Angaben zum Zweck der Qualitätsbewertung bereit",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.device",
-        "path": "Observation.device",
+        "comment": "Angabe der für die Ermittlung/Berechnung verwendeten Methode (2D,Simpson,3D,CMR, etc.) als SNOMED CT oder als LOINC-Code.",
         "mustSupport": true
       },
       {
@@ -259,16 +219,14 @@
           "rules": "closed",
           "ordered": true,
           "description": "Referenzbereiche LVEF vgl. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure."
-        },
-        "mustSupport": true
+        }
       },
       {
         "id": "Observation.referenceRange:normal",
         "path": "Observation.referenceRange",
         "sliceName": "normal",
         "min": 0,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Observation.referenceRange:normal.low.value",
@@ -296,8 +254,7 @@
         "path": "Observation.referenceRange",
         "sliceName": "mild",
         "min": 0,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Observation.referenceRange:mild.low.value",
@@ -340,8 +297,7 @@
         "path": "Observation.referenceRange",
         "sliceName": "reduced",
         "min": 0,
-        "max": "1",
-        "mustSupport": true
+        "max": "1"
       },
       {
         "id": "Observation.referenceRange:reduced.high.value",

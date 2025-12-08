@@ -7,7 +7,7 @@
   "title": "MII PR Kardio Device",
   "status": "active",
   "experimental": false,
-  "date": "2025-09-05",
+  "date": "2025-12-08",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -34,6 +34,12 @@
         "mustSupport": true
       },
       {
+        "id": "Device.expirationDate",
+        "path": "Device.expirationDate",
+        "comment": "Dieses Feld kann (ergänzend zum Status) genutzt werden, um anzugeben, dass ein Gerät nicht mehr verwendbar ist oder seit wann es nicht mehr verwendet wird. In solchen Fällen sollte davon ausgegangen werden, dass das Gerät nicht mehr implantiert ist und daher bei der Bestimmung aktuell implantierter Geräte nicht berücksichtigt werden sollte.",
+        "mustSupport": true
+      },
+      {
         "id": "Device.type",
         "path": "Device.type",
         "comment": "Der Typ soll mit einem SNOMED-Code angegeben werden.\r\nFür ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):\r\n - **ICD**: 72506001 - Implantable defibrillator, device (physical object)\r\n - **CRT**: 704708004 - Cardiac resynchronization therapy implantable pacemaker (physical object)\r\n - **ICD+CRT**: 704707009 - Cardiac resynchronization therapy implantable defibrillator (physical object)\r\n - **Herzschrittmacher ohne genauere Bezeichnung**: 72506001 - Implantable defibrillator, device (physical object)\r\n - **LVAD**: 360066001 - Left ventricular assist device (physical object)\r\n - **RVAD**: 360065002 - Right ventricular assist device (physical object)\r\n - **BiVAD**: 360057000 - Biventricular assist device (physical object)",
@@ -47,7 +53,6 @@
       {
         "id": "Device.patient",
         "path": "Device.patient",
-        "min": 1,
         "mustSupport": true
       }
     ]

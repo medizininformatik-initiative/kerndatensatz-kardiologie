@@ -10,7 +10,3 @@ Thumbs.db
 ./gencontinuous.sh
 ./genonce.bat
 ./genonce.sh
-
-# Wird in sushi-config.yaml gepflegt. package.json sollte sonst durch _genonce oder in ~/.fhir/packages erzeugt werden..
-./fhirpkg.lock.json
-./package.json

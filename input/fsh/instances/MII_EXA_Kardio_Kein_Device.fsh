@@ -6,11 +6,11 @@ Usage: #example
 
 * status = #final
 * category = $observation-category#survey
-* code.coding[diagnoseSnomed] = $sct#703398004 "Cardiac implant in situ (finding)"
+* code.coding[diagnoseSnomed] = $sct#703398004 "Cardiac implant in situ"
 * performer.display = "Beispielkardiologe"
 * subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-11-13T18:06:34.214+01:00"
 * valueCodeableConcept = $v2-0532#N "No"
-* method =  $sct#129431000 "History taking - action (qualifier value)"
+* method =  $sct#129431000 "History taking - action"
 * device.display = "Beispieltablet"
 * derivedFrom.display = "Beispielfragebogen"

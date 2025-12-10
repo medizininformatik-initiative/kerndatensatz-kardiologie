@@ -13,7 +13,7 @@ Usage: #example
 * encounter = Reference(Beispielfall)
 * effectiveDateTime = "2023-12-01"
 * performer.display = "Beispielkardiologe"
-* valueCodeableConcept = $sct#77176002 "Smoker (finding)"
+* valueCodeableConcept = $sct#77176002 "Smoker"
 // Komponenten zur weiterführenden Beschreibung des Rauchverhaltens
 * component[packungsjahre].code = $acribis-smoking-units#pack-years
 * component[packungsjahre].valueQuantity.value = 35

@@ -7,7 +7,7 @@ Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem S
 * identifier.system = "http://example.org/observation-ids"
 * identifier.value = "MRS-OBS-123457"
 * status = #final
-* code.coding[sct] = $sct#1255866005 "Modified Rankin Scale score (observable entity)"
+* code.coding[sct] = $sct#1255866005 "Modified Rankin Scale score"
 * code.coding[loinc] = $loinc#75859-9 "Modified rankin scale"
 * subject.display = "Beispielpatient"
 * encounter.display = "Beispielfall"

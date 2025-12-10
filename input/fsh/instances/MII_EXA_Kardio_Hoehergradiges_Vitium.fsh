@@ -12,7 +12,7 @@ Usage: #example
 * code.coding[sct] = $sct-20250701#368009:{116676008=49755003,363698007=17401000} "Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure}"
 * code.text = "Vitium primärer Genese"
 
-* bodySite.coding[snomed-ct] = $sct#17401000 "Cardiac valve structure (body structure)"
+* bodySite.coding[snomed-ct] = $sct#17401000 "Cardiac valve structure"
 * subject = Reference(Beispielpatient)
 * recorder.display = "Facharzt für Kardiologie"
 * asserter.display = "Facharzt für Kardiologie"

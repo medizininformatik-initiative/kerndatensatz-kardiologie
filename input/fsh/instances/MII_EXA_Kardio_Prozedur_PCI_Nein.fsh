@@ -12,6 +12,6 @@ Usage: #example
 * subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-06-06T14:29:34.214+02:00"
 * valueCodeableConcept = $v2-0532#N "No"
-* method =  $sct#129431000 "History taking - action (qualifier value)"
+* method =  $sct#129431000 "History taking - action"
 * device.display = "Beispieltablet"
 * derivedFrom.display = "Beispielfragebogen"

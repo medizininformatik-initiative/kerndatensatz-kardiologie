@@ -7,7 +7,7 @@ Description: "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation be
 * identifier.system = "http://example.org/observation-ids"
 * identifier.value = "NYHA-OBS-123456"
 * status = #final
-* code.coding[sct] = $sct#762994006 "New York Heart Association Classification class (observable entity)"
+* code.coding[sct] = $sct#762994006 "New York Heart Association Classification class"
 * code.coding[loinc] = $loinc#93124-6 "New York Heart Association Functional Classification panel"
 * subject.display = "Beispielpatient"
 * encounter.display = "Beispielfall"

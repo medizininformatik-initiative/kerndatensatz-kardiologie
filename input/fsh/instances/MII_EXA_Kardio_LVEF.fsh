@@ -18,7 +18,7 @@ Usage: #example
 
 * code.coding[sct].system = "http://snomed.info/sct"
 * code.coding[sct].code = #250908004
-* code.coding[sct].display = "Left ventricular ejection fraction (observable entity)"
+* code.coding[sct].display = "Left ventricular ejection fraction"
 * code.coding[loinc].system = "http://loinc.org"
 * code.coding[loinc].code = #10230-1
 * code.coding[loinc].display = "Left ventricular ejection fraction"

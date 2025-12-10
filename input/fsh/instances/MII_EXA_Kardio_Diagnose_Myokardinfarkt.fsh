@@ -11,11 +11,11 @@ Usage: #example
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
 * code.coding[icd10-gm] = $icd-10-gm|2025#I21.9 "Akuter Myokardinfarkt, nicht näher bezeichnet"
-* code.coding[sct] = $sct#22298006 "Myocardial infarction (disorder)"
+* code.coding[sct] = $sct#22298006 "Myocardial infarction"
 
 // --------------------------------------
 // SEVERITY (terminal) --> Angabe fuer Krebserkrankung nicht im Endstadium/terminal
-* severity.coding = $sct#6736007 "Moderate (severity modifier) (qualifier value)"
+* severity.coding = $sct#6736007 "Moderate"
 
 // --------------------------------------
 // SUBJECT (Patientenreferenz)

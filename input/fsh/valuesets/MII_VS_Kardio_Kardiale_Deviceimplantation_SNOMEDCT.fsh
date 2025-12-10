@@ -16,3 +16,4 @@ Description: "Dieses Value Set bildet die Implantation der kardialen Devices Kar
 * include codes from system $sct where concept is-a #232967006 // Implantation of left cardiac ventricular assist device (procedure)
 * include codes from system $sct where concept is-a #232966002 // Implantation of right cardiac ventricular assist device (procedure)
 * include codes from system $sct where concept is-a #232968001 // Implantation of cardiac biventricular assist device (procedure)
+* $data-absent-reason#asked-unknown // http://terminology.hl7.org/CodeSystem/data-absent-reason

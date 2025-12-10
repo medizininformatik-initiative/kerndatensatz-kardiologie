@@ -18,10 +18,12 @@ Für ACRIBiS eignen sich die folgenden Codes (Stand 01.05.2025):
  - **ICD**: 395218007 - Implantation of internal cardiac defibrillator (procedure)
  - **CRT**: 429064006 - Implantation of cardiac resynchronization therapy implantable pacemaker (procedure)
  - **ICD+CRT**: 1236755008 - Implantation of cardiac resynchronization defibrillator system (procedure)
- - **Herzschrittmacher ohne genauere Bezeichnung**: 307280005 - Implantation of cardiac pacemaker (procedure)
+ - **unbekannt**: Angabe, dass der genaue Device-Typ unbekannt ist. Abbildung über asked-unknown. Suche der Angabe über Verknüpfung des Devices in der Prozedur \"MII PR Kardio Kardiale Deviceimplantation\" und mittels Angabe des Metaprofils.
  - **LVAD**: 232967006 - Implantation of left cardiac ventricular assist device (procedure)
  - **RVAD**: 232966002 - Implantation of right cardiac ventricular assist device (procedure)
  - **BiVAD**: 232968001 - Implantation of cardiac biventricular assist device (procedure)"
+
+// Data Absent Reason: http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 * subject only Reference(Patient)
 * bodySite from MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT (required)

@@ -20,6 +20,7 @@ Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
+Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason|4.0.1
 
 //ValueSets ("-vs"-Suffix)
 Alias: $icd-10-gm-vs = http://fhir.de/ValueSet/bfarm/icd-10-gm
@@ -34,6 +35,6 @@ Alias: $procedure-device-action-codes-vs = http://hl7.org/fhir/ValueSet/device-a
 Alias: $v2-0532-vs = http://terminology.hl7.org/ValueSet/v2-0532
 
 // Structure Definitions
-Alias: $data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
+Alias: $data-absent-reason-sd = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 Alias: $ISiKSnomedCTCoding = https://gematik.de/fhir/isik/StructureDefinition/ISiKSnomedCTCoding
 Alias: $ISiKLoincCoding = https://gematik.de/fhir/isik/StructureDefinition/ISiKLoincCoding

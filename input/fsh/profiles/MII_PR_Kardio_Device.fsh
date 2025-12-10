@@ -23,7 +23,7 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **ICD**: 72506001 - Implantable defibrillator, device (physical object)
  - **CRT**: 704708004 - Cardiac resynchronization therapy implantable pacemaker (physical object)
  - **ICD+CRT**: 704707009 - Cardiac resynchronization therapy implantable defibrillator (physical object)
- - **Herzschrittmacher ohne genauere Bezeichnung**: 706004007 - Implantable cardiac pacemaker (physical object)
+ - **unbekannt**: Angabe, dass der genaue Device.type unbekannt ist. Abbildung über asked-unknown. Suche der Angabe über Verknüpfung des Devices in der Prozedur \"MII PR Kardio Kardiale Deviceimplantation\" und mittels Angabe des Metaprofils.
  - **LVAD**: 360066001 - Left ventricular assist device (physical object)
  - **RVAD**: 360065002 - Right ventricular assist device (physical object)
  - **BiVAD**: 360057000 - Biventricular assist device (physical object)"

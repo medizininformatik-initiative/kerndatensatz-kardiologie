@@ -9,15 +9,15 @@ Das vorliegende Projekt beschreibt die FHIR-Spezifikation des Erweiterungsmoduls
 ### Status:
 
 Aktuelle stabile Version: keine </br>  <!-- Link Release -->
-Vorschauversion: [2026.0.0-alpha.1](https://simplifier.net/mii-erweiterungsmodul-kardiologie/~releases) </br>  <!--[yyyy-x.x.x](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~packages)-->
-Reifegrad: Draft
+Vorschauversion: [2026.0.0-alpha.2](https://simplifier.net/mii-erweiterungsmodul-kardiologie/~releases) </br>  <!--[yyyy-x.x.x](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~packages)-->
+Reifegrad: Draft / Experimental
 
 Alle veröffentlichen FHIR-Artefakte innerhalb des Projektes verfügen über einen Status durch welchen der jeweilige Reifegrad abgeleitet werden kann.
 Profile mit dem Status 'Draft' wurden noch nicht ballotiert und können noch diversen und substantiellen Änderungen unterliegen. Verpflichtende und ballotierte Ergebnisse sind zukünftig <!-- "zukünftig" --> unter dem Tab 'Packages' zu finden.
 
 ### Mitwirkungs- und Kommentierungsmöglichkeiten
 
-* Kommentareinreichung via [GitHub](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie)
+* Kommentareinreichung via [GitHub](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues)
 * Diskussionsforum im [MII Modul Kardio Chat](https://mii.zulipchat.com/#narrow/channel/505571-MII-KDS-Kardio)
 <!-- * Teilnahme am [Interoperabilitätsforum](https://wiki.hl7.de/index.php?title=Interoperabilitätsforum) -->
 
@@ -36,8 +36,6 @@ Für das Modul Kardiologie werden Umsetzungsstufen definiert. Dieses soll eine i
 ### Wichtige Dokumente und Links
 * [Modul im Simplifier](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~introduction)
 * [GitHub Repository](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie)
-* [Beschreibung des MII-Kerndatensatzes in der Version 1.0 vom 10.3.2017 (PDF)](https://www.medizininformatik-initiative.de/sites/default/files/inline-files/MII_04_Kerndatensatz_1-0.pdf)
-* [Datenmodellbeschreibung des MII-Kerndatensatzes in ART-DECOR](https://art-decor.org/art-decor/decor-project--mide-)
 
 ### Autoren und Ansprechpartner <!-- gerne ergänzen! -->
 

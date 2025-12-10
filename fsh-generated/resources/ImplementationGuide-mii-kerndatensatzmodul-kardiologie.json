@@ -1,8 +1,9 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "mii-kerndatensatzmodul-kardiologie",
+  "language": "de-DE",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
-  "version": "2026.0.0-alpha.1",
+  "version": "2026.0.0-alpha.2",
   "name": "MII_IG_MODUL_KARDIO_DE",
   "title": "MII IG Modul Kardio DE",
   "status": "draft",
@@ -14,6 +15,21 @@
         {
           "system": "url",
           "value": "https://www.medizininformatik-initiative.de"
+        },
+        {
+          "system": "email",
+          "value": "office@medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "description": "Medizininformatik Initiative - Erweiterungsmodul Kardiologie (alpha)",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "276",
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm"
         }
       ]
     }
@@ -729,7 +745,7 @@
     "parameter": [
       {
         "code": "copyrightyear",
-        "value": "2024+"
+        "value": "2025+"
       },
       {
         "code": "releaselabel",

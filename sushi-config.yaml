@@ -7,18 +7,19 @@ id: mii-kerndatensatzmodul-kardiologie
 canonical: https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio
 name: MII_IG_MODUL_KARDIO_DE
 title: MII IG Modul Kardio DE
-# description: Example Implementation Guide for getting started with SUSHI
+description: "Medizininformatik Initiative - Erweiterungsmodul Kardiologie (alpha)"
 status: draft # draft | active | retired | unknown
-version: 2026.0.0-alpha.1
+version: 2026.0.0-alpha.2
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2024+
+copyrightYear: 2025+
 releaseLabel: ci-build
-license: CC-BY-4.0 #https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+license: CC-BY-4.0 # https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable # https://build.fhir.org/valueset-spdx-license.html
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#276 # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: Medizininformatik-Initiative
   url: https://www.medizininformatik-initiative.de
-  # email: test@example.org
+  email: office@medizininformatik-initiative.de
+language: de-DE
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -38,7 +39,7 @@ dependencies:
   #update von de.gematik.isik-basismodul: 4.0.3
   de.gematik.isik: 5.1.0 
   #für lvef
-#   de.gematik.isik-vitalparameter: 4.0.2 
+#  de.gematik.isik-vitalparameter: 4.0.2 
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
@@ -85,6 +86,7 @@ parameters:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
+  Home: index.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
@@ -193,7 +195,7 @@ menu:
 # If set to true, no IG related content will be generated.
 # The default value for this property is false.
 #
-# FSHOnly: false
+FSHOnly: false
 #
 #
 # When set to true, the "short" and "definition" field on the root element of an Extension will

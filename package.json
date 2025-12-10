@@ -1,0 +1,42 @@
+{
+  "name": "de.medizininformatikinitiative.kerndatensatz.kardiologie",
+  "version": "2026.0.0-alpha.2",
+  "description": "MII - Erweiterungsmodul Kardiologie 2026.0.0-alpha.2 - Umsetzungsphase 1.\n\nFeatures: \n- 13 Profile zur Abbildung von Datenitems im Kontext der Acribis-Studie\n-Questionnaire zur FollowUp-Befragung für die Acribis-Studie\n- Hinweise und Hilfen zur Implementierung im zugehörigen Github-Repo/MII-Zulip-Chat.\n\nImprovements:\n-Added Questionnaire MII QN Kardio Acribis Study FollowUp\n-Added Examples\n- Updated MS-Tags in LVEF-Profile\n- Updated Code in MII PR Kardio Anzahl KH Aufenthalte wg HF\n- Updated/Fixed MS-Tag and Descriptions in MII PR Kardio Device\n- Updated Dependencies",
+  "keywords": [
+    "MII",
+    "KDS",
+    "...."
+  ],
+  "type": "module",
+  "license": "CC-BY-4.0",
+  "canonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/",
+  "url": "https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~releases",
+  "title": "MII - Erweiterungsmodul Kardiologie",
+  "author": "Medizininformatik Initiative",
+  "jurisdiction": "http://unstats.un.org/unsd/methods/m49/m49.htm#276",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "language": "de-DE",
+  "homepage": "https://www.medizininformatik-initiative.de",
+  "maintainers": [
+    {
+      "name": "Medizininformatik Initiative"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie.git"
+  },
+  "dependencies": {
+    "de.basisprofil.r4": "1.5.4",
+    "de.medizininformatikinitiative.kerndatensatz.meta": "2026.0.0",
+    "de.gematik.isik": "5.1.0",
+    "de.medizininformatikinitiative.kerndatensatz.icu": "2025.0.4",
+    "de.medizininformatikinitiative.kerndatensatz.diagnose": "2025.0.1",
+    "de.medizininformatikinitiative.kerndatensatz.prozedur": "2025.0.1"
+  }
+}

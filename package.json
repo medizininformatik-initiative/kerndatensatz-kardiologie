@@ -5,9 +5,9 @@
   "keywords": [
     "MII",
     "KDS",
-    "...."
+    "Kardiologie",
+    "Kardio"
   ],
-  "type": "module",
   "license": "CC-BY-4.0",
   "canonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/",
   "url": "https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~releases",

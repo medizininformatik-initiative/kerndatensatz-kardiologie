@@ -4,6 +4,8 @@
 
 ### Übersicht
 
+[![FHIR Project on GitHub.com](https://img.shields.io/badge/FHIR_project_on_GitHub.com-kerndatensatzmodul--kardiologie-green)](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie)
+
 Das vorliegende Projekt beschreibt die FHIR-Spezifikation des Erweiterungsmoduls 'Kardio', welches einen Teil des Kerndatensatzes der Medizininformatik-Initiative darstellt. Die hier veröffentlichten FHIR-Profile und ImplemenationGuides dienen als zentrale und verbindliche Spezifikation für die syntaktische und semantische Kodierung der Modulinhalte.
 
 ### Status:
@@ -14,6 +16,8 @@ Reifegrad: Draft / Experimental
 
 Alle veröffentlichen FHIR-Artefakte innerhalb des Projektes verfügen über einen Status durch welchen der jeweilige Reifegrad abgeleitet werden kann.
 Profile mit dem Status 'Draft' wurden noch nicht ballotiert und können noch diversen und substantiellen Änderungen unterliegen. Verpflichtende und ballotierte Ergebnisse sind zukünftig <!-- "zukünftig" --> unter dem Tab 'Packages' zu finden.
+
+Siehe [Übersicht der Versionen der Kerndatensatz-Module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/%C3%9Cbersicht-%C3%BCber-Versionen-der-Kerndatensatz%E2%80%90Module)
 
 ### Mitwirkungs- und Kommentierungsmöglichkeiten
 

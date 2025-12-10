@@ -50,10 +50,10 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 
 * value[x] MS
 * value[x] only Quantity // Es kann sein, dass eine Angabe im Arztbrief bspw. mit Wert "eingeschränkt" o.ä. erfolgt. Das ist derzeit im Profil nicht vorgesehen.
-* value[x].value 1..
-* value[x].unit 1..
-* value[x].system 1..
-* value[x].code 1..
+* value[x].value 1.. MS
+* value[x].unit 1.. MS
+* value[x].system 1.. MS
+* value[x].code 1.. MS
 // Pattern
 * valueQuantity MS
 * valueQuantity.unit = "percent"

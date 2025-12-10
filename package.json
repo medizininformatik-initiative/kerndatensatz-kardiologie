@@ -1,7 +1,7 @@
 {
   "name": "de.medizininformatikinitiative.kerndatensatz.kardiologie",
   "version": "2026.0.0-alpha.2",
-  "description": "MII - Erweiterungsmodul Kardiologie 2026.0.0-alpha.2 - Umsetzungsphase 1.\n\nFeatures: \n- 13 Profile zur Abbildung von Datenitems im Kontext der Acribis-Studie\n-Questionnaire zur FollowUp-Befragung für die Acribis-Studie\n- Hinweise und Hilfen zur Implementierung im zugehörigen Github-Repo/MII-Zulip-Chat.\n\nImprovements:\n-Added Questionnaire MII QN Kardio Acribis Study FollowUp\n-Added Examples\n- Updated MS-Tags in LVEF-Profile\n- Updated Code in MII PR Kardio Anzahl KH Aufenthalte wg HF\n- Updated/Fixed MS-Tag and Descriptions in MII PR Kardio Device\n- Updated Dependencies",
+  "description": "MII - Erweiterungsmodul Kardiologie 2026.0.0-alpha.2 - Umsetzungsphase 1.\n\nFeatures: \n- 13 Profile zur Abbildung von Datenitems im Kontext der Acribis-Studie\n- Questionnaire zur FollowUp-Befragung für die Acribis-Studie\n- Hinweise und Hilfen zur Implementierung im zugehörigen Github-Repo/MII-Zulip-Chat.\n\nImprovements:\n- Added Questionnaire MII QN Kardio Acribis Study FollowUp\n- Added Examples\n- Updated MS-Tags in LVEF-Profile\n- Updated Code in MII PR Kardio Anzahl KH Aufenthalte wg HF\n- Updated/Fixed MS-Tag and Descriptions in MII PR Kardio Device  + MII PR Kardiale Deviceimplantation + zugehörigen ValueSets\n- Updated Dependencies.",
   "keywords": [
     "MII",
     "KDS",

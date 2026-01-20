@@ -27,7 +27,7 @@
         "code": "165197003",
         "system": "http://snomed.info/sct",
         "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-        "display": "Diagnostic assessment (procedure)"
+        "display": "Diagnostic assessment"
       }
     ]
   },
@@ -37,7 +37,7 @@
         "system": "http://snomed.info/sct",
         "code": "447113005",
         "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-        "display": "12 lead electrocardiogram at rest (procedure)"
+        "display": "12 lead electrocardiogram at rest"
       }
     ]
   },
@@ -55,7 +55,7 @@
           "code": "80891009",
           "system": "http://snomed.info/sct",
           "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-          "display": "Heart structure (body structure)"
+          "display": "Heart structure"
         }
       ]
     }

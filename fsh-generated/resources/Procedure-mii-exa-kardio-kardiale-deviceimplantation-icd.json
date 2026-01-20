@@ -17,7 +17,7 @@
         "system": "http://snomed.info/sct",
         "code": "262202000",
         "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-        "display": "Therapeutic intent (qualifier value)"
+        "display": "Therapeutic intent"
       }
     }
   ],
@@ -27,7 +27,7 @@
         "system": "http://snomed.info/sct",
         "code": "387713003",
         "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-        "display": "Surgical procedure (procedure)"
+        "display": "Surgical procedure"
       }
     ]
   },
@@ -37,7 +37,7 @@
         "system": "http://snomed.info/sct",
         "code": "395218007",
         "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-        "display": "Implantation of internal cardiac defibrillator (procedure)"
+        "display": "Implantation of internal cardiac defibrillator"
       }
     ]
   },
@@ -51,7 +51,7 @@
           "code": "80891009",
           "system": "http://snomed.info/sct",
           "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-          "display": "Heart structure (body structure)"
+          "display": "Heart structure"
         }
       ]
     }
@@ -72,7 +72,7 @@
             "code": "129338005",
             "system": "http://snomed.info/sct",
             "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-            "display": "Surgical implantation - action (qualifier value)"
+            "display": "Surgical implantation - action"
           }
         ]
       }

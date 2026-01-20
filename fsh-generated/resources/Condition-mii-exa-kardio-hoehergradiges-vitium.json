@@ -77,7 +77,7 @@
           "system": "http://snomed.info/sct",
           "code": "17401000",
           "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-          "display": "Cardiac valve structure (body structure)"
+          "display": "Cardiac valve structure"
         }
       ]
     }

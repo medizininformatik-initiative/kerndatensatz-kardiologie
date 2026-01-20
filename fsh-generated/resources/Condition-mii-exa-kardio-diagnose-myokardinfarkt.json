@@ -29,7 +29,7 @@
         "system": "http://snomed.info/sct",
         "code": "22298006",
         "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-        "display": "Myocardial infarction (disorder)"
+        "display": "Myocardial infarction"
       }
     ]
   },
@@ -39,7 +39,7 @@
         "code": "6736007",
         "system": "http://snomed.info/sct",
         "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-        "display": "Moderate (severity modifier) (qualifier value)"
+        "display": "Moderate"
       }
     ]
   },

@@ -56,7 +56,7 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "short": "Current Smoking Status als Loinc-Answer Code"
+        "short": "Current Smoking Status als Loinc-Answer Code (siehe ISiK VS: CurrentSmokingStatusUvIps)"
       },
       {
         "id": "Observation.hasMember",

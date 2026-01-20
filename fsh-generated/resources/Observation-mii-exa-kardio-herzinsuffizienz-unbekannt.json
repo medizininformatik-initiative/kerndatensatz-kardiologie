@@ -22,7 +22,7 @@
         "code": "84114007",
         "system": "http://snomed.info/sct",
         "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-        "display": "Heart failure (disorder)"
+        "display": "Heart failure"
       }
     ]
   },
@@ -59,7 +59,7 @@
         "code": "129431000",
         "system": "http://snomed.info/sct",
         "version": "http://snomed.info/sct/900000000000207008/version/20240701",
-        "display": "History taking - action (qualifier value)"
+        "display": "History taking - action"
       }
     ]
   }

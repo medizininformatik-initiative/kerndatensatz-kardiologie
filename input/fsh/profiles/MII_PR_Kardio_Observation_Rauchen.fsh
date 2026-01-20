@@ -17,7 +17,9 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * encounter MS
 * performer MS
 // value[x] from Parent: https://simplifier.net/packages/de.gematik.isik-basismodul/4.0.0/files/2539840
-* value[x] ^short = "Current Smoking Status als Loinc-Answer Code"
+* value[x] ^short = "Current Smoking Status als Loinc-Answer Code (siehe ISiK VS: CurrentSmokingStatusUvIps)"
+* value[x] only CodeableConcept
+* valueCodeableConcept from CurrentSmokingStatusUvIps (required)
 * hasMember only Reference(Observation or QuestionnaireResponse) //not MolecularSequence
 * derivedFrom only Reference(DocumentReference or Media or QuestionnaireResponse or Observation) //not imagingstudy + not molecularsequence
 // Folgende Items sind nicht Teil der Acribis-Kernscores, stehen daher - in der ersten Iteration - nicht im Fokus (nicht must-support).

@@ -23,7 +23,7 @@
           {
             "code": "110465008",
             "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
             "display": "Clinical trial (procedure)"
           }
         ]
@@ -112,7 +112,7 @@
                         {
                           "code": "385668008",
                           "system": "http://snomed.info/sct",
-                          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                           "display": "Success of action"
                         }
                       ],
@@ -142,7 +142,7 @@
                         {
                           "code": "385668008",
                           "system": "http://snomed.info/sct",
-                          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                           "display": "Success of action"
                         }
                       ],
@@ -180,7 +180,7 @@
                         {
                           "code": "385668008",
                           "system": "http://snomed.info/sct",
-                          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                           "display": "Success of action"
                         }
                       ],
@@ -231,7 +231,7 @@
                         {
                           "code": "385668008",
                           "system": "http://snomed.info/sct",
-                          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                           "display": "Success of action"
                         }
                       ],
@@ -269,7 +269,7 @@
                         {
                           "code": "385668008",
                           "system": "http://snomed.info/sct",
-                          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                           "display": "Success of action"
                         }
                       ],
@@ -307,7 +307,7 @@
                         {
                           "code": "385668008",
                           "system": "http://snomed.info/sct",
-                          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                           "display": "Success of action"
                         }
                       ],
@@ -358,7 +358,7 @@
                         {
                           "code": "385668008",
                           "system": "http://snomed.info/sct",
-                          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                           "display": "Success of action"
                         }
                       ],
@@ -396,7 +396,7 @@
                         {
                           "code": "385668008",
                           "system": "http://snomed.info/sct",
-                          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                           "display": "Success of action"
                         }
                       ],
@@ -434,7 +434,7 @@
                         {
                           "code": "385668008",
                           "system": "http://snomed.info/sct",
-                          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                           "display": "Success of action"
                         }
                       ],
@@ -771,7 +771,7 @@
                 {
                   "code": "399753006",
                   "system": "http://snomed.info/sct",
-                  "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                  "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                   "display": "Date of death"
                 }
               ],
@@ -817,7 +817,7 @@
                     {
                       "code": "184305005",
                       "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                       "display": "Cause of death"
                     }
                   ],
@@ -837,7 +837,7 @@
                       "valueCoding": {
                         "code": "22298006",
                         "system": "http://snomed.info/sct",
-                        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                         "display": "Herzinfarkt"
                       }
                     },
@@ -845,7 +845,7 @@
                       "valueCoding": {
                         "code": "422504002",
                         "system": "http://snomed.info/sct",
-                        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                         "display": "Schlaganfall durch Gefäßverschluss"
                       }
                     },
@@ -853,7 +853,7 @@
                       "valueCoding": {
                         "code": "274100004",
                         "system": "http://snomed.info/sct",
-                        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                         "display": "Hirnblutung (intrazerebral)"
                       }
                     },
@@ -861,7 +861,7 @@
                       "valueCoding": {
                         "code": "21454007",
                         "system": "http://snomed.info/sct",
-                        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                         "display": "Hirnblutung (subarachnoidal)"
                       }
                     },
@@ -981,7 +981,7 @@
             {
               "code": "419099009",
               "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+              "version": "http://snomed.info/sct/900000000000207008/version/20250701",
               "display": "Deceased"
             }
           ],
@@ -1094,7 +1094,7 @@
                     {
                       "code": "432213005",
                       "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                       "display": "Date of diagnosis"
                     }
                   ],
@@ -1134,7 +1134,7 @@
                 {
                   "code": "22298006",
                   "system": "http://snomed.info/sct",
-                  "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                  "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                   "display": "Myocardial infarction"
                 }
               ],
@@ -1217,7 +1217,7 @@
                           "valueCoding": {
                             "code": "422504002",
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                             "display": "Schlaganfall durch Gefässverschluss"
                           }
                         },
@@ -1225,7 +1225,7 @@
                           "valueCoding": {
                             "code": "274100004",
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                             "display": "Hirnblutung (intrazerebral)"
                           }
                         },
@@ -1233,7 +1233,7 @@
                           "valueCoding": {
                             "code": "21454007",
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                             "display": "Hirnblutung (subarachnoidal)"
                           }
                         },
@@ -1270,7 +1270,7 @@
                     {
                       "code": "432213005",
                       "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                       "display": "Date of diagnosis"
                     }
                   ],
@@ -1357,7 +1357,7 @@
                     {
                       "code": "432213005",
                       "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                       "display": "Date of diagnosis"
                     }
                   ],
@@ -1472,7 +1472,7 @@
                     {
                       "code": "432213005",
                       "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                       "display": "Date of diagnosis"
                     }
                   ],
@@ -1512,7 +1512,7 @@
                 {
                   "code": "266257000",
                   "system": "http://snomed.info/sct",
-                  "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                  "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                   "display": "Transient ischemic attack"
                 }
               ],
@@ -1587,7 +1587,7 @@
                     {
                       "code": "432213005",
                       "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                       "display": "Date of diagnosis"
                     }
                   ],
@@ -1627,7 +1627,7 @@
                 {
                   "code": "49436004",
                   "system": "http://snomed.info/sct",
-                  "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                  "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                   "display": "Atrial fibrillation"
                 }
               ],
@@ -1682,7 +1682,7 @@
                     {
                       "code": "432213005",
                       "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                       "display": "Date of diagnosis"
                     }
                   ],
@@ -1722,7 +1722,7 @@
                 {
                   "code": "48447003",
                   "system": "http://snomed.info/sct",
-                  "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                  "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                   "display": "Chronic heart failure"
                 }
               ],
@@ -1769,7 +1769,7 @@
                     {
                       "code": "298060002",
                       "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                       "display": "Number of admissions"
                     }
                   ],
@@ -1795,7 +1795,7 @@
                     {
                       "code": "399423000",
                       "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                       "display": "Date of admission"
                     }
                   ],
@@ -1904,7 +1904,7 @@
                         {
                           "code": "432213005",
                           "system": "http://snomed.info/sct",
-                          "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                          "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                           "display": "Date of diagnosis"
                         }
                       ],
@@ -1964,7 +1964,7 @@
                     {
                       "code": "439401001",
                       "system": "http://snomed.info/sct",
-                      "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+                      "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                       "display": "Diagnosis"
                     }
                   ],

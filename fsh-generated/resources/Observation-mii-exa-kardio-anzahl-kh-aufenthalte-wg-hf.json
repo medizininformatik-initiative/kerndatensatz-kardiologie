@@ -11,7 +11,7 @@
       {
         "code": "298060002",
         "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
         "display": "Number of admissions (observable entity)"
       }
     ]
@@ -35,7 +35,7 @@
           {
             "code": "406524005",
             "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
             "display": "Reason for visit diagnosis"
           }
         ]
@@ -45,7 +45,7 @@
           {
             "code": "84114007",
             "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20240701",
+            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
             "display": "Heart failure"
           }
         ]

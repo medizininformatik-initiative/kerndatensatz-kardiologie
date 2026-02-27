@@ -115,8 +115,9 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "pack-years",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+              "code": "20250701",
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
             }
           ]
         }
@@ -138,17 +139,17 @@
       {
         "id": "Observation.component:packungsjahre.value[x].unit",
         "path": "Observation.component.value[x].unit",
-        "patternString": "Packungsjahre"
+        "patternString": "{pack-years}"
       },
       {
         "id": "Observation.component:packungsjahre.value[x].system",
         "path": "Observation.component.value[x].system",
-        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+        "patternUri": "http://unitsofmeasure.org"
       },
       {
         "id": "Observation.component:packungsjahre.value[x].code",
         "path": "Observation.component.value[x].code",
-        "patternCode": "pack-years"
+        "patternCode": "{pack-years}"
       },
       {
         "id": "Observation.component:packungenProTag",
@@ -163,8 +164,9 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "packs-per-day",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+              "code": "230056004",
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
             }
           ]
         }
@@ -186,17 +188,17 @@
       {
         "id": "Observation.component:packungenProTag.value[x].unit",
         "path": "Observation.component.value[x].unit",
-        "patternString": "Packungen pro Tag"
+        "patternString": "{packs-per-day}"
       },
       {
         "id": "Observation.component:packungenProTag.value[x].system",
         "path": "Observation.component.value[x].system",
-        "patternUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+        "patternUri": "http://unitsofmeasure.org"
       },
       {
         "id": "Observation.component:packungenProTag.value[x].code",
         "path": "Observation.component.value[x].code",
-        "patternCode": "packs-per-day"
+        "patternCode": "{packs-per-day}"
       },
       {
         "id": "Observation.component:zigarettenProTag",

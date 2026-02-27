@@ -41,7 +41,7 @@
         "patternCoding": {
           "code": "298060002",
           "system": "http://snomed.info/sct",
-          "version": "http://snomed.info/sct/900000000000207008/version/20240701"
+          "version": "http://snomed.info/sct/900000000000207008/version/20250701"
         },
         "mustSupport": true
       },
@@ -107,7 +107,7 @@
             {
               "code": "406524005",
               "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20240701"
+              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
             }
           ]
         },
@@ -126,7 +126,7 @@
             {
               "code": "84114007",
               "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20240701"
+              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
             }
           ]
         },

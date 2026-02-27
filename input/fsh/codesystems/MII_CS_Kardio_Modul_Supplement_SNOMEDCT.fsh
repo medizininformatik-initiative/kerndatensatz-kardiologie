@@ -10,7 +10,7 @@ Description: "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul 
 * ^experimental = true
 * ^date = "2025-12-05"
 * ^content = #supplement
-* ^supplements = $sct-20250701
+* ^supplements = $sct
 
 // Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code
 * #368009:{116676008=49755003,363698007=17401000} "Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure}"

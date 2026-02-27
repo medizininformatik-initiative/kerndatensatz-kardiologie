@@ -85,33 +85,36 @@
   "component": [
     {
       "valueQuantity": {
-        "unit": "Packungsjahre",
-        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten",
-        "code": "pack-years",
+        "unit": "{pack-years}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{pack-years}",
         "value": 35,
         "comparator": ">"
       },
       "code": {
         "coding": [
           {
-            "code": "pack-years",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+            "code": "20250701",
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+            "display": "Cigarette pack-years"
           }
         ]
       }
     },
     {
       "valueQuantity": {
-        "unit": "Packungen pro Tag",
-        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten",
-        "code": "packs-per-day",
+        "unit": "{packs-per-day}",
+        "system": "http://unitsofmeasure.org",
+        "code": "{packs-per-day}",
         "value": 1
       },
       "code": {
         "coding": [
           {
-            "code": "packs-per-day",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+            "code": "230056004",
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20250701"
           }
         ]
       }

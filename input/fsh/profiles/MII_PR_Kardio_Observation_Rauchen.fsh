@@ -38,18 +38,18 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
     rauchdauer 0..* //MS
 // Rauchmenge
 // Packungsjahr = (#tägl.Zigaretten/20)*Anzahl Jahre die geraucht wurde
-* component[packungsjahre].code = $acribis-smoking-units#pack-years
+* component[packungsjahre].code = $sct#20250701 // Cigarette pack-years
 * component[packungsjahre].value[x] only Quantity
-* component[packungsjahre].valueQuantity.unit = "Packungsjahre"
-* component[packungsjahre].valueQuantity.system = $acribis-smoking-units //(preferred)
-* component[packungsjahre].valueQuantity.code = $acribis-smoking-units#pack-years
+* component[packungsjahre].valueQuantity.unit = "{pack-years}"
+* component[packungsjahre].valueQuantity.system = $ucum
+* component[packungsjahre].valueQuantity.code = $ucum#{pack-years}
 * component[packungsjahre].valueQuantity.comparator MS 
 // Beispielwerte: < 1/2 Packung; ca. 1/2 Packung; ca. 1 Packung; >= 2 Packungen
-* component[packungenProTag].code = $acribis-smoking-units#packs-per-day
+* component[packungenProTag].code = $sct#230056004 // Cigarette consumption (observable entity)
 * component[packungenProTag].value[x] only Quantity
-* component[packungenProTag].valueQuantity.unit = "Packungen pro Tag"
-* component[packungenProTag].valueQuantity.system = $acribis-smoking-units //(preferred)
-* component[packungenProTag].valueQuantity.code = $acribis-smoking-units#packs-per-day
+* component[packungenProTag].valueQuantity.unit = "{packs-per-day}"
+* component[packungenProTag].valueQuantity.system = $ucum
+* component[packungenProTag].valueQuantity.code = $ucum#{packs-per-day}
 * component[packungenProTag].valueQuantity.comparator MS 
 * component[zigarettenProTag].code = $acribis-smoking-units#cigarettes-per-day
 * component[zigarettenProTag].value[x] only integer

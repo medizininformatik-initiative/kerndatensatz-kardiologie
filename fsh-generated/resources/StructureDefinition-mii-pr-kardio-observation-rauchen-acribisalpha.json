@@ -88,6 +88,16 @@
           {
             "code": "CodeableConcept"
           }
+        ]
+      },
+      {
+        "id": "Observation.value[x]:valueCodeableConcept",
+        "path": "Observation.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
         ],
         "binding": {
           "strength": "extensible",

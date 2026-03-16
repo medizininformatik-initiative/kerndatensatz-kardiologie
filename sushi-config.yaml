@@ -9,7 +9,7 @@ name: MII_IG_MODUL_KARDIO_DE
 title: MII IG Modul Kardio DE
 description: "Medizininformatik Initiative - Erweiterungsmodul Kardiologie (alpha)"
 status: draft # draft | active | retired | unknown
-version: 2026.0.0-alpha.2
+version: 2026.0.0-alpha.3
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build
@@ -26,20 +26,11 @@ language: de-DE
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  # für Extension Dokumentationsdatum
-  de.basisprofil.r4: 1.5.4 
-  #2024.0.0-alpha2 ## für koerpergewicht und 
-  de.medizininformatikinitiative.kerndatensatz.icu: 2025.0.4 
-  # für Kardio Diagnose #update von 2025.0.0
-  de.medizininformatikinitiative.kerndatensatz.diagnose: 2025.0.1 
-  # für Kardio Prozedur Implantation #update von 2025.0.0
-  de.medizininformatikinitiative.kerndatensatz.prozedur: 2025.0.1 
-  # hinzugefuegt
-  de.medizininformatikinitiative.kerndatensatz.meta: 2026.0.0 
-  #update von de.gematik.isik-basismodul: 4.0.3
-  de.gematik.isik: 5.1.0 
-  #für lvef
-#  de.gematik.isik-vitalparameter: 4.0.2 
+  de.basisprofil.r4: 1.5.4
+  de.medizininformatikinitiative.kerndatensatz.icu: 2026.0.x 
+  de.medizininformatikinitiative.kerndatensatz.base: 2026.0.x
+  de.medizininformatikinitiative.kerndatensatz.meta: 2026.0.x
+  de.gematik.isik: 5.1.x
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can

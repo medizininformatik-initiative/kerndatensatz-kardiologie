@@ -3,7 +3,7 @@
   "id": "mii-kerndatensatzmodul-kardiologie",
   "language": "de-DE",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
-  "version": "2026.0.0-alpha.2",
+  "version": "2026.0.0-alpha.3",
   "name": "MII_IG_MODUL_KARDIO_DE",
   "title": "MII IG Modul Kardio DE",
   "status": "draft",
@@ -48,31 +48,25 @@
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
-      "version": "2025.0.4",
+      "version": "2026.0.x",
       "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.icu/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.icu",
       "id": "de_medizininformatikinitiative_kerndatensatz_icu"
     },
     {
-      "packageId": "de.medizininformatikinitiative.kerndatensatz.diagnose",
-      "version": "2025.0.1",
-      "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ImplementationGuide/mii-ig-diagnose",
-      "id": "de_medizininformatikinitiative_kerndatensatz_diagnose"
-    },
-    {
-      "packageId": "de.medizininformatikinitiative.kerndatensatz.prozedur",
-      "version": "2025.0.1",
-      "uri": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ImplementationGuide/mii-ig-prozedur",
-      "id": "de_medizininformatikinitiative_kerndatensatz_prozedur"
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.base",
+      "version": "2026.0.x",
+      "uri": "https://www.medizininformatik-initiative.de/fhir/modul-base/ImplementationGuide/mii-ig-base",
+      "id": "de_medizininformatikinitiative_kerndatensatz_base"
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.meta",
-      "version": "2026.0.0",
+      "version": "2026.0.x",
       "uri": "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
       "id": "de_medizininformatikinitiative_kerndatensatz_meta"
     },
     {
       "packageId": "de.gematik.isik",
-      "version": "5.1.0",
+      "version": "5.1.x",
       "uri": "http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik",
       "id": "de_gematik_isik"
     }

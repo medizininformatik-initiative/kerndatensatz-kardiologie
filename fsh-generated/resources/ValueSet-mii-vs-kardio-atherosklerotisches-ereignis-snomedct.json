@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "MII_VS_Kardio_Artherosklerotisches_Ereignis_SNOEMDCT",
+  "name": "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT",
   "id": "mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
   "title": "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
   "description": "ValueSet for Relevant Codes for Atherosclerotic Events",

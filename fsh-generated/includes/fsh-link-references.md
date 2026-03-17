@@ -56,7 +56,7 @@
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
 [MII-QN-Kardio-Acribis-Study-FollowUp]: Questionnaire-MII-QN-Kardio-Acribis-Study-FollowUp.html
 [MII_VS_Kardio_Allergene_SNOMEDCT]: ValueSet-mii-vs-kardio-allergene-snomedct.html
-[MII_VS_Kardio_Artherosklerotisches_Ereignis_SNOEMDCT]: ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html
+[MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT]: ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html
 [MII_VS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: ValueSet-mii-vs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_VS_Kardio_EKG_Kanaele_MDC]: ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html
 [MII_VS_Kardio_EKG_Prozedur_SNOMEDCT]: ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.html

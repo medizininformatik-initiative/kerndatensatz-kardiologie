@@ -481,7 +481,7 @@
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.json",
-    "fshName": "MII_VS_Kardio_Artherosklerotisches_Ereignis_SNOEMDCT",
+    "fshName": "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT",
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT.fsh",
     "startLine": 1,

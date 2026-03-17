@@ -1,4 +1,4 @@
-ValueSet: MII_VS_Kardio_Artherosklerotisches_Ereignis_SNOEMDCT
+ValueSet: MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT
 Id: mii-vs-kardio-atherosklerotisches-ereignis-snomedct
 Title: "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]"
 Description: "ValueSet for Relevant Codes for Atherosclerotic Events"

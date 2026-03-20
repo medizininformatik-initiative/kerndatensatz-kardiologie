@@ -2128,7 +2128,7 @@
       "text": "Im Kontext der Follow-Up-Befragung der Acribis-Studie ist vorgesehen, dass neben den in diesem Fragebogen enthaltenen Follow-Up-Fragen auch Quality-of-Life-(QoL)-Fragebögen befüllt werden. Konkret handelt es sich um PROMIS-29 und EQ-5D-5L."
     }
   ],
-  "version": "2026.0.0-alpha.1",
+  "version": "2026.0.0-alpha.3",
   "publisher": "Medizininformatik Initiative",
   "name": "MII_QN_Kardio_Acribis_Study_FollowUp",
   "title": "MII QN Kardio Acribis Study FollowUp",

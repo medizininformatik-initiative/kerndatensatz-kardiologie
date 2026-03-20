@@ -6,7 +6,7 @@
   "title": "MII VS Kardio Metriken EKG Annotationen [MDC]",
   "description": "ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc",
-  "version": "2026.0.0-alpha.1",
+  "version": "2026.0.0-alpha.3",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

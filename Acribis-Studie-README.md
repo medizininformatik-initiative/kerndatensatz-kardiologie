@@ -10,6 +10,7 @@ Stufe 3: Abbildung der gesamten Kardiologie
 - Testen erster Profile       (Ab 05/2025)
 - Erstes [Alpha-Profile-Package](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~releases) (10/2025)
 - Testen in den DIZ / bei Bedarf Überarbeitung und Ergänzung der Profile (10/25 - Q3/26)
+- Drittes Alpha-Profile-Package (geplant für Q2/25)
 - Einsatz in allen DIZen      (Q3/26 / Q4/26)
 - Datenausleitung aus DIZ     (?)
 
@@ -54,6 +55,8 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 | [ICU Arterieller Blutdruck](https://simplifier.net/medizininformatikinitiative-modul-intensivmedizin/mii_pr_icu_arterieller_blutdruck) | Bildet den Blutdruck ab.                     |
 | [Labor Laboruntersuchung](https://simplifier.net/mii-basismodul-labor-2025/mii_pr_labor_laboruntersuchung)                             | Bildet jegliche Laborwerte ab.               |
 | [Medikation MedicationStatement](https://simplifier.net/mii-basismodul-medikation-2024/mii_pr_medikation_medicationstatement)          | Bildet jegliche Medikationseinträge ab.      |
+
+Für die Datenselektion bei der Abfrage soll das Einschlussdatum bspw. in Modul Studie oder Modul Consent in FHIR abgebildet werden.
 
 ### Profile zu EKG Metadaten (x Profile) - DRAFT
 

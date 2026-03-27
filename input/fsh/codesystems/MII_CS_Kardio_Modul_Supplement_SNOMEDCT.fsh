@@ -15,5 +15,8 @@ Description: "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul 
 // Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code
 * #368009:{116676008=49755003,363698007=17401000} "Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure}"
 
+// Abbildung der interventionellen Klappentherapie
+* #73544002:{260507000=260519008} "Operation on heart valve:{Access=Transcatheter approach}"
+
 // Kodierung des Fragebogenitems "Starke spontane Blutung" aus dem Acribis-FollowUp-Fragebogen
 * #64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000} "Disease:{Associated morphology=Hemorrhage,Associated with=Bleeding,Due to=Spontaneous event,Severity=Severe}"

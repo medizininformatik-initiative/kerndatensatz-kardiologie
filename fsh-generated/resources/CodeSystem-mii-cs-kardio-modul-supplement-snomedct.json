@@ -13,6 +13,10 @@
       "display": "Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure}"
     },
     {
+      "code": "73544002:{260507000=260519008}",
+      "display": "Operation on heart valve:{Access=Transcatheter approach}"
+    },
+    {
       "code": "64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000}",
       "display": "Disease:{Associated morphology=Hemorrhage,Associated with=Bleeding,Due to=Spontaneous event,Severity=Severe}"
     }

@@ -45,7 +45,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\MII_CS_Kardio_Modul_Supplement_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 22
   },
   {
     "outputFile": "CodeSystem-mii-cs-kardio-rauchen-einheiten.json",

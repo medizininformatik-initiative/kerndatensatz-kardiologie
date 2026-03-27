@@ -10,7 +10,7 @@ Stufe 3: Abbildung der gesamten Kardiologie
 - Testen erster Profile       (Ab 05/2025)
 - Erstes [Alpha-Profile-Package](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~releases) (10/2025)
 - Testen in den DIZ / bei Bedarf Überarbeitung und Ergänzung der Profile (10/25 - Q3/26)
-- Drittes Alpha-Profile-Package (geplant für Q2/25)
+- Drittes Alpha-Profile-Package (geplant für Q2/26)
 - Einsatz in allen DIZen      (Q3/26 / Q4/26)
 - Datenausleitung aus DIZ     (?)
 

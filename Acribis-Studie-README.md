@@ -11,7 +11,7 @@ Stufe 3: Abbildung der gesamten Kardiologie
 - Erstes [Alpha-Profile-Package](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~releases) (10/2025)
 - Testen in den DIZ / bei Bedarf Überarbeitung und Ergänzung der Profile (10/25 - Q3/26)
 - Drittes Alpha-Profile-Package (geplant für Q2/26)
-- Einsatz in allen DIZen      (Q3/26 / Q4/26)
+- Einsatz in beteiligten DIZen      (Q3/26 / Q4/26)
 - Datenausleitung aus DIZ     (?)
 
 > Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 07.11.2025). Die aktuelle [Mapping-Hilfe-Tabelle ist im Github-Wiki](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/Mapping%E2%80%90Hilfe) verfügbar. Einzelne Codes fehlen noch und werden sukzessive ergänzt (insbesondere SNOMED CT für Mapping von Fragebogen auf FHIR-Profile).

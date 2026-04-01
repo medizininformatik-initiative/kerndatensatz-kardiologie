@@ -55,8 +55,10 @@ Die Profilierung orientiert sich am Acribis-Datensatz "ACRIBiS_KardioVaskularDS_
 | [ICU Arterieller Blutdruck](https://simplifier.net/medizininformatikinitiative-modul-intensivmedizin/mii_pr_icu_arterieller_blutdruck) | Bildet den Blutdruck ab.                     |
 | [Labor Laboruntersuchung](https://simplifier.net/mii-basismodul-labor-2025/mii_pr_labor_laboruntersuchung)                             | Bildet jegliche Laborwerte ab.               |
 | [Medikation MedicationStatement](https://simplifier.net/mii-basismodul-medikation-2024/mii_pr_medikation_medicationstatement)          | Bildet jegliche Medikationseinträge ab.      |
+| [Studie_MII PR Studie Proband](https://simplifier.net/medizininformatik-initiative-modul-studien/mii_pr_studie_proband) oder           | Bildet Probanden ab. Referenz auf ResearchStudy, Patient und Consent. |
+| [Consent_MII_PR_Consent_Einwilligung](https://simplifier.net/medizininformatikinitiative-modulconsent/mii_pr_consent_einwilligung) | Bildet eine Einwilligung ab. Referenz auf Patient und Angabe der Policy als URI. |
 
-Für die Datenselektion bei der Abfrage soll das Einschlussdatum bspw. in Modul Studie oder Modul Consent in FHIR abgebildet werden.
+Für die Datenselektion bei der Abfrage soll **das Einschlussdatum bspw. in Modul Studie oder Modul Consent in FHIR** abgebildet werden.
 
 ### Profile zu EKG Metadaten (x Profile) - DRAFT
 

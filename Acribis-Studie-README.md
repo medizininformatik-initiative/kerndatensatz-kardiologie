@@ -1,9 +1,8 @@
 # Übersicht zur Profilnutzung für die Acribis-Studie
-Für das Modul Kardiologie wurden Umsetzungsstufen definiert. Dieses soll eine iterative Implementation des neuen Moduls in den DIZen ermöglichen und notwendige Priorisierung bei der Verwendung des Moduls erleichtern.
-
-Stufe 1: Prototypische Umsetzung der notwendigen Profile für die Datenitems der ACRIBiS-Studie
-Stufe 2: Integration weiterer Vorarbeiten (vollständiger Datensatz aus ACRIBiS, HiGHmed Use Case Cardio, CAEHR, weitere Vorarbeiten)
-Stufe 3: Abbildung der gesamten Kardiologie
+Für das Modul Kardiologie wurden Umsetzungsstufen definiert, um eine iterative Implementation sowie die Priorisierung bei Umsetzung des neuen Moduls in den DIZen zu erleichtern.  
+- Stufe 1: Prototypische Umsetzung der notwendigen Profile für die Datenitems der ACRIBiS-Studie  
+- Stufe 2: Integration weiterer Vorarbeiten (vollständiger Datensatz aus ACRIBiS, HiGHmed Use Case Cardio, CAEHR, weitere Vorarbeiten)  
+- Stufe 3: Abbildung der gesamten Kardiologie  
 
 ## Grober Zeitplan
 - Studiendatenerfassung       (Ab 10/24; Follow-Ups ab 10/25)
@@ -14,7 +13,8 @@ Stufe 3: Abbildung der gesamten Kardiologie
 - Einsatz in beteiligten DIZen      (Q3/26 / Q4/26)
 - Datenausleitung aus DIZ     (?)
 
-> Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 07.11.2025). Die aktuelle [Mapping-Hilfe-Tabelle ist im Github-Wiki](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/Mapping%E2%80%90Hilfe) verfügbar. Einzelne Codes fehlen noch und werden sukzessive ergänzt (insbesondere SNOMED CT für Mapping von Fragebogen auf FHIR-Profile).
+> Eine Mapping-Tabelle von AcribisDS_V4.1.1.2 auf FHIR-Profile und -Items befindet sich in Erarbeitung (Stand: 09.04.2026).
+> Die aktuelle [Mapping-Hilfe-Tabelle ist im Github-Wiki](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/Mapping%E2%80%90Hilfe) verfügbar.
 
 ---
 

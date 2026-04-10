@@ -12,7 +12,9 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * category 1..1 MS
 * category from $observation-category-vs (required)
 * category = $observation-category#social-history
-// Code from Parent = SCT 77176002 "Smoker" oder LOINC 72166-2 "Tobacco smoking status"
+// Code from Parent = SCT 77176002 "Smoker" (finding) oder LOINC 72166-2 "Tobacco smoking status"
+* code.coding[loinc] only $ISiKLoincCoding
+* code.coding[loinc] = $loinc#72166-2
 * subject only Reference(Patient)
 * encounter MS
 * performer MS
@@ -22,6 +24,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * valueCodeableConcept from CurrentSmokingStatusUvIps (required)
 * hasMember only Reference(Observation or QuestionnaireResponse) //not MolecularSequence
 * derivedFrom only Reference(DocumentReference or Media or QuestionnaireResponse or Observation) //not imagingstudy + not molecularsequence
+
 // Folgende Items sind nicht Teil der Acribis-Kernscores, stehen daher - in der ersten Iteration - nicht im Fokus (nicht must-support).
 * component 0..* //MS
 * component ^short = "Zusätzliche Angaben zum Rauchverhalten."
@@ -33,34 +36,51 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component contains
     packungsjahre 0..* and //MS and
     packungenProTag 0..* and
-    zigarettenProTag 0..* and
-    rauchbeginn 0..* and //MS
-    rauchdauer 0..* //MS
+    rauchzeitraum 0..* and
+    rauchbeginn 0..1 and
+    rauchdauer 0..* //MS //and
+
 // Rauchmenge
-// Packungsjahr = (#tägl.Zigaretten/20)*Anzahl Jahre die geraucht wurde
-* component[packungsjahre].code = $sct#20250701 // Cigarette pack-years
+// Packungsjahr = (#tägl.Zigaretten/20)*Anzahl Jahre die geraucht wurde. => 401201003 // Cigarette pack-years
+// Beispielwerte: < 1/2 Packung; ca. 1/2 Packung; ca. 1 Packung; >= 2 Packungen
+* component[packungsjahre].code = $sct#401201003 // (782516008) = Number of calculated pack years for cumulative lifetime tobacco exposure (observable entity)
 * component[packungsjahre].value[x] only Quantity
+* component[packungsjahre].value[x] MS
+* component[packungsjahre].valueQuantity 1..1 MS
 * component[packungsjahre].valueQuantity.unit = "{pack-years}"
 * component[packungsjahre].valueQuantity.system = $ucum
 * component[packungsjahre].valueQuantity.code = $ucum#{pack-years}
 * component[packungsjahre].valueQuantity.comparator MS 
-// Beispielwerte: < 1/2 Packung; ca. 1/2 Packung; ca. 1 Packung; >= 2 Packungen
+
+// Packungen pro Tag ?? Angabe zur Berechnung der Packungsjahre
 * component[packungenProTag].code = $sct#230056004 // Cigarette consumption (observable entity)
 * component[packungenProTag].value[x] only Quantity
+* component[packungenProTag]..valueQuantity 1..1 MS
 * component[packungenProTag].valueQuantity.unit = "{packs-per-day}"
 * component[packungenProTag].valueQuantity.system = $ucum
 * component[packungenProTag].valueQuantity.code = $ucum#{packs-per-day}
-* component[packungenProTag].valueQuantity.comparator MS 
-* component[zigarettenProTag].code = $acribis-smoking-units#cigarettes-per-day
-* component[zigarettenProTag].value[x] only integer
-// Rauchdauer
-* component[rauchbeginn].code = $acribis-smoking-units#rauchbeginn
-* component[rauchbeginn].value[x] only dateTime // erlaubt auch fuzzy dates wie "1990" oder "1990-04"
-* component[rauchbeginn].valueDateTime ^comment = "Die Angabe von 'fuzzy'-Datumsangaben mit nicht definiertem Monat oder Tag ist möglich."
-* component[rauchdauer].code = $acribis-smoking-units#rauchdauer
+* component[packungenProTag].valueQuantity.comparator MS
+
+// Rauchzeitraum (Period) | Tobacco smoking consumption (observable entity) --> Code passt nicht direkt auf den abzubildenden Wert. Angabe wird erstmal nicht benoetigt.
+//* component[rauchzeitraum].code = $sct#266918002
+//* component[rauchzeitraum].value[x] only Period
+//* component[rauchzeitraum].valuePeriod.start 1..1 MS
+//* component[rauchzeitraum].valuePeriod.end 0..1 MS
+//* component[rauchzeitraum].valuePeriod obeys rauchzeitraum-start-vor-ende
+
+// Age at starting smoking (observable entity)
+* component[rauchbeginn].code = $sct#228488005
+* component[rauchbeginn].value[x] only Quantity
+* component[rauchbeginn].valueQuantity.value 1..1 MS
+* component[rauchbeginn].valueQuantity.unit = "year"
+* component[rauchbeginn].valueQuantity.system = $ucum
+* component[rauchbeginn].valueQuantity.code = $ucum#a
+
+// Total time smoked (observable entity)
+* component[rauchdauer].code = $sct#228487000
 * component[rauchdauer].value[x] only Quantity
-* component[rauchdauer].valueQuantity.unit = "year" // für Jahre (nach UCUM)
+* component[rauchdauer].valueQuantity.value 1..1 MS
+* component[rauchdauer].valueQuantity.unit = "year"
 * component[rauchdauer].valueQuantity.system = $ucum
 * component[rauchdauer].valueQuantity.code = $ucum#a
 * component[rauchdauer].valueQuantity.comparator MS
-// Beispielwerte: < 1 Jahr; > 1 Jahr; > 5 Jahre; > 10 Jahre

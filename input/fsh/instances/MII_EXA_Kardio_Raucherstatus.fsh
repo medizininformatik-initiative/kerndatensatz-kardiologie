@@ -15,7 +15,7 @@ Usage: #example
 * performer.display = "Beispielkardiologe"
 * valueCodeableConcept = $loinc#LA18976-3 "Current every day smoker"
 // Komponenten zur weiterführenden Beschreibung des Rauchverhaltens
-* component[packungsjahre].code = $sct#20250701 "Cigarette pack-years"
+* component[packungsjahre].code = $sct#401201003 "Cigarette pack-years"
 * component[packungsjahre].valueQuantity.value = 35
 * component[packungsjahre].valueQuantity.unit = "{pack-years}"
 * component[packungsjahre].valueQuantity.system = $ucum
@@ -26,11 +26,15 @@ Usage: #example
 * component[packungenProTag].valueQuantity.unit = "{packs-per-day}"
 * component[packungenProTag].valueQuantity.system = $ucum
 * component[packungenProTag].valueQuantity.code = $ucum#{packs-per-day}
-* component[zigarettenProTag].code = $acribis-smoking-units#cigarettes-per-day
-* component[zigarettenProTag].valueInteger = 20
-* component[rauchbeginn].code = $acribis-smoking-units#rauchbeginn
-* component[rauchbeginn].valueDateTime = "1990" // fuzzy date erlaubt
-* component[rauchdauer].code = $acribis-smoking-units#rauchdauer
+//* component[rauchzeitraum].code = $sct#266918002 // Cigarette consumption (observable entity)
+//* component[rauchzeitraum].valuePeriod.start = "1999"
+//* component[rauchzeitraum].valuePeriod.end = "2006"
+* component[rauchbeginn].code = $sct#228488005
+* component[rauchdauer].valueQuantity.value = 19
+* component[rauchdauer].valueQuantity.unit = "year"
+* component[rauchdauer].valueQuantity.system = $ucum
+* component[rauchdauer].valueQuantity.code = #a
+* component[rauchdauer].code = $sct#228487000
 * component[rauchdauer].valueQuantity.value = 35
 * component[rauchdauer].valueQuantity.unit = "year"
 * component[rauchdauer].valueQuantity.system = $ucum

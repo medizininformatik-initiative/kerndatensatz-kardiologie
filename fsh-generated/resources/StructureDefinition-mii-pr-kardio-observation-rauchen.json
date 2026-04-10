@@ -115,7 +115,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "20250701",
+              "code": "401201003",
               "system": "http://snomed.info/sct",
               "version": "http://snomed.info/sct/900000000000207008/version/20250701"
             }
@@ -125,11 +125,13 @@
       {
         "id": "Observation.component:packungsjahre.value[x]",
         "path": "Observation.component.value[x]",
+        "min": 1,
         "type": [
           {
             "code": "Quantity"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.component:packungsjahre.value[x].comparator",
@@ -174,11 +176,13 @@
       {
         "id": "Observation.component:packungenProTag.value[x]",
         "path": "Observation.component.value[x]",
+        "min": 1,
         "type": [
           {
             "code": "Quantity"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.component:packungenProTag.value[x].comparator",
@@ -201,39 +205,18 @@
         "patternCode": "{packs-per-day}"
       },
       {
-        "id": "Observation.component:zigarettenProTag",
+        "id": "Observation.component:rauchzeitraum",
         "path": "Observation.component",
-        "sliceName": "zigarettenProTag",
+        "sliceName": "rauchzeitraum",
         "min": 0,
         "max": "*"
-      },
-      {
-        "id": "Observation.component:zigarettenProTag.code",
-        "path": "Observation.component.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "cigarettes-per-day",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
-            }
-          ]
-        }
-      },
-      {
-        "id": "Observation.component:zigarettenProTag.value[x]",
-        "path": "Observation.component.value[x]",
-        "type": [
-          {
-            "code": "integer"
-          }
-        ]
       },
       {
         "id": "Observation.component:rauchbeginn",
         "path": "Observation.component",
         "sliceName": "rauchbeginn",
         "min": 0,
-        "max": "*"
+        "max": "1"
       },
       {
         "id": "Observation.component:rauchbeginn.code",
@@ -241,8 +224,9 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "rauchbeginn",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+              "code": "228488005",
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
             }
           ]
         }
@@ -250,12 +234,32 @@
       {
         "id": "Observation.component:rauchbeginn.value[x]",
         "path": "Observation.component.value[x]",
-        "comment": "Die Angabe von 'fuzzy'-Datumsangaben mit nicht definiertem Monat oder Tag ist möglich.",
         "type": [
           {
-            "code": "dateTime"
+            "code": "Quantity"
           }
         ]
+      },
+      {
+        "id": "Observation.component:rauchbeginn.value[x].value",
+        "path": "Observation.component.value[x].value",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:rauchbeginn.value[x].unit",
+        "path": "Observation.component.value[x].unit",
+        "patternString": "year"
+      },
+      {
+        "id": "Observation.component:rauchbeginn.value[x].system",
+        "path": "Observation.component.value[x].system",
+        "patternUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.component:rauchbeginn.value[x].code",
+        "path": "Observation.component.value[x].code",
+        "patternCode": "a"
       },
       {
         "id": "Observation.component:rauchdauer",
@@ -270,8 +274,9 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "rauchdauer",
-              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+              "code": "228487000",
+              "system": "http://snomed.info/sct",
+              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
             }
           ]
         }
@@ -284,6 +289,12 @@
             "code": "Quantity"
           }
         ]
+      },
+      {
+        "id": "Observation.component:rauchdauer.value[x].value",
+        "path": "Observation.component.value[x].value",
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Observation.component:rauchdauer.value[x].comparator",

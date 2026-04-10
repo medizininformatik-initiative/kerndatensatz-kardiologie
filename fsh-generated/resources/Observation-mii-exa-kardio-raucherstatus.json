@@ -94,7 +94,7 @@
       "code": {
         "coding": [
           {
-            "code": "20250701",
+            "code": "401201003",
             "system": "http://snomed.info/sct",
             "version": "http://snomed.info/sct/900000000000207008/version/20250701",
             "display": "Cigarette pack-years"
@@ -123,23 +123,12 @@
       "code": {
         "coding": [
           {
-            "code": "cigarettes-per-day",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+            "code": "228488005",
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20250701"
           }
         ]
-      },
-      "valueInteger": 20
-    },
-    {
-      "code": {
-        "coding": [
-          {
-            "code": "rauchbeginn",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
-          }
-        ]
-      },
-      "valueDateTime": "1990"
+      }
     },
     {
       "valueQuantity": {
@@ -152,8 +141,9 @@
       "code": {
         "coding": [
           {
-            "code": "rauchdauer",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten"
+            "code": "228487000",
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20250701"
           }
         ]
       }
@@ -162,8 +152,8 @@
   "code": {
     "coding": [
       {
-        "system": "http://loinc.org",
         "code": "72166-2",
+        "system": "http://loinc.org",
         "display": "Tobacco smoking status"
       }
     ]

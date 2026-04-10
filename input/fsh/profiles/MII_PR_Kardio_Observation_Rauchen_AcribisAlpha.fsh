@@ -37,7 +37,6 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component contains
     packungsjahre 0..* and //MS and
     packungenProTag 0..* and
-    rauchzeitraum 0..* and
     rauchbeginn 0..1 and
     rauchdauer 0..* //MS //and
 
@@ -48,6 +47,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component[packungsjahre].value[x] only Quantity
 * component[packungsjahre].value[x] MS
 * component[packungsjahre].valueQuantity 1..1 MS
+* component[packungsjahre].valueQuantity.value 1..1 MS
 * component[packungsjahre].valueQuantity.unit = "{pack-years}"
 * component[packungsjahre].valueQuantity.system = $ucum
 * component[packungsjahre].valueQuantity.code = $ucum#{pack-years}
@@ -56,7 +56,8 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 // Packungen pro Tag ?? Angabe zur Berechnung der Packungsjahre
 * component[packungenProTag].code = $sct#230056004 // Cigarette consumption (observable entity)
 * component[packungenProTag].value[x] only Quantity
-* component[packungenProTag]..valueQuantity 1..1 MS
+* component[packungenProTag].valueQuantity 1..1 MS
+* component[packungenProTag].valueQuantity.value 1..1 MS
 * component[packungenProTag].valueQuantity.unit = "{packs-per-day}"
 * component[packungenProTag].valueQuantity.system = $ucum
 * component[packungenProTag].valueQuantity.code = $ucum#{packs-per-day}
@@ -72,6 +73,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 // Age at starting smoking (observable entity)
 * component[rauchbeginn].code = $sct#228488005
 * component[rauchbeginn].value[x] only Quantity
+* component[rauchbeginn].valueQuantity 1..1 MS
 * component[rauchbeginn].valueQuantity.value 1..1 MS
 * component[rauchbeginn].valueQuantity.unit = "year"
 * component[rauchbeginn].valueQuantity.system = $ucum
@@ -80,6 +82,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 // Total time smoked (observable entity)
 * component[rauchdauer].code = $sct#228487000
 * component[rauchdauer].value[x] only Quantity
+* component[rauchdauer].valueQuantity 1..1 MS
 * component[rauchdauer].valueQuantity.value 1..1 MS
 * component[rauchdauer].valueQuantity.unit = "year"
 * component[rauchdauer].valueQuantity.system = $ucum

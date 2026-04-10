@@ -119,6 +119,12 @@
       }
     },
     {
+      "valueQuantity": {
+        "unit": "year",
+        "system": "http://unitsofmeasure.org",
+        "code": "a",
+        "value": 19
+      },
       "code": {
         "coding": [
           {

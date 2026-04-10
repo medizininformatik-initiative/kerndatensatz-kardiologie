@@ -134,6 +134,12 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.component:packungsjahre.value[x].value",
+        "path": "Observation.component.value[x].value",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.component:packungsjahre.value[x].comparator",
         "path": "Observation.component.value[x].comparator",
         "mustSupport": true
@@ -185,6 +191,12 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.component:packungenProTag.value[x].value",
+        "path": "Observation.component.value[x].value",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.component:packungenProTag.value[x].comparator",
         "path": "Observation.component.value[x].comparator",
         "mustSupport": true
@@ -203,13 +215,6 @@
         "id": "Observation.component:packungenProTag.value[x].code",
         "path": "Observation.component.value[x].code",
         "patternCode": "{packs-per-day}"
-      },
-      {
-        "id": "Observation.component:rauchzeitraum",
-        "path": "Observation.component",
-        "sliceName": "rauchzeitraum",
-        "min": 0,
-        "max": "*"
       },
       {
         "id": "Observation.component:rauchbeginn",
@@ -234,11 +239,13 @@
       {
         "id": "Observation.component:rauchbeginn.value[x]",
         "path": "Observation.component.value[x]",
+        "min": 1,
         "type": [
           {
             "code": "Quantity"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.component:rauchbeginn.value[x].value",
@@ -284,11 +291,13 @@
       {
         "id": "Observation.component:rauchdauer.value[x]",
         "path": "Observation.component.value[x]",
+        "min": 1,
         "type": [
           {
             "code": "Quantity"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.component:rauchdauer.value[x].value",

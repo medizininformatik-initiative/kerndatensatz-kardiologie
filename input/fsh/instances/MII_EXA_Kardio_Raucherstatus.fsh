@@ -30,10 +30,10 @@ Usage: #example
 //* component[rauchzeitraum].valuePeriod.start = "1999"
 //* component[rauchzeitraum].valuePeriod.end = "2006"
 * component[rauchbeginn].code = $sct#228488005
-* component[rauchdauer].valueQuantity.value = 19
-* component[rauchdauer].valueQuantity.unit = "year"
-* component[rauchdauer].valueQuantity.system = $ucum
-* component[rauchdauer].valueQuantity.code = #a
+* component[rauchbeginn].valueQuantity.value = 19
+* component[rauchbeginn].valueQuantity.unit = "year"
+* component[rauchbeginn].valueQuantity.system = $ucum
+* component[rauchbeginn].valueQuantity.code = #a
 * component[rauchdauer].code = $sct#228487000
 * component[rauchdauer].valueQuantity.value = 35
 * component[rauchdauer].valueQuantity.unit = "year"

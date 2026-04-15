@@ -358,7 +358,7 @@
           "reference": "StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
         },
         "name": "MII PR Kardio Atherosklerotisches Erstereignis",
-        "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
+        "description": "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
       {

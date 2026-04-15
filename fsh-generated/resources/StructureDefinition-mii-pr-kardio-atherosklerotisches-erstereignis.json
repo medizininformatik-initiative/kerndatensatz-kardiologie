@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS.",
+  "description": "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

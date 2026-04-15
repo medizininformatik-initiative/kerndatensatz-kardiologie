@@ -2,7 +2,7 @@ Profile: MII_PR_Kardio_Atherosklerotisches_Erstereignis
 Id: mii-pr-kardio-atherosklerotisches-erstereignis
 Parent: Observation
 Title: "MII PR Kardio Atherosklerotisches Erstereignis"
-Description: "Profil zur Erfassung des Datum des ersten  artherosklerotischen Ereignisses im Kontext von ACRIBiS."
+Description: "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ereignisses im Kontext von ACRIBiS."
 
 * insert PR_CS_VS_Version
 * insert Publisher

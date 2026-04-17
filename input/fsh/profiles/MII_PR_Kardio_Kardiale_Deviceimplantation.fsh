@@ -18,12 +18,14 @@ Für ACRIBiS eignen sich die folgenden Codes (Stand 01.05.2025):
  - **ICD**: 395218007 - Implantation of internal cardiac defibrillator (procedure)
  - **CRT**: 429064006 - Implantation of cardiac resynchronization therapy implantable pacemaker (procedure)
  - **ICD+CRT**: 1236755008 - Implantation of cardiac resynchronization defibrillator system (procedure)
- - **unbekannt**: Angabe, dass der genaue Device-Typ unbekannt ist. Abbildung über asked-unknown. Suche der Angabe über Verknüpfung des Devices in der Prozedur \"MII PR Kardio Kardiale Deviceimplantation\" und mittels Angabe des Metaprofils.
  - **LVAD**: 232967006 - Implantation of left cardiac ventricular assist device (procedure)
  - **RVAD**: 232966002 - Implantation of right cardiac ventricular assist device (procedure)
  - **BiVAD**: 232968001 - Implantation of cardiac biventricular assist device (procedure)"
 
-// Data Absent Reason: http://terminology.hl7.org/CodeSystem/data-absent-reason
+* code.coding[ops] 0..1
+* code.coding[ops] from MII_VS_Kardio_Kardiale_Deviceimplantation_OPS
+
+* code.coding ^slicing.rules = #closed
 
 * subject only Reference(Patient)
 * bodySite from MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT (required)
@@ -34,11 +36,11 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **RVAD**: 53085002 - Right cardiac ventricular structure (body structure)
  - **BiVAD**: 87878005 - Left cardiac ventricular structure (body structure) **und** 53085002 - Right cardiac ventricular structure (body structure)
 "
+* bodySite 1.. MS
+* bodySite.coding 1.. MS
+* bodySite.coding[snomed-ct] 1.. MS
 
 * focalDevice 1.. MS
-* focalDevice.action 1.. MS
-* focalDevice.action from $procedure-device-action-codes-vs (required)
-* focalDevice.action = $sct#129338005
 * focalDevice.manipulated MS
 * focalDevice.manipulated only Reference(Device)
 

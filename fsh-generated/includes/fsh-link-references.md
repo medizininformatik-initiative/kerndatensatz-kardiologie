@@ -65,6 +65,7 @@
 [MII_VS_Kardio_Geraetetyp_SNOMEDCT]: ValueSet-mii-vs-kardio-geraetetyp-snomedct.html
 [MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT]: ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.html
+[MII_VS_Kardio_Kardiale_Deviceimplantation_OPS]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.html
 [MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT]: ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.html
 [MII_VS_Kardio_Klappenvitium_ALPHAID]: ValueSet-mii-vs-kardio-klappenvitium-alphaid.html

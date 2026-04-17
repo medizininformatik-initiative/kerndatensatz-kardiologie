@@ -611,6 +611,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops"
+        },
+        "name": "MII VS Kardio Kardiale Devicemimplantation [OPS]",
+        "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct"
         },
         "name": "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",

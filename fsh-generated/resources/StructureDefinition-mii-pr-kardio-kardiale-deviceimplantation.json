@@ -48,6 +48,28 @@
         "comment": "Hier sollen mindestens ein SNOMED- oder ein OPS-Code angegeben werden.\r\nFür ACRIBiS eignen sich die folgenden Codes (Stand 01.05.2025):\r\n - **ICD**: 395218007 - Implantation of internal cardiac defibrillator (procedure)\r\n - **CRT**: 429064006 - Implantation of cardiac resynchronization therapy implantable pacemaker (procedure)\r\n - **ICD+CRT**: 1236755008 - Implantation of cardiac resynchronization defibrillator system (procedure)\r\n - **unbekannt**: Angabe, dass der genaue Device-Typ unbekannt ist. Abbildung über asked-unknown. Suche der Angabe über Verknüpfung des Devices in der Prozedur \"MII PR Kardio Kardiale Deviceimplantation\" und mittels Angabe des Metaprofils.\r\n - **LVAD**: 232967006 - Implantation of left cardiac ventricular assist device (procedure)\r\n - **RVAD**: 232966002 - Implantation of right cardiac ventricular assist device (procedure)\r\n - **BiVAD**: 232968001 - Implantation of cardiac biventricular assist device (procedure)"
       },
       {
+        "id": "Procedure.code.coding",
+        "path": "Procedure.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "closed"
+        }
+      },
+      {
+        "id": "Procedure.code.coding:ops",
+        "path": "Procedure.code.coding",
+        "sliceName": "ops",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops"
+        }
+      },
+      {
         "id": "Procedure.code.coding:sct",
         "path": "Procedure.code.coding",
         "sliceName": "sct",

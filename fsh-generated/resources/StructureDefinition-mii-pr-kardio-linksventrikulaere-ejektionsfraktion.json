@@ -248,6 +248,11 @@
         "patternUri": "http://unitsofmeasure.org"
       },
       {
+        "id": "Observation.referenceRange:normal.low.code",
+        "path": "Observation.referenceRange.low.code",
+        "patternCode": "%"
+      },
+      {
         "id": "Observation.referenceRange:normal.text",
         "path": "Observation.referenceRange.text",
         "min": 1,
@@ -276,6 +281,11 @@
         "patternUri": "http://unitsofmeasure.org"
       },
       {
+        "id": "Observation.referenceRange:mild.low.code",
+        "path": "Observation.referenceRange.low.code",
+        "patternCode": "%"
+      },
+      {
         "id": "Observation.referenceRange:mild.high.value",
         "path": "Observation.referenceRange.high.value",
         "patternDecimal": 49
@@ -289,6 +299,11 @@
         "id": "Observation.referenceRange:mild.high.system",
         "path": "Observation.referenceRange.high.system",
         "patternUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.referenceRange:mild.high.code",
+        "path": "Observation.referenceRange.high.code",
+        "patternCode": "%"
       },
       {
         "id": "Observation.referenceRange:mild.text",
@@ -317,6 +332,11 @@
         "id": "Observation.referenceRange:reduced.high.system",
         "path": "Observation.referenceRange.high.system",
         "patternUri": "http://unitsofmeasure.org"
+      },
+      {
+        "id": "Observation.referenceRange:reduced.high.code",
+        "path": "Observation.referenceRange.high.code",
+        "patternCode": "%"
       },
       {
         "id": "Observation.referenceRange:reduced.text",

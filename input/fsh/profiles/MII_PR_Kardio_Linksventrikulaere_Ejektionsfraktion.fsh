@@ -84,20 +84,23 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * referenceRange[normal].low.value = 50
 * referenceRange[normal].low.unit = "%"
 * referenceRange[normal].low.system = $ucum
+* referenceRange[normal].low.code = $ucum#%
 // HFmrEF
 * referenceRange[mild].text = "Mildly reduced"
 * referenceRange[mild].high.value = 49
 * referenceRange[mild].low.value = 41
 * referenceRange[mild].low.unit = "%"
 * referenceRange[mild].low.system = $ucum
+* referenceRange[mild].low.code = $ucum#%
 * referenceRange[mild].high.unit = "%"
 * referenceRange[mild].high.system = $ucum
+* referenceRange[mild].high.code = $ucum#%
 // HFrEF LVEF <=40
 * referenceRange[reduced].text = "Reduced"
 * referenceRange[reduced].high.value = 40
 * referenceRange[reduced].high.unit = "%"
 * referenceRange[reduced].high.system = $ucum
-
+* referenceRange[reduced].high.code = $ucum#%
 Invariant: vs-de-2
 Description: "If there is no component or hasMember element then either a value[x] or a data absent reason must be present"
 * severity = #error

@@ -421,7 +421,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion.fsh",
     "startLine": 1,
-    "endLine": 99
+    "endLine": 103
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json",

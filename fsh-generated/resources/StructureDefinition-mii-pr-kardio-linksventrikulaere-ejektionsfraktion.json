@@ -187,7 +187,7 @@
         "id": "Observation.value[x].unit",
         "path": "Observation.value[x].unit",
         "min": 1,
-        "patternString": "percent",
+        "patternString": "%",
         "mustSupport": true
       },
       {

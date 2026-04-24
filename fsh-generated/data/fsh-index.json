@@ -405,7 +405,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Kardiale_Deviceimplantation.fsh",
     "startLine": 1,
-    "endLine": 46
+    "endLine": 45
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-klappenvitium.json",
@@ -565,7 +565,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 18
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-klappenvitium-alphaid.json",

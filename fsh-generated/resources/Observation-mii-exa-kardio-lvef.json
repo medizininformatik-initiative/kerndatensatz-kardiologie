@@ -61,7 +61,7 @@
     }
   ],
   "valueQuantity": {
-    "unit": "percent",
+    "unit": "%",
     "system": "http://unitsofmeasure.org",
     "code": "%",
     "value": 55

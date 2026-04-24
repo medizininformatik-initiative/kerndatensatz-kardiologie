@@ -31,7 +31,7 @@ Usage: #example
 * performer[0].display = "Beispielarzt"
 
 * valueQuantity.value = 55
-* valueQuantity.unit = "percent"
+* valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = #%
 

@@ -19,7 +19,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * subject only Reference(Patient)
 
 * effective[x] 1.. MS
-// TODO: Sollten wir das auf den Period einschränken, damit der genaue Zeitraum angegeben wird?
+* effective[x] only Period
 
 * value[x] MS
 * value[x] only integer

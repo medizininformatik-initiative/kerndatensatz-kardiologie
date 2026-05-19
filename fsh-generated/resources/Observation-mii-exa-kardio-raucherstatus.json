@@ -78,7 +78,6 @@
   ],
   "performer": [
     {
-      "reference": "Practitioner/PractitionerWalterArzt",
       "display": "Beispielkardiologe"
     }
   ],

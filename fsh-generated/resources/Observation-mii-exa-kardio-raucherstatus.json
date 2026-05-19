@@ -87,8 +87,8 @@
         "unit": "{pack-years}",
         "system": "http://unitsofmeasure.org",
         "code": "{pack-years}",
-        "value": 35,
-        "comparator": ">"
+        "value": 35.5,
+        "comparator": "="
       },
       "code": {
         "coding": [
@@ -140,8 +140,8 @@
         "unit": "year",
         "system": "http://unitsofmeasure.org",
         "code": "a",
-        "value": 35,
-        "comparator": ">="
+        "value": 35.5,
+        "comparator": "<="
       },
       "code": {
         "coding": [

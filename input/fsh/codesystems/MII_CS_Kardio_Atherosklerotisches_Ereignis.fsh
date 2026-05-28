@@ -1,5 +1,5 @@
 CodeSystem: MII_CS_Kardio_Atherosklerotisches_Ereignis
-Id: mii-cs-kardio-atherosklerotisches-Ereignis
+Id: mii-cs-kardio-atherosklerotisches-ereignis
 Title: "MII CS Kardio Atherosklerotisches Ereignis"
 Description: "Code für ein unbestimmtes atherosklerotisches Ereignis"
 

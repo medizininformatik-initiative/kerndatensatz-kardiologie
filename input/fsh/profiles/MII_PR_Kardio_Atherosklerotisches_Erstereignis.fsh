@@ -25,10 +25,12 @@ Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Oper
     sct 0..1 and
     icd10-gm 0..1
 * code.coding[kardio] ^patternCoding.system = $ath-ereignis
+* code.coding[kardio].system 1.. MS
+* code.coding[kardio].code 1.. MS
 * code.coding[sct] ^patternCoding.system = $sct
-* code.coding[icd10-gm].system 1.. MS
-* code.coding[icd10-gm].version 1.. MS
-* code.coding[icd10-gm].code 1.. MS
+* code.coding[sct].system 1.. MS
+* code.coding[sct].version 1.. MS
+* code.coding[sct].code 1.. MS
 * code.coding[icd10-gm] ^patternCoding.system = $icd10-gm-vs
 * code.coding[icd10-gm].system 1.. MS
 * code.coding[icd10-gm].version 1.. MS

@@ -115,6 +115,14 @@
       },
       {
         "reference": {
+          "reference": "Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2"
+        },
+        "name": "MII EXA Kardio Anzahl KH Aufenthalte WG HF (mit Angabe 'Weiß nicht')",
+        "description": "Beispiel einer Observation bei Angabe 'Ich weiß es nicht' zu Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
+      },
+      {
+        "reference": {
           "reference": "Observation/mii-exa-kardio-atherosklerotisches-erstereignis"
         },
         "name": "MII EXA Kardio Atherosklerotisches Erstereignis",

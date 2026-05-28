@@ -136,6 +136,14 @@
     "endLine": 15
   },
   {
+    "outputFile": "Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.json",
+    "fshName": "mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2",
+    "fshType": "Instance",
+    "fshFile": "instances/MII_EXA_Kardio_Anzahl_KH_Aufenthalte_wg_HF2.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
     "outputFile": "Observation-mii-exa-kardio-atherosklerotisches-erstereignis.json",
     "fshName": "mii-exa-kardio-atherosklerotisches-erstereignis",
     "fshType": "Instance",
@@ -301,7 +309,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF.fsh",
     "startLine": 1,
-    "endLine": 45
+    "endLine": 47
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.json",

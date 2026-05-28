@@ -3,6 +3,7 @@
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
 [MII_CS_Kardio_Modul_Supplement_SNOMEDCT]: CodeSystem-mii-cs-kardio-modul-supplement-snomedct.html
 [mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf]: Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.html
+[mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2]: Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.html
 [mii-exa-kardio-atherosklerotisches-erstereignis]: Observation-mii-exa-kardio-atherosklerotisches-erstereignis.html
 [mii-exa-kardio-device-icd]: Device-mii-exa-kardio-device-icd.html
 [mii-exa-kardio-ekg-durchfuehrung]: Procedure-mii-exa-kardio-ekg-durchfuehrung.html

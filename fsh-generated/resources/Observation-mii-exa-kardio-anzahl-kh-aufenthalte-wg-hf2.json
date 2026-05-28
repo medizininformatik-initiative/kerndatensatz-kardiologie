@@ -1,0 +1,65 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "298060002",
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "display": "Number of admissions (observable entity)"
+      }
+    ]
+  },
+  "subject": {
+    "display": "Beispielpatient"
+  },
+  "effectivePeriod": {
+    "start": "2025-05-21",
+    "end": "2026-05-20"
+  },
+  "performer": [
+    {
+      "display": "Beispielkardiologe"
+    }
+  ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "406524005",
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+            "display": "Reason for visit diagnosis"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "84114007",
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+            "display": "Heart failure"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "final",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "UNK",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-vs-kardio-nein-unbekannt",
+        "display": "unknown"
+      }
+    ]
+  }
+}

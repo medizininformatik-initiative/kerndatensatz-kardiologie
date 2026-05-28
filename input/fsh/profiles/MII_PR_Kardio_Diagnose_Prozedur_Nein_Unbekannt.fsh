@@ -24,7 +24,8 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
     diagnoseSnomed 0..1 MS and
     prozedurSnomed 0..1 MS and
     alpha-id 0..1 MS and
-    orphanet 0..1 MS
+    orphanet 0..1 MS and
+    kardio 0..1
 
 * code.coding[diagnoseSnomed] from $diagnoses-sct-vs (required)
 * code.coding[prozedurSnomed] from $prozedur-sct-vs (required)
@@ -43,7 +44,9 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * code.coding[orphanet] ^patternCoding.system = "http://www.orpha.net"
 * code.coding[orphanet].system 1.. MS
 * code.coding[orphanet].code 1.. MS
-
+* code.coding[kardio] from MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT
+* code.coding[kardio].system 1.. MS
+* code.coding[kardio].code 1.. MS
 
 * subject 1..1 MS
 * subject only Reference(Patient)

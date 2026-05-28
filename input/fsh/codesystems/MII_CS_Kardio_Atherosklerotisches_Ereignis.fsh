@@ -13,3 +13,4 @@ Description: "Code für ein unbestimmtes atherosklerotisches Ereignis"
 * ^content = #complete
 
 * #ae "Atherosklerotisches Ereignis"
+* #eg-cv "Embolischer Gefäßverschluss cerebro-vaskulär"

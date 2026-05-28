@@ -5,7 +5,7 @@ Description: "Beispiel einer Observation für 3 Krankenhausaufenthalte wegen Her
 Usage: #example
 
 * status = #final
-* code.coding = $sct#298060002 "Number of admissions (observable entity)"
+* code.coding[sct] = $sct#298060002 "Number of admissions (observable entity)"
 * subject.display = "Beispielpatient"
 * effectivePeriod.start = "2024-05-21"
 * effectivePeriod.end = "2025-05-20"

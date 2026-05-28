@@ -11,9 +11,15 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * ^experimental = false
 * ^date = "2025-09-03"
 
-* code 1..1 MS
-* code.coding 1..1 MS
-* code.coding = $sct#298060002 // Number of admissions (observable entity)
+* code.coding 1..* MS
+* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.path = "$this" 
+* code.coding ^slicing.rules = #open
+* code.coding contains
+    sct 1..1 and
+    loinc 0..1
+* code.coding[sct] = $sct#298060002 // Number of admissions (observable entity)
+* code.coding[loinc].system = $loinc
 
 * subject 1..1 MS
 * subject only Reference(Patient)
@@ -25,8 +31,8 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * value[x] only integer
 
 * component 1.. MS
-* component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
+* component ^slicing.discriminator.type = #value
 * component ^slicing.rules = #open
 * component ^slicing.description = "Details zu den Krankenhausaufenthalten."
 * component contains

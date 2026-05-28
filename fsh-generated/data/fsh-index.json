@@ -397,7 +397,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Geraeteprogrammierung.fsh",
     "startLine": 1,
-    "endLine": 35
+    "endLine": 42
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.json",

@@ -46,7 +46,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * subject only Reference(Patient)
 
 * effective[x] 1.. MS
-* effective[x] only dateTime //or Period //Grundsätzlich wäre eine Period als Zeitangabe denkbar - in Acribis ist (evtl. vorläufig) ein fixes Datum einfacher zu händeln
+* effective[x] only dateTime or Period or instant
 
 * value[x] MS
 * value[x] only Quantity // Es kann sein, dass eine Angabe im Arztbrief bspw. mit Wert "eingeschränkt" o.ä. erfolgt. Das ist derzeit im Profil nicht vorgesehen.

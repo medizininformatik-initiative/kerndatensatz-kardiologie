@@ -52,7 +52,7 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * subject only Reference(Patient)
 
 * effective[x] 1.. MS
-* effective[x] only dateTime
+* effective[x] only dateTime or Period or instant
 
 * value[x] MS
 * value[x] only CodeableConcept

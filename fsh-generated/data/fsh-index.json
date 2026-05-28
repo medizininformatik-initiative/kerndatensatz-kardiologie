@@ -325,7 +325,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Atherosklerotisches_Erstereignis.fsh",
     "startLine": 1,
-    "endLine": 44
+    "endLine": 47
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ausschluss-scoreberechnung.json",
@@ -333,7 +333,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Ausschluss_Scoreberechnung.fsh",
     "startLine": 1,
-    "endLine": 30
+    "endLine": 32
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-device.json",
@@ -469,7 +469,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Score_modifizierte_Rankin_Skala.fsh",
     "startLine": 1,
-    "endLine": 32
+    "endLine": 35
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-nyha.json",
@@ -477,7 +477,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Score_NYHA.fsh",
     "startLine": 1,
-    "endLine": 35
+    "endLine": 37
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-allergene-snomedct.json",

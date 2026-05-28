@@ -25,6 +25,9 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 
 * subject 1..1 MS
 * subject only Reference(Patient)
+
+* effective[x] 1.. MS
+
 * value[x] MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from MII_VS_Kardio_Modifizierte_Rankin_Skala (extensible) //(required)

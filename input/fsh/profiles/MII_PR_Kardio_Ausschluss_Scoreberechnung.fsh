@@ -19,6 +19,8 @@ Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzie
 * subject 1.. MS
 * subject only Reference(Patient)
 
+* effective[x] 1.. MS
+
 // Nur Items die wir in Acribis brauchen, die nicht aus der Prozedur ablesbar sind, sollen als Observation angelegt werden.
 // Prozeduren sind normalerweise als KDS-Prozedur angelegt (cAVK Prozedur, Herzklappenerkrankung-Eingriff).
   //   --> Focus-Element mit Referenz auf Diagnose-Condition oder Prozedur - nice-to-have

@@ -27,6 +27,8 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 * subject 1..1 MS
 * subject only Reference(Patient)
 
+* effective[x] 1.. MS
+
 * value[x] MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from MII_VS_Kardio_NYHA_Klassen_SNOMEDCT (required)

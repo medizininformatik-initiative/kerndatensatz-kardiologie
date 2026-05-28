@@ -39,6 +39,9 @@ Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Oper
 * subject 1.. MS
 * subject only Reference(Patient)
 
+* effective[x] 1.. MS
+* effective[x] only dateTime or Period or instant
+
 * value[x] only dateTime
 * value[x] ^comment = "Datum des bezeichneten ersten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK)"
 * valueDateTime 1.. MS

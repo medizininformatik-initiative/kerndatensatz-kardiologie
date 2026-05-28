@@ -14,6 +14,7 @@
 [mii-exa-kardio-ekg-kanal-iii]: Device-mii-exa-kardio-ekg-kanal-iii.html
 [mii-exa-kardio-ekg-referenz]: DocumentReference-mii-exa-kardio-ekg-referenz.html
 [mii-exa-kardio-ekg-rr-interval]: Observation-mii-exa-kardio-ekg-rr-interval.html
+[mii-exa-kardio-embolischer-gefaessverschluss]: Condition-mii-exa-kardio-embolischer-gefaessverschluss.html
 [mii-exa-kardio-geraeteprogrammierung-vvi]: Observation-mii-exa-kardio-geraeteprogrammierung-vvi.html
 [mii-exa-kardio-herzinsuffizienz-unbekannt]: Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.html
 [mii-exa-kardio-hoehergradiges-vitium]: Condition-mii-exa-kardio-hoehergradiges-vitium.html

@@ -203,6 +203,14 @@
       },
       {
         "reference": {
+          "reference": "Condition/mii-exa-kardio-embolischer-gefaessverschluss"
+        },
+        "name": "MII EXA Kardio Emoblischer Gefäßverschluss",
+        "description": "Beispiel: Der Patient hat angegeben, einen embolischen Gefäßverschluss gehabt zu haben.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
+      },
+      {
+        "reference": {
           "reference": "Observation/mii-exa-kardio-geraeteprogrammierung-vvi"
         },
         "name": "MII EXA Kardio Geräteprogrammierung VVI",

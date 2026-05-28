@@ -56,6 +56,14 @@
     "endLine": 47
   },
   {
+    "outputFile": "Condition-mii-exa-kardio-embolischer-gefaessverschluss.json",
+    "fshName": "mii-exa-kardio-embolischer-gefaessverschluss",
+    "fshType": "Instance",
+    "fshFile": "instances/MII_EXA_Kardio_Diagnose_Embolischer_Gefaessverschluss.fsh",
+    "startLine": 1,
+    "endLine": 46
+  },
+  {
     "outputFile": "Condition-mii-exa-kardio-hoehergradiges-vitium.json",
     "fshName": "mii-exa-kardio-hoehergradiges-vitium",
     "fshType": "Instance",
@@ -349,7 +357,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 57
+    "endLine": 73
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-annotation.json",

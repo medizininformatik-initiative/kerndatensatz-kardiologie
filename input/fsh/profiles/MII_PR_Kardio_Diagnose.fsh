@@ -24,6 +24,22 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 // * statt Version referenziert alle Versionen des ValueSets
 //* code.coding[icd10-gm] from http://fhir.de/ValueSet/bfarm/icd-10-gm|2025 (required)
 
+// Definieren des Code-Elements, um Kardio-Slice hinzuzufügen für kardio-local code der für die acribis-studie nicht in snomed-ct ausgedrueckt werden konnte.
+* code 1.. MS
+* code.coding 1.. MS 
+
+// icd10-gm, alpha-id und orphanet bereits in parent definiert
+* code.coding contains
+    diagnoseSnomed 0..1 MS and
+    prozedurSnomed 0..1 MS and
+    kardio 0..1
+
+* code.coding[diagnoseSnomed] from $diagnoses-sct-vs (required)
+* code.coding[prozedurSnomed] from $prozedur-sct-vs (required)
+* code.coding[kardio] from MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT
+* code.coding[kardio].system 1.. MS
+* code.coding[kardio].code 1.. MS
+
 // Subject
 * subject only Reference(Patient)
 

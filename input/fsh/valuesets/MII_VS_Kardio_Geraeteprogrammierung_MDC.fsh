@@ -2,7 +2,7 @@ ValueSet: MII_VS_Kardio_Geraeteprogrammierung_MDC
 Id: mii-vs-kardio-geraeteprogrammierung-mdc
 Title: "MII VS Kardio Geräteprogrammierung [MDC]"
 Description: "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.
-Dazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendetd."
+Dazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet."
 
 * insert PR_CS_VS_Version
 * insert Publisher

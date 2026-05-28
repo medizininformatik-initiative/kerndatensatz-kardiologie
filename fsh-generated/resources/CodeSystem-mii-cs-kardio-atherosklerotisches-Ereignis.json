@@ -3,10 +3,10 @@
   "status": "active",
   "content": "complete",
   "name": "MII_CS_Kardio_Atherosklerotisches_Ereignis",
-  "id": "mii-cs-kardio-atherosklerotisches-Ereignis",
+  "id": "mii-cs-kardio-atherosklerotisches-ereignis",
   "title": "MII CS Kardio Atherosklerotisches Ereignis",
   "description": "Code für ein unbestimmtes atherosklerotisches Ereignis",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-Ereignis",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
   "concept": [
     {
       "code": "ae",

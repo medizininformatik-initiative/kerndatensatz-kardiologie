@@ -41,8 +41,64 @@
       {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:kardio",
+        "path": "Observation.code.coding",
+        "sliceName": "kardio",
         "min": 1,
         "max": "1",
+        "patternCoding": {
+          "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"
+        }
+      },
+      {
+        "id": "Observation.code.coding:sct",
+        "path": "Observation.code.coding",
+        "sliceName": "sct",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+        }
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm",
+        "path": "Observation.code.coding",
+        "sliceName": "icd10-gm",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "system": "http://fhir.de/ValueSet/bfarm/icd-10-gm"
+        }
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm.version",
+        "path": "Observation.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:icd10-gm.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
         "mustSupport": true
       },
       {

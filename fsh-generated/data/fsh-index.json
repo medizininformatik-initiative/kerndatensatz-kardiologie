@@ -1,6 +1,6 @@
 [
   {
-    "outputFile": "CodeSystem-mii-cs-kardio-atherosklerotisches-Ereignis.json",
+    "outputFile": "CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.json",
     "fshName": "MII_CS_Kardio_Atherosklerotisches_Ereignis",
     "fshType": "CodeSystem",
     "fshFile": "codesystems/MII_CS_Kardio_Atherosklerotisches_Ereignis.fsh",
@@ -301,7 +301,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF.fsh",
     "startLine": 1,
-    "endLine": 39
+    "endLine": 45
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.json",
@@ -309,7 +309,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Atherosklerotisches_Erstereignis.fsh",
     "startLine": 1,
-    "endLine": 25
+    "endLine": 42
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ausschluss-scoreberechnung.json",

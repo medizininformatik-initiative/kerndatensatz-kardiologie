@@ -75,7 +75,7 @@
     "resource": [
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-Ereignis"
+          "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"
         },
         "name": "MII CS Kardio Atherosklerotisches Ereignis",
         "description": "Code für ein unbestimmtes atherosklerotisches Ereignis",

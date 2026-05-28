@@ -5,7 +5,7 @@ Description: "Beispiel der Einstellung eines Kardioverter-Defibrillators (ICD) i
 Usage: #example
 
 * status = #final
-* code = $mdc#730752 "MDC_IDC_SET_BRADY_MODE"
+* code.coding[mdc] = $mdc#730752 "MDC_IDC_SET_BRADY_MODE"
 * code.text = "The brady pacing mode according to the NBG standard"
 * subject.reference = "Device/mii-exa-kardio-device-icd"
 * focus.reference = "DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus"

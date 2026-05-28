@@ -54,6 +54,34 @@
         }
       },
       {
+        "id": "Observation.code.coding:snomed-ct-ISiK",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed-ct-ISiK",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Coding",
+            "profile": [
+              "https://gematik.de/fhir/isik/StructureDefinition/ISiKSnomedCTCoding"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Observation.code.coding:snomed-ct-MII",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed-ct-MII",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Observation.code.coding:snomed-ct-MII.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "patternUri": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "type": [

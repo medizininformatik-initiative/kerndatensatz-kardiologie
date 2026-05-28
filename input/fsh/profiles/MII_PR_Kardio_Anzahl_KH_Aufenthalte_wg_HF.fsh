@@ -28,7 +28,9 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * effective[x] only Period
 
 * value[x] MS
-* value[x] only integer
+* value[x] only integer or CodeableConcept
+* obeys mii-kardio-pos-int
+* valueCodeableConcept from $nein_unbekannt (required)
 
 * component 1.. MS
 * component ^slicing.discriminator.path = "code"

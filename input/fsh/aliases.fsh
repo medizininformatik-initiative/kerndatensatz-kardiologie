@@ -33,6 +33,8 @@ Alias: $observation-category-vs = http://hl7.org/fhir/ValueSet/observation-categ
 Alias: $devicemetric-type-vs = http://hl7.org/fhir/ValueSet/devicemetric-type
 Alias: $procedure-device-action-codes-vs = http://hl7.org/fhir/ValueSet/device-action
 Alias: $v2-0532-vs = http://terminology.hl7.org/ValueSet/v2-0532
+// Auswahl aus http://terminology.hl7.org/ValueSet/v2-0532
+Alias: $nein_unbekannt = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-vs-kardio-nein-unbekannt
 
 // Structure Definitions
 Alias: $data-absent-reason-sd = http://hl7.org/fhir/StructureDefinition/data-absent-reason

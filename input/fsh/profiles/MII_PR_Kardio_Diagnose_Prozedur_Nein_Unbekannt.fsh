@@ -29,7 +29,7 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * code.coding[diagnoseSnomed] from $diagnoses-sct-vs (required)
 * code.coding[prozedurSnomed] from $prozedur-sct-vs (required)
 * code.coding[icd10-gm] only CodingICD10GM
-* code.coding[icd10-gm] from $icd-10-gm-vs (required)
+* code.coding[icd10-gm] from $icd10-gm-vs (required)
 * code.coding[icd10-gm] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
 * code.coding[icd10-gm].system 1.. MS
 * code.coding[icd10-gm].version 1.. MS

@@ -9,6 +9,7 @@ Alias: $alpha-id = http://fhir.de/CodeSystem/bfarm/alpha-id
 Alias: $ops = http://fhir.de/CodeSystem/bfarm/ops
 Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $smoking-units = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-rauchen-einheiten
+Alias: $ath-ereignis = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis
 Alias: $mdc = urn:iso:std:iso:11073:10101 //ISO Nomenclature - Point-of-care medical device communication, see https://www.iso.org/standard/37890.html
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-cs-kardio-modifizierte-rankin-skala
@@ -22,7 +23,7 @@ Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-v
 Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason|4.0.1
 
 //ValueSets ("-vs"-Suffix)
-Alias: $icd-10-gm-vs = http://fhir.de/ValueSet/bfarm/icd-10-gm
+Alias: $icd10-gm-vs = http://fhir.de/ValueSet/bfarm/icd-10-gm
 Alias: $alpha-id-vs = http://fhir.de/ValueSet/bfarm/alpha-id
 Alias: $ops-vs = http://fhir.de/ValueSet/bfarm/ops
 Alias: $diagnoses-sct-vs = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct

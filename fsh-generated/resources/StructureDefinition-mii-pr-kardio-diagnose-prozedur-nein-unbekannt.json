@@ -179,6 +179,29 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.code.coding:kardio",
+        "path": "Observation.code.coding",
+        "sliceName": "kardio",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct"
+        }
+      },
+      {
+        "id": "Observation.code.coding:kardio.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:kardio.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "min": 1,

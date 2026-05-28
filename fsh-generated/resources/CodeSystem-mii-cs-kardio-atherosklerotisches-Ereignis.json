@@ -11,6 +11,10 @@
     {
       "code": "ae",
       "display": "Atherosklerotisches Ereignis"
+    },
+    {
+      "code": "eg-cv",
+      "display": "Embolischer Gefäßverschluss cerebro-vaskulär"
     }
   ],
   "version": "2026.0.0-alpha.3",
@@ -28,5 +32,5 @@
   "experimental": false,
   "date": "2025-09-03",
   "caseSensitive": true,
-  "count": 1
+  "count": 2
 }

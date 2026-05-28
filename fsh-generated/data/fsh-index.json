@@ -493,7 +493,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT.fsh",
     "startLine": 1,
-    "endLine": 25
+    "endLine": 34
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterium-acribis-scores.json",

@@ -357,7 +357,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 73
+    "endLine": 69
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-annotation.json",

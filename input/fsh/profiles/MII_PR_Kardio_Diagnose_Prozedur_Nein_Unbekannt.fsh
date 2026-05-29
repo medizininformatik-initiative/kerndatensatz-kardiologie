@@ -44,9 +44,9 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * code.coding[orphanet] ^patternCoding.system = "http://www.orpha.net"
 * code.coding[orphanet].system 1.. MS
 * code.coding[orphanet].code 1.. MS
-* code.coding[kardio] from MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT
 * code.coding[kardio].system 1.. MS
 * code.coding[kardio].code 1.. MS
+* code.coding[kardio] = MII_CS_Kardio_Atherosklerotisches_Ereignis#eg-cv
 
 * subject 1..1 MS
 * subject only Reference(Patient)

@@ -30,15 +30,11 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 
 // icd10-gm, alpha-id und orphanet bereits in parent definiert
 * code.coding contains
-    diagnoseSnomed 0..1 MS and
-    prozedurSnomed 0..1 MS and
     kardio 0..1
 
-* code.coding[diagnoseSnomed] from $diagnoses-sct-vs (required)
-* code.coding[prozedurSnomed] from $prozedur-sct-vs (required)
-* code.coding[kardio] from MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT
 * code.coding[kardio].system 1.. MS
 * code.coding[kardio].code 1.. MS
+* code.coding[kardio] = MII_CS_Kardio_Atherosklerotisches_Ereignis#eg-cv
 
 // Subject
 * subject only Reference(Patient)

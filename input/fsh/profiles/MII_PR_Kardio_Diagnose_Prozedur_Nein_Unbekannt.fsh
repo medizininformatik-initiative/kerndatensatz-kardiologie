@@ -27,6 +27,8 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
     orphanet 0..1 MS and
     kardio 0..1
 
+// Hier ist nicht analog zu Diagnose/Condition das dort etablierte sct-slice hinterlegt, 
+// da sowohl Prozeduren als aus Diagnosen + eine postkoordinierter SCT-Wert angebbar sein sollen.
 * code.coding[diagnoseSnomed] from MII_VS_Kardio_Extended_MII_DiagnoseCodes_SNOMED (required)
 * code.coding[prozedurSnomed] from $prozedur-sct-vs (required)
 * code.coding[icd10-gm] only CodingICD10GM
@@ -44,6 +46,8 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * code.coding[orphanet] ^patternCoding.system = "http://www.orpha.net"
 * code.coding[orphanet].system 1.. MS
 * code.coding[orphanet].code 1.. MS
+* code.coding[kardio] ^comment = "Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, 
+dass unbekannt ist, ob ein 'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) vorlag."
 * code.coding[kardio].system 1.. MS
 * code.coding[kardio].code 1.. MS
 * code.coding[kardio] = MII_CS_Kardio_Atherosklerotisches_Ereignis#eg-cv

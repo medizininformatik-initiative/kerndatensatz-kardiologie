@@ -34,6 +34,8 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * code.coding contains
     kardio 0..1
 
+* code.coding[kardio] ^comment = "Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, 
+dass unbekannt ist, ob ein 'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) vorlag."
 * code.coding[kardio].system 1.. MS
 * code.coding[kardio].code 1.. MS
 * code.coding[kardio] = MII_CS_Kardio_Atherosklerotisches_Ereignis#eg-cv

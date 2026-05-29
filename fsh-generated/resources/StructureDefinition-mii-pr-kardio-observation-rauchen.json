@@ -37,21 +37,6 @@
         }
       },
       {
-        "id": "Observation.code.coding:snomed-ct-ISiK",
-        "path": "Observation.code.coding",
-        "sliceName": "snomed-ct-ISiK",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Coding",
-            "profile": [
-              "https://gematik.de/fhir/isik/StructureDefinition/ISiKSnomedCTCoding"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Observation.code.coding:snomed-ct-MII",
         "path": "Observation.code.coding",
         "sliceName": "snomed-ct-MII",

@@ -50,6 +50,11 @@
         "patternUri": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
       },
       {
+        "id": "Observation.code.coding:snomed-ct-MII.code",
+        "path": "Observation.code.coding.code",
+        "patternCode": "77176002"
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "type": [

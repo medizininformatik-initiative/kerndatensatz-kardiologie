@@ -16,6 +16,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * code.coding contains 
     snomed-ct-MII 0..1
 * code.coding[snomed-ct-MII].system = $sct // siehe alias; entspricht in der MII derzeit http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701
+* code.coding[snomed-ct-MII].code = $sct#77176002
 // Code from Parent = SCT 77176002 "Smoker" (finding) oder LOINC 72166-2 "Tobacco smoking status"
 * code.coding[loinc] only $ISiKLoincCoding
 * code.coding[loinc] = $loinc#72166-2

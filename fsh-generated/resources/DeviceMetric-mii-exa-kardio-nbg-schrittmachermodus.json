@@ -1,0 +1,23 @@
+{
+  "resourceType": "DeviceMetric",
+  "id": "mii-exa-kardio-nbg-schrittmachermodus",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "730752",
+        "system": "urn:iso:std:iso:11073:10101",
+        "display": "MDC_IDC_SET_BRADY_MODE"
+      }
+    ],
+    "text": "The brady pacing mode according to the NBG standard."
+  },
+  "source": {
+    "reference": "Device/mii-exa-kardio-device-icd"
+  },
+  "category": "setting"
+}

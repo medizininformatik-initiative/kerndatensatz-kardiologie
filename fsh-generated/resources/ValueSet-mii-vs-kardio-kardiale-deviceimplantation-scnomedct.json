@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT",
+  "id": "mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
+  "title": "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
+  "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
+  "version": "2026.0.0-alpha.3",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "date": "2025-09-05",
+  "purpose": "Codes aus diesem Value Set können in einer Prozedur die Implantation eines kardialen Devices in der Kardiologie spezifizieren.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "395218007"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "307280005"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "232967006"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "232966002"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "232968001"
+          }
+        ]
+      }
+    ]
+  }
+}

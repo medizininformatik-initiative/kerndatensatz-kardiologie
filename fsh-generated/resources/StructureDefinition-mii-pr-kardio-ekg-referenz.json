@@ -1,0 +1,75 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-ekg-referenz",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz",
+  "name": "MII_PR_Kardio_EKG_Referenz",
+  "title": "MII PR Kardio EKG Referenz",
+  "status": "draft",
+  "description": "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespeichert werden.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "DocumentReference",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DocumentReference",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DocumentReference.status",
+        "path": "DocumentReference.status",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.type",
+        "path": "DocumentReference.type",
+        "min": 1,
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "11524-6",
+              "system": "http://loinc.org"
+            }
+          ]
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.subject",
+        "path": "DocumentReference.subject",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.date",
+        "path": "DocumentReference.date",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.author",
+        "path": "DocumentReference.author",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Device"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.attachment.contentType",
+        "path": "DocumentReference.content.attachment.contentType",
+        "mustSupport": true
+      },
+      {
+        "id": "DocumentReference.content.attachment.url",
+        "path": "DocumentReference.content.attachment.url",
+        "min": 1,
+        "mustSupport": true
+      }
+    ]
+  }
+}

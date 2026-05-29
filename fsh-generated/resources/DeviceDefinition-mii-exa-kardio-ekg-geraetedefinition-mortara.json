@@ -1,0 +1,44 @@
+{
+  "resourceType": "DeviceDefinition",
+  "id": "mii-exa-kardio-ekg-geraetedefinition-mortara",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition"
+    ]
+  },
+  "deviceName": [
+    {
+      "name": "ELI 380",
+      "type": "model-name"
+    }
+  ],
+  "specialization": [
+    {
+      "systemType": "Resting ECG"
+    }
+  ],
+  "physicalCharacteristics": {
+    "height": {
+      "value": 14,
+      "system": "http://unitsofmeasure.org",
+      "code": "cm"
+    },
+    "width": {
+      "value": 39,
+      "system": "http://unitsofmeasure.org",
+      "code": "cm"
+    },
+    "depth": {
+      "value": 51,
+      "system": "http://unitsofmeasure.org",
+      "code": "cm"
+    },
+    "weight": {
+      "value": 12,
+      "system": "http://unitsofmeasure.org",
+      "code": "kg"
+    }
+  },
+  "manufacturerString": "Mortara Instrument, Inc.",
+  "onlineInformation": "https://www.hillrom.de/de/products/eli-380-electrocardiograph/"
+}

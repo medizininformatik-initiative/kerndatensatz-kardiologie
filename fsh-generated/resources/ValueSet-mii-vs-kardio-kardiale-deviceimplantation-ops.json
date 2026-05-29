@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MII_VS_Kardio_Kardiale_Deviceimplantation_OPS",
+  "id": "mii-vs-kardio-kardiale-deviceimplantation-ops",
+  "title": "MII VS Kardio Kardiale Devicemimplantation [OPS]",
+  "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops",
+  "version": "2026.0.0-alpha.3",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "date": "2026-04-17",
+  "purpose": "Codes aus diesem Value Set können in einer Prozedur die Implantation eines kardialen Devices in der Kardiologie spezifizieren.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/ops",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "5-376"
+          }
+        ]
+      },
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/ops",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "5-377"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+        "version": "4.0.1",
+        "concept": [
+          {
+            "code": "asked-unknown"
+          }
+        ]
+      }
+    ]
+  }
+}

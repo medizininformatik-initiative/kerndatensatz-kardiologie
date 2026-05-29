@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MII_VS_Kardio_Geraetetyp_SNOMEDCT",
+  "id": "mii-vs-kardio-geraetetyp-snomedct",
+  "title": "MII VS Kardio Gerätetyp [SNOMED CT]",
+  "description": "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher und ventrikuläres Unterstützungssystem ab.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct",
+  "version": "2026.0.0-alpha.3",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "date": "2025-09-05",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "72506001"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "706004007"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "360064003"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+        "version": "4.0.1",
+        "concept": [
+          {
+            "code": "asked-unknown"
+          }
+        ]
+      }
+    ]
+  }
+}

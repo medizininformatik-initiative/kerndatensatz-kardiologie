@@ -1,0 +1,138 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-pr-kardio-score-nyha",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha",
+  "version": "2026.0.0-alpha.3",
+  "name": "MII_PR_Kardio_Score_NYHA",
+  "title": "MII PR Kardio Score NYHA",
+  "status": "active",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "min": 1,
+        "max": "1",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "survey",
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+            }
+          ]
+        },
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-category"
+        }
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "$this"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 2
+      },
+      {
+        "id": "Observation.code.coding:sct",
+        "path": "Observation.code.coding",
+        "sliceName": "sct",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "762994006",
+          "system": "http://snomed.info/sct",
+          "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding:loinc",
+        "path": "Observation.code.coding",
+        "sliceName": "loinc",
+        "min": 1,
+        "max": "1",
+        "patternCoding": {
+          "code": "93124-6",
+          "system": "http://loinc.org"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct"
+        }
+      }
+    ]
+  }
+}

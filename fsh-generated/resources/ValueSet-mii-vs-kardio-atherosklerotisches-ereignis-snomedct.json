@@ -1,0 +1,118 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT",
+  "id": "mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
+  "title": "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
+  "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
+  "version": "2026.0.0-alpha.3",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "date": "2025-09-05",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "53741008"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "88032003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "422504002"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "232035005"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "399957001"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "233985008"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "266257000"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "1287902001"
+          }
+        ]
+      }
+    ]
+  }
+}

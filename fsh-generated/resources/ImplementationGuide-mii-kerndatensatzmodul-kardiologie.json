@@ -1,0 +1,778 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "mii-kerndatensatzmodul-kardiologie",
+  "language": "de-DE",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
+  "version": "2026.0.0-alpha.3",
+  "name": "MII_IG_MODUL_KARDIO_DE",
+  "title": "MII IG Modul Kardio DE",
+  "status": "draft",
+  "publisher": "Medizininformatik-Initiative",
+  "contact": [
+    {
+      "name": "Medizininformatik-Initiative",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        },
+        {
+          "system": "email",
+          "value": "office@medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "description": "Medizininformatik Initiative - Erweiterungsmodul Kardiologie (alpha)",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "276",
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm"
+        }
+      ]
+    }
+  ],
+  "packageId": "mii-kerndatensatzmodul-kardiologie",
+  "license": "CC-BY-4.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "de.basisprofil.r4",
+      "version": "1.5.4",
+      "uri": "http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4",
+      "id": "de_basisprofil_r4"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.icu",
+      "version": "2026.0.x",
+      "uri": "http://fhir.org/packages/de.medizininformatikinitiative.kerndatensatz.icu/ImplementationGuide/de.medizininformatikinitiative.kerndatensatz.icu",
+      "id": "de_medizininformatikinitiative_kerndatensatz_icu"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.base",
+      "version": "2026.0.x",
+      "uri": "https://www.medizininformatik-initiative.de/fhir/modul-base/ImplementationGuide/mii-ig-base",
+      "id": "de_medizininformatikinitiative_kerndatensatz_base"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.meta",
+      "version": "2026.0.x",
+      "uri": "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
+      "id": "de_medizininformatikinitiative_kerndatensatz_meta"
+    },
+    {
+      "packageId": "de.gematik.isik",
+      "version": "5.1.x",
+      "uri": "http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik",
+      "id": "de_gematik_isik"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"
+        },
+        "name": "MII CS Kardio Atherosklerotisches Ereignis",
+        "description": "Code für ein unbestimmtes atherosklerotisches Ereignis",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-ausschlusskriterium-acribis-scores"
+        },
+        "name": "MII CS Kardio Ausschlusskriterium ACRIBiS Scores",
+        "description": "Ausschlusskriterien für ACRIBiS Scores",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-lebensmittelpunkt"
+        },
+        "name": "MII CS Kardio Lebensmittelpunkt",
+        "description": "Lebensmittelpunkt des Patienten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-modul-supplement-snomedct"
+        },
+        "name": "MII CS Kardio Modul Supplement [SNOMED CT]",
+        "description": "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul Kardiologie.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf"
+        },
+        "name": "MII EXA Kardio Anzahl KH Aufenthalte WG HF",
+        "description": "Beispiel einer Observation für 3 Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2"
+        },
+        "name": "MII EXA Kardio Anzahl KH Aufenthalte WG HF (mit Angabe 'Weiß nicht')",
+        "description": "Beispiel einer Observation bei Angabe 'Ich weiß es nicht' zu Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-atherosklerotisches-erstereignis"
+        },
+        "name": "MII EXA Kardio Atherosklerotisches Erstereignis",
+        "description": "Beispiel einer Observation für das Datum eines unbestimmten atherosklerotischen Erstereignisses",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
+      },
+      {
+        "reference": {
+          "reference": "Device/mii-exa-kardio-device-icd"
+        },
+        "name": "MII EXA Kardio Device ICD",
+        "description": "Beispiel eines implantierten Kardioverter-Defibrillators (ICD)",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device"
+      },
+      {
+        "reference": {
+          "reference": "Procedure/mii-exa-kardio-ekg-durchfuehrung"
+        },
+        "name": "MII EXA Kardio EKG Durchführung",
+        "description": "Beispiel einer Durchführung eines 12-Kanal Ruhe-EKGs",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-durchfuehrung"
+      },
+      {
+        "reference": {
+          "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
+        },
+        "name": "MII EXA Kardio EKG Geraet Mortara",
+        "description": "Beispiel eines EKG Gerätes der Firma Mortara Instruments",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet"
+      },
+      {
+        "reference": {
+          "reference": "DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara"
+        },
+        "name": "MII EXA Kardio EKG Geraetedefinition Mortara",
+        "description": "Beispiel einer EKG Gerätedefinition für ein EKG-Gerät der Firma Mortara Instruments",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition"
+      },
+      {
+        "reference": {
+          "reference": "Device/mii-exa-kardio-ekg-kanal-i"
+        },
+        "name": "MII EXA Kardio EKG Kanal I",
+        "description": "Beispiel eines EKG-Kanals (I) eines Gerätes der Firma Mortara Instruments",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal"
+      },
+      {
+        "reference": {
+          "reference": "Device/mii-exa-kardio-ekg-kanal-ii"
+        },
+        "name": "MII EXA Kardio EKG Kanal II",
+        "description": "Beispiel eines EKG-Kanals (II) eines Gerätes der Firma Mortara Instruments",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal"
+      },
+      {
+        "reference": {
+          "reference": "Device/mii-exa-kardio-ekg-kanal-iii"
+        },
+        "name": "MII EXA Kardio EKG Kanal III",
+        "description": "Beispiel eines EKG-Kanals (III) eines Gerätes der Firma Mortara Instruments",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/mii-exa-kardio-ekg-referenz"
+        },
+        "name": "MII EXA Kardio EKG Referenz",
+        "description": "Beispiel einer Referenz auf ein EKG, dessen Rohdaten an einem anderen Ort gespeichert werden.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-ekg-rr-interval"
+        },
+        "name": "MII EXA Kardio EKG RR Interval",
+        "description": "Beispiel einer Observation zur Darstellung des RR Intervals eines aufgezeichneten EKGs",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotation"
+      },
+      {
+        "reference": {
+          "reference": "Condition/mii-exa-kardio-embolischer-gefaessverschluss"
+        },
+        "name": "MII EXA Kardio Emoblischer Gefäßverschluss",
+        "description": "Beispiel: Der Patient hat angegeben, einen embolischen Gefäßverschluss gehabt zu haben.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-geraeteprogrammierung-vvi"
+        },
+        "name": "MII EXA Kardio Geräteprogrammierung VVI",
+        "description": "Beispiel der Einstellung eines Kardioverter-Defibrillators (ICD) im VVI-Modus",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-geraeteprogrammierung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-herzinsuffizienz-unbekannt"
+        },
+        "name": "MII EXA Kardio Herzinsuffizienz Unbekannt",
+        "description": "Beispiel: Der Patient weiß nicht, ob er Herzinsuffizienz hat.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+      },
+      {
+        "reference": {
+          "reference": "Condition/mii-exa-kardio-hoehergradiges-vitium"
+        },
+        "name": "MII EXA Kardio Höhergradiges Vitium",
+        "description": "Beispiel zur Abbildung eines unbestimmten höhergradigen Klappenvitiums.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-klappenvitium"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-hoehergradiges-vitium-unbekannt"
+        },
+        "name": "MII EXA Kardio Höhergradiges Vitium Unbekannt",
+        "description": "Beispiel um abzubilden, dass das Vorliegen eines höhergradigen Klappenvitiums unbekannt ist.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+      },
+      {
+        "reference": {
+          "reference": "Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd"
+        },
+        "name": "MII EXA Kardio Kardiale Deviceimplantation ICD",
+        "description": "Beispiel einer Implantation eines Kardioverter-Defibrillators (ICD)",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-kein-device"
+        },
+        "name": "MII EXA Kardio Kein Device",
+        "description": "Beispiel: Der Patient hat kein implantiertes kardiales Device.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-lvef"
+        },
+        "name": "MII EXA Kardio LVEF",
+        "description": "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-mrs"
+        },
+        "name": "MII EXA Kardio MRS",
+        "description": "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem Schlaganfall gemäß MII PR Kardio Score mRS.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
+      },
+      {
+        "reference": {
+          "reference": "DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus"
+        },
+        "name": "MII EXA Kardio NBG Schrittmachermodus",
+        "description": "Beispiel einer DeviceMetric für die Geräteprogrammierung eines ICD",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-pci-nein"
+        },
+        "name": "MII EXA Kardio PCI/Stent Nein",
+        "description": "Beispiel: Der Patient hatte noch keine Koronarintervention mit PCI/Stent.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Andere"
+        },
+        "name": "MII EXA Kardio QuestionnaireResponse Andere",
+        "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht einer Anderen-Person (hier: Study Nurse)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Angehoerige"
+        },
+        "name": "MII EXA Kardio QuestionnaireResponse Angehoerige",
+        "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Angehörigen",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Arzt"
+        },
+        "name": "MII EXA Kardio QuestionnaireResponse Arzt",
+        "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Arztes/Ärztin",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Patient"
+        },
+        "name": "MII EXA Kardio QuestionnaireResponse Patient",
+        "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Patienten/in",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-raucherstatus"
+        },
+        "name": "MII EXA Kardio Raucherstatus",
+        "description": "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-raucherstatus-acribisalpha"
+        },
+        "name": "MII EXA Kardio Raucherstatus ACRIBiS Alpha",
+        "description": "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen im Kontext von ACRIBiS.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/mii-exa-kardio-rolle-kardiologe"
+        },
+        "name": "MII EXA Kardio Rolle Kardiologe",
+        "description": "Beispielhafte Rolle eines Kardiologen zur Verwendung in performer-Referenzen.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-kardio-score-nyha-ii"
+        },
+        "name": "MII EXA Kardio Score NYHA II",
+        "description": "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation bei Herzinsuffizienz gemäß MII PR Kardio Score NYHA.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha"
+      },
+      {
+        "reference": {
+          "reference": "Condition/mii-exa-kardio-diagnose-myokardinfarkt"
+        },
+        "name": "MII Kardio Diagnose Myokardinfarkt",
+        "description": "Beispielhafte vollständige Instanz einer Diagnose die vom Arzt bestätigt tatsächlich vorliegt gemäß dem Profil MII_PR_Kardio_Diagnose im Rahmen des ACRIBIS-Projekts.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
+        },
+        "name": "MII PR Kardio Anzahl KH Aufenthalte wg HF",
+        "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
+        },
+        "name": "MII PR Kardio Atherosklerotisches Erstereignis",
+        "description": "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
+        },
+        "name": "MII PR Kardio Ausschluss Scoreberechnung",
+        "description": "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis.\r\nVorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-device"
+        },
+        "name": "MII PR Kardio Device",
+        "description": "Profil zur Abbildung eines implantierten Herzschrittmachers, Defibrillators oder ventrikulären Unterstützungssystems.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-diagnose"
+        },
+        "name": "MII PR Kardio Diagnose",
+        "description": "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
+        },
+        "name": "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
+        "description": "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagnose, bzw. Prozedur, oder Unklarheit darüber ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-annotation"
+        },
+        "name": "MII PR Kardio EKG Annotation",
+        "description": "Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Interpretationen, eines EKG.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-durchfuehrung"
+        },
+        "name": "MII PR Kardio EKG Durchführung",
+        "description": "Profil zur Erfassung der Durchführung eines EKG.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-geraet"
+        },
+        "name": "MII PR Kardio EKG Gerät",
+        "description": "Profil zur Abbildung eines EKG-Gerätes.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-geraetedefinition"
+        },
+        "name": "MII PR Kardio EKG Gerätedefinition",
+        "description": "Profil zur Abbildung einer EKG-Gerätedefinition.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-kanal"
+        },
+        "name": "MII PR Kardio EKG Kanal",
+        "description": "Profil zur Abbildung eines EKG-Kanals.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-ekg-referenz"
+        },
+        "name": "MII PR Kardio EKG Referenz",
+        "description": "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespeichert werden.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-geraeteprogrammierung"
+        },
+        "name": "MII PR Kardio Geräteprogrammierung",
+        "description": "Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric *Schrittmachermodus*, eines Gerätes zu einem bestimmten Zeitpunkt abgebildet werden.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation"
+        },
+        "name": "MII PR Kardio Kardiale Deviceimplantation",
+        "description": "Profil zur Erfassung einer Implantation eines Herzschrittmachers, Kardioverter-Defibrillators oder ventrikulären Unterstützungssystems.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-klappenvitium"
+        },
+        "name": "MII PR Kardio Klappenvitium",
+        "description": "Profil zur Abbildung einer Herzklappenerkrankung.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"
+        },
+        "name": "MII PR Kardio Linksventrikulaere Ejektionsfraktion",
+        "description": "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"
+        },
+        "name": "MII PR Kardio NBG Schrittmachermodus",
+        "description": "Dieses Profil bildet die Einstellungsmöglichkeit eines Herzschrittmacher nach dem NBG-Standard ab.\r\nDie konkrete Programmierung eines Herzschrittmachers zu einem bestimmmten Zeitpunkt oder in einem Zeitraum wird in einer Observation abgebildet.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen"
+        },
+        "name": "MII PR Kardio Observation Rauchen",
+        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Modul Kardiologie.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
+        },
+        "name": "MII PR Kardio Observation Rauchen AcribisAlpha",
+        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Projekts ACRIBiS.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
+        },
+        "name": "MII PR Kardio Score Modifizierte Rankin Skala",
+        "description": "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-kardio-score-nyha"
+        },
+        "name": "MII PR Kardio Score NYHA",
+        "description": "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/MII-QN-Kardio-Acribis-Study-FollowUp"
+        },
+        "name": "MII QN Kardio Acribis Study FollowUp",
+        "description": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-allergene-snomedct"
+        },
+        "name": "MII VS Kardio Allergene [SNOMED CT]",
+        "description": "Liste von Substanzen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct"
+        },
+        "name": "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
+        "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ausschlusskriterium-acribis-scores"
+        },
+        "name": "MII VS Kardio Ausschlusskriterium ACRIBiS Scores",
+        "description": "ValueSet for exclusion criteria for score computation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ekg-kanaele-mdc"
+        },
+        "name": "MII VS Kardio EKG Kanäle [MDC]",
+        "description": "ISO/IEEE 11073-10101 Codes für EKG Kanäle",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ekg-prozedur-snomedct"
+        },
+        "name": "MII VS Kardio EKG Prozedur [SNOMED CT]",
+        "description": "SNOMED CT Codes für verschieden EKG-Prozeduren.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ethnie-snomedct"
+        },
+        "name": "MII VS Kardio Ethnie [SNOMED CT]",
+        "description": "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-extended-condition-severity-snomedct"
+        },
+        "name": "MII VS Kardio Extended Condition Severity [SNOMED CT]",
+        "description": "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed"
+        },
+        "name": "MII VS Kardio Extended MII DiagnoseCodes [SNOMED CT]",
+        "description": "Erweiterung des MII VS Diagnose Diagnosecodes [SNOMED CT]",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc"
+        },
+        "name": "MII VS Kardio Geräteprogrammierung [MDC]",
+        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-geraetetyp-snomedct"
+        },
+        "name": "MII VS Kardio Gerätetyp [SNOMED CT]",
+        "description": "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher und ventrikuläres Unterstützungssystem ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct"
+        },
+        "name": "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
+        "description": "Beschreibung von Gewichtsveränderungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"
+        },
+        "name": "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+        "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops"
+        },
+        "name": "MII VS Kardio Kardiale Devicemimplantation [OPS]",
+        "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct"
+        },
+        "name": "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
+        "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct"
+        },
+        "name": "MII VS Kardio Klappenvitium Grad [SNOMED CT]",
+        "description": "SNOMED CT Codes für den Grad Klappenerkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-klappenvitium-alphaid"
+        },
+        "name": "MII VS Kardio Klappenvitium [ALPHA-ID]",
+        "description": "Alpha-ID-Codes für Klappenerkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-klappenvitium-icd"
+        },
+        "name": "MII VS Kardio Klappenvitium [ICD 10 GM]",
+        "description": "ICD-Codes für Klappenerkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-klappenvitium-snomedct"
+        },
+        "name": "MII VS Kardio Klappenvitium [SNOMED CT]",
+        "description": "SNOMED CT Codes für Klappenerkrankungen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-lebensmittelpunkt-m49"
+        },
+        "name": "MII VS Kardio Lebensmittelpunkt [M49]",
+        "description": "Dieses Value Set bildet den aktuellen Lebensmittelpunkt des Patienten unabhängig von seiner Herkunft ab. Damit wird der Parameter 'Geographic region' des SMART-REACH-Scores mit der Ergänzung Deutschland abgebildet.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-objekte-geraete-mdc"
+        },
+        "name": "MII VS Kardio MDC Objects Devices [MDC]",
+        "description": "ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc"
+        },
+        "name": "MII VS Kardio Metriken EKG Annotationen [MDC]",
+        "description": "ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-modifizierte-rankin-skala"
+        },
+        "name": "MII VS Kardio Modifizierte Rankin Skala",
+        "description": "Stufen der modifizierten Rankin-Skala",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-nein-unbekannt"
+        },
+        "name": "MII VS Kardio Nein Unbekannt",
+        "description": "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnose, bzw. Prozedur, oder Unklarheit darüber.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-nyha-klassen-snomedct"
+        },
+        "name": "MII VS Kardio NYHA Klassen [SNOMED CT]",
+        "description": "Klassen der New York Heart Association Classification",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-rauchen-acribisalpha"
+        },
+        "name": "MII VS Kardio Rauchen AcribisAlpha",
+        "description": "Kombiniertes ValueSet mit Codes zur Abbildung des Rauchverhaltens im Kontext von Acribis",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-follow-up"
+        },
+        "name": "MII_CS_Follow_Up",
+        "description": "Dieses CodeSystem enthält lokal definierte Einheiten zur Verwendung im Follow-Up Questionnaire.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-modifizierte-rankin-skala"
+        },
+        "name": "Modifizierte Rankin-Skala",
+        "description": "Beeinträchtigung des Patienten nach Schlaganfall",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": []
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2025+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      },
+      {
+        "code": "pin-canonicals",
+        "value": "pin-all"
+      }
+    ]
+  }
+}

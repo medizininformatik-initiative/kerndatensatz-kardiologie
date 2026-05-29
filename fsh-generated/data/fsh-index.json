@@ -453,7 +453,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Observation_Rauchen_AcribisAlpha.fsh",
     "startLine": 1,
-    "endLine": 94
+    "endLine": 96
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-rauchen.json",

@@ -45,6 +45,16 @@
         }
       },
       {
+        "id": "Observation.code.coding:snomed-ct",
+        "path": "Observation.code.coding",
+        "sliceName": "snomed-ct"
+      },
+      {
+        "id": "Observation.code.coding:snomed-ct.code",
+        "path": "Observation.code.coding.code",
+        "patternCode": "77176002"
+      },
+      {
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
@@ -65,6 +75,11 @@
         "path": "Observation.code.coding.system",
         "min": 1,
         "patternUri": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+      },
+      {
+        "id": "Observation.code.coding:snomed-ct-MII.code",
+        "path": "Observation.code.coding.code",
+        "patternCode": "77176002"
       },
       {
         "id": "Observation.subject",

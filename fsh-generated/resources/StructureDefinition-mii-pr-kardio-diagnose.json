@@ -69,7 +69,7 @@
         "id": "Condition.code.coding:kardio",
         "path": "Condition.code.coding",
         "sliceName": "kardio",
-        "comment": "Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, \r\ndass unbekannt ist, ob ein 'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) vorlag.",
+        "comment": "Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, \ndass unbekannt ist, ob ein 'Embolischer Gefäßverschluss cerebro vaskulär (Fragebogenitem 67)' vorlag.",
         "min": 0,
         "max": "1",
         "patternCoding": {

@@ -28,6 +28,8 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * code 1.. MS
 * code.coding 1.. MS 
 
+* code.coding ^slicing.rules = #closed
+
 // icd10-gm, alpha-id und orphanet bereits in parent definiert
 * code.coding contains
     kardio 0..1

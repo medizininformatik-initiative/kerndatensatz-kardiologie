@@ -17,7 +17,7 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * code.coding 1.. MS 
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"
-* code.coding ^slicing.rules = #open
+* code.coding ^slicing.rules = #closed
 
 * code.coding contains
     icd10-gm 0..1 MS and
@@ -27,7 +27,7 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
     orphanet 0..1 MS and
     kardio 0..1
 
-* code.coding[diagnoseSnomed] from $diagnoses-sct-vs (required)
+* code.coding[diagnoseSnomed] from MII_VS_Kardio_Extended_MII_DiagnoseCodes_SNOMED (required)
 * code.coding[prozedurSnomed] from $prozedur-sct-vs (required)
 * code.coding[icd10-gm] only CodingICD10GM
 * code.coding[icd10-gm] from $icd10-gm-vs (required)

@@ -18,3 +18,4 @@ Description: "Profil zur Abbildung einer Herzklappenerkrankung."
 * code.coding[sct] from MII_VS_Kardio_Klappenvitium_SNOMEDCT (required)
 * code.coding[alpha-id] from MII_VS_Kardio_Klappenvitium_ALPHAID (required)
 * code.coding[orphanet] ..0
+* code.coding[kardio] ..0

@@ -15,6 +15,7 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 
 * code 1.. MS
 * code.coding 1.. MS 
+* code.coding.version 1.. MS
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #closed
@@ -35,7 +36,7 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * code.coding[icd10-gm] from $icd10-gm-vs (required)
 * code.coding[icd10-gm] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
 * code.coding[icd10-gm].system 1.. MS
-* code.coding[icd10-gm].version 1.. MS
+//* code.coding[icd10-gm].version 1.. MS
 * code.coding[icd10-gm].code 1.. MS
 * code.coding[alpha-id] only CodingAlphaID
 * code.coding[alpha-id] from $alpha-id-vs (required)

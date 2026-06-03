@@ -57,6 +57,12 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.code.coding.version",
+        "path": "Observation.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.code.coding:icd10-gm",
         "path": "Observation.code.coding",
         "sliceName": "icd10-gm",
@@ -82,11 +88,6 @@
       {
         "id": "Observation.code.coding:icd10-gm.system",
         "path": "Observation.code.coding.system",
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:icd10-gm.version",
-        "path": "Observation.code.coding.version",
         "mustSupport": true
       },
       {
@@ -182,13 +183,14 @@
         "id": "Observation.code.coding:kardio",
         "path": "Observation.code.coding",
         "sliceName": "kardio",
-        "comment": "Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, \r\ndass unbekannt ist, ob ein 'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) vorlag.",
+        "comment": "Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um eine allgemeine Angabe zu \n'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) anzulegen, falls keine genauere Information im \nSystem/Fragebogen gegeben ist.",
         "min": 0,
         "max": "1",
         "patternCoding": {
           "code": "eg-cv",
           "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding:kardio.system",

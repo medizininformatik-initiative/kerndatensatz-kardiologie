@@ -349,7 +349,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
     "startLine": 1,
-    "endLine": 63
+    "endLine": 65
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-diagnose.json",
@@ -357,7 +357,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Diagnose.fsh",
     "startLine": 1,
-    "endLine": 73
+    "endLine": 74
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-annotation.json",

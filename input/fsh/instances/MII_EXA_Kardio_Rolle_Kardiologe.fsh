@@ -5,5 +5,5 @@ Description: "Beispielhafte Rolle eines Kardiologen zur Verwendung in performer-
 Usage: #example
 
 * organization.display = "Klinikum Musterstadt"
-* code = $sct#17561000 "Cardiologist"
-* specialty = $sct#394579002 "Cardiology"
+* code = $example-sct#17561000 "Cardiologist"
+* specialty = $example-sct#394579002 "Cardiology"

@@ -5,7 +5,7 @@ Description: "Beispiel einer Referenz auf ein EKG, dessen Rohdaten an einem ande
 Usage: #example
 
 * status = #current
-* type = http://loinc.org#11524-6 "EKG study"
+* type = $example-loinc#11524-6 "EKG study"
 * subject.display = "Beispielpatient"
 * date = "2025-07-17T16:41:22+02:00"
 * author.reference = "Device/mii-exa-kardio-ekg-geraet-mortara"

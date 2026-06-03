@@ -11,6 +11,7 @@
       {
         "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
         "code": "ae",
+        "version": "$kds_kardio_version",
         "display": "Atherosklerotisches Ereignis"
       }
     ]

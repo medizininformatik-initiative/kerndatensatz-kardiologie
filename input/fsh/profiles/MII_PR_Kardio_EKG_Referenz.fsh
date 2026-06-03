@@ -7,7 +7,11 @@ Description: "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem ande
 * status MS
 
 * type 1.. MS
-* type = http://loinc.org#11524-6
+* type.coding 1.. MS
+* type.coding.system 1.. MS
+* type.coding.version 1.. MS
+* type.coding.code 1.. MS
+* type = $loinc#11524-6
 
 * subject 1.. MS
 * content 1..*

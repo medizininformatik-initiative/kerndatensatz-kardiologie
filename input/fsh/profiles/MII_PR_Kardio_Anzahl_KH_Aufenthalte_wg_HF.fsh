@@ -12,6 +12,9 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * ^date = "2025-09-03"
 
 * code.coding 1..* MS
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this" 
 * code.coding ^slicing.rules = #open

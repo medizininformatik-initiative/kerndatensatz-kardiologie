@@ -5,7 +5,7 @@ Description: "Beispiel eines EKG-Kanals (II) eines Gerätes der Firma Mortara In
 Usage: #example
 
 * status = #active
-* type.coding[geraetetyp] = $mdc#69799 "MDC_DEV_ECG_CHAN"
-* property[kanalbezeichnung].type = $mdc#68142 "MDC_ATTR_CHAN_NUM_LOGICAL"
-* property[kanalbezeichnung].valueCode = $mdc#131074 "MDC_ECG_LEAD_II"
+* type.coding[geraetetyp] = $example-mdc#69799 "MDC_DEV_ECG_CHAN"
+* property[kanalbezeichnung].type = $example-mdc#68142 "MDC_ATTR_CHAN_NUM_LOGICAL"
+* property[kanalbezeichnung].valueCode = $example-mdc#131074 "MDC_ECG_LEAD_II"
 * parent.reference = "Device/mii-exa-kardio-ekg-geraet-mortara"

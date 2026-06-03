@@ -12,8 +12,14 @@ Die konkrete Programmierung eines Herzschrittmachers zu einem bestimmmten Zeitpu
 * ^experimental = true
 * ^date = "2025-05-13"
 
+* type 1.. MS
+* type.coding 1.. MS
+* type.coding.system 1.. MS
+* type.coding.version 1.. MS
+* type.coding.code 1.. MS
 * type from $devicemetric-type-vs (required)
 * type = $mdc#730752 // MDC_IDC_SET_BRADY_MODE
+
 
 * source 1.. MS
 

@@ -30,9 +30,12 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * category[vs-cat] = $observation-category#imaging
 * category[vs-cat] ^comment = "Category 'imaging', da LVEF meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen."
 
-* code MS
+* code 1.. MS
 // * code obeys code-coding-icu  // code-coding-icu: Es muss mindestens ein snomed oder loinc code vorhanden sein
-* code.coding 2..
+* code.coding 2.. MS
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open

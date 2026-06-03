@@ -79,7 +79,6 @@
                                   "valueCoding": {
                                     "code": "422504002",
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                                     "display": "Ischemic stroke"
                                   }
                                 }
@@ -98,7 +97,6 @@
                                   "valueCoding": {
                                     "code": "21454007",
                                     "system": "http://snomed.info/sct",
-                                    "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                                     "display": "Subarachnoid hemorrhage"
                                   }
                                 }
@@ -322,7 +320,6 @@
                           "valueCoding": {
                             "code": "233916004",
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                             "display": "Heart block"
                           }
                         },
@@ -341,7 +338,6 @@
                           "valueCoding": {
                             "code": "307409006",
                             "system": "http://snomed.info/sct",
-                            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
                             "display": "Ischemic finger"
                           }
                         }

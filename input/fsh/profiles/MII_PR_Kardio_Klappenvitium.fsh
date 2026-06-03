@@ -14,6 +14,12 @@ Description: "Profil zur Abbildung einer Herzklappenerkrankung."
 * severity from MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT (required)
 * severity ^comment = "Grad der Klappenerkrankung auf einer drei- oder vierstufigen Skala."
 
+* code 1.. MS
+* code.coding 1.. MS
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
+
 * code.coding[icd10-gm] from MII_VS_Kardio_Klappenvitium_ICD (required)
 * code.coding[sct] from MII_VS_Kardio_Klappenvitium_SNOMEDCT (required)
 * code.coding[alpha-id] from MII_VS_Kardio_Klappenvitium_ALPHAID (required)

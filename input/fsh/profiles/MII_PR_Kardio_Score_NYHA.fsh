@@ -15,6 +15,9 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 
 * code 1..1 MS
 * code.coding 2..*
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open

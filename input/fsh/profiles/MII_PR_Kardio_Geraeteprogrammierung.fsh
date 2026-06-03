@@ -14,6 +14,9 @@ Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die De
 * code from $devicemetric-type-vs (required)
 * code MS
 * code.coding 1.. MS
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this" 
 * code.coding ^slicing.rules = #open
@@ -22,8 +25,6 @@ Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die De
     sct 0..1
 
 * code.coding[mdc] = $mdc#730752
-* code.coding[mdc].system 1.. MS
-* code.coding[mdc].code 1.. MS
 
 * subject 1.. MS
 * subject only Reference(Device)

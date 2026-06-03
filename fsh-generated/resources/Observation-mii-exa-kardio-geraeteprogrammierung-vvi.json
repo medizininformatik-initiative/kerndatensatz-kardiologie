@@ -11,6 +11,7 @@
       {
         "code": "730752",
         "system": "urn:iso:std:iso:11073:10101",
+        "version": "2024-12-05",
         "display": "MDC_IDC_SET_BRADY_MODE"
       }
     ],
@@ -36,6 +37,7 @@
       {
         "code": "754773",
         "system": "urn:iso:std:iso:11073:10101",
+        "version": "2024-12-05",
         "display": "MDC_IDC_ENUM_BRADY_MODE_VVI"
       }
     ]

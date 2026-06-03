@@ -6,16 +6,16 @@ Usage: #example
 
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category = http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
+* category = $example-observation-category#problem-list-item "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
 * code.coding[icd10-gm] = $icd-10-gm|2025#I21.9 "Akuter Myokardinfarkt, nicht näher bezeichnet"
-* code.coding[sct] = $sct#22298006 "Myocardial infarction"
+* code.coding[sct] = $example-sct#22298006 "Myocardial infarction"
 
 // --------------------------------------
 // SEVERITY (terminal) --> Angabe fuer Krebserkrankung nicht im Endstadium/terminal
-* severity.coding = $sct#6736007 "Moderate"
+* severity.coding = $example-sct#6736007 "Moderate"
 
 // --------------------------------------
 // SUBJECT (Patientenreferenz)
@@ -31,7 +31,7 @@ Usage: #example
 
 // --------------------------------------
 // VERIFICATION STATUS -> Arzt hat festgestellt, dass Diagnose wohl nicht vorliegt
-* verificationStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status#confirmed "Confirmed"
+* verificationStatus = $example-condition-ver-status#confirmed "Confirmed"
 
 // --------------------------------------
 // EXTENSION: Feststellungsdatum --> Trifft hier nicht zu, siehe ModifierExtension, Patient gibt in Amanesefragebogen an es nicht zu wissen

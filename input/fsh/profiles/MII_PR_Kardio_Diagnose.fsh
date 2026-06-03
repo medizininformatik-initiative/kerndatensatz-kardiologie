@@ -27,17 +27,18 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 // Definieren des Code-Elements, um Kardio-Slice hinzuzufügen für kardio-local code der für die acribis-studie nicht in snomed-ct ausgedrueckt werden konnte.
 * code 1.. MS
 * code.coding 1.. MS 
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
 
 * code.coding ^slicing.rules = #closed
 
 // icd10-gm, alpha-id und orphanet bereits in parent definiert
 * code.coding contains
-    kardio 0..1
+    kardio 0..1 MS
 
 * code.coding[kardio] ^comment = """Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, 
 dass unbekannt ist, ob ein 'Embolischer Gefäßverschluss cerebro vaskulär (Fragebogenitem 67)' vorlag."""
-* code.coding[kardio].system 1.. MS
-* code.coding[kardio].code 1.. MS
 * code.coding[kardio] = MII_CS_Kardio_Atherosklerotisches_Ereignis#eg-cv
 
 // Subject

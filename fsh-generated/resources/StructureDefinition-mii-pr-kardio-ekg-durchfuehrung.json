@@ -48,9 +48,30 @@
         "sliceName": "sct",
         "patternCoding": {
           "code": "165197003",
-          "system": "http://snomed.info/sct",
-          "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+          "system": "http://snomed.info/sct"
         }
+      },
+      {
+        "id": "Procedure.code.coding",
+        "path": "Procedure.code.coding"
+      },
+      {
+        "id": "Procedure.code.coding.system",
+        "path": "Procedure.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.code.coding.version",
+        "path": "Procedure.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.code.coding.code",
+        "path": "Procedure.code.coding.code",
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Procedure.code.coding:sct",
@@ -62,14 +83,19 @@
         }
       },
       {
+        "id": "Procedure.code.coding:sct.version",
+        "path": "Procedure.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Procedure.bodySite",
         "path": "Procedure.bodySite",
         "patternCodeableConcept": {
           "coding": [
             {
               "code": "80891009",
-              "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+              "system": "http://snomed.info/sct"
             }
           ]
         }

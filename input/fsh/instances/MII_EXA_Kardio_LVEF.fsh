@@ -12,16 +12,10 @@ Usage: #example
 
 * status = #final
 
-* category[vs-cat].coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
-* category[vs-cat].coding.code = #imaging
-* category[vs-cat].coding.display = "Imaging"
+* category[vs-cat].coding = $example-observation-category#imaging "Imaging"
 
-* code.coding[sct].system = "http://snomed.info/sct"
-* code.coding[sct].code = #250908004
-* code.coding[sct].display = "Left ventricular ejection fraction"
-* code.coding[loinc].system = "http://loinc.org"
-* code.coding[loinc].code = #10230-1
-* code.coding[loinc].display = "Left ventricular ejection fraction"
+* code.coding[sct] = $example-sct#250908004 "Left ventricular ejection fraction"
+* code.coding[loinc] = $example-loinc#10230-1 "Left ventricular ejection fraction"
 * code.text = "Linksventrikuläre Ejektionsfraktion"
 
 * subject.display = "Beispielpatient"
@@ -37,10 +31,10 @@ Usage: #example
 
 * interpretation[0].coding[0] = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#N "Normal"
 
-* bodySite.coding[0] = $sct#87878005 "Left cardiac ventricular structure (body structure)"
+* bodySite.coding[0] = $example-sct#87878005 "Left cardiac ventricular structure (body structure)"
 * bodySite.text = "Linker Ventrikel"
 
-* method.coding[0] = $sct#40701008 "Echocardiography"
+* method.coding[0] = $example-sct#40701008 "Echocardiography"
 * method.text = "Echokardiographie"
 
 * device.display = "Philips EPIQ CVx Ultrasound System"

@@ -14,6 +14,9 @@ Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzie
 
 * code MS
 * code.coding 1.. MS
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
 * code.coding = $sct#271000124103 //  Medical reason for exclusion from performance measure (observable entity)
 
 * subject 1.. MS

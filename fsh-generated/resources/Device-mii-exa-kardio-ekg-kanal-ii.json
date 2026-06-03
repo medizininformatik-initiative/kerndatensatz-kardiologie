@@ -11,6 +11,7 @@
       {
         "code": "69799",
         "system": "urn:iso:std:iso:11073:10101",
+        "version": "2024-12-05",
         "display": "MDC_DEV_ECG_CHAN"
       }
     ]
@@ -23,6 +24,7 @@
             {
               "code": "131074",
               "system": "urn:iso:std:iso:11073:10101",
+              "version": "2024-12-05",
               "display": "MDC_ECG_LEAD_II"
             }
           ]
@@ -33,6 +35,7 @@
           {
             "code": "68142",
             "system": "urn:iso:std:iso:11073:10101",
+            "version": "2024-12-05",
             "display": "MDC_ATTR_CHAN_NUM_LOGICAL"
           }
         ]

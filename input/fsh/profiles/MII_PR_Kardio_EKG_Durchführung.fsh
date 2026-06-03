@@ -13,6 +13,11 @@ Description: "Profil zur Erfassung der Durchführung eines EKG."
 
 * category.coding[sct] = $sct#165197003 // Diagnostic assessment (procedure)
 
+* code 1.. MS
+* code.coding 1.. MS
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
 * code.coding[sct] from MII_VS_Kardio_EKG_Prozedur_SNOMEDCT (required)
 
 * bodySite = $sct#80891009 // Heart structure (body structure)

@@ -9,5 +9,5 @@ Usage: #example
 * manufacturer = "Mortara Instrument, Inc."
 * deviceName.name = "ELI 380"
 * deviceName.type = #model-name
-* type.coding[0] = $mdc#69797 "MDC_DEV_ECG_MDS"
-* type.coding[1] = $mdc#69798 "MDC_DEV_ECG_VMD"
+* type.coding[0] = $example-mdc#69797 "MDC_DEV_ECG_MDS"
+* type.coding[1] = $example-mdc#69798 "MDC_DEV_ECG_VMD"

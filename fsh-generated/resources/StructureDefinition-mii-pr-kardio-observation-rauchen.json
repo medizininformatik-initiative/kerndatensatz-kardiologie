@@ -37,6 +37,28 @@
         }
       },
       {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding"
+      },
+      {
+        "id": "Observation.code.coding.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.version",
+        "path": "Observation.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.code.coding:snomed-ct-MII",
         "path": "Observation.code.coding",
         "sliceName": "snomed-ct-MII",
@@ -46,8 +68,7 @@
       {
         "id": "Observation.code.coding:snomed-ct-MII.system",
         "path": "Observation.code.coding.system",
-        "min": 1,
-        "patternUri": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+        "patternUri": "http://snomed.info/sct"
       },
       {
         "id": "Observation.code.coding:snomed-ct-MII.code",
@@ -134,8 +155,7 @@
           "coding": [
             {
               "code": "401201003",
-              "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+              "system": "http://snomed.info/sct"
             }
           ]
         }
@@ -191,8 +211,7 @@
           "coding": [
             {
               "code": "230056004",
-              "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+              "system": "http://snomed.info/sct"
             }
           ]
         }
@@ -248,8 +267,7 @@
           "coding": [
             {
               "code": "228488005",
-              "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+              "system": "http://snomed.info/sct"
             }
           ]
         }
@@ -300,8 +318,7 @@
           "coding": [
             {
               "code": "228487000",
-              "system": "http://snomed.info/sct",
-              "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+              "system": "http://snomed.info/sct"
             }
           ]
         }

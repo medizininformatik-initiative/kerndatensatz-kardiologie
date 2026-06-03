@@ -12,7 +12,13 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * category 1..1 MS
 * category from $observation-category-vs (required)
 * category = $observation-category#social-history
+
 // Slicing des SNOMED-Codes - implementiert, da ISiK eine deutsche Version per constraint vorschreibt, aber die MII sich derzeit auf internationale Version verständigt hat
+* code 1.. MS
+* code.coding 1.. MS
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
 * code.coding contains 
     snomed-ct-MII 0..1
 * code.coding[snomed-ct-MII].system = $sct // siehe alias; entspricht in der MII derzeit http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701

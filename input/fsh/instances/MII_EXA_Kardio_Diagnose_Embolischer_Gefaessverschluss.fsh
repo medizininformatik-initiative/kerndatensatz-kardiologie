@@ -10,11 +10,11 @@ Usage: #example
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED --> hier local kardio vs)
-* code.coding[kardio] = $ath-ereignis#eg-cv "Embolischer Gefäßverschluss cerebro-vaskulär"
+* code.coding[kardio] = $example-ath-ereignis#eg-cv "Embolischer Gefäßverschluss cerebro-vaskulär"
 
 // --------------------------------------
 // SEVERITY (terminal) --> Angabe fuer Krebserkrankung nicht im Endstadium/terminal
-* severity.coding = $sct#6736007 "Moderate"
+* severity.coding = $example-sct#6736007 "Moderate"
 
 // --------------------------------------
 // SUBJECT (Patientenreferenz)
@@ -30,7 +30,7 @@ Usage: #example
 
 // --------------------------------------
 // VERIFICATION STATUS -> Arzt hat festgestellt, dass Diagnose wohl nicht vorliegt
-* verificationStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status#confirmed "Confirmed"
+* verificationStatus = $example-condition-ver-status#confirmed "Confirmed"
 
 // --------------------------------------
 // EXTENSION: Feststellungsdatum

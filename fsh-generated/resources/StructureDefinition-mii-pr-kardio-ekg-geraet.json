@@ -60,6 +60,24 @@
         "path": "Device.type.coding",
         "min": 1,
         "mustSupport": true
+      },
+      {
+        "id": "Device.type.coding.system",
+        "path": "Device.type.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.type.coding.version",
+        "path": "Device.type.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.type.coding.code",
+        "path": "Device.type.coding.code",
+        "min": 1,
+        "mustSupport": true
       }
     ]
   }

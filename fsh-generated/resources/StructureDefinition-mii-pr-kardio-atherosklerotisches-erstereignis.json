@@ -54,6 +54,24 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.code.coding.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.version",
+        "path": "Observation.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.code.coding:kardio",
         "path": "Observation.code.coding",
         "sliceName": "kardio",
@@ -64,44 +82,14 @@
         }
       },
       {
-        "id": "Observation.code.coding:kardio.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:kardio.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
         "id": "Observation.code.coding:sct",
         "path": "Observation.code.coding",
         "sliceName": "sct",
         "min": 0,
         "max": "1",
         "patternCoding": {
-          "system": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+          "system": "http://snomed.info/sct"
         }
-      },
-      {
-        "id": "Observation.code.coding:sct.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:sct.version",
-        "path": "Observation.code.coding.version",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:sct.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "mustSupport": true
       },
       {
         "id": "Observation.code.coding:icd10-gm",
@@ -112,24 +100,6 @@
         "patternCoding": {
           "system": "http://fhir.de/ValueSet/bfarm/icd-10-gm"
         }
-      },
-      {
-        "id": "Observation.code.coding:icd10-gm.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:icd10-gm.version",
-        "path": "Observation.code.coding.version",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:icd10-gm.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "mustSupport": true
       },
       {
         "id": "Observation.subject",

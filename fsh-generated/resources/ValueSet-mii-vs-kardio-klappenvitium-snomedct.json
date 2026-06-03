@@ -30,7 +30,6 @@
     "include": [
       {
         "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
         "filter": [
           {
             "property": "concept",
@@ -41,7 +40,6 @@
       },
       {
         "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
         "concept": [
           {
             "code": "368009:{116676008=49755003,363698007=17401000}"

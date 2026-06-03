@@ -14,6 +14,10 @@ Description: "Profil zur Abbildung eines EKG-Kanals."
 * status MS
 
 * type 1.. MS
+* type.coding 1.. MS
+* type.coding.system 1.. MS
+* type.coding.version 1.. MS
+* type.coding.code 1.. MS
 * type.coding ^slicing.discriminator.type = #value
 * type.coding ^slicing.discriminator.path = "$this"
 * type.coding ^slicing.rules = #open
@@ -29,6 +33,10 @@ Description: "Profil zur Abbildung eines EKG-Kanals."
 * property contains kanalbezeichnung 1..1 MS
 
 * property[kanalbezeichnung].type MS
+* property[kanalbezeichnung].type.coding 1.. MS
+* property[kanalbezeichnung].type.coding.system 1.. MS
+* property[kanalbezeichnung].type.coding.version 1.. MS
+* property[kanalbezeichnung].type.coding.code 1.. MS
 * property[kanalbezeichnung].type from MII_VS_Kardio_Objekte_Geraete_MDC (required)
 * property[kanalbezeichnung].type = $mdc#68142 // MDC_ATTR_CHAN_NUM_LOGICAL
 * property[kanalbezeichnung].type ^short = "Attribute \"Logical-Channel-No\" der Kanal-Klasse in ISO 11073"

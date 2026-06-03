@@ -53,6 +53,24 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.code.coding.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.version",
+        "path": "Observation.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.code.coding:mdc",
         "path": "Observation.code.coding",
         "sliceName": "mdc",
@@ -62,18 +80,6 @@
           "code": "730752",
           "system": "urn:iso:std:iso:11073:10101"
         }
-      },
-      {
-        "id": "Observation.code.coding:mdc.system",
-        "path": "Observation.code.coding.system",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:mdc.code",
-        "path": "Observation.code.coding.code",
-        "min": 1,
-        "mustSupport": true
       },
       {
         "id": "Observation.code.coding:sct",

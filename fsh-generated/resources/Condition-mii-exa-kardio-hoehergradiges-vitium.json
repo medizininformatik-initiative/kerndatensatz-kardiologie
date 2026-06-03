@@ -18,6 +18,7 @@
               {
                 "code": "MR",
                 "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "version": "5.0.0",
                 "display": "Medical record number"
               }
             ]
@@ -93,6 +94,7 @@
       {
         "code": "active",
         "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "version": "3.0.0",
         "display": "Active"
       }
     ]
@@ -102,6 +104,7 @@
       {
         "code": "confirmed",
         "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "version": "2.0.1",
         "display": "Confirmed"
       }
     ]

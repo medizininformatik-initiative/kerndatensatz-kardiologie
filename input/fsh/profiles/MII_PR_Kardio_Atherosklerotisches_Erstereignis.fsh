@@ -12,11 +12,13 @@ Description: "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ere
 * ^date = "2025-09-03"
 
 * code 1..1 MS
+* code.coding 1.. MS
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
 * code from MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT (preferred) //TODO SNOMED/ICD
 * code ^comment = "Code, um anzugeben, welches Ereignis das erste war: 
 Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma."
-
-* code.coding 1..* MS
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "$this" 
 * code.coding ^slicing.rules = #open

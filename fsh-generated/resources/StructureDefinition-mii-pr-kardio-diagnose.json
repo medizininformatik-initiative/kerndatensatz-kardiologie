@@ -66,27 +66,65 @@
         }
       },
       {
-        "id": "Condition.code.coding:kardio",
-        "path": "Condition.code.coding",
-        "sliceName": "kardio",
-        "comment": "Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um eine allgemeine Angabe zu \n'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) anzulegen, falls keine genauere Information im \nSystem/Fragebogen gegeben ist.",
-        "min": 0,
-        "max": "1",
-        "patternCoding": {
-          "code": "eg-cv",
-          "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"
-        }
-      },
-      {
-        "id": "Condition.code.coding:kardio.system",
+        "id": "Condition.code.coding.system",
         "path": "Condition.code.coding.system",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Condition.code.coding:kardio.code",
+        "id": "Condition.code.coding.version",
+        "path": "Condition.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.code.coding.code",
         "path": "Condition.code.coding.code",
         "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.code.coding:alpha-id",
+        "path": "Condition.code.coding",
+        "sliceName": "alpha-id"
+      },
+      {
+        "id": "Condition.code.coding:alpha-id.version",
+        "path": "Condition.code.coding.version",
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.code.coding:sct",
+        "path": "Condition.code.coding",
+        "sliceName": "sct"
+      },
+      {
+        "id": "Condition.code.coding:sct.version",
+        "path": "Condition.code.coding.version",
+        "min": 1
+      },
+      {
+        "id": "Condition.code.coding:orphanet",
+        "path": "Condition.code.coding",
+        "sliceName": "orphanet"
+      },
+      {
+        "id": "Condition.code.coding:orphanet.version",
+        "path": "Condition.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Condition.code.coding:kardio",
+        "path": "Condition.code.coding",
+        "sliceName": "kardio",
+        "comment": "Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, \ndass unbekannt ist, ob ein 'Embolischer Gefäßverschluss cerebro vaskulär (Fragebogenitem 67)' vorlag.",
+        "min": 0,
+        "max": "1",
+        "patternCoding": {
+          "code": "eg-cv",
+          "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"
+        },
         "mustSupport": true
       },
       {

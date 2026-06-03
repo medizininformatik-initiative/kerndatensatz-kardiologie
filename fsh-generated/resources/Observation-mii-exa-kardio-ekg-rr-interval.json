@@ -32,7 +32,7 @@
   "valueQuantity": {
     "value": 1000,
     "unit": "millisecond",
-    "system": "http://unitsofmeasure.org",
+    "system": "http://unitsofmeasure.org|2.2",
     "code": "ms"
   },
   "device": {
@@ -49,6 +49,7 @@
       {
         "code": "147240",
         "system": "urn:iso:std:iso:11073:10101",
+        "version": "2024-12-05",
         "display": "MDC_ECG_TIME_PD_RR_GL"
       }
     ]

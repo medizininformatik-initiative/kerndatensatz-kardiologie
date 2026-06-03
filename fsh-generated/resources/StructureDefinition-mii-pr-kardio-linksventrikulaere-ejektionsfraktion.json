@@ -115,7 +115,26 @@
           ],
           "rules": "open"
         },
-        "min": 2
+        "min": 2,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.version",
+        "path": "Observation.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding:sct",
@@ -125,8 +144,7 @@
         "max": "*",
         "patternCoding": {
           "code": "250908004",
-          "system": "http://snomed.info/sct",
-          "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+          "system": "http://snomed.info/sct"
         },
         "mustSupport": true
       },

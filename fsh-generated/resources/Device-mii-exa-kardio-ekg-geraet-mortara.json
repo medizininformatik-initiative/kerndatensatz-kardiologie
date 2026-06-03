@@ -20,11 +20,13 @@
       {
         "code": "69797",
         "system": "urn:iso:std:iso:11073:10101",
+        "version": "2024-12-05",
         "display": "MDC_DEV_ECG_MDS"
       },
       {
         "code": "69798",
         "system": "urn:iso:std:iso:11073:10101",
+        "version": "2024-12-05",
         "display": "MDC_DEV_ECG_VMD"
       }
     ]

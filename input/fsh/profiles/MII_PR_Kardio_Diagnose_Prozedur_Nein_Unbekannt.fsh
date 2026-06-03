@@ -15,7 +15,9 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 
 * code 1.. MS
 * code.coding 1.. MS 
+* code.coding.system 1.. MS
 * code.coding.version 1.. MS
+* code.coding.code 1.. MS
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #closed
@@ -35,23 +37,17 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * code.coding[icd10-gm] only CodingICD10GM
 * code.coding[icd10-gm] from $icd10-gm-vs (required)
 * code.coding[icd10-gm] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/icd-10-gm"
-* code.coding[icd10-gm].system 1.. MS
-//* code.coding[icd10-gm].version 1.. MS
-* code.coding[icd10-gm].code 1.. MS
+
 * code.coding[alpha-id] only CodingAlphaID
 * code.coding[alpha-id] from $alpha-id-vs (required)
 * code.coding[alpha-id] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/alpha-id"
-* code.coding[alpha-id].system 1.. MS
-* code.coding[alpha-id].code 1.. MS
+
 * code.coding[orphanet] from mii-vs-diagnose-orphanet (required)
 * code.coding[orphanet] ^patternCoding.system = "http://www.orpha.net"
-* code.coding[orphanet].system 1.. MS
-* code.coding[orphanet].code 1.. MS
+
 * code.coding[kardio] ^comment = """Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um eine allgemeine Angabe zu 
 'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) anzulegen, falls keine genauere Information im 
 System/Fragebogen gegeben ist."""
-* code.coding[kardio].system 1.. MS
-* code.coding[kardio].code 1.. MS
 * code.coding[kardio] = MII_CS_Kardio_Atherosklerotisches_Ereignis#eg-cv
 
 * subject 1..1 MS

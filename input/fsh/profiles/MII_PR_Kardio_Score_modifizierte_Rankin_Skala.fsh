@@ -11,16 +11,17 @@ Description: "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modi
 * ^status = #active
 
 * code 1..1 MS
-* code.coding 1..*
+* code.coding 2..*
+* code.coding.system 1.. MS
+* code.coding.version 1.. MS
+* code.coding.code 1.. MS
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #closed
 * code.coding contains 
-    sct 0..1 MS and
-    loinc 0..1 MS
-* code.coding[sct] 1..1 MS
+    sct 1..1 MS and
+    loinc 1..1 MS
 * code.coding[sct] = $sct#1255866005 // Modified Rankin Scale score (observable entity)
-* code.coding[loinc] 1..1 MS
 * code.coding[loinc] = $loinc#75859-9 // Modified rankin scale
 
 * subject 1..1 MS

@@ -7,11 +7,11 @@ Usage: #example
 * status = #final
 * category = $observation-category#survey
 * code.text = "Koronarintervention mit PCI/Stent"
-* code = $sct#415070008 "Percutaneous coronary intervention"
+* code = $example-sct#415070008 "Percutaneous coronary intervention"
 * performer.display = "Beispielkardiologe"
 * subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-06-06T14:29:34.214+02:00"
 * valueCodeableConcept = $v2-0532#N "No"
-* method =  $sct#129431000 "History taking - action"
+* method =  $example-sct#129431000 "History taking - action"
 * device.display = "Beispieltablet"
 * derivedFrom.display = "Beispielfragebogen"

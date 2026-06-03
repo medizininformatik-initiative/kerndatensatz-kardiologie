@@ -5,7 +5,7 @@ Description: "Beispiel einer Observation für das Datum eines unbestimmten ather
 Usage: #example
 
 * status = #final
-* code.coding[kardio] = MII_CS_Kardio_Atherosklerotisches_Ereignis#ae "Atherosklerotisches Ereignis"
+* code.coding[kardio] = $example-ath-ereignis#ae "Atherosklerotisches Ereignis"
 * subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-05-23T13:48:17+02:00"
 * performer.display = "Beispielkardiologe"

@@ -35,5 +35,5 @@
   ],
   "experimental": true,
   "date": "2025-12-05",
-  "supplements": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  "supplements": "http://snomed.info/sct"
 }

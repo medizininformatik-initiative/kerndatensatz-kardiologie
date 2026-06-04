@@ -29,19 +29,6 @@
   "differential": {
     "element": [
       {
-        "id": "Observation",
-        "path": "Observation",
-        "constraint": [
-          {
-            "key": "mii-kardio-pos-int",
-            "severity": "error",
-            "human": "Die Anzahl der Krankenhausbesuche kann nicht negativ sein. Wenn ein Integer übermittelt wird, muss dieser größer oder gleich 0 sein.",
-            "expression": "value.as(integer).empty() or value.as(integer) >= 0",
-            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
-          }
-        ]
-      },
-      {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
         "slicing": {
@@ -144,6 +131,27 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]:valueInteger",
+        "path": "Observation.value[x]",
+        "sliceName": "valueInteger",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "mii-kardio-pos-int",
+            "severity": "error",
+            "human": "Die Anzahl der Krankenhausbesuche kann nicht negativ sein. Wenn ein Integer übermittelt wird, muss dieser größer oder gleich 0 sein.",
+            "expression": "value.as(integer).empty() or value.as(integer) >= 0",
+            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
+          }
+        ]
       },
       {
         "id": "Observation.value[x]:valueCodeableConcept",

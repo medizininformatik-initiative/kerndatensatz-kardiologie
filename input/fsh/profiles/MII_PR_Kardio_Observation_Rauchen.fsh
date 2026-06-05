@@ -6,7 +6,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #draft
+* ^status = #active
 
 // Parent: Current Smoking Status - gematik ISiK -> https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
 * category 1.. MS
@@ -26,6 +26,8 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 // value[x] from Parent: https://simplifier.net/packages/de.gematik.isik-basismodul/4.0.0/files/2539840
 * value[x] ^short = "Current Smoking Status als Loinc-Answer Code (siehe ISiK VS: CurrentSmokingStatusUvIps)"
 * value[x] only CodeableConcept
+* valueDateTime ..0
+
 * hasMember only Reference(Observation or QuestionnaireResponse) //not MolecularSequence
 * derivedFrom only Reference(DocumentReference or Media or QuestionnaireResponse or Observation) //not imagingstudy + not molecularsequence
 

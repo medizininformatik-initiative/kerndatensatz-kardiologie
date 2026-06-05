@@ -5,7 +5,7 @@
   "version": "2026.0.0-alpha.3",
   "name": "MII_PR_Kardio_Observation_Rauchen",
   "title": "MII PR Kardio Observation Rauchen",
-  "status": "draft",
+  "status": "active",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -89,6 +89,17 @@
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "short": "Current Smoking Status als Loinc-Answer Code (siehe ISiK VS: CurrentSmokingStatusUvIps)"
+      },
+      {
+        "id": "Observation.value[x]:valueDateTime",
+        "path": "Observation.value[x]",
+        "sliceName": "valueDateTime",
+        "max": "0",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
       },
       {
         "id": "Observation.hasMember",

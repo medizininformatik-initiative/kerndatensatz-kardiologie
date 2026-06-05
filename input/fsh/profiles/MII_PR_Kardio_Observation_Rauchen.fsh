@@ -9,30 +9,23 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * ^status = #draft
 
 // Parent: Current Smoking Status - gematik ISiK -> https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
-* category 1..1 MS
+* category 1.. MS
 * category from $observation-category-vs (required)
-* category = $observation-category#social-history
 
 // Slicing des SNOMED-Codes - implementiert, da ISiK eine deutsche Version per constraint vorschreibt, aber die MII sich derzeit auf internationale Version verständigt hat
-* code 1.. MS
-* code.coding 1.. MS
 * code.coding.system 1.. MS
 * code.coding.version 1.. MS
 * code.coding.code 1.. MS
 * code.coding contains 
     snomed-ct-MII 0..1
-* code.coding[snomed-ct-MII].system = $sct // siehe alias; entspricht in der MII derzeit http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701
-* code.coding[snomed-ct-MII].code = $sct#77176002
-// Code from Parent = SCT 77176002 "Smoker" (finding) oder LOINC 72166-2 "Tobacco smoking status"
-* code.coding[loinc] only $ISiKLoincCoding
-* code.coding[loinc] = $loinc#72166-2
+
+* code.coding[snomed-ct-MII] = $sct#266918002 // Tobacco smoking consumption (observable entity)
+
 * subject only Reference(Patient)
-* encounter MS
 * performer MS
 // value[x] from Parent: https://simplifier.net/packages/de.gematik.isik-basismodul/4.0.0/files/2539840
 * value[x] ^short = "Current Smoking Status als Loinc-Answer Code (siehe ISiK VS: CurrentSmokingStatusUvIps)"
 * value[x] only CodeableConcept
-* valueCodeableConcept from CurrentSmokingStatusUvIps (required)
 * hasMember only Reference(Observation or QuestionnaireResponse) //not MolecularSequence
 * derivedFrom only Reference(DocumentReference or Media or QuestionnaireResponse or Observation) //not imagingstudy + not molecularsequence
 

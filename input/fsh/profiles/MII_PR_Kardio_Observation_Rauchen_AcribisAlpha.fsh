@@ -1,5 +1,4 @@
 Profile: MII_PR_Kardio_Observation_Rauchen_AcribisAlpha
-// Profil nur für Acribis-Auswertung vorgesehen. Das andere Rauchen-Profil orientiert sich am ISiK-Standard. 
 Id: mii-pr-kardio-observation-rauchen-acribisalpha
 Parent: ISiKLebensZustand //Observation //ISiKRaucherStatus --> wir erben hier nicht von ISiKRaucherStatus, da die Acribis Version ein anderes ValueSet benötigt.
 Title: "MII PR Kardio Observation Rauchen AcribisAlpha"
@@ -7,7 +6,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^status = #active
+* ^status = #retired
 
 // Orientiert an Current Smoking Status - gematik ISiK -> https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
 * category 1..1 MS

@@ -2,15 +2,15 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "supplement",
-  "name": "MII_CS_Kardio_Modul_Supplement_SNOMEDCT",
-  "id": "mii-cs-kardio-modul-supplement-snomedct",
-  "title": "MII CS Kardio Modul Supplement [SNOMED CT]",
+  "name": "MII_CS_Kardio_Supplement_SNOMEDCT",
+  "id": "mii-cs-kardio-supplement-snomedct",
+  "title": "MII CS Kardio Supplement [SNOMED CT]",
   "description": "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul Kardiologie.",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modul-supplement-snomedct",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct",
   "concept": [
     {
-      "code": "368009:{116676008=49755003,363698007=17401000}",
-      "display": "Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure}"
+      "code": "368009:{116676008=49755003,363698007=17401000},{246112005=24484000}",
+      "display": "368009|Heart valve disorder|:{116676008|Associated morphology|=49755003|Abnormal tissue appearance|,363698007|Finding site|=17401000|Cardiac valve|},{246112005|Severity|=24484000|Severe|}"
     },
     {
       "code": "73544002:{260507000=260519008}",
@@ -35,5 +35,5 @@
   ],
   "experimental": true,
   "date": "2025-12-05",
-  "supplements": "http://snomed.info/sct"
+  "supplements": "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
 }

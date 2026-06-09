@@ -6,16 +6,12 @@ Usage: #example
 
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category = $example-observation-category#problem-list-item "Problem List Item"
+* category = $example-condition-category#problem-list-item "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
 * code.coding[icd10-gm] = $icd-10-gm|2025#I21.9 "Akuter Myokardinfarkt, nicht näher bezeichnet"
 * code.coding[sct] = $example-sct#22298006 "Myocardial infarction"
-
-// --------------------------------------
-// SEVERITY (terminal) --> Angabe fuer Krebserkrankung nicht im Endstadium/terminal
-* severity.coding = $example-sct#6736007 "Moderate"
 
 // --------------------------------------
 // SUBJECT (Patientenreferenz)

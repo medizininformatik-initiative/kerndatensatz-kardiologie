@@ -13,7 +13,7 @@ Usage: #example
 * performer.display = "Kardiologe"
 * valueQuantity.value = 1000
 * valueQuantity.unit = "millisecond"
-* valueQuantity.system = $example-ucum
+* valueQuantity.system = $ucum
 * valueQuantity.code = #ms
 * device.reference = "Device/mii-exa-kardio-ekg-geraet-mortara"
 * derivedFrom.reference = "DocumentReference/mii-exa-kardio-ekg-referenz"

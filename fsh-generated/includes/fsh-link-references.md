@@ -1,7 +1,7 @@
 [MII_CS_Kardio_Atherosklerotisches_Ereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.html
 [MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: CodeSystem-mii-cs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
-[MII_CS_Kardio_Modul_Supplement_SNOMEDCT]: CodeSystem-mii-cs-kardio-modul-supplement-snomedct.html
+[MII_CS_Kardio_Supplement_SNOMEDCT]: CodeSystem-mii-cs-kardio-supplement-snomedct.html
 [mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf]: Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.html
 [mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2]: Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.html
 [mii-exa-kardio-atherosklerotisches-erstereignis]: Observation-mii-exa-kardio-atherosklerotisches-erstereignis.html

@@ -32,7 +32,7 @@
   "valueQuantity": {
     "value": 1000,
     "unit": "millisecond",
-    "system": "http://unitsofmeasure.org|2.2",
+    "system": "http://unitsofmeasure.org",
     "code": "ms"
   },
   "device": {

@@ -19,7 +19,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * code.coding ^slicing.discriminator.path = "$this" 
 * code.coding ^slicing.rules = #open
 * code.coding contains
-    sct 1..1 and
+    sct 1..1 MS and
     loinc 0..1
 * code.coding[sct] = $sct#298060002 // Number of admissions (observable entity)
 * code.coding[loinc].system = $loinc
@@ -32,8 +32,10 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 
 * value[x] MS
 * value[x] only integer or CodeableConcept
+* valueInteger MS
+* valueCodeableConcept MS
 * valueInteger obeys mii-kardio-pos-int
-* valueCodeableConcept from $nein_unbekannt (required)
+* valueCodeableConcept from MII_VS_Kardio_Nein_Unbekannt (required)
 
 * component 1.. MS
 * component ^slicing.discriminator.path = "code"

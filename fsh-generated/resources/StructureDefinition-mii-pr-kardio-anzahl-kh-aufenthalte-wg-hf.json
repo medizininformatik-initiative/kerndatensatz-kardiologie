@@ -70,7 +70,8 @@
         "patternCoding": {
           "code": "298060002",
           "system": "http://snomed.info/sct"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding:loinc",
@@ -151,7 +152,8 @@
             "expression": "value.as(integer).empty() or value.as(integer) >= 0",
             "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Observation.value[x]:valueCodeableConcept",
@@ -164,9 +166,10 @@
             "code": "CodeableConcept"
           }
         ],
+        "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-vs-kardio-nein-unbekannt"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nein-unbekannt"
         }
       },
       {

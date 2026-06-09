@@ -99,9 +99,9 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-modul-supplement-snomedct"
+          "reference": "CodeSystem/mii-cs-kardio-supplement-snomedct"
         },
-        "name": "MII CS Kardio Modul Supplement [SNOMED CT]",
+        "name": "MII CS Kardio Supplement [SNOMED CT]",
         "description": "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul Kardiologie.",
         "exampleBoolean": false
       },

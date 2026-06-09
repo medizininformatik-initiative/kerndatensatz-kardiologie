@@ -28,7 +28,7 @@
         {
           "code": "imaging",
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "version": "2.0.0",
+          "version": "4.0.1",
           "display": "Imaging"
         }
       ]
@@ -45,7 +45,7 @@
       {
         "code": "10230-1",
         "system": "http://loinc.org",
-        "version": "2.81",
+        "version": "2.82",
         "display": "Left ventricular ejection fraction"
       }
     ],
@@ -85,7 +85,7 @@
         "code": "87878005",
         "system": "http://snomed.info/sct",
         "version": "http://snomed.info/sct/900000000000207008/version/20250701",
-        "display": "Left cardiac ventricular structure (body structure)"
+        "display": "Left ventricle"
       }
     ],
     "text": "Linker Ventrikel"

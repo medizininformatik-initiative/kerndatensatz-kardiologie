@@ -6,15 +6,11 @@ Usage: #example
 
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category = http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
+* category = $example-condition-category#problem-list-item "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED --> hier local kardio vs)
 * code.coding[kardio] = $example-ath-ereignis#eg-cv "Embolischer Gefäßverschluss cerebro-vaskulär"
-
-// --------------------------------------
-// SEVERITY (terminal) --> Angabe fuer Krebserkrankung nicht im Endstadium/terminal
-* severity.coding = $example-sct#6736007 "Moderate"
 
 // --------------------------------------
 // SUBJECT (Patientenreferenz)

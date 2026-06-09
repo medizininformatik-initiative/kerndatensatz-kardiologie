@@ -9,7 +9,7 @@
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/valueset-supplement",
-      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-klappenvitium-supplement-snomedct"
+      "valueCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct"
     }
   ],
   "version": "2026.0.0-alpha.3",
@@ -42,7 +42,7 @@
         "system": "http://snomed.info/sct",
         "concept": [
           {
-            "code": "368009:{116676008=49755003,363698007=17401000}"
+            "code": "368009:{116676008=49755003,363698007=17401000},{246112005=24484000}"
           }
         ]
       }

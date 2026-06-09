@@ -20,7 +20,6 @@ Usage: #example
 * component[packungsjahre].valueQuantity.unit = "{pack-years}"
 * component[packungsjahre].valueQuantity.system = $ucum
 * component[packungsjahre].valueQuantity.code = $ucum#{pack-years}
-* component[packungsjahre].valueQuantity.comparator = #= 
 * component[packungenProTag].code = $example-sct#230056004 // Cigarette consumption (observable entity)
 * component[packungenProTag].valueQuantity.value = 1
 * component[packungenProTag].valueQuantity.unit = "{packs-per-day}"

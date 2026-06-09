@@ -5,7 +5,7 @@ InstanceOf: Patient
 Usage:  #inline
 
 * identifier.use = #usual
-* identifier.type = $example-v2-0203#MR "Medical record number"
+* identifier.type = $v2-0203#MR "Krankenaktennummer"
 * identifier.value = "0123456789"
 * name.use = #official
 * name.family = "Mustermann"

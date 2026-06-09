@@ -5,13 +5,13 @@ Description: "Beispiel einer Durchführung eines 12-Kanal Ruhe-EKGs"
 Usage: #example
 
 * extension[http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum].valueDateTime = "2025-01-10T16:23:12+02:00"
-* extension[https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht].valueCoding = $sct#261004008 "Diagnostic intent"
+* extension[https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht].valueCoding = $sct#261004008 "Diagnostic"
 * status = #completed
 * category.coding[sct] = $example-sct#165197003 "Diagnostic assessment"
 * code.coding[sct] = $example-sct#447113005 "12 lead electrocardiogram at rest"
 * subject.display = "Beispielpatient"
 * performedPeriod.start = "2023-05-03T07:38:07Z"
 * performedPeriod.end = "2023-05-03T07:38:17Z"
-* bodySite = $example-sct#80891009 "Heart structure"
+* bodySite = $example-sct#80891009 "Heart"
 * note.text = "ICD Kontrolle"
 * usedReference = Reference(mii-exa-kardio-ekg-geraet-mortara)

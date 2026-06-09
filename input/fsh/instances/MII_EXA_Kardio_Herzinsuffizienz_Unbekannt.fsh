@@ -10,7 +10,7 @@ Usage: #example
 * performer.display = "Beispielkardiologe"
 * subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-06-06T14:29:34.214+02:00"
-* valueCodeableConcept = $example-v2-0532#ASKU "asked but unknown"
+* valueCodeableConcept = $example-v2-0532#ASKU "gefragt, aber nicht genannt"
 * method =  $example-sct#129431000 "History taking - action"
 * device.display = "Beispieltablet"
 * derivedFrom.display = "Beispielfragebogen"

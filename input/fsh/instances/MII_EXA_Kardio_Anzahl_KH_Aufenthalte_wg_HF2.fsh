@@ -10,6 +10,6 @@ Usage: #example
 * effectivePeriod.start = "2025-05-21"
 * effectivePeriod.end = "2026-05-20"
 * performer.display = "Beispielkardiologe"
-* valueCodeableConcept = $nein_unbekannt#UNK "unknown"
+* valueCodeableConcept = $v2-0532#UNK "unknown"
 * component[Grund].code.coding = $example-sct#406524005 "Reason for visit diagnosis"
 * component[Grund].valueCodeableConcept = $example-sct#84114007 "Heart failure"

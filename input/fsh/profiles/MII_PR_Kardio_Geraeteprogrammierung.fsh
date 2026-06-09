@@ -21,8 +21,7 @@ Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die De
 * code.coding ^slicing.discriminator.path = "$this" 
 * code.coding ^slicing.rules = #open
 * code.coding contains
-    mdc 1..1 and
-    sct 0..1
+    mdc 1..1
 
 * code.coding[mdc] = $mdc#730752
 

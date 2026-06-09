@@ -10,7 +10,7 @@ Usage: #example
 * performer.display = "Beispielkardiologe"
 * subject.display = "Beispielpatient"
 * effectiveDateTime = "2025-11-13T18:06:34.214+01:00"
-* valueCodeableConcept = $v2-0532#N "No"
+* valueCodeableConcept = $v2-0532#N "Nein"
 * method =  $example-sct#129431000 "History taking - action"
 * device.display = "Beispieltablet"
 * derivedFrom.display = "Beispielfragebogen"

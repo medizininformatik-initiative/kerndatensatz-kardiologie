@@ -12,7 +12,9 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * category 1.. MS
 * category from $observation-category-vs (required)
 
+* code.coding.system 1.. MS
 * code.coding.version 1.. MS
+* code.coding.code 1.. MS
 
 * subject only Reference(Patient)
 * performer MS

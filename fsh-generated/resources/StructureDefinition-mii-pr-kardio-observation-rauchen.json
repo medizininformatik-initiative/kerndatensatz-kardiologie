@@ -40,8 +40,20 @@
         "path": "Observation.code.coding"
       },
       {
+        "id": "Observation.code.coding.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.code.coding.version",
         "path": "Observation.code.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
         "min": 1,
         "mustSupport": true
       },

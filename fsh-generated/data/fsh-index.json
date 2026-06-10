@@ -461,7 +461,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Rauchen.fsh",
     "startLine": 1,
-    "endLine": 88
+    "endLine": 90
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json",

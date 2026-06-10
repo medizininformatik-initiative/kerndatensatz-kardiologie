@@ -85,12 +85,6 @@
         "code": "72166-2",
         "version": "2.82",
         "display": "Tobacco smoking status"
-      },
-      {
-        "code": "266918002",
-        "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
-        "display": "Tobacco smoking consumption (observable entity)"
       }
     ]
   },

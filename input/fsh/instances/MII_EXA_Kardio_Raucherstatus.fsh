@@ -9,7 +9,6 @@ Usage: #example
 * status = #final
 * category = $example-observation-category#social-history "Social History"
 * code.coding[loinc] = $example-loinc#72166-2 "Tobacco smoking status"
-* code.coding[snomed-ct-MII] = $example-sct#266918002 "Tobacco smoking consumption (observable entity)"
 * subject = Reference(Beispielpatient)
 * encounter = Reference(Beispielfall)
 * effectiveDateTime = "2023-12-01"

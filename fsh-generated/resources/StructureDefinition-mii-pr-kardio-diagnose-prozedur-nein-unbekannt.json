@@ -103,9 +103,6 @@
         "sliceName": "diagnoseSnomed",
         "min": 0,
         "max": "1",
-        "patternCoding": {
-          "system": "http://snomed.info/sct"
-        },
         "mustSupport": true,
         "binding": {
           "strength": "required",
@@ -113,19 +110,26 @@
         }
       },
       {
+        "id": "Observation.code.coding:diagnoseSnomed.system",
+        "path": "Observation.code.coding.system",
+        "patternUri": "http://snomed.info/sct"
+      },
+      {
         "id": "Observation.code.coding:prozedurSnomed",
         "path": "Observation.code.coding",
         "sliceName": "prozedurSnomed",
         "min": 0,
         "max": "1",
-        "patternCoding": {
-          "system": "http://snomed.info/sct"
-        },
         "mustSupport": true,
         "binding": {
           "strength": "required",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct"
         }
+      },
+      {
+        "id": "Observation.code.coding:prozedurSnomed.system",
+        "path": "Observation.code.coding.system",
+        "patternUri": "http://snomed.info/sct"
       },
       {
         "id": "Observation.code.coding:alpha-id",

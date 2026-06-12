@@ -11,7 +11,7 @@
     "outputFile": "CodeSystem-mii-cs-kardio-ausschlusskriterium-acribis-scores.json",
     "fshName": "MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores.fsh",
+    "fshFile": "deprecated\\MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores.fsh",
     "startLine": 1,
     "endLine": 16
   },
@@ -43,7 +43,7 @@
     "outputFile": "CodeSystem-mii-cs-kardio-supplement-snomedct.json",
     "fshName": "MII_CS_Kardio_Supplement_SNOMEDCT",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\MII_CS_Kardio_Modul_Supplement_SNOMEDCT.fsh",
+    "fshFile": "codesystems\\MII_CS_Kardio_Supplement_SNOMEDCT.fsh",
     "startLine": 1,
     "endLine": 22
   },
@@ -227,7 +227,7 @@
     "outputFile": "Observation-mii-exa-kardio-raucherstatus-acribisalpha.json",
     "fshName": "mii-exa-kardio-raucherstatus-acribisalpha",
     "fshType": "Instance",
-    "fshFile": "instances\\MII_EXA_Kardio_Raucherstatus_ACRIBiS_Alpha.fsh",
+    "fshFile": "deprecated\\MII_EXA_Kardio_Raucherstatus_ACRIBiS_Alpha.fsh",
     "startLine": 1,
     "endLine": 42
   },
@@ -331,7 +331,7 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-ausschluss-scoreberechnung.json",
     "fshName": "MII_PR_Kardio_Ausschluss_Scoreberechnung",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Ausschluss_Scoreberechnung.fsh",
+    "fshFile": "deprecated\\MII_PR_Kardio_Ausschluss_Scoreberechnung.fsh",
     "startLine": 1,
     "endLine": 35
   },
@@ -341,7 +341,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Device.fsh",
     "startLine": 1,
-    "endLine": 31
+    "endLine": 36
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.json",
@@ -349,7 +349,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt.fsh",
     "startLine": 1,
-    "endLine": 61
+    "endLine": 65
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-diagnose.json",
@@ -413,7 +413,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Geraeteprogrammierung.fsh",
     "startLine": 1,
-    "endLine": 42
+    "endLine": 46
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.json",
@@ -421,7 +421,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Kardiale_Deviceimplantation.fsh",
     "startLine": 1,
-    "endLine": 51
+    "endLine": 50
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-klappenvitium.json",
@@ -451,7 +451,7 @@
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-rauchen-acribisalpha.json",
     "fshName": "MII_PR_Kardio_Observation_Rauchen_AcribisAlpha",
     "fshType": "Profile",
-    "fshFile": "profiles\\MII_PR_Kardio_Observation_Rauchen_AcribisAlpha.fsh",
+    "fshFile": "deprecated\\MII_PR_Kardio_Observation_Rauchen_AcribisAlpha.fsh",
     "startLine": 1,
     "endLine": 101
   },
@@ -499,7 +499,7 @@
     "outputFile": "ValueSet-mii-vs-kardio-ausschlusskriterium-acribis-scores.json",
     "fshName": "MII_VS_Kardio_Ausschlusskriterium_ACRIBiS_Scores",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Ausschlusskriterium_Acribis_Scores.fsh",
+    "fshFile": "deprecated\\MII_VS_Kardio_Ausschlusskriterium_Acribis_Scores.fsh",
     "startLine": 1,
     "endLine": 21
   },
@@ -675,7 +675,7 @@
     "outputFile": "ValueSet-mii-vs-kardio-rauchen-acribisalpha.json",
     "fshName": "MII_VS_Kardio_Rauchen_AcribisAlpha",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\MII_VS_Kardio_Rauchen_AcribisAlpha.fsh",
+    "fshFile": "deprecated\\MII_VS_Kardio_Rauchen_AcribisAlpha.fsh",
     "startLine": 1,
     "endLine": 18
   }

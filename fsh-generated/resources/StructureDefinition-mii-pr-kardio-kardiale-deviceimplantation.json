@@ -130,9 +130,20 @@
         "min": 1
       },
       {
+        "id": "Procedure.bodySite.coding.version",
+        "path": "Procedure.bodySite.coding.version",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Procedure.bodySite.coding:snomed-ct",
         "path": "Procedure.bodySite.coding",
         "sliceName": "snomed-ct",
+        "min": 1
+      },
+      {
+        "id": "Procedure.bodySite.coding:snomed-ct.version",
+        "path": "Procedure.bodySite.coding.version",
         "min": 1
       },
       {

@@ -18,6 +18,11 @@ Description: "Profil zur Abbildung eines implantierten Herzschrittmachers, Defib
 
 * type from MII_VS_Kardio_Geraetetyp_SNOMEDCT (required)
 * type 1.. MS
+* type.coding 1..1 MS
+* type.coding.system 1.. MS
+* type.coding.version 1.. MS
+* type.coding.code 1.. MS
+
 * type ^comment = "Der Typ soll mit einem SNOMED-Code angegeben werden.
 Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **ICD**: 72506001 - Implantable defibrillator, device (physical object)

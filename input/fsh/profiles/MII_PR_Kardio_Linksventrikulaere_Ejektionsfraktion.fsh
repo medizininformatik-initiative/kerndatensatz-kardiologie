@@ -26,7 +26,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * category ^slicing.discriminator.path = "$this"
 * category ^slicing.rules = #open
 * category contains 
-    vs-cat 0..1 MS
+    vs-cat 1..1 MS
 * category[vs-cat] = $observation-category#imaging
 * category[vs-cat] ^comment = "Category 'imaging', da LVEF meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen."
 

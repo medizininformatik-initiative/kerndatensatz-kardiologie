@@ -6,7 +6,7 @@ Usage: #example
 
 * language = #de-DE
 * extension[http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum].valueDateTime = "2025-01-10T16:23:12+02:00"
-* extension[https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht].valueCoding = $sct#261004008 "Diagnostic"
+* extension[https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht].valueCoding = $sct#261004008 "Diagnostic intent"
 * status = #completed
 * category.coding[sct] = $example-sct#165197003 "Diagnostic assessment"
 * code.coding[sct] = $example-sct#447113005 "12 lead electrocardiogram at rest"

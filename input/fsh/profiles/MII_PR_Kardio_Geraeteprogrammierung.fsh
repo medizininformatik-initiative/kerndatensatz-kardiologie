@@ -40,3 +40,7 @@ Das sollte eine Instanz von *MII PR NBG Schrittmachermodus* sein."
 * value[x] MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from MII_VS_Kardio_Geraeteprogrammierung_MDC (required)
+* valueCodeableConcept.coding 1.. MS
+* valueCodeableConcept.coding.system 1.. MS
+* valueCodeableConcept.coding.version 1.. MS
+* valueCodeableConcept.coding.code 1.. MS

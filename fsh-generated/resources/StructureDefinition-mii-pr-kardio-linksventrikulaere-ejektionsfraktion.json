@@ -86,7 +86,7 @@
         "path": "Observation.category",
         "sliceName": "vs-cat",
         "comment": "Category 'imaging', da LVEF meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen.",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "patternCodeableConcept": {
           "coding": [

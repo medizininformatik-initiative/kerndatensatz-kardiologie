@@ -17,7 +17,6 @@ Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers, 
 * code.coding.version 1.. MS
 * code.coding.code 1.. MS
 
-* code.coding[sct] 0..1
 * code.coding[sct] from MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT
 * code ^comment = "Hier sollen mindestens ein SNOMED- oder ein OPS-Code angegeben werden.
 Für ACRIBiS eignen sich die folgenden Codes (Stand 01.05.2025):
@@ -28,7 +27,6 @@ Für ACRIBiS eignen sich die folgenden Codes (Stand 01.05.2025):
  - **RVAD**: 232966002 - Implantation of right cardiac ventricular assist device (procedure)
  - **BiVAD**: 232968001 - Implantation of cardiac biventricular assist device (procedure)"
 
-* code.coding[ops] 0..1
 * code.coding[ops] from MII_VS_Kardio_Kardiale_Deviceimplantation_OPS
 
 * code.coding ^slicing.rules = #closed
@@ -44,6 +42,7 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
 "
 * bodySite 1.. MS
 * bodySite.coding 1.. MS
+* bodySite.coding.version 1.. MS
 * bodySite.coding[snomed-ct] 1.. MS
 
 * focalDevice 1.. MS

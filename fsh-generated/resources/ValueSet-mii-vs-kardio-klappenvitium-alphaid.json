@@ -24,7 +24,6 @@
     "include": [
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -35,7 +34,6 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -46,7 +44,6 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -57,7 +54,6 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -68,7 +64,6 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -79,7 +74,6 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -90,7 +84,6 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -101,7 +94,6 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -112,7 +104,6 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",

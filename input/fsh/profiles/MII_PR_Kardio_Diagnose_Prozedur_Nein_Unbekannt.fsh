@@ -33,7 +33,11 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 // Hier ist nicht analog zu Diagnose/Condition das dort etablierte sct-slice hinterlegt, 
 // da sowohl Prozeduren als aus Diagnosen + eine postkoordinierter SCT-Wert angebbar sein sollen.
 * code.coding[diagnoseSnomed] from MII_VS_Kardio_Extended_MII_DiagnoseCodes_SNOMED (required)
+* code.coding[diagnoseSnomed] ^patternCoding.system = "http://snomed.info/sct"
+
 * code.coding[prozedurSnomed] from $prozedur-sct-vs (required)
+* code.coding[prozedurSnomed] ^patternCoding.system = "http://snomed.info/sct"
+
 * code.coding[icd10-gm] only CodingICD10GM
 * code.coding[icd10-gm] from $icd10-gm-vs (required)
 * code.coding[icd10-gm] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/icd-10-gm"

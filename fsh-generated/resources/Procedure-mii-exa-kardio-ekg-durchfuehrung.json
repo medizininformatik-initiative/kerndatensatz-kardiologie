@@ -16,7 +16,7 @@
       "valueCoding": {
         "system": "http://snomed.info/sct",
         "code": "261004008",
-        "display": "Diagnostic"
+        "display": "Diagnostic intent"
       }
     }
   ],

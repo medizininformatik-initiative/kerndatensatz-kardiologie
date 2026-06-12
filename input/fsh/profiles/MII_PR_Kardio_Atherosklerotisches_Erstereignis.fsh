@@ -16,27 +16,8 @@ Description: "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ere
 * code.coding.system 1.. MS
 * code.coding.version 1.. MS
 * code.coding.code 1.. MS
-* code from MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT (preferred) //TODO SNOMED/ICD
-* code ^comment = "Code, um anzugeben, welches Ereignis das erste war: 
-Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma."
-* code.coding ^slicing.discriminator.type = #pattern
-* code.coding ^slicing.discriminator.path = "$this" 
-* code.coding ^slicing.rules = #open
-* code.coding contains
-    kardio 1..1 and
-    sct 0..1 and
-    icd10-gm 0..1
-* code.coding[kardio] ^patternCoding.system = $ath-ereignis
-* code.coding[kardio].system 1.. MS
-* code.coding[kardio].code 1.. MS
-* code.coding[sct] ^patternCoding.system = $sct
-* code.coding[sct].system 1.. MS
-* code.coding[sct].version 1.. MS
-* code.coding[sct].code 1.. MS
-* code.coding[icd10-gm] ^patternCoding.system = $icd10-gm-vs
-* code.coding[icd10-gm].system 1.. MS
-* code.coding[icd10-gm].version 1.. MS
-* code.coding[icd10-gm].code 1.. MS
+
+* code.coding = $ath-ereignis|2026.0.0-alpha.3#ae "Atherosklerotisches Ereignis"
 
 * subject 1.. MS
 * subject only Reference(Patient)
@@ -44,6 +25,27 @@ Koronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Oper
 * effective[x] 1.. MS
 * effective[x] only dateTime or Period or instant
 
-* value[x] only dateTime
-* value[x] ^comment = "Datum des bezeichneten ersten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK)"
-* valueDateTime 1.. MS
+* value[x] ..0
+
+* component 2..2 MS
+* component ^slicing.discriminator.type = #value
+* component ^slicing.discriminator.path = "code"
+* component ^slicing.rules = #closed
+* component ^slicing.description = "Zusätzliche Angaben zum Rauchverhalten."
+* component contains
+    erkrankung 1..1 MS and
+    datum 1..1 MS
+
+* component.code MS
+* component.code.coding 1..1 MS
+* component.code.coding.system 1..1 MS
+* component.code.coding.system = $sct
+
+* component[erkrankung] ^comment = "Welches Ereignis war das erste atherosklerotische Ereignis?"
+* component[erkrankung].code = $sct#439401001 "Diagnosis"
+* component[erkrankung].value[x] only CodeableConcept
+* component[erkrankung].valueCodeableConcept from MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT (required)
+
+* component[datum] ^comment = "Datum des bezeichneten ersten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK)"
+* component[datum].code = $sct#432213005 "Date of diagnosis"
+* component[datum].value[x] only dateTime

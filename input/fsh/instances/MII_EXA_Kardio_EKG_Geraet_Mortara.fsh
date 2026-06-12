@@ -4,6 +4,7 @@ Title: "MII EXA Kardio EKG Geraet Mortara"
 Description: "Beispiel eines EKG Gerätes der Firma Mortara Instruments"
 Usage: #example
 
+* language = #de-DE
 * definition.reference = "DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara"
 * status = #active
 * manufacturer = "Mortara Instrument, Inc."

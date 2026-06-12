@@ -4,6 +4,7 @@ Title: "MII EXA Kardio Herzinsuffizienz Unbekannt"
 Description: "Beispiel: Der Patient weiß nicht, ob er Herzinsuffizienz hat."
 Usage: #example
 
+* language = #de-DE
 * status = #final
 * category = $example-observation-category#survey
 * code.coding[diagnoseSnomed] = $example-sct#84114007 "Heart failure"

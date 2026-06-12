@@ -45,6 +45,7 @@
           "country": "DE"
         }
       ],
+      "language": "de-DE",
       "gender": "male",
       "birthDate": "1980-01-01"
     },
@@ -58,6 +59,7 @@
         "start": "2023-12-01T10:00:00+01:00",
         "end": "2023-12-03T11:00:00+01:00"
       },
+      "language": "de-DE",
       "status": "finished",
       "class": {
         "code": "IMP",
@@ -84,7 +86,7 @@
         "system": "http://loinc.org",
         "code": "72166-2",
         "version": "2.82",
-        "display": "Tobacco smoking status"
+        "display": "Raucherstatus"
       }
     ]
   },
@@ -165,6 +167,7 @@
       }
     }
   ],
+  "language": "de-DE",
   "status": "final",
   "subject": {
     "reference": "#Beispielpatient"

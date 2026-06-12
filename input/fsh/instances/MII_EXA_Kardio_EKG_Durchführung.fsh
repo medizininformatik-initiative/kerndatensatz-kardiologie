@@ -4,6 +4,7 @@ Title: "MII EXA Kardio EKG Durchführung"
 Description: "Beispiel einer Durchführung eines 12-Kanal Ruhe-EKGs"
 Usage: #example
 
+* language = #de-DE
 * extension[http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum].valueDateTime = "2025-01-10T16:23:12+02:00"
 * extension[https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht].valueCoding = $sct#261004008 "Diagnostic"
 * status = #completed

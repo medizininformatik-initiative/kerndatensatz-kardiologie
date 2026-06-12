@@ -17,11 +17,11 @@ Description: "Mit dieser Observation kann die Geräteprogrammierung, d.h. die De
 * code.coding.system 1.. MS
 * code.coding.version 1.. MS
 * code.coding.code 1.. MS
-* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this" 
 * code.coding ^slicing.rules = #open
 * code.coding contains
-    mdc 1..1
+    mdc 1..1 MS
 
 * code.coding[mdc] = $mdc#730752
 

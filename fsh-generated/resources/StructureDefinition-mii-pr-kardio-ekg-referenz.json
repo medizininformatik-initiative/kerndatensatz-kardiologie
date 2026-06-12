@@ -46,12 +46,6 @@
         "mustSupport": true
       },
       {
-        "id": "DocumentReference.type.coding.version",
-        "path": "DocumentReference.type.coding.version",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
         "id": "DocumentReference.type.coding.code",
         "path": "DocumentReference.type.coding.code",
         "min": 1,

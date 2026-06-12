@@ -4,6 +4,7 @@ Title: "MII EXA Kardio EKG RR Interval"
 Description: "Beispiel einer Observation zur Darstellung des RR Intervals eines aufgezeichneten EKGs"
 Usage: #example
 
+* language = #de-DE
 * status = #final
 * category[vital-signs] = $observation-category#vital-signs "Vital Signs"
 * code = $example-mdc#147240 "MDC_ECG_TIME_PD_RR_GL"

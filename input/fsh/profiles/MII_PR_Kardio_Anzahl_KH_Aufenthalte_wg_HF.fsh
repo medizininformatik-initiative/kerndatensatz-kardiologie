@@ -9,7 +9,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-09-03"
+* ^date = "2026-06-12"
 
 * code.coding 1..* MS
 * code.coding.system 1.. MS
@@ -19,10 +19,8 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * code.coding ^slicing.discriminator.path = "$this" 
 * code.coding ^slicing.rules = #open
 * code.coding contains
-    sct 1..1 MS and
-    loinc 0..1
+    sct 1..1 MS
 * code.coding[sct] = $sct#298060002 // Number of admissions (observable entity)
-* code.coding[loinc].system = $loinc
 
 * subject 1..1 MS
 * subject only Reference(Patient)

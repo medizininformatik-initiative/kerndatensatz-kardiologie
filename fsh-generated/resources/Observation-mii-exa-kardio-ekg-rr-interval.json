@@ -43,6 +43,7 @@
       "reference": "DocumentReference/mii-exa-kardio-ekg-referenz"
     }
   ],
+  "language": "de-DE",
   "status": "final",
   "code": {
     "coding": [

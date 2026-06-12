@@ -4,6 +4,7 @@ Title: "MII EXA Kardio Geräteprogrammierung VVI"
 Description: "Beispiel der Einstellung eines Kardioverter-Defibrillators (ICD) im VVI-Modus"
 Usage: #example
 
+* language = #de-DE
 * status = #final
 * code.coding[mdc] = $example-mdc#730752 "MDC_IDC_SET_BRADY_MODE"
 * code.text = "The brady pacing mode according to the NBG standard"

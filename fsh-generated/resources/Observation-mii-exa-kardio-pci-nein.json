@@ -43,6 +43,7 @@
       "display": "Beispielfragebogen"
     }
   ],
+  "language": "de-DE",
   "status": "final",
   "effectiveDateTime": "2025-06-06T14:29:34.214+02:00",
   "valueCodeableConcept": {
@@ -50,7 +51,7 @@
       {
         "code": "N",
         "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-        "display": "No"
+        "display": "Nein"
       }
     ]
   },

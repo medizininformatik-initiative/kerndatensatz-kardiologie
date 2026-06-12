@@ -4,6 +4,7 @@ Title: "MII Kardio Diagnose Myokardinfarkt"
 Description: "Beispielhafte vollständige Instanz einer Diagnose die vom Arzt bestätigt tatsächlich vorliegt gemäß dem Profil MII_PR_Kardio_Diagnose im Rahmen des ACRIBIS-Projekts."
 Usage: #example
 
+* language = #de-DE
 // --------------------------------------
 // CATEGORY (problem-list-item)
 * category = $example-condition-category#problem-list-item "Problem List Item"

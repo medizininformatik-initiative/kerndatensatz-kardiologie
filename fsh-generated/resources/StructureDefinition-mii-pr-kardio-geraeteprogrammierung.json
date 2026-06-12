@@ -43,7 +43,7 @@
         "slicing": {
           "discriminator": [
             {
-              "type": "pattern",
+              "type": "value",
               "path": "$this"
             }
           ],
@@ -79,7 +79,8 @@
         "patternCoding": {
           "code": "730752",
           "system": "urn:iso:std:iso:11073:10101"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Observation.subject",

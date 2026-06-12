@@ -4,6 +4,7 @@ Usage: #example
 Title: "MII EXA Kardio Score NYHA II"
 Description: "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation bei Herzinsuffizienz gemäß MII PR Kardio Score NYHA."
 
+* language = #de-DE
 * identifier.system = "http://example.org/observation-ids"
 * identifier.value = "NYHA-OBS-123456"
 * status = #final

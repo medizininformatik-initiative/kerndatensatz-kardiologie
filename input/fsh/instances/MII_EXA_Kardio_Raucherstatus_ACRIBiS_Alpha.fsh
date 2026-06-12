@@ -4,11 +4,12 @@ Title: "MII EXA Kardio Raucherstatus ACRIBiS Alpha"
 Description: "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen im Kontext von ACRIBiS."
 Usage: #example
 
+* language = #de-DE
 * contained[0] = Beispielpatient
 * contained[1] = Beispielfall
 * status = #final
 * category = $example-observation-category#social-history "Social History"
-* code = $example-loinc#72166-2 "Tobacco smoking status"
+* code = $example-loinc#72166-2 "Raucherstatus"
 * subject = Reference(Beispielpatient)
 * encounter = Reference(Beispielfall)
 * effectiveDateTime = "2023-12-01"

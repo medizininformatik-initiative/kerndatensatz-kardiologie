@@ -18,7 +18,7 @@
 [mii-exa-kardio-geraeteprogrammierung-vvi]: Observation-mii-exa-kardio-geraeteprogrammierung-vvi.html
 [mii-exa-kardio-herzinsuffizienz-unbekannt]: Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.html
 [mii-exa-kardio-hoehergradiges-vitium]: Condition-mii-exa-kardio-hoehergradiges-vitium.html
-[mii-exa-kardio-hoehergradiges-vitium-unbekannt]: Observation-mii-exa-kardio-hoehergradiges-vitium-unbekannt.html
+[mii-exa-kardio-hoehergradiges-vitium-nein]: Observation-mii-exa-kardio-hoehergradiges-vitium-nein.html
 [mii-exa-kardio-kardiale-deviceimplantation-icd]: Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.html
 [mii-exa-kardio-kein-device]: Observation-mii-exa-kardio-kein-device.html
 [mii-exa-kardio-lvef]: Observation-mii-exa-kardio-lvef.html

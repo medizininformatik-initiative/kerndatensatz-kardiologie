@@ -19,12 +19,12 @@
     }
   ],
   "experimental": true,
-  "date": "2025-09-16",
+  "date": "2026-06-12",
   "compose": {
     "include": [
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2025",
+        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -35,7 +35,7 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2025",
+        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -46,7 +46,7 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2025",
+        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -57,7 +57,7 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2025",
+        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -68,7 +68,7 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2025",
+        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -79,7 +79,7 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2025",
+        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -90,7 +90,7 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2025",
+        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -101,7 +101,7 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2025",
+        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",
@@ -112,7 +112,7 @@
       },
       {
         "system": "http://fhir.de/CodeSystem/bfarm/alpha-id",
-        "version": "2025",
+        "version": "2026",
         "filter": [
           {
             "property": "icd_10_primaer",

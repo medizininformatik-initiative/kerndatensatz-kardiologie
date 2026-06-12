@@ -20,5 +20,6 @@
   "source": {
     "reference": "Device/mii-exa-kardio-device-icd"
   },
-  "category": "setting"
+  "category": "setting",
+  "language": "de-DE"
 }

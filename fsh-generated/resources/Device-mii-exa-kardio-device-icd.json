@@ -19,6 +19,7 @@
   "patient": {
     "display": "Beispielpatient"
   },
+  "language": "de-DE",
   "status": "active",
   "manufacturer": "Medtronic"
 }

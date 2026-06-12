@@ -4,6 +4,7 @@ Usage: #example
 Title: "MII EXA Kardio MRS"
 Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem Schlaganfall gemäß MII PR Kardio Score mRS."
 
+* language = #de-DE
 * identifier.system = "http://example.org/observation-ids"
 * identifier.value = "MRS-OBS-123457"
 * status = #final
@@ -14,7 +15,7 @@ Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem S
 * effectiveDateTime = "2024-11-12T14:23:00+01:00"
 * issued = "2024-11-12T15:00:00+01:00"
 * performer[0].display = "Beispielkardiologe"
-* valueCodeableConcept = MII_CS_Kardio_Modifizierte_Rankin_Skala|$kds-kardio-version#mRSbigger3 "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
+* valueCodeableConcept = MII_CS_Kardio_Modifizierte_Rankin_Skala|2026.0.0-alpha.3#mRSbigger3 "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
 * note.text = "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">mRS Skala: Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen).</div>"

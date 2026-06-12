@@ -6,16 +6,6 @@
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
     ]
   },
-  "code": {
-    "coding": [
-      {
-        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
-        "code": "ae",
-        "version": "2026.0.0-alpha.3",
-        "display": "Atherosklerotisches Ereignis"
-      }
-    ]
-  },
   "subject": {
     "display": "Beispielpatient"
   },
@@ -24,7 +14,52 @@
       "display": "Beispielkardiologe"
     }
   ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "439401001",
+            "display": "Diagnosis"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "ae",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
+            "version": "2026.0.0-alpha.3",
+            "display": "Atherosklerotisches Ereignis"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "432213005",
+            "display": "Date of diagnosis"
+          }
+        ]
+      },
+      "valueDateTime": "2023-01"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "ae",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
+        "version": "2026.0.0-alpha.3",
+        "display": "Atherosklerotisches Ereignis"
+      }
+    ]
+  },
+  "language": "de-DE",
   "status": "final",
-  "effectiveDateTime": "2025-05-23T13:48:17+02:00",
-  "valueDateTime": "2023-01"
+  "effectiveDateTime": "2025-05-23T13:48:17+02:00"
 }

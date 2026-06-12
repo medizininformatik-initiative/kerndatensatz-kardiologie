@@ -4,6 +4,7 @@ Title: "MII EXA Kardio Kein Device"
 Description: "Beispiel: Der Patient hat kein implantiertes kardiales Device."
 Usage: #example
 
+* language = #de-DE
 * status = #final
 * category = $observation-category#survey
 * code.coding[diagnoseSnomed] = $example-sct#703398004 "Cardiac implant in situ"

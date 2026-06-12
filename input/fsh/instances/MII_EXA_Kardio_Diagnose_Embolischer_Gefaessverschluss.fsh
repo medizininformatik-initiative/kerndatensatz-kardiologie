@@ -4,6 +4,7 @@ Title: "MII EXA Kardio Emoblischer Gefäßverschluss"
 Description: "Beispiel: Der Patient hat angegeben, einen embolischen Gefäßverschluss gehabt zu haben."
 Usage: #example
 
+* language = #de-DE
 // --------------------------------------
 // CATEGORY (problem-list-item)
 * category = $example-condition-category#problem-list-item "Problem List Item"

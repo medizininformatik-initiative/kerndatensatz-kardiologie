@@ -4,6 +4,7 @@ Title: "Beispielfall"
 Description: "Ein Beispielfall für die Verwendung in Beispielinstanzen."
 Usage: #inline
 
+* language = #de-DE
 * status = #finished
 * class = $example-v3-ActCode#IMP
 * subject.reference = "Patient/Beispielpatient"

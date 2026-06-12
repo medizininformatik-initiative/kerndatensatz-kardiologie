@@ -12,7 +12,7 @@
         "code": "298060002",
         "system": "http://snomed.info/sct",
         "version": "http://snomed.info/sct/900000000000207008/version/20250701",
-        "display": "Number of admissions (observable entity)"
+        "display": "Number of admissions"
       }
     ]
   },
@@ -52,13 +52,14 @@
       }
     }
   ],
+  "language": "de-DE",
   "status": "final",
   "valueCodeableConcept": {
     "coding": [
       {
         "code": "UNK",
         "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-        "display": "unknown"
+        "display": "unbekannt"
       }
     ]
   }

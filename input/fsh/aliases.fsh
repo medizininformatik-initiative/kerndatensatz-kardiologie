@@ -8,7 +8,6 @@ Alias: $icd-10-gm = http://fhir.de/CodeSystem/bfarm/icd-10-gm //|2026
 Alias: $alpha-id = http://fhir.de/CodeSystem/bfarm/alpha-id
 Alias: $ops = http://fhir.de/CodeSystem/bfarm/ops
 Alias: $mdc = urn:iso:std:iso:11073:10101 //|2024-12-05 //2.0.1 //ISO Nomenclature - Point-of-care medical device communication, see https://www.iso.org/standard/37890.html, https://terminology.hl7.org/5.5.0/CodeSystem-v3-mdc.html
-Alias: $mRS = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-cs-kardio-modifizierte-rankin-skala
 Alias: $acribis-follow-up = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up //sollte in qn examples verwendung finden?
 Alias: $ath-ereignis = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis
 Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
@@ -17,7 +16,7 @@ Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
-Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason//|4.0.1
+Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason // |4.0.1
 
 //ValueSets ("-vs"-Suffix)
 Alias: $icd10-gm-vs = http://fhir.de/ValueSet/bfarm/icd-10-gm
@@ -47,7 +46,6 @@ Alias: $example-icd-10-gm   = http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026
 Alias: $example-alpha-id    = http://fhir.de/CodeSystem/bfarm/alpha-id|2026
 Alias: $example-ops         = http://fhir.de/CodeSystem/bfarm/ops|2026
 Alias: $example-mdc         = urn:iso:std:iso:11073:10101|2024-12-05 //ISO Nomenclature - Point-of-care medical device communication, see https://www.iso.org/standard/37890.html, https://terminology.hl7.org/5.5.0/CodeSystem-v3-mdc.html
-Alias: $example-mRS         = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-cs-kardio-modifizierte-rankin-skala|2026.0.0-alpha.3
 Alias: $example-ath-ereignis = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2026.0.0-alpha.3
 Alias: $example-acribis-follow-up = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up|2026.0.0-alpha.3
 Alias: $example-v2-0203     = http://terminology.hl7.org/CodeSystem/v2-0203|5.0.0 // in Beispielpatient

@@ -7,7 +7,7 @@
   "title": "MII PR Kardio Anzahl KH Aufenthalte wg HF",
   "status": "active",
   "experimental": false,
-  "date": "2025-09-03",
+  "date": "2026-06-12",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -72,18 +72,6 @@
           "system": "http://snomed.info/sct"
         },
         "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:loinc",
-        "path": "Observation.code.coding",
-        "sliceName": "loinc",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Observation.code.coding:loinc.system",
-        "path": "Observation.code.coding.system",
-        "patternUri": "http://loinc.org"
       },
       {
         "id": "Observation.subject",

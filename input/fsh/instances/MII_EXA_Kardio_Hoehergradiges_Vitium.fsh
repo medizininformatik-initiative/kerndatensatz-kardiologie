@@ -4,6 +4,7 @@ Title: "MII EXA Kardio Höhergradiges Vitium"
 Description: "Beispiel zur Abbildung eines unbestimmten höhergradigen Klappenvitiums."
 Usage: #example
 
+* language = #de-DE
 * contained[0] = Beispielpatient
 * clinicalStatus = $example-condition-clinical#active "Active"
 * verificationStatus = $example-condition-ver-status#confirmed "Confirmed"

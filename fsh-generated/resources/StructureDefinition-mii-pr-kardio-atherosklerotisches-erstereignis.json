@@ -31,26 +31,18 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "comment": "Code, um anzugeben, welches Ereignis das erste war: \r\nKoronare Herzerkrankung, TIA, Amaurosis Fugax, Apoplex, Retinainfarkt, oder Operation der Carotiden, pAVK, Bauchaortenaneurysma.",
-        "mustSupport": true,
-        "binding": {
-          "strength": "preferred",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct"
-        }
+        "mustSupport": true
       },
       {
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "pattern",
-              "path": "$this"
-            }
-          ],
-          "rules": "open"
-        },
         "min": 1,
+        "patternCoding": {
+          "code": "ae",
+          "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
+          "version": "2026.0.0-alpha.3",
+          "display": "Atherosklerotisches Ereignis"
+        },
         "mustSupport": true
       },
       {
@@ -70,36 +62,6 @@
         "path": "Observation.code.coding.code",
         "min": 1,
         "mustSupport": true
-      },
-      {
-        "id": "Observation.code.coding:kardio",
-        "path": "Observation.code.coding",
-        "sliceName": "kardio",
-        "min": 1,
-        "max": "1",
-        "patternCoding": {
-          "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"
-        }
-      },
-      {
-        "id": "Observation.code.coding:sct",
-        "path": "Observation.code.coding",
-        "sliceName": "sct",
-        "min": 0,
-        "max": "1",
-        "patternCoding": {
-          "system": "http://snomed.info/sct"
-        }
-      },
-      {
-        "id": "Observation.code.coding:icd10-gm",
-        "path": "Observation.code.coding",
-        "sliceName": "icd10-gm",
-        "min": 0,
-        "max": "1",
-        "patternCoding": {
-          "system": "http://fhir.de/ValueSet/bfarm/icd-10-gm"
-        }
       },
       {
         "id": "Observation.subject",
@@ -135,14 +97,109 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
+        "max": "0"
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "code"
+            }
+          ],
+          "rules": "closed",
+          "description": "Zusätzliche Angaben zum Rauchverhalten."
+        },
+        "min": 2,
+        "max": "2",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.code",
+        "path": "Observation.component.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.code.coding",
+        "path": "Observation.component.code.coding",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component.code.coding.system",
+        "path": "Observation.component.code.coding.system",
+        "min": 1,
+        "patternUri": "http://snomed.info/sct",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:erkrankung",
+        "path": "Observation.component",
+        "sliceName": "erkrankung",
+        "comment": "Welches Ereignis war das erste atherosklerotische Ereignis?",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:erkrankung.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "439401001",
+              "system": "http://snomed.info/sct",
+              "display": "Diagnosis"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:erkrankung.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct"
+        }
+      },
+      {
+        "id": "Observation.component:datum",
+        "path": "Observation.component",
+        "sliceName": "datum",
         "comment": "Datum des bezeichneten ersten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK)",
         "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:datum.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "432213005",
+              "system": "http://snomed.info/sct",
+              "display": "Date of diagnosis"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:datum.value[x]",
+        "path": "Observation.component.value[x]",
         "type": [
           {
             "code": "dateTime"
           }
-        ],
-        "mustSupport": true
+        ]
       }
     ]
   }

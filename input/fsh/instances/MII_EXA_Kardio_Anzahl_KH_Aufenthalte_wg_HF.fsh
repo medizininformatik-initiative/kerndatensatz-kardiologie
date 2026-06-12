@@ -4,6 +4,7 @@ Title: "MII EXA Kardio Anzahl KH Aufenthalte WG HF"
 Description: "Beispiel einer Observation für 3 Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr"
 Usage: #example
 
+* language = #de-DE
 * status = #final
 * code.coding[sct] = $example-sct#298060002 "Number of admissions"
 * subject.display = "Beispielpatient"

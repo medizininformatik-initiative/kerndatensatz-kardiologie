@@ -58,6 +58,7 @@
       ]
     }
   ],
+  "language": "de-DE",
   "status": "final",
   "effectiveDateTime": "2024-11-12T14:23:00+01:00",
   "issued": "2024-11-12T15:00:00+01:00",
@@ -66,7 +67,7 @@
       {
         "code": "mRSbigger3",
         "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
-        "version": "$kds-kardio-version",
+        "version": "2026.0.0-alpha.3",
         "display": "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
       }
     ]

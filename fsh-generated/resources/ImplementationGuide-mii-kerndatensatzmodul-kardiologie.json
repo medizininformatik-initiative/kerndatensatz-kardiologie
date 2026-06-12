@@ -235,10 +235,10 @@
       },
       {
         "reference": {
-          "reference": "Observation/mii-exa-kardio-hoehergradiges-vitium-unbekannt"
+          "reference": "Observation/mii-exa-kardio-hoehergradiges-vitium-nein"
         },
-        "name": "MII EXA Kardio Höhergradiges Vitium Unbekannt",
-        "description": "Beispiel um abzubilden, dass das Vorliegen eines höhergradigen Klappenvitiums unbekannt ist.",
+        "name": "MII EXA Kardio Höhergradiges Vitium Nein",
+        "description": "Beispiel um abzubilden, dass kein höhergradiges Klappenvitium vorliegt.",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"
       },
       {

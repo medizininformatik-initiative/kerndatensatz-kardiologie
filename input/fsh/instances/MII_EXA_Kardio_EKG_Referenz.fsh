@@ -4,8 +4,9 @@ Title: "MII EXA Kardio EKG Referenz"
 Description: "Beispiel einer Referenz auf ein EKG, dessen Rohdaten an einem anderen Ort gespeichert werden."
 Usage: #example
 
+* language = #de-DE
 * status = #current
-* type = $example-loinc#11524-6 "EKG study"
+* type = $loinc#11524-6 "EKG study"
 * subject.display = "Beispielpatient"
 * date = "2025-07-17T16:41:22+02:00"
 * author.reference = "Device/mii-exa-kardio-ekg-geraet-mortara"

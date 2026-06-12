@@ -4,6 +4,7 @@ Description: "Ein Beispielpatient für die Verwendung in Beispielinstanzen."
 InstanceOf: Patient
 Usage:  #inline
 
+* language = #de-DE
 * identifier.use = #usual
 * identifier.type = $v2-0203#MR "Krankenaktennummer"
 * identifier.value = "0123456789"

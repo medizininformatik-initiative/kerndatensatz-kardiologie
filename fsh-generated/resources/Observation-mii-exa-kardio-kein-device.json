@@ -42,6 +42,7 @@
       "display": "Beispielfragebogen"
     }
   ],
+  "language": "de-DE",
   "status": "final",
   "effectiveDateTime": "2025-11-13T18:06:34.214+01:00",
   "valueCodeableConcept": {

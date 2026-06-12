@@ -33,11 +33,11 @@
       {
         "code": "11524-6",
         "system": "http://loinc.org",
-        "version": "2.82",
         "display": "EKG study"
       }
     ]
   },
+  "language": "de-DE",
   "status": "current",
   "date": "2025-07-17T16:41:22+02:00"
 }

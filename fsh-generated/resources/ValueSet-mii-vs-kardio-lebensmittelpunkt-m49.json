@@ -26,20 +26,16 @@
         "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
         "concept": [
           {
-            "code": "528",
-            "display": "Netherlands (Kingdom of the)"
+            "code": "528"
           },
           {
-            "code": "276",
-            "display": "Germany"
+            "code": "276"
           },
           {
-            "code": "155",
-            "display": "Western Europe"
+            "code": "155"
           },
           {
-            "code": "021",
-            "display": "Northern America"
+            "code": "021"
           }
         ]
       },

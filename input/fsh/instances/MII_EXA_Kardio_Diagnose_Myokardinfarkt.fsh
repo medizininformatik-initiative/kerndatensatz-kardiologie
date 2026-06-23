@@ -7,11 +7,11 @@ Usage: #example
 * language = #de-DE
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category = $example-condition-category#problem-list-item "Problem List Item"
+* category = $condition-category#problem-list-item "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
-* code.coding[icd10-gm] = $icd-10-gm|2025#I21.9 "Akuter Myokardinfarkt, nicht näher bezeichnet"
+* code.coding[icd10-gm] = $example-icd-10-gm#I21.9 "Akuter Myokardinfarkt, nicht näher bezeichnet"
 * code.coding[sct] = $example-sct#22298006 "Myocardial infarction"
 
 // --------------------------------------
@@ -28,7 +28,7 @@ Usage: #example
 
 // --------------------------------------
 // VERIFICATION STATUS -> Arzt hat festgestellt, dass Diagnose wohl nicht vorliegt
-* verificationStatus = $example-condition-ver-status#confirmed "Confirmed"
+* verificationStatus = $condition-ver-status#confirmed "Confirmed"
 
 // --------------------------------------
 // EXTENSION: Feststellungsdatum --> Trifft hier nicht zu, siehe ModifierExtension, Patient gibt in Amanesefragebogen an es nicht zu wissen

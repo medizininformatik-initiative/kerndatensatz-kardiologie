@@ -7,7 +7,7 @@ Usage: #example
 * language = #de-DE
 // --------------------------------------
 // CATEGORY (problem-list-item)
-* category = $example-condition-category#problem-list-item "Problem List Item"
+* category = $condition-category#problem-list-item "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED --> hier local kardio vs)
@@ -27,7 +27,7 @@ Usage: #example
 
 // --------------------------------------
 // VERIFICATION STATUS -> Arzt hat festgestellt, dass Diagnose wohl nicht vorliegt
-* verificationStatus = $example-condition-ver-status#confirmed "Confirmed"
+* verificationStatus = $condition-ver-status#confirmed "Confirmed"
 
 // --------------------------------------
 // EXTENSION: Feststellungsdatum

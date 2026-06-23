@@ -12,7 +12,6 @@
         {
           "code": "problem-list-item",
           "system": "http://terminology.hl7.org/CodeSystem/condition-category",
-          "version": "4.0.1",
           "display": "Problem List Item"
         }
       ]
@@ -23,7 +22,7 @@
       {
         "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
         "code": "I21.9",
-        "version": "2025",
+        "version": "2026",
         "display": "Akuter Myokardinfarkt, nicht näher bezeichnet"
       },
       {
@@ -55,7 +54,6 @@
       {
         "code": "confirmed",
         "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-        "version": "4.0.1",
         "display": "Confirmed"
       }
     ]

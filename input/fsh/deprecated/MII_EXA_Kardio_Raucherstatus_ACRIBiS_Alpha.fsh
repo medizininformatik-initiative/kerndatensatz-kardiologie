@@ -8,7 +8,7 @@ Usage: #example
 * contained[0] = Beispielpatient
 * contained[1] = Beispielfall
 * status = #final
-* category = $example-observation-category#social-history "Social History"
+* category = $observation-category#social-history "Social History"
 * code = $example-loinc#72166-2 "Raucherstatus"
 * subject = Reference(Beispielpatient)
 * encounter = Reference(Beispielfall)

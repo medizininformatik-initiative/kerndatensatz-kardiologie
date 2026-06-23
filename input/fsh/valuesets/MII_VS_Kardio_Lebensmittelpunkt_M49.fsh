@@ -11,10 +11,10 @@ Description: "Dieses Value Set bildet den aktuellen Lebensmittelpunkt des Patien
 * ^experimental = true
 * ^date = "2025-03-03"
 
-* $m49-geographic-region#528 "Netherlands (Kingdom of the)"
-* $m49-geographic-region#276 "Germany"
-* $m49-geographic-region#155 "Western Europe"
-* $m49-geographic-region#021 "Northern America"
+* $m49-geographic-region#528
+* $m49-geographic-region#276
+* $m49-geographic-region#155
+* $m49-geographic-region#021
 
 * include codes from system $m49-geographic-region
 

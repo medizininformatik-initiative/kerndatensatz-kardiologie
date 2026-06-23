@@ -13,7 +13,7 @@ Usage: #example
 
 * status = #final
 
-* category[vs-cat].coding = $example-observation-category#imaging "Imaging"
+* category[vs-cat].coding = $observation-category#imaging "Imaging"
 
 * code.coding[sct] = $example-sct#250908004 "Left ventricular ejection fraction"
 * code.coding[loinc] = $example-loinc#10230-1 "Left ventricular ejection fraction"

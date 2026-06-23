@@ -6,7 +6,7 @@ Usage: #example
 
 * language = #de-DE
 * status = #final
-* category = $example-observation-category#survey
+* category = $observation-category#survey
 * code.coding[diagnoseSnomed] = $example-sct#84114007 "Heart failure"
 * performer.display = "Beispielkardiologe"
 * subject.display = "Beispielpatient"

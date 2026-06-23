@@ -15,7 +15,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * code.coding.system 1.. MS
 * code.coding.version 1.. MS
 * code.coding.code 1.. MS
-* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "$this" 
 * code.coding ^slicing.rules = #open
 * code.coding contains

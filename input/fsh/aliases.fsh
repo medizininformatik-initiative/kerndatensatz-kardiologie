@@ -15,6 +15,7 @@ Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
+Alias: $condition-category = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason // |4.0.1
 

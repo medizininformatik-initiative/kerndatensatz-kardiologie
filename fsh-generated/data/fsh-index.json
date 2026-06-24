@@ -541,7 +541,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Extended_MII_DiagnoseCodes_SNOMED.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 16
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.json",

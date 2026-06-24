@@ -32,6 +32,10 @@ Für ACRIBiS eignen sich die folgenden Codes (Stand 01.05.2025):
 * code.coding ^slicing.rules = #closed
 
 * subject only Reference(Patient)
+
+* performedDateTime MS
+* performedPeriod MS
+
 * bodySite from MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT (required)
 * bodySite ^comment = "Hier soll mindestens ein SNOMED-Code angegeben werden.
 Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):

@@ -373,7 +373,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_EKG_Durchführung.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 31
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-ekg-geraet.json",
@@ -421,7 +421,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Kardiale_Deviceimplantation.fsh",
     "startLine": 1,
-    "endLine": 50
+    "endLine": 54
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-klappenvitium.json",

@@ -36,3 +36,21 @@ The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated 
 
 # These are inherited slicings
 SD_PATH_SLICING_DEPRECATED
+
+# Value set is too large to check. We made sure that the mentioned VS are propper subsets of the respective parent VS, so we can safely ignore these warnings
+Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct - value set is too large to check
+Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/mii-vs-prozedur-ops - value set is too large to check
+Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct - value set is too large to check
+Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-icd is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-icd10gm|2026.0.0 - value set is too large to check
+Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-alphaid|2026.0.0 - value set is too large to check
+Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2026.0.0 - value set is too large to check
+
+# Big value set, ignore warning
+Unable to expand included value set 'https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct': Das ValueSet https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2026.0.0 hat zu viele Codes für die Anzeige (>1000) (and Error from http://localhost/fhir: Error: The value set 'https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct' expansion has too many codes to produce (>10000))
+The value set expansion is too large, and only a subset has been displayed
+
+# The CS Alpha-ID is only a stub in de.basisprofil.r4. There, no properties are defined. In the resource on the terminology server, the property is defined, so the expansion works.
+The property 'icd_10_primaer' is not known for the system 'http://fhir.de/CodeSystem/bfarm/alpha-id', so may not be understood by the terminology ecosystem. Known properties for this system: concept,code,status,inactive,effectiveDate,deprecationDate,retirementDate,notSelectable,synonym,comment,itemWeight
+
+# Same problem with MDC
+The property 'partition' is not known for the system 'urn:iso:std:iso:11073:10101', so may not be understood by the terminology ecosystem. Known properties for this system: concept,code,status,inactive,effectiveDate,deprecationDate,retirementDate,notSelectable,synonym,comment,itemWeight

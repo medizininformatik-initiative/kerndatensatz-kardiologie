@@ -89,6 +89,40 @@
         "mustSupport": true
       },
       {
+        "id": "Procedure.subject",
+        "path": "Procedure.subject",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performed[x]:performedDateTime",
+        "path": "Procedure.performed[x]",
+        "sliceName": "performedDateTime",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Procedure.performed[x]:performedPeriod",
+        "path": "Procedure.performed[x]",
+        "sliceName": "performedPeriod",
+        "type": [
+          {
+            "code": "Period"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Procedure.bodySite.coding:snomed-ct",
         "path": "Procedure.bodySite.coding",
         "sliceName": "snomed-ct",

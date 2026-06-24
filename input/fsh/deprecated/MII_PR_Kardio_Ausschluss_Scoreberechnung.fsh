@@ -13,7 +13,7 @@ Vorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzie
 * ^date = "2025-10-09"
 
 * code MS
-* code.coding 1.. MS
+* code.coding 1..1 MS
 * code.coding.system 1.. MS
 * code.coding.version 1.. MS
 * code.coding.code 1.. MS

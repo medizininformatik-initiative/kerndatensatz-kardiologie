@@ -17,5 +17,3 @@ Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem S
 * performer[0].display = "Beispielkardiologe"
 * valueCodeableConcept = MII_CS_Kardio_Modifizierte_Rankin_Skala|2026.0.0-alpha.3#mRSbigger3 "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
 * note.text = "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">mRS Skala: Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen).</div>"

@@ -89,15 +89,12 @@
         "mustSupport": true
       },
       {
-        "id": "Procedure.bodySite",
-        "path": "Procedure.bodySite",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "code": "80891009",
-              "system": "http://snomed.info/sct"
-            }
-          ]
+        "id": "Procedure.bodySite.coding:snomed-ct",
+        "path": "Procedure.bodySite.coding",
+        "sliceName": "snomed-ct",
+        "patternCoding": {
+          "code": "80891009",
+          "system": "http://snomed.info/sct"
         }
       },
       {

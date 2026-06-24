@@ -20,7 +20,7 @@ Description: "Profil zur Erfassung der Durchführung eines EKG."
 * code.coding.code 1.. MS
 * code.coding[sct] from MII_VS_Kardio_EKG_Prozedur_SNOMEDCT (required)
 
-* bodySite = $sct#80891009 // Heart structure (body structure)
+* bodySite.coding[snomed-ct] = $sct#80891009 // Heart structure (body structure)
 
 * usedReference 1.. MS
 * usedReference only Reference(Device)

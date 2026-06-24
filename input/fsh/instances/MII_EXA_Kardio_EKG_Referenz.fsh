@@ -13,4 +13,3 @@ Usage: #example
 * content.attachment.contentType = #application/dicom
 * content.attachment.url = "https://example.com/EKGs/beispiel-ekg"
 * content.attachment.title = "Beispiel EKG an einem anteren Ort"
-* content.format = http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds:2017:mimeTypeSufficient "mimeType Sufficient"

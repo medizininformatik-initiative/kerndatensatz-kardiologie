@@ -19,6 +19,10 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * code.coding.system 1.. MS
 * code.coding.version 1.. MS
 * code.coding.code 1.. MS
+
+* code.coding[snomed-ct] ..1
+* code.coding[loinc] ..1
+
 * code.coding[snomed-ct] = http://snomed.info/sct|http://snomed.info/sct/11000274103/version/20260515#77176002
 * code.coding contains
     snomed-ct-MII 0..1

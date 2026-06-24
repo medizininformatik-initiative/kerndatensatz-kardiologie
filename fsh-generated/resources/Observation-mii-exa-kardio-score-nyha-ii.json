@@ -44,10 +44,6 @@
       "text": "Patient berichtet über leichte Einschränkungen bei moderater körperlicher Aktivität. Keine Beschwerden in Ruhe."
     }
   ],
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NYHA Klassifikation: Klasse II. Patient hat in Ruhe keine Beschwerden, leichte Symptome bei Aktivität.</div>"
-  },
   "category": [
     {
       "coding": [

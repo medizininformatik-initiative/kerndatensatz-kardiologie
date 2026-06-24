@@ -17,5 +17,3 @@ Description: "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation be
 * performer[0] = Reference(PractitionerRole/mii-exa-kardio-rolle-kardiologe)
 * valueCodeableConcept = $example-sct#421704003 "New York Heart Association Classification - Class II"
 * note.text = "Patient berichtet über leichte Einschränkungen bei moderater körperlicher Aktivität. Keine Beschwerden in Ruhe."
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">NYHA Klassifikation: Klasse II. Patient hat in Ruhe keine Beschwerden, leichte Symptome bei Aktivität.</div>"

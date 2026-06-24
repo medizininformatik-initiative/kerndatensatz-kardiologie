@@ -40,8 +40,8 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * code.coding ^slicing.discriminator.path = "$this"
 * code.coding ^slicing.rules = #open
 * code.coding contains
-    sct 1..* MS and
-    loinc 1..* MS
+    sct 1..1 MS and
+    loinc 1..1 MS
 * code.coding[sct] = $sct#250908004 // Left ventricular ejection fraction (observable entity)
 * code.coding[loinc] = $loinc#10230-1 // Left ventricular Ejection fraction
 

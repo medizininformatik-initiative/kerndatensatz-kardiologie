@@ -20,11 +20,6 @@
         "contentType": "application/dicom",
         "url": "https://example.com/EKGs/beispiel-ekg",
         "title": "Beispiel EKG an einem anteren Ort"
-      },
-      "format": {
-        "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
-        "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
-        "display": "mimeType Sufficient"
       }
     }
   ],

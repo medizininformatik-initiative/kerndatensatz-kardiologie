@@ -133,7 +133,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_EKG_Referenz.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 15
   },
   {
     "outputFile": "Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.json",
@@ -213,7 +213,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_MRS.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 19
   },
   {
     "outputFile": "Observation-mii-exa-kardio-pci-nein.json",
@@ -245,7 +245,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Score_NYHA_II.fsh",
     "startLine": 1,
-    "endLine": 21
+    "endLine": 19
   },
   {
     "outputFile": "PractitionerRole-mii-exa-kardio-rolle-kardiologe.json",
@@ -453,7 +453,7 @@
     "fshType": "Profile",
     "fshFile": "deprecated\\MII_PR_Kardio_Observation_Rauchen_AcribisAlpha.fsh",
     "startLine": 1,
-    "endLine": 101
+    "endLine": 105
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-observation-rauchen.json",
@@ -461,7 +461,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Observation_Rauchen.fsh",
     "startLine": 1,
-    "endLine": 90
+    "endLine": 93
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json",

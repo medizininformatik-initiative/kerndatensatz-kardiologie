@@ -11,5 +11,5 @@ Description: "SNOMED CT Codes für Klappenerkrankungen"
 * ^date = "2025-09-16"
 * ^extension[http://hl7.org/fhir/StructureDefinition/valueset-supplement].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct"
 
-* include codes from system $sct where concept is-a #368009 // "Heart valve disorder (disorder)"
-* $sct#368009:{116676008=49755003,363698007=17401000},{246112005=24484000} // Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure},{Severity=Severe}
+* include codes from system $example-sct where concept is-a #368009 // "Heart valve disorder (disorder)"
+* $example-sct#368009:{116676008=49755003,363698007=17401000},{246112005=24484000} // Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure},{Severity=Severe}

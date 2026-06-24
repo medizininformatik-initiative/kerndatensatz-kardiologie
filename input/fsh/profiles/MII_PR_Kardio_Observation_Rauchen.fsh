@@ -9,8 +9,11 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * ^status = #active
 
 // Parent: Current Smoking Status - gematik ISiK -> https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
-* category 1.. MS
+* category 1..1 MS
 * category from $observation-category-vs (required)
+
+* code.coding[snomed-ct] ..1
+* code.coding[loinc] ..1
 
 * code.coding.system 1.. MS
 * code.coding.version 1.. MS

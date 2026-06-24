@@ -12,7 +12,7 @@ Description: "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ere
 * ^date = "2025-09-03"
 
 * code 1..1 MS
-* code.coding 1.. MS
+* code.coding 1..1 MS
 * code.coding.system 1.. MS
 * code.coding.version 1.. MS
 * code.coding.code 1.. MS

@@ -27,7 +27,7 @@ language: de-DE
 #
 dependencies:
   de.basisprofil.r4: 1.5.4
-  de.medizininformatikinitiative.kerndatensatz.icu: 2026.0.x 
+  # de.medizininformatikinitiative.kerndatensatz.icu: 2026.0.x 
   de.medizininformatikinitiative.kerndatensatz.base: 2026.0.x
   de.medizininformatikinitiative.kerndatensatz.meta: 2026.0.x
   de.gematik.isik: 5.1.x

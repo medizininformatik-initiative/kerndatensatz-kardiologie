@@ -4,5 +4,35 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
-# Suppres Information about pinned version
+# Suppress Information about pinned version
 PIN_VERSION
+
+# Suppress Information about draft or experimental bindings
+MSG_DRAFT
+MSG_EXPERIMENTAL
+
+# Suppress Information and Warnings about missing display names in German when the used display is the correct display in the default language
+NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK
+%which is a valid display for the default language%
+
+# Suppress Warning for binding on experimental VS because those are VS that are not under our management
+SD_ED_EXPERIMENTAL_BINDING
+
+# We manually checked the expressions against the SNOMED CT concept model, so we can ignore this
+The expression is grammatically correct and the concepts are valid, but the expression has not been checked against the SNOMED CT concept model (MRCM)
+
+# These URLs do resolve
+URL-Wert 'https://www.hillrom.de/de/products/eli-380-electrocardiograph/' löst nicht auf
+URL-Wert 'https://snowstorm.ihtsdotools.org/fhir' löst nicht auf
+
+# There are no better UCUM units, US Core does it similarly
+TYPE_SPECIFIC_CHECKS_DT_QTY_UCUM_ANNOTATIONS
+
+# This is a binding from the FHIR resource
+The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+
+# This is also inherited
+The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
+
+# These are inherited slicings
+SD_PATH_SLICING_DEPRECATED

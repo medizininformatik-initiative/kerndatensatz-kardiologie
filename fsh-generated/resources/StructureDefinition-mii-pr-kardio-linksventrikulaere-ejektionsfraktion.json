@@ -141,7 +141,7 @@
         "path": "Observation.code.coding",
         "sliceName": "sct",
         "min": 1,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "250908004",
           "system": "http://snomed.info/sct"
@@ -153,7 +153,7 @@
         "path": "Observation.code.coding",
         "sliceName": "loinc",
         "min": 1,
-        "max": "*",
+        "max": "1",
         "patternCoding": {
           "code": "10230-1",
           "system": "http://loinc.org"

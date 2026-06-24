@@ -70,6 +70,7 @@
         "id": "Observation.code.coding:snomed-ct",
         "path": "Observation.code.coding",
         "sliceName": "snomed-ct",
+        "max": "1",
         "patternCoding": {
           "code": "77176002",
           "system": "http://snomed.info/sct",
@@ -80,6 +81,7 @@
         "id": "Observation.code.coding:loinc",
         "path": "Observation.code.coding",
         "sliceName": "loinc",
+        "max": "1",
         "patternCoding": {
           "code": "72166-2",
           "system": "http://loinc.org"

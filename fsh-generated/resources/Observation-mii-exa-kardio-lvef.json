@@ -28,7 +28,6 @@
         {
           "code": "imaging",
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "version": "4.0.1",
           "display": "Imaging"
         }
       ]

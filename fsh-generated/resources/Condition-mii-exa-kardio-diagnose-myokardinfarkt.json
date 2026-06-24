@@ -22,7 +22,7 @@
       {
         "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
         "code": "I21.9",
-        "version": "2026",
+        "version": "2025",
         "display": "Akuter Myokardinfarkt, nicht näher bezeichnet"
       },
       {

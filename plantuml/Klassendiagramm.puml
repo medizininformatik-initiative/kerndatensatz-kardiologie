@@ -1,0 +1,48 @@
+@startuml
+
+class Patient {}
+
+package Anamnese {
+  class Diagnose {}
+  class Symptom {}
+  class Prozedur {}
+  class Medikation {}
+}
+
+package Diagnostik {
+  class EKG {}
+  class Labor {}
+  class Messwerte {
+    +BlutdruckSystolisch : Integer
+    +BlutdruckDiastolisch : Integer
+    +LVEF : Integer
+  }
+}
+
+package "Berechnete Werte" as BerechneteWerte {
+  class "Kardiovaskuläre Risikoscores" as KRScores {}
+}
+package PRO {
+  class "EQ-5D-5L" as EQ5D5L {}
+  class "PROMIS-29" as PROMIS29 {}
+}
+
+package "Follow Up" as FollowUp {
+  class Neudiagnose {}
+  class "Kardiale Ereignisse" as KardialeEreignisse {}
+}
+
+Patient <-- Diagnose
+Patient <-- Symptom
+Patient <-- Prozedur
+Patient <-- Medikation
+Patient <-- EKG
+Patient <-- Labor
+Patient <-- Messwerte
+Patient <-- KRScores
+Patient <-- EQ5D5L
+Patient <-- PROMIS29
+Patient <-- Neudiagnose
+Patient <-- KardialeEreignisse
+
+@enduml

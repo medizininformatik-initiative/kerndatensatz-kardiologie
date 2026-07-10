@@ -3,34 +3,83 @@
 class Patient {}
 
 package Anamnese {
-  class Diagnose {}
-  class Symptom {}
-  class Prozedur {}
-  class Medikation {}
-}
+  class Diagnose {
+    + Beginndatum
+    + Feststellungsdatumdatum
+    + Dokumentationsdatum
+    + Schweregrad
+    + Stadium
+  }
 
-package Diagnostik {
-  class EKG {}
-  class Labor {}
-  class Messwerte {
-    +BlutdruckSystolisch : Integer
-    +BlutdruckDiastolisch : Integer
-    +LVEF : Integer
+  class Symptom {
+    + Beginndatum
+    + Feststellungsdatumdatum
+    + Dokumentationsdatum
+    + Schweregrad
+  }
+  class "Weitere Risikofaktoren" as Risikofaktoren {
+    + Dokumentationsdatum
+    + Raucherstatus
+    + Familiäre Prädisposition
+  }
+  
+  class Prozedur {
+    + Durchführungsdatum
+    + Dokumentationsdatum
+    + Device
+  }
+  class Medikation {
+    + Dokumentationsdatum
+    + Tagesdosis
+  }
+
+  class "Vitalitätsstatus" as Status {
+    + Lebendig
+    + Dokumentationsdatum
+    + Todesdatum
+    + Todesursache
   }
 }
 
 package "Berechnete Werte" as BerechneteWerte {
-  class "Kardiovaskuläre Risikoscores" as KRScores {}
-}
-package PRO {
-  class "EQ-5D-5L" as EQ5D5L {}
-  class "PROMIS-29" as PROMIS29 {}
+  class "Kardiovaskulärer Risikoscore" as KRScore {
+    + Dokumentationsdatum
+  }
+  class PROM{
+    + Dokumentationsdatum
+    + Fragen
+    + Antworten
+    + Score
+  }
 }
 
-package "Follow Up" as FollowUp {
-  class Neudiagnose {}
-  class "Kardiale Ereignisse" as KardialeEreignisse {}
+package Diagnostik {
+  class EKG {
+    + Aufzeichnungsdatum
+    + Annotation
+    + Interpretation
+    + Kurvendaten
+  }
+  class Labor {}
+  class Messwert {
+    + Messdatum
+    + Wert
+    + Einheit
+    + Referenzintervall
+  }
+  class Echo {}
 }
+
+package Devices {
+  class "Elektronisches Devices" as EDevice {
+    + Funktionalitäten
+    + Einstellungen
+  }
+  class Herzschrittmacher {}
+  class "Implantierter Defibrillator" as ICD {}
+  class "Ventrikuläres Unterstützungssystem" as VAD {}
+}
+' TODO: Devices generischer? Vielleicht kommen später ja noch weitere dazu
 
 Patient <-- Diagnose
 Patient <-- Symptom
@@ -38,11 +87,17 @@ Patient <-- Prozedur
 Patient <-- Medikation
 Patient <-- EKG
 Patient <-- Labor
-Patient <-- Messwerte
-Patient <-- KRScores
-Patient <-- EQ5D5L
-Patient <-- PROMIS29
-Patient <-- Neudiagnose
-Patient <-- KardialeEreignisse
+Patient <-- Echo
+Patient <-- KRScore
+Patient <-- Status
+Patient <-- PROM
+Patient <-- EDevice
+EKG *-- Messwert
+Labor *-- Messwert
+Echo *-- Messwert
+EDevice <|-- Herzschrittmacher
+EDevice <|-- ICD
+EDevice <|-- VAD
+Prozedur --> EDevice
 
 @enduml

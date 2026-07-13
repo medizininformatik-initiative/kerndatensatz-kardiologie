@@ -1,9 +1,17 @@
 @startuml
-
 class Patient {}
 
 package Anamnese {
+  class Symptom {
+    + Code
+    + Beginndatum
+    + Feststellungsdatumdatum
+    + Dokumentationsdatum
+    + Schweregrad
+  }
+
   class Diagnose {
+    + Code
     + Beginndatum
     + Feststellungsdatumdatum
     + Dokumentationsdatum
@@ -11,12 +19,6 @@ package Anamnese {
     + Stadium
   }
 
-  class Symptom {
-    + Beginndatum
-    + Feststellungsdatumdatum
-    + Dokumentationsdatum
-    + Schweregrad
-  }
   class "Weitere Risikofaktoren" as Risikofaktoren {
     + Dokumentationsdatum
     + Raucherstatus
@@ -24,17 +26,18 @@ package Anamnese {
   }
   
   class Prozedur {
+    + Code
     + Durchführungsdatum
     + Dokumentationsdatum
     + Device
   }
   class Medikation {
+    + Code
     + Dokumentationsdatum
     + Tagesdosis
   }
 
   class "Vitalitätsstatus" as Status {
-    + Lebendig
     + Dokumentationsdatum
     + Todesdatum
     + Todesursache
@@ -43,6 +46,7 @@ package Anamnese {
 
 package "Berechnete Werte" as BerechneteWerte {
   class "Kardiovaskulärer Risikoscore" as KRScore {
+    + Code
     + Dokumentationsdatum
   }
   class PROM{
@@ -54,30 +58,35 @@ package "Berechnete Werte" as BerechneteWerte {
 }
 
 package Diagnostik {
-  class EKG {
-    + Aufzeichnungsdatum
-    + Annotation
-    + Interpretation
+  class "EKG-Rohdaten" as EKGRoh {
     + Kurvendaten
   }
-  class Labor {}
   class Messwert {
-    + Messdatum
+    + Code
+    + Zeitpunkt/Periode
     + Wert
     + Einheit
     + Referenzintervall
   }
-  class Echo {}
+  class Echoparameter {}
+  class Laborwert {}
+  class "EKG-Parameter" as EKGParameter
 }
 
 package Devices {
-  class "Elektronisches Devices" as EDevice {
+  class Device {
     + Funktionalitäten
     + Einstellungen
+    + Hersteller
+    + Seriennummer
+  }
+  class "Implantiertes Device" as IDevice {
   }
   class Herzschrittmacher {}
   class "Implantierter Defibrillator" as ICD {}
   class "Ventrikuläres Unterstützungssystem" as VAD {}
+  class "EKG-Gerät" as EKGGerät {}
+  class "EKG-Kanal" as EKGKanal {}
 }
 ' TODO: Devices generischer? Vielleicht kommen später ja noch weitere dazu
 
@@ -85,19 +94,23 @@ Patient <-- Diagnose
 Patient <-- Symptom
 Patient <-- Prozedur
 Patient <-- Medikation
-Patient <-- EKG
-Patient <-- Labor
-Patient <-- Echo
 Patient <-- KRScore
 Patient <-- Status
 Patient <-- PROM
-Patient <-- EDevice
-EKG *-- Messwert
-Labor *-- Messwert
-Echo *-- Messwert
-EDevice <|-- Herzschrittmacher
-EDevice <|-- ICD
-EDevice <|-- VAD
-Prozedur --> EDevice
-
+Patient <-- IDevice
+Patient <-- Messwert
+Patient <-- EKGRoh
+Patient <-- Risikofaktoren
+IDevice <|-- Herzschrittmacher
+IDevice <|-- ICD
+IDevice <|-- VAD
+Prozedur --> Device
+Device <|-- IDevice
+Device <|-- EKGGerät
+EKGGerät *-- EKGKanal
+EKGKanal <-- EKGRoh
+EKGRoh <-- EKGParameter
+Messwert <|-- Echoparameter
+Messwert <|-- Laborwert
+Messwert <|-- EKGParameter
 @enduml

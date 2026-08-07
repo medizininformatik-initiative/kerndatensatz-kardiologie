@@ -1,55 +1,150 @@
-@startuml
-class Patient {}
+@startuml KDS Kardiologie
+'left to right direction
+'top to bottom direction
+'skinparam dpi 300
+'skinparam ClassFontSize 18
+'skinparam linetype polyline
+'skinparam linetype ortho
+'skinparam classPadding 10
+'skinparam nodesep 25
+'skinparam ranksep 5
 
-package Anamnese {
-  class Symptom {
+legend bottom left
+  <b>Legende</b>
+  |<#LightGreen>           | Bestehende KDS Module                 |
+  |<#LightBlue>            | Umsetzungsstufe 1 - Modul Kardiologie |
+  |<#Lavender>             | ISiK (gematik)                        |
+  |<#LightGoldenRodYellow> | FHIR-Core R4                          |
+end legend
+
+class "Kerndatensatz Kardiologie" as KDSKardio{}
+
+class "Allgemeine Patientendaten" as Patientendaten {}
+
+class Anamnese {}
+
+class Diagnostik {}
+
+class ISIKRaucherstatus #Lavender {}
+
+' ==================================
+' ==== Algemeine Patientendaten ====
+' ==================================
+package "KDS Modul\nBasis" as KDSBasis #LightGreen {
+  class "Person/Patient" as Patient  {
+    + Geschlecht
+    + Geburtsdatum
+  }
+  class Vitalstatus {
     + Code
-    + Beginndatum
-    + Feststellungsdatumdatum
-    + Dokumentationsdatum
-    + Schweregrad
+    + Datum
+    + Intrahospitaler Tod
   }
-
-  class Diagnose {
-    + Code
-    + Beginndatum
-    + Feststellungsdatumdatum
-    + Dokumentationsdatum
-    + Schweregrad
-    + Stadium
-  }
-
-  class "Weitere Risikofaktoren" as Risikofaktoren {
-    + Dokumentationsdatum
-    + Raucherstatus
-    + Familiäre Prädisposition
-  }
-  
   class Prozedur {
-    + Code
-    + Durchführungsdatum
-    + Dokumentationsdatum
-    + Device
+    + Code: OPS | SNOMED
+    + Perforned[x]: Durchführungsdatum
+    + focalDevice: Device
   }
   class Medikation {
     + Code
     + Dokumentationsdatum
     + Tagesdosis
   }
-
-  class "Vitalitätsstatus" as Status {
-    + Dokumentationsdatum
-    + Todesdatum
-    + Todesursache
+  class Diagnose {
+      + Code: ICD | SNOMED
+      + Onset[x]: Beginndatum
+      + Feststellungsdatumdatum
+      + recordedDate: Dokumentationsdatum
+      + Stage: Stadium
+    }
+}
+package "KDS Modul \nSoziodemographische Daten" as KDSSDD #LightGreen {
+  class Geburtsland {
+    + Code
   }
 }
+class Lebensmittelpunkt {
+  + Code: M49
+}
+class Ethnie {
+  + Code: SNOMED
+}
 
-package "Berechnete Werte" as BerechneteWerte {
-  class "Kardiovaskulärer Risikoscore" as KRScore {
-    + Code
-    + Dokumentationsdatum
-  }
-  class PROM{
+' ==================
+' ==== Anamnese ====
+' ==================
+
+class Vorerkrankung #LightBlue {
+  + Severity: Schweregrad
+}
+
+class Symptom {}
+
+class "Anamnestisches Nichtvorliegen" as Nichtvorliegen #LightBlue {
+  + Code: ICD | SNOMED
+  + Effective[x]: Datum
+}
+
+' ================================
+' ==== Weitere Risikofaktoren ====
+' ================================
+
+class "Weitere Risikofaktoren" as Risikofaktoren {}
+class Raucherstatus #LightBlue {
+  + Code: SNOMED | LOINC
+  + Effective[x]: Datum
+  + Wert: CodeableConcept (IPS-VS)
+  + Rauchbeginn
+  + Rauchdauer
+  + Zigaretten pro Tag
+  + Packungsjahre
+}
+class "Familiäre Disposition" as Disposition {
+  + Condition-Code
+}
+class Alkoholkonsum {
+  + Code
+  + Häufigkeit
+  + Menge
+}
+
+class "Atherosklerotisches Erstereignis" as Erstereignis #LightBlue {
+  + Code: Extension
+  + Datum
+}
+
+class "Krankenhausaufenthalte wegen HF im letzten Jahr" as KHAufenth #LightBlue {
+  + Code: SNOMED
+  + Anzahl: Integer | CodeableConcept
+  + Grund: Herzinsuffizienz (SNOMED)
+}
+
+class "Implantiertes Device" as IDevice #LightBlue {
+  + Patient
+  + Status
+  + Type: Coding (ICD, CRT, VAD)
+  + Implantationsdatum
+}
+
+class Allergie {
+  + Substanz
+}
+
+' ================
+' ==== Skalen ====
+' ================
+
+class Skalen {}
+class "NYHA-Klasse" as NYHAKlasse #LightBlue {}
+class "Mod. Rankin-Skala" as MRS #LightBlue {}
+class "Kardio-Risikoscore" as KardioScore #LightBlue {
+  + Code
+  + Dokumentationsdatum
+}
+class "Fontaine-Stadium" as FontaineStadium {}
+class "CCS-Grad" as CCSGrad {}
+package "KDS Modul\nPRO" as KDSPRO #LightGreen {
+  class PRO {
     + Dokumentationsdatum
     + Fragen
     + Antworten
@@ -57,60 +152,126 @@ package "Berechnete Werte" as BerechneteWerte {
   }
 }
 
-package Diagnostik {
-  class "EKG-Rohdaten" as EKGRoh {
-    + Kurvendaten
+' ====================
+' ==== Diagnostik ====
+' ====================
+
+package "KDS Modul\nLabor" as KDSLabor #LightGreen {
+  class Laborwert {
+    + Code: LOINC
+    + Messwert
   }
-  class Messwert {
-    + Code
-    + Zeitpunkt/Periode
-    + Wert
-    + Einheit
-    + Referenzintervall
+}
+package "KDS Modul\nICU" as KDSICU #LightGreen {
+  class "Körpergröße" as Koerpergroesse {
+    + Code: LOINC | SNOMED
+    + Wert: centimeter
+    + Datum
   }
-  class Echoparameter {}
-  class Laborwert {}
-  class "EKG-Parameter" as EKGParameter
+  class "Körpergewicht" as Koerpergewicht {
+    + Code: LOINC | SNOMED
+    + Wert: kg
+    + Datum
+  }
+}
+package "KDS Modul\nSeltene Erkrankungen" as KDSSE #LightGreen {
+  class BMI {
+    + Code: LOINC
+    + Wert: kg/m2
+    + Datum
+  }
+}
+package "KDS Modul\nMikrobiologie" as KDSMibi #LightGreen {
+  class "Multiresistente Erreger" as MultiresistenteErreger {
+    + MRGN-Klasse
+    + MRE-Klasse
+    + Datum
+  }
+}
+class "EKG-Metadaten" as EKGMetadaten {}
+class "EKG-Gerät" as EKGGeraet {}
+class "EKG-Annotation" as EKGAnnotation {}
+class "EKG-Referenz" as EKGReferenz {}
+
+class Echoparameter {
+  + Code: LOINC
+  + Zeitpunkt/Periode
+  + Wert: LVEF
+  + Einheit: %
+  + Referenzintervall
 }
 
-package Devices {
-  class Device {
-    + Funktionalitäten
-    + Einstellungen
-    + Hersteller
-    + Seriennummer
-  }
-  class "Implantiertes Device" as IDevice {
-  }
-  class Herzschrittmacher {}
-  class "Implantierter Defibrillator" as ICD {}
-  class "Ventrikuläres Unterstützungssystem" as VAD {}
-  class "EKG-Gerät" as EKGGerät {}
-  class "EKG-Kanal" as EKGKanal {}
+class Device #LightGoldenRodYellow {
+  + Funktionalitäten
+  + Einstellungen
+  + Hersteller
+  + Seriennummer
 }
-' TODO: Devices generischer? Vielleicht kommen später ja noch weitere dazu
 
-Patient <-- Diagnose
-Patient <-- Symptom
-Patient <-- Prozedur
-Patient <-- Medikation
-Patient <-- KRScore
-Patient <-- Status
-Patient <-- PROM
-Patient <-- IDevice
-Patient <-- Messwert
-Patient <-- EKGRoh
-Patient <-- Risikofaktoren
-IDevice <|-- Herzschrittmacher
-IDevice <|-- ICD
-IDevice <|-- VAD
-Prozedur --> Device
-Device <|-- IDevice
-Device <|-- EKGGerät
-EKGGerät *-- EKGKanal
-EKGKanal <-- EKGRoh
-EKGRoh <-- EKGParameter
-Messwert <|-- Echoparameter
-Messwert <|-- Laborwert
-Messwert <|-- EKGParameter
+' Verbinder
+KDSKardio *-- Patientendaten
+KDSKardio *-- Diagnostik
+KDSKardio *-- Anamnese
+
+Patientendaten *-- Patient
+Patientendaten *-- Vitalstatus
+Patientendaten *-- Geburtsland
+Patientendaten *-- Lebensmittelpunkt
+Patientendaten *-- Ethnie
+
+Anamnese *-- Vorerkrankung
+Anamnese *-- Symptom
+Anamnese *-- Nichtvorliegen
+Anamnese *-- Erstereignis
+Anamnese *-- Risikofaktoren
+Anamnese *-- IDevice
+Anamnese *-- Skalen
+Anamnese *-- KHAufenth
+Anamnese *-- Allergie
+
+Risikofaktoren *-- Raucherstatus
+Risikofaktoren *-- Disposition
+Risikofaktoren *-- Alkoholkonsum
+
+Skalen *-- NYHAKlasse
+Skalen *-- FontaineStadium
+Skalen *-- CCSGrad
+Skalen *-- MRS
+Skalen *-- KardioScore
+Skalen *-- PRO
+
+Diagnostik *-- Echoparameter
+Diagnostik *-- MultiresistenteErreger
+Diagnostik *-- Koerpergroesse
+Diagnostik *-- Koerpergewicht
+Diagnostik *-- BMI
+Diagnostik *-- Laborwert
+Diagnostik *-- EKGMetadaten
+
+EKGMetadaten *-- EKGGeraet
+EKGMetadaten *-- EKGAnnotation
+EKGMetadaten *-- EKGReferenz
+
+Raucherstatus --|> ISIKRaucherstatus
+IDevice --|> Device
+EKGGeraet --|> Device
+Diagnose --|> Vorerkrankung
+
+Patient -[hidden]down-> Prozedur
+Prozedur -[hidden]right-> Medikation
+
+' Layout --> Chaotische Anordnung: Ohne Hidden-Verbindungen ist es noch schlimmer.
+'Diagnose -[hidden]left-> Nichtvorliegen
+'KardioDevices -[hidden]up--> Risikofaktoren
+'Prozedur -[hidden]up-> Medikation
+'Symptom -[hidden]up-> Prozedur
+'Nichtvorliegen -[hidden]up-> KardioDiagnose
+'Echoparameter -[hidden]right-> Mibi
+'Echoparameter -[hidden]left-> EKGMetadaten
+'Skalen -[hidden]up-> KHAufenth
+'Diagnostik -[hidden]up-> Patientendaten
+'SE -[hidden]up-> Mibi
+'ICU -[hidden]up-> Mibi
+'PRO -[hidden]left-> KardioScore
+'PRO -[hidden]up-> NYHAKlasse
 @enduml

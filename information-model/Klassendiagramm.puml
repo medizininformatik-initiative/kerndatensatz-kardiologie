@@ -1,0 +1,116 @@
+@startuml
+class Patient {}
+
+package Anamnese {
+  class Symptom {
+    + Code
+    + Beginndatum
+    + Feststellungsdatumdatum
+    + Dokumentationsdatum
+    + Schweregrad
+  }
+
+  class Diagnose {
+    + Code
+    + Beginndatum
+    + Feststellungsdatumdatum
+    + Dokumentationsdatum
+    + Schweregrad
+    + Stadium
+  }
+
+  class "Weitere Risikofaktoren" as Risikofaktoren {
+    + Dokumentationsdatum
+    + Raucherstatus
+    + Familiäre Prädisposition
+  }
+  
+  class Prozedur {
+    + Code
+    + Durchführungsdatum
+    + Dokumentationsdatum
+    + Device
+  }
+  class Medikation {
+    + Code
+    + Dokumentationsdatum
+    + Tagesdosis
+  }
+
+  class "Vitalitätsstatus" as Status {
+    + Dokumentationsdatum
+    + Todesdatum
+    + Todesursache
+  }
+}
+
+package "Berechnete Werte" as BerechneteWerte {
+  class "Kardiovaskulärer Risikoscore" as KRScore {
+    + Code
+    + Dokumentationsdatum
+  }
+  class PROM{
+    + Dokumentationsdatum
+    + Fragen
+    + Antworten
+    + Score
+  }
+}
+
+package Diagnostik {
+  class "EKG-Rohdaten" as EKGRoh {
+    + Kurvendaten
+  }
+  class Messwert {
+    + Code
+    + Zeitpunkt/Periode
+    + Wert
+    + Einheit
+    + Referenzintervall
+  }
+  class Echoparameter {}
+  class Laborwert {}
+  class "EKG-Parameter" as EKGParameter
+}
+
+package Devices {
+  class Device {
+    + Funktionalitäten
+    + Einstellungen
+    + Hersteller
+    + Seriennummer
+  }
+  class "Implantiertes Device" as IDevice {
+  }
+  class Herzschrittmacher {}
+  class "Implantierter Defibrillator" as ICD {}
+  class "Ventrikuläres Unterstützungssystem" as VAD {}
+  class "EKG-Gerät" as EKGGerät {}
+  class "EKG-Kanal" as EKGKanal {}
+}
+' TODO: Devices generischer? Vielleicht kommen später ja noch weitere dazu
+
+Patient <-- Diagnose
+Patient <-- Symptom
+Patient <-- Prozedur
+Patient <-- Medikation
+Patient <-- KRScore
+Patient <-- Status
+Patient <-- PROM
+Patient <-- IDevice
+Patient <-- Messwert
+Patient <-- EKGRoh
+Patient <-- Risikofaktoren
+IDevice <|-- Herzschrittmacher
+IDevice <|-- ICD
+IDevice <|-- VAD
+Prozedur --> Device
+Device <|-- IDevice
+Device <|-- EKGGerät
+EKGGerät *-- EKGKanal
+EKGKanal <-- EKGRoh
+EKGRoh <-- EKGParameter
+Messwert <|-- Echoparameter
+Messwert <|-- Laborwert
+Messwert <|-- EKGParameter
+@enduml

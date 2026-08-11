@@ -4,7 +4,7 @@
 'skinparam dpi 300
 'skinparam ClassFontSize 18
 'skinparam linetype polyline
-'skinparam linetype ortho
+skinparam linetype ortho
 'skinparam classPadding 10
 'skinparam nodesep 25
 'skinparam ranksep 5

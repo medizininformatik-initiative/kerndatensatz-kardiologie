@@ -44,15 +44,43 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
-#
+pages:
+  index.md:
+    title: Home
+  module-description.md:
+    title: Beschreibung des Moduls
+  context.md:
+    title: Kontext und Bezüge zu anderen Modulen
+  scenarios.md:
+    title: Anwendungsszenarien
+  datasets.md:
+    title: Datensätze und Beschreibungen
+  information-model.md:
+    title: Informationsmodell (UML)
+  profiles-overview.md:
+    title: FHIR-Profile (Übersicht)
+  profiles-anamnese.md:
+    title: "Profile: Anamnese"
+  profiles-kardiodevices.md:
+    title: "Profile: KardioDevices"
+  profiles-skalen.md:
+    title: "Profile: Skalen"
+  profiles-risikofaktoren.md:
+    title: "Profile: Weitere Risikofaktoren"
+  profiles-diagnostik.md:
+    title: "Profile: Diagnostik"
+  profiles-ekg.md:
+    title: "Profile: EKG-Metadaten"
+  terminology.md:
+    title: Terminologien
+  capability.md:
+    title: CapabilityStatement
+  use-cases.md:
+    title: Beispielfälle
+  references.md:
+    title: Referenzen
+  release-notes.md:
+    title: Release Notes
 #
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -65,7 +93,7 @@ dependencies:
 #
 parameters:
   pin-canonicals: pin-all
-#   excludettl: true
+  excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
@@ -77,7 +105,28 @@ parameters:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-#  Home: index.html
+  Home: index.html
+  Modul:
+    Beschreibung des Moduls: module-description.html
+    Kontext und Bezüge: context.html
+    Referenzen: references.html
+    Release Notes: release-notes.html
+  Anwendungsfälle:
+    Anwendungsszenarien: scenarios.html
+    Datensätze: datasets.html
+    Informationsmodell (UML): information-model.html
+  Technische Umsetzung:
+    FHIR-Profile: profiles-overview.html
+    Anamnese: profiles-anamnese.html
+    KardioDevices: profiles-kardiodevices.html
+    Skalen: profiles-skalen.html
+    Weitere Risikofaktoren: profiles-risikofaktoren.html
+    Diagnostik: profiles-diagnostik.html
+    EKG-Metadaten: profiles-ekg.html
+    Terminologien: terminology.html
+    CapabilityStatement: capability.html
+  Beispiele und Leitfäden:
+    Beispielfälle: use-cases.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

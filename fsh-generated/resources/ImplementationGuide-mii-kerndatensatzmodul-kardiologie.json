@@ -376,7 +376,7 @@
           "reference": "StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
         },
         "name": "MII PR Kardio Ausschluss Scoreberechnung",
-        "description": "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis.\r\nVorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
+        "description": "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis.\nVorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
         "exampleBoolean": false
       },
       {
@@ -600,7 +600,7 @@
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc"
         },
         "name": "MII VS Kardio Geräteprogrammierung [MDC]",
-        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
+        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
         "exampleBoolean": false
       },
       {
@@ -752,7 +752,98 @@
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
-      "page": []
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "module-description.html",
+          "title": "Beschreibung des Moduls",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "context.html",
+          "title": "Kontext und Bezüge zu anderen Modulen",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "scenarios.html",
+          "title": "Anwendungsszenarien",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "datasets.html",
+          "title": "Datensätze und Beschreibungen",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "information-model.html",
+          "title": "Informationsmodell (UML)",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles-overview.html",
+          "title": "FHIR-Profile (Übersicht)",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles-anamnese.html",
+          "title": "Profile: Anamnese",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles-kardiodevices.html",
+          "title": "Profile: KardioDevices",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles-skalen.html",
+          "title": "Profile: Skalen",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles-risikofaktoren.html",
+          "title": "Profile: Weitere Risikofaktoren",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles-diagnostik.html",
+          "title": "Profile: Diagnostik",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles-ekg.html",
+          "title": "Profile: EKG-Metadaten",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "terminology.html",
+          "title": "Terminologien",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "capability.html",
+          "title": "CapabilityStatement",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "use-cases.html",
+          "title": "Beispielfälle",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "references.html",
+          "title": "Referenzen",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "release-notes.html",
+          "title": "Release Notes",
+          "generation": "markdown"
+        }
+      ]
     },
     "parameter": [
       {
@@ -766,6 +857,10 @@
       {
         "code": "pin-canonicals",
         "value": "pin-all"
+      },
+      {
+        "code": "excludettl",
+        "value": "true"
       }
     ]
   }

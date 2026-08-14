@@ -824,11 +824,6 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "capability.html",
-          "title": "CapabilityStatement",
-          "generation": "markdown"
-        },
-        {
           "nameUrl": "use-cases.html",
           "title": "Beispielfälle",
           "generation": "markdown"

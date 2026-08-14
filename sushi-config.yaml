@@ -73,8 +73,8 @@ pages:
     title: "Profile: EKG-Metadaten"
   terminology.md:
     title: Terminologien
-  capability.md:
-    title: CapabilityStatement
+  #capability.md:
+  #  title: CapabilityStatement
   use-cases.md:
     title: Beispielfälle
   references.md:
@@ -124,7 +124,7 @@ menu:
     Diagnostik: profiles-diagnostik.html
     EKG-Metadaten: profiles-ekg.html
     Terminologien: terminology.html
-    CapabilityStatement: capability.html
+    #CapabilityStatement: capability.html
   Beispiele und Leitfäden:
     Beispielfälle: use-cases.html
   Artifacts: artifacts.html

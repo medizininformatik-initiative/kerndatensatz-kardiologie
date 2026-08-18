@@ -60,7 +60,7 @@
         <a href="profiles-anamnese.html">Anamnese</a>
       </li>
       <li>
-        <a href="profiles-kardiodevices.html">KardioDevices</a>
+        <a href="profiles-diagnostik.html">Diagnostik</a>
       </li>
       <li>
         <a href="profiles-skalen.html">Skalen</a>
@@ -69,13 +69,16 @@
         <a href="profiles-risikofaktoren.html">Weitere Risikofaktoren</a>
       </li>
       <li>
-        <a href="profiles-diagnostik.html">Diagnostik</a>
+        <a href="profiles-kardiodevices.html">KardioDevices</a>
       </li>
       <li>
         <a href="profiles-ekg.html">EKG-Metadaten</a>
       </li>
       <li>
         <a href="terminology.html">Terminologien</a>
+      </li>
+      <li>
+        <a href="capability.html">CapabilityStatement</a>
       </li>
     </ul>
   </li>

@@ -69,6 +69,14 @@
     "resource": [
       {
         "reference": {
+          "reference": "CapabilityStatement/mii-cps-kardio-capabilitystatement"
+        },
+        "name": "MII CPS Kardio CapabilityStatement",
+        "description": "CapabilityStatement des Erweiterungsmoduls Kardiologie der Medizininformatik-Initiative (Umsetzungsstufe 1, alpha). Beschreibt die verpflichtenden Interaktionen, Profile und Suchparameter eines konformen Systems.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"
         },
         "name": "MII CS Kardio Atherosklerotisches Ereignis",
@@ -794,8 +802,8 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "profiles-kardiodevices.html",
-          "title": "Profile: KardioDevices",
+          "nameUrl": "profiles-diagnostik.html",
+          "title": "Profile: Diagnostik",
           "generation": "markdown"
         },
         {
@@ -809,8 +817,8 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "profiles-diagnostik.html",
-          "title": "Profile: Diagnostik",
+          "nameUrl": "profiles-kardiodevices.html",
+          "title": "Profile: KardioDevices",
           "generation": "markdown"
         },
         {
@@ -821,6 +829,11 @@
         {
           "nameUrl": "terminology.html",
           "title": "Terminologien",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "capability.html",
+          "title": "CapabilityStatement",
           "generation": "markdown"
         },
         {

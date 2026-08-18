@@ -61,20 +61,20 @@ pages:
     title: FHIR-Profile (Übersicht)
   profiles-anamnese.md:
     title: "Profile: Anamnese"
-  profiles-kardiodevices.md:
-    title: "Profile: KardioDevices"
+  profiles-diagnostik.md:
+    title: "Profile: Diagnostik"
   profiles-skalen.md:
     title: "Profile: Skalen"
   profiles-risikofaktoren.md:
     title: "Profile: Weitere Risikofaktoren"
-  profiles-diagnostik.md:
-    title: "Profile: Diagnostik"
+  profiles-kardiodevices.md:
+    title: "Profile: KardioDevices"
   profiles-ekg.md:
     title: "Profile: EKG-Metadaten"
   terminology.md:
     title: Terminologien
-  #capability.md:
-  #  title: CapabilityStatement
+  capability.md:
+    title: CapabilityStatement
   use-cases.md:
     title: Beispielfälle
   references.md:
@@ -118,13 +118,13 @@ menu:
   Technische Umsetzung:
     FHIR-Profile: profiles-overview.html
     Anamnese: profiles-anamnese.html
-    KardioDevices: profiles-kardiodevices.html
+    Diagnostik: profiles-diagnostik.html
     Skalen: profiles-skalen.html
     Weitere Risikofaktoren: profiles-risikofaktoren.html
-    Diagnostik: profiles-diagnostik.html
+    KardioDevices: profiles-kardiodevices.html
     EKG-Metadaten: profiles-ekg.html
     Terminologien: terminology.html
-    #CapabilityStatement: capability.html
+    CapabilityStatement: capability.html
   Beispiele und Leitfäden:
     Beispielfälle: use-cases.html
   Artifacts: artifacts.html

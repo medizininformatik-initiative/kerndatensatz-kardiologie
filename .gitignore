@@ -6,6 +6,7 @@ Thumbs.db
 /output
 /temp
 /template
+/translations
 
 /build.bat
 /build.sh

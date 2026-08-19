@@ -30,7 +30,9 @@ dependencies:
   # de.medizininformatikinitiative.kerndatensatz.icu: 2026.0.x 
   de.medizininformatikinitiative.kerndatensatz.base: 2026.0.x
   de.medizininformatikinitiative.kerndatensatz.meta: 2026.0.x
-  de.gematik.isik: 5.1.x
+  de.gematik.isik: 5.1.1 
+  # Analog zu https://github.com/medizininformatik-initiative/kerndatensatzmodul-proms/blob/dev/sushi-config.yaml festgeschriebene Version. 
+  # Fixe Version soll Missing-Snapshot Fehler bei extenem Build durch build.fhir.org vermeiden (Trat bei 5.1.3 auf).
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can

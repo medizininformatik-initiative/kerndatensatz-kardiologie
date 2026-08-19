@@ -1,29 +1,29 @@
-## Referenzen
+# Referenzen
 
-### Offizielle Dokumente
+## Offizielle Quellen
 
-* **Modul im Simplifier:** https://simplifier.net/MII-Erweiterungsmodul-Kardiologie
-* **GitHub Repository:** https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie
+* **Modul im Simplifier:** [https://simplifier.net/MII-Erweiterungsmodul-Kardiologie](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie)
+* **GitHub Repository:** [https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie)
 
-### MII-Module
+## MII-Module
 
-* **Kerndatensatz-Modul base:** https://www.medizininformatik-initiative.de/fhir/core/modul-base
-* **Kerndatensatz-Modul meta:** https://www.medizininformatik-initiative.de/fhir/core/modul-meta
-* **Kerndatensatz-Modul icu:** https://www.medizininformatik-initiative.de/fhir/ext/modul-icu
-* **Kerndatensatz-Modul medikation:** https://www.medizininformatik-initiative.de/fhir/ext/modul-medikation
-* **Kerndatensatz-Modul Diagnose:** https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose
-* **Kerndatensatz-Modul Prozedur:** https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur
+* **Kerndatensatz-Modul base:** [https://www.medizininformatik-initiative.de/fhir/core/modul-base](https://www.medizininformatik-initiative.de/fhir/core/modul-base)
+* **Kerndatensatz-Modul meta:** [](https://www.medizininformatik-initiative.de/fhir/core/modul-meta)
+* **Kerndatensatz-Modul icu:** [](https://www.medizininformatik-initiative.de/fhir/ext/modul-icu)
+* **Kerndatensatz-Modul medikation:** [](https://www.medizininformatik-initiative.de/fhir/ext/modul-medikation)
+* **Kerndatensatz-Modul Diagnose:** [](https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose)
+* **Kerndatensatz-Modul Prozedur:** [](https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur)
 
-### Standards und Codesysteme
+## Standards und Codesysteme
 
-* **FHIR R4 Specification:** https://hl7.org/fhir/R4/
-* **SNOMED CT:** https://www.snomed.org/
-* **LOINC:** https://loinc.org/
-* **ICD-10 GM:** https://www.bfarm.de/DE/Kodierung/ICD-10-GM/_node.html
-* **OPS:** https://www.bfarm.de/DE/Kodierung/OPS/_node.html
-* **HL7 Deutschland e.V.:** https://www.hl7.de/
+* **FHIR R4 Specification:** [https://hl7.org/fhir/R4/](https://hl7.org/fhir/R4/)
+* **SNOMED CT:** [https://www.snomed.org/](https://www.snomed.org/)
+* **LOINC:** [https://loinc.org/](https://loinc.org/)
+* **ICD-10 GM:** [https://www.bfarm.de/DE/Kodierung/ICD-10-GM/_node.html](https://www.bfarm.de/DE/Kodierung/ICD-10-GM/_node.html)
+* **OPS:** [https://www.bfarm.de/DE/Kodierung/OPS/_node.html](https://www.bfarm.de/DE/Kodierung/OPS/_node.html)
+* **HL7 Deutschland e.V.:** [https://www.hl7.de/](https://www.hl7.de/)
 
-### Weitere Ressourcen
+## Weitere Ressourcen
 
 * **AHRQ (Agency for Healthcare Research and Quality):** EKG-Leitfäden, NYHA-Klassifikation
 * **ESC (European Society of Cardiology):** Leitlinien zur Diagnostik und Therapie kardialer Erkrankungen
@@ -50,7 +50,7 @@
 ## Glossar
 
 | Begriff | Definition |
-|---|---|
+| ------- | ---------- |
 | **DIZ (Datenintegrationszentrum)** | Zentrale Einrichtung zur Aufbereitung und Strukturierung von Patientendaten im Kontext der MII |
 | **KDS (Kerndatensatz)** | Standardisierte Sammlung von essentialen Datenelementen zur Forschung und Versorgung |
 | **LVEF (Linksventrikuläre Ejektionsfraktion)** | Maß für die Pumpleistung des linken Ventrikels (normal >55%) |

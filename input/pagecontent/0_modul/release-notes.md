@@ -1,16 +1,18 @@
-## Release Notes
+# Release Notes
 
-### Version 2026.0.0-alpha.3 (aktuell)
+Auf dieser Seite werden die Unterschiede zwischen den Versionen nachgehalten.
 
 Die aktuelle Version des Kardiologie-Moduls ist **2026.0.0-alpha.3**.
 
-#### Features
+## Version 2026.0.0-alpha.3 (aktuell)
+
+### Features
 
 * Profile zur Abbildung von Datenitems im Kontext der ACRIBiS-Studie
 * Questionnaire zur FollowUp-Befragung für die ACRIBiS-Studie
 * Hinweise und Hilfen zur Implementierung im zugehörigen Github-Repo/MII-Zulip-Chat
 
-#### Änderungen und Verbesserungen
+### Änderungen und Verbesserungen
 
 * Hinzugefügt: Questionnaire MII_QN_Kardio_Acribis_Study_FollowUp
 * Hinzugefügt: Beispiele (Examples)
@@ -19,20 +21,20 @@ Die aktuelle Version des Kardiologie-Moduls ist **2026.0.0-alpha.3**.
 * Aktualisiert/Fix: MS-Tag und Beschreibungen in MII_PR_Kardio_Device + MII_PR_Kardio_Kardiale_Deviceimplantation + zugehörigen ValueSets
 * Aktualisiert: Abhängigkeiten (Dependencies)
 
-#### Status
+### Status
 
 * **Release-Label:** ci-build (continuous integration build)
 * **Reifegrad:** Draft / Experimental (nicht ballotiert)
 
 ---
 
-### Version 2026.0.0-alpha.2
+## Version 2026.0.0-alpha.2
 
 (Vorgängerversion — siehe Simplifier für Details)
 
 ---
 
-### Version 2026.0.0-alpha.1
+## Version 2026.0.0-alpha.1
 
 (Initialer Release — siehe Simplifier für Details)
 
@@ -40,9 +42,8 @@ Die aktuelle Version des Kardiologie-Moduls ist **2026.0.0-alpha.3**.
 
 ## Release-Zyklus
 
-* **Vorschauversionen (alpha.1, alpha.2, ...):** Entwicklungsstand, aktive Diskussion und Iteration, keine ballotierten Inhalte
-* **Beta-Versionen (beta.1, beta.2, ...):** Weiterentwicklung, mehr Stabilität, aber noch Änderungen möglich
-* **Stabile Versionen (1.0.0, 1.0.1, ...):** ballotiert und verbindlich, nur Bugfixes
+* **Vorschauversionen (2026.0.0-alpha.1, 2026.0.0-alpha.2, ...):** Entwicklungsstand, aktive Diskussion und Iteration, keine ballotierten Inhalte
+* **Stabile Versionen (2026.0.0, 2026.0.1, ...):** ballotiert und verbindlich, nur Bugfixes
 
-Die Veröffentlichung erfolgt über den Simplifier-Packages-Bereich:
-https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~packages
+Die Veröffentlichung erfolgt aktuell über den Simplifier-Release-Bereich:
+https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~releases

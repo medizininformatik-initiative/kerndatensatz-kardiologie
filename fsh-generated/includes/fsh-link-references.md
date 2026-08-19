@@ -1,6 +1,5 @@
 [mii-cps-kardio-capabilitystatement]: CapabilityStatement-mii-cps-kardio-capabilitystatement.html
 [MII_CS_Kardio_Atherosklerotisches_Ereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.html
-[MII_CS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: CodeSystem-mii-cs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
 [MII_CS_Kardio_Supplement_SNOMEDCT]: CodeSystem-mii-cs-kardio-supplement-snomedct.html
 [mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf]: Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.html
@@ -31,13 +30,11 @@
 [MII-EXA-Kardio-QuestionnaireResponse-Arzt]: QuestionnaireResponse-MII-EXA-Kardio-QuestionnaireResponse-Arzt.html
 [MII-EXA-Kardio-QuestionnaireResponse-Patient]: QuestionnaireResponse-MII-EXA-Kardio-QuestionnaireResponse-Patient.html
 [mii-exa-kardio-raucherstatus]: Observation-mii-exa-kardio-raucherstatus.html
-[mii-exa-kardio-raucherstatus-acribisalpha]: Observation-mii-exa-kardio-raucherstatus-acribisalpha.html
 [mii-exa-kardio-rolle-kardiologe]: PractitionerRole-mii-exa-kardio-rolle-kardiologe.html
 [mii-exa-kardio-score-nyha-ii]: Observation-mii-exa-kardio-score-nyha-ii.html
 [mii-exa-kardio-diagnose-myokardinfarkt]: Condition-mii-exa-kardio-diagnose-myokardinfarkt.html
 [MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF]: StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.html
 [MII_PR_Kardio_Atherosklerotisches_Erstereignis]: StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html
-[MII_PR_Kardio_Ausschluss_Scoreberechnung]: StructureDefinition-mii-pr-kardio-ausschluss-scoreberechnung.html
 [MII_PR_Kardio_Device]: StructureDefinition-mii-pr-kardio-device.html
 [MII_PR_Kardio_Diagnose]: StructureDefinition-mii-pr-kardio-diagnose.html
 [MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt]: StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html
@@ -53,13 +50,11 @@
 [MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion]: StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.html
 [MII_PR_Kardio_NBG_Schrittmachermodus]: StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.html
 [MII_PR_Kardio_Observation_Rauchen]: StructureDefinition-mii-pr-kardio-observation-rauchen.html
-[MII_PR_Kardio_Observation_Rauchen_AcribisAlpha]: StructureDefinition-mii-pr-kardio-observation-rauchen-acribisalpha.html
 [MII_PR_Kardio_Score_Modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
 [MII-QN-Kardio-Acribis-Study-FollowUp]: Questionnaire-MII-QN-Kardio-Acribis-Study-FollowUp.html
 [MII_VS_Kardio_Allergene_SNOMEDCT]: ValueSet-mii-vs-kardio-allergene-snomedct.html
 [MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT]: ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html
-[MII_VS_Kardio_Ausschlusskriterium_ACRIBiS_Scores]: ValueSet-mii-vs-kardio-ausschlusskriterium-acribis-scores.html
 [MII_VS_Kardio_EKG_Kanaele_MDC]: ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html
 [MII_VS_Kardio_EKG_Prozedur_SNOMEDCT]: ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.html
 [MII_VS_Kardio_Ethnie_SNOMEDCT]: ValueSet-mii-vs-kardio-ethnie-snomedct.html
@@ -81,6 +76,5 @@
 [MII_VS_Kardio_Modifizierte_Rankin_Skala]: ValueSet-mii-vs-kardio-modifizierte-rankin-skala.html
 [MII_VS_Kardio_Nein_Unbekannt]: ValueSet-mii-vs-kardio-nein-unbekannt.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMEDCT]: ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html
-[MII_VS_Kardio_Rauchen_AcribisAlpha]: ValueSet-mii-vs-kardio-rauchen-acribisalpha.html
 [MII_CS_Kardio_Follow_Up]: CodeSystem-mii-cs-kardio-follow-up.html
 [MII_CS_Kardio_Modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html

@@ -60,7 +60,7 @@
     },
     {
       "packageId": "de.gematik.isik",
-      "version": "5.1.x",
+      "version": "5.1.3",
       "uri": "http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik",
       "id": "de_gematik_isik"
     }
@@ -81,14 +81,6 @@
         },
         "name": "MII CS Kardio Atherosklerotisches Ereignis",
         "description": "Code für ein unbestimmtes atherosklerotisches Ereignis",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-ausschlusskriterium-acribis-scores"
-        },
-        "name": "MII CS Kardio Ausschlusskriterium ACRIBiS Scores",
-        "description": "Ausschlusskriterien für ACRIBiS Scores",
         "exampleBoolean": false
       },
       {
@@ -333,14 +325,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/mii-exa-kardio-raucherstatus-acribisalpha"
-        },
-        "name": "MII EXA Kardio Raucherstatus ACRIBiS Alpha",
-        "description": "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen im Kontext von ACRIBiS.",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
-      },
-      {
-        "reference": {
           "reference": "PractitionerRole/mii-exa-kardio-rolle-kardiologe"
         },
         "name": "MII EXA Kardio Rolle Kardiologe",
@@ -377,14 +361,6 @@
         },
         "name": "MII PR Kardio Atherosklerotisches Erstereignis",
         "description": "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-ausschluss-scoreberechnung"
-        },
-        "name": "MII PR Kardio Ausschluss Scoreberechnung",
-        "description": "Profil zur Angabe bestimmter Ausschlusskriterien für die Berechnung eines kardiologischen Scores im Kontext des Projekts Acribis.\r\nVorliegender Wert beschreibt ein Kriterium, das - bei Vorliegen - das referenzierte Subject von der Berechnung für Scores ausschließen kann.",
         "exampleBoolean": false
       },
       {
@@ -509,14 +485,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-kardio-observation-rauchen-acribisalpha"
-        },
-        "name": "MII PR Kardio Observation Rauchen AcribisAlpha",
-        "description": "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Projekts ACRIBiS.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"
         },
         "name": "MII PR Kardio Score Modifizierte Rankin Skala",
@@ -553,14 +521,6 @@
         },
         "name": "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
         "description": "ValueSet for Relevant Codes for Atherosclerotic Events",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-ausschlusskriterium-acribis-scores"
-        },
-        "name": "MII VS Kardio Ausschlusskriterium ACRIBiS Scores",
-        "description": "ValueSet for exclusion criteria for score computation",
         "exampleBoolean": false
       },
       {
@@ -729,14 +689,6 @@
         },
         "name": "MII VS Kardio NYHA Klassen [SNOMED CT]",
         "description": "Klassen der New York Heart Association Classification",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-kardio-rauchen-acribisalpha"
-        },
-        "name": "MII VS Kardio Rauchen AcribisAlpha",
-        "description": "Kombiniertes ValueSet mit Codes zur Abbildung des Rauchverhaltens im Kontext von Acribis",
         "exampleBoolean": false
       },
       {

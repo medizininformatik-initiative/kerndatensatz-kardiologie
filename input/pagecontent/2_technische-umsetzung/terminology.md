@@ -1,11 +1,11 @@
-## Terminologien
+# Terminologien
 
 Das Kardiologie-Modul verwendet eine Vielzahl von Codesystemen und ValueSets zur standardisierten Kodierung von kardiovaskulären Daten.
 
-### CodeSysteme
+## CodeSysteme
 
 | CodeSystem | URL | Version | Verwendung |
-|---|---|---|---|
+|------------|-----|---------|------------|
 | SNOMED CT | http://snomed.info/sct | 2025-07-01 | Diagnosen, Prozeduren, Body Structures |
 | LOINC | http://loinc.org | 2.82 | Observationen (EKG, LVEF, etc.) |
 | ICD-10 GM | http://fhir.de/CodeSystem/bfarm/icd-10-gm | 2025 | Diagnosen (Kardiale Erkrankungen) |
@@ -15,10 +15,27 @@ Das Kardiologie-Modul verwendet eine Vielzahl von Codesystemen und ValueSets zur
 | UCUM | http://unitsofmeasure.org | 2024.7.1 | Einheiten (mg/dL, mmHg, etc.) |
 | M49 | http://unstats.un.org/unsd/methods/m49/m49.htm | — | Geografische Regionen |
 
-### ValueSets
+### CS-/VS-Name mit Verlinkung TODO
+
+#### Metadaten
+
+|                  |        |
+| ---------------- |--------|
+| **Beschreibung** | ...    |
+| **CanonicalURL** | ...    |
+| **Status**       | active |
+| **Version**      | x.x.x  |
+| **Herausgeber**  |        |
+
+#### Inhalt TODO
+
+> Darstellung XML JSON Link
+
+
+## ValueSets
 
 | ValueSet | Id | Verwendung |
-|---|---|---|
+|----------|----|------------|
 | MII_VS_Kardio_Allergene_SNOMEDCT | Allergene | Allergene (SNOMED) |
 | MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT | Atherosklerotische Ereignisse | Myokardinfarkt, Schlaganfall, etc. |
 | MII_VS_Kardio_EKG_Kanaele_MDC | EKG-Kanäle | I, II, III, V1-V6, aVR, aVL, aVF |
@@ -43,18 +60,14 @@ Das Kardiologie-Modul verwendet eine Vielzahl von Codesystemen und ValueSets zur
 | MII_VS_Kardio_Nein_Unbekannt | Nein/Unbekannt | Ausschluss oder Unbekanntheit |
 | MII_VS_Kardio_Objekte_Geraete_MDC | Geräte-Objekte | EKG-Geräte, Devices |
 
-### Verwendete externe Codesysteme
+## Verwendete externe Codesysteme
 
 | Codesystem | URL | Verwendung |
 |---|---|---|
-| ISiK (gematik) | gematik-ISiK-Kodierungen | ISiK-spezifische Codierungen (optional, bei Bedarf) |
-| V2-0203 | http://terminology.hl7.org/CodeSystem/v2-0203 |contact-role (z.B. Arzt, Familienangehöriger) |
+| ISiK (gematik) | gematik-ISiK-Kodierungen | ISiK-spezifische Codierungen |
+| V2-0203 | http://terminology.hl7.org/CodeSystem/v2-0203 | contact-role (z.B. Arzt, Familienangehöriger) |
 | V2-0532 | http://terminology.hl7.org/CodeSystem/v2-0532 | Yes/No/Unknown (Raucherstatus) |
 | Condition-Clinical | http://terminology.hl7.org/CodeSystem/condition-clinical | Diagnosestatus (Active, Inactive, etc.) |
 | Condition-Ver-Status | http://terminology.hl7.org/CodeSystem/condition-ver-status | Verifikationsstatus |
 | Condition-Category | http://terminology.hl7.org/CodeSystem/condition-category | Kategorie (Problems, Diagnose, etc.) |
 | Observation-Category | http://terminology.hl7.org/CodeSystem/observation-category | Kategorie (vital-signs, procedure, etc.) |
-
----
-
-Weitere Details zu den ValueSets finden sich in `input/fsh/valuesets/` und die CodeSystems in `input/fsh/codesystems/`.

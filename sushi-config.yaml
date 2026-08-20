@@ -49,6 +49,8 @@ dependencies:
 pages:
   index.md:
     title: Home
+  release-notes.md:
+    title: Release Notes
   module-description.md:
     title: Beschreibung des Moduls
   context.md:
@@ -68,7 +70,7 @@ pages:
   profiles-skalen.md:
     title: "Profile: Skalen"
   profiles-risikofaktoren.md:
-    title: "Profile: Weitere Risikofaktoren"
+    title: "Profile: Risikofaktoren"
   profiles-kardiodevices.md:
     title: "Profile: KardioDevices"
   profiles-ekg.md:
@@ -77,12 +79,9 @@ pages:
     title: Terminologien
   capability.md:
     title: CapabilityStatement
-  use-cases.md:
-    title: Beispielfälle
   references.md:
     title: Referenzen
-  release-notes.md:
-    title: Release Notes
+
 #
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -122,14 +121,12 @@ menu:
     Anamnese: profiles-anamnese.html
     Diagnostik: profiles-diagnostik.html
     Skalen: profiles-skalen.html
-    Weitere Risikofaktoren: profiles-risikofaktoren.html
+    Risikofaktoren: profiles-risikofaktoren.html
     KardioDevices: profiles-kardiodevices.html
     EKG-Metadaten: profiles-ekg.html
-    Terminologien: terminology.html
-    CapabilityStatement: capability.html
-  Beispiele und Leitfäden:
-    Beispielfälle: use-cases.html
   Artifacts: artifacts.html
+    #Terminologien: terminology.html
+    #CapabilityStatement: capability.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

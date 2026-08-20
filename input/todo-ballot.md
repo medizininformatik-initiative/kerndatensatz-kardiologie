@@ -34,21 +34,20 @@ Technische Umsetzung:
 
     Skalen: profiles-skalen.html                                > -     | TODO
 
-    Weitere Risikofaktoren: profiles-risikofaktoren.html        > -     | TODO
+    Risikofaktoren: profiles-risikofaktoren.html                > -     | TODO
 
     KardioDevices: profiles-kardiodevices.html                  > -     | TODO
 
     EKG-Metadaten: profiles-ekg.html                            > -     | TODO
 
-    Terminologien: terminology.html                             > -     | TODO
+    Terminologien: terminology.html                             > -     | TODO; Terminologieübersicht ala https://simplifier.net/guide/isik-vitalparameter-stufe-5/Einfuehrung/Artefakte/Terminologien?version=5.1.2 --> sinnvolle Umsetzung ohne Simplifier Methoden?
 
-    CapabilityStatement: capability.html                        > -     | TODO
+    CapabilityStatement: capability.html                        > -     | TODO; Verpflichtende Capabilites basieren auf Abstimmung mit FDPG, korrekt?
 
-Beispiele und Leitfäden:
-
-    Beispielfälle: use-cases.html                               > +     | Verweist auf verschiedene Example-Ressourcen; Bisher wenig Mehrwert
-
-Artifacts: artifacts.html                                       > ++    | Automatische Generierung?
+Artifacts: artifacts.html                                       > ++    | Automatische Generierung? --> Übersicht alle Profile + mehr
+    --> Profile?
+    --> Terminologien?
+    --> CapabilityStatement(s)?
 
 ## Umsetzung des IG orientiert an PRO (non-Simplifier-IG):
 

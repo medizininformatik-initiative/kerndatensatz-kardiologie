@@ -4,7 +4,7 @@
 
 Das Basismodul Kardiologie umfasst die Beschreibung der Standardisierung und Strukturierung der medizinischen Datenerfassung zu kardiovaskulären Erkrankungen. Schwerpunkt sind qualitative, bzw. objektivierbare Parameter aus der Anamnese, die als weichenstellendes Element der Arzt-Patienten-Interaktion dienen und auf deren Grundlage wesentliche diagnostische und therapeutische Entscheidungen getroffen werden.
 
-Das langfristige übergeordnete Ziel des kardiologischen Kerndatensatzes ist es, eine aus klinischer Perspektive zielgerichtete und scharfe Charakterisierung des individuellen kardiologischen Patienten in standardisierter Form abzubilden, die so einen Datenaustausch zwischen verschiedenen Kliniken und später auch Hausarztpraxen ermöglicht.
+Das langfristige übergeordnete Ziel des kardiologischen Kerndatensatzes ist es, eine aus klinischer Perspektive zielgerichtete und scharfe Charakterisierung des individuellen kardiologischen Patienten in standardisierter Form abzubilden, die so eine Forschungsnutzung von Daten aus verschiedenen Kliniken oder auch Hausarztpraxen ermöglicht.
 
 ---
 
@@ -20,6 +20,22 @@ Das Modul wird iterativ in drei Umsetzungsstufen entwickelt:
 
 ---
 
+### Umfang der Spezifikation
+
+Das Modul adressiert:
+
+* **Anamnese und klinische Parameter:** Erfassung von Krankengeschichte inkl. Vorerkrankungen und Nicht-Vorliegen (Allergie, Symptom, Klappenvitium, Krankenhausaufenthalte, etc.)
+* **Diagnostik:** Objektive kardiale Befunde (Myokardinfarkt, Embolien, Atherosklerotische Ereignisse, Echoparameter, etc.)
+* **Skalen:** Strukturierte Bewertung und Einschätzung funktionaler Kapazitäten (NYHA-Score, modifizierte Rankin-Skala, CCS-Grad, Fontaine-Stadium, etc.)
+* **Risikofaktoren:** Risikogruppenparameter (Rauchverhalten, familiäre Disposition, Alkoholkonsum, etc.)
+* **Kardiologische Geräte** Implantierbare Geräte zur Therapie und Überwachung (Schrittmacher, ICD, LVAD/BiVAD, etc.)
+* **Prozeduren:** Behandlungen mit therapeutischem oder diagnostischem Ziel (Device-Implantationen, PCI, etc.)
+* **EKG-Metadaten:** Durchführung und -Annotation (Messung, Kanäle, Rasterung, Rohdatenreferenz)
+
+Im Kontext der Anamnese wird das anamnestische Nicht-Vorliegen von Erkrankungen abgebildet.
+
+---
+
 ## Status des Moduls
 
 Das Kardiologie-Modul befindet sich aktuell in **Umsetzungsstufe 1 (Prototypisch)**.
@@ -31,39 +47,3 @@ Das Kardiologie-Modul befindet sich aktuell in **Umsetzungsstufe 1 (Prototypisch
 > Alle veröffentlichten FHIR-Artefakte innerhalb des Projektes verfügen über einen Status durch welchen der jeweilige Reifegrad abgeleitet werden kann.
 > Profile mit dem Status 'Draft' wurden noch nicht ballotiert und können noch diversen und substantiellen Änderungen unterliegen.
 > Verpflichtende und ballotierte Ergebnisse werden zukünftig unter dem Tab 'Packages' zu finden sein.
-
----
-
-## Kurzzusammenfassung
-
-Das Kardiologie-Modul ist Teil des Kerndatensatzes (KDS) der Medizininformatik Initiative (MII) und beschreibt die FHIR-Repräsentation für die Kardiologie relevanter Erkrankungen sowie Parametern. Es adressiert:
-
-* Anamnese und klinische Parameter (Rauchverhalten, NYHA-Score, modifizierte Rankin-Skala)
-* Diagnosen (Myokardinfarkt, Embolien, Atherosklerotische Ereignisse)
-* Prozeduren (Device-Implantationen, PCI)
-* EKG-Durchführung und -Annotation (Kanäle, Rasterung, Referenz)
-* Geräte (Schrittmacher, ICD, LVAD/BiVAD)
-* LVEF und Klappenvitium
-
-Die Spezifikation dient als zentrale und verbindliche Grundlage für die syntaktische und semantische Kodierung der Kardiologie-Daten in den DIZ.
-
----
-
-## Bezüge zu anderen Modulen
-
-Das Kardiologie-Modul baut auf folgenden MII-KDS-Modulen auf:
-
-* **base:** Basistruktur (Patient, Practitioner, Organization), zentrale Valuesets
-* **meta:** Meta-Informationen (Lizenz, Versionierung, Publisher)
-* **icu:** Eventuell wiederverwendete Profile (Blutdruck, etc.)
-* **medikation:** Pharmakotherapie (bzw. zukünftig: Diagnose, Prozedur)
-* **isik:** ISiKSpezifische Codierungen bei Bedarf
-
-Weiterhin relevant für komplementäre Daten sind:
-
-* **Diagnose:** ICD-Kodierung, snomed-ct Diagnosen (überschneidend mit Kardiologie-Diagnosen)
-* **Prozedur:** OPS-Codierung, Verfahrensbeschreibungen (überschneidend mit Device-Implantationen)
-* **Labor:** Laborparameter (z.B. Troponin, BNP/NT-proBNP bei Heart Failure)
-* **Molekulargenetisch:** Genetische Varianten (bei familiärer Belastung / Marfan / LQTS etc.)
-
-Das Modul versteht sich als themenspezifische Ergänzung, die bereits modellierte Datenelemente wiederverwendet, anstatt sie zu duplizieren.

@@ -1,6 +1,8 @@
 # TODO - Ballot
 
 ## Menue
+                                                                        | TODO: Im abgleich mit IG-Publish-Version von PROMs, 
+                                                                        |       den MII-Anteil und MII-Bezug runterschrauben.
 
 Home: index.html                                                > ++    | Initiale Version steht
 

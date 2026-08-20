@@ -66,29 +66,13 @@
         <a href="profiles-skalen.html">Skalen</a>
       </li>
       <li>
-        <a href="profiles-risikofaktoren.html">Weitere Risikofaktoren</a>
+        <a href="profiles-risikofaktoren.html">Risikofaktoren</a>
       </li>
       <li>
         <a href="profiles-kardiodevices.html">KardioDevices</a>
       </li>
       <li>
         <a href="profiles-ekg.html">EKG-Metadaten</a>
-      </li>
-      <li>
-        <a href="terminology.html">Terminologien</a>
-      </li>
-      <li>
-        <a href="capability.html">CapabilityStatement</a>
-      </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Beispiele und Leitfäden
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="use-cases.html">Beispielfälle</a>
       </li>
     </ul>
   </li>

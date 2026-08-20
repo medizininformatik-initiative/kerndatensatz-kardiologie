@@ -49,8 +49,17 @@ Artifacts: artifacts.html                                       > ++    | Automa
     --> Terminologien?
     --> CapabilityStatement(s)?
 
-## Umsetzung des IG orientiert an PRO (non-Simplifier-IG):
+## Umsetzung des IG Kardio orientiert an PRO (non-Simplifier-IG)
+
+## Materialien PROMS
 
 - Remder-Ansicht (build.fhir.org): https://build.fhir.org/ig/medizininformatik-initiative/kerndatensatzmodul-proms/branches/v2026.4.0/de/
-
 - Github-Pagecontent: https://github.com/medizininformatik-initiative/kerndatensatzmodul-proms/tree/dev/input/pagecontent
+
+## Hilfe HL7
+
+- IG Guidance (inkl. Liquid/Jekyll-Shortcuts): https://build.fhir.org/ig/FHIR/ig-guidance/sql.html or https://build.fhir.org/ig/FHIR/ig-guidance/jsonxml.html
+
+## Hilfen MII
+
+- Vereinheitlichter MII-Build wird anscheinend hier vorbereitet: https://github.com/forschungsgruppe-digital-health/mii-kds-studie-ig-inoffiziell

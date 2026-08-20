@@ -1,8 +1,8 @@
-## FHIR-Profile (Übersicht)
+# FHIR-Profile (Übersicht)
 
 Übersicht über die 19 Profile des Kardiologie-Moduls, gruppiert nach den **sieben offiziellen Datenkategorien der IOP-PDF** (Umsetzungsstufe 1, ACRIBiS-Fokus). Klicken Sie auf eine Kategorie für die detaillierte narrative Beschreibung jedes Profils.
 
-### Kategorien
+## Kategorien
 
 | Kategorie (IOP-PDF) | Anzahl Profile | Profile |
 |---|---|---|
@@ -13,9 +13,28 @@
 | [Diagnostik](profiles-diagnostik.html) | 1 | LVEF (Linksventrikuläre Ejektionsfraktion) |
 | [EKG-Metadaten](profiles-ekg.html) | 6 | EKG-Durchführung, EKG-Kanal, EKG-Referenz, EKG-Gerät, EKG-Gerätedefinition, EKG-Annotation |
 
-> **Allgemeine Patientendaten** haben keine eigenen Profile (werden über Basis-/Soziodemographie-Module abgedeckt).
+> **Allgemeine Patientendaten** haben keine Profile im Modul Kardiologie (werden über Basis-/Soziodemographie-Module abgedeckt).
 
-### Direktliste der Profile
+## Profilliste via Liquid-Syntax / jekyll-Shortcodes
+
+{% include list-simple-profiles.xhtml %}
+
+{% include StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation-html-en.xhtml %}
+
+{% json fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen.json %}
+
+{% include StructureDefinition-mii-pr-kardio-observation-rauchen-json-html-en.xhtml %}
+
+{% sql {
+  "query" : "select name as Name, Description, Web from Resources",
+  "class" : "lines",
+  "columns" : [
+    { "name" : "Name", "type" : "link", "source" : "Name", "target" : "Web"},
+    { "name" : "Description", "type" : "markdown", "source" : "Description"}
+  ]
+} %}
+
+## Direktliste der Profile (manuell gepflegt)
 
 | Profil | Resource | Kategorie | Kurzbeschreibung |
 |---|---|---|---|

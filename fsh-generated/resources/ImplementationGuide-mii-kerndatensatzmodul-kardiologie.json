@@ -568,7 +568,7 @@
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc"
         },
         "name": "MII VS Kardio Geräteprogrammierung [MDC]",
-        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
+        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
         "exampleBoolean": false
       },
       {
@@ -719,6 +719,11 @@
           "generation": "markdown"
         },
         {
+          "nameUrl": "release-notes.html",
+          "title": "Release Notes",
+          "generation": "markdown"
+        },
+        {
           "nameUrl": "module-description.html",
           "title": "Beschreibung des Moduls",
           "generation": "markdown"
@@ -765,7 +770,7 @@
         },
         {
           "nameUrl": "profiles-risikofaktoren.html",
-          "title": "Profile: Weitere Risikofaktoren",
+          "title": "Profile: Risikofaktoren",
           "generation": "markdown"
         },
         {
@@ -789,18 +794,8 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "use-cases.html",
-          "title": "Beispielfälle",
-          "generation": "markdown"
-        },
-        {
           "nameUrl": "references.html",
           "title": "Referenzen",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "release-notes.html",
-          "title": "Release Notes",
           "generation": "markdown"
         }
       ]

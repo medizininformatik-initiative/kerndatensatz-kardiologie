@@ -4,7 +4,22 @@ Auf dieser Seite werden die Unterschiede zwischen den Versionen nachgehalten.
 
 Die aktuelle Version des Kardiologie-Moduls ist **2026.0.0-alpha.3**.
 
-## Version 2026.0.0-alpha.3 (aktuell)
+## Version 2026.0.0 (Ballot-Version)
+
+Diese Version ist die Veröffentlichung des MII Moduls Kardiologie für das erste Ballot-Verfahren.
+
+> Work in Progress / TODO
+
+### Änderungen seit 2026.0.0-alpha.3
+- `fix` Slicing-Fehler in MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt behoben
+- `fix` Behebung verschiedener Validation-Fehler
+- `chore` Nicht verwendete Dependency auf `Modul ICU` entfernt
+- `docs` UML-Diagram hinzugefügt
+- `docs` Erstellung eines Implementation Guides für das Modul Kardiologie
+
+## Version 2026.0.0-alpha.3 (aktuell - 12.06.26 14:55)
+
+Diese Version ist die Veröffentlichung des MII Moduls Kardiologie vor dem ersten Ballot-Verfahren.
 
 ### Features
 
@@ -14,17 +29,12 @@ Die aktuelle Version des Kardiologie-Moduls ist **2026.0.0-alpha.3**.
 
 ### Änderungen und Verbesserungen
 
-* Hinzugefügt: Questionnaire MII_QN_Kardio_Acribis_Study_FollowUp
-* Hinzugefügt: Beispiele (Examples)
-* Aktualisiert: MS-Tags in LVEF-Profilen
-* Aktualisiert/Fix: Code in MII_PR_Kardio_AnzahlKH_Aufenthalte_wg_HF
-* Aktualisiert/Fix: MS-Tag und Beschreibungen in MII_PR_Kardio_Device + MII_PR_Kardio_Kardiale_Deviceimplantation + zugehörigen ValueSets
-* Aktualisiert: Abhängigkeiten (Dependencies)
-
-### Status
-
-* **Release-Label:** ci-build (continuous integration build)
-* **Reifegrad:** Draft / Experimental (nicht ballotiert)
+* `feat`: Questionnaire MII_QN_Kardio_Acribis_Study_FollowUp
+* `feat`: Beispiele (Examples)
+* `feat`: MS-Tags in LVEF-Profilen
+* `fix`: Code in MII_PR_Kardio_AnzahlKH_Aufenthalte_wg_HF
+* `fix`: MS-Tag und Beschreibungen in MII_PR_Kardio_Device + MII_PR_Kardio_Kardiale_Deviceimplantation + zugehörigen ValueSets
+* `chore`: Abhängigkeiten (Dependencies)
 
 ---
 

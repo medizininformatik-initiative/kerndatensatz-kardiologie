@@ -1,5 +1,3 @@
-# FHIR-Profile (Übersicht)
-
 Übersicht über die 19 Profile des Kardiologie-Moduls, gruppiert nach den **sieben offiziellen Datenkategorien der IOP-PDF** (Umsetzungsstufe 1, ACRIBiS-Fokus). Klicken Sie auf eine Kategorie für die detaillierte narrative Beschreibung jedes Profils.
 
 ## Kategorien
@@ -21,18 +19,8 @@
 
 {% include StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation-html-en.xhtml %}
 
-{% json fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen.json %}
+{% include StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation-html.xhtml %}
 
-{% include StructureDefinition-mii-pr-kardio-observation-rauchen-json-html-en.xhtml %}
-
-{% sql {
-  "query" : "select name as Name, Description, Web from Resources",
-  "class" : "lines",
-  "columns" : [
-    { "name" : "Name", "type" : "link", "source" : "Name", "target" : "Web"},
-    { "name" : "Description", "type" : "markdown", "source" : "Description"}
-  ]
-} %}
 
 ## Direktliste der Profile (manuell gepflegt)
 

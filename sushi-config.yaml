@@ -19,7 +19,7 @@ publisher:
   name: Medizininformatik-Initiative
   url: https://www.medizininformatik-initiative.de
   email: office@medizininformatik-initiative.de
-language: de-DE
+language: de
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced

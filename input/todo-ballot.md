@@ -1,8 +1,29 @@
 # TODO - Ballot
 
+## TODO
+
+### Missing Snapshot Error bei ISiK-Dependency/Parent
+
+- [ISiK Lebenszustand](https://simplifier.net/isik-stufe-5/ISiKLebensZustand/~json) Snapshot Error lösen --> [Nachfrage in german/isik in chat.fhir.org](https://chat.fhir.org/#narrow/channel/287581-german.2Fisik/topic/Fehlende.20Snapshots.20bei.20ISiK.20Profilen.3F.20.28FSH.2C.20SUSHI.29/with/617852402)
+  - Profil nachbauen und ISiK nicht als Dependency angeben?
+  - Auf Fix durch gematik warten oder hl7 fhir / build.fhir.org/ig-Verantwortliche anschreiben, ob die im Build-Prozess einrichten, dass packages zu inflaten?
+
+### Jekyll-Build Prozess, für kürzere Build/Test Zyklen (Jekyll-Build: 1 Minute; IG-Publisher-Build: 36 Minutes)
+> Liquid Doku: https://build.fhir.org/ig/FHIR/ig-guidance/sql.html
+
+- Initial IG Builder per `sh _genonce.sh` laufen lassen
+- Jekyll isoliert auf Basis von Änderungen an Temp-Dateien ausführen:
+  - Temp-Source-Files in `kerndatensatz-kardiologie/temp/pages/_includes`
+  - Go to git-repo `cd kerndatensatz-kardiologie`
+  - Build per `jekyll build --source temp/pages/ --destination temp/ig-test --incremental`
+  - Output to `temp/ig-test`
+- Bei Erfolg die Änderungen in `input/pagecontent/xyz.md` übernehmen
+
+### Set IG to german? IG-Builder produces en xhtml pages..
+- angepasst in sushi-config + ig.ini
+- Erfolg?
+
 ## Menue
-                                                                        | TODO: Im abgleich mit IG-Publish-Version von PROMs, 
-                                                                        |       den MII-Anteil und MII-Bezug runterschrauben.
 
 Home: index.html                                                > ++    | Initiale Version steht
 

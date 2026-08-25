@@ -77,8 +77,8 @@ pages:
     title: "Profile: EKG-Metadaten"
   terminology.md:
     title: Terminologien
-  capability.md:
-    title: CapabilityStatement
+  #capability.md:
+    #title: CapabilityStatement
   references.md:
     title: Referenzen
 

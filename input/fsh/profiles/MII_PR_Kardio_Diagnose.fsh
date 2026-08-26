@@ -1,6 +1,6 @@
 Profile: MII_PR_Kardio_Diagnose
 Id: mii-pr-kardio-diagnose
-Parent: MII_PR_Diagnose_Condition
+Parent: https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose
 Title: "MII PR Kardio Diagnose"
 Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis."
 

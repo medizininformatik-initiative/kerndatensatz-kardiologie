@@ -1,6 +1,6 @@
 Profile: MII_PR_Kardio_EKG_Durchfuehrung
 Id: mii-pr-kardio-ekg-durchfuehrung
-Parent: MII_PR_Prozedur_Procedure
+Parent: https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure
 Title: "MII PR Kardio EKG Durchführung"
 Description: "Profil zur Erfassung der Durchführung eines EKG."
 

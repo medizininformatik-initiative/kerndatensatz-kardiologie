@@ -76,5 +76,6 @@
 [MII_VS_Kardio_Modifizierte_Rankin_Skala]: ValueSet-mii-vs-kardio-modifizierte-rankin-skala.html
 [MII_VS_Kardio_Nein_Unbekannt]: ValueSet-mii-vs-kardio-nein-unbekannt.html
 [MII_VS_Kardio_NYHA_Klassen_SNOMEDCT]: ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html
+[mii-param-kardio-manifest]: Parameters-mii-param-kardio-manifest.html
 [MII_CS_Kardio_Follow_Up]: CodeSystem-mii-cs-kardio-follow-up.html
 [MII_CS_Kardio_Modifizierte_Rankin_Skala]: CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html

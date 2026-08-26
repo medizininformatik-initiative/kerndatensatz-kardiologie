@@ -1,6 +1,6 @@
 Profile: MII_PR_Kardio_Kardiale_Deviceimplantation
 Id: mii-pr-kardio-kardiale-deviceimplantation
-Parent: mii-pr-prozedur-procedure
+Parent: https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure
 Title: "MII PR Kardio Kardiale Deviceimplantation"
 Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers, Kardioverter-Defibrillators oder ventrikulären Unterstützungssystems."
 

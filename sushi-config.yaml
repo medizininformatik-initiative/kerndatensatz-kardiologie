@@ -26,11 +26,11 @@ language: de
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  de.basisprofil.r4: 1.5.4
+  de.basisprofil.r4: 1.6.0
   # de.medizininformatikinitiative.kerndatensatz.icu: 2026.0.x 
   de.medizininformatikinitiative.kerndatensatz.base: 2026.0.x
   de.medizininformatikinitiative.kerndatensatz.meta: 2026.0.x
-  de.gematik.isik: 5.1.3
+  de.gematik.isik: 6.0.0
   # Analog zu https://github.com/medizininformatik-initiative/kerndatensatzmodul-proms/blob/dev/sushi-config.yaml festgeschriebene Version. 
   # Fixe Version soll lokale Bereitstellung von benötigten Snapshots ermoeglichen, um Missing-Snapshot Fehler bei extenem Build durch build.fhir.org zu vermeiden.
 #
@@ -95,6 +95,8 @@ pages:
 parameters:
   pin-canonicals: pin-all
   excludettl: true
+  path-expansion-params: ../../input/resources/Parameters-mii-param-kardio-manifest.json
+#   pin-manifest: 'mii-param-kardio-manifest'
 #   validation: [allow-any-extensions, no-broken-links]
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮

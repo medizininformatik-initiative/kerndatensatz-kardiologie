@@ -25,7 +25,7 @@
     },
     {
       "name": "system-version",
-      "valueCanonical": "http://terminology.hl7.org/CodeSystem/v3-ActCode|2018-08-12"
+      "valueCanonical": "http://terminology.hl7.org/CodeSystem/v3-ActCode|11.0.0"
     }
   ]
 }

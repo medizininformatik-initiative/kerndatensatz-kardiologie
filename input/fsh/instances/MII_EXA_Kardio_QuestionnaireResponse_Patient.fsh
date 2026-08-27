@@ -1,4 +1,4 @@
-Instance: MII-EXA-Kardio-QuestionnaireResponse-Patient
+Instance: mii-exa-kardio-questionnaireresponse-patient
 InstanceOf: QuestionnaireResponse
 Title: "MII EXA Kardio QuestionnaireResponse Patient"
 Description: "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Patienten/in"
@@ -8,12 +8,12 @@ Usage: #example
 * status = #completed
 * subject.display = "Beispielpatient"
 * authored = "2025-11-20T13:57:45.476Z"
+* questionnaire = Canonical(mii-qn-kardio-acribis-study-followup)
 * item[0].linkId = "group1"
 * item[0].text = "Allgemeine Angaben"
 * item[0].item[0].linkId = "o_1"
 * item[0].item[0].text = "Wer füllt den Fragebogen aus?"
-* item[0].item[0].answer[0].valueCoding.code = #1
-* item[0].item[0].answer[0].valueCoding.display = "Patient/Patientin"
+* item[0].item[0].answer[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_patient "Patient/Patientin"
 * item[1].linkId = "group4"
 * item[1].text = "Diagnosen im letzten Jahr (seit Teilnahme an der Acribis-Studie)"
 * item[1].item[0].linkId = "834093031358"

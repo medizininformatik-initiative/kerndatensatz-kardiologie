@@ -1,6 +1,5 @@
-Instance: MII-EXA-Kardio-QuestionnaireResponse-Angehoerige
+Instance: mii-exa-kardio-questionnaireresponse-angehoerige
 InstanceOf: QuestionnaireResponse
-
 Title: "MII EXA Kardio QuestionnaireResponse Angehoerige"
 Description: "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Angehörigen"
 Usage: #example
@@ -9,12 +8,12 @@ Usage: #example
 * status = #completed
 * subject.display = "Beispielpatient"
 * authored = "2025-11-20T13:55:45.733Z"
+* questionnaire = Canonical(mii-qn-kardio-acribis-study-followup)
 * item[0].linkId = "group1"
 * item[0].text = "Allgemeine Angaben"
 * item[0].item[0].linkId = "o_1"
 * item[0].item[0].text = "Wer füllt den Fragebogen aus?"
-* item[0].item[0].answer[0].valueCoding.code = #2
-* item[0].item[0].answer[0].valueCoding.display = "Angehöriger/Angehörige"
+* item[0].item[0].answer[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_relative "Angehöriger/Angehörige"
 * item[1].linkId = "group3"
 * item[1].text = "Vitalstatus"
 * item[1].item[0].linkId = "o_2"
@@ -32,8 +31,7 @@ Usage: #example
 * item[1].item[0].answer[0].item[1].answer[0].valueCoding.display = "Yes"
 * item[1].item[0].answer[0].item[1].answer[0].item[0].linkId = "o_2c"
 * item[1].item[0].answer[0].item[1].answer[0].item[0].text = "Welche der im Antwortschema aufgeführten Herz-Kreislauf-bedingten Todesursachen lag vor?"
-* item[1].item[0].answer[0].item[1].answer[0].item[0].answer[0].valueCoding.code = #andere_kardiovaskulaere__ursache
-* item[1].item[0].answer[0].item[1].answer[0].item[0].answer[0].valueCoding.display = "Andere Herz-Kreislauf bedingte Ursache"
+* item[1].item[0].answer[0].item[1].answer[0].item[0].answer[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#other_cardiovascular_cause "Andere Herz-Kreislauf bedingte Ursache"
 * item[2].linkId = "group4"
 * item[2].text = "Diagnosen im letzten Jahr (seit Teilnahme an der Acribis-Studie)"
 * item[2].item[0].linkId = "834093031358"

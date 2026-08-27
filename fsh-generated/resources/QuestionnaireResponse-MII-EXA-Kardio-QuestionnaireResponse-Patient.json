@@ -1,6 +1,6 @@
 {
   "resourceType": "QuestionnaireResponse",
-  "id": "MII-EXA-Kardio-QuestionnaireResponse-Patient",
+  "id": "mii-exa-kardio-questionnaireresponse-patient",
   "subject": {
     "display": "Beispielpatient"
   },
@@ -11,7 +11,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "1",
+                "code": "respondent_patient",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Patient/Patientin"
               }
             }
@@ -381,5 +382,6 @@
   ],
   "language": "de-DE",
   "status": "completed",
-  "authored": "2025-11-20T13:57:45.476Z"
+  "authored": "2025-11-20T13:57:45.476Z",
+  "questionnaire": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup"
 }

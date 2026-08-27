@@ -285,7 +285,7 @@
       },
       {
         "reference": {
-          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Andere"
+          "reference": "QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-andere"
         },
         "name": "MII EXA Kardio QuestionnaireResponse Andere",
         "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht einer Anderen-Person (hier: Study Nurse)",
@@ -293,7 +293,7 @@
       },
       {
         "reference": {
-          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Angehoerige"
+          "reference": "QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-angehoerige"
         },
         "name": "MII EXA Kardio QuestionnaireResponse Angehoerige",
         "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Angehörigen",
@@ -301,7 +301,7 @@
       },
       {
         "reference": {
-          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Arzt"
+          "reference": "QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-arzt"
         },
         "name": "MII EXA Kardio QuestionnaireResponse Arzt",
         "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Arztes/Ärztin",
@@ -309,7 +309,7 @@
       },
       {
         "reference": {
-          "reference": "QuestionnaireResponse/MII-EXA-Kardio-QuestionnaireResponse-Patient"
+          "reference": "QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-patient"
         },
         "name": "MII EXA Kardio QuestionnaireResponse Patient",
         "description": "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Patienten/in",
@@ -338,6 +338,14 @@
         "name": "MII EXA Kardio Score NYHA II",
         "description": "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation bei Herzinsuffizienz gemäß MII PR Kardio Score NYHA.",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha"
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-acribis-questionnaireanswer"
+        },
+        "name": "MII Kardio ACRIBiS Questionnaire Answer Codes",
+        "description": "Questionnaire-lokale Antwortcodes für den ACRIBiS Follow-Up-Fragebogen.",
+        "exampleBoolean": false
       },
       {
         "reference": {
@@ -501,10 +509,10 @@
       },
       {
         "reference": {
-          "reference": "Questionnaire/MII-QN-Kardio-Acribis-Study-FollowUp"
+          "reference": "Questionnaire/mii-qn-kardio-acribis-study-followup"
         },
         "name": "MII QN Kardio Acribis Study FollowUp",
-        "description": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
+        "description": "Follow-Up-Fragebogen für die ACRIBiS-Studie.",
         "exampleBoolean": false
       },
       {

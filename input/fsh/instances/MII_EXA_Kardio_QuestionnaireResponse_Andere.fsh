@@ -1,6 +1,5 @@
-Instance: MII-EXA-Kardio-QuestionnaireResponse-Andere
+Instance: mii-exa-kardio-questionnaireresponse-andere
 InstanceOf: QuestionnaireResponse
-
 Title: "MII EXA Kardio QuestionnaireResponse Andere"
 Description: "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht einer Anderen-Person (hier: Study Nurse)"
 Usage: #example
@@ -9,16 +8,15 @@ Usage: #example
 * status = #completed
 * subject.display = "Beispielpatient"
 * authored = "2025-11-20T14:09:29.361Z"
+* questionnaire = Canonical(mii-qn-kardio-acribis-study-followup)
 * item[0].linkId = "group1"
 * item[0].text = "Allgemeine Angaben"
 * item[0].item[0].linkId = "o_1"
 * item[0].item[0].text = "Wer füllt den Fragebogen aus?"
-* item[0].item[0].answer[0].valueCoding.code = #4
-* item[0].item[0].answer[0].valueCoding.display = "Andere Person"
+* item[0].item[0].answer[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
 * item[0].item[1].linkId = "243134446838"
 * item[0].item[1].text = "In welcher Form erfolgt an Ihrem Standort das Follow-Up?"
-* item[0].item[1].answer[0].valueCoding.code = #VERBAL
-* item[0].item[1].answer[0].valueCoding.display = "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+* item[0].item[1].answer[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#verbal_follow_up "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
 * item[0].item[1].answer[0].item[0].linkId = "group2"
 * item[0].item[1].answer[0].item[0].text = "Telefonisches Follow-Up"
 * item[0].item[1].answer[0].item[0].item[0].linkId = "first_telefon_datum"

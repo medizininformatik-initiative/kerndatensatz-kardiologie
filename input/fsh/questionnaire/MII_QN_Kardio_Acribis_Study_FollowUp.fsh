@@ -1,5 +1,7 @@
-Instance: MII-QN-Kardio-Acribis-Study-FollowUp
+Instance: mii-qn-kardio-acribis-study-followup
 InstanceOf: Questionnaire
+Title: "MII QN Kardio Acribis Study FollowUp"
+Description: "Follow-Up-Fragebogen für die ACRIBiS-Studie."
 Usage: #definition
 
 * insert Version
@@ -42,7 +44,7 @@ Usage: #definition
 //   4.1 Wie wurde das Follow-Up erhoben?
 
 // Verschachtelte Fragebogen-Items
-* item[0].item[0].item[0].enableWhen[0].answerCoding.code = #4
+* item[0].item[0].item[0].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
 * item[0].item[0].item[0].enableWhen[0].question = "o_1"
 * item[0].item[0].item[0].enableWhen[0].operator = #=
 * item[0].item[0].item[0].type = #string
@@ -50,19 +52,13 @@ Usage: #definition
 * item[0].item[0].item[0].prefix = "Ausfüllende Person"
 * item[0].item[0].item[0].text = "Um wen handelt es sich (Name oder Rolle)?"
 * item[0].item[0].item[0].enableBehavior = #all
-* item[0].item[0].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
-* item[0].item[0].extension[0].valueCodeableConcept.coding[0].code = #radio-button
-* item[0].item[0].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
+* item[0].item[0].extension[0].valueCodeableConcept.coding[0] = http://hl7.org/fhir/questionnaire-item-control#radio-button "Radio Button"
 * item[0].item[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
-// System anlegen: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-* item[0].item[0].answerOption[0].valueCoding.code = #1
-* item[0].item[0].answerOption[0].valueCoding.display = "Patient/Patientin"
-* item[0].item[0].answerOption[1].valueCoding.code = #2
-* item[0].item[0].answerOption[1].valueCoding.display = "Angehöriger/Angehörige"
-* item[0].item[0].answerOption[2].valueCoding.code = #3
-* item[0].item[0].answerOption[2].valueCoding.display = "Arzt/Ärztin"
-* item[0].item[0].answerOption[3].valueCoding.code = #4
-* item[0].item[0].answerOption[3].valueCoding.display = "Andere Person"
+
+* item[0].item[0].answerOption[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_patient "Patient/Patientin"
+* item[0].item[0].answerOption[1].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_relative "Angehöriger/Angehörige"
+* item[0].item[0].answerOption[2].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_physician "Arzt/Ärztin"
+* item[0].item[0].answerOption[3].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
 * item[0].item[0].type = #choice
 * item[0].item[0].linkId = "o_1"
 * item[0].item[0].prefix = "Ausfüllende Person"
@@ -236,8 +232,7 @@ Usage: #definition
 * item[0].item[1].item[0].text = "Telefonisches Follow-Up"
 * item[0].item[1].item[0].enableWhen[0].question = "243134446838"
 * item[0].item[1].item[0].enableWhen[0].operator = #=
-* item[0].item[1].item[0].enableWhen[0].answerCoding.code = #VERBAL
-* item[0].item[1].item[0].enableWhen[0].answerCoding.display = "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+* item[0].item[1].item[0].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#verbal_follow_up "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
 * item[0].item[1].item[0].enableBehavior = #all
 * item[0].item[1].item[0].repeats = false
 * item[0].item[1].item[1].item[0].item[0].enableWhen[0].question = "531811477735"
@@ -317,8 +312,7 @@ Usage: #definition
 * item[0].item[1].item[1].text = "Schriftliches Follow-Up"
 * item[0].item[1].item[1].enableWhen[0].question = "243134446838"
 * item[0].item[1].item[1].enableWhen[0].operator = #=
-* item[0].item[1].item[1].enableWhen[0].answerCoding.code = #WRITTEN
-* item[0].item[1].item[1].enableWhen[0].answerCoding.display = "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+* item[0].item[1].item[1].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#written_follow_up "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
 * item[0].item[1].item[1].enableBehavior = #all
 * item[0].item[1].item[1].repeats = false
 * item[0].item[1].item[2].item[0].enableWhen[0].question = "175302299373"
@@ -361,19 +355,14 @@ Usage: #definition
 * item[0].item[1].extension[0].valueCodeableConcept.coding[0].code = #radio-button
 * item[0].item[1].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[0].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
-* item[0].item[1].enableWhen[0].answerCoding.code = #4
-* item[0].item[1].enableWhen[0].answerCoding.display = "Andere Person"
+* item[0].item[1].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
 * item[0].item[1].enableWhen[0].question = "o_1"
 * item[0].item[1].enableWhen[0].operator = #=
-* item[0].item[1].enableWhen[1].answerCoding.code = #3
-* item[0].item[1].enableWhen[1].answerCoding.display = "Arzt/Ärztin"
+* item[0].item[1].enableWhen[1].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_physician "Arzt/Ärztin"
 * item[0].item[1].enableWhen[1].question = "o_1"
 * item[0].item[1].enableWhen[1].operator = #=
-// TODO System
-* item[0].item[1].answerOption[0].valueCoding.code = #WRITTEN
-* item[0].item[1].answerOption[0].valueCoding.display = "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
-* item[0].item[1].answerOption[1].valueCoding.code = #VERBAL
-* item[0].item[1].answerOption[1].valueCoding.display = "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+* item[0].item[1].answerOption[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#written_follow_up "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+* item[0].item[1].answerOption[1].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#verbal_follow_up "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
 * item[0].item[1].type = #choice
 * item[0].item[1].linkId = "243134446838"
 * item[0].item[1].text = "In welcher Form erfolgt an Ihrem Standort das Follow-Up?"
@@ -411,90 +400,59 @@ Usage: #definition
 * item[1].item[0].item[1].item[0].enableWhen[0].answerCoding.display = "Yes"
 * item[1].item[0].item[1].item[0].enableBehavior = #all
 * item[1].item[0].item[1].item[0].repeats = false
-* item[1].item[0].item[1].item[0].answerOption[0].valueCoding = $sct#22298006 "Herzinfarkt"
-* item[1].item[0].item[1].item[0].answerOption[1].valueCoding = $sct#422504002 "Schlaganfall durch Gefäßverschluss"
-* item[1].item[0].item[1].item[0].answerOption[2].valueCoding = $sct#274100004 "Hirnblutung (intrazerebral)"
-* item[1].item[0].item[1].item[0].answerOption[3].valueCoding = $sct#21454007 "Hirnblutung (subarachnoidal)"
-* item[1].item[0].item[1].item[0].answerOption[4].valueCoding.code = #hirnblutung__intrazerebral_oder_subarachnoidal
-* item[1].item[0].item[1].item[0].answerOption[4].valueCoding.display = "Hirnblutung (intrazerebral oder subarachnoidal)"
-* item[1].item[0].item[1].item[0].answerOption[5].valueCoding.code = #andere_kardiovaskulaere__ursache
-* item[1].item[0].item[1].item[0].answerOption[5].valueCoding.display = "Andere Herz-Kreislauf bedingte Ursache"
-* item[1].item[0].item[1].item[0].answerOption[6].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].item[1].item[0].answerOption[6].valueCoding.code = #ASKU
-* item[1].item[0].item[1].item[0].answerOption[6].valueCoding.display = "asked but unknown"
-* item[1].item[0].item[1].item[0].answerOption[7].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].item[1].item[0].answerOption[7].valueCoding.code = #NI
-* item[1].item[0].item[1].item[0].answerOption[7].valueCoding.display = "No Information"
+* item[1].item[0].item[1].item[0].answerOption[0].valueCoding = $sct#22298006 "Myocardial infarction"
+* item[1].item[0].item[1].item[0].answerOption[1].valueCoding = $sct#422504002 "Ischemic stroke"
+* item[1].item[0].item[1].item[0].answerOption[2].valueCoding = $sct#274100004 "Cerebral hemorrhage"
+* item[1].item[0].item[1].item[0].answerOption[3].valueCoding = $sct#21454007 "Subarachnoid hemorrhage"
+* item[1].item[0].item[1].item[0].answerOption[4].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#cerebral_hemorrhage_intracerebral_or_subarachnoid "Hirnblutung (intrazerebral oder subarachnoidal)"
+* item[1].item[0].item[1].item[0].answerOption[5].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#other_cardiovascular_cause "Andere Herz-Kreislauf bedingte Ursache"
+* item[1].item[0].item[1].item[0].answerOption[6].valueCoding = $v2-0532#ASKU "asked but unknown"
+* item[1].item[0].item[1].item[0].answerOption[7].valueCoding = $v2-0532#NI "No Information"
 * item[1].item[0].item[1].item[0].answerOption[7].initialSelected = true
 * item[1].item[0].item[1].type = #choice
 * item[1].item[0].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
-* item[1].item[0].item[1].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
-* item[1].item[0].item[1].extension[0].valueCodeableConcept.coding[0].code = #radio-button
-* item[1].item[0].item[1].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
+* item[1].item[0].item[1].extension[0].valueCodeableConcept.coding[0] = http://hl7.org/fhir/questionnaire-item-control#radio-button "Radio Button"
 * item[1].item[0].item[1].linkId = "o_2b"
 * item[1].item[0].item[1].text = "Ist eine Herz-Kreislauf-Erkrankung als Todesursache fesgestellt worden?"
 * item[1].item[0].item[1].enableWhen[0].question = "o_2"
 * item[1].item[0].item[1].enableWhen[0].operator = #=
-* item[1].item[0].item[1].enableWhen[0].answerCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].item[1].enableWhen[0].answerCoding.code = #Y
-* item[1].item[0].item[1].enableWhen[0].answerCoding.display = "Yes"
+* item[1].item[0].item[1].enableWhen[0].answerCoding = $v2-0532#Y "Yes"
 * item[1].item[0].item[1].enableBehavior = #all
 * item[1].item[0].item[1].repeats = false
-* item[1].item[0].item[1].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].item[1].answerOption[0].valueCoding.code = #Y
-* item[1].item[0].item[1].answerOption[0].valueCoding.display = "Yes"
-* item[1].item[0].item[1].answerOption[1].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].item[1].answerOption[1].valueCoding.code = #N
-* item[1].item[0].item[1].answerOption[1].valueCoding.display = "No"
-* item[1].item[0].item[1].answerOption[2].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].item[1].answerOption[2].valueCoding.code = #ASKU
-* item[1].item[0].item[1].answerOption[2].valueCoding.display = "asked but unknown"
-* item[1].item[0].item[1].answerOption[3].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].item[1].answerOption[3].valueCoding.code = #NI
-* item[1].item[0].item[1].answerOption[3].valueCoding.display = "No Information"
+* item[1].item[0].item[1].answerOption[0].valueCoding = $v2-0532#Y "Yes"
+* item[1].item[0].item[1].answerOption[1].valueCoding = $v2-0532#N "No"
+* item[1].item[0].item[1].answerOption[2].valueCoding = $v2-0532#ASKU "asked but unknown"
+* item[1].item[0].item[1].answerOption[3].valueCoding = $v2-0532#NI "No Information"
 * item[1].item[0].item[1].answerOption[3].initialSelected = true
 * item[1].item[0].type = #choice
 * item[1].item[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
-* item[1].item[0].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
-* item[1].item[0].extension[0].valueCodeableConcept.coding[0].code = #radio-button
-* item[1].item[0].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
+* item[1].item[0].extension[0].valueCodeableConcept.coding[0] = http://hl7.org/fhir/questionnaire-item-control#radio-button "Radio Button"
 * item[1].item[0].linkId = "o_2"
-* item[1].item[0].code[0] = $sct#419099009 "Deceased"
+* item[1].item[0].code[0] = $sct#419099009 "Dead"
 * item[1].item[0].text = "Ist die Patientin/der Patient verstorben?"
 * item[1].item[0].enableWhen[0].question = "o_1"
 * item[1].item[0].enableWhen[0].operator = #=
-* item[1].item[0].enableWhen[0].answerCoding.code = #2
+* item[1].item[0].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_relative "Angehöriger/Angehörige"
 * item[1].item[0].enableWhen[1].question = "o_1"
 * item[1].item[0].enableWhen[1].operator = #=
-* item[1].item[0].enableWhen[1].answerCoding.code = #3
+* item[1].item[0].enableWhen[1].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_physician "Arzt/Ärztin"
 * item[1].item[0].enableWhen[2].question = "o_1"
 * item[1].item[0].enableWhen[2].operator = #=
-* item[1].item[0].enableWhen[2].answerCoding.code = #4
+* item[1].item[0].enableWhen[2].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
 * item[1].item[0].enableBehavior = #any
 * item[1].item[0].repeats = false
-* item[1].item[0].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].answerOption[0].valueCoding.code = #Y
-* item[1].item[0].answerOption[0].valueCoding.display = "Yes"
-* item[1].item[0].answerOption[1].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].answerOption[1].valueCoding.code = #N
-* item[1].item[0].answerOption[1].valueCoding.display = "No"
-* item[1].item[0].answerOption[2].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].answerOption[2].valueCoding.code = #ASKU
-* item[1].item[0].answerOption[2].valueCoding.display = "asked but unknown"
-* item[1].item[0].answerOption[3].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[1].item[0].answerOption[3].valueCoding.code = #NI
-* item[1].item[0].answerOption[3].valueCoding.display = "No Information"
+* item[1].item[0].answerOption[0].valueCoding = $v2-0532#Y "Yes"
+* item[1].item[0].answerOption[1].valueCoding = $v2-0532#N "No"
+* item[1].item[0].answerOption[2].valueCoding = $v2-0532#ASKU "asked but unknown"
+* item[1].item[0].answerOption[3].valueCoding = $v2-0532#NI "No Information"
 * item[1].item[0].answerOption[3].initialSelected = true
-* item[1].enableWhen[0].answerCoding.code = #2
-* item[1].enableWhen[0].answerCoding.display = "Angehöriger/Angehörige"
+* item[1].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_relative "Angehöriger/Angehörige"
 * item[1].enableWhen[0].question = "o_1"
 * item[1].enableWhen[0].operator = #=
-* item[1].enableWhen[1].answerCoding.code = #3
-* item[1].enableWhen[1].answerCoding.display = "Arzt/Ärztin"
+* item[1].enableWhen[1].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_physician "Arzt/Ärztin"
 * item[1].enableWhen[1].question = "o_1"
 * item[1].enableWhen[1].operator = #=
-* item[1].enableWhen[2].answerCoding.code = #4
-* item[1].enableWhen[2].answerCoding.display = "Andere Person"
+* item[1].enableWhen[2].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
 * item[1].enableWhen[2].question = "o_1"
 * item[1].enableWhen[2].operator = #=
 * item[1].type = #group
@@ -556,17 +514,12 @@ Usage: #definition
 * item[3].item[1].item[0].item[0].item[0].enableWhen[0].answerCoding.display = "Yes"
 * item[3].item[1].item[0].item[0].item[0].enableBehavior = #all
 * item[3].item[1].item[0].item[0].item[0].repeats = false
-* item[3].item[1].item[0].item[0].item[0].answerOption[0].valueCoding = $sct#422504002 "Schlaganfall durch Gefässverschluss"
-* item[3].item[1].item[0].item[0].item[0].answerOption[1].valueCoding = $sct#274100004 "Hirnblutung (intrazerebral)"
-* item[3].item[1].item[0].item[0].item[0].answerOption[2].valueCoding = $sct#21454007 "Hirnblutung (subarachnoidal)"
-* item[3].item[1].item[0].item[0].item[0].answerOption[3].valueCoding.code = #hirnblutung__intrazerebral_oder_subarachnoidal
-* item[3].item[1].item[0].item[0].item[0].answerOption[3].valueCoding.display = "Hirnblutung (intrazerebral oder subarachnoidal)"
-* item[3].item[1].item[0].item[0].item[0].answerOption[4].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[3].item[1].item[0].item[0].item[0].answerOption[4].valueCoding.code = #ASKU
-* item[3].item[1].item[0].item[0].item[0].answerOption[4].valueCoding.display = "asked but unknown"
-* item[3].item[1].item[0].item[0].item[0].answerOption[5].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
-* item[3].item[1].item[0].item[0].item[0].answerOption[5].valueCoding.code = #NI
-* item[3].item[1].item[0].item[0].item[0].answerOption[5].valueCoding.display = "No Information"
+* item[3].item[1].item[0].item[0].item[0].answerOption[0].valueCoding = $sct#422504002 "Ischemic stroke"
+* item[3].item[1].item[0].item[0].item[0].answerOption[1].valueCoding = $sct#274100004 "Cerebral hemorrhage"
+* item[3].item[1].item[0].item[0].item[0].answerOption[2].valueCoding = $sct#21454007 "Subarachnoid hemorrhage"
+* item[3].item[1].item[0].item[0].item[0].answerOption[3].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#cerebral_hemorrhage_intracerebral_or_subarachnoid "Hirnblutung (intrazerebral oder subarachnoidal)"
+* item[3].item[1].item[0].item[0].item[0].answerOption[4].valueCoding = $v2-0532#ASKU "asked but unknown"
+* item[3].item[1].item[0].item[0].item[0].answerOption[5].valueCoding = $v2-0532#NI "No Information"
 * item[3].item[1].item[0].item[0].item[0].answerOption[5].initialSelected = true
 * item[3].item[1].item[0].item[0].type = #date
 * item[3].item[1].item[0].item[0].linkId = "o_4a"
@@ -621,7 +574,7 @@ Usage: #definition
 * item[3].item[2].item[0].extension[0].valueCodeableConcept.coding[0].code = #radio-button
 * item[3].item[2].item[0].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[3].item[2].item[0].linkId = "o_5"
-* item[3].item[2].item[0].code[0] = $sct#64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000} "Disease:{Associated morphology=Hemorrhage,Associated with=Bleeding,Due to=Spontaneous event,Severity=Severe}"
+* item[3].item[2].item[0].code[0] = $sct#64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000} "64572001|Disease|:{116676008|Associated morphology|=50960005|Hemorrhage|,47429007|Associated with|=131148009|Bleeding|,42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"
 * item[3].item[2].item[0].text = "Trat eine starke spontane Blutung (Starke Blutung, siehe Infobox) auf, die diagnostiziert wurde und ärztlch behandelt werden musste?"
 * item[3].item[2].item[0].repeats = false
 * item[3].item[2].item[0].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"
@@ -853,7 +806,7 @@ Usage: #definition
 * item[3].item[6].item[0].item[0].enableWhen[0].answerCoding.display = "Yes"
 * item[3].item[6].item[0].item[0].enableBehavior = #all
 * item[3].item[6].item[0].item[0].repeats = true
-* item[3].item[6].item[0].item[0].answerValueSet = "http://snomed.info/sct/900000000000207008/version/20251201?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C"
+* item[3].item[6].item[0].item[0].answerValueSet = "http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C"
 * item[3].item[6].item[0].type = #choice
 * item[3].item[6].item[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[3].item[6].item[0].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"

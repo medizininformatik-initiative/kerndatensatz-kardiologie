@@ -1,6 +1,6 @@
 {
   "resourceType": "QuestionnaireResponse",
-  "id": "MII-EXA-Kardio-QuestionnaireResponse-Andere",
+  "id": "mii-exa-kardio-questionnaireresponse-andere",
   "subject": {
     "display": "Beispielpatient"
   },
@@ -11,7 +11,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "4",
+                "code": "respondent_other",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Andere Person"
               }
             }
@@ -22,10 +23,6 @@
         {
           "answer": [
             {
-              "valueCoding": {
-                "code": "VERBAL",
-                "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
-              },
               "item": [
                 {
                   "item": [
@@ -299,7 +296,12 @@
                   "linkId": "247749186905",
                   "text": "Kontaktaufnahme Einwohnermeldeamt (nach Tag 49)"
                 }
-              ]
+              ],
+              "valueCoding": {
+                "code": "verbal_follow_up",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+              }
             }
           ],
           "linkId": "243134446838",
@@ -725,5 +727,6 @@
   ],
   "language": "de-DE",
   "status": "completed",
-  "authored": "2025-11-20T14:09:29.361Z"
+  "authored": "2025-11-20T14:09:29.361Z",
+  "questionnaire": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup"
 }

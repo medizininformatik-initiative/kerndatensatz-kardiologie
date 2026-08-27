@@ -1,6 +1,6 @@
 {
   "resourceType": "QuestionnaireResponse",
-  "id": "MII-EXA-Kardio-QuestionnaireResponse-Angehoerige",
+  "id": "mii-exa-kardio-questionnaireresponse-angehoerige",
   "subject": {
     "display": "Beispielpatient"
   },
@@ -11,7 +11,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "2",
+                "code": "respondent_relative",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Angehöriger/Angehörige"
               }
             }
@@ -56,7 +57,8 @@
                           "answer": [
                             {
                               "valueCoding": {
-                                "code": "andere_kardiovaskulaere__ursache",
+                                "code": "other_cardiovascular_cause",
+                                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                                 "display": "Andere Herz-Kreislauf bedingte Ursache"
                               }
                             }
@@ -438,5 +440,6 @@
   ],
   "language": "de-DE",
   "status": "completed",
-  "authored": "2025-11-20T13:55:45.733Z"
+  "authored": "2025-11-20T13:55:45.733Z",
+  "questionnaire": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup"
 }

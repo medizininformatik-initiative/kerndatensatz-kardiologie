@@ -1,4 +1,4 @@
-Instance: MII-EXA-Kardio-QuestionnaireResponse-Arzt
+Instance: mii-exa-kardio-questionnaireresponse-arzt
 InstanceOf: QuestionnaireResponse
 Title: "MII EXA Kardio QuestionnaireResponse Arzt"
 Description: "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Arztes/Ärztin"
@@ -8,16 +8,15 @@ Usage: #example
 * status = #completed
 * subject.display = "Beispielpatient"
 * authored = "2025-11-20T14:07:36.673Z"
+* questionnaire = Canonical(mii-qn-kardio-acribis-study-followup)
 * item[0].linkId = "group1"
 * item[0].text = "Allgemeine Angaben"
 * item[0].item[0].linkId = "o_1"
 * item[0].item[0].text = "Wer füllt den Fragebogen aus?"
-* item[0].item[0].answer[0].valueCoding.code = #3
-* item[0].item[0].answer[0].valueCoding.display = "Arzt/Ärztin"
+* item[0].item[0].answer[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_physician "Arzt/Ärztin"
 * item[0].item[1].linkId = "243134446838"
 * item[0].item[1].text = "In welcher Form erfolgt an Ihrem Standort das Follow-Up?"
-* item[0].item[1].answer[0].valueCoding.code = #WRITTEN
-* item[0].item[1].answer[0].valueCoding.display = "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+* item[0].item[1].answer[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#written_follow_up "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
 * item[0].item[1].answer[0].item[0].linkId = "653817429944"
 * item[0].item[1].answer[0].item[0].text = "Schriftliches Follow-Up"
 * item[0].item[1].answer[0].item[0].item[0].linkId = "531811477735"
@@ -119,7 +118,7 @@ Usage: #example
 * item[2].item[1].item[0].answer[0].item[0].answer[0].valueDate = "2025-12-01"
 * item[2].item[1].item[0].answer[0].item[0].answer[0].item[0].linkId = "o_4b"
 * item[2].item[1].item[0].answer[0].item[0].answer[0].item[0].text = "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?"
-* item[2].item[1].item[0].answer[0].item[0].answer[0].item[0].answer[0].valueCoding = $sct#422504002 "	Ischemic stroke"
+* item[2].item[1].item[0].answer[0].item[0].answer[0].item[0].answer[0].valueCoding = $sct#422504002 "Ischemic stroke"
 * item[2].item[1].item[0].answer[0].item[0].answer[1].valueDate = "2024-12-11"
 * item[2].item[1].item[0].answer[0].item[0].answer[1].item[0].linkId = "o_4b"
 * item[2].item[1].item[0].answer[0].item[0].answer[1].item[0].text = "Wissen Sie welche Art des Schlaganfalls diagnostiziert wurde?"

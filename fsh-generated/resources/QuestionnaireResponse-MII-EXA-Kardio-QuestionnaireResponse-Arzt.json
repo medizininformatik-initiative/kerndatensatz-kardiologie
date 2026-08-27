@@ -1,6 +1,6 @@
 {
   "resourceType": "QuestionnaireResponse",
-  "id": "MII-EXA-Kardio-QuestionnaireResponse-Arzt",
+  "id": "mii-exa-kardio-questionnaireresponse-arzt",
   "subject": {
     "display": "Beispielpatient"
   },
@@ -11,7 +11,8 @@
           "answer": [
             {
               "valueCoding": {
-                "code": "3",
+                "code": "respondent_physician",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Arzt/Ärztin"
               }
             }
@@ -22,10 +23,6 @@
         {
           "answer": [
             {
-              "valueCoding": {
-                "code": "WRITTEN",
-                "display": "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
-              },
               "item": [
                 {
                   "item": [
@@ -215,7 +212,12 @@
                   "linkId": "247749186905",
                   "text": "Kontaktaufnahme Einwohnermeldeamt (nach Tag 49)"
                 }
-              ]
+              ],
+              "valueCoding": {
+                "code": "written_follow_up",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "display": "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+              }
             }
           ],
           "linkId": "243134446838",
@@ -339,7 +341,7 @@
                                   "valueCoding": {
                                     "code": "422504002",
                                     "system": "http://snomed.info/sct",
-                                    "display": "\tIschemic stroke"
+                                    "display": "Ischemic stroke"
                                   }
                                 }
                               ],
@@ -641,5 +643,6 @@
   ],
   "language": "de-DE",
   "status": "completed",
-  "authored": "2025-11-20T14:07:36.673Z"
+  "authored": "2025-11-20T14:07:36.673Z",
+  "questionnaire": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup"
 }

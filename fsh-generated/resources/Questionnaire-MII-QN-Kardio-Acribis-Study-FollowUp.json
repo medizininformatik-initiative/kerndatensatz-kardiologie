@@ -1,7 +1,9 @@
 {
   "resourceType": "Questionnaire",
-  "id": "MII-QN-Kardio-Acribis-Study-FollowUp",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/MII-QN-Kardio-Acribis-Study-FollowUp",
+  "id": "mii-qn-kardio-acribis-study-followup",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup",
+  "title": "MII QN Kardio Acribis Study FollowUp",
+  "description": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
   "contact": [
     {
       "telecom": [
@@ -41,7 +43,9 @@
               "enableWhen": [
                 {
                   "answerCoding": {
-                    "code": "4"
+                    "code": "respondent_other",
+                    "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                    "display": "Andere Person"
                   },
                   "question": "o_1",
                   "operator": "="
@@ -59,8 +63,8 @@
               "valueCodeableConcept": {
                 "coding": [
                   {
-                    "system": "http://hl7.org/fhir/questionnaire-item-control",
                     "code": "radio-button",
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
                     "display": "Radio Button"
                   }
                 ]
@@ -71,25 +75,29 @@
           "answerOption": [
             {
               "valueCoding": {
-                "code": "1",
+                "code": "respondent_patient",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Patient/Patientin"
               }
             },
             {
               "valueCoding": {
-                "code": "2",
+                "code": "respondent_relative",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Angehöriger/Angehörige"
               }
             },
             {
               "valueCoding": {
-                "code": "3",
+                "code": "respondent_physician",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Arzt/Ärztin"
               }
             },
             {
               "valueCoding": {
-                "code": "4",
+                "code": "respondent_other",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Andere Person"
               }
             }
@@ -458,12 +466,13 @@
               ],
               "enableWhen": [
                 {
-                  "answerCoding": {
-                    "code": "VERBAL",
-                    "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
-                  },
                   "question": "243134446838",
-                  "operator": "="
+                  "operator": "=",
+                  "answerCoding": {
+                    "code": "verbal_follow_up",
+                    "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                    "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+                  }
                 }
               ],
               "type": "group",
@@ -611,12 +620,13 @@
               ],
               "enableWhen": [
                 {
-                  "answerCoding": {
-                    "code": "WRITTEN",
-                    "display": "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
-                  },
                   "question": "243134446838",
-                  "operator": "="
+                  "operator": "=",
+                  "answerCoding": {
+                    "code": "written_follow_up",
+                    "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                    "display": "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+                  }
                 }
               ],
               "type": "group",
@@ -711,7 +721,8 @@
           "enableWhen": [
             {
               "answerCoding": {
-                "code": "4",
+                "code": "respondent_other",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Andere Person"
               },
               "question": "o_1",
@@ -719,7 +730,8 @@
             },
             {
               "answerCoding": {
-                "code": "3",
+                "code": "respondent_physician",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Arzt/Ärztin"
               },
               "question": "o_1",
@@ -729,13 +741,15 @@
           "answerOption": [
             {
               "valueCoding": {
-                "code": "WRITTEN",
+                "code": "written_follow_up",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
               }
             },
             {
               "valueCoding": {
-                "code": "VERBAL",
+                "code": "verbal_follow_up",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                 "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
               }
             }
@@ -825,53 +839,55 @@
                       "valueCoding": {
                         "code": "22298006",
                         "system": "http://snomed.info/sct",
-                        "display": "Herzinfarkt"
+                        "display": "Myocardial infarction"
                       }
                     },
                     {
                       "valueCoding": {
                         "code": "422504002",
                         "system": "http://snomed.info/sct",
-                        "display": "Schlaganfall durch Gefäßverschluss"
+                        "display": "Ischemic stroke"
                       }
                     },
                     {
                       "valueCoding": {
                         "code": "274100004",
                         "system": "http://snomed.info/sct",
-                        "display": "Hirnblutung (intrazerebral)"
+                        "display": "Cerebral hemorrhage"
                       }
                     },
                     {
                       "valueCoding": {
                         "code": "21454007",
                         "system": "http://snomed.info/sct",
-                        "display": "Hirnblutung (subarachnoidal)"
+                        "display": "Subarachnoid hemorrhage"
                       }
                     },
                     {
                       "valueCoding": {
-                        "code": "hirnblutung__intrazerebral_oder_subarachnoidal",
+                        "code": "cerebral_hemorrhage_intracerebral_or_subarachnoid",
+                        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                         "display": "Hirnblutung (intrazerebral oder subarachnoidal)"
                       }
                     },
                     {
                       "valueCoding": {
-                        "code": "andere_kardiovaskulaere__ursache",
+                        "code": "other_cardiovascular_cause",
+                        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                         "display": "Andere Herz-Kreislauf bedingte Ursache"
                       }
                     },
                     {
                       "valueCoding": {
-                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                         "code": "ASKU",
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                         "display": "asked but unknown"
                       }
                     },
                     {
                       "valueCoding": {
-                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                         "code": "NI",
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                         "display": "No Information"
                       },
                       "initialSelected": true
@@ -889,8 +905,8 @@
                   "valueCodeableConcept": {
                     "coding": [
                       {
-                        "system": "http://hl7.org/fhir/questionnaire-item-control",
                         "code": "radio-button",
+                        "system": "http://hl7.org/fhir/questionnaire-item-control",
                         "display": "Radio Button"
                       }
                     ]
@@ -900,41 +916,41 @@
               ],
               "enableWhen": [
                 {
-                  "answerCoding": {
-                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
-                    "code": "Y",
-                    "display": "Yes"
-                  },
                   "question": "o_2",
-                  "operator": "="
+                  "operator": "=",
+                  "answerCoding": {
+                    "code": "Y",
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+                    "display": "Yes"
+                  }
                 }
               ],
               "answerOption": [
                 {
                   "valueCoding": {
-                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "Y",
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "display": "Yes"
                   }
                 },
                 {
                   "valueCoding": {
-                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "N",
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "display": "No"
                   }
                 },
                 {
                   "valueCoding": {
-                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "ASKU",
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "display": "asked but unknown"
                   }
                 },
                 {
                   "valueCoding": {
-                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "code": "NI",
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                     "display": "No Information"
                   },
                   "initialSelected": true
@@ -952,8 +968,8 @@
               "valueCodeableConcept": {
                 "coding": [
                   {
-                    "system": "http://hl7.org/fhir/questionnaire-item-control",
                     "code": "radio-button",
+                    "system": "http://hl7.org/fhir/questionnaire-item-control",
                     "display": "Radio Button"
                   }
                 ]
@@ -965,58 +981,64 @@
             {
               "code": "419099009",
               "system": "http://snomed.info/sct",
-              "display": "Deceased"
+              "display": "Dead"
             }
           ],
           "enableWhen": [
             {
-              "answerCoding": {
-                "code": "2"
-              },
               "question": "o_1",
-              "operator": "="
+              "operator": "=",
+              "answerCoding": {
+                "code": "respondent_relative",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "display": "Angehöriger/Angehörige"
+              }
             },
             {
-              "answerCoding": {
-                "code": "3"
-              },
               "question": "o_1",
-              "operator": "="
+              "operator": "=",
+              "answerCoding": {
+                "code": "respondent_physician",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "display": "Arzt/Ärztin"
+              }
             },
             {
-              "answerCoding": {
-                "code": "4"
-              },
               "question": "o_1",
-              "operator": "="
+              "operator": "=",
+              "answerCoding": {
+                "code": "respondent_other",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "display": "Andere Person"
+              }
             }
           ],
           "answerOption": [
             {
               "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                 "code": "Y",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                 "display": "Yes"
               }
             },
             {
               "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                 "code": "N",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                 "display": "No"
               }
             },
             {
               "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                 "code": "ASKU",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                 "display": "asked but unknown"
               }
             },
             {
               "valueCoding": {
-                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                 "code": "NI",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                 "display": "No Information"
               },
               "initialSelected": true
@@ -1032,7 +1054,8 @@
       "enableWhen": [
         {
           "answerCoding": {
-            "code": "2",
+            "code": "respondent_relative",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
             "display": "Angehöriger/Angehörige"
           },
           "question": "o_1",
@@ -1040,7 +1063,8 @@
         },
         {
           "answerCoding": {
-            "code": "3",
+            "code": "respondent_physician",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
             "display": "Arzt/Ärztin"
           },
           "question": "o_1",
@@ -1048,7 +1072,8 @@
         },
         {
           "answerCoding": {
-            "code": "4",
+            "code": "respondent_other",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
             "display": "Andere Person"
           },
           "question": "o_1",
@@ -1198,40 +1223,41 @@
                           "valueCoding": {
                             "code": "422504002",
                             "system": "http://snomed.info/sct",
-                            "display": "Schlaganfall durch Gefässverschluss"
+                            "display": "Ischemic stroke"
                           }
                         },
                         {
                           "valueCoding": {
                             "code": "274100004",
                             "system": "http://snomed.info/sct",
-                            "display": "Hirnblutung (intrazerebral)"
+                            "display": "Cerebral hemorrhage"
                           }
                         },
                         {
                           "valueCoding": {
                             "code": "21454007",
                             "system": "http://snomed.info/sct",
-                            "display": "Hirnblutung (subarachnoidal)"
+                            "display": "Subarachnoid hemorrhage"
                           }
                         },
                         {
                           "valueCoding": {
-                            "code": "hirnblutung__intrazerebral_oder_subarachnoidal",
+                            "code": "cerebral_hemorrhage_intracerebral_or_subarachnoid",
+                            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
                             "display": "Hirnblutung (intrazerebral oder subarachnoidal)"
                           }
                         },
                         {
                           "valueCoding": {
-                            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                             "code": "ASKU",
+                            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                             "display": "asked but unknown"
                           }
                         },
                         {
                           "valueCoding": {
-                            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                             "code": "NI",
+                            "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
                             "display": "No Information"
                           },
                           "initialSelected": true
@@ -1373,7 +1399,7 @@
                 {
                   "code": "64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000}",
                   "system": "http://snomed.info/sct",
-                  "display": "Disease:{Associated morphology=Hemorrhage,Associated with=Bleeding,Due to=Spontaneous event,Severity=Severe}"
+                  "display": "64572001|Disease|:{116676008|Associated morphology|=50960005|Hemorrhage|,47429007|Associated with|=131148009|Bleeding|,42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"
                 }
               ],
               "answerOption": [
@@ -1949,7 +1975,7 @@
                   "text": "Um welche weitere Herz-Kreislauf-Erkrankung handelt es sich?",
                   "enableBehavior": "all",
                   "repeats": true,
-                  "answerValueSet": "http://snomed.info/sct/900000000000207008/version/20251201?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C"
+                  "answerValueSet": "http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C"
                 }
               ],
               "extension": [
@@ -2096,10 +2122,8 @@
   "version": "2026.0.0-alpha.3",
   "publisher": "Medizininformatik Initiative",
   "name": "MII_QN_Kardio_Acribis_Study_FollowUp",
-  "title": "MII QN Kardio Acribis Study FollowUp",
   "status": "draft",
   "experimental": true,
   "date": "2025-11-17",
-  "description": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
   "purpose": "Follow-Up-Fragebogen im Rahmen der Acribis-Studie."
 }

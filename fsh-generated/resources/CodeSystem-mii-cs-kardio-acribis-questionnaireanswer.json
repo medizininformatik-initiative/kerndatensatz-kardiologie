@@ -1,0 +1,60 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "MII_CS_Kardio_Acribis_QuestionnaireAnswer",
+  "id": "mii-cs-kardio-acribis-questionnaireanswer",
+  "title": "MII Kardio ACRIBiS Questionnaire Answer Codes",
+  "description": "Questionnaire-lokale Antwortcodes für den ACRIBiS Follow-Up-Fragebogen.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+  "concept": [
+    {
+      "code": "respondent_patient",
+      "display": "Patient/Patientin"
+    },
+    {
+      "code": "respondent_relative",
+      "display": "Angehöriger/Angehörige"
+    },
+    {
+      "code": "respondent_physician",
+      "display": "Arzt/Ärztin"
+    },
+    {
+      "code": "respondent_other",
+      "display": "Andere Person"
+    },
+    {
+      "code": "written_follow_up",
+      "display": "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+    },
+    {
+      "code": "verbal_follow_up",
+      "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+    },
+    {
+      "code": "cerebral_hemorrhage_intracerebral_or_subarachnoid",
+      "display": "Hirnblutung (intrazerebral oder subarachnoidal)"
+    },
+    {
+      "code": "other_cardiovascular_cause",
+      "display": "Andere Herz-Kreislauf bedingte Ursache"
+    }
+  ],
+  "version": "2026.0.0-alpha.3",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "experimental": false,
+  "date": "2025-09-03",
+  "caseSensitive": true,
+  "count": 8
+}

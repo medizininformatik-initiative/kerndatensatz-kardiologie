@@ -10,11 +10,16 @@ Die Auswahl der Parameter als Grundlage zur Erfassung von Daten zur Behandlung k
 
 >! Das langfristige übergeordnete Ziel des kardiologischen Kerndatensatzes ist es, eine aus klinischer Perspektive zielgerichtete und scharfe Charakterisierung des individuellen kardiologischen Patienten in standardisierter Form abzubilden, die so eine Forschungsnutzung von Daten aus verschiedenen Kliniken oder auch Hausarztpraxen ermöglicht.
 
----
+Das Kerndatensatzmodul Kardiolgie ist als eigenständiges Modul konzipiert und ist über mit anderen bereits existierenden Modulen verbunden. Die untenstehende Graphik zeigt die gegenwärtigen (Stand 08.2026) Module an und in dieser werden die grundlegenden Datenquellen wie Person, Fall oder auch Medikation hervorgehoben. Die Übersicht zeigt jedoch keine Abhängikeiten oder Verzahungen der Module an. 
+
+<img width="810" height="532" alt="image" src="https://github.com/user-attachments/assets/2d23a847-7292-430d-b8e3-d49aae701c3d" />
+
+(aus: [Medizininformatik Initiative Webseite](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative)] 
+
 
 ## Zielsetzung
 
-Die im  Modul Kardiologie festgelegten Parameter bestimmen die Dateninhalte, die als Patienten - und Versorgungsdaten in der Klinik als auch im Forschungskontext Verwendung finden und langfristig von den Danteninterationszentren (DIZ) in standardisierter Form bereitgestellt werden können. Die Gesamtheit des kardiologischen Datensatzes ethält neben hoch-spezialisierten Parametern, die gezielt kardiologische Informationen abbilden, auch solche, die notwendigerweise die Person identifiziert und auch grundlegende andere Informationen. Diese sind im Modul Kardiologie abgebildet jedoch werden die Profile und Codierugnen aus bereits bestehenden Modulen übernommen, und somit in das System der KDS Module (Module PERSON, Modul ICU, u.a.) eingebettet und verlinkt. Damit werden die Daten über die Fachgebiete hinweg standardisiert und integriert, zudem werden gesetzliche Standards wie ISIK berücksichtigt, so dass langfristig eine übergreifende Datenerhebung ermöglicht wird.
+Die im  Modul Kardiologie festgelegten Parameter bestimmen die Dateninhalte, die als Patienten - und Versorgungsdaten in der Klinik als auch im Forschungskontext Verwendung finden und langfristig von den Danteninterationszentren (DIZ) in standardisierter Form bereitgestellt werden können. Die Gesamtheit des kardiologischen Datensatzes ethält neben hoch-spezialisierten Parametern, die gezielt kardiologische Informationen abbilden, auch solche, die notwendigerweise die Person identifiziert und auch grundlegende andere Informationen. Diese sind im Modul Kardiologie abgebildet jedoch werden die Profile und Codierugnen aus bereits bestehenden Modulen übernommen, und somit in das System der KDS Module ([Module PERSON](https://simplifier.net/packages/de.medizininformatikinitiative.kerndatensatz.person/2025.0.1/~introduction), [Modul ICU](https://simplifier.net/medizininformatikinitiative-modul-intensivmedizin), u.a.) eingebettet und verlinkt. Damit werden die Daten über die Fachgebiete hinweg standardisiert und integriert, zudem werden gesetzliche Standards wie ISIK berücksichtigt, so dass langfristig eine übergreifende Datenerhebung ermöglicht wird.
 
 In der Umsetzung werden drei Stufen durchlaufen, in denen sukzessiv der kardiologische Datensatz erweitert wird und in der Endphase die Parameter des allgemeine kardiologsichen Datensatzes als FHIR Profile vorliegen und zur Nutzung in den DIZen bereitstehen. Die Phasen lassen sich wie folgt definieren:
 
@@ -32,7 +37,7 @@ In der Umsetzung werden drei Stufen durchlaufen, in denen sukzessiv der kardiolo
 
 ---
 
-### Umfang der Spezifikation
+## Spezifikation der Parameter
 
 Das Modul adressiert:
 

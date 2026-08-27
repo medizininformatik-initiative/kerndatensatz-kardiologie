@@ -24,8 +24,8 @@
     }
   ],
   "format": [
-    "xml",
-    "json"
+    "application/fhir+xml",
+    "application/fhir+json"
   ],
   "rest": [
     {

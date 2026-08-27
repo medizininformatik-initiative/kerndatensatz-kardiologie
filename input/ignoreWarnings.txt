@@ -41,12 +41,12 @@ SD_PATH_SLICING_DEPRECATED
 Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct - value set is too large to check
 Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/mii-vs-prozedur-ops - value set is too large to check
 Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct - value set is too large to check
-Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-icd is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-icd10gm|2026.0.0 - value set is too large to check
-Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-alphaid|2026.0.0 - value set is too large to check
-Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2026.0.0 - value set is too large to check
+Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-icd is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-icd10gm|2026.0.1 - value set is too large to check
+Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-alphaid|2026.0.1 - value set is too large to check
+Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2026.0.1 - value set is too large to check
 
 # Big value set, ignore warning
-Unable to expand included value set 'https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct': Das ValueSet https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2026.0.0 hat zu viele Codes für die Anzeige (>1000) (and Error from http://localhost/fhir: Error: The value set 'https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct' expansion has too many codes to produce (>10000))
+Unable to expand included value set 'https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct': Das ValueSet https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2026.0.1 hat zu viele Codes für die Anzeige (>1000) (and Error from https://localhost/fhir: Error: The value set 'https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct' expansion has too many codes to produce (>10000))
 The value set expansion is too large, and only a subset has been displayed
 
 # The CS Alpha-ID is only a stub in de.basisprofil.r4. There, no properties are defined. In the resource on the terminology server, the property is defined, so the expansion works.
@@ -59,5 +59,8 @@ The property 'partition' is not known for the system 'urn:iso:std:iso:11073:1010
 %should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 %could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 
-# C15607 is a valid code in the NCI thesaurus but it is not provided in the CS fragment
-Unknown Code 'C15607' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version 'null' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+# NCI thesaurus codes are valid but it is not provided in the CS fragment
+%in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version 'null' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+
+# application/dicom is valid
+Unknown Code 'application/dicom' in the CodeSystem 'urn:ietf:bcp:13' version '6.0.0' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment

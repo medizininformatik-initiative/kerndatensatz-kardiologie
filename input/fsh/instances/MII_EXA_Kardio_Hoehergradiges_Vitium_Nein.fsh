@@ -9,7 +9,7 @@ Usage: #example
 * status = #final
 * category = $observation-category#survey "Survey"
 
-* code.coding[diagnoseSnomed] = $example-sct#368009:{116676008=49755003,363698007=17401000},{246112005=24484000} "368009|Heart valve disorder|:{116676008|Associated morphology|=49755003|Abnormal tissue appearance|,363698007|Finding site|=17401000|Cardiac valve|},{246112005|Severity|=24484000|Severe|}"
+* code.coding[diagnoseSnomed] = $example-sct#368009:{116676008=49755003,363698007=17401000},{246112005=24484000} "368009|Heart valve disorder|:{116676008|Associated morphology|=49755003|Morphologically abnormal structure|,363698007|Finding site|=17401000|Cardiac valve structure|},{246112005|Severity|=24484000|Severe|}"
 * code.text = "Höhergradiges Vitium primärer Genese"
 
 * bodySite = $example-sct#17401000 "Cardiac valve"

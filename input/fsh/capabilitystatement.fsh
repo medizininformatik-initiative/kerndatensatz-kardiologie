@@ -43,8 +43,8 @@ Usage: #definition
 * jurisdiction = urn:iso:std:iso:3166#DE "Germany"
 * kind = #requirements
 * fhirVersion = #4.0.1
-* format[0] = #xml
-* format[+] = #json
+* format[0] = #application/fhir+xml
+* format[+] = #application/fhir+json
 * rest.mode = #server
 
 // Condition requirements - Diagnoses (Klappenvitium, allgemeine Diagnose)

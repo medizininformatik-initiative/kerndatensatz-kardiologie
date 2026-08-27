@@ -13,7 +13,7 @@ Description: "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul 
 * ^supplements = "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
 
 // Abbildung des höhergradigen Vitiums primärer Genese mit einem post-koordinierenden SNOMED CT-Code
-* #368009:{116676008=49755003,363698007=17401000},{246112005=24484000} "368009|Heart valve disorder|:{116676008|Associated morphology|=49755003|Abnormal tissue appearance|,363698007|Finding site|=17401000|Cardiac valve|},{246112005|Severity|=24484000|Severe|}"
+* #368009:{116676008=49755003,363698007=17401000},{246112005=24484000} "368009|Heart valve disorder|:{116676008|Associated morphology|=49755003|Morphologically abnormal structure|,363698007|Finding site|=17401000|Cardiac valve structure|},{246112005|Severity|=24484000|Severe|}"
 
 // Abbildung der interventionellen Klappentherapie
 * #73544002:{260507000=260519008} "Operation on heart valve:{Access=Transcatheter approach}"

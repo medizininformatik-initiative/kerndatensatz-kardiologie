@@ -64,7 +64,7 @@
       "class": {
         "code": "IMP",
         "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-        "version": "2018-08-12"
+        "version": "11.0.0"
       }
     }
   ],

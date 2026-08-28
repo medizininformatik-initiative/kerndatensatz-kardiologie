@@ -37,6 +37,6 @@
 * **[NYHA (New York Heart Association Functional Classification)](https://www.heart.org/en/health-topics/heart-failure/what-is-heart-failure/classes-of-heart-failure):** Schweregrad von Herzinsuffizienz anhand der Belastungsfähigkeit
 * **[mRS (modified Rankin Scale)](https://www.ahajournals.org/doi/10.1161/01.str.0000258355.23810.c6):** Funktioneller Status nach einem Schlaganfall
 * **[CCS-Grad](https://www.mdcalc.com/calc/10067/canadian-cardiovascular-society-ccs-angina-grade):** Schwere von Koronarsyndromen (z. B. Angina pectoris) nach Symptomen und Belastungsfähigkeit
-* SMART
-* **[CHA2DS2-VASc](https://www.mdcalc.com/calc/801/cha2ds2-vasc-score-atrial-fibrillation-stroke-risk):** Risikoskala zur Abschätzung des Schlaganfall-Risikos bei Vorhofflimmern
+* **[SMART](https://pubmed.ncbi.nlm.nih.gov/23574971/)** Risikobewertung zu Wahrscheinlichkeiten für das erneute Autreten einen kardialen Ereignisses innerhalb der nächsten 10 Jahre in Personen mit kardiao-vaskularer Diagnose
+* **[CHA2DS2-VASc](https://pubmed.ncbi.nlm.nih.gov/33693717/):** Risikoskala zur Abschätzung des Schlaganfall-Risikos bei Vorhofflimmern
 * **[BCN-HF](https://pubmed.ncbi.nlm.nih.gov/38804895/):** Risikobewertung zur Prognose und Therapieentscheidung bei Herzinsuffizienz

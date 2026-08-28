@@ -32,26 +32,26 @@ class ISIKRaucherstatus #Lavender {}
 ' ==== Algemeine Patientendaten ====
 ' ==================================
 package "KDS Modul\nBasis" as KDSBasis #LightGreen {
-  class "Person/Patient" as Patient  {
+  class "Person/Patient" as Patient #white {
     + Geschlecht
     + Geburtsdatum
   }
-  class Vitalstatus {
+  class Vitalstatus #white {
     + Code
     + Dokumentationsdatum
     + Intrahospitaler Tod
   }
-  class Prozedur {
+  class Prozedur #white {
     + Code
     + Durchführungsdatum
     + Dokumentationsdatum
   }
-  class Medikation {
+  class Medikation #white {
     + Code
     + Dosis
     + Dokumentationsdatum
   }
-  class Diagnose {
+  class Diagnose #white {
     + Code
     + Beginndatum
     + Feststellungsdatumdatum
@@ -59,12 +59,12 @@ package "KDS Modul\nBasis" as KDSBasis #LightGreen {
     + Stadium
     + Schweregrad
   }
-  class "Allergie (Person v2027)" as Allergie {
+  class "Allergie (Person v2027)" as Allergie #white {
     + Substanz
   }
 }
 package "KDS Modul \nSoziodemographische Daten" as KDSSDD #LightGreen {
-  class Geburtsland {
+  class Geburtsland #white {
     + Code
   }
 }
@@ -185,7 +185,7 @@ class "EHRA-Stadium" as EHRAStadium {
   + Dokumentationsdatum
 }
 package "KDS Modul\nPRO" as KDSPRO #LightGreen {
-  class PRO {
+  class PRO #white {
     + Dokumentationsdatum
     + Fragen
     + Antworten
@@ -198,39 +198,39 @@ package "KDS Modul\nPRO" as KDSPRO #LightGreen {
 ' ====================
 
 package "KDS Modul\nLabor" as KDSLabor #LightGreen {
-  class Laborwert {
+  class Laborwert #white {
     + Code
     + Wert
     + Dokumentationsdatum
   }
 }
 package "KDS Modul\nICU" as KDSICU #LightGreen {
-  class "Körpergröße" as Koerpergroesse {
+  class "Körpergröße" as Koerpergroesse #white {
     + Code
     + Wert
     + Dokumentationsdatum
   }
-  class "Körpergewicht" as Koerpergewicht {
+  class "Körpergewicht" as Koerpergewicht #white {
     + Code
     + Systolisch
     + Diastolisch
     + Dokumentationsdatum
   }
-  class "Arterieller Blutdruck" as BP {
+  class "Arterieller Blutdruck" as BP #white {
     + Code
     + Wert
     + Dokumentationsdatum
   }
 }
 package "KDS Modul\nSeltene Erkrankungen" as KDSSE #LightGreen {
-  class BMI {
+  class BMI #white {
     + Code
     + Wert
     + Dokumentationsdatum
   }
 }
 package "KDS Modul\nMikrobiologie" as KDSMibi #LightGreen {
-  class "Multiresistenter Erreger" as MultiresistenteErreger {
+  class "Multiresistenter Erreger" as MultiresistenteErreger #white {
     + Code
     + MRGN-Klasse
     + Datum

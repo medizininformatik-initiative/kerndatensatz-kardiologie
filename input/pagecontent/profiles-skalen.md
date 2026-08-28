@@ -6,11 +6,21 @@ Diese Gruppe umfasst standardisierte klinische Skalen zur Bewertung des funktion
 
 **MII PR Kardio Score NYHA** — [StructureDefinition-mii-pr-kardio-score-nyha.html](StructureDefinition-mii-pr-kardio-score-nyha.html)
 
-Einstufung der Herzinsuffizienz nach NYHA-Klassifikation.
+  **Zweck:** Einstufung der Herzinsuffizienz nach NYHA-Klassifikation.
+
+  **Parent:**
+
+  **Diff:**
+  - ...
 
 **MII PR Kardio Score modifizierte Rankin Skala** — [StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html](StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html)
 
-Outcome-Erfassung eines Schlaganfalls mittels mRS.
+  **Zweck:** Outcome-Erfassung eines Schlaganfalls mittels mRS.
+
+  **Parent:**
+
+  **Diff:**
+  - ...
 
 ---
 

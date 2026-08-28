@@ -1,34 +1,59 @@
-# Profile: EKG-Metadaten
+Diese Gruppe umfasst Metadaten und technische Informationen zu EKG-Aufnahmen. **Die Rohdaten eines EKGs werden hier nicht in FHIR abgebildet** (dafür gibt es DICOM), sondern Metadaten und Referenzen. Die Abbildung der EKG-Metadaten mit Referenz auf die Rohdaten ermöglicht das Auffinden und Beantragen von EKG-Daten für Datennutzungsprojekte.
 
-Diese Gruppe umfasst Metadaten und technische Informationen zu EKG-Aufnahmen.
+## Disclaimer
 
-**Die Rohdaten eines EKGs werden nicht in FHIR abgebildet** (dafür gibt es DICOM), sondern Metadaten und Referenzen.
+Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-Status und sollten aktuell noch nicht implementiert werden. Eine Ausarbeitung der Profile erfolgt zukünftig im Rahmen der weiteren Umsetzungsstufen des Moduls Kardiologie.
 
 ## Profile
 
 **MII PR Kardio EKG Durchführung** — [StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.html](StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.html)
 
-Profil zur Erfassung der Durchführung eines EKG.
+  **Zweck:** Profil zur Erfassung der Durchführung eines EKG.
+
+  **Parent:**
+
+  **Diff:**
+  - ...
 
 **MII PR Kardio EKG Kanal** — [StructureDefinition-mii-pr-kardio-ekg-kanal.html](StructureDefinition-mii-pr-kardio-ekg-kanal.html)
 
-Abbildung eines EKG-Kanals (I, II, III, V1-V6, aVR, aVL, aVF).
+**Zweck:** Abbildung eines EKG-Kanals (I, II, III, V1-V6, aVR, aVL, aVF).
+
+**Parent:**
+
+  **Diff:**
+  - ...
 
 **MII PR Kardio EKG Referenz** — [StructureDefinition-mii-pr-kardio-ekg-referenz.html](StructureDefinition-mii-pr-kardio-ekg-referenz.html)
 
-Referenzierung eines EKGs mit Rohdaten an externem Ort.
+**Zweck:** Referenzierung eines EKGs mit Rohdaten an externem Ort.
+
+**Parent:**
+
+  **Diff:**
+  - ...
 
 **MII PR Kardio EKG Geraet** — [StructureDefinition-mii-pr-kardio-ekg-geraet.html](StructureDefinition-mii-pr-kardio-ekg-geraet.html)
 
-Profil eines EKG-Gerätes.
+**Zweck:** Profil eines EKG-Gerätes.
+
+**Parent:**
+
+  **Diff:**
+  - ...
 
 **MII PR Kardio EKG Geraetedefinition** — [StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html](StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html)
 
-Gerätedefinition eines EKG-Gerätes.
+**Zweck:** Gerätedefinition eines EKG-Gerätes.
+
+**Parent:**
+
+  **Diff:**
+  - ...
 
 **MII PR Kardio EKG Annotation** — [StructureDefinition-mii-pr-kardio-ekg-annotation.html](StructureDefinition-mii-pr-kardio-ekg-annotation.html)
 
-Erfassung von EKG-Annotationen und Interpretationen.
+**Zweck:** Erfassung von EKG-Annotationen und Interpretationen.
 
 ---
 

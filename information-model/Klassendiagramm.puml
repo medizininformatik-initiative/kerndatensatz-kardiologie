@@ -59,7 +59,7 @@ package "KDS Modul\nBasis" as KDSBasis #LightGreen {
     + Stadium
     + Schweregrad
   }
-  class "Allergie (Person 2027)" as Allergie {
+  class "Allergie (Person v2027)" as Allergie {
     + Substanz
   }
 }
@@ -136,6 +136,7 @@ class "Krankenhausaufenthalte wegen HF im letzten Jahr" as KHAufenth #LightBlue 
 }
 
 class "Kardiale Deviceimplantation" as IDevice #LightBlue {
+  + Code
   + Implantationsdatum
 }
 
@@ -163,7 +164,7 @@ class "Mod. Rankin-Skala" as MRS #LightBlue {
   + Wert
   + Dokumentationsdatum
 }
-class "Kardio-Risikoscore" as KardioScore #LightBlue {
+class "Kardio-Risikoscore" as KardioScore {
   + Code
   + Wert
   + Dokumentationsdatum
@@ -248,11 +249,13 @@ class "EKG-Rohdatenreferenz" as EKGReferenz {
   + Aufzeichnungsdatum
 }
 
-class "Echoparameter (LVEF)" as Echoparameter {
+class "Echoparameter" as Echoparameter {
   + Code
   + Wert
   + Dokumentationsdatum
 }
+
+class "LVEF" as LVEF #LightBlue {}
 
 class Device {
   + Code
@@ -306,12 +309,16 @@ Diagnostik *-- BMI
 Diagnostik *-- Laborwert
 Diagnostik *-- EKGMetadaten
 
+LVEF -up-|> Echoparameter
+
 EKGMetadaten *-- EKGGeraet
 EKGMetadaten *-- EKGAnnotation
 EKGMetadaten *-- EKGReferenz
 
-IDevice *-- KardioDevice
-Device *-- IDeviceMode
+IDevice --- KardioDevice
+Device --- IDeviceMode
+
+IDevice -left-|> Prozedur
 
 KardioDevice --|> Device
 EKGGeraet --|> Device

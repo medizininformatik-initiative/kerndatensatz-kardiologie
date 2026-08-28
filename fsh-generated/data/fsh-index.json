@@ -1,13 +1,5 @@
 [
   {
-    "outputFile": "CapabilityStatement-mii-cps-kardio-capabilitystatement.json",
-    "fshName": "mii-cps-kardio-capabilitystatement",
-    "fshType": "Instance",
-    "fshFile": "capabilitystatement.fsh",
-    "startLine": 28,
-    "endLine": 164
-  },
-  {
     "outputFile": "CodeSystem-mii-cs-kardio-acribis-questionnaireanswer.json",
     "fshName": "MII_CS_Kardio_Acribis_QuestionnaireAnswer",
     "fshType": "CodeSystem",

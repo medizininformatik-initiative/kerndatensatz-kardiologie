@@ -20,9 +20,9 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason // |4.0.1
 
 //ValueSets ("-vs"-Suffix)
-Alias: $icd10-gm-vs = http://fhir.de/ValueSet/bfarm/icd-10-gm
-Alias: $alpha-id-vs = http://fhir.de/ValueSet/bfarm/alpha-id
-Alias: $ops-vs = http://fhir.de/ValueSet/bfarm/ops
+Alias: $icd10-gm-vs = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-icd10gm
+Alias: $alpha-id-vs = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-alphaid
+Alias: $ops-vs = https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/mii-vs-prozedur-ops
 Alias: $diagnoses-sct-vs = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct
 Alias: $prozedur-sct-vs = https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct
 Alias: $condition-category-vs = http://terminology.hl7.org/ValueSet/condition-category

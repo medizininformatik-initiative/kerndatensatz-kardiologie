@@ -29,3 +29,7 @@ Gerätedefinition eines EKG-Gerätes.
 **MII PR Kardio EKG Annotation** — [StructureDefinition-mii-pr-kardio-ekg-annotation.html](StructureDefinition-mii-pr-kardio-ekg-annotation.html)
 
 Erfassung von EKG-Annotationen und Interpretationen.
+
+---
+
+**Hinweis:** Auf dieser Seite enthaltene Links führen auf die Artifact-Übersicht zur Ressource inkl. Verlinkung von Abhängigkeiten, Beispiel-Ressourcen und verwendeten Terminologien.

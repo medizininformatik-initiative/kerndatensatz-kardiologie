@@ -19,3 +19,7 @@ Erfassung der Geräteprogrammierung (z.B. VVI-Modus).
 **MII PR Kardio NBG Schrittmachermodus** — [StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.html](StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.html)
 
 Abbildung der Schrittmachermodus-Einstellung nach NBG-Standard.
+
+---
+
+**Hinweis:** Auf dieser Seite enthaltene Links führen auf die Artifact-Übersicht zur Ressource inkl. Verlinkung von Abhängigkeiten, Beispiel-Ressourcen und verwendeten Terminologien.

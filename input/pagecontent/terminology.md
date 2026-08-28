@@ -1,5 +1,3 @@
-# Terminologien
-
 Das Kardiologie-Modul verwendet eine Vielzahl von Codesystemen und ValueSets zur standardisierten Kodierung von kardiovaskulären Daten.
 
 ## CodeSysteme

@@ -1,5 +1,3 @@
-# Beschreibung Modul Kardiologie
-
 ## Einleitung
 
 Das Modul Kardiologie ist als Modul zur Datenerfassung in strukturierter und standardisierter Form, so dass fachspezifische Information zu kardiovaskuläre Erkrankungen erfasst werden. Der verwendete Datensatz umfasst eine Reihe von qualitative und quantitative Parameter, die eine Datengrundlage liefern für Diagnostik und Behandlung kardiovaskulärer Erkrankungen. Zudem sind sogenannte prediktive Score Parameter eingeschlossen, die aufgrund dieser Daten Wahrscheinlichkeiten für kardiovaskuläre Events repräsentieren und den Einfluss von Medikation und Lebensführung einbeziehen. 
@@ -15,7 +13,6 @@ Das Kerndatensatzmodul Kardiolgie ist als eigenständiges Modul konzipiert und i
 <img width="810" height="532" alt="image" src="https://github.com/user-attachments/assets/2d23a847-7292-430d-b8e3-d49aae701c3d" />
 
 (aus: [Medizininformatik Initiative Webseite](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative)] 
-
 
 ## Zielsetzung
 

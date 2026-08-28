@@ -1,5 +1,3 @@
-# Referenzen
-
 ## Offizielle Quellen
 
 * **Modul im Simplifier:** [https://simplifier.net/MII-Erweiterungsmodul-Kardiologie](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie)

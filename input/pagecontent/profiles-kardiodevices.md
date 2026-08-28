@@ -1,5 +1,3 @@
-# Profile: KardioDevices
-
 Diese Gruppe umfasst die Profilierung kardialer (Implantat-)Geräte.
 
 ## Profile

@@ -1,5 +1,3 @@
-# Profile: Skalen
-
 Diese Gruppe umfasst standardisierte klinische Skalen zur Bewertung des funktionellen Status und der Herzinsuffizienz-Schwere.
 
 ## Profile

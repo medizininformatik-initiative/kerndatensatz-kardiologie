@@ -1,5 +1,3 @@
-# Kontext im Gesamtprojekt / Bezüge zu anderen Modulen
-
 Das Kardiologie-Modul ist ein Erweiterungsmodul des Kerndatensatzes (KDS) der Medizininformatik Initiative und greift auf bereits definierte Ressourcen und Strukturen anderer Module zurück.
 
 ## Direkte Abhängigkeiten

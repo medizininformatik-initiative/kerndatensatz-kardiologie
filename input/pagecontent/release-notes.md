@@ -1,5 +1,3 @@
-# Release Notes
-
 Auf dieser Seite werden die Unterschiede zwischen den Versionen nachgehalten.
 
 Die aktuelle Version des Kardiologie-Moduls ist **2026.0.0-alpha.3**.

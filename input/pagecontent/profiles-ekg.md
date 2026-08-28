@@ -1,4 +1,6 @@
-Diese Gruppe umfasst Metadaten und technische Informationen zu EKG-Aufnahmen. **Die Rohdaten eines EKGs werden hier nicht in FHIR abgebildet** (dafür gibt es DICOM), sondern Metadaten und Referenzen. Die Abbildung der EKG-Metadaten mit Referenz auf die Rohdaten ermöglicht das Auffinden und Beantragen von EKG-Daten für Datennutzungsprojekte.
+Diese Gruppe umfasst Metadaten und technische Informationen zu EKG-Aufnahmen. **Die Rohdaten eines EKGs werden hier nicht in FHIR abgebildet** (dafür gibt es andere besser geeignete Formate, zum Beispiel DICOM), sondern Metadaten und Referenzen. Die Abbildung der EKG-Metadaten mit Referenz auf die Rohdaten ermöglicht das Auffinden und Beantragen von EKG-Daten für Datennutzungsprojekte.
+
+Die Modellierung ist angelehnt an das Domain Information Model der Normenfamilie ISO/IEEE 11073 und verwendet auch ihre Nomenklatur.
 
 ## Disclaimer
 
@@ -13,7 +15,7 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
   **Parent:** Procedure (MII Core Modul Prozedur)
 
   **Diff:**
-  - `category` enthält SNOMED CT Code 165197003
+  - `category` enthält SNOMED CT Code 165197003 (Diagnostic assessment)
   - `code` aus ValueSet `MII_VS_Kardio_EKG_Prozedur_SNOMEDCT` (required)
   - `subject` ist auf Patienten-Referenz beschränkt
   - `performedDateTime` und `performedPeriod` als Must-Support
@@ -28,14 +30,14 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
 
   **Diff:**
   - `type` enthält MDC-Code 69799 (MDC_DEV_ECG_CHAN)
-  - `property` geslicet für Kanalbezeichnung (MDC_ATTR_CHAN_NUM_LOGICAL)
+  - `property` gesliced für Kanalbezeichnung (MDC_ATTR_CHAN_NUM_LOGICAL)
   - `property[kanalbezeichnung].valueCode` aus ValueSet `MII_VS_Kardio_EKG_Kanaele_MDC` (required)
   - `parent` Referenz auf `MII_PR_Kardio_EKG_Geraet` (Must-Support)
 
 **MII PR Kardio EKG Referenz** — [StructureDefinition-mii-pr-kardio-ekg-referenz.html](StructureDefinition-mii-pr-kardio-ekg-referenz.html)
 
-  **Zweck:** Referenzierung eines EKGs mit Rohdaten an externem Ort. Hier analog zu Bildgebene Verfahren File
-  oder Netwerk URL
+  **Zweck:** Referenzierung eines EKGs mit Rohdaten an externem Ort. Hier analog zu Bildgebende Verfahren File-
+  oder Netzwerk-URL
 
   **Parent:** DocumentReference
 

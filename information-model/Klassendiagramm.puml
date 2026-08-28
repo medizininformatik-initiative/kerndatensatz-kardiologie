@@ -1,4 +1,4 @@
-@startuml KDS Kardiologie
+@startuml Klassendiagramm
 'left to right direction
 'top to bottom direction
 'skinparam dpi 300
@@ -309,7 +309,7 @@ Diagnostik *-- BMI
 Diagnostik *-- Laborwert
 Diagnostik *-- EKGMetadaten
 
-LVEF -up-|> Echoparameter
+LVEF -up-* Echoparameter
 
 EKGMetadaten *-- EKGGeraet
 EKGMetadaten *-- EKGAnnotation
@@ -328,6 +328,8 @@ Diagnose --|> Vorerkrankung
 Patient -[hidden]down-> Prozedur
 Vitalstatus -[hidden]down-> Medikation
 Prozedur -[hidden]down-> Diagnose
+KardioDevice -[hidden]left-> Device
+IDeviceMode -[hidden]left-> Device
 
 ' Layout --> Chaotische Anordnung: Ohne Hidden-Verbindungen ist es noch schlimmer.
 'Diagnose -[hidden]left-> Nichtvorliegen

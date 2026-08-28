@@ -10,55 +10,73 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
 
   **Zweck:** Profil zur Erfassung der Durchführung eines EKG.
 
-  **Parent:**
+  **Parent:** Procedure (MII Core Modul Prozedur)
 
   **Diff:**
-  - ...
+  - `category` enthält SNOMED CT Code 165197003
+  - `code` aus ValueSet `MII_VS_Kardio_EKG_Prozedur_SNOMEDCT` (required)
+  - `subject` ist auf Patienten-Referenz beschränkt
+  - `performedDateTime` und `performedPeriod` als Must-Support
+  - `bodySite` enthält SNOMED CT Code 80891009 (Heart structure)
+  - `usedReference` ist auf Device-Referenz beschränkt
 
 **MII PR Kardio EKG Kanal** — [StructureDefinition-mii-pr-kardio-ekg-kanal.html](StructureDefinition-mii-pr-kardio-ekg-kanal.html)
 
   **Zweck:** Abbildung eines EKG-Kanals (I, II, III, V1-V6, aVR, aVL, aVF).
 
-  **Parent:**
+  **Parent:** Device
 
   **Diff:**
-  - ...
+  - `type` enthält MDC-Code 69799 (MDC_DEV_ECG_CHAN)
+  - `property` geslicet für Kanalbezeichnung (MDC_ATTR_CHAN_NUM_LOGICAL)
+  - `property[kanalbezeichnung].valueCode` aus ValueSet `MII_VS_Kardio_EKG_Kanaele_MDC` (required)
+  - `parent` Referenz auf `MII_PR_Kardio_EKG_Geraet` (Must-Support)
 
 **MII PR Kardio EKG Referenz** — [StructureDefinition-mii-pr-kardio-ekg-referenz.html](StructureDefinition-mii-pr-kardio-ekg-referenz.html)
 
-  **Zweck:** Referenzierung eines EKGs mit Rohdaten an externem Ort.
+  **Zweck:** Referenzierung eines EKGs mit Rohdaten an externem Ort. Hier analog zu Bildgebene Verfahren File
+  oder Netwerk URL
 
-  **Parent:**
+  **Parent:** DocumentReference
 
   **Diff:**
-  - ...
+  - `type` auf LOINC 11524-6 fixiert
+  - `subject`, `date` und `content` als Must-Support
+  - `author` auf Device-Referenz beschränkt
+  - `content.attachment.url` als Must-Support
 
 **MII PR Kardio EKG Geraet** — [StructureDefinition-mii-pr-kardio-ekg-geraet.html](StructureDefinition-mii-pr-kardio-ekg-geraet.html)
 
   **Zweck:** Profil eines EKG-Gerätes.
 
-  **Parent:**
+  **Parent:** Device
 
   **Diff:**
-  - ...
+  - `manufacturer` und `deviceName` als Must-Support
+  - `type` aus ValueSet `MII_VS_Kardio_Objekte_Geraete_MDC` (required)
 
 **MII PR Kardio EKG Geraetedefinition** — [StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html](StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html)
 
   **Zweck:** Gerätedefinition eines EKG-Gerätes.
 
-  **Parent:**
+  **Parent:** DeviceDefinition
 
   **Diff:**
-  - ...
+  - `manufacturer[x]` und `deviceName` als Must-Support
 
 **MII PR Kardio EKG Annotation** — [StructureDefinition-mii-pr-kardio-ekg-annotation.html](StructureDefinition-mii-pr-kardio-ekg-annotation.html)
 
-  **Zweck:** Erfassung von EKG-Annotationen und Interpretationen.
+  **Zweck:** Erfassung von EKG-Annotationen und Interpretationen z.B. Intervalle, Zeiten, Rhythmus etc.
 
-  **Parent:**
+  **Parent:** Observation
 
   **Diff:**
-  - ...
+  - `category` enthält `vital-signs`
+  - `code` aus ValueSet `MII_VS_Kardio_Metriken_EKG_Annotationen_MDC` (required)
+  - `subject` ist auf Patienten-Referenz beschränkt
+  - `effective[x]` (dateTime, Period, instant) als Must-Support
+  - `device` auf Device-Referenz beschränkt
+  - `derivedFrom` enthält Referenz auf `DocumentReference` (EKG Rohdaten)
 
 ---
 

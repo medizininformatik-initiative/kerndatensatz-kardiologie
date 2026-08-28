@@ -1,4 +1,3 @@
-[mii-cps-kardio-capabilitystatement]: CapabilityStatement-mii-cps-kardio-capabilitystatement.html
 [MII_CS_Kardio_Atherosklerotisches_Ereignis]: CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.html
 [MII_CS_Kardio_Lebensmittelpunkt]: CodeSystem-mii-cs-kardio-lebensmittelpunkt.html
 [MII_CS_Kardio_Supplement_SNOMEDCT]: CodeSystem-mii-cs-kardio-supplement-snomedct.html

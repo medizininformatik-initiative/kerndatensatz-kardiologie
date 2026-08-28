@@ -1,4 +1,4 @@
-@startuml KDS Kardiologie
+@startuml Klassendiagramm
 'left to right direction
 'top to bottom direction
 'skinparam dpi 300
@@ -11,9 +11,11 @@ skinparam linetype ortho
 
 legend bottom left
   <b>Legende</b>
-  |<#LightGreen>           | Bestehende KDS Module                 |
-  |<#LightBlue>            | Umsetzungsstufe 1 - Modul Kardiologie |
-  |<#Lavender>             | ISiK (gematik)                        |
+  |<#LightGreen>           | Bestehende KDS Module                     |
+  |<#white>                | Profile aus bestehenden KDS Modulen       |
+  |<#LightBlue>            | Modul Kardiologie - Umsetzungsstufe 1     |
+  |<#E2E2E2>               | Modul Kardiologie - Umsetzungsstufe >=2   |
+  |<#Lavender>             | ISiK (gematik)                            |
 end legend
 
 class "Kerndatensatz Kardiologie" as KDSKardio{}
@@ -50,13 +52,16 @@ package "KDS Modul\nBasis" as KDSBasis #LightGreen {
     + Dokumentationsdatum
   }
   class Diagnose {
-      + Code
-      + Beginndatum
-      + Feststellungsdatumdatum
-      + Dokumentationsdatum
-      + Stadium
-      + Schweregrad
-    }
+    + Code
+    + Beginndatum
+    + Feststellungsdatumdatum
+    + Dokumentationsdatum
+    + Stadium
+    + Schweregrad
+  }
+  class "Allergie (Person v2027)" as Allergie {
+    + Substanz
+  }
 }
 package "KDS Modul \nSoziodemographische Daten" as KDSSDD #LightGreen {
   class Geburtsland {
@@ -86,6 +91,11 @@ class Symptom {
 class "Anamnestisches Nichtvorliegen\neiner Diagnose oder Prozedur" as Nichtvorliegen #LightBlue {
   + Code
   + Wert
+  + Dokumentationsdatum
+}
+
+class "Schlafapnoe-Behandlung mit Maske" as Schlafapnoe {
+  + Code
   + Dokumentationsdatum
 }
 
@@ -125,12 +135,18 @@ class "Krankenhausaufenthalte wegen HF im letzten Jahr" as KHAufenth #LightBlue 
   + Dokumentationsdatum
 }
 
-class "Implantiertes Device" as IDevice #LightBlue {
+class "Kardiale Deviceimplantation" as IDevice #LightBlue {
+  + Code
   + Implantationsdatum
 }
 
-class Allergie {
-  + Substanz
+class "KardioDevice" as KardioDevice #LightBlue {
+  + Status
+  + Type
+}
+
+class "NBG Schrittmachermodus" as IDeviceMode #LightBlue {
+  + Code
 }
 
 ' ================
@@ -148,7 +164,7 @@ class "Mod. Rankin-Skala" as MRS #LightBlue {
   + Wert
   + Dokumentationsdatum
 }
-class "Kardio-Risikoscore" as KardioScore #LightBlue {
+class "Kardio-Risikoscore" as KardioScore {
   + Code
   + Wert
   + Dokumentationsdatum
@@ -159,6 +175,11 @@ class "Fontaine-Stadium" as FontaineStadium {
   + Dokumentationsdatum
 }
 class "CCS-Grad" as CCSGrad {
+  + Code
+  + Wert
+  + Dokumentationsdatum
+}
+class "EHRA-Stadium" as EHRAStadium {
   + Code
   + Wert
   + Dokumentationsdatum
@@ -191,6 +212,12 @@ package "KDS Modul\nICU" as KDSICU #LightGreen {
   }
   class "Körpergewicht" as Koerpergewicht {
     + Code
+    + Systolisch
+    + Diastolisch
+    + Dokumentationsdatum
+  }
+  class "Arterieller Blutdruck" as BP {
+    + Code
     + Wert
     + Dokumentationsdatum
   }
@@ -222,11 +249,13 @@ class "EKG-Rohdatenreferenz" as EKGReferenz {
   + Aufzeichnungsdatum
 }
 
-class Echoparameter {
+class "Echoparameter" as Echoparameter {
   + Code
   + Wert
   + Dokumentationsdatum
 }
+
+class "LVEF" as LVEF #LightBlue {}
 
 class Device {
   + Code
@@ -251,6 +280,7 @@ Patientendaten *-- Ethnie
 Anamnese *-- Vorerkrankung
 Anamnese *-- Symptom
 Anamnese *-- Nichtvorliegen
+Anamnese *-- Schlafapnoe
 Anamnese *-- Erstereignis
 Anamnese *-- Risikofaktoren
 Anamnese *-- IDevice
@@ -268,27 +298,38 @@ Skalen *-- CCSGrad
 Skalen *-- MRS
 Skalen *-- KardioScore
 Skalen *-- PRO
+Skalen *-- EHRAStadium
 
 Diagnostik *-- Echoparameter
 Diagnostik *-- MultiresistenteErreger
 Diagnostik *-- Koerpergroesse
 Diagnostik *-- Koerpergewicht
+Diagnostik *-- BP
 Diagnostik *-- BMI
 Diagnostik *-- Laborwert
 Diagnostik *-- EKGMetadaten
+
+LVEF -up-* Echoparameter
 
 EKGMetadaten *-- EKGGeraet
 EKGMetadaten *-- EKGAnnotation
 EKGMetadaten *-- EKGReferenz
 
-Raucherstatus --|> ISIKRaucherstatus
-IDevice --|> Device
+IDevice --- KardioDevice
+Device --- IDeviceMode
+
+IDevice -left-|> Prozedur
+
+KardioDevice --|> Device
 EKGGeraet --|> Device
+Raucherstatus --|> ISIKRaucherstatus
 Diagnose --|> Vorerkrankung
 
 Patient -[hidden]down-> Prozedur
 Vitalstatus -[hidden]down-> Medikation
 Prozedur -[hidden]down-> Diagnose
+KardioDevice -[hidden]left-> Device
+IDeviceMode -[hidden]left-> Device
 
 ' Layout --> Chaotische Anordnung: Ohne Hidden-Verbindungen ist es noch schlimmer.
 'Diagnose -[hidden]left-> Nichtvorliegen

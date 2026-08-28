@@ -8,21 +8,6 @@
   - Profil nachbauen und ISiK nicht als Dependency angeben?
   - Auf Fix durch gematik warten oder hl7 fhir / build.fhir.org/ig-Verantwortliche anschreiben, ob die im Build-Prozess einrichten, dass packages zu inflaten?
 
-### Jekyll-Build Prozess, für kürzere Build/Test Zyklen (Jekyll-Build: 1 Minute; IG-Publisher-Build: 36 Minutes)
-> Liquid Doku: https://build.fhir.org/ig/FHIR/ig-guidance/sql.html
-
-- Initial IG Builder per `sh _genonce.sh` laufen lassen
-- Jekyll isoliert auf Basis von Änderungen an Temp-Dateien ausführen:
-  - Temp-Source-Files in `kerndatensatz-kardiologie/temp/pages/_includes`
-  - Go to git-repo `cd kerndatensatz-kardiologie`
-  - Build per `jekyll build --source temp/pages/ --destination temp/ig-test --incremental`
-  - Output to `temp/ig-test`
-- Bei Erfolg die Änderungen in `input/pagecontent/xyz.md` übernehmen
-
-### Set IG to german? IG-Builder produces en xhtml pages..
-- angepasst in sushi-config + ig.ini
-- Erfolg?
-
 ## Menue
 
 Home: index.html                                                > ++    | Initiale Version steht

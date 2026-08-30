@@ -186,6 +186,11 @@ menu:
 #     description: An example Patient
 #     exampleBoolean: true
 #   Patient/bad-example: omit
+resources:
+  Parameters/mii-param-kardio-manifest:
+    name: MII Param Kardio Manifest
+    description: >
+      Manifest zur zentralen Festlegung der verwendeten Versionen verschiedener Referenzen.
 #
 #
 # Groups can control certain aspects of the IG generation.  The IG

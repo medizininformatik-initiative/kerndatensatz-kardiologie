@@ -13,7 +13,7 @@ Das UML-Klassendiagramm zeigt die zentralen Profile und Beziehungen des Kardiolo
 * **Anamnese** (Vorerkrankungen, Nicht-Vorliegen, Skalen, etc.)
 * **Diagnostik** (Device-Implantation, EKG, etc.)
 * **Kardiologische Devices** (Schrittmacher, ICD, CRT, LVAD/BiVAD)
-* **EKG Metadaten** ()
+* **EKG Metadaten** (Metadaten, Annotationen, Auswertungsergebnisse, Rohdatenreferenz)
 
 ---
 

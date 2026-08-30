@@ -349,6 +349,14 @@
       },
       {
         "reference": {
+          "reference": "Parameters/mii-param-kardio-manifest"
+        },
+        "description": "Manifest zur zentralen Festlegung der verwendeten Versionen verschiedener Referenzen.\n",
+        "exampleBoolean": false,
+        "name": "MII Param Kardio Manifest"
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
         },
         "name": "MII PR Kardio Anzahl KH Aufenthalte wg HF",
@@ -690,13 +698,6 @@
         "name": "MII VS Kardio NYHA Klassen [SNOMED CT]",
         "description": "Klassen der New York Heart Association Classification",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Parameters/mii-param-kardio-manifest"
-        },
-        "exampleBoolean": false,
-        "name": "mii-param-kardio-manifest"
       },
       {
         "reference": {

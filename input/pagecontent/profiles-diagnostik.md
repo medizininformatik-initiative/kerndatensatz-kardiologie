@@ -2,20 +2,20 @@ Profile dieser Kategorie bilden objektiv erhobene Mess- und Befunddaten ab, sofe
 
 ## Profile
 
-**MII PR Kardio Linksventrikulaere Ejektionsfraktion** — [StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.html](StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.html)
+### **MII PR Kardio Linksventrikulaere Ejektionsfraktion** — [StructureDefinition](StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.html)
 
   **Zweck** Angabe eines Untersuchungsergebnisses zur LVEF mittels Echokardiographie.
 
-  **Parent:** HL7 FHIR R4 Observation
+  **Parent:** Observation
 
   **Diff:**
-  - Observation.partOf für Referenz auf Procedure
-  - Observation.category mit Angabe "imaging"
-  - Observation.code anzugeben mit SNOMED CT und LOINC
-  - Observation.subject mit Kardinalität 1..1 auf Patienten-Referenz
-  - Observation.effective[x] eingescchränkt auf dateTime, Period oder instant
-  - Observation.value[x] als UCUM-Unit "%"
-  - Observation.referenceRange mit Kardinalität 0..1 angegeben
+  - `partOf` für Referenz auf Procedure
+  - `category` mit Angabe "imaging"
+  - `code` anzugeben mit SNOMED CT und LOINC
+  - `subject` mit Kardinalität 1..1 auf Patienten-Referenz
+  - `effective[x]` eingescchränkt auf dateTime, Period oder instant
+  - `value[x]` als UCUM-Unit "%"
+  - `referenceRange` mit Kardinalität 0..1 angegeben
 
 ---
 

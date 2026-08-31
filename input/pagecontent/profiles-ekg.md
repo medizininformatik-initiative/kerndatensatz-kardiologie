@@ -8,7 +8,7 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
 
 ## Profile
 
-**MII PR Kardio EKG Durchführung** — [StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.html](StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.html)
+**MII PR Kardio EKG Durchführung** — [StructureDefinition](StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.html)
 
   **Zweck:** Profil zur Erfassung der Durchführung eines EKG.
 
@@ -22,7 +22,7 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
   - `bodySite` enthält SNOMED CT Code 80891009 (Heart structure)
   - `usedReference` ist auf Device-Referenz beschränkt
 
-**MII PR Kardio EKG Kanal** — [StructureDefinition-mii-pr-kardio-ekg-kanal.html](StructureDefinition-mii-pr-kardio-ekg-kanal.html)
+**MII PR Kardio EKG Kanal** — [StructureDefinition](StructureDefinition-mii-pr-kardio-ekg-kanal.html)
 
   **Zweck:** Abbildung eines EKG-Kanals (I, II, III, V1-V6, aVR, aVL, aVF).
 
@@ -34,7 +34,7 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
   - `property[kanalbezeichnung].valueCode` aus ValueSet `MII_VS_Kardio_EKG_Kanaele_MDC` (required)
   - `parent` Referenz auf `MII_PR_Kardio_EKG_Geraet` (Must-Support)
 
-**MII PR Kardio EKG Referenz** — [StructureDefinition-mii-pr-kardio-ekg-referenz.html](StructureDefinition-mii-pr-kardio-ekg-referenz.html)
+**MII PR Kardio EKG Referenz** — [StructureDefinition](StructureDefinition-mii-pr-kardio-ekg-referenz.html)
 
   **Zweck:** Referenzierung eines EKGs mit Rohdaten an externem Ort. Hier analog zu Bildgebende Verfahren File-
   oder Netzwerk-URL
@@ -47,7 +47,7 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
   - `author` auf Device-Referenz beschränkt
   - `content.attachment.url` als Must-Support
 
-**MII PR Kardio EKG Geraet** — [StructureDefinition-mii-pr-kardio-ekg-geraet.html](StructureDefinition-mii-pr-kardio-ekg-geraet.html)
+**MII PR Kardio EKG Geraet** — [StructureDefinition](StructureDefinition-mii-pr-kardio-ekg-geraet.html)
 
   **Zweck:** Profil eines EKG-Gerätes.
 
@@ -57,7 +57,7 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
   - `manufacturer` und `deviceName` als Must-Support
   - `type` aus ValueSet `MII_VS_Kardio_Objekte_Geraete_MDC` (required)
 
-**MII PR Kardio EKG Geraetedefinition** — [StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html](StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html)
+**MII PR Kardio EKG Geraetedefinition** — [StructureDefinition](StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html)
 
   **Zweck:** Gerätedefinition eines EKG-Gerätes.
 
@@ -66,7 +66,7 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
   **Diff:**
   - `manufacturer[x]` und `deviceName` als Must-Support
 
-**MII PR Kardio EKG Annotation** — [StructureDefinition-mii-pr-kardio-ekg-annotation.html](StructureDefinition-mii-pr-kardio-ekg-annotation.html)
+**MII PR Kardio EKG Annotation** — [StructureDefinition](StructureDefinition-mii-pr-kardio-ekg-annotation.html)
 
   **Zweck:** Erfassung von EKG-Annotationen und Interpretationen z.B. Intervalle, Zeiten, Rhythmus etc.
 

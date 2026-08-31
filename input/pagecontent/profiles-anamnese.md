@@ -2,7 +2,7 @@ Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfas
 
 ## Profile
 
-- **MII PR Kardio Diagnose** — [StructureDefinition-mii-pr-kardio-diagnose.html](StructureDefinition-mii-pr-kardio-diagnose.html)
+### **MII PR Kardio Diagnose** — [StructureDefinition](StructureDefinition-mii-pr-kardio-diagnose.html)
 
   **Zweck:** Profil zur Abbildung einer Diagnose im Kontext der Kardiologie.  
 
@@ -16,7 +16,7 @@ Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfas
   - `asserter` als Must-support
 
 
-- **MII PR Kardio Diagnose Prozedur Nein Unbekannt** — [StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html](StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html)
+### **MII PR Kardio Diagnose Prozedur Nein Unbekannt** — [StructureDefinition](StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html)
 
   **Zweck:** Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagnose bzw. Prozedur, oder die Unklarheit darüber, ab.
 
@@ -31,7 +31,7 @@ Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfas
   - `category` mit required Binding auf ObservationCategoryCodes
 
 
-- **MII PR Kardio Atherosklerotisches Erstereignis** — [StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html](StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html)
+### **MII PR Kardio Atherosklerotisches Erstereignis** — [StructureDefinition](StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html)
 
   **Zweck:** Profil zur Erfassung des Datums des ersten atherosklerotischen Ereignisses.
 
@@ -48,7 +48,7 @@ Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfas
   - `component[datum].value[x]` als valueDateTime zur Angabe des Datum des bezeichneten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK, ...)
 
 
-- **MII PR Kardio Anzahl KH Aufenthalte wg HF** — [StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.html](StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.html)
+### **MII PR Kardio Anzahl KH Aufenthalte wg HF** — [StructureDefinition](StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.html)
 
   **Zweck:** Profil zur Erfassung der Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz.
 
@@ -63,7 +63,7 @@ Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfas
   - `component` geslicet für `Grund` mit SNOMED CT Code 406524005 (Reason for visit diagnosis)
   - `component[Grund].valueCodeableConcept` fixiert auf SNOMED CT Code 84114007 (Heart failure)
 
-- **MII PR Kardio Klappenvitium** — [StructureDefinition-mii-pr-kardio-klappenvitium.html](StructureDefinition-mii-pr-kardio-klappenvitium.html)
+### **MII PR Kardio Klappenvitium** — [StructureDefinition](StructureDefinition-mii-pr-kardio-klappenvitium.html)
 
   **Zweck:** Profil zur Abbildung einer Herzklappenerkrankung.
 

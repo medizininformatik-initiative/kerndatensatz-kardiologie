@@ -1,4 +1,4 @@
-Das Kardiologie-Modul verwendet eine Vielzahl von Codesystemen und ValueSets zur standardisierten Kodierung von kardiovaskulären Daten.
+Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zur standardisierten Kodierung von kardiovaskulären Daten sind im folgenden aufgelistet.
 
 ## CodeSysteme des Modul Kardiologie
 

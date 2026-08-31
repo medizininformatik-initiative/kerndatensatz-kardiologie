@@ -36,14 +36,14 @@ Schrittweise Erweiterung um alle relevanten Bereiche der Kardiologie (Anamnese, 
 
 ---
 
-## Datenerfassung in den DIZ
+## Datenmanagement in den DIZ
 
-Die Datenerfassung erfolgt in den Datenintegrationszentren (DIZ) nach dem MII-KDS-Modell:
+Die Datenaufbereitung erfolgt in den Datenintegrationszentren (DIZ) orientiert am Kerndatensatz der MII/NUM:
 
 1. **Quellsysteme:** Elektronische Patientenakten (EPAs), KIS, LIS, PACS, etc.
-2. **Mapping:** Mapping der lokalen Datenstruktur auf die MII-KDS-Profile (Kardiologie, Diagnose, Prozedur, etc.)
+2. **Mapping:** Mapping der lokalen Datenstruktur auf die Kerndatensatz-Profile (Basis, Diagnose, ICU, Kardiologie, etc.)
 3. **FHIR-Kodierung:** Konvertierung in FHIR-Ressourcen unter Nutzung der definierten Profile und ValueSets
 4. **Aufbereitung:** Qualitätsprüfung, Aggregation, Anonymisierung
-5. **Übermittlung:** Übermittlung an das Nationaler Gesundheitsdatenraum (NGD) / Forschungsdatenportal
+5. **Bereitstellung:** Auffindbarkeit der Daten über Forschungsdatenportal für Gesundheit (FDPG) und Bereitstellung im Rahmen von Datennutzungsprozessen
 
-Das Kardiologie-Modul definiert dabei die spezifischen Profile und Terminologien, die in allen DIZ einheitlich verwendet werden müssen, um die Interoperabilität und Auswertbarkeit der Daten sicherzustellen.
+Das Kardiologie-Modul definiert dabei kardiologie-spezifische Profile, die in allen DIZ einheitlich verwendet werden müssen, um die Interoperabilität und Auswertbarkeit der Daten sicherzustellen.

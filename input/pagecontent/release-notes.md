@@ -2,11 +2,9 @@ Auf dieser Seite werden die Unterschiede zwischen den Versionen nachgehalten.
 
 Die aktuelle Version des Kardiologie-Moduls ist **2026.0.0-alpha.3**.
 
-## Version 2026.0.0 (Ballot-Version)
+## Version 2027.0.0-rc1 (Version für Ballot in Q4/2026)
 
-Diese Version ist die Veröffentlichung des MII Moduls Kardiologie für das erste Ballot-Verfahren.
-
-> Work in Progress / TODO
+Diese Version ist die Veröffentlichung des MII Moduls Kardiologie für die Ballotierung.
 
 ### Änderungen seit 2026.0.0-alpha.3
 - `fix` Slicing-Fehler in MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt behoben
@@ -14,6 +12,8 @@ Diese Version ist die Veröffentlichung des MII Moduls Kardiologie für das erst
 - `chore` Nicht verwendete Dependency auf `Modul ICU` entfernt
 - `docs` UML-Diagram hinzugefügt
 - `docs` Erstellung eines Implementation Guides für das Modul Kardiologie
+
+---
 
 ## Version 2026.0.0-alpha.3 (aktuell - 12.06.26 14:55)
 

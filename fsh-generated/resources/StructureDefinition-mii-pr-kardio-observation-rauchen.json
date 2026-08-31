@@ -6,6 +6,7 @@
   "name": "MII_PR_Kardio_Observation_Rauchen",
   "title": "MII PR Kardio Observation Rauchen",
   "status": "active",
+  "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

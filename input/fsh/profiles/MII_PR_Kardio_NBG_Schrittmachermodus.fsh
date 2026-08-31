@@ -9,7 +9,7 @@ Die konkrete Programmierung eines Herzschrittmachers zu einem bestimmmten Zeitpu
 * insert Publisher
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2025-05-13"
 
 * type 1.. MS

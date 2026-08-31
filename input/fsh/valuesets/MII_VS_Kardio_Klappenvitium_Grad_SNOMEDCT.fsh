@@ -7,7 +7,7 @@ Description: "SNOMED CT Codes für den Grad Klappenerkrankungen"
 * insert Publisher
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2025-09-18"
 
 * include codes from system $sct where concept descendent-of #1157272001 //  Numeric grade on a scale of 1 to 4 (qualifier value)

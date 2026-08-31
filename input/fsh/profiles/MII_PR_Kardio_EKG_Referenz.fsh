@@ -4,6 +4,12 @@ Id: mii-pr-kardio-ekg-referenz
 Title: "MII PR Kardio EKG Referenz"
 Description: "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespeichert werden."
 
+* insert PR_CS_VS_Version
+* insert Publisher
+
+* ^status = #draft
+* ^experimental = true
+
 * status MS
 
 * type 1.. MS

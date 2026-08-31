@@ -6,7 +6,7 @@
   "name": "MII_PR_Kardio_NBG_Schrittmachermodus",
   "title": "MII PR Kardio NBG Schrittmachermodus",
   "status": "active",
-  "experimental": true,
+  "experimental": false,
   "date": "2025-05-13",
   "publisher": "Medizininformatik Initiative",
   "contact": [

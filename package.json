@@ -32,6 +32,7 @@
     "url": "https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie.git"
   },
   "dependencies": {
+    "hl7.terminology.r4": "7.1.0",
     "de.basisprofil.r4": "1.6.0",
     "de.medizininformatikinitiative.kerndatensatz.meta": "2026.0.0",
     "de.gematik.isik": "6.0.0",

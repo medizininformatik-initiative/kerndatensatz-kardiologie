@@ -63,6 +63,12 @@
       "version": "6.0.0",
       "uri": "http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik",
       "id": "de_gematik_isik"
+    },
+    {
+      "packageId": "hl7.terminology.r4",
+      "version": "7.1.0",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "id": "hl7_terminology_r4"
     }
   ],
   "definition": {
@@ -697,14 +703,6 @@
         },
         "name": "MII VS Kardio NYHA Klassen [SNOMED CT]",
         "description": "Klassen der New York Heart Association Classification",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-follow-up"
-        },
-        "name": "MII_CS_Follow_Up",
-        "description": "Dieses CodeSystem enthält lokal definierte Einheiten zur Verwendung im Follow-Up Questionnaire.",
         "exampleBoolean": false
       },
       {

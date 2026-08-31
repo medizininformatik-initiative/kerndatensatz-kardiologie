@@ -10,7 +10,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 // bei Übernahme aus ISiK Monitoring und Vitaldaten die category und restriktive valueSets abgeändert.
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2025-12-08"
 
 * obeys vs-de-2 and mii-icu-1 // If there is no component or hasMember element then either a value[x] or a data absent reason must be present

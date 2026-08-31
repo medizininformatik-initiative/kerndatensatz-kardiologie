@@ -18,7 +18,7 @@
       ]
     }
   ],
-  "experimental": true,
+  "experimental": false,
   "date": "2026-06-12",
   "compose": {
     "include": [

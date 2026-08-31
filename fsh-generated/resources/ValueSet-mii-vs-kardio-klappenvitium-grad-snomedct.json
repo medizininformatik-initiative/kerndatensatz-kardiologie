@@ -18,7 +18,7 @@
       ]
     }
   ],
-  "experimental": true,
+  "experimental": false,
   "date": "2025-09-18",
   "compose": {
     "include": [

@@ -33,7 +33,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * valueInteger MS
 * valueCodeableConcept MS
 * valueInteger obeys mii-kardio-pos-int
-* valueCodeableConcept from MII_VS_Kardio_Nein_Unbekannt (required)
+* valueCodeableConcept from $v2-0532-vs (required) //in Alpha.3 noch MII_VS_Kardio_Nein_Unbekannt
 
 * component 1.. MS
 * component ^slicing.discriminator.path = "code"

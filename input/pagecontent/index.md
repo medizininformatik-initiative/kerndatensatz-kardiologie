@@ -57,4 +57,6 @@ Einige verwendete Codesysteme werden von anderen Organisationen herausgegeben un
 
 Der Inhalt dieses Dokuments ist öffentlich. Zu beachten ist, dass Teile dieses Dokuments auf FHIR Version R4 beruhen, für die Copyright HL7 International gilt.
 
+{% include cross-version-analysis.xhtml %}
+
 {% include ip-statements.xhtml %}

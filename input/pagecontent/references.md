@@ -1,5 +1,3 @@
-## Offizielle Quellen
-
 * **Modul im Simplifier:** [https://simplifier.net/MII-Erweiterungsmodul-Kardiologie](https://simplifier.net/MII-Erweiterungsmodul-Kardiologie)
 * **GitHub Repository:** [https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie)
 
@@ -40,3 +38,5 @@
 * **[SMART](https://pubmed.ncbi.nlm.nih.gov/23574971/)** Risikobewertung zu Wahrscheinlichkeiten für das erneute Autreten einen kardialen Ereignisses innerhalb der nächsten 10 Jahre in Personen mit kardiao-vaskularer Diagnose
 * **[CHA2DS2-VASc](https://pubmed.ncbi.nlm.nih.gov/33693717/):** Risikoskala zur Abschätzung des Schlaganfall-Risikos bei Vorhofflimmern
 * **[BCN-HF](https://pubmed.ncbi.nlm.nih.gov/38804895/):** Risikobewertung zur Prognose und Therapieentscheidung bei Herzinsuffizienz
+* **[EQ-5D-5L](https://euroqol.org)** Bewertung der gesundheitsbezogenen Lebensqualität von Menschen
+* **[PROMIS-29](https://www.healthmeasures.net/explore-measurement-systems/promis)** Bewertung der gesundheitsbezogenen Lebensqualität und des Allgemeinzustands aus Sicht eines Patienten

@@ -384,7 +384,7 @@ Usage: #definition
 * item[1].item[0].item[0].enableBehavior = #all
 * item[1].item[0].item[0].repeats = false
 * item[1].item[0].item[1].item[0].type = #choice
-* item[1].item[0].item[1].item[0].extension[0].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-preferredTerminologyServer"
+* item[1].item[0].item[1].item[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/preferredTerminologyServer"
 * item[1].item[0].item[1].item[0].extension[0].valueUrl = "https://snowstorm.ihtsdotools.org/fhir"
 * item[1].item[0].item[1].item[0].extension[1].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[1].item[0].item[1].item[0].extension[1].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"
@@ -790,7 +790,7 @@ Usage: #definition
 * item[3].item[6].item[0].item[0].item[1].extension[0].valueCodeableConcept.text = "Help-Button"
 * item[3].item[6].item[0].item[0].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[3].item[6].item[0].item[0].type = #open-choice
-* item[3].item[6].item[0].item[0].extension[0].url = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-preferredTerminologyServer"
+* item[3].item[6].item[0].item[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/preferredTerminologyServer"
 * item[3].item[6].item[0].item[0].extension[0].valueUrl = "https://snowstorm.ihtsdotools.org/fhir"
 * item[3].item[6].item[0].item[0].extension[1].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[3].item[6].item[0].item[0].extension[1].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"

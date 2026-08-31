@@ -831,10 +831,6 @@
       {
         "code": "i18n-default-lang",
         "value": "de"
-      },
-      {
-        "code": "i18n-lang",
-        "value": "en"
       }
     ]
   }

@@ -4,13 +4,17 @@ Das Modul Kardiologie ist als Modul zur Datenerfassung in strukturierter und sta
 
 Die Auswahl der Parameter als Grundlage zur Erfassung von Daten zur Behandlung kardiologischer Patientinnen/en entstand durch Zusammenarbeit von Kardiologinnen/en verschiedener Universitätslklinika in Deutschland und wurde im Rahmen des Medizininformatik Projekt ACIRBiS erstellt. Als Ausgangspunkte dienten die Datensätze die von der [DGK](https://dgk.org/) und der [INA](https://www.ina.gematik.de/community-hub/vernetzen-mitwirken/arbeitskreise/erstellung-eines-kardiologischen-basisdatensatzes), die in Umfang und Detailgrad nicht übernommen worden sind, jedoch zugunsten der Handhabbarkeit der Daten in reduzierter Form in das KDS Modul aufgenommen worden sind.
 
->! Das Basismodul Kardiologie umfasst die Beschreibung der Standardisierung und Strukturierung der medizinischen Datenerfassung zu kardiovaskulären Erkrankungen. Schwerpunkt sind qualitative, bzw. objektivierbare Parameter aus der Anamnese, die als weichenstellendes Element der Arzt-Patienten-Interaktion dienen und auf deren Grundlage wesentliche diagnostische und therapeutische Entscheidungen getroffen werden.
+<div class="ig-highlight ig-highlight-green">
+<p>Das Basismodul Kardiologie umfasst die Beschreibung der Standardisierung und Strukturierung der medizinischen Datenerfassung zu kardiovaskulären Erkrankungen. Schwerpunkt sind qualitative, bzw. objektivierbare Parameter aus der Anamnese, die als weichenstellendes Element der Arzt-Patienten-Interaktion dienen und auf deren Grundlage wesentliche diagnostische und therapeutische Entscheidungen getroffen werden.</p>
+</div>
 
->! Das langfristige übergeordnete Ziel des kardiologischen Kerndatensatzes ist es, eine aus klinischer Perspektive zielgerichtete und scharfe Charakterisierung des individuellen kardiologischen Patienten in standardisierter Form abzubilden, die so eine Forschungsnutzung von Daten aus verschiedenen Kliniken oder auch Hausarztpraxen ermöglicht.
+<div class="ig-highlight ig-highlight-green">
+<p>Das langfristige übergeordnete Ziel des kardiologischen Kerndatensatzes ist es, eine aus klinischer Perspektive zielgerichtete und scharfe Charakterisierung des individuellen kardiologischen Patienten in standardisierter Form abzubilden, die so eine Forschungsnutzung von Daten aus verschiedenen Kliniken oder auch Hausarztpraxen ermöglicht.</p>
+</div>
 
 Das Kerndatensatzmodul Kardiolgie ist als eigenständiges Modul konzipiert und ist über mit anderen bereits existierenden Modulen verbunden. Die untenstehende Graphik zeigt die gegenwärtigen (Stand 08.2026) Module an und in dieser werden die grundlegenden Datenquellen wie Person, Fall oder auch Medikation hervorgehoben. Die Übersicht zeigt jedoch keine Abhängikeiten oder Verzahungen der Module an. 
 
-<img width="810" height="532" alt="image" src="https://github.com/user-attachments/assets/2d23a847-7292-430d-b8e3-d49aae701c3d" />
+![Übersicht Kerndatensatz](Kerndatensatz.png)
 
 (aus: [Medizininformatik Initiative Webseite](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative)] 
 

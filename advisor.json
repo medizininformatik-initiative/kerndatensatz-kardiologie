@@ -1,3 +1,26 @@
 {
-  
+    "supress" : [
+        "Terminology_TX_NoValid_12@Condition.*",
+        
+        "CODESYSTEM_CS_SUPP_INVALID_CODE@CodeSystem.concept",
+
+        "Terminology_TX_NoValid_1_CC@Device.type",
+        "Terminology_TX_NoValid_1_CC@Observation.*",
+        "Terminology_TX_NoValid_1_CC@Procedure.*",
+        "Terminology_TX_Confirm_4a@Procedure.*",
+
+        "Terminology_TX_Confirm_4a@Procedure.*",
+
+        "Validation_VAL_Profile_NotSlice@Observation.*",
+
+        "UNABLE_TO_INFER_CODESYSTEM@DocumentReference.*",
+        "Terminology_TX_NoValid_16@DocumentReference.*",
+
+        "UNABLE_TO_INFER_CODESYSTEM@ImplementationGuide.*",
+        "Terminology_TX_NoValid_16@ImplementationGuide.*",
+
+        "Unknown_Code_in_Version@StructureDefinition.extension",
+        "VALUESET_BAD_FILTER_VALUE_VALID_CODE@ValueSet.compose.*",
+        "VALUESET_INCLUDE_INVALID_CONCEPT_CODE@ValueSet.compose.*"
+    ]
 }

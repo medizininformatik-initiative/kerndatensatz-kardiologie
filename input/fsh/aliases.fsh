@@ -39,7 +39,7 @@ Alias: $ISiKLoincCoding = https://gematik.de/fhir/isik/StructureDefinition/ISiKL
 // Example CodeSystems mit konkreter Versionsangabe
 Alias: $kds-kardio-version  = 2026.0.0-alpha.3
 Alias: $example-loinc       = http://loinc.org|2.82
-Alias: $example-sct         = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701
+Alias: $example-sct         = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701
 Alias: $example-ucum        = http://unitsofmeasure.org|2024.7.1 //2.2
 Alias: $example-m49-geographic-region = http://unstats.un.org/unsd/methods/m49/m49.htm
 Alias: $example-atc         = http://fhir.de/CodeSystem/bfarm/atc|2026

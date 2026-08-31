@@ -27,10 +27,13 @@ Das Kardiologie-Modul verwendet eine Vielzahl von Codesystemen und ValueSets zur
 
 #### Inhalt TODO
 
-> Darstellung XML JSON Link
-
+> Darstellung
 
 ## ValueSets
+
+{% include list-valuesets.xhtml %} <!-- Funktioniert die Verwendung dieser vorformatierten Fragmente auch mit dem MII-Template statt hl7.fhir.template2? -->
+
+### todo-vs
 
 | ValueSet | Id | Verwendung |
 |----------|----|------------|
@@ -59,6 +62,10 @@ Das Kardiologie-Modul verwendet eine Vielzahl von Codesystemen und ValueSets zur
 | MII_VS_Kardio_Objekte_Geraete_MDC | Geräte-Objekte | EKG-Geräte, Devices |
 
 ## Verwendete externe Codesysteme
+
+{% include list-simple-codesystems.xhtml %}
+
+### todo-cs
 
 | Codesystem | URL | Verwendung |
 |---|---|---|

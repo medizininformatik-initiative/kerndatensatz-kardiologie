@@ -68,4 +68,4 @@ Das Kardiologie-Modul umfasst derzeit **19 Profile**, die in folgende Gruppen un
 
 ## Abbildung der Profilgruppen im Klassendiagramm
 
-Die Profilgruppen sind auch im `information-model/Klassendiagramm.puml` / `.svg` grafisch abgebildet und zeigen die Beziehungen zwischen den verschiedenen Klassen (Patient, Diagnose, Prozedur, Observation, Device, etc.).
+Die Profilgruppen sind auch im [`information-model/Klassendiagramm`](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/UML) grafisch abgebildet und zeigen die Gruppierung sowie Beziehungen zwischen den verschiedenen Konzepten / Klassen (Patient, Diagnose, Prozedur, Observation, Device, etc.) im Modul Kardiologie.

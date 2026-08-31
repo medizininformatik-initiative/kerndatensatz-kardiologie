@@ -32,7 +32,7 @@ Usage: #example
 
 * interpretation[0].coding[0] = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#N "Normal"
 
-* bodySite.coding[0] = $example-sct#87878005 "Left ventricle"
+* bodySite.coding[0] = $example-sct#87878005 "Left cardiac ventricular structure"
 * bodySite.text = "Linker Ventrikel"
 
 * method.coding[0] = $example-sct#40701008 "Echocardiography"

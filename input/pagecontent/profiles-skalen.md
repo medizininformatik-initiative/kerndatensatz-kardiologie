@@ -2,7 +2,7 @@ Diese Gruppe umfasst standardisierte klinische Skalen zur Bewertung des funktion
 
 ## Profile
 
-**MII PR Kardio Score NYHA** — [StructureDefinition](StructureDefinition-mii-pr-kardio-score-nyha.html)
+### **MII PR Kardio Score NYHA** — [StructureDefinition](StructureDefinition-mii-pr-kardio-score-nyha.html)
 
   **Zweck:** Einstufung der Herzinsuffizienz nach NYHA-Klassifikation.
 
@@ -15,7 +15,7 @@ Diese Gruppe umfasst standardisierte klinische Skalen zur Bewertung des funktion
   - `value[x]` als `CodeableConcept`
   - `valueCodeableConcept` aus ValueSet `MII_VS_Kardio_NYHA_Klassen_SNOMEDCT` (required)
 
-**MII PR Kardio Score modifizierte Rankin Skala** — [StructureDefinition](StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html)
+### **MII PR Kardio Score modifizierte Rankin Skala** — [StructureDefinition](StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html)
 
   **Zweck:** Outcome-Erfassung eines Schlaganfalls mittels mRS.
 

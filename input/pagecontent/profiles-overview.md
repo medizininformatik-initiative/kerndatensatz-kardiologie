@@ -2,4 +2,4 @@
 
 ## Alle Profile nach Kategorie
 
-{% include fragment-resourceTable.html %}
+{% include table-profiles.xhtml %}

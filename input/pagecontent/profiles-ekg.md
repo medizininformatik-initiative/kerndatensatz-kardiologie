@@ -1,4 +1,4 @@
-Diese Gruppe umfasst Metadaten und technische Informationen zu EKG-Aufnahmen. **Die Rohdaten eines EKGs werden hier nicht in FHIR abgebildet** (dafür gibt es andere besser geeignete Formate, zum Beispiel DICOM), sondern Metadaten und Referenzen. Die Abbildung der EKG-Metadaten mit Referenz auf die Rohdaten ermöglicht das Auffinden und Beantragen von EKG-Daten für Datennutzungsprojekte.
+Diese Gruppe umfasst Metadaten und technische Informationen zu EKG-Aufnahmen. **Die Rohdaten eines EKGs werden hier nicht in FHIR abgebildet** (dafür gibt es geeignetere Formate, wie zum Beispiel DICOM), abgebildet werden Metadaten und Referenzen. Die Abbildung der EKG-Metadaten mit Referenz auf die Rohdaten ermöglicht das Auffinden und Beantragen von EKG-Daten für Datennutzungsprojekte.
 
 Die Modellierung ist angelehnt an das Domain Information Model der Normenfamilie ISO/IEEE 11073 und verwendet auch ihre Nomenklatur.
 
@@ -12,7 +12,7 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
 
   **Zweck:** Profil zur Erfassung der Durchführung eines EKG.
 
-  **Parent:** Procedure (MII Core Modul Prozedur)
+  **Parent:** Procedure (MII Kerndatensatz-Modul Prozedur)
 
   **Diff:**
   - `category` enthält SNOMED CT Code 165197003 (Diagnostic assessment)

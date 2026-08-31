@@ -9,39 +9,46 @@ Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfas
   **Parent:** MII_PR_Diagnose_Condition (KDS Modul Basis)  
 
   **Diff:**  
-  - Condition.severity als Must-support
-  - Condition.code umfasst ACRIBiS-spezifische Kodierung "kardio"
-  - Condition.subject eingegrenzt auf Patienten-Referenz
-  - Condition.recorder als Must-support
-  - Condition.asserter als Must-support
+  - `severity` als Must-support
+  - `code` umfasst ACRIBiS-spezifische Kodierung "kardio"
+  - `subject` eingegrenzt auf Patienten-Referenz
+  - `recorder` als Must-support
+  - `asserter` als Must-support
 
 - **MII PR Kardio Diagnose Prozedur Nein Unbekannt** — [StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html](StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html)
 
   **Zweck:** Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagnose bzw. Prozedur, oder die Unklarheit darüber, ab.
 
-  **Parent:** HL7 FHIR R4 Observation
+  **Parent:** Observation
 
   **Diff:**
-  - Observation.effective[x] mit Kardinalität 1..1
-  - Observation.subject mit Kardinalität 1..1
-  - Observation.value mit erweiterbarem Binding auf Angaben zu Nicht-Vorhandensein unter Verwendung von http://terminology.hl7.org/CodeSystem/v2-0532
-  - Observation.code umfasst ACRIBiS-spezifische Kodierung "kardio" (analog zu MII_PR_Diagnose_Condition)
-  - Observation.category mit required Binding auf HL7 FHIR R4 ObservationCategoryCodes
+  - `effective[x]` mit Kardinalität 1..1
+  - `subject` mit Kardinalität 1..1
+  - `value` mit erweiterbarem Binding auf Angaben zu Nicht-Vorhandensein unter Verwendung von http://terminology.hl7.org/CodeSystem/v2-0532
+  - `code` umfasst ACRIBiS-spezifische Kodierung "kardio" (analog zu MII_PR_Diagnose_Condition)
+  - `category` mit required Binding auf ObservationCategoryCodes
 
 - **MII PR Kardio Atherosklerotisches Erstereignis** — [StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html](StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html)
 
   **Zweck:** Profil zur Erfassung des Datums des ersten atherosklerotischen Ereignisses.
 
-  **Parent:**
+  **Parent:** Observation
 
   **Diff:**
-  - ...
+  - `code` fixiert auf Code "ae" aus Kardio-Modul-eigenem Codesystem (fixed)
+  - `subject` mit Referenz auf Patient
+  - `effective[x]` mit Kardinalität 1..1 MS zur Angabe des Zeitpunkts der Beobachtung
+  - `value[x]` mit Kardinalität 0..0 und Abbildung der Information in `Component`.
+  - `component[erkrankung].code` enthält SNOMED CT Code 439401001 (Diagnosis)
+  - `component[erkrankung].value[x]` aus ValueSet `MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT` (required)
+  - `component[datum].code` fixiert auf SNOMED CT Code 432213005 (Date of diagnosis)
+  - `component[datum].value[x]` als valueDateTime zur Angabe des Datum des bezeichneten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK, ...)
 
 - **MII PR Kardio Anzahl KH Aufenthalte wg HF** — [StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.html](StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.html)
 
   **Zweck:** Profil zur Erfassung der Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz.
 
-  **Parent:**
+  **Parent:** Observation
 
   **Diff:**
   - ...

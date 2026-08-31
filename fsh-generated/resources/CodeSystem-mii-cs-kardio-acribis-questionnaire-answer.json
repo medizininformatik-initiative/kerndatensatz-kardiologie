@@ -2,11 +2,11 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "complete",
-  "name": "MII_CS_Kardio_Acribis_QuestionnaireAnswer",
-  "id": "mii-cs-kardio-acribis-questionnaireanswer",
-  "title": "MII Kardio ACRIBiS Questionnaire Answer Codes",
+  "name": "MII_CS_Kardio_Acribis_Questionnaire_Answer",
+  "id": "mii-cs-kardio-acribis-questionnaire-answer",
+  "title": "MII CS Kardio ACRIBiS Questionnaire Answer",
   "description": "Questionnaire-lokale Antwortcodes für den ACRIBiS Follow-Up-Fragebogen.",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
   "concept": [
     {
       "code": "respondent_patient",

@@ -12,7 +12,7 @@
             {
               "valueCoding": {
                 "code": "respondent_patient",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Patient/Patientin"
               }
             }

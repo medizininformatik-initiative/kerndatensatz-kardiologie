@@ -75,6 +75,14 @@
     "resource": [
       {
         "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-acribis-questionnaire-answer"
+        },
+        "name": "MII CS Kardio ACRIBiS Questionnaire Answer",
+        "description": "Questionnaire-lokale Antwortcodes für den ACRIBiS Follow-Up-Fragebogen.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"
         },
         "name": "MII CS Kardio Atherosklerotisches Ereignis",
@@ -87,6 +95,14 @@
         },
         "name": "MII CS Kardio Lebensmittelpunkt",
         "description": "Lebensmittelpunkt des Patienten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-kardio-modifizierte-rankin-skala"
+        },
+        "name": "MII CS Kardio Modifizierte Rankin Skala",
+        "description": "Beeinträchtigung des Patienten nach Schlaganfall",
         "exampleBoolean": false
       },
       {
@@ -336,14 +352,6 @@
         "name": "MII EXA Kardio Score NYHA II",
         "description": "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation bei Herzinsuffizienz gemäß MII PR Kardio Score NYHA.",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha"
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-acribis-questionnaireanswer"
-        },
-        "name": "MII Kardio ACRIBiS Questionnaire Answer Codes",
-        "description": "Questionnaire-lokale Antwortcodes für den ACRIBiS Follow-Up-Fragebogen.",
-        "exampleBoolean": false
       },
       {
         "reference": {
@@ -703,14 +711,6 @@
         },
         "name": "MII VS Kardio NYHA Klassen [SNOMED CT]",
         "description": "Klassen der New York Heart Association Classification",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/mii-cs-kardio-modifizierte-rankin-skala"
-        },
-        "name": "Modifizierte Rankin-Skala",
-        "description": "Beeinträchtigung des Patienten nach Schlaganfall",
         "exampleBoolean": false
       }
     ],

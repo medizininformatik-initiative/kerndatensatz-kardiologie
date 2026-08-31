@@ -44,7 +44,7 @@
                 {
                   "answerCoding": {
                     "code": "respondent_other",
-                    "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                    "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                     "display": "Andere Person"
                   },
                   "question": "o_1",
@@ -76,28 +76,28 @@
             {
               "valueCoding": {
                 "code": "respondent_patient",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Patient/Patientin"
               }
             },
             {
               "valueCoding": {
                 "code": "respondent_relative",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Angehöriger/Angehörige"
               }
             },
             {
               "valueCoding": {
                 "code": "respondent_physician",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Arzt/Ärztin"
               }
             },
             {
               "valueCoding": {
                 "code": "respondent_other",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Andere Person"
               }
             }
@@ -470,7 +470,7 @@
                   "operator": "=",
                   "answerCoding": {
                     "code": "verbal_follow_up",
-                    "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                    "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                     "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
                   }
                 }
@@ -624,7 +624,7 @@
                   "operator": "=",
                   "answerCoding": {
                     "code": "written_follow_up",
-                    "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                    "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                     "display": "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
                   }
                 }
@@ -722,7 +722,7 @@
             {
               "answerCoding": {
                 "code": "respondent_other",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Andere Person"
               },
               "question": "o_1",
@@ -731,7 +731,7 @@
             {
               "answerCoding": {
                 "code": "respondent_physician",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Arzt/Ärztin"
               },
               "question": "o_1",
@@ -742,14 +742,14 @@
             {
               "valueCoding": {
                 "code": "written_follow_up",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
               }
             },
             {
               "valueCoding": {
                 "code": "verbal_follow_up",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
               }
             }
@@ -866,14 +866,14 @@
                     {
                       "valueCoding": {
                         "code": "cerebral_hemorrhage_intracerebral_or_subarachnoid",
-                        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                         "display": "Hirnblutung (intrazerebral oder subarachnoidal)"
                       }
                     },
                     {
                       "valueCoding": {
                         "code": "other_cardiovascular_cause",
-                        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                         "display": "Andere Herz-Kreislauf bedingte Ursache"
                       }
                     },
@@ -990,7 +990,7 @@
               "operator": "=",
               "answerCoding": {
                 "code": "respondent_relative",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Angehöriger/Angehörige"
               }
             },
@@ -999,7 +999,7 @@
               "operator": "=",
               "answerCoding": {
                 "code": "respondent_physician",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Arzt/Ärztin"
               }
             },
@@ -1008,7 +1008,7 @@
               "operator": "=",
               "answerCoding": {
                 "code": "respondent_other",
-                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                 "display": "Andere Person"
               }
             }
@@ -1055,7 +1055,7 @@
         {
           "answerCoding": {
             "code": "respondent_relative",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
             "display": "Angehöriger/Angehörige"
           },
           "question": "o_1",
@@ -1064,7 +1064,7 @@
         {
           "answerCoding": {
             "code": "respondent_physician",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
             "display": "Arzt/Ärztin"
           },
           "question": "o_1",
@@ -1073,7 +1073,7 @@
         {
           "answerCoding": {
             "code": "respondent_other",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
             "display": "Andere Person"
           },
           "question": "o_1",
@@ -1243,7 +1243,7 @@
                         {
                           "valueCoding": {
                             "code": "cerebral_hemorrhage_intracerebral_or_subarachnoid",
-                            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaireanswer",
+                            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
                             "display": "Hirnblutung (intrazerebral oder subarachnoidal)"
                           }
                         },

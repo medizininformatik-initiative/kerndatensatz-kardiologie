@@ -1,7 +1,7 @@
 [
   {
-    "outputFile": "CodeSystem-mii-cs-kardio-acribis-questionnaireanswer.json",
-    "fshName": "MII_CS_Kardio_Acribis_QuestionnaireAnswer",
+    "outputFile": "CodeSystem-mii-cs-kardio-acribis-questionnaire-answer.json",
+    "fshName": "MII_CS_Kardio_Acribis_Questionnaire_Answer",
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\MII_CS_Kardio_Acribis_QuestionnaireAnswer.fsh",
     "startLine": 1,

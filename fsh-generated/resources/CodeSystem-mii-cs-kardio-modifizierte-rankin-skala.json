@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "MII_CS_Kardio_Modifizierte_Rankin_Skala",
   "id": "mii-cs-kardio-modifizierte-rankin-skala",
-  "title": "Modifizierte Rankin-Skala",
+  "title": "MII CS Kardio Modifizierte Rankin Skala",
   "description": "Beeinträchtigung des Patienten nach Schlaganfall",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
   "concept": [

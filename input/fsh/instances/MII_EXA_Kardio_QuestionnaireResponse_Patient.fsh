@@ -13,7 +13,7 @@ Usage: #example
 * item[0].text = "Allgemeine Angaben"
 * item[0].item[0].linkId = "o_1"
 * item[0].item[0].text = "Wer füllt den Fragebogen aus?"
-* item[0].item[0].answer[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_patient "Patient/Patientin"
+* item[0].item[0].answer[0].valueCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_patient "Patient/Patientin"
 * item[1].linkId = "group4"
 * item[1].text = "Diagnosen im letzten Jahr (seit Teilnahme an der Acribis-Studie)"
 * item[1].item[0].linkId = "834093031358"

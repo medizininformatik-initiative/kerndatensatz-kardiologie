@@ -44,7 +44,7 @@ Usage: #definition
 //   4.1 Wie wurde das Follow-Up erhoben?
 
 // Verschachtelte Fragebogen-Items
-* item[0].item[0].item[0].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
+* item[0].item[0].item[0].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_other "Andere Person"
 * item[0].item[0].item[0].enableWhen[0].question = "o_1"
 * item[0].item[0].item[0].enableWhen[0].operator = #=
 * item[0].item[0].item[0].type = #string
@@ -55,10 +55,10 @@ Usage: #definition
 * item[0].item[0].extension[0].valueCodeableConcept.coding[0] = http://hl7.org/fhir/questionnaire-item-control#radio-button "Radio Button"
 * item[0].item[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 
-* item[0].item[0].answerOption[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_patient "Patient/Patientin"
-* item[0].item[0].answerOption[1].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_relative "Angehöriger/Angehörige"
-* item[0].item[0].answerOption[2].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_physician "Arzt/Ärztin"
-* item[0].item[0].answerOption[3].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
+* item[0].item[0].answerOption[0].valueCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_patient "Patient/Patientin"
+* item[0].item[0].answerOption[1].valueCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_relative "Angehöriger/Angehörige"
+* item[0].item[0].answerOption[2].valueCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_physician "Arzt/Ärztin"
+* item[0].item[0].answerOption[3].valueCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_other "Andere Person"
 * item[0].item[0].type = #choice
 * item[0].item[0].linkId = "o_1"
 * item[0].item[0].prefix = "Ausfüllende Person"
@@ -232,7 +232,7 @@ Usage: #definition
 * item[0].item[1].item[0].text = "Telefonisches Follow-Up"
 * item[0].item[1].item[0].enableWhen[0].question = "243134446838"
 * item[0].item[1].item[0].enableWhen[0].operator = #=
-* item[0].item[1].item[0].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#verbal_follow_up "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+* item[0].item[1].item[0].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#verbal_follow_up "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
 * item[0].item[1].item[0].enableBehavior = #all
 * item[0].item[1].item[0].repeats = false
 * item[0].item[1].item[1].item[0].item[0].enableWhen[0].question = "531811477735"
@@ -312,7 +312,7 @@ Usage: #definition
 * item[0].item[1].item[1].text = "Schriftliches Follow-Up"
 * item[0].item[1].item[1].enableWhen[0].question = "243134446838"
 * item[0].item[1].item[1].enableWhen[0].operator = #=
-* item[0].item[1].item[1].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#written_follow_up "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+* item[0].item[1].item[1].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#written_follow_up "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
 * item[0].item[1].item[1].enableBehavior = #all
 * item[0].item[1].item[1].repeats = false
 * item[0].item[1].item[2].item[0].enableWhen[0].question = "175302299373"
@@ -355,14 +355,14 @@ Usage: #definition
 * item[0].item[1].extension[0].valueCodeableConcept.coding[0].code = #radio-button
 * item[0].item[1].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[0].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
-* item[0].item[1].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
+* item[0].item[1].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_other "Andere Person"
 * item[0].item[1].enableWhen[0].question = "o_1"
 * item[0].item[1].enableWhen[0].operator = #=
-* item[0].item[1].enableWhen[1].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_physician "Arzt/Ärztin"
+* item[0].item[1].enableWhen[1].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_physician "Arzt/Ärztin"
 * item[0].item[1].enableWhen[1].question = "o_1"
 * item[0].item[1].enableWhen[1].operator = #=
-* item[0].item[1].answerOption[0].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#written_follow_up "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
-* item[0].item[1].answerOption[1].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#verbal_follow_up "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+* item[0].item[1].answerOption[0].valueCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#written_follow_up "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+* item[0].item[1].answerOption[1].valueCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#verbal_follow_up "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
 * item[0].item[1].type = #choice
 * item[0].item[1].linkId = "243134446838"
 * item[0].item[1].text = "In welcher Form erfolgt an Ihrem Standort das Follow-Up?"
@@ -404,8 +404,8 @@ Usage: #definition
 * item[1].item[0].item[1].item[0].answerOption[1].valueCoding = $sct#422504002 "Ischemic stroke"
 * item[1].item[0].item[1].item[0].answerOption[2].valueCoding = $sct#274100004 "Cerebral hemorrhage"
 * item[1].item[0].item[1].item[0].answerOption[3].valueCoding = $sct#21454007 "Subarachnoid hemorrhage"
-* item[1].item[0].item[1].item[0].answerOption[4].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#cerebral_hemorrhage_intracerebral_or_subarachnoid "Hirnblutung (intrazerebral oder subarachnoidal)"
-* item[1].item[0].item[1].item[0].answerOption[5].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#other_cardiovascular_cause "Andere Herz-Kreislauf bedingte Ursache"
+* item[1].item[0].item[1].item[0].answerOption[4].valueCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#cerebral_hemorrhage_intracerebral_or_subarachnoid "Hirnblutung (intrazerebral oder subarachnoidal)"
+* item[1].item[0].item[1].item[0].answerOption[5].valueCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#other_cardiovascular_cause "Andere Herz-Kreislauf bedingte Ursache"
 * item[1].item[0].item[1].item[0].answerOption[6].valueCoding = $v2-0532#ASKU "asked but unknown"
 * item[1].item[0].item[1].item[0].answerOption[7].valueCoding = $v2-0532#NI "No Information"
 * item[1].item[0].item[1].item[0].answerOption[7].initialSelected = true
@@ -432,13 +432,13 @@ Usage: #definition
 * item[1].item[0].text = "Ist die Patientin/der Patient verstorben?"
 * item[1].item[0].enableWhen[0].question = "o_1"
 * item[1].item[0].enableWhen[0].operator = #=
-* item[1].item[0].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_relative "Angehöriger/Angehörige"
+* item[1].item[0].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_relative "Angehöriger/Angehörige"
 * item[1].item[0].enableWhen[1].question = "o_1"
 * item[1].item[0].enableWhen[1].operator = #=
-* item[1].item[0].enableWhen[1].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_physician "Arzt/Ärztin"
+* item[1].item[0].enableWhen[1].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_physician "Arzt/Ärztin"
 * item[1].item[0].enableWhen[2].question = "o_1"
 * item[1].item[0].enableWhen[2].operator = #=
-* item[1].item[0].enableWhen[2].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
+* item[1].item[0].enableWhen[2].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_other "Andere Person"
 * item[1].item[0].enableBehavior = #any
 * item[1].item[0].repeats = false
 * item[1].item[0].answerOption[0].valueCoding = $v2-0532#Y "Yes"
@@ -446,13 +446,13 @@ Usage: #definition
 * item[1].item[0].answerOption[2].valueCoding = $v2-0532#ASKU "asked but unknown"
 * item[1].item[0].answerOption[3].valueCoding = $v2-0532#NI "No Information"
 * item[1].item[0].answerOption[3].initialSelected = true
-* item[1].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_relative "Angehöriger/Angehörige"
+* item[1].enableWhen[0].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_relative "Angehöriger/Angehörige"
 * item[1].enableWhen[0].question = "o_1"
 * item[1].enableWhen[0].operator = #=
-* item[1].enableWhen[1].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_physician "Arzt/Ärztin"
+* item[1].enableWhen[1].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_physician "Arzt/Ärztin"
 * item[1].enableWhen[1].question = "o_1"
 * item[1].enableWhen[1].operator = #=
-* item[1].enableWhen[2].answerCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#respondent_other "Andere Person"
+* item[1].enableWhen[2].answerCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#respondent_other "Andere Person"
 * item[1].enableWhen[2].question = "o_1"
 * item[1].enableWhen[2].operator = #=
 * item[1].type = #group
@@ -517,7 +517,7 @@ Usage: #definition
 * item[3].item[1].item[0].item[0].item[0].answerOption[0].valueCoding = $sct#422504002 "Ischemic stroke"
 * item[3].item[1].item[0].item[0].item[0].answerOption[1].valueCoding = $sct#274100004 "Cerebral hemorrhage"
 * item[3].item[1].item[0].item[0].item[0].answerOption[2].valueCoding = $sct#21454007 "Subarachnoid hemorrhage"
-* item[3].item[1].item[0].item[0].item[0].answerOption[3].valueCoding = MII_CS_Kardio_Acribis_QuestionnaireAnswer#cerebral_hemorrhage_intracerebral_or_subarachnoid "Hirnblutung (intrazerebral oder subarachnoidal)"
+* item[3].item[1].item[0].item[0].item[0].answerOption[3].valueCoding = MII_CS_Kardio_Acribis_Questionnaire_Answer#cerebral_hemorrhage_intracerebral_or_subarachnoid "Hirnblutung (intrazerebral oder subarachnoidal)"
 * item[3].item[1].item[0].item[0].item[0].answerOption[4].valueCoding = $v2-0532#ASKU "asked but unknown"
 * item[3].item[1].item[0].item[0].item[0].answerOption[5].valueCoding = $v2-0532#NI "No Information"
 * item[3].item[1].item[0].item[0].item[0].answerOption[5].initialSelected = true

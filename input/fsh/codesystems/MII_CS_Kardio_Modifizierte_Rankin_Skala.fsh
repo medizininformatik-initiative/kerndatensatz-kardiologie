@@ -1,6 +1,6 @@
 CodeSystem: MII_CS_Kardio_Modifizierte_Rankin_Skala
 Id: mii-cs-kardio-modifizierte-rankin-skala
-Title: "Modifizierte Rankin-Skala"
+Title: "MII CS Kardio Modifizierte Rankin Skala"
 Description: "Beeinträchtigung des Patienten nach Schlaganfall"
 
 * insert PR_CS_VS_Version

@@ -1,6 +1,6 @@
-CodeSystem: MII_CS_Kardio_Acribis_QuestionnaireAnswer
-Id: mii-cs-kardio-acribis-questionnaireanswer
-Title: "MII Kardio ACRIBiS Questionnaire Answer Codes"
+CodeSystem: MII_CS_Kardio_Acribis_Questionnaire_Answer
+Id: mii-cs-kardio-acribis-questionnaire-answer
+Title: "MII CS Kardio ACRIBiS Questionnaire Answer"
 Description: "Questionnaire-lokale Antwortcodes für den ACRIBiS Follow-Up-Fragebogen."
 
 * insert PR_CS_VS_Version

@@ -35,7 +35,7 @@
 
 - name: naming-convention-id
   status: "Checking if all resource ids follow the naming convention"
-  predicate: id.matches('^mii-(pr|ex|lm|vs|cs|cm|sm|ns|sp|cps|od|ig|exa|qst|obsdef|lib)-kardio')
+  predicate: id.matches('^mii-(pr|ex|lm|vs|cs|cm|sm|ns|sp|cps|od|ig|exa|qst|obsdef|lib|param)-kardio')
   error-message: "resource id naming convention mismatch"
   files:
     - /**/*.xml

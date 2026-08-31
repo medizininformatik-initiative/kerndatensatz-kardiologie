@@ -1,2 +1,73 @@
-# Minimal qc rules file
-# Uncomment and customize for specific MII naming conventions
+# Adopted from MII PRO Module minimal rule file
+
+- action: parse
+  name: parse-fhir-resources
+  status: "Checking if all FHIR Resource files can be parsed"
+  files:
+    - /**/*.xml
+    - /**/*.json
+    - "!package.json"
+    - "!fhirpkg.lock.json"
+
+- name: resource-validation
+  status: "Validating resources against the FHIR standard and their profiles"
+  action: validate
+  category: Resource
+  suppress:
+    - 6005
+    - eld-16
+
+- name: version-filled
+  filter: (StructureDefinition or ValueSet or CodeSystem or ConceptMap or StructureMap or NamingSystem or SearchParameter or CapabilityStatement or OperationDefinition or ImplementationGuide).exists()
+  # Excluding NamingSystem as they have no version
+  status: "Checking if all resources have version filled"
+  predicate: version.exists() and (version in ('2026.0.0-rc.1', '2026.0.0-rc.2', '2026.0.0-rc.3', '2026.0.0-rc.4', '2026.0.0-ballot', '2026.0.0', '2026.0.1', '2026.1.0', '2026.2.0', '2026.3.0', '2026.4.0', '2026.4.1', '2026.5.0', '2026.5.1', '2026.5.2-rc.1', '2026.5.2'))
+  error-message: "version not filled (correctly)"
+  files:
+    - /**/*.xml
+    - /**/*.json
+    - "!package.json"
+
+- action: Check for valid ids
+  # See https://github.com/FirelyTeam/firely-net-sdk/issues/1773
+  predicate: id.matches('^[A-Za-z0-9\\-\\.]{1,64}$')
+  error: The resource must have a valid id
+
+- name: naming-convention-id
+  status: "Checking if all resource ids follow the naming convention"
+  predicate: id.matches('^mii-(pr|ex|lm|vs|cs|cm|sm|ns|sp|cps|od|ig|exa|qst|obsdef|lib)-pro')
+  error-message: "resource id naming convention mismatch"
+  files:
+    - /**/*.xml
+    - /**/*.json
+    - "!package.json"
+
+- name: naming-convention-name
+  filter: (StructureDefinition or ValueSet or CodeSystem or ConceptMap or StructureMap or NamingSystem or SearchParameter or CapabilityStatement or OperationDefinition or ImplementationGuide).exists()
+  status: "Checking if all resource names follow the naming convention"
+  predicate: name.exists() implies name.matches('^MII_(PR|EX|LM|VS|CS|CM|SM|NS|SP|CPS|OD|IG|EXA)_PRO')
+  error-message: "resource name naming convention mismatch"
+  files:
+    - /**/*.xml
+    - /**/*.json
+    - "!package.json"
+
+- name: naming-convention-title
+  filter: (StructureDefinition or ValueSet or CodeSystem or ConceptMap or StructureMap or NamingSystem or SearchParameter or CapabilityStatement or OperationDefinition or ImplementationGuide).exists()
+  status: "Checking if all resource titles follow the naming convention"
+  predicate: title.exists() implies title.matches('^MII (PR|EX|LM|VS|CS|CM|SM|NS|SP|CPS|OD|IG|EXA) PRO')
+  error-message: "resource name naming convention mismatch"
+  files:
+    - /**/*.xml
+    - /**/*.json
+    - "!package.json"
+
+- name: naming-convention-url
+  filter: (StructureDefinition or ValueSet or CodeSystem or ConceptMap or StructureMap or NamingSystem or SearchParameter or CapabilityStatement or OperationDefinition or ImplementationGuide).exists()
+  status: "Checking if all resource urls follow the naming convention"
+  predicate: url.exists() implies url.matches('^https://www.medizininformatik-initiative.de/fhir/ext/modul-pro/')
+  error-message: "resource url naming convention mismatch"
+  files:
+    - /**/*.xml
+    - /**/*.json
+    - "!package.json"

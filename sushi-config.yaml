@@ -126,8 +126,9 @@ menu:
     Risikofaktoren: profiles-risikofaktoren.html
     KardioDevices: profiles-kardiodevices.html
     EKG-Metadaten: profiles-ekg.html
+    Terminologien: terminology.html
   Artifacts: artifacts.html
-    #Terminologien: terminology.html
+  
     #CapabilityStatement: capability.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮

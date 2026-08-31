@@ -5,10 +5,10 @@ Title: "MII EXA Kardio MRS"
 Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem Schlaganfall gemäß MII PR Kardio Score mRS."
 
 * language = #de-DE
-* identifier.system = "http://example.org/observation-ids"
+* identifier.system = "http://demo.org/observation-ids"
 * identifier.value = "MRS-OBS-123457"
 * status = #final
-* code.coding[sct] = $example-sct#1255866005 "mRS - Modified Rankin Scale"
+* code.coding[sct] = $example-sct#1255866005 "Modified Rankin Scale score"
 * code.coding[loinc] = $example-loinc#75859-9 "Modified rankin scale"
 * subject.display = "Beispielpatient"
 * encounter.display = "Beispielfall"

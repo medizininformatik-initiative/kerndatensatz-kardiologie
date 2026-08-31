@@ -8,7 +8,7 @@
   },
   "identifier": [
     {
-      "system": "http://example.org/observation-ids",
+      "system": "http://demo.org/observation-ids",
       "value": "NYHA-OBS-123456"
     }
   ],

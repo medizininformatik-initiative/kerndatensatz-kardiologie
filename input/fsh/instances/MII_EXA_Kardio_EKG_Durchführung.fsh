@@ -13,6 +13,6 @@ Usage: #example
 * subject.display = "Beispielpatient"
 * performedPeriod.start = "2023-05-03T07:38:07Z"
 * performedPeriod.end = "2023-05-03T07:38:17Z"
-* bodySite = $example-sct#80891009 "Heart"
+* bodySite = $example-sct#80891009 "Heart structure"
 * note.text = "ICD Kontrolle"
 * usedReference = Reference(mii-exa-kardio-ekg-geraet-mortara)

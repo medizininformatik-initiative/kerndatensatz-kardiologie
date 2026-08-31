@@ -14,7 +14,7 @@ Usage: #example
 * code.coding[sct] = $example-sct#395218007 "Implantation of internal cardiac defibrillator"
 * subject.display = "Beispielpatient"
 * performedDateTime = "2020-04"
-* bodySite = $example-sct#80891009 "Heart"
+* bodySite = $example-sct#80891009 "Heart structure"
 * note.text = "Implantation eines ICDs im April 2020"
 * focalDevice.action = $example-sct#129338005 "Surgical implantation - action"
 * focalDevice.manipulated.reference = "Device/mii-exa-kardio-device-icd"

@@ -8,7 +8,7 @@
   },
   "identifier": [
     {
-      "system": "http://hospital.example.org/observation-lvef",
+      "system": "http://hospital.demo.org/observation-lvef",
       "value": "lvef-123456"
     }
   ],

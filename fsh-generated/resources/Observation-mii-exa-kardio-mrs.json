@@ -8,7 +8,7 @@
   },
   "identifier": [
     {
-      "system": "http://example.org/observation-ids",
+      "system": "http://demo.org/observation-ids",
       "value": "MRS-OBS-123457"
     }
   ],
@@ -18,7 +18,7 @@
         "code": "1255866005",
         "system": "http://snomed.info/sct",
         "version": "http://snomed.info/sct/900000000000207008/version/20250701",
-        "display": "mRS - Modified Rankin Scale"
+        "display": "Modified Rankin Scale score"
       },
       {
         "code": "75859-9",

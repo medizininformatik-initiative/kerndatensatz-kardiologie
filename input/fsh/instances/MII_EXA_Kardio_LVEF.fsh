@@ -5,7 +5,7 @@ Description: "Beispielhafte Observation einer linksventrikulären Ejektionsfrakt
 Usage: #example
 
 * language = #de-DE
-* identifier.system = "http://hospital.example.org/observation-lvef"
+* identifier.system = "http://hospital.demo.org/observation-lvef"
 * identifier.value = "lvef-123456"
 
 * basedOn.display = "Echokardiographie: Beispielanforderung"

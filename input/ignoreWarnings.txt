@@ -25,6 +25,10 @@ The expression is grammatically correct and the concepts are valid, but the expr
 URL-Wert 'https://www.hillrom.de/de/products/eli-380-electrocardiograph/' löst nicht auf
 URL-Wert 'https://snowstorm.ihtsdotools.org/fhir' löst nicht auf
 
+# These are just demo URLs
+URL-Wert 'http://hospital.demo.org/observation-lvef' löst nicht auf
+URL-Wert 'http://demo.org/observation-ids' löst nicht auf
+
 # There are no better UCUM units, US Core does it similarly
 TYPE_SPECIFIC_CHECKS_DT_QTY_UCUM_ANNOTATIONS
 

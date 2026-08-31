@@ -1,6 +1,6 @@
 // CodeSystems
 Alias: $loinc = http://loinc.org //|2.81
-Alias: $sct = http://snomed.info/sct //|http://snomed.info/sct/900000000000207008/version/20250701
+Alias: $sct = http://snomed.info/sct //|http://snomed.info/sct/900000000000207008/version/20260701
 Alias: $ucum = http://unitsofmeasure.org //|2024.7.1
 Alias: $m49-geographic-region = http://unstats.un.org/unsd/methods/m49/m49.htm
 Alias: $atc = http://fhir.de/CodeSystem/bfarm/atc //|2026

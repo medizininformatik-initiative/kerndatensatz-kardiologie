@@ -9,7 +9,7 @@ name: MII_IG_MODUL_KARDIO_DE
 title: MII IG Modul Kardio DE
 description: "Medizininformatik Initiative - Erweiterungsmodul Kardiologie"
 status: draft # draft | active | retired | unknown
-version: 2026.0.0-alpha.3
+version: 2027.0.0-ballot.rc1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build

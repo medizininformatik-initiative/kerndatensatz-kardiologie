@@ -37,7 +37,7 @@ Alias: $ISiKSnomedCTCoding = https://gematik.de/fhir/isik/StructureDefinition/IS
 Alias: $ISiKLoincCoding = https://gematik.de/fhir/isik/StructureDefinition/ISiKLoincCoding
 
 // Example CodeSystems mit konkreter Versionsangabe
-Alias: $kds-kardio-version  = 2026.0.0-alpha.3
+Alias: $kds-kardio-version  = 2027.0.0-ballot.rc1
 Alias: $example-loinc       = http://loinc.org|2.82
 Alias: $example-sct         = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701
 Alias: $example-ucum        = http://unitsofmeasure.org|2024.7.1 //2.2
@@ -47,8 +47,8 @@ Alias: $example-icd-10-gm   = http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025
 Alias: $example-alpha-id    = http://fhir.de/CodeSystem/bfarm/alpha-id|2026
 Alias: $example-ops         = http://fhir.de/CodeSystem/bfarm/ops|2026
 Alias: $example-mdc         = urn:iso:std:iso:11073:10101|2024-12-05 //ISO Nomenclature - Point-of-care medical device communication, see https://www.iso.org/standard/37890.html, https://terminology.hl7.org/5.5.0/CodeSystem-v3-mdc.html
-Alias: $example-ath-ereignis = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2026.0.0-alpha.3
-Alias: $example-acribis-follow-up = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up|2026.0.0-alpha.3
+Alias: $example-ath-ereignis = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot.rc1
+Alias: $example-acribis-follow-up = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-follow-up|2027.0.0-ballot.rc1
 Alias: $example-v2-0203     = http://terminology.hl7.org/CodeSystem/v2-0203|5.0.0 // in Beispielpatient
 Alias: $example-v2-0532     = http://terminology.hl7.org/CodeSystem/v2-0532|3.0.0
 Alias: $example-v3-ActCode  = http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0

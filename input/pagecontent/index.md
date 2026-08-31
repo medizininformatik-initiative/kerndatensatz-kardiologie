@@ -8,7 +8,7 @@ Im Folgenden werden die Use Cases des Moduls, sowie die dazugehörigen FHIR-Prof
 | Datum              | {{ site.data.fhir.ig.date }}    |
 | Version            | {{ site.data.fhir.ig.version }} |
 | Status             | {{ site.data.fhir.ig.status }}  |
-| Realm              | {{ site.data.fhir.ig.realm }}   |
+| Realm              | DE                              |
 
 ## Fragen / Feedback
 

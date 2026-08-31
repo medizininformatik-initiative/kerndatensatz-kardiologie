@@ -54,25 +54,25 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="profiles-overview.html">FHIR-Profile</a>
+        <a href="profiles-overview.html">Übersicht der Profile</a>
       </li>
       <li>
-        <a href="profiles-anamnese.html">Anamnese</a>
+        <a href="profiles-anamnese.html">Profile-Anamnese</a>
       </li>
       <li>
-        <a href="profiles-diagnostik.html">Diagnostik</a>
+        <a href="profiles-diagnostik.html">Profile-Diagnostik</a>
       </li>
       <li>
-        <a href="profiles-skalen.html">Skalen</a>
+        <a href="profiles-skalen.html">Profile-Skalen</a>
       </li>
       <li>
-        <a href="profiles-risikofaktoren.html">Risikofaktoren</a>
+        <a href="profiles-risikofaktoren.html">Profile-Risikofaktoren</a>
       </li>
       <li>
-        <a href="profiles-kardiodevices.html">KardioDevices</a>
+        <a href="profiles-kardiodevices.html">Profile-KardioDevices</a>
       </li>
       <li>
-        <a href="profiles-ekg.html">EKG-Metadaten</a>
+        <a href="profiles-ekg.html">Profile-EKG-Metadaten</a>
       </li>
       <li>
         <a href="terminology.html">Terminologien</a>
@@ -80,6 +80,6 @@
     </ul>
   </li>
   <li>
-    <a href="artifacts.html">Artifacts</a>
+    <a href="artifacts.html">All Artifacts</a>
   </li>
 </ul>

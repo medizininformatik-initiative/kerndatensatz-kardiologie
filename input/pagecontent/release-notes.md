@@ -2,16 +2,47 @@ Auf dieser Seite werden die Unterschiede zwischen den Versionen nachgehalten.
 
 Die aktuelle Version des Kardiologie-Moduls ist **2026.0.0-alpha.3**.
 
-## Version 2027.0.0-rc1 (Version für Ballot in Q4/2026)
+## Version 2027.0.0-ballot.rc1 (Release Candidate für Ballot in Q4/2026)
 
-Diese Version ist die Veröffentlichung des MII Moduls Kardiologie für die Ballotierung.
+Ballot Release Candidate für den Release-Zyklus 2027. FHIR-Package: `de.medizininformatikinitiative.kerndatensatz.kardiologie` 2027.0.0-ballot.rc1 (auch als Asset an diesem Release angehängt).
 
 ### Änderungen seit 2026.0.0-alpha.3
-- `fix` Slicing-Fehler in MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt behoben
-- `fix` Behebung verschiedener Validation-Fehler
-- `chore` Nicht verwendete Dependency auf `Modul ICU` entfernt
-- `docs` UML-Diagram hinzugefügt
-- `docs` Erstellung eines Implementation Guides für das Modul Kardiologie
+
+#### Terminologie & Versions-Pinning
+
+- SNOMED-CT-Version auf 20260701 gesetzt gemäß MII Terminology Version Policy (Alias und Parameters-Datei)
+- HL7 v3 ActCode Version auf 10.0.0 pinned (Kompatibilität mit hl7.terminology.r4 7.1.0)
+- ValueSets für ICD-10-GM, Alpha-ID und OPS auf MII-Versionen aktualisiert
+
+#### Profil-Updates
+
+- Profil `MII_PR_Kardio_Observation_Rauchen`: Komponenten und Beispiel aktualisiert
+- Profil `MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF`: ValueSet auf v2-0532 geändert 
+- `MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt`: Fix des Code-Slicings
+- `MII_PR_Kardio_FollowUp`: Verschiedene Issues behoben
+
+#### Beispiele & Instanzen
+
+- `MII_EXA_Kardio_Raucherstatus` aktualisiert
+- `MII_EXA_Kardio_QuestionnaireResponse_*` korrigiert
+- Kleine Korrekturen in Questionnaire Response-Examples
+
+#### IG-Publikation & Dokumentation
+
+- IG erstellt; Status: `active` 
+- UML-Diagramm aktualisiert
+
+#### Abhängigkeiten
+
+- ISiK Stufe 6 (`de.gematik.isik: 6.0.0`) hinzugefügt
+- `de.basisprofil.r4` auf 1.6.0 aktualisiert
+- `hl7.terminology.r4` auf 7.1.0 aktualisiert
+- `de.medizininformatikinitiative.kerndatensatz.base` und `meta` auf 2026.0.x
+
+### CI/CD & Infrastruktur
+
+- GitHub Actions Workflows für FHIR-Validierung integriert (reusable workflows von kerndatensatz-meta)
+- `advisor.json` und `qc/custom.rules.yaml` erstellt
 
 ---
 

@@ -15,5 +15,5 @@ Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem S
 * effectiveDateTime = "2024-11-12T14:23:00+01:00"
 * issued = "2024-11-12T15:00:00+01:00"
 * performer[0].display = "Beispielkardiologe"
-* valueCodeableConcept = MII_CS_Kardio_Modifizierte_Rankin_Skala|2026.0.0-alpha.3#mRSbigger3 "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
+* valueCodeableConcept = $example-mrs#mRSbigger3 "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
 * note.text = "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"

@@ -21,7 +21,7 @@
   filter: (StructureDefinition or ValueSet or CodeSystem or ConceptMap or StructureMap or NamingSystem or SearchParameter or CapabilityStatement or OperationDefinition or ImplementationGuide).exists()
   # Excluding NamingSystem as they have no version
   status: "Checking if all resources have version filled"
-  predicate: version.exists() and (version in ('2027.0.0-rc1','2026.0.0-alpha.3','2026.0.0-rc.1', '2026.0.0-rc.2', '2026.0.0-rc.3', '2026.0.0-rc.4', '2026.0.0-ballot', '2026.0.0', '2026.0.1', '2026.1.0', '2026.2.0', '2026.3.0', '2026.4.0', '2026.4.1', '2026.5.0', '2026.5.1', '2026.5.2-rc.1', '2026.5.2'))
+  predicate: version.exists() and (version in ('2027.0.0-ballot', '2027.0.0-ballot.rc1', '2027.0.0-rc.1', '2027.0.0-rc.2', '2027.0.0-rc.3', '2027.0.0-rc.4', '2027.0.0-ballot', '2027.0.0', '2027.0.1', '2027.1.0', '2027.2.0', '2027.3.0', '2027.4.0', '2027.4.1', '2027.5.0', '2027.5.1', '2027.5.2-rc.1', '2027.5.2'))
   error-message: "version not filled (correctly)"
   files:
     - /**/*.xml

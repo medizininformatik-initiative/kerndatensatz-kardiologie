@@ -63,7 +63,7 @@ pages:
   information-model.md:
     title: Informationsmodell (UML)
   profiles-overview.md:
-    title: FHIR-Profile (Übersicht)
+    title: Profilübersicht
   profiles-anamnese.md:
     title: "Profile: Anamnese"
   profiles-diagnostik.md:
@@ -123,17 +123,15 @@ menu:
     Datensätze: datasets.html
     Informationsmodell (UML): information-model.html
   Technische Umsetzung:
-    FHIR-Profile: profiles-overview.html
-    Anamnese: profiles-anamnese.html
-    Diagnostik: profiles-diagnostik.html
-    Skalen: profiles-skalen.html
-    Risikofaktoren: profiles-risikofaktoren.html
-    KardioDevices: profiles-kardiodevices.html
-    EKG-Metadaten: profiles-ekg.html
+    Übersicht der Profile: profiles-overview.html
+    Profile-Anamnese: profiles-anamnese.html
+    Profile-Diagnostik: profiles-diagnostik.html
+    Profile-Skalen: profiles-skalen.html
+    Profile-Risikofaktoren: profiles-risikofaktoren.html
+    Profile-KardioDevices: profiles-kardiodevices.html
+    Profile-EKG-Metadaten: profiles-ekg.html
     Terminologien: terminology.html
-  Artifacts: artifacts.html
-  
-    #CapabilityStatement: capability.html
+  All Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

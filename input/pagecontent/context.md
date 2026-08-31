@@ -17,7 +17,7 @@ Das Kardiologie-Modul ist ein Erweiterungsmodul des Kerndatensatzes (KDS) der Me
 * **Seltene-Erkrankungen-Modul** – Stellt das `BMI`-Profil bereit, das in der Kardiologie wiederverwendet werden kann.
 * **PRO-Modul** – Im Kardiologie-Modul werden Profile zur Abbildung patienten-relevanter Fragebögen (z. B. PROMIS, EQ-5D-5L) benötigt. Diese Profile sind im Modul `PRO` abgebildet.
 
-## Weitere relevante Kategorien / Profile
+### Relevante Kategorien / Profile
 
 | Kategorie            | Im Kontext Kardiologie benötigte Profile        | Herkunft (anderes Modul)            |
 | -------------------- | ----------------------------------------------- | ----------------------------------- |
@@ -29,10 +29,10 @@ Das Kardiologie-Modul ist ein Erweiterungsmodul des Kerndatensatzes (KDS) der Me
 | **Geräte**           | `Device`-Abstraktion | – |
 | **PRO-Fragebögen**   | `PROMIS-29`, `EQ-5D-5L` | `PRO` |
 
-## Nächste Schritte
+## Wiederverwendung bestehender Profile
 
 Das Kardiologie-Modul ist stark vernetzt: Es nutzt die strukturellen Grundlagen und Value-Sets aus den Kern-Modulen, erweitert sie um kardiologie-spezifische Profile und nutzt Observations- und Prozedur-Profile aus u.a. Labor-, ICU- und Seltene-Erkrankungen-Modulen.  Für komplementäre Kardiologie-spezifische Daten (z.B. EKG-Metadaten, Geräte-Repräsentation, Geräteprogrammierung) wurden/werden eigene Profile entwickelt, die nicht durch andere Module abgedeckt sind. Wo immer möglich wird bestehende Profile genutzt oder von diesen geerbt.  
 
 ## Abhängigkeitsbaum
 
-{% include dependency-table.xhtml %}
+{% include dependency-table-short.xhtml %}

@@ -1,5 +1,5 @@
 {
-    "supress" : [
+    "suppress" : [
         "Terminology_TX_NoValid_12@Condition.*",
         
         "CODESYSTEM_CS_SUPP_INVALID_CODE@CodeSystem.concept",

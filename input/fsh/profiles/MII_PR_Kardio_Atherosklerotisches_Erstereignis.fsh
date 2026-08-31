@@ -17,7 +17,7 @@ Description: "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ere
 * code.coding.version 1.. MS
 * code.coding.code 1.. MS
 
-* code.coding = $ath-ereignis|2026.0.0-alpha.3#ae "Atherosklerotisches Ereignis"
+* code.coding = $ath-ereignis#ae "Atherosklerotisches Ereignis"
 
 * subject 1.. MS
 * subject only Reference(Patient)

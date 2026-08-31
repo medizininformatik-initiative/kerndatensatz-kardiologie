@@ -823,6 +823,18 @@
       {
         "code": "path-expansion-params",
         "value": "../../input/resources/Parameters-mii-param-kardio-manifest.json"
+      },
+      {
+        "code": "resource-language-policy",
+        "value": "all-ig"
+      },
+      {
+        "code": "i18n-default-lang",
+        "value": "de"
+      },
+      {
+        "code": "i18n-lang",
+        "value": "en"
       }
     ]
   }

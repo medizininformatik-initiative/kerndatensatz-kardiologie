@@ -96,6 +96,9 @@ parameters:
   pin-canonicals: pin-all
   excludettl: true
   path-expansion-params: ../../input/resources/Parameters-mii-param-kardio-manifest.json
+  resource-language-policy: all-ig
+  i18n-default-lang: de
+#   i18n-lang: en
 #   pin-manifest: 'mii-param-kardio-manifest'
 #   validation: [allow-any-extensions, no-broken-links]
 #

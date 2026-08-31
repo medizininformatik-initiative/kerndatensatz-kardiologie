@@ -107,7 +107,7 @@
           {
             "code": "401201003",
             "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+            "version": "http://snomed.info/sct/900000000000207008/version/20260701",
             "display": "Cigarette pack-years"
           }
         ]
@@ -115,20 +115,32 @@
     },
     {
       "valueQuantity": {
-        "unit": "{packs-per-day}",
+        "unit": "{cigarettes-per-day}",
         "system": "http://unitsofmeasure.org",
-        "code": "{packs-per-day}",
+        "code": "{cigarettes-per-day}",
         "value": 1
       },
       "code": {
         "coding": [
           {
-            "code": "230056004",
-            "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+            "code": "63640-7",
+            "system": "http://loinc.org",
+            "version": "2.82"
           }
         ]
       }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "266929003",
+            "system": "http://snomed.info/sct",
+            "version": "http://snomed.info/sct/900000000000207008/version/20260701"
+          }
+        ]
+      },
+      "valueDateTime": "2025-01-31"
     },
     {
       "valueQuantity": {
@@ -140,9 +152,9 @@
       "code": {
         "coding": [
           {
-            "code": "228488005",
+            "code": "266929003",
             "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+            "version": "http://snomed.info/sct/900000000000207008/version/20260701"
           }
         ]
       }
@@ -160,7 +172,7 @@
           {
             "code": "228487000",
             "system": "http://snomed.info/sct",
-            "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+            "version": "http://snomed.info/sct/900000000000207008/version/20260701"
           }
         ]
       }

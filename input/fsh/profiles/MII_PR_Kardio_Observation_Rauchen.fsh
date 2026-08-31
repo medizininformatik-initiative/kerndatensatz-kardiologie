@@ -39,14 +39,15 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component ^slicing.description = "Zusätzliche Angaben zum Rauchverhalten."
 * component contains
     packungsjahre 0..* and //MS and
-    packungenProTag 0..* and
-    rauchbeginn 0..1 and
+    zigarettenProTag 0..* and
+    rauchbeginn 0..* and
     rauchdauer 0..* //MS //and
 
 // Rauchmenge
 // Packungsjahr = (#tägl.Zigaretten/20)*Anzahl Jahre die geraucht wurde. => 401201003 // Cigarette pack-years
 // Beispielwerte: < 1/2 Packung; ca. 1/2 Packung; ca. 1 Packung; >= 2 Packungen
-* component[packungsjahre].code = $sct#401201003 // (782516008) = Number of calculated pack years for cumulative lifetime tobacco exposure (observable entity)
+* component[packungsjahre] ^short = "Die Zahl der täglich konsumierten Zigarettenpackungen (Inhalt 20 Stück) wird mit der Zahl der Raucherjahre multipliziert (siehe https://cde.nlm.nih.gov/deView?tinyId=Q1fNmemkyg)."
+* component[packungsjahre].code = $sct#401201003 // https://loinc.org/8664-5 || (782516008) = Number of calculated pack years for cumulative lifetime tobacco exposure (observable entity)
 * component[packungsjahre].value[x] only Quantity
 * component[packungsjahre].value[x] MS
 * component[packungsjahre].valueQuantity 1..1 MS
@@ -56,15 +57,15 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component[packungsjahre].valueQuantity.code = $ucum#{pack-years}
 * component[packungsjahre].valueQuantity.comparator MS 
 
-// Packungen pro Tag ?? Angabe zur Berechnung der Packungsjahre
-* component[packungenProTag].code = $sct#230056004 // Cigarette consumption (observable entity)
-* component[packungenProTag].value[x] only Quantity
-* component[packungenProTag].valueQuantity 1..1 MS
-* component[packungenProTag].valueQuantity.value 1..1 MS
-* component[packungenProTag].valueQuantity.unit = "{packs-per-day}"
-* component[packungenProTag].valueQuantity.system = $ucum
-* component[packungenProTag].valueQuantity.code = $ucum#{packs-per-day}
-* component[packungenProTag].valueQuantity.comparator MS
+// Zigaretten pro Tag - Teilangabe zur Berechnung der Packungsjahre
+* component[zigarettenProTag].code = $loinc#63640-7 // How many cigarettes per day do or did you smoke?
+* component[zigarettenProTag].value[x] only Quantity
+* component[zigarettenProTag].valueQuantity 1..1 MS
+* component[zigarettenProTag].valueQuantity.value 1..1 MS
+* component[zigarettenProTag].valueQuantity.unit = "{cigarettes-per-day}"
+* component[zigarettenProTag].valueQuantity.system = $ucum
+* component[zigarettenProTag].valueQuantity.code = $ucum#{cigarettes-per-day}
+* component[zigarettenProTag].valueQuantity.comparator MS
 
 // Rauchzeitraum (Period) | Tobacco smoking consumption (observable entity) --> Code passt nicht direkt auf den abzubildenden Wert. Angabe wird erstmal nicht benoetigt.
 //* component[rauchzeitraum].code = $sct#266918002
@@ -73,11 +74,9 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 //* component[rauchzeitraum].valuePeriod.end 0..1 MS
 //* component[rauchzeitraum].valuePeriod obeys rauchzeitraum-start-vor-ende
 
-// Age at starting smoking (observable entity)
-* component[rauchbeginn].code = $sct#228488005
-* component[rauchbeginn].value[x] only Quantity
-* component[rauchbeginn].valueQuantity 1..1 MS
-* component[rauchbeginn].valueQuantity.value 1..1 MS
+// started smoking age or date
+* component[rauchbeginn].code = $sct#266929003 // Smoking started (Finding)
+* component[rauchbeginn].value[x] only dateTime or Quantity
 * component[rauchbeginn].valueQuantity.unit = "year"
 * component[rauchbeginn].valueQuantity.system = $ucum
 * component[rauchbeginn].valueQuantity.code = $ucum#a

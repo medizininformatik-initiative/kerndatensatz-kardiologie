@@ -22,7 +22,7 @@
       {
         "code": "415070008",
         "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version": "http://snomed.info/sct/900000000000207008/version/20260701",
         "display": "Percutaneous coronary intervention"
       }
     ]
@@ -60,7 +60,7 @@
       {
         "code": "129431000",
         "system": "http://snomed.info/sct",
-        "version": "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version": "http://snomed.info/sct/900000000000207008/version/20260701",
         "display": "History taking - action"
       }
     ]

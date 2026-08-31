@@ -151,6 +151,7 @@
         "id": "Observation.component:packungsjahre",
         "path": "Observation.component",
         "sliceName": "packungsjahre",
+        "short": "Die Zahl der täglich konsumierten Zigarettenpackungen (Inhalt 20 Stück) wird mit der Zahl der Raucherjahre multipliziert (siehe https://cde.nlm.nih.gov/deView?tinyId=Q1fNmemkyg).",
         "min": 0,
         "max": "*"
       },
@@ -204,26 +205,26 @@
         "patternCode": "{pack-years}"
       },
       {
-        "id": "Observation.component:packungenProTag",
+        "id": "Observation.component:zigarettenProTag",
         "path": "Observation.component",
-        "sliceName": "packungenProTag",
+        "sliceName": "zigarettenProTag",
         "min": 0,
         "max": "*"
       },
       {
-        "id": "Observation.component:packungenProTag.code",
+        "id": "Observation.component:zigarettenProTag.code",
         "path": "Observation.component.code",
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "230056004",
-              "system": "http://snomed.info/sct"
+              "code": "63640-7",
+              "system": "http://loinc.org"
             }
           ]
         }
       },
       {
-        "id": "Observation.component:packungenProTag.value[x]",
+        "id": "Observation.component:zigarettenProTag.value[x]",
         "path": "Observation.component.value[x]",
         "min": 1,
         "type": [
@@ -234,37 +235,37 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.component:packungenProTag.value[x].value",
+        "id": "Observation.component:zigarettenProTag.value[x].value",
         "path": "Observation.component.value[x].value",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.component:packungenProTag.value[x].comparator",
+        "id": "Observation.component:zigarettenProTag.value[x].comparator",
         "path": "Observation.component.value[x].comparator",
         "mustSupport": true
       },
       {
-        "id": "Observation.component:packungenProTag.value[x].unit",
+        "id": "Observation.component:zigarettenProTag.value[x].unit",
         "path": "Observation.component.value[x].unit",
-        "patternString": "{packs-per-day}"
+        "patternString": "{cigarettes-per-day}"
       },
       {
-        "id": "Observation.component:packungenProTag.value[x].system",
+        "id": "Observation.component:zigarettenProTag.value[x].system",
         "path": "Observation.component.value[x].system",
         "patternUri": "http://unitsofmeasure.org"
       },
       {
-        "id": "Observation.component:packungenProTag.value[x].code",
+        "id": "Observation.component:zigarettenProTag.value[x].code",
         "path": "Observation.component.value[x].code",
-        "patternCode": "{packs-per-day}"
+        "patternCode": "{cigarettes-per-day}"
       },
       {
         "id": "Observation.component:rauchbeginn",
         "path": "Observation.component",
         "sliceName": "rauchbeginn",
         "min": 0,
-        "max": "1"
+        "max": "*"
       },
       {
         "id": "Observation.component:rauchbeginn.code",
@@ -272,7 +273,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "228488005",
+              "code": "266929003",
               "system": "http://snomed.info/sct"
             }
           ]
@@ -281,32 +282,49 @@
       {
         "id": "Observation.component:rauchbeginn.value[x]",
         "path": "Observation.component.value[x]",
-        "min": 1,
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "Quantity"
+          },
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:rauchbeginn.value[x]:valueQuantity",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueQuantity",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Quantity"
           }
-        ],
-        "mustSupport": true
+        ]
       },
       {
-        "id": "Observation.component:rauchbeginn.value[x].value",
-        "path": "Observation.component.value[x].value",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.component:rauchbeginn.value[x].unit",
+        "id": "Observation.component:rauchbeginn.value[x]:valueQuantity.unit",
         "path": "Observation.component.value[x].unit",
         "patternString": "year"
       },
       {
-        "id": "Observation.component:rauchbeginn.value[x].system",
+        "id": "Observation.component:rauchbeginn.value[x]:valueQuantity.system",
         "path": "Observation.component.value[x].system",
         "patternUri": "http://unitsofmeasure.org"
       },
       {
-        "id": "Observation.component:rauchbeginn.value[x].code",
+        "id": "Observation.component:rauchbeginn.value[x]:valueQuantity.code",
         "path": "Observation.component.value[x].code",
         "patternCode": "a"
       },

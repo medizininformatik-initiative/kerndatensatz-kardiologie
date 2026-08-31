@@ -3,12 +3,12 @@
 Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatensatz-Moduls Kardiologie der Medizininformatik-Initiative.
 Im Folgenden werden die Use Cases des Moduls, sowie die dazugehörigen FHIR-Profile und Terminologie-Ressourcen in ihrer verbindlichen Form beschrieben.
 
-| Veröffentlichung   |                      |
-|--------------------|----------------------|
-| Datum              | 2026-08-14           |
-| Version            | 2026.0.0-alpha.3     |
-| Status             | Draft / Experimental |
-| Realm              | DE                   |
+| Veröffentlichung   |                                 |
+|--------------------|---------------------------------|
+| Datum              | {{ site.data.fhir.ig.date }}    |
+| Version            | {{ site.data.fhir.ig.version }} |
+| Status             | {{ site.data.fhir.ig.status }}  |
+| Realm              | {{ site.data.fhir.ig.realm }}   |
 
 ## Fragen / Feedback
 

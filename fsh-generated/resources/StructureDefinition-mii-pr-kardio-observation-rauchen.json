@@ -302,6 +302,19 @@
         ]
       },
       {
+        "id": "Observation.component:rauchbeginn.value[x]:valueDateTime",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueDateTime",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Observation.component:rauchbeginn.value[x]:valueQuantity",
         "path": "Observation.component.value[x]",
         "sliceName": "valueQuantity",

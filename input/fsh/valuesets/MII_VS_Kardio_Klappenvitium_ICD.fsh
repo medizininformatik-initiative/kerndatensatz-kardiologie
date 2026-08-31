@@ -7,7 +7,7 @@ Description: "ICD-Codes für Klappenerkrankungen"
 * insert Publisher
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2026-06-12"
 
 // Rheumatische Klappenerkrankungen

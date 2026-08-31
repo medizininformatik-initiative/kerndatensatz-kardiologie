@@ -28,14 +28,7 @@ In der Umsetzung werden drei Stufen durchlaufen, in denen sukzessiv der kardiolo
 * **Stufe 2:** Integration weiterer Vorarbeiten aus MII - Forschungsprojekten, Gematik und Patientenvertretungen (vollständiger Datensatz aus [ACRIBiS](https://www.medizininformatik-initiative.de/de/acribis-personalisierte-risikobewertungen-fuer-herz-kreislauf-erkrankungen), [HIGHmed Use Case](https://www.medizininformatik-initiative.de/de/acribis-personalisierte-risikobewertungen-fuer-herz-kreislauf-erkrankungen), [CAEHR](https://www.medizininformatik-initiative.de/de/digitaler-fortschrittshub-caehr), [INA](https://www.ina.gematik.de/community-hub/vernetzen-mitwirken/arbeitskreise/erstellung-eines-kardiologischen-basisdatensatzes), standardisierte Patientenfragebögen [PROMs](https://future.hospital/wissensdatenbank/details/patientenzentrierte-erfassung-des-wohlbefindens-proms-und-prems), u.a.)
 * **Stufe 3:** Erweiterung des Moduls Kardiologie durch die Abbildung zusätzlicher Parameter der kardiologischen Versorgung, die auch seltene Erkrankungen und weitere Risikobewertungen einschliessen. 
 
->!Das Modul Kardiologie soll in den Datenintegrationszentren (DIZ) bei der Aufbereitung und Bereitstellung von vorhandenen Patientendaten aus dem Versorgungskontext unterstützen. Es baut bewusst auf bereits vorhandenen Modulen des MII-KDS auf (base, meta, icu, isik, Diagnose, Prozedur) und verwendet, wo möglich, bestehende Strukturen wieder.
-
->!Das Modul wird iterativ in drei Umsetzungsstufen entwickelt:
-
->!* **Stufe 1 (aktuell):** Prototypische Umsetzung für die ACRIBiS-Studie, Fokus auf Kern-Datenitems zur Standardisierung der kardialen Datenerfassung
->!* **Stufe 2:** Integration weiterer Vorarbeiten (vollständiger Datensatz aus ACRIBiS, HiGHmed Use Case Cardio, CAEHR, weitere Vorarbeiten)
->!* **Stufe 3:** Abbildung der gesamten Kardiologie
-
+Das Modul Kardiologie soll in den Datenintegrationszentren (DIZ) bei der Aufbereitung und Bereitstellung von vorhandenen Patientendaten aus dem Versorgungskontext unterstützen. Es baut bewusst auf bereits vorhandenen Modulen des MII-KDS auf (base, meta, icu, isik, Diagnose, Prozedur) und verwendet, wo möglich, bestehende Strukturen wieder.
 ---
 
 ## Spezifikation der Parameter
@@ -51,17 +44,3 @@ Das Modul adressiert:
 * **EKG-Metadaten:** Beschreibenden Parameter die EKG Messungen spezifizieren und aus den Messungen abgeleitete analytische Daten dr EKG Messkurve (Messung, Kanäle, Rasterung, Rohdatenreferenz)
 
 ⚠️ Hinweis: Im Kontext der Anamnese wird das anamnestische Nicht-Vorliegen von Erkrankungen ebenfalls abgebildet. Diese Informationen dienen damit ebeso zur Bewertung des Gesundheitszustandes wie Diagnosen manifester Erkrankungen.
-
----
-
-## Status des Moduls
-
-Das Kardiologie-Modul befindet sich aktuell in **Umsetzungsstufe 1 (siehe oebn, prototypisch)**.
-
-* **Aktuelle stabile Version:** keine (s. o.)
-* **Vorschauversion:** [2026.0.0-alpha.3](https://simplifier.net/mii-erweiterungsmodul-kardiologie/~releases)
-* **Reifegrad:** Draft / Experimental
-
->! Alle veröffentlichten FHIR-Artefakte innerhalb des Projektes verfügen über einen Status durch welchen der jeweilige Reifegrad abgeleitet werden kann.
->! Profile mit dem Status 'Draft' wurden noch nicht ballotiert und können noch diversen und substantiellen Änderungen unterliegen.
->! Verpflichtende und ballotierte Ergebnisse werden zukünftig unter dem Tab 'Packages' zu finden sein.

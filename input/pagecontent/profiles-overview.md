@@ -1,5 +1,5 @@
 Übersicht über die aktuell angelegten Profile des Kardiologie-Moduls.
 
-## Alle Profile nach Kategorie
+## Liste aller Profile
 
 {% include table-profiles.xhtml %}

@@ -7,7 +7,7 @@ Description: "SNOMED CT Codes für Klappenerkrankungen"
 * insert Publisher
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^date = "2025-09-16"
 * ^extension[http://hl7.org/fhir/StructureDefinition/valueset-supplement].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct"
 

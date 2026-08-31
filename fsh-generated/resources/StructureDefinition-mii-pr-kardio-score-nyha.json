@@ -6,6 +6,7 @@
   "name": "MII_PR_Kardio_Score_NYHA",
   "title": "MII PR Kardio Score NYHA",
   "status": "active",
+  "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

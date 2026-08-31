@@ -7,6 +7,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * insert Publisher
 
 * ^status = #active
+* ^experimental = false
 
 // Parent: Current Smoking Status - gematik ISiK -> https://gematik.de/fhir/isik/StructureDefinition/ISiKRaucherStatus
 * category 1..1 MS

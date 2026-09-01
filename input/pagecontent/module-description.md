@@ -14,7 +14,7 @@ Die Auswahl der Parameter als Grundlage zur Erfassung von Daten zur Behandlung k
 
 Das Kerndatensatzmodul Kardiolgie wurde als eigenständiges Modul des Kerndatensatzes der MII konzipiert, ist jedoch über die gemeinsame Nutzung von verschiedenen Datenitems mit bereits existierenden Modulen eingebunden. Die untenstehende Graphik zeigt die gegenwärtigen (Stand 08.2026) Module an und in dieser werden die grundlegenden Datenquellen wie Person, Fall oder auch Medikation hervorgehoben. Die Übersicht visualisierte jedoch keine Abhängigkeiten oder inhaltlichen Gemeinsamkeiten der einzelnen Module auf. 
 
-[Übersicht Kerndatensatz](https://www.medizininformatik-initiative.de/sites/default/files/2026-07/2026-07-03_Kerndatensatz_d.png)
+![Übersicht Kerndatensatz](Kerndatensatz.png)
 
 (aus: [Medizininformatik Initiative Webseite](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative)] 
 

@@ -26,4 +26,9 @@ on:
 jobs:
   publish-ig:
     uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_ig_publish_pages.yml@feat/reusable-ig-publish-pages-2026-07-23
+    with:
+      # de.gematik.isik#6.0.0 liefert keine Snapshots; MII_PR_Kardio_Observation_Rauchen
+      # erbt von ISiKRaucherStatus, SUSHI braucht dafuer den Snapshot. Der Cache aus dem
+      # fhir-package-store (cache-store-Branch) bringt ihn mit.
+      preload_package_cache: true
     secrets: inherit

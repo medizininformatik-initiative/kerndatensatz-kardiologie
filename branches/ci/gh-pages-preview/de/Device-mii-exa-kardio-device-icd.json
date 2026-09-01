@@ -1,0 +1,25 @@
+{
+  "resourceType" : "Device",
+  "id" : "mii-exa-kardio-device-icd",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device"]
+  },
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: Device mii-exa-kardio-device-icd</b></p><a name=\"mii-exa-kardio-device-icd\"> </a><a name=\"hcmii-exa-kardio-device-icd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-kardio-device.html\">MII PR Kardio Device</a></p></div><p><b>status</b>: Active</p><p><b>manufacturer</b>: Medtronic</p><p><b>type</b>: <span title=\"Codes:{http://snomed.info/sct 72506001}\">Implantable defibrillator</span></p><p><b>patient</b>: Beispielpatient</p></div>"
+  },
+  "status" : "active",
+  "manufacturer" : "Medtronic",
+  "type" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "code" : "72506001",
+      "display" : "Implantable defibrillator"
+    }]
+  },
+  "patient" : {
+    "display" : "Beispielpatient"
+  }
+}

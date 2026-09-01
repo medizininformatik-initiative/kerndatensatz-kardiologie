@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-kardio-atherosklerotisches-erstereignis"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Observation mii-exa-kardio-atherosklerotisches-erstereignis</b></p><a name="mii-exa-kardio-atherosklerotisches-erstereignis"> </a><a name="hcmii-exa-kardio-atherosklerotisches-erstereignis"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html">MII PR Kardio Atherosklerotisches Erstereignis</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis ae}">Atherosklerotisches Ereignis</span></p><p><b>subject</b>: Beispielpatient</p><p><b>effective</b>: 2025-05-23 13:48:17+0200</p><p><b>performer</b>: Beispielkardiologe</p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 439401001}">Diagnosis</span></p><p><b>value</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis ae}">Atherosklerotisches Ereignis</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 432213005}">Date of diagnosis</span></p><p><b>value</b>: 2023-01</p></blockquote></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"/>
+      <version value="2027.0.0-ballot.rc1"/>
+      <code value="ae"/>
+      <display value="Atherosklerotisches Ereignis"/>
+    </coding>
+  </code>
+  <subject>
+    <display value="Beispielpatient"/>
+  </subject>
+  <effectiveDateTime value="2025-05-23T13:48:17+02:00"/>
+  <performer>
+    <display value="Beispielkardiologe"/>
+  </performer>
+  <component>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="439401001"/>
+        <display value="Diagnosis"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"/>
+        <version value="2027.0.0-ballot.rc1"/>
+        <code value="ae"/>
+        <display value="Atherosklerotisches Ereignis"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="432213005"/>
+        <display value="Date of diagnosis"/>
+      </coding>
+    </code>
+    <valueDateTime value="2023-01"/>
+  </component>
+</Observation>

@@ -1,0 +1,34 @@
+{
+  "resourceType" : "DocumentReference",
+  "id" : "mii-exa-kardio-ekg-referenz",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz"]
+  },
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: DocumentReference mii-exa-kardio-ekg-referenz</b></p><a name=\"mii-exa-kardio-ekg-referenz\"> </a><a name=\"hcmii-exa-kardio-ekg-referenz\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-kardio-ekg-referenz.html\">MII PR Kardio EKG Referenz</a></p></div><p><b>status</b>: Current</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 11524-6}\">EKG study</span></p><p><b>subject</b>: Beispielpatient</p><p><b>date</b>: 2025-07-17 16:41:22+0200</p><p><b>author</b>: <a href=\"Device-mii-exa-kardio-ekg-geraet-mortara.html\">Device: status = active; manufacturer = Mortara Instrument, Inc.; type = MDC_DEV_ECG_MDS</a></p><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ContentType</b></td><td><b>Url</b></td><td><b>Title</b></td></tr><tr><td style=\"display: none\">*</td><td>application/dicom</td><td><a href=\"https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&amp;canonical=https://example.com/EKGs/beispiel-ekg\">https://example.com/EKGs/beispiel-ekg</a></td><td>Beispiel EKG an einem anteren Ort</td></tr></table></blockquote></div>"
+  },
+  "status" : "current",
+  "type" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "11524-6",
+      "display" : "EKG study"
+    }]
+  },
+  "subject" : {
+    "display" : "Beispielpatient"
+  },
+  "date" : "2025-07-17T16:41:22+02:00",
+  "author" : [{
+    "reference" : "Device/mii-exa-kardio-ekg-geraet-mortara"
+  }],
+  "content" : [{
+    "attachment" : {
+      "contentType" : "application/dicom",
+      "url" : "https://example.com/EKGs/beispiel-ekg",
+      "title" : "Beispiel EKG an einem anteren Ort"
+    }
+  }]
+}

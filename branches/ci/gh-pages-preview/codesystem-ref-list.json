@@ -1,0 +1,149 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id",
+    "version" : null,
+    "status" : "active",
+    "name" : "AlphaId",
+    "title" : "Alpha-ID",
+    "description" : "Alpha-ID Platzhalter-CodeSystem",
+    "uses" : {
+    },
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-alphaid.html" : "MII VS Diagnose Alpha-ID",
+    "ValueSet-mii-vs-kardio-klappenvitium-alphaid.html" : "MII VS Kardio Klappenvitium [ALPHA-ID]"
+  },
+  {
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+    "version" : null,
+    "status" : "active",
+    "name" : "ICD10GM",
+    "title" : "ICD-10-GM",
+    "description" : "ICD-10-GM Platzhalter-CodeSystem",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-kardio-klappenvitium-icd.html" : "MII VS Kardio Klappenvitium [ICD 10 GM]",
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-icd10gm.html" : "MII VS Diagnose ICD-10-GM"
+  },
+  {
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops",
+    "version" : null,
+    "status" : "active",
+    "name" : "OPS",
+    "title" : "OPS",
+    "description" : "OPS Platzhalter-CodeSystem",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.html" : "MII VS Kardio Kardiale Devicemimplantation [OPS]"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.html" : "MII VS Kardio Extended MII DiagnoseCodes [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.html" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-prozedur-prozeduren-snomedct.html" : "MII VS Prozedur Prozeduren [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html" : "MII VS Kardio NYHA Klassen [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html" : "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.html" : "MII VS Kardio Klappenvitium Grad [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-ethnie-snomedct.html" : "MII VS Kardio Ethnie [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-geraetetyp-snomedct.html" : "MII VS Kardio Gerätetyp [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.html" : "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.html" : "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-allergene-snomedct.html" : "MII VS Kardio Allergene [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.html" : "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.html" : "MII VS Kardio EKG Prozedur [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-klappenvitium-snomedct.html" : "MII VS Kardio Klappenvitium [SNOMED CT]"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DataAbsentReason",
+    "title" : "DataAbsentReason",
+    "description" : "Used to specify why the normally expected content of the data element is missing.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+    "uses" : {
+    },
+    "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.html" : "MII VS Kardio Kardiale Devicemimplantation [OPS]",
+    "ValueSet-mii-vs-kardio-geraetetyp-snomedct.html" : "MII VS Kardio Gerätetyp [SNOMED CT]"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-category.html" : "Observation Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ExpandedYesNoIndicator",
+    "title" : "expandedYes-NoIndicator",
+    "description" : "HL7-defined code system of concepts used to specify an expansion on the original Yes/No indicator table by including \"flavors of null\".  It is intended to be applied to fields where the response is not limited to \"yes\" or \"no\".  Used in numerous locations in HL7 Version 2.x messaging.",
+    "oids" : ["2.16.840.1.113883.18.347"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html" : "hl7VS-expandedYes-NoIndicator",
+    "ValueSet-mii-vs-kardio-nein-unbekannt.html" : "MII VS Kardio Nein Unbekannt"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "MII_CS_Kardio_Atherosklerotisches_Ereignis",
+    "title" : "MII CS Kardio Atherosklerotisches Ereignis",
+    "description" : "Code für ein unbestimmtes atherosklerotisches Ereignis",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html" : "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-lebensmittelpunkt",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "draft",
+    "name" : "MII_CS_Kardio_Lebensmittelpunkt",
+    "title" : "MII CS Kardio Lebensmittelpunkt",
+    "description" : "Lebensmittelpunkt des Patienten",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.html" : "MII VS Kardio Lebensmittelpunkt [M49]"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "MII_CS_Kardio_Modifizierte_Rankin_Skala",
+    "title" : "MII CS Kardio Modifizierte Rankin Skala",
+    "description" : "Beeinträchtigung des Patienten nach Schlaganfall",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-kardio-modifizierte-rankin-skala.html" : "MII VS Kardio Modifizierte Rankin Skala"
+  },
+  {
+    "url" : "urn:iso:std:iso:11073:10101",
+    "version" : "20250520",
+    "status" : "active",
+    "name" : "Mdc",
+    "title" : "ISO/IEEE 11073 Medical Device Communication Nomenclature",
+    "description" : "The nomenclature relates primarily to vital signs monitoring, but also includes semantics of other medical devices that are commonly used in acute care settings. There are multiple coding partitions each of which has a systematic name consisting of a set of base concepts and differentiating criteria.",
+    "oids" : ["2.16.840.1.113883.6.24"],
+    "uses" : {
+    },
+    "ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html" : "MII VS Kardio EKG Kanäle [MDC]",
+    "ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.html" : "MII VS Kardio Geräteprogrammierung [MDC]",
+    "ValueSet-mii-vs-kardio-objekte-geraete-mdc.html" : "MII VS Kardio MDC Objects Devices [MDC]",
+    "http://hl7.org/fhir/R4/valueset-devicemetric-type.html" : "Device Metric and Component Types",
+    "ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.html" : "MII VS Kardio Metriken EKG Annotationen [MDC]"
+  }]
+}

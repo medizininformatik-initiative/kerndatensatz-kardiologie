@@ -1,0 +1,125 @@
+# mii-kerndatensatzmodul-kardiologie#2027.0.0-ballot.rc1: MII IG Modul Kardio DE(de)
+
+## Pages
+
+* [Home](index.md)
+* [Datensätze und Beschreibungen](datasets.md)
+* [Profile: KardioDevices](profiles-kardiodevices.md)
+* [Kontext und Bezüge zu anderen Modulen](context.md)
+* [Beschreibung des Moduls](module-description.md)
+* [Terminologien](terminology.md)
+* [Profile: EKG-Metadaten](profiles-ekg.md)
+* [Profile: Diagnostik](profiles-diagnostik.md)
+* [Artefaktübersicht](artifacts.md)
+* [Profile: Risikofaktoren](profiles-risikofaktoren.md)
+* [Referenzen](references.md)
+* [Profile: Anamnese](profiles-anamnese.md)
+* [Anwendungsszenarien](scenarios.md)
+* [Profilübersicht](profiles-overview.md)
+* [Release Notes](release-notes.md)
+* [Informationsmodell (UML)](information-model.md)
+* [Profile: Skalen](profiles-skalen.md)
+
+## Resources
+
+### CodeSystems
+
+* [MII CS Kardio ACRIBiS Questionnaire Answer](CodeSystem-mii-cs-kardio-acribis-questionnaire-answer.md)
+* [MII CS Kardio Atherosklerotisches Ereignis](CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.md)
+* [MII CS Kardio Lebensmittelpunkt](CodeSystem-mii-cs-kardio-lebensmittelpunkt.md)
+* [MII CS Kardio Modifizierte Rankin Skala](CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.md)
+* [MII CS Kardio Supplement [SNOMED CT]](CodeSystem-mii-cs-kardio-supplement-snomedct.md)
+
+### ValueSets
+
+* [MII VS Kardio Allergene [SNOMED CT]](ValueSet-mii-vs-kardio-allergene-snomedct.md)
+* [MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]](ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.md)
+* [MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md)
+* [MII VS Kardio EKG Prozedur [SNOMED CT]](ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.md)
+* [MII VS Kardio Ethnie [SNOMED CT]](ValueSet-mii-vs-kardio-ethnie-snomedct.md)
+* [MII VS Kardio Extended Condition Severity [SNOMED CT]](ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.md)
+* [MII VS Kardio Extended MII DiagnoseCodes [SNOMED CT]](ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.md)
+* [MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md)
+* [MII VS Kardio Gerätetyp [SNOMED CT]](ValueSet-mii-vs-kardio-geraetetyp-snomedct.md)
+* [MII VS Kardio Gewichtsveraenderung [SNOMED CT]](ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.md)
+* [MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.md)
+* [MII VS Kardio Kardiale Devicemimplantation [OPS]](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md)
+* [MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.md)
+* [MII VS Kardio Klappenvitium [ALPHA-ID]](ValueSet-mii-vs-kardio-klappenvitium-alphaid.md)
+* [MII VS Kardio Klappenvitium Grad [SNOMED CT]](ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.md)
+* [MII VS Kardio Klappenvitium [ICD 10 GM]](ValueSet-mii-vs-kardio-klappenvitium-icd.md)
+* [MII VS Kardio Klappenvitium [SNOMED CT]](ValueSet-mii-vs-kardio-klappenvitium-snomedct.md)
+* [MII VS Kardio Lebensmittelpunkt [M49]](ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.md)
+* [MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md)
+* [MII VS Kardio Modifizierte Rankin Skala](ValueSet-mii-vs-kardio-modifizierte-rankin-skala.md)
+* [MII VS Kardio Nein Unbekannt](ValueSet-mii-vs-kardio-nein-unbekannt.md)
+* [MII VS Kardio NYHA Klassen [SNOMED CT]](ValueSet-mii-vs-kardio-nyha-klassen-snomedct.md)
+* [MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md)
+
+### Resource Profiles
+
+* [MII PR Kardio Anzahl KH Aufenthalte wg HF](StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.md)
+* [MII PR Kardio Atherosklerotisches Erstereignis](StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.md)
+* [MII PR Kardio Device](StructureDefinition-mii-pr-kardio-device.md)
+* [MII PR Kardio Diagnose Prozedur Nein Unbekannt](StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.md)
+* [MII PR Kardio Diagnose](StructureDefinition-mii-pr-kardio-diagnose.md)
+* [MII PR Kardio EKG Annotation](StructureDefinition-mii-pr-kardio-ekg-annotation.md)
+* [MII PR Kardio EKG Durchführung](StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.md)
+* [MII PR Kardio EKG Gerät](StructureDefinition-mii-pr-kardio-ekg-geraet.md)
+* [MII PR Kardio EKG Gerätedefinition](StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.md)
+* [MII PR Kardio EKG Kanal](StructureDefinition-mii-pr-kardio-ekg-kanal.md)
+* [MII PR Kardio EKG Referenz](StructureDefinition-mii-pr-kardio-ekg-referenz.md)
+* [MII PR Kardio Geräteprogrammierung](StructureDefinition-mii-pr-kardio-geraeteprogrammierung.md)
+* [MII PR Kardio Kardiale Deviceimplantation](StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.md)
+* [MII PR Kardio Klappenvitium](StructureDefinition-mii-pr-kardio-klappenvitium.md)
+* [MII PR Kardio Linksventrikulaere Ejektionsfraktion](StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.md)
+* [MII PR Kardio NBG Schrittmachermodus](StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.md)
+* [MII PR Kardio Observation Rauchen](StructureDefinition-mii-pr-kardio-observation-rauchen.md)
+* [MII PR Kardio Score Modifizierte Rankin Skala](StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.md)
+* [MII PR Kardio Score NYHA](StructureDefinition-mii-pr-kardio-score-nyha.md)
+
+### ImplementationGuides
+
+* [MII IG Modul Kardio DE](ImplementationGuide-mii-kerndatensatzmodul-kardiologie.md)
+
+### Parameters
+
+* [mii-param-kardio-manifest](Parameters-mii-param-kardio-manifest.md)
+
+### Questionnaires
+
+* [MII QN Kardio Acribis Study FollowUp](Questionnaire-mii-qn-kardio-acribis-study-followup.md)
+
+### Examples
+
+* [mii-exa-kardio-diagnose-myokardinfarkt (Condition)](Condition-mii-exa-kardio-diagnose-myokardinfarkt.md)
+* [mii-exa-kardio-embolischer-gefaessverschluss (Condition)](Condition-mii-exa-kardio-embolischer-gefaessverschluss.md)
+* [mii-exa-kardio-hoehergradiges-vitium (Condition)](Condition-mii-exa-kardio-hoehergradiges-vitium.md)
+* [mii-exa-kardio-device-icd (Device)](Device-mii-exa-kardio-device-icd.md)
+* [mii-exa-kardio-ekg-geraet-mortara (Device)](Device-mii-exa-kardio-ekg-geraet-mortara.md)
+* [mii-exa-kardio-ekg-kanal-i (Device)](Device-mii-exa-kardio-ekg-kanal-i.md)
+* [mii-exa-kardio-ekg-kanal-ii (Device)](Device-mii-exa-kardio-ekg-kanal-ii.md)
+* [mii-exa-kardio-ekg-kanal-iii (Device)](Device-mii-exa-kardio-ekg-kanal-iii.md)
+* [mii-exa-kardio-ekg-geraetedefinition-mortara (DeviceDefinition)](DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.md)
+* [mii-exa-kardio-nbg-schrittmachermodus (DeviceMetric)](DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.md)
+* [mii-exa-kardio-ekg-referenz (DocumentReference)](DocumentReference-mii-exa-kardio-ekg-referenz.md)
+* [mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf (Observation)](Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.md)
+* [mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2 (Observation)](Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.md)
+* [mii-exa-kardio-atherosklerotisches-erstereignis (Observation)](Observation-mii-exa-kardio-atherosklerotisches-erstereignis.md)
+* [mii-exa-kardio-ekg-rr-interval (Observation)](Observation-mii-exa-kardio-ekg-rr-interval.md)
+* [mii-exa-kardio-geraeteprogrammierung-vvi (Observation)](Observation-mii-exa-kardio-geraeteprogrammierung-vvi.md)
+* [mii-exa-kardio-herzinsuffizienz-unbekannt (Observation)](Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.md)
+* [mii-exa-kardio-hoehergradiges-vitium-nein (Observation)](Observation-mii-exa-kardio-hoehergradiges-vitium-nein.md)
+* [mii-exa-kardio-kein-device (Observation)](Observation-mii-exa-kardio-kein-device.md)
+* [mii-exa-kardio-lvef (Observation)](Observation-mii-exa-kardio-lvef.md)
+* [mii-exa-kardio-mrs (Observation)](Observation-mii-exa-kardio-mrs.md)
+* [mii-exa-kardio-pci-nein (Observation)](Observation-mii-exa-kardio-pci-nein.md)
+* [mii-exa-kardio-raucherstatus (Observation)](Observation-mii-exa-kardio-raucherstatus.md)
+* [mii-exa-kardio-score-nyha-ii (Observation)](Observation-mii-exa-kardio-score-nyha-ii.md)
+* [mii-exa-kardio-rolle-kardiologe (PractitionerRole)](PractitionerRole-mii-exa-kardio-rolle-kardiologe.md)
+* [mii-exa-kardio-ekg-durchfuehrung (Procedure)](Procedure-mii-exa-kardio-ekg-durchfuehrung.md)
+* [mii-exa-kardio-kardiale-deviceimplantation-icd (Procedure)](Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.md)
+* [mii-exa-kardio-questionnaireresponse-andere (QuestionnaireResponse)](QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-andere.md)
+* [mii-exa-kardio-questionnaireresponse-angehoerige (QuestionnaireResponse)](QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige.md)
+* [mii-exa-kardio-questionnaireresponse-arzt (QuestionnaireResponse)](QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt.md)
+* [mii-exa-kardio-questionnaireresponse-patient (QuestionnaireResponse)](QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient.md)

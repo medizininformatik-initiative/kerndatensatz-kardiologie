@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mii-cs-kardio-supplement-snomedct"/>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de"><p class="res-header-id"><b>Generated Narrative: CodeSystem mii-cs-kardio-supplement-snomedct</b></p><a name="mii-cs-kardio-supplement-snomedct"> </a><a name="hcmii-cs-kardio-supplement-snomedct"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p></div><p>This code system supplement <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct</code> defines features on the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">368009:{116676008=49755003,363698007=17401000},{246112005=24484000}<a name="mii-cs-kardio-supplement-snomedct-368009.58.123116676008.6149755003.44363698007.6117401000.125.44.123246112005.6124484000.125"> </a></td><td>368009|Heart valve disorder|:{116676008|Associated morphology|=49755003|Morphologically abnormal structure|,363698007|Finding site|=17401000|Cardiac valve structure|},{246112005|Severity|=24484000|Severe|}</td></tr><tr><td style="white-space:nowrap">73544002:{260507000=260519008}<a name="mii-cs-kardio-supplement-snomedct-73544002.58.123260507000.61260519008.125"> </a></td><td>73544002|Operation on heart valve|:{260507000|Access|=260519008|Transcatheter approach|}</td></tr><tr><td style="white-space:nowrap">64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000}<a name="mii-cs-kardio-supplement-snomedct-64572001.58.123116676008.6150960005.4447429007.61131148009.4442752001.61789750003.44246112005.6124484000.125"> </a></td><td>64572001|Disease|:{116676008|Associated morphology|=50960005|Hemorrhage|,47429007|Associated with|=131148009|Bleeding|,42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}</td></tr></table></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct"/>
+  <version value="2027.0.0-ballot.rc1"/>
+  <name value="MII_CS_Kardio_Supplement_SNOMEDCT"/>
+  <title value="MII CS Kardio Supplement [SNOMED CT]"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-05"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="office@medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul Kardiologie."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"/>
+  <concept>
+    <code value="368009:{116676008=49755003,363698007=17401000},{246112005=24484000}"/>
+    <display value="368009|Heart valve disorder|:{116676008|Associated morphology|=49755003|Morphologically abnormal structure|,363698007|Finding site|=17401000|Cardiac valve structure|},{246112005|Severity|=24484000|Severe|}"/>
+  </concept>
+  <concept>
+    <code value="73544002:{260507000=260519008}"/>
+    <display value="73544002|Operation on heart valve|:{260507000|Access|=260519008|Transcatheter approach|}"/>
+  </concept>
+  <concept>
+    <code value="64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000}"/>
+    <display value="64572001|Disease|:{116676008|Associated morphology|=50960005|Hemorrhage|,47429007|Associated with|=131148009|Bleeding|,42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"/>
+  </concept>
+</CodeSystem>

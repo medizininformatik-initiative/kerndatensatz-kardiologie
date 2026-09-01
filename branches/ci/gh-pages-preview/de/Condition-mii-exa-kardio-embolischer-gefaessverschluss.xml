@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-kardio-embolischer-gefaessverschluss"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Condition mii-exa-kardio-embolischer-gefaessverschluss</b></p><a name="mii-exa-kardio-embolischer-gefaessverschluss"> </a><a name="hcmii-exa-kardio-embolischer-gefaessverschluss"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-diagnose.html">MII PR Kardio Diagnose</a></p></div><p><b>Condition Asserted Date</b>: 2025-02-02</p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span></p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}">Problem List Item</span></p><p><b>code</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis eg-cv}">Embolischer Gefäßverschluss cerebro-vaskulär</span></p><p><b>subject</b>: Max Mustermann</p><p><b>onset</b>: 2024-11-05</p><p><b>recordedDate</b>: 2025-02-02</p><p><b>recorder</b>: Patient</p><p><b>asserter</b>: Facharzt für Kardiologie</p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/condition-assertedDate">
+    <valueDateTime value="2025-02-02"/>
+  </extension>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="confirmed"/>
+      <display value="Confirmed"/>
+    </coding>
+  </verificationStatus>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+      <code value="problem-list-item"/>
+      <display value="Problem List Item"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"/>
+      <version value="2027.0.0-ballot.rc1"/>
+      <code value="eg-cv"/>
+      <display value="Embolischer Gefäßverschluss cerebro-vaskulär"/>
+    </coding>
+  </code>
+  <subject>
+    <display value="Max Mustermann"/>
+  </subject>
+  <onsetDateTime value="2024-11-05"/>
+  <recordedDate value="2025-02-02"/>
+  <recorder>
+    <display value="Patient"/>
+  </recorder>
+  <asserter>
+    <display value="Facharzt für Kardiologie"/>
+  </asserter>
+</Condition>

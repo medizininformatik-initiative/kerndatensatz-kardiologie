@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-kardio-herzinsuffizienz-unbekannt"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Observation mii-exa-kardio-herzinsuffizienz-unbekannt</b></p><a name="mii-exa-kardio-herzinsuffizienz-unbekannt"> </a><a name="hcmii-exa-kardio-herzinsuffizienz-unbekannt"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html">MII PR Kardio Diagnose Prozedur Nein Unbekannt</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 84114007}">Heart failure</span></p><p><b>subject</b>: Beispielpatient</p><p><b>effective</b>: 2025-06-06 14:29:34+0200</p><p><b>performer</b>: Beispielkardiologe</p><p><b>value</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v2-0532 ASKU}">gefragt, aber nicht genannt</span></p><p><b>method</b>: <span title="Codes:{http://snomed.info/sct 129431000}">History taking - action</span></p><p><b>device</b>: Beispieltablet</p><p><b>derivedFrom</b>: Beispielfragebogen</p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="survey"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <code value="84114007"/>
+      <display value="Heart failure"/>
+    </coding>
+  </code>
+  <subject>
+    <display value="Beispielpatient"/>
+  </subject>
+  <effectiveDateTime value="2025-06-06T14:29:34.214+02:00"/>
+  <performer>
+    <display value="Beispielkardiologe"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+      <version value="3.0.0"/>
+      <code value="ASKU"/>
+      <display value="gefragt, aber nicht genannt"/>
+    </coding>
+  </valueCodeableConcept>
+  <method>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <code value="129431000"/>
+      <display value="History taking - action"/>
+    </coding>
+  </method>
+  <device>
+    <display value="Beispieltablet"/>
+  </device>
+  <derivedFrom>
+    <display value="Beispielfragebogen"/>
+  </derivedFrom>
+</Observation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"/>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de"><p class="res-header-id"><b>Generated Narrative: ValueSet mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct</b></p><a name="mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"> </a><a name="hcmii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p></div><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/80891009">80891009</a></td><td/></tr><tr><td><a href="http://snomed.info/id/87878005">87878005</a></td><td/></tr><tr><td><a href="http://snomed.info/id/53085002">53085002</a></td><td/></tr></table></li></ul></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"/>
+  <version value="2027.0.0-ballot.rc1"/>
+  <name value="MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT"/>
+  <title value="MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-09-05"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="office@medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="Codes aus diesem Value Set können in einer Prozedur die Körperstelle der Implantation eines kardialen Devices in der Kardiologie spezifizieren."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="80891009"/>
+      </concept>
+      <concept>
+        <code value="87878005"/>
+      </concept>
+      <concept>
+        <code value="53085002"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

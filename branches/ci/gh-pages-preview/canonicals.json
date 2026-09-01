@@ -1,0 +1,343 @@
+[{
+  "id" : "mii-cs-kardio-acribis-questionnaire-answer",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_CS_Kardio_Acribis_Questionnaire_Answer"
+},
+{
+  "id" : "mii-cs-kardio-atherosklerotisches-ereignis",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_CS_Kardio_Atherosklerotisches_Ereignis"
+},
+{
+  "id" : "mii-cs-kardio-lebensmittelpunkt",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-lebensmittelpunkt",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_CS_Kardio_Lebensmittelpunkt"
+},
+{
+  "id" : "mii-cs-kardio-modifizierte-rankin-skala",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_CS_Kardio_Modifizierte_Rankin_Skala"
+},
+{
+  "id" : "mii-cs-kardio-supplement-snomedct",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_CS_Kardio_Supplement_SNOMEDCT"
+},
+{
+  "id" : "mii-kerndatensatzmodul-kardiologie",
+  "type" : "ImplementationGuide",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_IG_MODUL_KARDIO_DE"
+},
+{
+  "id" : "mii-qn-kardio-acribis-study-followup",
+  "type" : "Questionnaire",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_QN_Kardio_Acribis_Study_FollowUp"
+},
+{
+  "id" : "mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF"
+},
+{
+  "id" : "mii-pr-kardio-atherosklerotisches-erstereignis",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Atherosklerotisches_Erstereignis"
+},
+{
+  "id" : "mii-pr-kardio-device",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Device"
+},
+{
+  "id" : "mii-pr-kardio-diagnose",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Diagnose"
+},
+{
+  "id" : "mii-pr-kardio-diagnose-prozedur-nein-unbekannt",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt"
+},
+{
+  "id" : "mii-pr-kardio-ekg-annotation",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotation",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_EKG_Annotation"
+},
+{
+  "id" : "mii-pr-kardio-ekg-durchfuehrung",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-durchfuehrung",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_EKG_Durchfuehrung"
+},
+{
+  "id" : "mii-pr-kardio-ekg-geraet",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_EKG_Geraet"
+},
+{
+  "id" : "mii-pr-kardio-ekg-geraetedefinition",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_EKG_Geraetedefinition"
+},
+{
+  "id" : "mii-pr-kardio-ekg-kanal",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_EKG_Kanal"
+},
+{
+  "id" : "mii-pr-kardio-ekg-referenz",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_EKG_Referenz"
+},
+{
+  "id" : "mii-pr-kardio-geraeteprogrammierung",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-geraeteprogrammierung",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Geraeteprogrammierung"
+},
+{
+  "id" : "mii-pr-kardio-kardiale-deviceimplantation",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Kardiale_Deviceimplantation"
+},
+{
+  "id" : "mii-pr-kardio-klappenvitium",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-klappenvitium",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Klappenvitium"
+},
+{
+  "id" : "mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion"
+},
+{
+  "id" : "mii-pr-kardio-nbg-schrittmachermodus",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_NBG_Schrittmachermodus"
+},
+{
+  "id" : "mii-pr-kardio-observation-rauchen",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Observation_Rauchen"
+},
+{
+  "id" : "mii-pr-kardio-score-modifizierte-rankin-skala",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Score_Modifizierte_Rankin_Skala"
+},
+{
+  "id" : "mii-pr-kardio-score-nyha",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_PR_Kardio_Score_NYHA"
+},
+{
+  "id" : "mii-vs-kardio-allergene-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-allergene-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Allergene_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT"
+},
+{
+  "id" : "mii-vs-kardio-ekg-kanaele-mdc",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_EKG_Kanaele_MDC"
+},
+{
+  "id" : "mii-vs-kardio-ekg-prozedur-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_EKG_Prozedur_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-ethnie-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Ethnie_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-extended-condition-severity-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-extended-mii-diagnosecodes-snomed",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Extended_MII_DiagnoseCodes_SNOMED"
+},
+{
+  "id" : "mii-vs-kardio-geraeteprogrammierung-mdc",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Geraeteprogrammierung_MDC"
+},
+{
+  "id" : "mii-vs-kardio-geraetetyp-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Geraetetyp_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-gewichtsveraenderung-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-kardiale-deviceimplantation-ops",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_OPS"
+},
+{
+  "id" : "mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-klappenvitium-alphaid",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Klappenvitium_ALPHAID"
+},
+{
+  "id" : "mii-vs-kardio-klappenvitium-grad-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-klappenvitium-icd",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-icd",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Klappenvitium_ICD"
+},
+{
+  "id" : "mii-vs-kardio-klappenvitium-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Klappenvitium_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-lebensmittelpunkt-m49",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-lebensmittelpunkt-m49",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Lebensmittelpunkt_M49"
+},
+{
+  "id" : "mii-vs-kardio-metriken-ekg-annotationen-mdc",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Metriken_EKG_Annotationen_MDC"
+},
+{
+  "id" : "mii-vs-kardio-modifizierte-rankin-skala",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Modifizierte_Rankin_Skala"
+},
+{
+  "id" : "mii-vs-kardio-nein-unbekannt",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nein-unbekannt",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Nein_Unbekannt"
+},
+{
+  "id" : "mii-vs-kardio-nyha-klassen-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_NYHA_Klassen_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-objekte-geraete-mdc",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Objekte_Geraete_MDC"
+}]

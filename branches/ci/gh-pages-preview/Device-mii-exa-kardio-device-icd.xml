@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Device xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-kardio-device-icd"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Device mii-exa-kardio-device-icd</b></p><a name="mii-exa-kardio-device-icd"> </a><a name="hcmii-exa-kardio-device-icd"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-device.html">MII PR Kardio Device</a></p></div><p><b>status</b>: Active</p><p><b>manufacturer</b>: Medtronic</p><p><b>type</b>: <span title="Codes:{http://snomed.info/sct 72506001}">Implantable defibrillator</span></p><p><b>patient</b>: Beispielpatient</p></div>
+  </text>
+  <status value="active"/>
+  <manufacturer value="Medtronic"/>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <code value="72506001"/>
+      <display value="Implantable defibrillator"/>
+    </coding>
+  </type>
+  <patient>
+    <display value="Beispielpatient"/>
+  </patient>
+</Device>

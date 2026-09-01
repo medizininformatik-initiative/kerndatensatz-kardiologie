@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeviceDefinition xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-kardio-ekg-geraetedefinition-mortara"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: DeviceDefinition mii-exa-kardio-ekg-geraetedefinition-mortara</b></p><a name="mii-exa-kardio-ekg-geraetedefinition-mortara"> </a><a name="hcmii-exa-kardio-ekg-geraetedefinition-mortara"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html">MII PR Kardio EKG Gerätedefinition</a></p></div><p><b>manufacturer</b>: Mortara Instrument, Inc.</p><h3>DeviceNames</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style="display: none">*</td><td>ELI 380</td><td>Model name</td></tr></table><h3>Specializations</h3><table class="grid"><tr><td style="display: none">-</td><td><b>SystemType</b></td></tr><tr><td style="display: none">*</td><td>Resting ECG</td></tr></table><h3>PhysicalCharacteristics</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Height</b></td><td><b>Width</b></td><td><b>Depth</b></td><td><b>Weight</b></td></tr><tr><td style="display: none">*</td><td>14 cm<span style="background: LightGoldenRodYellow"> (Details: UCUM  codecm = 'cm')</span></td><td>39 cm<span style="background: LightGoldenRodYellow"> (Details: UCUM  codecm = 'cm')</span></td><td>51 cm<span style="background: LightGoldenRodYellow"> (Details: UCUM  codecm = 'cm')</span></td><td>12 kg<span style="background: LightGoldenRodYellow"> (Details: UCUM  codekg = 'kg')</span></td></tr></table><p><b>onlineInformation</b>: <a href="https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&amp;canonical=https://www.hillrom.de/de/products/eli-380-electrocardiograph/">https://www.hillrom.de/de/products/eli-380-electrocardiograph/</a></p></div>
+  </text>
+  <manufacturerString value="Mortara Instrument, Inc."/>
+  <deviceName>
+    <name value="ELI 380"/>
+    <type value="model-name"/>
+  </deviceName>
+  <specialization>
+    <systemType value="Resting ECG"/>
+  </specialization>
+  <physicalCharacteristics>
+    <height>
+      <value value="14"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="cm"/>
+    </height>
+    <width>
+      <value value="39"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="cm"/>
+    </width>
+    <depth>
+      <value value="51"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="cm"/>
+    </depth>
+    <weight>
+      <value value="12"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="kg"/>
+    </weight>
+  </physicalCharacteristics>
+  <onlineInformation value="https://www.hillrom.de/de/products/eli-380-electrocardiograph/"/>
+</DeviceDefinition>

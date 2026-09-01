@@ -1,0 +1,3503 @@
+{
+  "date" : "Tue, 01 Sep, 2026 14:44:58 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-mii-kerndatensatzmodul-kardiologie.json",
+    "size" : 34799,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 105,
+      "length" : 182
+    },
+    {
+      "activity" : "scan",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 46
+    },
+    {
+      "activity" : "validate",
+      "start" : 829,
+      "length" : 6433
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 217
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3576,
+      "length" : 267
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 1
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 5087,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer.json",
+    "size" : 1686,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 8
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 451,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 756,
+      "length" : 1042
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 29
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 102
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.json",
+    "size" : 1002,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 757,
+      "length" : 9
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 20
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 69
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-kardio-lebensmittelpunkt.json",
+    "size" : 1047,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 757,
+      "length" : 9
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 61
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.json",
+    "size" : 2586,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 10
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 757,
+      "length" : 14
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 28
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 64
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-kardio-supplement-snomedct.json",
+    "size" : 1704,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 757,
+      "length" : 723
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 21
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 55
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Condition-mii-exa-kardio-diagnose-myokardinfarkt.json",
+    "size" : 1539,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 841,
+      "length" : 122780
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 20
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Condition-mii-exa-kardio-embolischer-gefaessverschluss.json",
+    "size" : 1426,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 964,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 17
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Condition-mii-exa-kardio-hoehergradiges-vitium.json",
+    "size" : 2904,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 676
+    },
+    {
+      "activity" : "validate",
+      "start" : 964,
+      "length" : 336473
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 33
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Device-mii-exa-kardio-device-icd.json",
+    "size" : 607,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 1300,
+      "length" : 122009
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 27
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Device-mii-exa-kardio-ekg-geraet-mortara.json",
+    "size" : 877,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 1422,
+      "length" : 1347
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 16
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-i.json",
+    "size" : 1112,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 1424,
+      "length" : 1943
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 26
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-ii.json",
+    "size" : 1114,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 1426,
+      "length" : 691
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 25
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-iii.json",
+    "size" : 1116,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 1426,
+      "length" : 761
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 23
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json",
+    "size" : 1048,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 451,
+      "length" : 1328
+    },
+    {
+      "activity" : "validate",
+      "start" : 1427,
+      "length" : 1271
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 15
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.json",
+    "size" : 651,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 1428,
+      "length" : 654
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3562,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 16
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/DocumentReference-mii-exa-kardio-ekg-referenz.json",
+    "size" : 839,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 1429,
+      "length" : 1232
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 17
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.json",
+    "size" : 1415,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 1430,
+      "length" : 100699
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 14
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.json",
+    "size" : 1587,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 1531,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-atherosklerotisches-erstereignis.json",
+    "size" : 1650,
+    "processes" : [{
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 1531,
+      "length" : 358
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-ekg-rr-interval.json",
+    "size" : 1250,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 325
+    },
+    {
+      "activity" : "validate",
+      "start" : 1531,
+      "length" : 1014
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 19
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-geraeteprogrammierung-vvi.json",
+    "size" : 1095,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 1532,
+      "length" : 643
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 45
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.json",
+    "size" : 1546,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 1533,
+      "length" : 274479
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-hoehergradiges-vitium-nein.json",
+    "size" : 3057,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 1807,
+      "length" : 244404
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 20
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-kein-device.json",
+    "size" : 1488,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 2052,
+      "length" : 273533
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-lvef.json",
+    "size" : 3203,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 453,
+      "length" : 1601
+    },
+    {
+      "activity" : "validate",
+      "start" : 2325,
+      "length" : 89453
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-mrs.json",
+    "size" : 1822,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 455,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 2415,
+      "length" : 29517
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 17
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-pci-nein.json",
+    "size" : 1545,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 455,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 2444,
+      "length" : 272056
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-raucherstatus.json",
+    "size" : 4523,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 455,
+      "length" : 60672
+    },
+    {
+      "activity" : "validate",
+      "start" : 2716,
+      "length" : 89693
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 18
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-kardio-score-nyha-ii.json",
+    "size" : 1815,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 515,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 2806,
+      "length" : 90504
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/PractitionerRole-mii-exa-kardio-rolle-kardiologe.json",
+    "size" : 714,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 2897,
+      "length" : 57639
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Procedure-mii-exa-kardio-ekg-durchfuehrung.json",
+    "size" : 1847,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 515,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 2954,
+      "length" : 204443
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 20
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json",
+    "size" : 2160,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 515,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 3159,
+      "length" : 402092
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 30
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Questionnaire-mii-qn-kardio-acribis-study-followup.json",
+    "size" : 78870,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 9
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 39
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 515,
+      "length" : 760
+    },
+    {
+      "activity" : "validate",
+      "start" : 835,
+      "length" : 5899
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 322
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 223
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 8
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-andere.json",
+    "size" : 26422,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "scan",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 19
+    },
+    {
+      "activity" : "validate",
+      "start" : 3561,
+      "length" : 699
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 148
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3577,
+      "length" : 91
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige.json",
+    "size" : 15285,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 3562,
+      "length" : 33
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 94
+    },
+    {
+      "activity" : "responsesForQuestionnaire",
+      "start" : 3577,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3578,
+      "length" : 31
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt.json",
+    "size" : 23307,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 3562,
+      "length" : 42
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3563,
+      "length" : 131
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3578,
+      "length" : 42
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient.json",
+    "size" : 13198,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "loadInfo",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 3562,
+      "length" : 23
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3564,
+      "length" : 92
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3578,
+      "length" : 26
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json",
+    "size" : 5880,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 45
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 12
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 105,
+      "length" : 58
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 50
+    },
+    {
+      "activity" : "validate",
+      "start" : 813,
+      "length" : 1340
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3564,
+      "length" : 291
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3578,
+      "length" : 2925
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 532
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 5068,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 13
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 5155,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.json",
+    "size" : 5785,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 8
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 105,
+      "length" : 67
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 36
+    },
+    {
+      "activity" : "validate",
+      "start" : 814,
+      "length" : 989
+    },
+    {
+      "activity" : "validate",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3564,
+      "length" : 348
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3581,
+      "length" : 61187
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5063,
+      "length" : 281
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 13
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-device.json",
+    "size" : 3534,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 106,
+      "length" : 31
+    },
+    {
+      "activity" : "scan",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 17
+    },
+    {
+      "activity" : "validate",
+      "start" : 815,
+      "length" : 212
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3564,
+      "length" : 177
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3642,
+      "length" : 655
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5063,
+      "length" : 152
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 8
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.json",
+    "size" : 7057,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 106,
+      "length" : 80
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 30
+    },
+    {
+      "activity" : "validate",
+      "start" : 815,
+      "length" : 383
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3564,
+      "length" : 336
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3642,
+      "length" : 1039
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5063,
+      "length" : 203
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 12
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 5155,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose.json",
+    "size" : 8619,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 106,
+      "length" : 146
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 88
+    },
+    {
+      "activity" : "validate",
+      "start" : 815,
+      "length" : 4009
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3565,
+      "length" : 583
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3643,
+      "length" : 202650
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5064,
+      "length" : 397
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 21
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-annotation.json",
+    "size" : 3870,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 106,
+      "length" : 37
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 19
+    },
+    {
+      "activity" : "validate",
+      "start" : 820,
+      "length" : 113
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3565,
+      "length" : 188
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3846,
+      "length" : 1218
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5064,
+      "length" : 88
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 7
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.json",
+    "size" : 6859,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 9
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 106,
+      "length" : 120596
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 516,
+      "length" : 26
+    },
+    {
+      "activity" : "validate",
+      "start" : 820,
+      "length" : 1495
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3566,
+      "length" : 374
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3847,
+      "length" : 920
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5064,
+      "length" : 187
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 15
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 5155,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraet.json",
+    "size" : 2193,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 226,
+      "length" : 27
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 821,
+      "length" : 87
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3566,
+      "length" : 203
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3848,
+      "length" : 503
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5064,
+      "length" : 92
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json",
+    "size" : 1293,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 226,
+      "length" : 20
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 821,
+      "length" : 65
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3566,
+      "length" : 134
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3849,
+      "length" : 339
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5064,
+      "length" : 71
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 5
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-kanal.json",
+    "size" : 5351,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 226,
+      "length" : 34
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 26
+    },
+    {
+      "activity" : "validate",
+      "start" : 821,
+      "length" : 825
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3566,
+      "length" : 261
+    },
+    {
+      "activity" : "responsesForQuestionnaire",
+      "start" : 3577,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3849,
+      "length" : 416
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5064,
+      "length" : 121
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 10
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-referenz.json",
+    "size" : 2920,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 227,
+      "length" : 27
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 14
+    },
+    {
+      "activity" : "validate",
+      "start" : 822,
+      "length" : 413
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3567,
+      "length" : 195
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3850,
+      "length" : 360
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5064,
+      "length" : 104
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 8
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-geraeteprogrammierung.json",
+    "size" : 4589,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 227,
+      "length" : 34
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 17
+    },
+    {
+      "activity" : "validate",
+      "start" : 823,
+      "length" : 459
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3567,
+      "length" : 243
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3850,
+      "length" : 1148
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5065,
+      "length" : 97
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 9
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.json",
+    "size" : 9517,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 227,
+      "length" : 74777
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 28
+    },
+    {
+      "activity" : "validate",
+      "start" : 823,
+      "length" : 338
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3567,
+      "length" : 412
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3851,
+      "length" : 901
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5065,
+      "length" : 210
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 15
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 5155,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-klappenvitium.json",
+    "size" : 6365,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 301,
+      "length" : 148254
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 36
+    },
+    {
+      "activity" : "validate",
+      "start" : 823,
+      "length" : 455
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3567,
+      "length" : 525
+    },
+    {
+      "activity" : "generate2",
+      "start" : 3852,
+      "length" : 176335
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5065,
+      "length" : 267
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 26
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json",
+    "size" : 11172,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 9
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 450,
+      "length" : 62
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 41
+    },
+    {
+      "activity" : "validate",
+      "start" : 824,
+      "length" : 854
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3568,
+      "length" : 473
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4028,
+      "length" : 60874
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5065,
+      "length" : 164
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 17
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 5155,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json",
+    "size" : 2552,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 450,
+      "length" : 17
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 825,
+      "length" : 384
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3568,
+      "length" : 111
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4089,
+      "length" : 298
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5065,
+      "length" : 42
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 4
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen.json",
+    "size" : 11734,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 9
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 450,
+      "length" : 60
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 54
+    },
+    {
+      "activity" : "validate",
+      "start" : 825,
+      "length" : 2177
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3568,
+      "length" : 529
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4089,
+      "length" : 2013
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5065,
+      "length" : 158
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 19
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json",
+    "size" : 4230,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 450,
+      "length" : 31
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 18
+    },
+    {
+      "activity" : "validate",
+      "start" : 827,
+      "length" : 767
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3569,
+      "length" : 247
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4091,
+      "length" : 329
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5066,
+      "length" : 147
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 11
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-nyha.json",
+    "size" : 4155,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 450,
+      "length" : 34
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 20
+    },
+    {
+      "activity" : "validate",
+      "start" : 828,
+      "length" : 813
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3569,
+      "length" : 246
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4092,
+      "length" : 60613
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5066,
+      "length" : 119
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 9
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-allergene-snomedct.json",
+    "size" : 5926,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 6
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 517,
+      "length" : 37714
+    },
+    {
+      "activity" : "validate",
+      "start" : 758,
+      "length" : 7924
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3569,
+      "length" : 30
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4152,
+      "length" : 60442
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.json",
+    "size" : 2639,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 7
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 555,
+      "length" : 2619
+    },
+    {
+      "activity" : "validate",
+      "start" : 766,
+      "length" : 2635
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4213,
+      "length" : 69
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-kanaele-mdc.json",
+    "size" : 987,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 557,
+      "length" : 652
+    },
+    {
+      "activity" : "validate",
+      "start" : 769,
+      "length" : 1322
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4213,
+      "length" : 442
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.json",
+    "size" : 947,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 558,
+      "length" : 344
+    },
+    {
+      "activity" : "validate",
+      "start" : 770,
+      "length" : 334
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 41
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4213,
+      "length" : 56434
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-ethnie-snomedct.json",
+    "size" : 1032,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 558,
+      "length" : 30217
+    },
+    {
+      "activity" : "validate",
+      "start" : 770,
+      "length" : 631
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4270,
+      "length" : 36279
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.json",
+    "size" : 1199,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 588,
+      "length" : 28685
+    },
+    {
+      "activity" : "validate",
+      "start" : 771,
+      "length" : 675
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4306,
+      "length" : 30111
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.json",
+    "size" : 1775,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 617,
+      "length" : 30938
+    },
+    {
+      "activity" : "validate",
+      "start" : 771,
+      "length" : 737
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 20
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4336,
+      "length" : 182039
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 5155,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.json",
+    "size" : 1338,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 648,
+      "length" : 332
+    },
+    {
+      "activity" : "validate",
+      "start" : 772,
+      "length" : 637
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4518,
+      "length" : 363
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-geraetetyp-snomedct.json",
+    "size" : 1651,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 105,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 648,
+      "length" : 995
+    },
+    {
+      "activity" : "validate",
+      "start" : 773,
+      "length" : 970
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 19
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4519,
+      "length" : 60291
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.json",
+    "size" : 1377,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 649,
+      "length" : 31493
+    },
+    {
+      "activity" : "validate",
+      "start" : 774,
+      "length" : 683
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 25
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4579,
+      "length" : 34129
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.json",
+    "size" : 1342,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 681,
+      "length" : 31773
+    },
+    {
+      "activity" : "validate",
+      "start" : 775,
+      "length" : 666
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 19
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4613,
+      "length" : 30571
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.json",
+    "size" : 1709,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 713,
+      "length" : 696
+    },
+    {
+      "activity" : "validate",
+      "start" : 775,
+      "length" : 727
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 20
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4644,
+      "length" : 429
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.json",
+    "size" : 2155,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 713,
+      "length" : 1667
+    },
+    {
+      "activity" : "validate",
+      "start" : 776,
+      "length" : 1641
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 20
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4644,
+      "length" : 234168
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 5068,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-alphaid.json",
+    "size" : 2995,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 5
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 715,
+      "length" : 2964
+    },
+    {
+      "activity" : "validate",
+      "start" : 778,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 26
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4878,
+      "length" : 408
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.json",
+    "size" : 1203,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 718,
+      "length" : 636
+    },
+    {
+      "activity" : "validate",
+      "start" : 778,
+      "length" : 655
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 19
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4879,
+      "length" : 60257
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-icd.json",
+    "size" : 2727,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 6
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 719,
+      "length" : 2981
+    },
+    {
+      "activity" : "validate",
+      "start" : 778,
+      "length" : 2948
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 841,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4939,
+      "length" : 425
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-snomedct.json",
+    "size" : 1558,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 722,
+      "length" : 32960
+    },
+    {
+      "activity" : "validate",
+      "start" : 781,
+      "length" : 30735
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 4939,
+      "length" : 61477
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.json",
+    "size" : 1536,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 13
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 754,
+      "length" : 312
+    },
+    {
+      "activity" : "validate",
+      "start" : 812,
+      "length" : 326
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 19
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5001,
+      "length" : 386
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.json",
+    "size" : 1207,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 755,
+      "length" : 710
+    },
+    {
+      "activity" : "validate",
+      "start" : 812,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 26
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5001,
+      "length" : 654
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-modifizierte-rankin-skala.json",
+    "size" : 929,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 755,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 812,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5002,
+      "length" : 57
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5066,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 5089,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-nein-unbekannt.json",
+    "size" : 1103,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 105,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 755,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 812,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5002,
+      "length" : 53
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-nyha-klassen-snomedct.json",
+    "size" : 1252,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 755,
+      "length" : 336
+    },
+    {
+      "activity" : "validate",
+      "start" : 812,
+      "length" : 334
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5002,
+      "length" : 59211
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-kardio-objekte-geraete-mdc.json",
+    "size" : 956,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 451,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 756,
+      "length" : 333
+    },
+    {
+      "activity" : "validate",
+      "start" : 813,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5061,
+      "length" : 584
+    }]
+  },
+  {
+    "name" : "input/resources/Parameters-mii-param-kardio-manifest.json",
+    "size" : 861,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 3562,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 3570,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 679
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 5155,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 2874
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 7581,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/module-description.md",
+    "size" : 7977,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/scenarios.md",
+    "size" : 2843
+  },
+  {
+    "name" : "/input/pagecontent/references.md",
+    "size" : 3416
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 3185,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 829,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/profiles-anamnese.md",
+    "size" : 4249
+  },
+  {
+    "name" : "/input/pagecontent/profiles-risikofaktoren.md",
+    "size" : 1360
+  },
+  {
+    "name" : "/input/pagecontent/release-notes.md",
+    "size" : 3181,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/profiles-kardiodevices.md",
+    "size" : 2412
+  },
+  {
+    "name" : "/input/pagecontent/profiles-ekg.md",
+    "size" : 3854
+  },
+  {
+    "name" : "/input/pagecontent/terminology.md",
+    "size" : 365,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/profiles-overview.md",
+    "size" : 131
+  },
+  {
+    "name" : "/input/pagecontent/profiles-diagnostik.md",
+    "size" : 1100
+  },
+  {
+    "name" : "/input/pagecontent/datasets.md",
+    "size" : 9162,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/context.md",
+    "size" : 3303
+  },
+  {
+    "name" : "/input/pagecontent/information-model.md",
+    "size" : 1242
+  },
+  {
+    "name" : "/input/pagecontent/storage/capability.md",
+    "size" : 7311,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/profiles-skalen.md",
+    "size" : 1431
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0
+  },
+  {
+    "name" : "/input/images/Klassendiagramm.svg",
+    "size" : 138827
+  },
+  {
+    "name" : "/input/images/Kerndatensatz.png",
+    "size" : 157636
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 53871,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 5062,
+      "length" : 3
+    }]
+  }]
+}

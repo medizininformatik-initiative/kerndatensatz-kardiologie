@@ -1,0 +1,42 @@
+{
+  "codeSystems" : [{
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "MII_CS_Kardio_Acribis_Questionnaire_Answer",
+    "title" : "MII CS Kardio ACRIBiS Questionnaire Answer",
+    "description" : "Questionnaire-lokale Antwortcodes für den ACRIBiS Follow-Up-Fragebogen."
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "MII_CS_Kardio_Atherosklerotisches_Ereignis",
+    "title" : "MII CS Kardio Atherosklerotisches Ereignis",
+    "description" : "Code für ein unbestimmtes atherosklerotisches Ereignis"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-lebensmittelpunkt",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "draft",
+    "name" : "MII_CS_Kardio_Lebensmittelpunkt",
+    "title" : "MII CS Kardio Lebensmittelpunkt",
+    "description" : "Lebensmittelpunkt des Patienten"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "MII_CS_Kardio_Modifizierte_Rankin_Skala",
+    "title" : "MII CS Kardio Modifizierte Rankin Skala",
+    "description" : "Beeinträchtigung des Patienten nach Schlaganfall"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "MII_CS_Kardio_Supplement_SNOMEDCT",
+    "title" : "MII CS Kardio Supplement [SNOMED CT]",
+    "description" : "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul Kardiologie."
+  }]
+}

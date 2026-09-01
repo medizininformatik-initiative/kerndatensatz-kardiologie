@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mii-vs-kardio-klappenvitium-grad-snomedct",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mii-vs-kardio-klappenvitium-grad-snomedct</b></p><a name=\"mii-vs-kardio-klappenvitium-grad-snomedct\"> </a><a name=\"hcmii-vs-kardio-klappenvitium-grad-snomedct\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where concept  descends from 1157272001 (Numeric grade on a scale of 1 to 4)</li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where concept  descends from 422892001 (Numeric grade on a scale of 1 to 3)</li></ul></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT",
+  "title" : "MII VS Kardio Klappenvitium Grad [SNOMED CT]",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-09-18",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    },
+    {
+      "system" : "email",
+      "value" : "office@medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "SNOMED CT Codes für den Grad Klappenerkrankungen",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "1157272001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "422892001"
+      }]
+    }]
+  }
+}

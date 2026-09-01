@@ -1,0 +1,607 @@
+MII_IG_MODUL_KARDIO_DE : Validation Results
+=========================================
+
+err = 40, warn = 93, info = 302
+$--
+Generated $--. FHIR version $-- for mii-kerndatensatzmodul-kardiologie#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio)
+ Build Errors : 1 / 2 / 0
+ /workspace/fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer : 0 / 2 / 3
+ /workspace/fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis : 0 / 2 / 3
+ /workspace/fsh-generated/resources/CodeSystem-mii-cs-kardio-lebensmittelpunkt : 0 / 2 / 3
+ /workspace/fsh-generated/resources/CodeSystem-mii-cs-kardio-modifizierte-rankin-skala : 0 / 2 / 3
+ /workspace/fsh-generated/resources/CodeSystem-mii-cs-kardio-supplement-snomedct : 2 / 2 / 3
+ /workspace/fsh-generated/resources/Condition-mii-exa-kardio-diagnose-myokardinfarkt : 1 / 0 / 3
+ /workspace/fsh-generated/resources/Condition-mii-exa-kardio-embolischer-gefaessverschluss : 0 / 0 / 3
+ /workspace/fsh-generated/resources/Condition-mii-exa-kardio-hoehergradiges-vitium : 2 / 1 / 8
+ /workspace/fsh-generated/resources/Device-mii-exa-kardio-device-icd : 1 / 1 / 3
+ /workspace/fsh-generated/resources/Device-mii-exa-kardio-ekg-geraet-mortara : 0 / 0 / 4
+ /workspace/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-i : 0 / 0 / 9
+ /workspace/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-ii : 0 / 0 / 9
+ /workspace/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-iii : 0 / 0 / 9
+ /workspace/fsh-generated/resources/DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara : 0 / 5 / 3
+ /workspace/fsh-generated/resources/DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus : 0 / 0 / 4
+ /workspace/fsh-generated/resources/DocumentReference-mii-exa-kardio-ekg-referenz : 0 / 1 / 4
+ /workspace/fsh-generated/resources/ImplementationGuide-mii-kerndatensatzmodul-kardiologie : 0 / 6 / 30
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf : 0 / 0 / 6
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2 : 0 / 0 / 6
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-atherosklerotisches-erstereignis : 0 / 0 / 5
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-ekg-rr-interval : 0 / 1 / 4
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-geraeteprogrammierung-vvi : 0 / 0 / 5
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-herzinsuffizienz-unbekannt : 1 / 0 / 5
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-hoehergradiges-vitium-nein : 1 / 0 / 8
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-kein-device : 1 / 0 / 5
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-lvef : 0 / 6 / 7
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-mrs : 0 / 1 / 4
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-pci-nein : 1 / 0 / 5
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-raucherstatus : 1 / 6 / 11
+ /workspace/fsh-generated/resources/Observation-mii-exa-kardio-score-nyha-ii : 0 / 1 / 5
+ /workspace/fsh-generated/resources/PractitionerRole-mii-exa-kardio-rolle-kardiologe : 0 / 0 / 6
+ /workspace/fsh-generated/resources/Procedure-mii-exa-kardio-ekg-durchfuehrung : 0 / 0 / 9
+ /workspace/fsh-generated/resources/Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd : 2 / 0 / 8
+ /workspace/fsh-generated/resources/Questionnaire-mii-qn-kardio-acribis-study-followup : 2 / 4 / 61
+ /workspace/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-andere : 0 / 2 / 9
+ /workspace/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige : 0 / 2 / 8
+ /workspace/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt : 0 / 2 / 9
+ /workspace/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient : 0 / 2 / 8
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf : 0 / 1 / 103
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis : 0 / 1 / 137
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-device : 0 / 1 / 94
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose : 0 / 4 / 314
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt : 0 / 3 / 154
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-annotation : 0 / 1 / 75
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung : 0 / 2 / 183
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraet : 0 / 1 / 94
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition : 0 / 1 / 80
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-kanal : 0 / 1 / 131
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-referenz : 0 / 1 / 83
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-geraeteprogrammierung : 0 / 1 / 105
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation : 0 / 3 / 194
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-klappenvitium : 0 / 4 / 17
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion : 0 / 1 / 172
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus : 0 / 1 / 51
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen : 0 / 1 / 190
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala : 0 / 1 / 98
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-nyha : 0 / 1 / 98
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-allergene-snomedct : 1 / 4 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct : 0 / 4 / 4
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-kanaele-mdc : 0 / 2 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-prozedur-snomedct : 0 / 2 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-ethnie-snomedct : 2 / 2 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-condition-severity-snomedct : 4 / 2 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed : 0 / 4 / 5
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc : 3 / 2 / 4
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-geraetetyp-snomedct : 0 / 4 / 4
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct : 3 / 2 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct : 2 / 2 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops : 0 / 2 / 4
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct : 0 / 4 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-alphaid : 0 / 11 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct : 0 / 4 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-icd : 9 / 2 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-snomedct : 0 / 4 / 4
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49 : 0 / 4 / 6
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc : 0 / 4 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-modifizierte-rankin-skala : 0 / 2 / 4
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-nein-unbekannt : 0 / 2 / 4
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-nyha-klassen-snomedct : 0 / 2 / 3
+ /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-objekte-geraete-mdc : 0 / 3 / 5
+ /workspace/input/resources/Parameters-mii-param-kardio-manifest : 0 / 0 / 3
+</table>
+== n/a ==
+ERROR: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: This IG is for FHIR version 4.0.1, while the package 'hl7.fhir.uv.subscriptions-backport.r4#1.1.0' is for FHIR version 4.0.0
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer.json ==
+INFORMATION: CodeSystem/mii-cs-kardio-acribis-questionnaire-answer: CodeSystem.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: CodeSystem/mii-cs-kardio-acribis-questionnaire-answer: CodeSystem.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: CodeSystem/mii-cs-kardio-acribis-questionnaire-answer: CodeSystem.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.json ==
+INFORMATION: CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis: CodeSystem.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis: CodeSystem.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis: CodeSystem.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-lebensmittelpunkt.json ==
+INFORMATION: CodeSystem/mii-cs-kardio-lebensmittelpunkt: CodeSystem.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: CodeSystem/mii-cs-kardio-lebensmittelpunkt: CodeSystem.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: CodeSystem/mii-cs-kardio-lebensmittelpunkt: CodeSystem.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.json ==
+INFORMATION: CodeSystem/mii-cs-kardio-modifizierte-rankin-skala: CodeSystem.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: CodeSystem/mii-cs-kardio-modifizierte-rankin-skala: CodeSystem.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: CodeSystem/mii-cs-kardio-modifizierte-rankin-skala: CodeSystem.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-supplement-snomedct.json ==
+INFORMATION: CodeSystem/mii-cs-kardio-supplement-snomedct: CodeSystem.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: CodeSystem/mii-cs-kardio-supplement-snomedct: CodeSystem.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: CodeSystem/mii-cs-kardio-supplement-snomedct: CodeSystem.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+ERROR: CodeSystem/mii-cs-kardio-supplement-snomedct: CodeSystem.concept[1]: Der Code '73544002:{260507000=260519008}' ist nicht im Basis-CodeSystem http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 deklariert und daher im Supplement nicht gültig
+ERROR: CodeSystem/mii-cs-kardio-supplement-snomedct: CodeSystem.concept[2]: Der Code '64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000}' ist nicht im Basis-CodeSystem http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 deklariert und daher im Supplement nicht gültig
+== fsh-generated/resources/Condition-mii-exa-kardio-diagnose-myokardinfarkt.json ==
+INFORMATION: Condition/mii-exa-kardio-diagnose-myokardinfarkt: Condition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Condition/mii-exa-kardio-diagnose-myokardinfarkt: Condition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+ERROR: Condition/mii-exa-kardio-diagnose-myokardinfarkt: Condition.code.coding[1]: Die angegebene Codierung ist nicht im ValueSet 'MII VS Diagnose Diagnose-Codes SNOMED' (https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2026.0.1) enthalten, und es wird ein Code aus diesem ValueSet benötigt.  (error message = java.net.SocketTimeoutException: timeout)
+== fsh-generated/resources/Condition-mii-exa-kardio-embolischer-gefaessverschluss.json ==
+INFORMATION: Condition/mii-exa-kardio-embolischer-gefaessverschluss: Condition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Condition/mii-exa-kardio-embolischer-gefaessverschluss: Condition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+== fsh-generated/resources/Condition-mii-exa-kardio-hoehergradiges-vitium.json ==
+INFORMATION: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.contained[0]/*Patient/Beispielpatient*/.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.contained[0]/*Patient/Beispielpatient*/.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+ERROR: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.severity: java.net.SocketTimeoutException: timeout
+WARNING: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.severity: Konnte nicht bestätigen, dass die angegebenen Codes im ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct|2027.0.0-ballot.rc1 enthalten sind und ein Code aus diesem ValueSet ist erforderlich (class = SERVER_ERROR)
+ERROR: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.code.coding[0]: Die angegebene Codierung ist nicht im ValueSet 'MII VS Kardio Klappenvitium [SNOMED CT]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct|2027.0.0-ballot.rc1) enthalten, und es wird ein Code aus diesem ValueSet benötigt.  (error message = java.net.SocketTimeoutException: timeout)
+INFORMATION: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.bodySite[0].coding[0].display: 'Cardiac valve structure' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.bodySite[0].coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-bodystructure-snomed|2026.0.1
+== fsh-generated/resources/Device-mii-exa-kardio-device-icd.json ==
+INFORMATION: Device/mii-exa-kardio-device-icd: Device.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Device/mii-exa-kardio-device-icd: Device.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+ERROR: Device/mii-exa-kardio-device-icd: Device.type: java.net.SocketTimeoutException: timeout
+WARNING: Device/mii-exa-kardio-device-icd: Device.type: Konnte nicht bestätigen, dass die angegebenen Codes im ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1 enthalten sind und ein Code aus diesem ValueSet ist erforderlich (class = SERVER_ERROR)
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-geraet-mortara.json ==
+INFORMATION: Device/mii-exa-kardio-ekg-geraet-mortara: Device.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Device/mii-exa-kardio-ekg-geraet-mortara: Device.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Device/mii-exa-kardio-ekg-geraet-mortara: Device.type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-i.json ==
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.type.coding[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.type.coding[0]: Reference to draft ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.type.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.property[0].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.property[0].valueCode[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-ii.json ==
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.type.coding[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.type.coding[0]: Reference to draft ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.type.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.property[0].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.property[0].valueCode[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-iii.json ==
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.type.coding[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.type.coding[0]: Reference to draft ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.type.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.property[0].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.property[0].valueCode[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+== fsh-generated/resources/DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json ==
+INFORMATION: DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara: DeviceDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara: DeviceDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara: DeviceDefinition.physicalCharacteristics.height: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#cm'
+WARNING: DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara: DeviceDefinition.physicalCharacteristics.width: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#cm'
+WARNING: DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara: DeviceDefinition.physicalCharacteristics.depth: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#cm'
+WARNING: DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara: DeviceDefinition.physicalCharacteristics.weight: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#kg'
+== fsh-generated/resources/DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.json ==
+INFORMATION: DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus: DeviceMetric.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus: DeviceMetric.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus: DeviceMetric.type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+== fsh-generated/resources/DocumentReference-mii-exa-kardio-ekg-referenz.json ==
+INFORMATION: DocumentReference/mii-exa-kardio-ekg-referenz: DocumentReference.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: DocumentReference/mii-exa-kardio-ekg-referenz: DocumentReference.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: DocumentReference/mii-exa-kardio-ekg-referenz: DocumentReference.type.coding[0].display: 'EKG study' is the default display; the code system http://loinc.org has no Display Names for the language de
+== fsh-generated/resources/ImplementationGuide-mii-kerndatensatzmodul-kardiologie.json ==
+INFORMATION: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: ImplementationGuide.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: ImplementationGuide.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: ImplementationGuide.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+WARNING: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: ImplementationGuide.dependsOn[1].uri: Canonical URL 'http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4' kann nicht aufgelöst werden
+WARNING: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: ImplementationGuide.dependsOn[4].uri: Canonical URL 'http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik' kann nicht aufgelöst werden
+WARNING: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: ImplementationGuide.dependsOn[1]: The canonical URL http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4 doesn't point to an actual ImplementationGuide resource
+WARNING: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: ImplementationGuide.dependsOn[4]: The canonical URL http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik doesn't point to an actual ImplementationGuide resource
+WARNING: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: ImplementationGuide.dependsOn[5]: The ImplementationGuide uses package hl7.terminology.r4#7.1.0 released on 2026-03-08, but the most recent appropriate version is 7.3.0. This reference is getting old and the more recent version should be considered
+== fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.json ==
+INFORMATION: Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf: Observation.code.coding[0].display: 'Number of admissions' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf: Observation.component[0].code.coding[0].display: 'Reason for visit diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf: Observation.component[0].value.ofType(CodeableConcept).coding[0].display: 'Heart failure' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.json ==
+INFORMATION: Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2: Observation.code.coding[0].display: 'Number of admissions' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2: Observation.component[0].code.coding[0].display: 'Reason for visit diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2: Observation.component[0].value.ofType(CodeableConcept).coding[0].display: 'Heart failure' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/Observation-mii-exa-kardio-atherosklerotisches-erstereignis.json ==
+INFORMATION: Observation/mii-exa-kardio-atherosklerotisches-erstereignis: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-atherosklerotisches-erstereignis: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-atherosklerotisches-erstereignis: Observation.component[0].code.coding[0].display: 'Diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Observation/mii-exa-kardio-atherosklerotisches-erstereignis: Observation.component[1].code.coding[0].display: 'Date of diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/Observation-mii-exa-kardio-ekg-rr-interval.json ==
+INFORMATION: Observation/mii-exa-kardio-ekg-rr-interval: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-ekg-rr-interval: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-ekg-rr-interval: Observation.code: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+WARNING: Observation/mii-exa-kardio-ekg-rr-interval: Observation.value.ofType(Quantity): Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#ms'
+== fsh-generated/resources/Observation-mii-exa-kardio-geraeteprogrammierung-vvi.json ==
+INFORMATION: Observation/mii-exa-kardio-geraeteprogrammierung-vvi: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-geraeteprogrammierung-vvi: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-geraeteprogrammierung-vvi: Observation.code: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: Observation/mii-exa-kardio-geraeteprogrammierung-vvi: Observation.value.ofType(CodeableConcept): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+== fsh-generated/resources/Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.json ==
+INFORMATION: Observation/mii-exa-kardio-herzinsuffizienz-unbekannt: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-herzinsuffizienz-unbekannt: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-herzinsuffizienz-unbekannt: Observation.code.coding[0].display: 'Heart failure' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+ERROR: Observation/mii-exa-kardio-herzinsuffizienz-unbekannt: Observation.code.coding[0]: Dieses Element stimmt mit keinem bekannten Slice defined in the profile https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot.rc1 überein, und das Slicing ist CLOSED: Observation.code.coding[0]: Stimmt nicht mit Slice 'icd10-gm' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'diagnoseSnomed' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'prozedurSnomed' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'alpha-id' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'orphanet' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'kardio' überein
+INFORMATION: Observation/mii-exa-kardio-herzinsuffizienz-unbekannt: Observation.method.coding[0].display: 'History taking - action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/Observation-mii-exa-kardio-hoehergradiges-vitium-nein.json ==
+INFORMATION: Observation/mii-exa-kardio-hoehergradiges-vitium-nein: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-hoehergradiges-vitium-nein: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-hoehergradiges-vitium-nein: Observation.contained[0]/*Patient/Beispielpatient*/.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-hoehergradiges-vitium-nein: Observation.contained[0]/*Patient/Beispielpatient*/.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+ERROR: Observation/mii-exa-kardio-hoehergradiges-vitium-nein: Observation.code.coding[0]: Dieses Element stimmt mit keinem bekannten Slice defined in the profile https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot.rc1 überein, und das Slicing ist CLOSED: Observation.code.coding[0]: Stimmt nicht mit Slice 'icd10-gm' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'diagnoseSnomed' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'prozedurSnomed' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'alpha-id' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'orphanet' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'kardio' überein
+INFORMATION: Observation/mii-exa-kardio-hoehergradiges-vitium-nein: Observation.bodySite.coding[0].display: 'Cardiac valve structure' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Observation/mii-exa-kardio-hoehergradiges-vitium-nein: Observation.method.coding[0].display: 'History taking - action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/Observation-mii-exa-kardio-kein-device.json ==
+INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.code.coding[0].display: 'Cardiac implant in situ' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+ERROR: Observation/mii-exa-kardio-kein-device: Observation.code.coding[0]: Dieses Element stimmt mit keinem bekannten Slice defined in the profile https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot.rc1 überein, und das Slicing ist CLOSED: Observation.code.coding[0]: Stimmt nicht mit Slice 'icd10-gm' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'diagnoseSnomed' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'prozedurSnomed' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'alpha-id' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'orphanet' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'kardio' überein
+INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.method.coding[0].display: 'History taking - action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/Observation-mii-exa-kardio-lvef.json ==
+INFORMATION: Observation/mii-exa-kardio-lvef: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-lvef: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-lvef: Observation.code.coding[0].display: 'Left ventricular ejection fraction' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+WARNING: Observation/mii-exa-kardio-lvef: Observation.value.ofType(Quantity): Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#%'
+INFORMATION: Observation/mii-exa-kardio-lvef: Observation.bodySite.coding[0].display: 'Left cardiac ventricular structure' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Observation/mii-exa-kardio-lvef: Observation.method.coding[0].display: 'Echocardiography' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+WARNING: Observation/mii-exa-kardio-lvef: Observation.referenceRange[0].low: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#%'
+WARNING: Observation/mii-exa-kardio-lvef: Observation.referenceRange[1].low: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#%'
+WARNING: Observation/mii-exa-kardio-lvef: Observation.referenceRange[1].high: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#%'
+WARNING: Observation/mii-exa-kardio-lvef: Observation.referenceRange[2].high: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#%'
+== fsh-generated/resources/Observation-mii-exa-kardio-mrs.json ==
+INFORMATION: Observation/mii-exa-kardio-mrs: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-mrs: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-mrs: Observation.code.coding[0].display: 'Modified Rankin Scale score' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/Observation-mii-exa-kardio-pci-nein.json ==
+INFORMATION: Observation/mii-exa-kardio-pci-nein: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-pci-nein: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-pci-nein: Observation.code.coding[0].display: 'Percutaneous coronary intervention' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+ERROR: Observation/mii-exa-kardio-pci-nein: Observation.code.coding[0]: Dieses Element stimmt mit keinem bekannten Slice defined in the profile https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot.rc1 überein, und das Slicing ist CLOSED: Observation.code.coding[0]: Stimmt nicht mit Slice 'icd10-gm' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'diagnoseSnomed' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'prozedurSnomed' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'alpha-id' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'orphanet' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'kardio' überein
+INFORMATION: Observation/mii-exa-kardio-pci-nein: Observation.method.coding[0].display: 'History taking - action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/Observation-mii-exa-kardio-raucherstatus.json ==
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.contained[0]/*Patient/Beispielpatient*/.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.contained[0]/*Patient/Beispielpatient*/.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.contained[1]/*Encounter/Beispielfall*/.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.contained[1]/*Encounter/Beispielfall*/.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.value.ofType(CodeableConcept).coding[0].display: 'Current every day smoker' is the default display; the code system http://loinc.org has no Display Names for the language de
+ERROR: Observation/mii-exa-kardio-raucherstatus: Observation.value.ofType(CodeableConcept): Keiner der bereitgestellten Codes ist im ValueSet 'Current Smoking Status - IPS' (https://gematik.de/fhir/isik/ValueSet/current-smoking-status-uv-ips|1.1.0), und ein Code aus diesem ValueSet ist erforderlich) (Codes = http://loinc.org#LA18976-3)
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.component[0].code.coding[0].display: 'Cigarette pack-years' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+WARNING: Observation/mii-exa-kardio-raucherstatus: Observation.component[0].value.ofType(Quantity): Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#{pack-years}'
+WARNING: Observation/mii-exa-kardio-raucherstatus: Observation.component[1].value.ofType(Quantity): Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#{cigarettes-per-day}'
+WARNING: Observation/mii-exa-kardio-raucherstatus: Observation.component[3].value.ofType(Quantity): Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#a'
+WARNING: Observation/mii-exa-kardio-raucherstatus: Observation.component[4].value.ofType(Quantity): Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated für 'http://unitsofmeasure.org#a'
+== fsh-generated/resources/Observation-mii-exa-kardio-score-nyha-ii.json ==
+INFORMATION: Observation/mii-exa-kardio-score-nyha-ii: Observation.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-score-nyha-ii: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Observation/mii-exa-kardio-score-nyha-ii: Observation.code.coding[0].display: 'New York Heart Association Classification class' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Observation/mii-exa-kardio-score-nyha-ii: Observation.value.ofType(CodeableConcept).coding[0].display: 'New York Heart Association Classification - Class II' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/PractitionerRole-mii-exa-kardio-rolle-kardiologe.json ==
+INFORMATION: PractitionerRole/mii-exa-kardio-rolle-kardiologe: PractitionerRole.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: PractitionerRole/mii-exa-kardio-rolle-kardiologe: PractitionerRole.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: PractitionerRole/mii-exa-kardio-rolle-kardiologe: PractitionerRole.code[0].coding[0].display: 'Cardiologist' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: PractitionerRole/mii-exa-kardio-rolle-kardiologe: PractitionerRole.specialty[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/c80-practice-codes|4.0.1
+INFORMATION: PractitionerRole/mii-exa-kardio-rolle-kardiologe: PractitionerRole.specialty[0].coding[0].display: 'Cardiology' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/Procedure-mii-exa-kardio-ekg-durchfuehrung.json ==
+INFORMATION: Procedure/mii-exa-kardio-ekg-durchfuehrung: Procedure.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Procedure/mii-exa-kardio-ekg-durchfuehrung: Procedure.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Procedure/mii-exa-kardio-ekg-durchfuehrung: Procedure.extension[1].value.ofType(Coding).display: 'Diagnostic intent' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Procedure/mii-exa-kardio-ekg-durchfuehrung: Procedure.category.coding[0].display: 'Diagnostic assessment' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Procedure/mii-exa-kardio-ekg-durchfuehrung: Procedure.code.coding[0].display: '12 lead electrocardiogram at rest' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Procedure/mii-exa-kardio-ekg-durchfuehrung: Procedure.code.coding[0]: Reference to draft ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct|2027.0.0-ballot.rc1
+INFORMATION: Procedure/mii-exa-kardio-ekg-durchfuehrung: Procedure.code.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct|2027.0.0-ballot.rc1
+INFORMATION: Procedure/mii-exa-kardio-ekg-durchfuehrung: Procedure.bodySite[0].coding[0].display: 'Heart structure' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json ==
+INFORMATION: Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd: Procedure.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd: Procedure.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd: Procedure.extension[1].value.ofType(Coding).display: 'Therapeutic' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd: Procedure.category.coding[0].display: 'Surgical procedure' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd: Procedure.code.coding[0].display: 'Implantation of internal cardiac defibrillator' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+ERROR: Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd: Procedure.code.coding[0]: Die angegebene Codierung ist nicht im ValueSet 'MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct|2027.0.0-ballot.rc1) enthalten, und es wird ein Code aus diesem ValueSet benötigt.  (error message = java.net.SocketTimeoutException: timeout)
+INFORMATION: Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd: Procedure.bodySite[0].coding[0].display: 'Heart structure' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+ERROR: Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd: Procedure.focalDevice[0].action: java.net.SocketTimeoutException: timeout
+INFORMATION: Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd: Procedure.focalDevice[0].action: Konnte nicht bestätigen, dass die angegebenen Codes im ValueSet http://hl7.org/fhir/ValueSet/device-action|4.0.1 enthalten sind, und es wird empfohlen einen Code aus diesem ValueSet zu verwenden (Klasse = SERVER_ERROR)
+== fsh-generated/resources/Questionnaire-mii-qn-kardio-acribis-study-followup.json ==
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+ERROR: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.useContext[0].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Clinical trial (procedure)' for http://snomed.info/sct#110465008. There are no valid display names found for language(s) 'de'. Default display is 'Clinical trial'
+WARNING: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[0].item[1].item[0].item[0].item[0].code[0].display: 'Success of action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[0].item[1].item[0].item[1].item[0].code[0].display: 'Success of action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[0].item[1].item[0].item[2].item[0].code[0].display: 'Success of action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[0].item[1].item[0].item[4].item[0].code[0].display: 'Success of action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[0].item[1].item[0].item[5].item[0].code[0].display: 'Success of action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[0].item[1].item[0].item[6].item[0].code[0].display: 'Success of action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[0].item[1].item[0].item[8].item[0].code[0].display: 'Success of action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[0].item[1].item[0].item[9].item[0].code[0].display: 'Success of action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[0].item[1].item[0].item[10].item[0].code[0].display: 'Success of action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[1].item[0].code[0].display: 'Dead' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[1].item[0].item[0].code[0].display: 'Date of death' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[1].item[0].item[1].item[0].code[0].display: 'Cause of death' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[1].item[0].item[1].item[0].answerOption[0].value.ofType(Coding).display: 'Myocardial infarction' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[1].item[0].item[1].item[0].answerOption[1].value.ofType(Coding).display: 'Ischemic stroke' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[1].item[0].item[1].item[0].answerOption[2].value.ofType(Coding).display: 'Cerebral hemorrhage' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[1].item[0].item[1].item[0].answerOption[3].value.ofType(Coding).display: 'Subarachnoid hemorrhage' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[0].item[0].code[0].display: 'Myocardial infarction' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[0].item[0].item[0].code[0].display: 'Date of diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[1].item[0].item[0].code[0].display: 'Date of diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[1].item[0].item[0].item[0].answerOption[0].value.ofType(Coding).display: 'Ischemic stroke' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[1].item[0].item[0].item[0].answerOption[1].value.ofType(Coding).display: 'Cerebral hemorrhage' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[1].item[0].item[0].item[0].answerOption[2].value.ofType(Coding).display: 'Subarachnoid hemorrhage' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[2].item[0].item[0].code[0].display: 'Date of diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+ERROR: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[3].item[0].code[0].display: Wrong Display Name 'Transient ischemic attack' for http://snomed.info/sct#266257000. There are no valid display names found for language(s) 'de'. Default display is 'Transient cerebral ischemia'
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[3].item[0].item[0].code[0].display: 'Date of diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[4].item[0].code[0].display: 'Atrial fibrillation' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[4].item[0].item[0].code[0].display: 'Date of diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[5].item[0].code[0].display: 'Chronic heart failure' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[5].item[0].item[0].code[0].display: 'Date of diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[5].item[1].item[0].code[0].display: 'Number of admissions' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[5].item[1].item[1].code[0].display: 'Date of admission' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[6].item[0].item[0].code[0].display: 'Diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+WARNING: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[6].item[0].item[0].answerValueSet: Canonical URL 'http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C' kann nicht aufgelöst werden
+INFORMATION: Questionnaire/mii-qn-kardio-acribis-study-followup: Questionnaire.item[3].item[6].item[0].item[0].item[0].code[0].display: 'Date of diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-andere.json ==
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-andere: QuestionnaireResponse.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-andere: QuestionnaireResponse.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-andere: QuestionnaireResponse.item[1].item[0].answer[0].item[1].answer[0].item[0].answer[0].value.ofType(Coding).display: 'Myocardial infarction' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-andere: QuestionnaireResponse.item[2].item[1].item[0].answer[0].item[0].answer[0].item[0].answer[0].value.ofType(Coding).display: 'Ischemic stroke' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-andere: QuestionnaireResponse.item[2].item[1].item[0].answer[0].item[0].answer[1].item[0].answer[0].value.ofType(Coding).display: 'Subarachnoid hemorrhage' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-andere: QuestionnaireResponse.item[2].item[6].item[0].answer[0].item[0].answer[0].value.ofType(Coding).display: 'Heart block' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-andere: QuestionnaireResponse.item[2].item[6].item[0].answer[0].item[0].answer[1].value.ofType(Coding).display: 'Ischemic finger' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+WARNING: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-andere: QuestionnaireResponse.item[2].item[6].item[0].item[0].answer[0]: ValueSet http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C vom Validator nicht gefunden
+WARNING: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-andere: QuestionnaireResponse.item[2].item[6].item[0].item[0].answer[1]: ValueSet http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C vom Validator nicht gefunden
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige.json ==
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-angehoerige: QuestionnaireResponse.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-angehoerige: QuestionnaireResponse.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-angehoerige: QuestionnaireResponse.item[2].item[1].item[0].answer[0].item[0].answer[0].item[0].answer[0].value.ofType(Coding).display: 'Ischemic stroke' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-angehoerige: QuestionnaireResponse.item[2].item[1].item[0].answer[0].item[0].answer[1].item[0].answer[0].value.ofType(Coding).display: 'Subarachnoid hemorrhage' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-angehoerige: QuestionnaireResponse.item[2].item[6].item[0].answer[0].item[0].answer[0].value.ofType(Coding).display: 'Heart block' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-angehoerige: QuestionnaireResponse.item[2].item[6].item[0].answer[0].item[0].answer[1].value.ofType(Coding).display: 'Ischemic finger' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+WARNING: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-angehoerige: QuestionnaireResponse.item[2].item[6].item[0].item[0].answer[0]: ValueSet http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C vom Validator nicht gefunden
+WARNING: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-angehoerige: QuestionnaireResponse.item[2].item[6].item[0].item[0].answer[1]: ValueSet http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C vom Validator nicht gefunden
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt.json ==
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-arzt: QuestionnaireResponse.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-arzt: QuestionnaireResponse.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-arzt: QuestionnaireResponse.item[1].item[0].answer[0].item[1].answer[0].item[0].answer[0].value.ofType(Coding).display: 'Myocardial infarction' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-arzt: QuestionnaireResponse.item[2].item[1].item[0].answer[0].item[0].answer[0].item[0].answer[0].value.ofType(Coding).display: 'Ischemic stroke' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-arzt: QuestionnaireResponse.item[2].item[1].item[0].answer[0].item[0].answer[1].item[0].answer[0].value.ofType(Coding).display: 'Subarachnoid hemorrhage' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-arzt: QuestionnaireResponse.item[2].item[6].item[0].answer[0].item[0].answer[0].value.ofType(Coding).display: 'Heart block' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-arzt: QuestionnaireResponse.item[2].item[6].item[0].answer[0].item[0].answer[1].value.ofType(Coding).display: 'Ischemic finger' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+WARNING: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-arzt: QuestionnaireResponse.item[2].item[6].item[0].item[0].answer[0]: ValueSet http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C vom Validator nicht gefunden
+WARNING: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-arzt: QuestionnaireResponse.item[2].item[6].item[0].item[0].answer[1]: ValueSet http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C vom Validator nicht gefunden
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient.json ==
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-patient: QuestionnaireResponse.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-patient: QuestionnaireResponse.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-patient: QuestionnaireResponse.item[1].item[1].item[0].answer[0].item[0].answer[0].item[0].answer[0].value.ofType(Coding).display: 'Ischemic stroke' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-patient: QuestionnaireResponse.item[1].item[1].item[0].answer[0].item[0].answer[1].item[0].answer[0].value.ofType(Coding).display: 'Subarachnoid hemorrhage' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-patient: QuestionnaireResponse.item[1].item[6].item[0].answer[0].item[0].answer[0].value.ofType(Coding).display: 'Heart block' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-patient: QuestionnaireResponse.item[1].item[6].item[0].answer[0].item[0].answer[1].value.ofType(Coding).display: 'Ischemic finger' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+WARNING: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-patient: QuestionnaireResponse.item[1].item[6].item[0].item[0].answer[0]: ValueSet http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C vom Validator nicht gefunden
+WARNING: QuestionnaireResponse/mii-exa-kardio-questionnaireresponse-patient: QuestionnaireResponse.item[1].item[6].item[0].item[0].answer[1]: ValueSet http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C vom Validator nicht gefunden
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis: StructureDefinition.snapshot.element[76].pattern.ofType(CodeableConcept).coding[0].display: 'Diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis: StructureDefinition.snapshot.element[96].pattern.ofType(CodeableConcept).coding[0].display: 'Date of diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis: StructureDefinition.differential.element[14].pattern.ofType(CodeableConcept).coding[0].display: 'Diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+INFORMATION: StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis: StructureDefinition.differential.element[17].pattern.ofType(CodeableConcept).coding[0].display: 'Date of diagnosis' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-device.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-device: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-device: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-device: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-diagnose: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-diagnose: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-diagnose: StructureDefinition.extension[5].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
+WARNING: StructureDefinition/mii-pr-kardio-diagnose: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-annotation.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-annotation: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-annotation: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-ekg-annotation: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.json ==
+WARNING: MII PR Kardio EKG Durchführung.coding.Procedure.code.coding: Binding https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct could not be expanded
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-durchfuehrung: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-durchfuehrung: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-durchfuehrung: StructureDefinition.extension[5].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
+WARNING: StructureDefinition/mii-pr-kardio-ekg-durchfuehrung: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraet.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-geraet: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-geraet: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-ekg-geraet: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-geraetedefinition: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-geraetedefinition: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-ekg-geraetedefinition: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-kanal.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-kanal: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-kanal: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-ekg-kanal: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-kanal: StructureDefinition.snapshot.element[48].pattern.ofType(Coding): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-kanal: StructureDefinition.snapshot.element[81].pattern.ofType(CodeableConcept): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-kanal: StructureDefinition.differential.element[7].pattern.ofType(Coding): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-kanal: StructureDefinition.differential.element[10].pattern.ofType(CodeableConcept): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-referenz.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-referenz: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-referenz: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-ekg-referenz: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-geraeteprogrammierung.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-geraeteprogrammierung: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-geraeteprogrammierung: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-geraeteprogrammierung: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-geraeteprogrammierung: StructureDefinition.snapshot.element[25].pattern.ofType(Coding): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: StructureDefinition/mii-pr-kardio-geraeteprogrammierung: StructureDefinition.differential.element[6].pattern.ofType(Coding): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.json ==
+WARNING: MII PR Kardio Kardiale Deviceimplantation.coding.Procedure.code.coding: Binding https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct could not be expanded
+INFORMATION: StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation: StructureDefinition.extension[5].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
+WARNING: StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-klappenvitium.json ==
+WARNING: MII PR Kardio Klappenvitium.coding.Condition.code.coding: Binding https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2026.0.1 could not be expanded
+INFORMATION: StructureDefinition/mii-pr-kardio-klappenvitium: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-klappenvitium: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-klappenvitium: StructureDefinition.extension[5].value.ofType(CodeableConcept): Reference to experimental CodeSystem http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|25.6.0-e
+WARNING: StructureDefinition/mii-pr-kardio-klappenvitium: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus: StructureDefinition.snapshot.element[10].pattern.ofType(CodeableConcept): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+INFORMATION: StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept): Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-observation-rauchen: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-observation-rauchen: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-observation-rauchen: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-nyha.json ==
+INFORMATION: StructureDefinition/mii-pr-kardio-score-nyha: StructureDefinition.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: StructureDefinition/mii-pr-kardio-score-nyha: StructureDefinition.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: StructureDefinition/mii-pr-kardio-score-nyha: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/ValueSet-mii-vs-kardio-allergene-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-allergene-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-allergene-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-allergene-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+ERROR: ValueSet/mii-vs-kardio-allergene-snomedct: ValueSet.compose.include[11].concept[1]: Der Code 372677003 ist im System http://snomed.info/sct nicht gültig
+WARNING: ValueSet.where(id = 'mii-vs-kardio-allergene-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+== fsh-generated/resources/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+WARNING: ValueSet.where(id = 'mii-vs-kardio-atherosklerotisches-ereignis-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+== fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-kanaele-mdc.json ==
+INFORMATION: ValueSet/mii-vs-kardio-ekg-kanaele-mdc: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-ekg-kanaele-mdc: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-ekg-kanaele-mdc: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-ekg-prozedur-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-ekg-prozedur-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-ekg-prozedur-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/ValueSet-mii-vs-kardio-ethnie-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-ethnie-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-ethnie-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-ethnie-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+ERROR: ValueSet/mii-vs-kardio-ethnie-snomedct: ValueSet.compose.include[0].concept[1]: Der Code 413464008 ist im System http://snomed.info/sct nicht gültig
+ERROR: ValueSet/mii-vs-kardio-ethnie-snomedct: ValueSet.compose.include[0].concept[2]: Der Code 74964007 ist im System http://snomed.info/sct nicht gültig
+== fsh-generated/resources/ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-extended-condition-severity-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-extended-condition-severity-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-extended-condition-severity-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+ERROR: ValueSet/mii-vs-kardio-extended-condition-severity-snomedct: ValueSet.compose.include[0].concept[1]: Der Code 6736007 ist im System http://snomed.info/sct nicht gültig
+ERROR: ValueSet/mii-vs-kardio-extended-condition-severity-snomedct: ValueSet.compose.include[0].concept[2]: Der Code 255604002 ist im System http://snomed.info/sct nicht gültig
+ERROR: ValueSet/mii-vs-kardio-extended-condition-severity-snomedct: ValueSet.compose.include[0].concept[3]: Der Code 42796001 ist im System http://snomed.info/sct nicht gültig
+ERROR: ValueSet/mii-vs-kardio-extended-condition-severity-snomedct: ValueSet.compose.include[0].concept[4]: Der Code 261665006 ist im System http://snomed.info/sct nicht gültig
+== fsh-generated/resources/ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.json ==
+INFORMATION: ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+WARNING: ValueSet.where(id = 'mii-vs-kardio-extended-mii-diagnosecodes-snomed'): Unable to expand included value set 'https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct': Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4 (and Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4)
+== fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.json ==
+INFORMATION: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+INFORMATION: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.compose.include[0].concept[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
+ERROR: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.compose.include[0].concept[1]: Der Code 754773 ist im System urn:iso:std:iso:11073:10101 nicht gültig
+ERROR: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.compose.include[0].concept[2]: Der Code 754760 ist im System urn:iso:std:iso:11073:10101 nicht gültig
+ERROR: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.compose.include[0].concept[3]: Der Code 754790 ist im System urn:iso:std:iso:11073:10101 nicht gültig
+== fsh-generated/resources/ValueSet-mii-vs-kardio-geraetetyp-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-geraetetyp-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-geraetetyp-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-geraetetyp-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+WARNING: ValueSet.where(id = 'mii-vs-kardio-geraetetyp-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+== fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+ERROR: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.compose.include[0].concept[1]: Der Code 161833006 ist im System http://snomed.info/sct nicht gültig
+ERROR: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.compose.include[0].concept[2]: Der Code 416528001 ist im System http://snomed.info/sct nicht gültig
+ERROR: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.compose.include[0].concept[3]: Der Code 448765001 ist im System http://snomed.info/sct nicht gültig
+== fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+ERROR: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct: ValueSet.compose.include[0].concept[1]: Der Code 87878005 ist im System http://snomed.info/sct nicht gültig
+ERROR: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct: ValueSet.compose.include[0].concept[2]: Der Code 53085002 ist im System http://snomed.info/sct nicht gültig
+== fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.json ==
+INFORMATION: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+WARNING: ValueSet.where(id = 'mii-vs-kardio-kardiale-deviceimplantation-scnomedct'): The value set 'https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct|2027.0.0-ballot.rc1' expansion (local) took too long to process (>60sec) (and Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4)
+WARNING: ValueSet.where(id = 'mii-vs-kardio-kardiale-deviceimplantation-scnomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-alphaid.json ==
+INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-alphaid: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-alphaid: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-klappenvitium-alphaid: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+WARNING: ValueSet.where(id = 'mii-vs-kardio-klappenvitium-grad-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-icd.json ==
+INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+ERROR: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm', and 'I05' is not (Unknown code 'I05' in the CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '2026')
+ERROR: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.compose.include[1].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm', and 'I06' is not (Unknown code 'I06' in the CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '2026')
+ERROR: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.compose.include[2].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm', and 'I07' is not (Unknown code 'I07' in the CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '2026')
+ERROR: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.compose.include[3].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm', and 'I08' is not (Unknown code 'I08' in the CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '2026')
+ERROR: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.compose.include[4].concept[0]: Der Code I09.8 ist im System http://fhir.de/CodeSystem/bfarm/icd-10-gm nicht gültig
+ERROR: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.compose.include[5].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm', and 'I34' is not (Unknown code 'I34' in the CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '2026')
+ERROR: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.compose.include[6].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm', and 'I35' is not (Unknown code 'I35' in the CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '2026')
+ERROR: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.compose.include[7].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm', and 'I36' is not (Unknown code 'I36' in the CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '2026')
+ERROR: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.compose.include[8].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm', and 'I37' is not (Unknown code 'I37' in the CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '2026')
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-klappenvitium-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+WARNING: ValueSet.where(id = 'mii-vs-kardio-klappenvitium-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+== fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.json ==
+INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://unstats.un.org/unsd/methods/m49/m49.htm' is not known, and no terminology service supports it
+WARNING: ValueSet.where(id = 'mii-vs-kardio-lebensmittelpunkt-m49'): Error from http://127.0.0.1:8090/fhir: Error: [9779e794-b71f-4583-9a71-fa14e4e86922]: A usable code system with URL http://unstats.un.org/unsd/methods/m49/m49.htm could not be resolved.
+Information: X-Request-Id: 6cd12712-4ddd-44c8-90a3-a5065490d0b3
+== fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.json ==
+INFORMATION: ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/ValueSet-mii-vs-kardio-modifizierte-rankin-skala.json ==
+INFORMATION: ValueSet/mii-vs-kardio-modifizierte-rankin-skala: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-modifizierte-rankin-skala: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-modifizierte-rankin-skala: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/ValueSet-mii-vs-kardio-nein-unbekannt.json ==
+INFORMATION: ValueSet/mii-vs-kardio-nein-unbekannt: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-nein-unbekannt: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-nein-unbekannt: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/ValueSet-mii-vs-kardio-nyha-klassen-snomedct.json ==
+INFORMATION: ValueSet/mii-vs-kardio-nyha-klassen-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-nyha-klassen-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-nyha-klassen-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== fsh-generated/resources/ValueSet-mii-vs-kardio-objekte-geraete-mdc.json ==
+INFORMATION: ValueSet/mii-vs-kardio-objekte-geraete-mdc: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: ValueSet/mii-vs-kardio-objekte-geraete-mdc: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+WARNING: ValueSet/mii-vs-kardio-objekte-geraete-mdc: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+== input/resources/Parameters-mii-param-kardio-manifest.json ==
+INFORMATION: Parameters/mii-param-kardio-manifest: Parameters.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
+INFORMATION: Parameters/mii-param-kardio-manifest: Parameters.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1

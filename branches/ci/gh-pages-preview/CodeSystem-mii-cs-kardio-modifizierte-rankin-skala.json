@@ -1,0 +1,80 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mii-cs-kardio-modifizierte-rankin-skala",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-kardio-modifizierte-rankin-skala</b></p><a name=\"mii-cs-kardio-modifizierte-rankin-skala\"> </a><a name=\"hcmii-cs-kardio-modifizierte-rankin-skala\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><p>This case-sensitive code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mRS0<a name=\"mii-cs-kardio-modifizierte-rankin-skala-mRS0\"> </a></td><td>Es bestehen keine Symptome.</td></tr><tr><td style=\"white-space:nowrap\">mRS1<a name=\"mii-cs-kardio-modifizierte-rankin-skala-mRS1\"> </a></td><td>Es bestehen keine relevanten Beeinträchtigungen. Der Patient ist in der Lage, seinen Alltag selbstständig zu gestalten.</td></tr><tr><td style=\"white-space:nowrap\">mRS2<a name=\"mii-cs-kardio-modifizierte-rankin-skala-mRS2\"> </a></td><td>Es bestehen leichte Beeinträchtigungen. Der Patient hat Einschränkungen im Alltag, ist aber nicht auf Hilfe angewiesen.</td></tr><tr><td style=\"white-space:nowrap\">mRS3<a name=\"mii-cs-kardio-modifizierte-rankin-skala-mRS3\"> </a></td><td>Es bestehen mittelgradige Beeinträchtigungen. Der Patient ist auf Hilfe im Alltag angewiesen. Gehen ist ohne fremde Hilfe (ggf. mit Hilfsmitteln) möglich.</td></tr><tr><td style=\"white-space:nowrap\">mRS4<a name=\"mii-cs-kardio-modifizierte-rankin-skala-mRS4\"> </a></td><td>Es besteht eine höhergradige Beeinträchtigung. Der Patient ist nicht mehr in der Lage, seinen Körper zu pflegen oder selbstständig zu laufen.</td></tr><tr><td style=\"white-space:nowrap\">mRS5<a name=\"mii-cs-kardio-modifizierte-rankin-skala-mRS5\"> </a></td><td>Es besteht eine schwere Behinderung. Der Patient ist bettlägerig, inkontinent und auf ständige Pflege angewiesen.</td></tr><tr><td style=\"white-space:nowrap\">mRS6<a name=\"mii-cs-kardio-modifizierte-rankin-skala-mRS6\"> </a></td><td>Tod infolge des Schlaganfalls</td></tr><tr><td style=\"white-space:nowrap\">mRSbigger3<a name=\"mii-cs-kardio-modifizierte-rankin-skala-mRSbigger3\"> </a></td><td>Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)</td></tr><tr><td style=\"white-space:nowrap\">mRSsmallerequal3<a name=\"mii-cs-kardio-modifizierte-rankin-skala-mRSsmallerequal3\"> </a></td><td>Die Einstufung auf der mRS-Skala liegt bei gleich 3 oder weniger als 3 (Patient kann ohne fremde Hilfe gehen (ggf. mit Hilfsmitteln))</td></tr><tr><td style=\"white-space:nowrap\">mRSunknown<a name=\"mii-cs-kardio-modifizierte-rankin-skala-mRSunknown\"> </a></td><td>Die Einstufung auf der mRS-Skala ist unbekannt</td></tr></table></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_CS_Kardio_Modifizierte_Rankin_Skala",
+  "title" : "MII CS Kardio Modifizierte Rankin Skala",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-04-29",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    },
+    {
+      "system" : "email",
+      "value" : "office@medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "Beeinträchtigung des Patienten nach Schlaganfall",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "purpose" : "Dieses Code-System bildet die Stufen der modifizierten Rankin-Skala ab.",
+  "caseSensitive" : true,
+  "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala",
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "mRS0",
+    "display" : "Es bestehen keine Symptome."
+  },
+  {
+    "code" : "mRS1",
+    "display" : "Es bestehen keine relevanten Beeinträchtigungen. Der Patient ist in der Lage, seinen Alltag selbstständig zu gestalten."
+  },
+  {
+    "code" : "mRS2",
+    "display" : "Es bestehen leichte Beeinträchtigungen. Der Patient hat Einschränkungen im Alltag, ist aber nicht auf Hilfe angewiesen."
+  },
+  {
+    "code" : "mRS3",
+    "display" : "Es bestehen mittelgradige Beeinträchtigungen. Der Patient ist auf Hilfe im Alltag angewiesen. Gehen ist ohne fremde Hilfe (ggf. mit Hilfsmitteln) möglich."
+  },
+  {
+    "code" : "mRS4",
+    "display" : "Es besteht eine höhergradige Beeinträchtigung. Der Patient ist nicht mehr in der Lage, seinen Körper zu pflegen oder selbstständig zu laufen."
+  },
+  {
+    "code" : "mRS5",
+    "display" : "Es besteht eine schwere Behinderung. Der Patient ist bettlägerig, inkontinent und auf ständige Pflege angewiesen."
+  },
+  {
+    "code" : "mRS6",
+    "display" : "Tod infolge des Schlaganfalls"
+  },
+  {
+    "code" : "mRSbigger3",
+    "display" : "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
+  },
+  {
+    "code" : "mRSsmallerequal3",
+    "display" : "Die Einstufung auf der mRS-Skala liegt bei gleich 3 oder weniger als 3 (Patient kann ohne fremde Hilfe gehen (ggf. mit Hilfsmitteln))"
+  },
+  {
+    "code" : "mRSunknown",
+    "display" : "Die Einstufung auf der mRS-Skala ist unbekannt"
+  }]
+}

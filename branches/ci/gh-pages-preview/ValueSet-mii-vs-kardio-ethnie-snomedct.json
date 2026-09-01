@@ -1,0 +1,49 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mii-vs-kardio-ethnie-snomedct",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mii-vs-kardio-ethnie-snomedct</b></p><a name=\"mii-vs-kardio-ethnie-snomedct\"> </a><a name=\"hcmii-vs-kardio-ethnie-snomedct\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/413773004\">413773004</a></td><td/></tr><tr><td><a href=\"http://snomed.info/id/413464008\">413464008</a></td><td/></tr><tr><td><a href=\"http://snomed.info/id/74964007\">74964007</a></td><td/></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Ethnie_SNOMEDCT",
+  "title" : "MII VS Kardio Ethnie [SNOMED CT]",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-08-12",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    },
+    {
+      "system" : "email",
+      "value" : "office@medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "413773004"
+      },
+      {
+        "code" : "413464008"
+      },
+      {
+        "code" : "74964007"
+      }]
+    }]
+  }
+}

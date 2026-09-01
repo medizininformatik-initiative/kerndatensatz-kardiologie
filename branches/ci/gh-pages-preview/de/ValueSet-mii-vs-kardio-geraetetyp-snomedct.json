@@ -1,0 +1,68 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mii-vs-kardio-geraetetyp-snomedct",
+  "language" : "de",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"de\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mii-vs-kardio-geraetetyp-snomedct</b></p><a name=\"mii-vs-kardio-geraetetyp-snomedct\"> </a><a name=\"hcmii-vs-kardio-geraetetyp-snomedct\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where concept  is-a 72506001 (Implantable defibrillator)</li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where concept  is-a 706004007 (Implantable cardiac pacemaker)</li><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where concept  descends from 360064003 (Ventricular assist device)</li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-data-absent-reason.html\"><code>http://terminology.hl7.org/CodeSystem/data-absent-reason</code></a><span title=\"Version is explicitly stated to be 1.0.0\"> version &#x1F4CD;1.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-data-absent-reason.html#data-absent-reason-asked-unknown\">asked-unknown</a></td><td style=\"color: #cccccc\">Asked But Unknown</td><td>The source was asked but does not know the value.</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Geraetetyp_SNOMEDCT",
+  "title" : "MII VS Kardio Gerätetyp [SNOMED CT]",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-09-05",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    },
+    {
+      "system" : "email",
+      "value" : "office@medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher und ventrikuläres Unterstützungssystem ab.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "72506001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "706004007"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "360064003"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+      "version" : "1.0.0",
+      "concept" : [{
+        "code" : "asked-unknown"
+      }]
+    }]
+  }
+}

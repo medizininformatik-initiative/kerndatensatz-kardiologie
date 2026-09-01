@@ -1,0 +1,42 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mii-vs-kardio-modifizierte-rankin-skala",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mii-vs-kardio-modifizierte-rankin-skala</b></p><a name=\"mii-vs-kardio-modifizierte-rankin-skala\"> </a><a name=\"hcmii-vs-kardio-modifizierte-rankin-skala\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html\"><code>https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala</code></a><span title=\"Version is explicitly stated to be 2027.0.0-ballot.rc1\"> version &#x1F4CD;2027.0.0-ballot.rc1</span></li></ul></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Modifizierte_Rankin_Skala",
+  "title" : "MII VS Kardio Modifizierte Rankin Skala",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-09-05",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    },
+    {
+      "system" : "email",
+      "value" : "office@medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "Stufen der modifizierten Rankin-Skala",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "copyright" : "Public Domain",
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
+      "version" : "2027.0.0-ballot.rc1"
+    }]
+  }
+}

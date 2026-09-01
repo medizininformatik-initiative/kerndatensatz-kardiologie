@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mii-cs-kardio-atherosklerotisches-ereignis"/>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de"><p class="res-header-id"><b>Generated Narrative: CodeSystem mii-cs-kardio-atherosklerotisches-ereignis</b></p><a name="mii-cs-kardio-atherosklerotisches-ereignis"> </a><a name="hcmii-cs-kardio-atherosklerotisches-ereignis"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p></div><p>This case-sensitive code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ae<a name="mii-cs-kardio-atherosklerotisches-ereignis-ae"> </a></td><td>Atherosklerotisches Ereignis</td></tr><tr><td style="white-space:nowrap">eg-cv<a name="mii-cs-kardio-atherosklerotisches-ereignis-eg-cv"> </a></td><td>Embolischer Gefäßverschluss cerebro-vaskulär</td></tr></table></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis"/>
+  <version value="2027.0.0-ballot.rc1"/>
+  <name value="MII_CS_Kardio_Atherosklerotisches_Ereignis"/>
+  <title value="MII CS Kardio Atherosklerotisches Ereignis"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-09-03"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="office@medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="Code für ein unbestimmtes atherosklerotisches Ereignis"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="ae"/>
+    <display value="Atherosklerotisches Ereignis"/>
+  </concept>
+  <concept>
+    <code value="eg-cv"/>
+    <display value="Embolischer Gefäßverschluss cerebro-vaskulär"/>
+  </concept>
+</CodeSystem>

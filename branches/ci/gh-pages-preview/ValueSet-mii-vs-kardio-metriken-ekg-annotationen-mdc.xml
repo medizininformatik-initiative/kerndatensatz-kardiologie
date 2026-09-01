@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="mii-vs-kardio-metriken-ekg-annotationen-mdc"/>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de"><p class="res-header-id"><b>Generated Narrative: ValueSet mii-vs-kardio-metriken-ekg-annotationen-mdc</b></p><a name="mii-vs-kardio-metriken-ekg-annotationen-mdc"> </a><a name="hcmii-vs-kardio-metriken-ekg-annotationen-mdc"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-mdc.html"><code>urn:iso:std:iso:11073:10101</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where partition  = 2 (Metrics)</li><li>Include codes from<a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-mdc.html"><code>urn:iso:std:iso:11073:10101</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where partition  = 10 (ECG additional nomenclature (annotated ECG))</li></ul></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc"/>
+  <version value="2027.0.0-ballot.rc1"/>
+  <name value="MII_VS_Kardio_Metriken_EKG_Annotationen_MDC"/>
+  <title value="MII VS Kardio Metriken EKG Annotationen [MDC]"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-07-30"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="office@medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="urn:iso:std:iso:11073:10101"/>
+      <filter>
+        <property value="partition"/>
+        <op value="="/>
+        <value value="2"/>
+      </filter>
+    </include>
+    <include>
+      <system value="urn:iso:std:iso:11073:10101"/>
+      <filter>
+        <property value="partition"/>
+        <op value="="/>
+        <value value="10"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

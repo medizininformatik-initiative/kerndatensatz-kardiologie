@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-kardio-kardiale-deviceimplantation-icd"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Procedure mii-exa-kardio-kardiale-deviceimplantation-icd</b></p><a name="mii-exa-kardio-kardiale-deviceimplantation-icd"> </a><a name="hcmii-exa-kardio-kardiale-deviceimplantation-icd"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.html">MII PR Kardio Kardiale Deviceimplantation</a></p></div><p><b>ExtensionProzedurDokumentationsdatum</b>: 2025-05-16 16:23:12+0200</p><p><b>MII EX Prozedur Durchführungsabsicht</b>: <a href="http://snomed.info/id/262202000">SNOMED CT: 262202000</a> (Therapeutic)</p><p><b>status</b>: Completed</p><p><b>category</b>: <span title="Codes:{http://snomed.info/sct 387713003}">Surgical procedure</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 395218007}">Implantation of internal cardiac defibrillator</span></p><p><b>subject</b>: Beispielpatient</p><p><b>performed</b>: 2020-04</p><p><b>bodySite</b>: <span title="Codes:{http://snomed.info/sct 80891009}">Heart structure</span></p><p><b>note</b>: </p><blockquote><div><p>Implantation eines ICDs im April 2020</p>
+</div></blockquote><h3>FocalDevices</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Action</b></td><td><b>Manipulated</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://snomed.info/sct 129338005}">Surgical implantation - action</span></td><td><a href="Device-mii-exa-kardio-device-icd.html">Device: status = active; manufacturer = Medtronic; type = Implantable defibrillator</a></td></tr></table></div>
+  </text>
+  <extension url="http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum">
+    <valueDateTime value="2025-05-16T16:23:12+02:00"/>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="262202000"/>
+      <display value="Therapeutic"/>
+    </valueCoding>
+  </extension>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <code value="387713003"/>
+      <display value="Surgical procedure"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <code value="395218007"/>
+      <display value="Implantation of internal cardiac defibrillator"/>
+    </coding>
+  </code>
+  <subject>
+    <display value="Beispielpatient"/>
+  </subject>
+  <performedDateTime value="2020-04"/>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <code value="80891009"/>
+      <display value="Heart structure"/>
+    </coding>
+  </bodySite>
+  <note>
+    <text value="Implantation eines ICDs im April 2020"/>
+  </note>
+  <focalDevice>
+    <action>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+        <code value="129338005"/>
+        <display value="Surgical implantation - action"/>
+      </coding>
+    </action>
+    <manipulated>
+      <reference value="Device/mii-exa-kardio-device-icd"/>
+    </manipulated>
+  </focalDevice>
+</Procedure>

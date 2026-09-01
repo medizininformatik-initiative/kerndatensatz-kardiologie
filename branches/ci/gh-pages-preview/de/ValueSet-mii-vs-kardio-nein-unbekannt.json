@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mii-vs-kardio-nein-unbekannt",
+  "language" : "de",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"de\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mii-vs-kardio-nein-unbekannt</b></p><a name=\"mii-vs-kardio-nein-unbekannt\"> </a><a name=\"hcmii-vs-kardio-nein-unbekannt\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v2-0532.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0532</code></a><span title=\"Version is explicitly stated to be 3.0.0\"> version &#x1F4CD;3.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v2-0532.html#v2-0532-N\">N</a></td><td style=\"color: #cccccc\">No</td><td>No</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v2-0532.html#v2-0532-UNK\">UNK</a></td><td style=\"color: #cccccc\">unknown</td><td>unknown</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v2-0532.html#v2-0532-NASK\">NASK</a></td><td style=\"color: #cccccc\">not asked</td><td>not asked</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-v2-0532.html#v2-0532-ASKU\">ASKU</a></td><td style=\"color: #cccccc\">asked but unknown</td><td>asked but unknown</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nein-unbekannt",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_Nein_Unbekannt",
+  "title" : "MII VS Kardio Nein Unbekannt",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-09-05",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    },
+    {
+      "system" : "email",
+      "value" : "office@medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnose, bzw. Prozedur, oder Unklarheit darüber.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+      "version" : "3.0.0",
+      "concept" : [{
+        "code" : "N"
+      },
+      {
+        "code" : "UNK"
+      },
+      {
+        "code" : "NASK"
+      },
+      {
+        "code" : "ASKU"
+      }]
+    }]
+  }
+}

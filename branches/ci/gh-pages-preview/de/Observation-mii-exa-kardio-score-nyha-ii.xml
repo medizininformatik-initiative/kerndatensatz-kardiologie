@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-kardio-score-nyha-ii"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Observation mii-exa-kardio-score-nyha-ii</b></p><a name="mii-exa-kardio-score-nyha-ii"> </a><a name="hcmii-exa-kardio-score-nyha-ii"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-score-nyha.html">MII PR Kardio Score NYHA</a></p></div><p><b>identifier</b>: <code>http://demo.org/observation-ids</code>/NYHA-OBS-123456</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 762994006}, {http://loinc.org 93124-6}">New York Heart Association Classification class</span></p><p><b>subject</b>: Beispielpatient</p><p><b>encounter</b>: Beispielfall</p><p><b>effective</b>: 2024-11-12 14:23:00+0100</p><p><b>issued</b>: 2024-11-12 15:00:00+0100</p><p><b>performer</b>: <a href="PractitionerRole-mii-exa-kardio-rolle-kardiologe.html">PractitionerRole Cardiologist</a></p><p><b>value</b>: <span title="Codes:{http://snomed.info/sct 421704003}">New York Heart Association Classification - Class II</span></p><p><b>note</b>: </p><blockquote><div><p>Patient berichtet über leichte Einschränkungen bei moderater körperlicher Aktivität. Keine Beschwerden in Ruhe.</p>
+</div></blockquote></div>
+  </text>
+  <identifier>
+    <system value="http://demo.org/observation-ids"/>
+    <value value="NYHA-OBS-123456"/>
+  </identifier>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="survey"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <code value="762994006"/>
+      <display value="New York Heart Association Classification class"/>
+    </coding>
+    <coding>
+      <system value="http://loinc.org"/>
+      <version value="2.82"/>
+      <code value="93124-6"/>
+      <display value="New York Heart Association Functional Classification panel"/>
+    </coding>
+  </code>
+  <subject>
+    <display value="Beispielpatient"/>
+  </subject>
+  <encounter>
+    <display value="Beispielfall"/>
+  </encounter>
+  <effectiveDateTime value="2024-11-12T14:23:00+01:00"/>
+  <issued value="2024-11-12T15:00:00+01:00"/>
+  <performer>
+    <reference value="PractitionerRole/mii-exa-kardio-rolle-kardiologe"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <code value="421704003"/>
+      <display value="New York Heart Association Classification - Class II"/>
+    </coding>
+  </valueCodeableConcept>
+  <note>
+    <text value="Patient berichtet über leichte Einschränkungen bei moderater körperlicher Aktivität. Keine Beschwerden in Ruhe."/>
+  </note>
+</Observation>

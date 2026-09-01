@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="mii-vs-kardio-extended-mii-diagnosecodes-snomed"/>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de"><p class="res-header-id"><b>Generated Narrative: ValueSet mii-vs-kardio-extended-mii-diagnosecodes-snomed</b></p><a name="mii-vs-kardio-extended-mii-diagnosecodes-snomed"> </a><a name="hcmii-vs-kardio-extended-mii-diagnosecodes-snomed"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p></div><p>This ValueSet requires the Code system Supplement <a href="CodeSystem-mii-cs-kardio-supplement-snomedct.html">MII CS Kardio Supplement [SNOMED CT]</a>.</p><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-diagnosecodes-snomed.html">MII VS Diagnose Diagnose-Codes SNOMED</a></li><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is explicitly stated to be http://snomed.info/sct/900000000000207008/version/20250701"> version &#x1F4CD;http://snomed.info/sct/900000000000207008/version/20250701</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://browser.ihtsdotools.org/">368009:{116676008=49755003,363698007=17401000},{246112005=24484000}</a></td><td/></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/valueset-supplement">
+    <valueCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot.rc1"/>
+  </extension>
+  <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed"/>
+  <version value="2027.0.0-ballot.rc1"/>
+  <name value="MII_VS_Kardio_Extended_MII_DiagnoseCodes_SNOMED"/>
+  <title value="MII VS Kardio Extended MII DiagnoseCodes [SNOMED CT]"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-29"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="office@medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="Erweiterung des MII VS Diagnose Diagnosecodes [SNOMED CT]"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="276"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+  <compose>
+    <include>
+      <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2026.0.1"/>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <concept>
+        <code value="368009:{116676008=49755003,363698007=17401000},{246112005=24484000}"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

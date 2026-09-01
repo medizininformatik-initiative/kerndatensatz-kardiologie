@@ -1,0 +1,195 @@
+{
+  "package": "mii-kerndatensatzmodul-kardiologie",
+  "version": "2027.0.0-ballot.rc1",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "276",
+  "extensions": [],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen",
+        "title": "MII PR Kardio Observation Rauchen"
+      },
+      {
+        "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala",
+        "title": "MII PR Kardio Score Modifizierte Rankin Skala"
+      },
+      {
+        "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha",
+        "title": "MII PR Kardio Score NYHA"
+      }
+    ],
+    "Device": [
+      {
+        "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal",
+        "title": "MII PR Kardio EKG Kanal"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-klappenvitium",
+        "title": "MII PR Kardio Klappenvitium"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation",
+        "title": "MII PR Kardio Kardiale Deviceimplantation"
+      }
+    ],
+    "DeviceDefinition": [
+      {
+        "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition",
+        "title": "MII PR Kardio EKG Gerätedefinition"
+      }
+    ],
+    "DocumentReference": [
+      {
+        "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz",
+        "title": "MII PR Kardio EKG Referenz"
+      }
+    ],
+    "DeviceMetric": [
+      {
+        "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus",
+        "title": "MII PR Kardio NBG Schrittmachermodus"
+      }
+    ]
+  },
+  "usage": {
+    "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum": [
+      "Procedure"
+    ],
+    "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum|1.6.0": [
+      "Procedure"
+    ],
+    "http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit|1.6.0": [
+      "Condition.code.coding",
+      "Observation.code.coding"
+    ],
+    "http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen|1.6.0": [
+      "Condition.code.coding",
+      "Observation.code.coding"
+    ],
+    "http://fhir.de/StructureDefinition/lebensphase|1.6.0": [
+      "Condition.onset[x]",
+      "Condition.onset[x].end",
+      "Condition.onset[x].start"
+    ],
+    "http://fhir.de/StructureDefinition/seitenlokalisation|1.6.0": [
+      "Condition.code.coding",
+      "Observation.code.coding",
+      "Procedure.code.coding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/artifact-author": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/artifact-editor": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/artifact-endorser": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/artifact-reviewer": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/artifact-topic": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/artifact-usage": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/condition-assertedDate": [
+      "Condition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.3.0": [
+      "Condition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/condition-related|5.3.0": [
+      "Condition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeCapability": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/preferredTerminologyServer": [
+      "Questionnaire.item.item.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
+      "Questionnaire.item.item",
+      "Questionnaire.item.item.item",
+      "Questionnaire.item.item.item.item",
+      "Questionnaire.item.item.item.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/resource-approvalDate": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/translation": [
+      "StructureDefinition.snapshot.element.definition",
+      "StructureDefinition.snapshot.element.short"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/valueset-supplement": [
+      "ValueSet"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
+    "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht": [
+      "Procedure"
+    ],
+    "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht|2026.0.1": [
+      "Procedure"
+    ]
+  }
+}

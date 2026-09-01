@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-kardio-raucherstatus"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Observation mii-exa-kardio-raucherstatus</b></p><a name="mii-exa-kardio-raucherstatus"> </a><a name="hcmii-exa-kardio-raucherstatus"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-observation-rauchen.html">MII PR Kardio Observation Rauchen</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category social-history}">Social History</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 72166-2}">Raucherstatus</span></p><p><b>subject</b>: <a href="#hcmii-exa-kardio-raucherstatus/Beispielpatient">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789 (use: usual, ))</a></p><p><b>encounter</b>: <a href="#hcmii-exa-kardio-raucherstatus/Beispielfall">Encounter: status = finished; class = inpatient encounter (ActCode[10.0.0]#IMP); period = 2023-12-01 10:00:00+0100 --&gt; 2023-12-03 11:00:00+0100</a></p><p><b>effective</b>: 2023-12-01</p><p><b>performer</b>: Beispielkardiologe</p><p><b>value</b>: <span title="Codes:{http://loinc.org LA18976-3}">Current every day smoker</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 401201003}">Cigarette pack-years</span></p><p><b>value</b>: 35.5 {pack-years}<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{pack-years} = '{pack-years}')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 63640-7}">How many cigarettes per day do, or did, you smoke</span></p><p><b>value</b>: 1 {cigarettes-per-day}<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{cigarettes-per-day} = '{cigarettes-per-day}')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 266929003}">Smoking started</span></p><p><b>value</b>: 2025-01-31</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 266929003}">Smoking started</span></p><p><b>value</b>: 19 year<span style="background: LightGoldenRodYellow"> (Details: UCUM  codea = 'a')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 228487000}">Total time smoked</span></p><p><b>value</b>: &lt;=35.5 year<span style="background: LightGoldenRodYellow"> (Details: UCUM  codea = 'a')</span></p></blockquote><hr/><blockquote><p class="res-header-id"><b>Generated Narrative: Patient #Beispielpatient</b></p><a name="mii-exa-kardio-raucherstatus/Beispielpatient"> </a><a name="hcmii-exa-kardio-raucherstatus/Beispielpatient"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de-DE</p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789 (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3">Musterstraße 1 Musterstadt 12345 DE </td></tr></table></blockquote><hr/><blockquote><p class="res-header-id"><b>Generated Narrative: Encounter #Beispielfall</b></p><a name="mii-exa-kardio-raucherstatus/Beispielfall"> </a><a name="hcmii-exa-kardio-raucherstatus/Beispielfall"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de-DE</p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP">ActCode: IMP</a> (inpatient encounter) (version = 10.0.0 )</p><p><b>subject</b>: <a href="#hcmii-exa-kardio-raucherstatus/Beispielpatient">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789 (use: usual, ))</a></p><p><b>period</b>: 2023-12-01 10:00:00+0100 --&gt; 2023-12-03 11:00:00+0100</p></blockquote></div>
+  </text>
+  <contained>
+    <Patient>
+      <id value="Beispielpatient"/>
+      <language value="de-DE"/>
+      <identifier>
+        <use value="usual"/>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+            <code value="MR"/>
+            <display value="Krankenaktennummer"/>
+          </coding>
+        </type>
+        <value value="0123456789"/>
+      </identifier>
+      <name>
+        <use value="official"/>
+        <family value="Mustermann"/>
+        <given value="Max"/>
+      </name>
+      <gender value="male"/>
+      <birthDate value="1980-01-01"/>
+      <address>
+        <type value="both"/>
+        <line value="Musterstraße 1"/>
+        <city value="Musterstadt"/>
+        <postalCode value="12345"/>
+        <country value="DE"/>
+      </address>
+    </Patient>
+  </contained>
+  <contained>
+    <Encounter>
+      <id value="Beispielfall"/>
+      <language value="de-DE"/>
+      <status value="finished"/>
+      <class>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+        <version value="10.0.0"/>
+        <code value="IMP"/>
+      </class>
+      <subject>
+        <reference value="#Beispielpatient"/>
+      </subject>
+      <period>
+        <start value="2023-12-01T10:00:00+01:00"/>
+        <end value="2023-12-03T11:00:00+01:00"/>
+      </period>
+    </Encounter>
+  </contained>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="social-history"/>
+      <display value="Social History"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <version value="2.82"/>
+      <code value="72166-2"/>
+      <display value="Raucherstatus"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="#Beispielpatient"/>
+  </subject>
+  <encounter>
+    <reference value="#Beispielfall"/>
+  </encounter>
+  <effectiveDateTime value="2023-12-01"/>
+  <performer>
+    <display value="Beispielkardiologe"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <version value="2.82"/>
+      <code value="LA18976-3"/>
+      <display value="Current every day smoker"/>
+    </coding>
+  </valueCodeableConcept>
+  <component>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+        <code value="401201003"/>
+        <display value="Cigarette pack-years"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="35.5"/>
+      <unit value="{pack-years}"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="{pack-years}"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <version value="2.82"/>
+        <code value="63640-7"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="1"/>
+      <unit value="{cigarettes-per-day}"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="{cigarettes-per-day}"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+        <code value="266929003"/>
+      </coding>
+    </code>
+    <valueDateTime value="2025-01-31"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+        <code value="266929003"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="19"/>
+      <unit value="year"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="a"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+        <code value="228487000"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="35.5"/>
+      <comparator value="&lt;="/>
+      <unit value="year"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="a"/>
+    </valueQuantity>
+  </component>
+</Observation>

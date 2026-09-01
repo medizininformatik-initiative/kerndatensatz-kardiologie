@@ -1,0 +1,96 @@
+{
+  "resourceType" : "Observation",
+  "id" : "mii-exa-kardio-hoehergradiges-vitium-nein",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"]
+  },
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: Observation mii-exa-kardio-hoehergradiges-vitium-nein</b></p><a name=\"mii-exa-kardio-hoehergradiges-vitium-nein\"> </a><a name=\"hcmii-exa-kardio-hoehergradiges-vitium-nein\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html\">MII PR Kardio Diagnose Prozedur Nein Unbekannt</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 368009:{116676008=49755003,363698007=17401000},{246112005=24484000}}\">Höhergradiges Vitium primärer Genese</span></p><p><b>subject</b>: <a href=\"#hcmii-exa-kardio-hoehergradiges-vitium-nein/Beispielpatient\">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>effective</b>: 2025-06-06 14:29:34+0200</p><p><b>performer</b>: Facharzt für Kardiologie</p><p><b>value</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0532 N}\">Nein</span></p><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 17401000}\">Cardiac valve structure</span></p><p><b>method</b>: <span title=\"Codes:{http://snomed.info/sct 129431000}\">History taking - action</span></p><p><b>device</b>: Beispieltablet</p><p><b>derivedFrom</b>: Beispielfragebogen</p><hr/><blockquote><p class=\"res-header-id\"><b>Generated Narrative: Patient #Beispielpatient</b></p><a name=\"mii-exa-kardio-hoehergradiges-vitium-nein/Beispielpatient\"> </a><a name=\"hcmii-exa-kardio-hoehergradiges-vitium-nein/Beispielpatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de-DE</p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789\u00a0(use:\u00a0usual,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">Musterstraße 1 Musterstadt 12345 DE </td></tr></table></blockquote></div>"
+  },
+  "contained" : [{
+    "resourceType" : "Patient",
+    "id" : "Beispielpatient",
+    "language" : "de-DE",
+    "identifier" : [{
+      "use" : "usual",
+      "type" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+          "code" : "MR",
+          "display" : "Krankenaktennummer"
+        }]
+      },
+      "value" : "0123456789"
+    }],
+    "name" : [{
+      "use" : "official",
+      "family" : "Mustermann",
+      "given" : ["Max"]
+    }],
+    "gender" : "male",
+    "birthDate" : "1980-01-01",
+    "address" : [{
+      "type" : "both",
+      "line" : ["Musterstraße 1"],
+      "city" : "Musterstadt",
+      "postalCode" : "12345",
+      "country" : "DE"
+    }]
+  }],
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "survey",
+      "display" : "Survey"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "code" : "368009:{116676008=49755003,363698007=17401000},{246112005=24484000}",
+      "display" : "368009|Heart valve disorder|:{116676008|Associated morphology|=49755003|Morphologically abnormal structure|,363698007|Finding site|=17401000|Cardiac valve structure|},{246112005|Severity|=24484000|Severe|}"
+    }],
+    "text" : "Höhergradiges Vitium primärer Genese"
+  },
+  "subject" : {
+    "reference" : "#Beispielpatient"
+  },
+  "effectiveDateTime" : "2025-06-06T14:29:34.214+02:00",
+  "performer" : [{
+    "display" : "Facharzt für Kardiologie"
+  }],
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+      "version" : "3.0.0",
+      "code" : "N",
+      "display" : "Nein"
+    }]
+  },
+  "bodySite" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "code" : "17401000",
+      "display" : "Cardiac valve structure"
+    }]
+  },
+  "method" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "code" : "129431000",
+      "display" : "History taking - action"
+    }]
+  },
+  "device" : {
+    "display" : "Beispieltablet"
+  },
+  "derivedFrom" : [{
+    "display" : "Beispielfragebogen"
+  }]
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "mii-exa-kardio-rolle-kardiologe",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole mii-exa-kardio-rolle-kardiologe</b></p><a name=\"mii-exa-kardio-rolle-kardiologe\"> </a><a name=\"hcmii-exa-kardio-rolle-kardiologe\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><p><b>organization</b>: Klinikum Musterstadt</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 17561000}\">Cardiologist</span></p><p><b>specialty</b>: <span title=\"Codes:{http://snomed.info/sct 394579002}\">Cardiology</span></p></div>"
+  },
+  "organization" : {
+    "display" : "Klinikum Musterstadt"
+  },
+  "code" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "code" : "17561000",
+      "display" : "Cardiologist"
+    }]
+  }],
+  "specialty" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "code" : "394579002",
+      "display" : "Cardiology"
+    }]
+  }]
+}

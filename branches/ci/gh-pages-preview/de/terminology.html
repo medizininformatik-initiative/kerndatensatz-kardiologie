@@ -1,0 +1,408 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Terminologien - MII IG Modul Kardio DE v2027.0.0-ballot.rc1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Branding override for the fhir2.base.template CSS placeholder
+     (base ships includes/fragment-css.html as a single comment; it is included
+     in <head> AFTER all base stylesheets, so the linked files win the
+     cascade).
+     Load model (docs/styleguide.md §1/§10): bootstrap-accessibility.css
+     (PayPal Bootstrap Accessibility Plugin v1.0.7, vendored + pinned - §8)
+     patches Bootstrap-3 component styling for accessibility (focus outlines,
+     alert contrast) and loads FIRST so the template's own rules can override;
+     then template-base.css carries the
+     brand-INDEPENDENT rule blocks and always loads; then EXACTLY ONE palette
+     file follows - num-diz.css, the DEFAULT design, unless the consuming IG
+     ships input/data/brand.json with { "design": "mii" } (read as
+     site.data.brand.design via the base's input/data -> _data pre-process),
+     which selects mii.css instead. Only the exact value 'mii' selects the
+     MII design; anything else - including no brand.json at all and unknown
+     values - renders NUM-DIZ. Both palettes declare the same variable set
+     (scripts/brand-switch.test.mjs). -->
+<link href="assets/css/bootstrap-accessibility.css" rel="stylesheet"/>
+<link href="assets/css/template-base.css" rel="stylesheet"/>
+
+<link href="assets/css/num-diz.css" rel="stylesheet"/>
+
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"15"}
+    h3,h4,h5,h6{--heading-prefix:"15"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Branding override for the fhir2.base.template header placeholder
+     (base ships includes/fragment-header.html as a single comment; it is included
+     inside "#segment-header > .container", before the #ig-status block).
+     Language handling: only the asset and its descriptive alt text switch on
+     include.lang (the pattern kerndatensatz-basis uses); no translatable UI
+     strings are hard-coded.
+     Brand handling: the project logo additionally switches on
+     site.data.brand.design (input/data/brand.json in the consuming IG, see
+     docs/styleguide.md §10). Only the exact value 'mii' selects the MII
+     logos - anything else, including no brand.json at all, falls through to
+     the NUM-DIZ default.
+     Two logos, mirroring kerndatensatz-basis: the HL7 FHIR logo (links to the
+     FHIR spec) in #family-nav, and the project logo in #project-nav.
+     fhir-logo-www.png is shipped by fhir2.base.template
+     (content/assets/images/), so it resolves from the inherited assets without
+     shipping it here. -->
+<div id="family-nav">
+  <a id="family-logo" no-external="true" href="https://hl7.org/fhir">
+    <img height="50" alt="HL7 FHIR" src="assets/images/fhir-logo-www.png"/>
+  </a>
+</div>
+<div id="project-nav">
+
+  <a id="project-logo" no-external="true" href="https://www.netzwerk-universitaetsmedizin.de/forschung/num-diz">
+
+    <img height="50" alt="NUM-DIZ (Netzwerk Universitätsmedizin — Datenintegrationszentrum)" src="assets/images/logo-num-diz-de.svg"/>
+
+  </a>
+
+</div>
+<!-- Font-size control (A / A+ / A++): three reader-selectable levels; level A
+     is the untouched default. Logic in assets/js/font-size-control.js, the
+     zoom mapping + button styling in template-base.css ("font-size control"
+     block). All three buttons read "A" — the button's own font size shows the level; labels are language-neutral; only the aria texts switch
+     on include.lang. REMOVAL: delete this block, the js file and the CSS
+     block - one commit, styleguide §5a. -->
+
+<div class="ig-fontsize" role="group" aria-label="Schriftgröße">
+  <button type="button" data-level="0" aria-pressed="true" aria-label="Schriftgröße: Standard">A</button>
+  <button type="button" data-level="1" aria-pressed="false" aria-label="Schriftgröße: größer">A</button>
+  <button type="button" data-level="2" aria-pressed="false" aria-label="Schriftgröße: am größten">A</button>
+</div>
+
+<script src="assets/js/font-size-control.js" defer></script>
+<!-- PayPal Bootstrap Accessibility Plugin v1.0.7 (vendored + pinned, §8):
+     patches the Bootstrap-3 components the publisher renders - navbar
+     dropdowns gain ARIA menu semantics + arrow-key navigation, tab panels
+     (structure-tabs) the full ARIA tabs pattern, alerts live-region
+     announcements. `defer` guarantees it executes AFTER the parser-inserted
+     bootstrap.min.js at the end of the body. Vendored from
+     paypal/bootstrap-accessibility-plugin @ v1.0.7 (the admin-ch fork was
+     evaluated and rejected: 151 commits behind upstream, its 6 deltas are
+     site-specific tab tweaks). REMOVAL: delete this tag, both vendored
+     assets and the fragment-css link - guard test pins the hashes. -->
+<script src="assets/js/bootstrap-accessibility.min.js" defer></script>
+<!-- Back-to-top button: appears after one viewport of scrolling (logic in
+     assets/js/back-to-top.js, styling in template-base.css "back-to-top"
+     block). Rendered here inside #segment-header, which is OUTSIDE the
+     data-fontsize zoom regions, so the fixed button never scales. REMOVAL:
+     this block, the js file and the CSS block - one commit, styleguide §8. -->
+
+<button type="button" class="ig-back-to-top" aria-label="Zurück zum Seitenanfang">↑</button>
+
+<script src="assets/js/back-to-top.js" defer></script>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">MII IG Modul Kardio DE</span>
+            <br/>
+            <span style="display:inline-block;">2027.0.0-ballot.rc1 - 
+
+
+
+  Unknown region code '276'
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Modul
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="module-description.html">Beschreibung des Moduls</a>
+      </li>
+      <li>
+        <a href="context.html">Kontext und Bezüge</a>
+      </li>
+      <li>
+        <a href="references.html">Referenzen</a>
+      </li>
+      <li>
+        <a href="release-notes.html">Release Notes</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Anwendungsfälle
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="scenarios.html">Anwendungsszenarien</a>
+      </li>
+      <li>
+        <a href="datasets.html">Datensätze</a>
+      </li>
+      <li>
+        <a href="information-model.html">Informationsmodell (UML)</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Technische Umsetzung
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="profiles-overview.html">Übersicht der Profile</a>
+      </li>
+      <li>
+        <a href="profiles-anamnese.html">Profile-Anamnese</a>
+      </li>
+      <li>
+        <a href="profiles-diagnostik.html">Profile-Diagnostik</a>
+      </li>
+      <li>
+        <a href="profiles-skalen.html">Profile-Skalen</a>
+      </li>
+      <li>
+        <a href="profiles-risikofaktoren.html">Profile-Risikofaktoren</a>
+      </li>
+      <li>
+        <a href="profiles-kardiodevices.html">Profile-KardioDevices</a>
+      </li>
+      <li>
+        <a href="profiles-ekg.html">Profile-EKG-Metadaten</a>
+      </li>
+      <li>
+        <a href="terminology.html">Terminologien</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html">All Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Terminologien</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">MII IG Modul Kardio DE - Local Development build (v2027.0.0-ballot.rc1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Terminologien</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+
+<p>Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zur standardisierten Kodierung von kardiovaskulären Daten sind im folgenden aufgelistet.</p>
+
+<h2 id="codesysteme-des-modul-kardiologie">CodeSysteme des Modul Kardiologie</h2>
+
+<table class="grid"><tr><th>URL</th><th>Version</th><th>Name / Title</th><th>Status</th><th>Flags</th><th>Count</th></tr><tr><td><a href="CodeSystem-mii-cs-kardio-acribis-questionnaire-answer.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer</a></td><td>2027.0.0-ballot.rc1</td><td>MII_CS_Kardio_Acribis_Questionnaire_Answer<br />MII CS Kardio ACRIBiS Questionnaire Answer</td><td>active</td><td>flat </td><td>8 (complete)</td></tr><tr><td><a href="CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis</a></td><td>2027.0.0-ballot.rc1</td><td>MII_CS_Kardio_Atherosklerotisches_Ereignis<br />MII CS Kardio Atherosklerotisches Ereignis</td><td>active</td><td>flat </td><td>2 (complete)</td></tr><tr><td><a href="CodeSystem-mii-cs-kardio-lebensmittelpunkt.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-lebensmittelpunkt</a></td><td>2027.0.0-ballot.rc1</td><td>MII_CS_Kardio_Lebensmittelpunkt<br />MII CS Kardio Lebensmittelpunkt</td><td>draft: experimental</td><td>flat </td><td>1 (complete)</td></tr><tr><td><a href="CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala</a></td><td>2027.0.0-ballot.rc1</td><td>MII_CS_Kardio_Modifizierte_Rankin_Skala<br />MII CS Kardio Modifizierte Rankin Skala</td><td>active</td><td>flat </td><td>10 (complete)</td></tr><tr><td><a href="CodeSystem-mii-cs-kardio-supplement-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct</a></td><td>2027.0.0-ballot.rc1</td><td>MII_CS_Kardio_Supplement_SNOMEDCT<br />MII CS Kardio Supplement [SNOMED CT]</td><td>active</td><td>flat </td><td>3 (supplement)</td></tr></table>
+
+<h2 id="valuesets">ValueSets</h2>
+
+<table class="grid"><tr><th>URL</th><th>Name / Title</th><th>Status</th><th>Flags</th><th>Source</th></tr><tr><td><a href="ValueSet-mii-vs-kardio-allergene-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-allergene-snomedct</a></td><td>MII_VS_Kardio_Allergene_SNOMEDCT<br />MII VS Kardio Allergene [SNOMED CT]</td><td>draft:experimental</td><td><span title="Intensional">I </span><span title="Extensional">E </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct</a></td><td>MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT<br />MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]</td><td>active</td><td><span title="All Code System">A </span><span title="Intensional">I </span></td><td>Internal, SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc</a></td><td>MII_VS_Kardio_EKG_Kanaele_MDC<br />MII VS Kardio EKG Kanäle [MDC]</td><td>draft:experimental</td><td><span title="Intensional">I </span></td><td>hl7.terminology.r4</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct</a></td><td>MII_VS_Kardio_EKG_Prozedur_SNOMEDCT<br />MII VS Kardio EKG Prozedur [SNOMED CT]</td><td>draft:experimental</td><td><span title="Intensional">I </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-ethnie-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct</a></td><td>MII_VS_Kardio_Ethnie_SNOMEDCT<br />MII VS Kardio Ethnie [SNOMED CT]</td><td>draft:experimental</td><td><span title="Extensional">E </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct</a></td><td>MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT<br />MII VS Kardio Extended Condition Severity [SNOMED CT]</td><td>active</td><td><span title="Extensional">E </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed</a></td><td>MII_VS_Kardio_Extended_MII_DiagnoseCodes_SNOMED<br />MII VS Kardio Extended MII DiagnoseCodes [SNOMED CT]</td><td>active</td><td><span title="Extensional">E </span><span title="Imports Valueset(s)">V </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc</a></td><td>MII_VS_Kardio_Geraeteprogrammierung_MDC<br />MII VS Kardio Geräteprogrammierung [MDC]</td><td>active</td><td><span title="Extensional">E </span></td><td>hl7.terminology.r4</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-geraetetyp-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct</a></td><td>MII_VS_Kardio_Geraetetyp_SNOMEDCT<br />MII VS Kardio Gerätetyp [SNOMED CT]</td><td>active</td><td><span title="Intensional">I </span><span title="Extensional">E </span></td><td>SCT, THO</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct</a></td><td>MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT<br />MII VS Kardio Gewichtsveraenderung [SNOMED CT]</td><td>draft:experimental</td><td><span title="Extensional">E </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct</a></td><td>MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT<br />MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]</td><td>active</td><td><span title="Extensional">E </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops</a></td><td>MII_VS_Kardio_Kardiale_Deviceimplantation_OPS<br />MII VS Kardio Kardiale Devicemimplantation [OPS]</td><td>active</td><td><span title="Intensional">I </span><span title="Extensional">E </span></td><td>THO, de.basisprofil.r4</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct</a></td><td>MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT<br />MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]</td><td>active</td><td><span title="Intensional">I </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-klappenvitium-alphaid.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid</a></td><td>MII_VS_Kardio_Klappenvitium_ALPHAID<br />MII VS Kardio Klappenvitium [ALPHA-ID]</td><td>active</td><td><span title="Intensional">I </span></td><td>de.basisprofil.r4</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct</a></td><td>MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT<br />MII VS Kardio Klappenvitium Grad [SNOMED CT]</td><td>active</td><td><span title="Intensional">I </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-klappenvitium-icd.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-icd</a></td><td>MII_VS_Kardio_Klappenvitium_ICD<br />MII VS Kardio Klappenvitium [ICD 10 GM]</td><td>active</td><td><span title="Intensional">I </span><span title="Extensional">E </span></td><td>de.basisprofil.r4</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-klappenvitium-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct</a></td><td>MII_VS_Kardio_Klappenvitium_SNOMEDCT<br />MII VS Kardio Klappenvitium [SNOMED CT]</td><td>active</td><td><span title="Intensional">I </span><span title="Extensional">E </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-lebensmittelpunkt-m49</a></td><td>MII_VS_Kardio_Lebensmittelpunkt_M49<br />MII VS Kardio Lebensmittelpunkt [M49]</td><td>draft:experimental</td><td><span title="All Code System">A </span><span title="Extensional">E </span></td><td>Internal, Other</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc</a></td><td>MII_VS_Kardio_Metriken_EKG_Annotationen_MDC<br />MII VS Kardio Metriken EKG Annotationen [MDC]</td><td>draft:experimental</td><td><span title="Intensional">I </span></td><td>hl7.terminology.r4</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-modifizierte-rankin-skala.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala</a></td><td>MII_VS_Kardio_Modifizierte_Rankin_Skala<br />MII VS Kardio Modifizierte Rankin Skala</td><td>active</td><td><span title="All Code System">A </span></td><td>Internal</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-nein-unbekannt.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nein-unbekannt</a></td><td>MII_VS_Kardio_Nein_Unbekannt<br />MII VS Kardio Nein Unbekannt</td><td>active</td><td><span title="Extensional">E </span></td><td>THO (V2)</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct</a></td><td>MII_VS_Kardio_NYHA_Klassen_SNOMEDCT<br />MII VS Kardio NYHA Klassen [SNOMED CT]</td><td>active</td><td><span title="Intensional">I </span></td><td>SCT</td></tr><tr><td><a href="ValueSet-mii-vs-kardio-objekte-geraete-mdc.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc</a></td><td>MII_VS_Kardio_Objekte_Geraete_MDC<br />MII VS Kardio MDC Objects Devices [MDC]</td><td>draft:experimental</td><td><span title="Intensional">I </span></td><td>hl7.terminology.r4</td></tr></table>
+
+<h2 id="verwendung-von-codesystemen">Verwendung von Codesystemen</h2>
+
+<table class="grid"><tr><th>URL</th><th>Version</th><th>Name / Title</th><th>Status</th><th>Flags</th><th>Count</th><th>References</th></tr><tr><td><a href="https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.base@2026.0.1&amp;canonical=http://fhir.de/CodeSystem/bfarm/alpha-id">http://fhir.de/CodeSystem/bfarm/alpha-id</a></td><td></td><td>AlphaId<br />Alpha-ID</td><td>active</td><td>flat </td><td>0 (not-present)</td><td><a href="https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-alphaid.html">MII VS Diagnose Alpha-ID</a>, <a href="ValueSet-mii-vs-kardio-klappenvitium-alphaid.html">MII VS Kardio Klappenvitium [ALPHA-ID]</a></td></tr><tr><td><a href="https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.base@2026.0.1&amp;canonical=http://fhir.de/CodeSystem/bfarm/icd-10-gm">http://fhir.de/CodeSystem/bfarm/icd-10-gm</a></td><td></td><td>ICD10GM<br />ICD-10-GM</td><td>active</td><td>flat </td><td>0 (not-present)</td><td><a href="ValueSet-mii-vs-kardio-klappenvitium-icd.html">MII VS Kardio Klappenvitium [ICD 10 GM]</a>, <a href="https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-icd10gm.html">MII VS Diagnose ICD-10-GM</a></td></tr><tr><td><a href="https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.base@2026.0.1&amp;canonical=http://fhir.de/CodeSystem/bfarm/ops">http://fhir.de/CodeSystem/bfarm/ops</a></td><td></td><td>OPS<br />OPS</td><td>active</td><td>flat </td><td>0 (not-present)</td><td><a href="ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.html">MII VS Kardio Kardiale Devicemimplantation [OPS]</a></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">http://snomed.info/sct</a></td><td></td><td>SNOMED_CT<br />SNOMED CT (all versions)</td><td>active</td><td>is-a flat compositional </td><td>0 (not-present)</td><td>14 references</td></tr><tr><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-data-absent-reason.html">http://terminology.hl7.org/CodeSystem/data-absent-reason</a></td><td>1.0.0</td><td>DataAbsentReason<br />DataAbsentReason</td><td>active / FMM5</td><td></td><td>15 (complete)</td><td><a href="ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.html">MII VS Kardio Kardiale Devicemimplantation [OPS]</a>, <a href="ValueSet-mii-vs-kardio-geraetetyp-snomedct.html">MII VS Kardio Gerätetyp [SNOMED CT]</a></td></tr><tr><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html">http://terminology.hl7.org/CodeSystem/observation-category</a></td><td>2.0.0</td><td>ObservationCategoryCodes<br />Observation Category Codes</td><td>active</td><td>flat </td><td>10 (complete)</td><td><a href="http://hl7.org/fhir/R4/valueset-observation-category.html">Observation Category Codes</a></td></tr><tr><td><a href="http://terminology.hl7.org/7.2.0/CodeSystem-v2-0532.html">http://terminology.hl7.org/CodeSystem/v2-0532</a></td><td>3.0.0</td><td>ExpandedYesNoIndicator<br />expandedYes-NoIndicator</td><td>active</td><td>is-a flat </td><td>9 (complete)</td><td><a href="http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html">hl7VS-expandedYes-NoIndicator</a>, <a href="ValueSet-mii-vs-kardio-nein-unbekannt.html">MII VS Kardio Nein Unbekannt</a></td></tr><tr><td><a href="CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis</a></td><td>2027.0.0-ballot.rc1</td><td>MII_CS_Kardio_Atherosklerotisches_Ereignis<br />MII CS Kardio Atherosklerotisches Ereignis</td><td>active</td><td>flat </td><td>2 (complete)</td><td><a href="ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html">MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]</a></td></tr><tr><td><a href="CodeSystem-mii-cs-kardio-lebensmittelpunkt.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-lebensmittelpunkt</a></td><td>2027.0.0-ballot.rc1</td><td>MII_CS_Kardio_Lebensmittelpunkt<br />MII CS Kardio Lebensmittelpunkt</td><td>draft: experimental</td><td>flat </td><td>1 (complete)</td><td><a href="ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.html">MII VS Kardio Lebensmittelpunkt [M49]</a></td></tr><tr><td><a href="CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.html">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala</a></td><td>2027.0.0-ballot.rc1</td><td>MII_CS_Kardio_Modifizierte_Rankin_Skala<br />MII CS Kardio Modifizierte Rankin Skala</td><td>active</td><td>flat </td><td>10 (complete)</td><td><a href="ValueSet-mii-vs-kardio-modifizierte-rankin-skala.html">MII VS Kardio Modifizierte Rankin Skala</a></td></tr><tr><td><a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-mdc.html">urn:iso:std:iso:11073:10101</a></td><td>20250520</td><td>Mdc<br />ISO/IEEE 11073 Medical Device Communication Nomenclature</td><td>active</td><td>flat </td><td>0 (not-present)</td><td><a href="ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html">MII VS Kardio EKG Kanäle [MDC]</a>, <a href="ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.html">MII VS Kardio Geräteprogrammierung [MDC]</a>, <a href="ValueSet-mii-vs-kardio-objekte-geraete-mdc.html">MII VS Kardio MDC Objects Devices [MDC]</a>, <a href="http://hl7.org/fhir/R4/valueset-devicemetric-type.html">Device Metric and Component Types</a>, <a href="ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.html">MII VS Kardio Metriken EKG Annotationen [MDC]</a></td></tr></table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de">Medizininformatik-Initiative</a>.  
+          Package mii-kerndatensatzmodul-kardiologie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Erstellt <span title="Tue, Sep 1, 2026 14:44+0000">2026-09-01</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <!-- Branding override for the fhir2.base.template footer fragment.
+     Unlike header/css, the base footer fragment is NOT an empty placeholder: it
+     renders "Links: Table of Contents | QA Report [| feedback dashboards]".
+     The base uses site.data.stringsBase[include.lang][...] for the labels. The
+     reason this override supplies its own is the Imprint label: the base ships no
+     stringsBase key for it and a child template cannot add one (docs/styleguide.md
+     section 6), and the same include.lang branch then has to carry the other
+     labels too. (The blank-label problem that first motivated this is separately
+     mitigated: this repo vendors the base's own German catalogs into
+     translations/ — see translations/README.md.) The override preserves the base
+     links (TOC, QA, feedback dashboards) and appends the project information links.
+     NUM-DIZ takes over IG development and maintenance when MII funding ends
+     (end-2026), so the NUM-DIZ website link renders BEFORE the MII website link —
+     in BOTH brand designs and both languages; the MII links stay because the
+     modules remain MII content. Both anchors are the SITE ROOTS with the bare
+     domain as anchor text (TF-KDS feedback 2026-08-14: aligned anchor style;
+     domains are language-neutral, styleguide §6).
+     Imprint: points at the NUM-DIZ website's legal pages since 2026-08-14
+     (TF-KDS: NUM-DIZ takes over from MII in 2027, so legal-aspect links use
+     the NUM-DIZ counterpart where one exists) - German /impressum and English
+     /en/legal-notice (both verified HTTP 200 on 2026-08-14). -->
+
+          Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Inhaltsverzeichnis</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA-Bericht</a>
+                 
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://www.netzwerk-universitaetsmedizin.de/">netzwerk-universitaetsmedizin.de</a>
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://www.medizininformatik-initiative.de/">medizininformatik-initiative.de</a>
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://www.netzwerk-universitaetsmedizin.de/impressum">Impressum</a>
+                 <br/>
+                 <!-- HL7 trademark attribution (required wherever the FHIR flame
+                      renders - the header shows it on every page; see HL7's
+                      trademark guidelines; permission request tracked in issue #109). The sentence is
+                      HL7's prescribed formula and stays in English on every
+                      language's pages (legal wording, styleguide §6). -->
+                 <span>HL7®, FHIR® and the FHIR flame design are registered trademarks of Health Level Seven International. Their use does not constitute endorsement by HL7.</span>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mii-vs-kardio-ekg-kanaele-mdc",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mii-vs-kardio-ekg-kanaele-mdc</b></p><a name=\"mii-vs-kardio-ekg-kanaele-mdc\"> </a><a name=\"hcmii-vs-kardio-ekg-kanaele-mdc\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><ul><li>Include codes from<a href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-mdc.html\"><code>urn:iso:std:iso:11073:10101</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where code  matches (by regex) (13107[2-9])|(1310[89][0-9])|(1311[0-9][0-9])|(1312[0-4][0-9])|(13125[0-6])</li></ul></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_VS_Kardio_EKG_Kanaele_MDC",
+  "title" : "MII VS Kardio EKG Kanäle [MDC]",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-07-09",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    },
+    {
+      "system" : "email",
+      "value" : "office@medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "ISO/IEEE 11073-10101 Codes für EKG Kanäle",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:iso:std:iso:11073:10101",
+      "filter" : [{
+        "property" : "code",
+        "op" : "regex",
+        "value" : "(13107[2-9])|(1310[89][0-9])|(1311[0-9][0-9])|(1312[0-4][0-9])|(13125[0-6])"
+      }]
+    }]
+  }
+}

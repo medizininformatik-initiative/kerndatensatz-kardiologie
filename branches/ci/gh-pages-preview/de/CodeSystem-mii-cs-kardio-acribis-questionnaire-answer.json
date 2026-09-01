@@ -1,0 +1,70 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mii-cs-kardio-acribis-questionnaire-answer",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-kardio-acribis-questionnaire-answer</b></p><a name=\"mii-cs-kardio-acribis-questionnaire-answer\"> </a><a name=\"hcmii-cs-kardio-acribis-questionnaire-answer\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><p>This case-sensitive code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">respondent_patient<a name=\"mii-cs-kardio-acribis-questionnaire-answer-respondent_patient\"> </a></td><td>Patient/Patientin</td></tr><tr><td style=\"white-space:nowrap\">respondent_relative<a name=\"mii-cs-kardio-acribis-questionnaire-answer-respondent_relative\"> </a></td><td>Angehöriger/Angehörige</td></tr><tr><td style=\"white-space:nowrap\">respondent_physician<a name=\"mii-cs-kardio-acribis-questionnaire-answer-respondent_physician\"> </a></td><td>Arzt/Ärztin</td></tr><tr><td style=\"white-space:nowrap\">respondent_other<a name=\"mii-cs-kardio-acribis-questionnaire-answer-respondent_other\"> </a></td><td>Andere Person</td></tr><tr><td style=\"white-space:nowrap\">written_follow_up<a name=\"mii-cs-kardio-acribis-questionnaire-answer-written_follow_up\"> </a></td><td>Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)</td></tr><tr><td style=\"white-space:nowrap\">verbal_follow_up<a name=\"mii-cs-kardio-acribis-questionnaire-answer-verbal_follow_up\"> </a></td><td>Telefonisches Follow-Up (Telefon, ggf. schriftlich)</td></tr><tr><td style=\"white-space:nowrap\">cerebral_hemorrhage_intracerebral_or_subarachnoid<a name=\"mii-cs-kardio-acribis-questionnaire-answer-cerebral_hemorrhage_intracerebral_or_subarachnoid\"> </a></td><td>Hirnblutung (intrazerebral oder subarachnoidal)</td></tr><tr><td style=\"white-space:nowrap\">other_cardiovascular_cause<a name=\"mii-cs-kardio-acribis-questionnaire-answer-other_cardiovascular_cause\"> </a></td><td>Andere Herz-Kreislauf bedingte Ursache</td></tr></table></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_CS_Kardio_Acribis_Questionnaire_Answer",
+  "title" : "MII CS Kardio ACRIBiS Questionnaire Answer",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-09-03",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    },
+    {
+      "system" : "email",
+      "value" : "office@medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "Questionnaire-lokale Antwortcodes für den ACRIBiS Follow-Up-Fragebogen.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "respondent_patient",
+    "display" : "Patient/Patientin"
+  },
+  {
+    "code" : "respondent_relative",
+    "display" : "Angehöriger/Angehörige"
+  },
+  {
+    "code" : "respondent_physician",
+    "display" : "Arzt/Ärztin"
+  },
+  {
+    "code" : "respondent_other",
+    "display" : "Andere Person"
+  },
+  {
+    "code" : "written_follow_up",
+    "display" : "Schriftliches Follow-Up (Brief/E-Mail/App, ggf. telefonisch)"
+  },
+  {
+    "code" : "verbal_follow_up",
+    "display" : "Telefonisches Follow-Up (Telefon, ggf. schriftlich)"
+  },
+  {
+    "code" : "cerebral_hemorrhage_intracerebral_or_subarachnoid",
+    "display" : "Hirnblutung (intrazerebral oder subarachnoidal)"
+  },
+  {
+    "code" : "other_cardiovascular_cause",
+    "display" : "Andere Herz-Kreislauf bedingte Ursache"
+  }]
+}

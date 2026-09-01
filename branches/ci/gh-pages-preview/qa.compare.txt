@@ -1,91 +1,91 @@
 MII_IG_MODUL_KARDIO_DE : Validation Results
 =========================================
 
-err = 40, warn = 93, info = 302
+err = 40, warn = 93, info = 296
 $--
 Generated $--. FHIR version $-- for mii-kerndatensatzmodul-kardiologie#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio)
  Build Errors : 1 / 2 / 0
- /workspace/fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer : 0 / 2 / 3
- /workspace/fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis : 0 / 2 / 3
- /workspace/fsh-generated/resources/CodeSystem-mii-cs-kardio-lebensmittelpunkt : 0 / 2 / 3
- /workspace/fsh-generated/resources/CodeSystem-mii-cs-kardio-modifizierte-rankin-skala : 0 / 2 / 3
- /workspace/fsh-generated/resources/CodeSystem-mii-cs-kardio-supplement-snomedct : 2 / 2 / 3
- /workspace/fsh-generated/resources/Condition-mii-exa-kardio-diagnose-myokardinfarkt : 1 / 0 / 3
- /workspace/fsh-generated/resources/Condition-mii-exa-kardio-embolischer-gefaessverschluss : 0 / 0 / 3
- /workspace/fsh-generated/resources/Condition-mii-exa-kardio-hoehergradiges-vitium : 2 / 1 / 8
- /workspace/fsh-generated/resources/Device-mii-exa-kardio-device-icd : 1 / 1 / 3
- /workspace/fsh-generated/resources/Device-mii-exa-kardio-ekg-geraet-mortara : 0 / 0 / 4
- /workspace/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-i : 0 / 0 / 9
- /workspace/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-ii : 0 / 0 / 9
- /workspace/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-iii : 0 / 0 / 9
- /workspace/fsh-generated/resources/DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara : 0 / 5 / 3
- /workspace/fsh-generated/resources/DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus : 0 / 0 / 4
- /workspace/fsh-generated/resources/DocumentReference-mii-exa-kardio-ekg-referenz : 0 / 1 / 4
- /workspace/fsh-generated/resources/ImplementationGuide-mii-kerndatensatzmodul-kardiologie : 0 / 6 / 30
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf : 0 / 0 / 6
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2 : 0 / 0 / 6
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-atherosklerotisches-erstereignis : 0 / 0 / 5
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-ekg-rr-interval : 0 / 1 / 4
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-geraeteprogrammierung-vvi : 0 / 0 / 5
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-herzinsuffizienz-unbekannt : 1 / 0 / 5
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-hoehergradiges-vitium-nein : 1 / 0 / 8
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-kein-device : 1 / 0 / 5
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-lvef : 0 / 6 / 7
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-mrs : 0 / 1 / 4
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-pci-nein : 1 / 0 / 5
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-raucherstatus : 1 / 6 / 11
- /workspace/fsh-generated/resources/Observation-mii-exa-kardio-score-nyha-ii : 0 / 1 / 5
- /workspace/fsh-generated/resources/PractitionerRole-mii-exa-kardio-rolle-kardiologe : 0 / 0 / 6
- /workspace/fsh-generated/resources/Procedure-mii-exa-kardio-ekg-durchfuehrung : 0 / 0 / 9
- /workspace/fsh-generated/resources/Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd : 2 / 0 / 8
- /workspace/fsh-generated/resources/Questionnaire-mii-qn-kardio-acribis-study-followup : 2 / 4 / 61
- /workspace/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-andere : 0 / 2 / 9
- /workspace/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige : 0 / 2 / 8
- /workspace/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt : 0 / 2 / 9
- /workspace/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient : 0 / 2 / 8
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf : 0 / 1 / 103
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis : 0 / 1 / 137
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-device : 0 / 1 / 94
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose : 0 / 4 / 314
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt : 0 / 3 / 154
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-annotation : 0 / 1 / 75
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung : 0 / 2 / 183
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraet : 0 / 1 / 94
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition : 0 / 1 / 80
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-kanal : 0 / 1 / 131
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-referenz : 0 / 1 / 83
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-geraeteprogrammierung : 0 / 1 / 105
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation : 0 / 3 / 194
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-klappenvitium : 0 / 4 / 17
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion : 0 / 1 / 172
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus : 0 / 1 / 51
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen : 0 / 1 / 190
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala : 0 / 1 / 98
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-nyha : 0 / 1 / 98
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-allergene-snomedct : 1 / 4 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct : 0 / 4 / 4
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-kanaele-mdc : 0 / 2 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-prozedur-snomedct : 0 / 2 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-ethnie-snomedct : 2 / 2 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-condition-severity-snomedct : 4 / 2 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed : 0 / 4 / 5
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc : 3 / 2 / 4
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-geraetetyp-snomedct : 0 / 4 / 4
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct : 3 / 2 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct : 2 / 2 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops : 0 / 2 / 4
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct : 0 / 4 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-alphaid : 0 / 11 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct : 0 / 4 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-icd : 9 / 2 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-snomedct : 0 / 4 / 4
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49 : 0 / 4 / 6
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc : 0 / 4 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-modifizierte-rankin-skala : 0 / 2 / 4
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-nein-unbekannt : 0 / 2 / 4
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-nyha-klassen-snomedct : 0 / 2 / 3
- /workspace/fsh-generated/resources/ValueSet-mii-vs-kardio-objekte-geraete-mdc : 0 / 3 / 5
- /workspace/input/resources/Parameters-mii-param-kardio-manifest : 0 / 0 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer : 0 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis : 0 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-lebensmittelpunkt : 0 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-modifizierte-rankin-skala : 0 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-supplement-snomedct : 2 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Condition-mii-exa-kardio-diagnose-myokardinfarkt : 1 / 0 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Condition-mii-exa-kardio-embolischer-gefaessverschluss : 0 / 0 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Condition-mii-exa-kardio-hoehergradiges-vitium : 2 / 1 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-device-icd : 1 / 1 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-geraet-mortara : 0 / 0 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-i : 0 / 0 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-ii : 0 / 0 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-iii : 0 / 0 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara : 0 / 5 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus : 0 / 0 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/DocumentReference-mii-exa-kardio-ekg-referenz : 0 / 1 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ImplementationGuide-mii-kerndatensatzmodul-kardiologie : 0 / 6 / 30
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf : 0 / 0 / 6
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2 : 0 / 0 / 6
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-atherosklerotisches-erstereignis : 0 / 0 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-ekg-rr-interval : 0 / 1 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-geraeteprogrammierung-vvi : 0 / 0 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-herzinsuffizienz-unbekannt : 1 / 0 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-hoehergradiges-vitium-nein : 1 / 0 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-kein-device : 1 / 0 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-lvef : 0 / 6 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-mrs : 0 / 1 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-pci-nein : 1 / 0 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-raucherstatus : 1 / 6 / 11
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-score-nyha-ii : 0 / 1 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/PractitionerRole-mii-exa-kardio-rolle-kardiologe : 0 / 0 / 6
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Procedure-mii-exa-kardio-ekg-durchfuehrung : 0 / 0 / 9
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd : 2 / 0 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Questionnaire-mii-qn-kardio-acribis-study-followup : 2 / 4 / 61
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-andere : 0 / 2 / 9
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige : 0 / 2 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt : 0 / 2 / 9
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient : 0 / 2 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf : 0 / 1 / 103
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis : 0 / 1 / 137
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-device : 0 / 1 / 94
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose : 0 / 4 / 314
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt : 0 / 3 / 154
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-annotation : 0 / 1 / 75
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung : 0 / 2 / 183
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraet : 0 / 1 / 94
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition : 0 / 1 / 80
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-kanal : 0 / 1 / 131
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-referenz : 0 / 1 / 83
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-geraeteprogrammierung : 0 / 1 / 105
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation : 0 / 3 / 194
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-klappenvitium : 0 / 4 / 17
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion : 0 / 1 / 172
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus : 0 / 1 / 51
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen : 0 / 1 / 190
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala : 0 / 1 / 98
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-nyha : 0 / 1 / 98
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-allergene-snomedct : 1 / 4 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct : 0 / 4 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-kanaele-mdc : 0 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-prozedur-snomedct : 0 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-ethnie-snomedct : 2 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-condition-severity-snomedct : 4 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed : 0 / 4 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc : 3 / 2 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-geraetetyp-snomedct : 0 / 4 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct : 3 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct : 2 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops : 0 / 2 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct : 0 / 4 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-alphaid : 0 / 11 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct : 0 / 4 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-icd : 9 / 2 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-snomedct : 0 / 4 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49 : 0 / 4 / 6
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc : 0 / 4 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-modifizierte-rankin-skala : 0 / 2 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-nein-unbekannt : 0 / 2 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-nyha-klassen-snomedct : 0 / 4 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-objekte-geraete-mdc : 0 / 3 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/input/resources/Parameters-mii-param-kardio-manifest : 0 / 0 / 3
 </table>
 == n/a ==
 ERROR: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: This IG is for FHIR version 4.0.1, while the package 'hl7.fhir.uv.subscriptions-backport.r4#1.1.0' is for FHIR version 4.0.0
@@ -144,8 +144,6 @@ INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.language: Reference to dr
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.type.coding[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
-INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.type.coding[0]: Reference to draft ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
-INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.type.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.property[0].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-i: Device.property[0].valueCode[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
 == fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-ii.json ==
@@ -153,8 +151,6 @@ INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.language: Reference to d
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.type.coding[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
-INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.type.coding[0]: Reference to draft ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
-INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.type.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.property[0].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-ii: Device.property[0].valueCode[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
 == fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-iii.json ==
@@ -162,8 +158,6 @@ INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.language: Reference to 
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.type.coding[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
-INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.type.coding[0]: Reference to draft ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
-INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.type.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.property[0].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
 INFORMATION: Device/mii-exa-kardio-ekg-kanal-iii: Device.property[0].valueCode[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2024-12-05
 == fsh-generated/resources/DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json ==
@@ -479,12 +473,12 @@ INFORMATION: ValueSet/mii-vs-kardio-allergene-snomedct: ValueSet.language: Refer
 INFORMATION: ValueSet/mii-vs-kardio-allergene-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 WARNING: ValueSet/mii-vs-kardio-allergene-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
 ERROR: ValueSet/mii-vs-kardio-allergene-snomedct: ValueSet.compose.include[11].concept[1]: Der Code 372677003 ist im System http://snomed.info/sct nicht gültig
-WARNING: ValueSet.where(id = 'mii-vs-kardio-allergene-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+WARNING: ValueSet.where(id = 'mii-vs-kardio-allergene-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.30.4
 == fsh-generated/resources/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.json ==
 INFORMATION: ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 WARNING: ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
-WARNING: ValueSet.where(id = 'mii-vs-kardio-atherosklerotisches-ereignis-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+WARNING: ValueSet.where(id = 'mii-vs-kardio-atherosklerotisches-ereignis-snomedct'): The value set 'https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1' expansion (local) took too long to process (>60sec) (and Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.30.4)
 == fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-kanaele-mdc.json ==
 INFORMATION: ValueSet/mii-vs-kardio-ekg-kanaele-mdc: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-ekg-kanaele-mdc: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
@@ -511,7 +505,7 @@ ERROR: ValueSet/mii-vs-kardio-extended-condition-severity-snomedct: ValueSet.com
 INFORMATION: ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 WARNING: ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
-WARNING: ValueSet.where(id = 'mii-vs-kardio-extended-mii-diagnosecodes-snomed'): Unable to expand included value set 'https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct': Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4 (and Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4)
+WARNING: ValueSet.where(id = 'mii-vs-kardio-extended-mii-diagnosecodes-snomed'): Unable to expand included value set 'https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct': Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.30.4 (and Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.30.4)
 == fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.json ==
 INFORMATION: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
@@ -524,7 +518,7 @@ ERROR: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.compose.includ
 INFORMATION: ValueSet/mii-vs-kardio-geraetetyp-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-geraetetyp-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 WARNING: ValueSet/mii-vs-kardio-geraetetyp-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
-WARNING: ValueSet.where(id = 'mii-vs-kardio-geraetetyp-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+WARNING: ValueSet.where(id = 'mii-vs-kardio-geraetetyp-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.30.4
 == fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.json ==
 INFORMATION: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
@@ -546,8 +540,7 @@ WARNING: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops: ValueSet.jurisd
 INFORMATION: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 WARNING: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
-WARNING: ValueSet.where(id = 'mii-vs-kardio-kardiale-deviceimplantation-scnomedct'): The value set 'https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct|2027.0.0-ballot.rc1' expansion (local) took too long to process (>60sec) (and Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4)
-WARNING: ValueSet.where(id = 'mii-vs-kardio-kardiale-deviceimplantation-scnomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+WARNING: ValueSet.where(id = 'mii-vs-kardio-kardiale-deviceimplantation-scnomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.30.4
 == fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-alphaid.json ==
 INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-alphaid: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-alphaid: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
@@ -556,7 +549,7 @@ WARNING: ValueSet/mii-vs-kardio-klappenvitium-alphaid: ValueSet.jurisdiction[0].
 INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 WARNING: ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
-WARNING: ValueSet.where(id = 'mii-vs-kardio-klappenvitium-grad-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+WARNING: ValueSet.where(id = 'mii-vs-kardio-klappenvitium-grad-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.30.4
 == fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-icd.json ==
 INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
@@ -574,14 +567,14 @@ ERROR: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.compose.include[8].fil
 INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-klappenvitium-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 WARNING: ValueSet/mii-vs-kardio-klappenvitium-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
-WARNING: ValueSet.where(id = 'mii-vs-kardio-klappenvitium-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.31.4
+WARNING: ValueSet.where(id = 'mii-vs-kardio-klappenvitium-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.30.4
 == fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.json ==
 INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 WARNING: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
 INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://unstats.un.org/unsd/methods/m49/m49.htm' is not known, and no terminology service supports it
-WARNING: ValueSet.where(id = 'mii-vs-kardio-lebensmittelpunkt-m49'): Error from http://127.0.0.1:8090/fhir: Error: [9779e794-b71f-4583-9a71-fa14e4e86922]: A usable code system with URL http://unstats.un.org/unsd/methods/m49/m49.htm could not be resolved.
-Information: X-Request-Id: 6cd12712-4ddd-44c8-90a3-a5065490d0b3
+WARNING: ValueSet.where(id = 'mii-vs-kardio-lebensmittelpunkt-m49'): Error from http://127.0.0.1:8090/fhir: Error: [f6889418-7de7-4834-a956-6b94e70a2f5b]: A usable code system with URL http://unstats.un.org/unsd/methods/m49/m49.htm could not be resolved.
+Information: X-Request-Id: e5ac1e88-73f2-4f28-9367-fdcb868f0de9
 == fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.json ==
 INFORMATION: ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
@@ -598,6 +591,7 @@ WARNING: ValueSet/mii-vs-kardio-nein-unbekannt: ValueSet.jurisdiction[0].coding[
 INFORMATION: ValueSet/mii-vs-kardio-nyha-klassen-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-nyha-klassen-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 WARNING: ValueSet/mii-vs-kardio-nyha-klassen-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'http://unstats.un.org/unsd/methods/m49/m49.htm' could not be found, so the code cannot be validated
+WARNING: ValueSet.where(id = 'mii-vs-kardio-nyha-klassen-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.30.4
 == fsh-generated/resources/ValueSet-mii-vs-kardio-objekte-geraete-mdc.json ==
 INFORMATION: ValueSet/mii-vs-kardio-objekte-geraete-mdc: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-objekte-geraete-mdc: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1

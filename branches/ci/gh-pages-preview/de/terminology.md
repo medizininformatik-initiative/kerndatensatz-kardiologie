@@ -166,14 +166,14 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Diagnose Alpha-ID](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-alphaid.html),[MII VS Kardio Klappenvitium [ALPHA-ID]](ValueSet-mii-vs-kardio-klappenvitium-alphaid.md)
+  * References: [MII VS Kardio Klappenvitium [ALPHA-ID]](ValueSet-mii-vs-kardio-klappenvitium-alphaid.md),[MII VS Diagnose Alpha-ID](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-alphaid.html)
 * URL: [http://fhir.de/CodeSystem/bfarm/icd-10-gm](https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.base@2026.0.1&canonical=http://fhir.de/CodeSystem/bfarm/icd-10-gm)
   * Version: 
   * Name / Title: ICD10GMICD-10-GM
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Kardio Klappenvitium [ICD 10 GM]](ValueSet-mii-vs-kardio-klappenvitium-icd.md),[MII VS Diagnose ICD-10-GM](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-icd10gm.html)
+  * References: [MII VS Diagnose ICD-10-GM](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-icd10gm.html),[MII VS Kardio Klappenvitium [ICD 10 GM]](ValueSet-mii-vs-kardio-klappenvitium-icd.md)
 * URL: [http://fhir.de/CodeSystem/bfarm/ops](https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.base@2026.0.1&canonical=http://fhir.de/CodeSystem/bfarm/ops)
   * Version: 
   * Name / Title: OPSOPS
@@ -208,7 +208,7 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: is-a flat
   * Count: 9 (complete)
-  * References: [hl7VS-expandedYes-NoIndicator](http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html),[MII VS Kardio Nein Unbekannt](ValueSet-mii-vs-kardio-nein-unbekannt.md)
+  * References: [MII VS Kardio Nein Unbekannt](ValueSet-mii-vs-kardio-nein-unbekannt.md),[hl7VS-expandedYes-NoIndicator](http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html)
 * URL: [https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis](CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.md)
   * Version: 2027.0.0-ballot.rc1
   * Name / Title: MII_CS_Kardio_Atherosklerotisches_EreignisMII CS Kardio Atherosklerotisches Ereignis
@@ -236,5 +236,5 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md),[MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md),[MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md),[Device Metric and Component Types](http://hl7.org/fhir/R4/valueset-devicemetric-type.html),[MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md)
+  * References: [MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md),[MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md),[MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md),[Device Metric and Component Types](http://hl7.org/fhir/R4/valueset-devicemetric-type.html),[MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md)
 

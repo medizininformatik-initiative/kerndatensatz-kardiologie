@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "99e0607c-a785-4a84-ae51-323fa8cf7b4c",
+  "id" : "8db30e43-ed5e-4995-bfb5-323cc7c45a38",
   "meta" : {
-    "lastUpdated" : "2026-09-01T14:44:58.777+00:00"
+    "lastUpdated" : "2026-09-01T20:00:38.254+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ff19984c-011f-482c-b888-00fc020cb4f1",
-        "timestamp" : "2026-09-01T15:55:12+00:00",
+        "identifier" : "urn:uuid:b82b165d-f457-46e2-8523-ffb2b416c6e2",
+        "timestamp" : "2026-09-01T21:13:47+00:00",
         "total" : 185,
         "offset" : 0,
         "parameter" : [{
@@ -830,8 +830,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5da5b108-cf91-4036-a9ec-195fa61112cb",
-        "timestamp" : "2026-09-01T15:55:12+00:00",
+        "identifier" : "urn:uuid:b82b165d-f457-46e2-8523-ffb2b416c6e2",
+        "timestamp" : "2026-09-01T21:13:47+00:00",
         "total" : 185,
         "offset" : 0,
         "parameter" : [{
@@ -1632,8 +1632,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1483ab12-cbf1-4ab2-b906-1222e57ea45b",
-        "timestamp" : "2026-09-01T15:55:12+00:00",
+        "identifier" : "urn:uuid:3b84f5b8-86cf-4373-90bb-db8cac431001",
+        "timestamp" : "2026-09-01T21:13:48+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -1929,8 +1929,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b7e72d35-30b1-439e-9789-8d97129b7bf5",
-        "timestamp" : "2026-09-01T15:56:09+00:00",
+        "identifier" : "urn:uuid:3b84f5b8-86cf-4373-90bb-db8cac431001",
+        "timestamp" : "2026-09-01T21:13:48+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2226,8 +2226,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b760a165-e689-4674-9d9a-4daeddeb5789",
-        "timestamp" : "2026-09-01T15:56:09+00:00",
+        "identifier" : "urn:uuid:e1a39d08-4a11-4b29-b241-f0c7f110c813",
+        "timestamp" : "2026-09-01T21:14:42+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2303,8 +2303,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:25d46886-c182-4b7a-911d-ffc03f92ccf0",
-        "timestamp" : "2026-09-01T15:56:45+00:00",
+        "identifier" : "urn:uuid:e1a39d08-4a11-4b29-b241-f0c7f110c813",
+        "timestamp" : "2026-09-01T21:14:42+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2372,7 +2372,7 @@
       "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-09-01T14:44:58+00:00",
+      "date" : "2026-09-01T20:00:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2380,8 +2380,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:eb6c687e-c198-463c-97ca-a6288dc90214",
-        "timestamp" : "2026-09-01T15:56:45+00:00",
+        "identifier" : "urn:uuid:0bb6ccc2-77a3-4727-a3b2-a8ef488f3f54",
+        "timestamp" : "2026-09-01T21:05:55+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2457,7 +2457,7 @@
       "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-09-01T14:44:58+00:00",
+      "date" : "2026-09-01T20:00:38+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2465,8 +2465,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:572efe82-0f6d-4629-bb55-543993dd1e05",
-        "timestamp" : "2026-09-01T15:57:15+00:00",
+        "identifier" : "urn:uuid:0bb6ccc2-77a3-4727-a3b2-a8ef488f3f54",
+        "timestamp" : "2026-09-01T21:05:55+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2550,8 +2550,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a57084fe-ae16-4786-9172-2ca34d658842",
-        "timestamp" : "2026-09-01T16:00:17+00:00",
+        "identifier" : "urn:uuid:4df62d59-75e1-4684-a38c-4545251656e6",
+        "timestamp" : "2026-09-01T21:08:38+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2628,8 +2628,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:44cfe5c4-1eb3-400b-9059-c2a5677ea176",
-        "timestamp" : "2026-09-01T16:00:17+00:00",
+        "identifier" : "urn:uuid:4df62d59-75e1-4684-a38c-4545251656e6",
+        "timestamp" : "2026-09-01T21:08:38+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2706,8 +2706,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b1193af8-9d0e-42d6-8f38-8b3bd951355a",
-        "timestamp" : "2026-09-01T16:01:18+00:00",
+        "identifier" : "urn:uuid:4735aa1c-7572-4d17-8c64-e9657cdd9157",
+        "timestamp" : "2026-09-01T21:17:21+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2787,8 +2787,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2622d450-496b-4f9c-b0df-cad430913028",
-        "timestamp" : "2026-09-01T16:01:52+00:00",
+        "identifier" : "urn:uuid:4735aa1c-7572-4d17-8c64-e9657cdd9157",
+        "timestamp" : "2026-09-01T21:17:21+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2868,8 +2868,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8eb12d3c-1d66-48ff-91e2-10f817df246d",
-        "timestamp" : "2026-09-01T16:01:52+00:00",
+        "identifier" : "urn:uuid:a711cf84-2eba-491a-9a4f-775915a7d201",
+        "timestamp" : "2026-09-01T21:17:56+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2945,8 +2945,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e157cd4a-9a06-4af9-88ec-5b1f7908981d",
-        "timestamp" : "2026-09-01T16:02:22+00:00",
+        "identifier" : "urn:uuid:a711cf84-2eba-491a-9a4f-775915a7d201",
+        "timestamp" : "2026-09-01T21:17:56+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -3022,8 +3022,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6ab0b279-bd94-43f8-a8da-f721d7aaa955",
-        "timestamp" : "2026-09-01T16:02:22+00:00",
+        "identifier" : "urn:uuid:05048db2-0722-464c-8314-67b3b9f3c981",
+        "timestamp" : "2026-09-01T21:18:23+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -3471,8 +3471,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ed88d62f-37ae-4a2a-8a8d-effab77034cf",
-        "timestamp" : "2026-09-01T16:02:23+00:00",
+        "identifier" : "urn:uuid:05048db2-0722-464c-8314-67b3b9f3c981",
+        "timestamp" : "2026-09-01T21:18:23+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -3920,8 +3920,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:39ad58c6-2d73-4db5-a229-4a4a5bd7a66a",
-        "timestamp" : "2026-09-01T16:06:17+00:00",
+        "identifier" : "urn:uuid:669d711c-a0c0-4a59-be45-5539337745db",
+        "timestamp" : "2026-09-01T21:09:41+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -4977,8 +4977,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1afe9578-9ab9-4589-8bb5-082552cda811",
-        "timestamp" : "2026-09-01T16:06:17+00:00",
+        "identifier" : "urn:uuid:669d711c-a0c0-4a59-be45-5539337745db",
+        "timestamp" : "2026-09-01T21:09:41+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -6034,8 +6034,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8e806f91-6db9-47c2-bb6b-0d8bea9b086c",
-        "timestamp" : "2026-09-01T16:07:18+00:00",
+        "identifier" : "urn:uuid:7e1eefdd-696a-4d37-a87d-e94a24676b22",
+        "timestamp" : "2026-09-01T21:09:40+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -6271,8 +6271,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:de9afdaf-8c3d-40b1-83fd-174ed40c027b",
-        "timestamp" : "2026-09-01T16:07:18+00:00",
+        "identifier" : "urn:uuid:7e1eefdd-696a-4d37-a87d-e94a24676b22",
+        "timestamp" : "2026-09-01T21:09:40+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -6508,8 +6508,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7163414d-d8b6-41da-a40f-8876c1e75dd1",
-        "timestamp" : "2026-09-01T16:08:20+00:00",
+        "identifier" : "urn:uuid:d92874c6-d932-436f-832b-b4bcb0ae6070",
+        "timestamp" : "2026-09-01T21:08:34+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -10573,8 +10573,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a4770bd4-32d3-4a5f-8ab1-b09f11dcfbd4",
-        "timestamp" : "2026-09-01T16:08:21+00:00",
+        "identifier" : "urn:uuid:d92874c6-d932-436f-832b-b4bcb0ae6070",
+        "timestamp" : "2026-09-01T21:08:34+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -14638,8 +14638,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:310721ac-26c1-4c69-aee3-652da55bc018",
-        "timestamp" : "2026-09-01T16:08:21+00:00",
+        "identifier" : "urn:uuid:b0924e01-899e-4453-823e-4e4cc39dca69",
+        "timestamp" : "2026-09-01T21:11:46+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -14738,8 +14738,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:76675bb7-a364-44c5-a4f6-824b4dd98fe2",
-        "timestamp" : "2026-09-01T16:08:21+00:00",
+        "identifier" : "urn:uuid:b0924e01-899e-4453-823e-4e4cc39dca69",
+        "timestamp" : "2026-09-01T21:11:46+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -14838,8 +14838,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:74221314-1b50-477a-ae4a-efca3f84d968",
-        "timestamp" : "2026-09-01T16:08:21+00:00",
+        "identifier" : "urn:uuid:a597b3dc-1a29-488f-912d-25503e5a4c25",
+        "timestamp" : "2026-09-01T21:05:54+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -14908,8 +14908,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:403c28f3-6a46-4e28-ba18-31096643cf47",
-        "timestamp" : "2026-09-01T16:08:21+00:00",
+        "identifier" : "urn:uuid:a597b3dc-1a29-488f-912d-25503e5a4c25",
+        "timestamp" : "2026-09-01T21:05:54+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -14951,168 +14951,6 @@
           "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
           "code" : "ASKU",
           "display" : "gefragt, aber nicht genannt"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "language" : "de",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot.rc1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot.rc1\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 4 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-420300004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/420300004\">420300004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;, &quot;code&quot;: &quot;420300004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;&gt;&lt;code value=&quot;420300004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-421704003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/421704003\">421704003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;, &quot;code&quot;: &quot;421704003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;&gt;&lt;code value=&quot;421704003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-420913000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/420913000\">420913000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;, &quot;code&quot;: &quot;420913000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;&gt;&lt;code value=&quot;420913000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-422293003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/422293003\">422293003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;, &quot;code&quot;: &quot;422293003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;&gt;&lt;code value=&quot;422293003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct",
-      "version" : "2027.0.0-ballot.rc1",
-      "name" : "MII_VS_Kardio_NYHA_Klassen_SNOMEDCT",
-      "title" : "MII VS Kardio NYHA Klassen [SNOMED CT]",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2025-09-05",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "276"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:4bd95f40-ae6f-4d21-bfd4-41a9e6dbaf41",
-        "timestamp" : "2026-09-01T16:08:21+00:00",
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "de"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "system-version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-        },
-        {
-          "name" : "used-valueset",
-          "valueUri" : "null"
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-        },
-        {
-          "name" : "used-supplement",
-          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot.rc1"
-        }],
-        "contains" : [{
-          "system" : "http://snomed.info/sct",
-          "code" : "420300004"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "421704003"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "420913000"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "422293003"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "language" : "de",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot.rc1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot.rc1\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 4 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-420300004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/420300004\">420300004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;, &quot;code&quot;: &quot;420300004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;&gt;&lt;code value=&quot;420300004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-421704003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/421704003\">421704003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;, &quot;code&quot;: &quot;421704003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;&gt;&lt;code value=&quot;421704003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-420913000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/420913000\">420913000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;, &quot;code&quot;: &quot;420913000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;&gt;&lt;code value=&quot;420913000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-422293003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/422293003\">422293003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;, &quot;code&quot;: &quot;422293003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250701&quot;&gt;&lt;code value=&quot;422293003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct",
-      "version" : "2027.0.0-ballot.rc1",
-      "name" : "MII_VS_Kardio_NYHA_Klassen_SNOMEDCT",
-      "title" : "MII VS Kardio NYHA Klassen [SNOMED CT]",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2025-09-05",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "276"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:8e4f3d45-b156-482b-bb04-dd49265f98b6",
-        "timestamp" : "2026-09-01T16:09:20+00:00",
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "de"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "system-version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-        },
-        {
-          "name" : "used-valueset",
-          "valueUri" : "null"
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
-        },
-        {
-          "name" : "used-supplement",
-          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot.rc1"
-        }],
-        "contains" : [{
-          "system" : "http://snomed.info/sct",
-          "code" : "420300004"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "421704003"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "420913000"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "422293003"
         }]
       }
     }
@@ -15140,8 +14978,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a6006a0c-2adc-4c9f-aa39-3de122d657b9",
-        "timestamp" : "2026-09-01T16:09:20+00:00",
+        "identifier" : "urn:uuid:c29d39d4-bebf-4673-bb20-a62b473c8ec3",
+        "timestamp" : "2026-09-01T21:19:27+00:00",
         "total" : 1466,
         "offset" : 0,
         "parameter" : [{
@@ -19202,8 +19040,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4333fea4-5703-4e22-8585-4b426a2fd9f9",
-        "timestamp" : "2026-09-01T16:09:20+00:00",
+        "identifier" : "urn:uuid:c29d39d4-bebf-4673-bb20-a62b473c8ec3",
+        "timestamp" : "2026-09-01T21:19:27+00:00",
         "total" : 1466,
         "offset" : 0,
         "parameter" : [{

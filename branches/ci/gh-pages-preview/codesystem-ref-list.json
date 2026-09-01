@@ -8,8 +8,8 @@
     "description" : "Alpha-ID Platzhalter-CodeSystem",
     "uses" : {
     },
-    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-alphaid.html" : "MII VS Diagnose Alpha-ID",
-    "ValueSet-mii-vs-kardio-klappenvitium-alphaid.html" : "MII VS Kardio Klappenvitium [ALPHA-ID]"
+    "ValueSet-mii-vs-kardio-klappenvitium-alphaid.html" : "MII VS Kardio Klappenvitium [ALPHA-ID]",
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-alphaid.html" : "MII VS Diagnose Alpha-ID"
   },
   {
     "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
@@ -20,8 +20,8 @@
     "description" : "ICD-10-GM Platzhalter-CodeSystem",
     "uses" : {
     },
-    "ValueSet-mii-vs-kardio-klappenvitium-icd.html" : "MII VS Kardio Klappenvitium [ICD 10 GM]",
-    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-icd10gm.html" : "MII VS Diagnose ICD-10-GM"
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-diagnose-icd10gm.html" : "MII VS Diagnose ICD-10-GM",
+    "ValueSet-mii-vs-kardio-klappenvitium-icd.html" : "MII VS Kardio Klappenvitium [ICD 10 GM]"
   },
   {
     "url" : "http://fhir.de/CodeSystem/bfarm/ops",
@@ -44,19 +44,19 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.html" : "MII VS Kardio Extended MII DiagnoseCodes [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.html" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
-    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-prozedur-prozeduren-snomedct.html" : "MII VS Prozedur Prozeduren [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html" : "MII VS Kardio NYHA Klassen [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html" : "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.html" : "MII VS Kardio Klappenvitium Grad [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-ethnie-snomedct.html" : "MII VS Kardio Ethnie [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-geraetetyp-snomedct.html" : "MII VS Kardio Gerätetyp [SNOMED CT]",
     "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.html" : "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.html" : "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
     "ValueSet-mii-vs-kardio-allergene-snomedct.html" : "MII VS Kardio Allergene [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html" : "MII VS Kardio NYHA Klassen [SNOMED CT]",
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2026.0.1/ValueSet-mii-vs-prozedur-prozeduren-snomedct.html" : "MII VS Prozedur Prozeduren [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-ethnie-snomedct.html" : "MII VS Kardio Ethnie [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.html" : "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.html" : "MII VS Kardio Klappenvitium Grad [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-geraetetyp-snomedct.html" : "MII VS Kardio Gerätetyp [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html" : "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
     "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.html" : "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.html" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
     "ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.html" : "MII VS Kardio EKG Prozedur [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.html" : "MII VS Kardio Extended MII DiagnoseCodes [SNOMED CT]",
     "ValueSet-mii-vs-kardio-klappenvitium-snomedct.html" : "MII VS Kardio Klappenvitium [SNOMED CT]"
   },
   {
@@ -94,8 +94,8 @@
     "oids" : ["2.16.840.1.113883.18.347"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html" : "hl7VS-expandedYes-NoIndicator",
-    "ValueSet-mii-vs-kardio-nein-unbekannt.html" : "MII VS Kardio Nein Unbekannt"
+    "ValueSet-mii-vs-kardio-nein-unbekannt.html" : "MII VS Kardio Nein Unbekannt",
+    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html" : "hl7VS-expandedYes-NoIndicator"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
@@ -140,10 +140,10 @@
     "oids" : ["2.16.840.1.113883.6.24"],
     "uses" : {
     },
-    "ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html" : "MII VS Kardio EKG Kanäle [MDC]",
     "ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.html" : "MII VS Kardio Geräteprogrammierung [MDC]",
-    "ValueSet-mii-vs-kardio-objekte-geraete-mdc.html" : "MII VS Kardio MDC Objects Devices [MDC]",
+    "ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html" : "MII VS Kardio EKG Kanäle [MDC]",
+    "ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.html" : "MII VS Kardio Metriken EKG Annotationen [MDC]",
     "http://hl7.org/fhir/R4/valueset-devicemetric-type.html" : "Device Metric and Component Types",
-    "ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.html" : "MII VS Kardio Metriken EKG Annotationen [MDC]"
+    "ValueSet-mii-vs-kardio-objekte-geraete-mdc.html" : "MII VS Kardio MDC Objects Devices [MDC]"
   }]
 }

@@ -117,7 +117,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio Score NYHA",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-01T14:44:58+00:00",
+  "date" : "2026-09-01T20:00:38+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

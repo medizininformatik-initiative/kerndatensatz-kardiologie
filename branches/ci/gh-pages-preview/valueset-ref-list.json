@@ -11,8 +11,8 @@
     "sources" : ["2.16.840.1.113883.6.24", "2.16.840.1.113883.4.642.3.645"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-kardio-geraeteprogrammierung.html" : "MII PR Kardio Geräteprogrammierung",
-    "StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.html" : "MII PR Kardio NBG Schrittmachermodus"
+    "StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.html" : "MII PR Kardio NBG Schrittmachermodus",
+    "StructureDefinition-mii-pr-kardio-geraeteprogrammierung.html" : "MII PR Kardio Geräteprogrammierung"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -26,10 +26,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.403"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html" : "MII PR Kardio Score Modifizierte Rankin Skala",
+    "StructureDefinition-mii-pr-kardio-score-nyha.html" : "MII PR Kardio Score NYHA",
     "StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html" : "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
     "StructureDefinition-mii-pr-kardio-observation-rauchen.html" : "MII PR Kardio Observation Rauchen",
-    "StructureDefinition-mii-pr-kardio-score-nyha.html" : "MII PR Kardio Score NYHA"
+    "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html" : "MII PR Kardio Score Modifizierte Rankin Skala"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v2-0532",
@@ -371,7 +371,7 @@
     "systems" : ["urn:iso:std:iso:11073:10101"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-kardio-ekg-kanal.html" : "MII PR Kardio EKG Kanal",
-    "StructureDefinition-mii-pr-kardio-ekg-geraet.html" : "MII PR Kardio EKG Gerät"
+    "StructureDefinition-mii-pr-kardio-ekg-geraet.html" : "MII PR Kardio EKG Gerät",
+    "StructureDefinition-mii-pr-kardio-ekg-kanal.html" : "MII PR Kardio EKG Kanal"
   }]
 }

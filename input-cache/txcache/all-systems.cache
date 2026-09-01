@@ -1,0 +1,849 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "de"
+}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Deutsch",
+  "code" : "de",
+  "system" : "urn:ietf:bcp:47",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Analysing http://hl7.org/fhir/ValueSet/languages|4.0.1 for validation purposes\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Parameters: disp-lang=de, generate-narrative, default-to-latest\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:47)(ar,bn,cs,da,de,de-AT,de-CH,de-DE,el,en,en-AU,en-CA,en-GB,en-IN,en-NZ,en-SG,en-US,es,es-AR,es-ES,es-UY,fi,fr,fr-BE,fr-CH,fr-FR,fy,fy-NL,hi,hr,it,it-CH,it-IT,ja,ko,nl,nl-BE,nl-NL,no,no-NO,pa,pl,pt,pt-BR,ru,ru-RU,sr,sr-RS,sv,sv-SE,te,zh,zh-CN,zh-HK,zh-SG,zh-TW)\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: CodeSystem found: \"urn:ietf:bcp:47|null\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Validate \"[undefined#de (\"undefined\")]\" and infer system\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Check \"undefined#de\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:47\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: CodeSystem found: urn:ietf:bcp:47|null for urn:ietf:bcp:47\n2ms http://hl7.org/fhir/ValueSet/languages|4.0.1: check code in (urn:ietf:bcp:47)(ar,bn,cs,da,de,de-AT,de-CH,de-DE,el,en,en-AU,en-CA,en-GB,en-IN,en-NZ,en-SG,en-US,es,es-AR,es-ES,es-UY,fi,fr,fr-BE,fr-CH,fr-FR,fy,fy-NL,hi,hr,it,it-CH,it-IT,ja,ko,nl,nl-BE,nl-NL,no,no-NO,pa,pl,pt,pt-BR,ru,ru-RU,sr,sr-RS,sv,sv-SE,te,zh,zh-CN,zh-HK,zh-SG,zh-TW) at \n2ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Code \"de\" found in urn:ietf:bcp:47|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "code" : "276"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Code '276' not found in filter set; No valid coding was found for the value set 'http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1'",
+  "class" : "UNKNOWN",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=de, generate-narrative, default-to-latest\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem version undefined not found: \"urn:iso:std:iso:3166:-2\"\n3ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n3ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n3ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[http://unstats.un.org/unsd/methods/m49/m49.htm#276 (\"undefined\")]\"\n3ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"http://unstats.un.org/unsd/methods/m49/m49.htm#276\"\n3ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n3ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166:-2 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n3ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: http://unstats.un.org/unsd/methods/m49/m49.htm|null for http://unstats.un.org/unsd/methods/m49/m49.htm\n3ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region) at CodeableConcept.coding[0]\n3ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Filter class = region: Code \"276\" not found in http://unstats.un.org/unsd/methods/m49/m49.htm|null: Code '276' not found in filter set",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://unstats.un.org/unsd/methods/m49/m49.htm#276' was not found in the value set 'http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "de-DE"
+}, "url": "urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102", "version": "1", "langs":"de", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Deutsch (Deutschland)",
+  "code" : "de-DE",
+  "system" : "urn:ietf:bcp:47",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Analysing urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1 for validation purposes\n0ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Parameters: disp-lang=de, generate-narrative, default-to-latest\n0ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Prepare include[0]: \"(urn:ietf:bcp:47)\"\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: CodeSystem found: \"urn:ietf:bcp:47|null\"\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Validate \"[undefined#de-DE (\"undefined\")]\" and infer system\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Check \"undefined#de-DE\"\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Inferred CodeSystem = \"urn:ietf:bcp:47\"\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: CodeSystem found: urn:ietf:bcp:47|null for urn:ietf:bcp:47\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: check code in (urn:ietf:bcp:47) at \n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Code \"de-DE\" found in urn:ietf:bcp:47|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "de-DE"
+}, "url": "http://hl7.org/fhir/ValueSet/all-languages", "version": "4.0.1", "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Deutsch (Deutschland)",
+  "code" : "de-DE",
+  "system" : "urn:ietf:bcp:47",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Analysing http://hl7.org/fhir/ValueSet/all-languages|4.0.1 for validation purposes\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Parameters: disp-lang=de, generate-narrative, default-to-latest\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:47)\"\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: CodeSystem found: \"urn:ietf:bcp:47|null\"\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Validate \"[undefined#de-DE (\"undefined\")]\" and infer system\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Check \"undefined#de-DE\"\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:47\"\n2ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: CodeSystem found: urn:ietf:bcp:47|null for urn:ietf:bcp:47\n2ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: check code in (urn:ietf:bcp:47) at \n2ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Code \"de-DE\" found in urn:ietf:bcp:47|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "en-US"
+}, "url": "urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102", "version": "1", "langs":"de", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Englisch (Vereinigte Staaten)",
+  "code" : "en-US",
+  "system" : "urn:ietf:bcp:47",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Analysing urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1 for validation purposes\n0ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Parameters: disp-lang=de, generate-narrative, default-to-latest\n0ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n0ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Prepare include[0]: \"(urn:ietf:bcp:47)\"\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: CodeSystem found: \"urn:ietf:bcp:47|null\"\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Validate \"[undefined#en-US (\"undefined\")]\" and infer system\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Check \"undefined#en-US\"\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Inferred CodeSystem = \"urn:ietf:bcp:47\"\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: CodeSystem found: urn:ietf:bcp:47|null for urn:ietf:bcp:47\n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: check code in (urn:ietf:bcp:47) at \n1ms urn:uuid:d2a7f58e-6776-4618-a6c5-6b11d8c2b102|1: Code \"en-US\" found in urn:ietf:bcp:47|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "en-US"
+}, "url": "http://hl7.org/fhir/ValueSet/all-languages", "version": "4.0.1", "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Englisch (Vereinigte Staaten)",
+  "code" : "en-US",
+  "system" : "urn:ietf:bcp:47",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Analysing http://hl7.org/fhir/ValueSet/all-languages|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Parameters: disp-lang=de, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n0ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:47)\"\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: CodeSystem found: \"urn:ietf:bcp:47|null\"\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Validate \"[undefined#en-US (\"undefined\")]\" and infer system\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Check \"undefined#en-US\"\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:47\"\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: CodeSystem found: urn:ietf:bcp:47|null for urn:ietf:bcp:47\n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: check code in (urn:ietf:bcp:47) at \n1ms http://hl7.org/fhir/ValueSet/all-languages|4.0.1: Code \"en-US\" found in urn:ietf:bcp:47|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+    "version" : "2025",
+    "code" : "I21.9",
+    "display" : "Akuter Myokardinfarkt, nicht näher bezeichnet"
+  },
+  {
+    "system" : "http://snomed.info/sct",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+    "code" : "22298006",
+    "display" : "Myocardial infarction"
+  }]
+}, "langs":"de", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Akuter Myokardinfarkt, nicht näher bezeichnet",
+  "code" : "I21.9",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2025",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2025: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025#I21.9 (\"Akuter Myokardinfarkt, nicht näher bezeichnet\"), http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701#22298006 (\"Myocardial infarction\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2025: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025#I21.9\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2025: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2025: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at CodeableConcept.coding[0]\n2ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2025: Code \"I21.9\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025\n2ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2025: Check \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701#22298006\"\n2ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2025: Include for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025 not considered for \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "de-DE"
+}, "url": "http://hl7.org/fhir/ValueSet/languages", "version": "4.0.1", "langs":"de-DE", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Deutsch (Deutschland)",
+  "code" : "de-DE",
+  "system" : "urn:ietf:bcp:47",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Analysing http://hl7.org/fhir/ValueSet/languages|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Parameters: disp-lang=de-DE, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n0ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:47)(ar,bn,cs,da,de,de-AT,de-CH,de-DE,el,en,en-AU,en-CA,en-GB,en-IN,en-NZ,en-SG,en-US,es,es-AR,es-ES,es-UY,fi,fr,fr-BE,fr-CH,fr-FR,fy,fy-NL,hi,hr,it,it-CH,it-IT,ja,ko,nl,nl-BE,nl-NL,no,no-NO,pa,pl,pt,pt-BR,ru,ru-RU,sr,sr-RS,sv,sv-SE,te,zh,zh-CN,zh-HK,zh-SG,zh-TW)\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: CodeSystem found: \"urn:ietf:bcp:47|null\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Validate \"[undefined#de-DE (\"undefined\")]\" and infer system\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Check \"undefined#de-DE\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:47\"\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: CodeSystem found: urn:ietf:bcp:47|null for urn:ietf:bcp:47\n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: check code in (urn:ietf:bcp:47)(ar,bn,cs,da,de,de-AT,de-CH,de-DE,el,en,en-AU,en-CA,en-GB,en-IN,en-NZ,en-SG,en-US,es,es-AR,es-ES,es-UY,fi,fr,fr-BE,fr-CH,fr-FR,fy,fy-NL,hi,hr,it,it-CH,it-IT,ja,ko,nl,nl-BE,nl-NL,no,no-NO,pa,pl,pt,pt-BR,ru,ru-RU,sr,sr-RS,sv,sv-SE,te,zh,zh-CN,zh-HK,zh-SG,zh-TW) at \n1ms http://hl7.org/fhir/ValueSet/languages|4.0.1: Code \"de-DE\" found in urn:ietf:bcp:47|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+    "code" : "72506001",
+    "display" : "Implantable defibrillator"
+  }]
+}, "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct", "version": "2027.0.0-ballot.rc1", "langs":"de", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Implantable defibrillator",
+  "code" : "72506001",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code http://snomed.info/sct#72506001 for language(s) 'de'. The display is 'Implantable defibrillator' which is a valid display for the default language",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: Analysing https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1 for validation purposes\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: Parameters: http-lang=de, disp-lang=de, generate-narrative, default-to-latest\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: Prepare include[0]: \"(http://snomed.info/sct)(conceptis-a72506001)\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: Prepare include[1]: \"(http://snomed.info/sct)(conceptis-a706004007)\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: Prepare include[2]: \"(http://snomed.info/sct)(conceptdescendent-of360064003)\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: Prepare include[3]: \"(http://terminology.hl7.org/CodeSystem/data-absent-reason)(asked-unknown)\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://terminology.hl7.org/CodeSystem/data-absent-reason|1.0.0\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: Validate \"[http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701#72506001 (\"Implantable defibrillator\")]\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: Check \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701#72506001\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: check code in (http://snomed.info/sct)(conceptis-a72506001) at CodeableConcept.coding[0]\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct|2027.0.0-ballot.rc1: Filter concept is-a 72506001: Code \"72506001\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code http://snomed.info/sct#72506001 for language(s) 'de'. The display is 'Implantable defibrillator' which is a valid display for the default language"
+    },
+    "expression" : ["CodeableConcept.coding[0].display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/dicom"
+}, "url": "urn:uuid:89890f08-7820-4474-887c-069ee9f2a858", "version": "1", "langs":"de", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "application/dicom",
+  "code" : "application/dicom",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: Analysing urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1 for validation purposes\n1ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: Parameters: disp-lang=de, generate-narrative, default-to-latest\n1ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n1ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n2ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n2ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: Validate \"[undefined#application/dicom (\"undefined\")]\" and infer system\n2ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: Check \"undefined#application/dicom\"\n3ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n3ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n3ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: check code in (urn:ietf:bcp:13) at \n3ms urn:uuid:89890f08-7820-4474-887c-069ee9f2a858|1: Code \"application/dicom\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
+    "version" : "2027.0.0-ballot.rc1",
+    "code" : "ae",
+    "display" : "Atherosklerotisches Ereignis"
+  }]
+}, "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct", "version": "2027.0.0-ballot.rc1", "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Atherosklerotisches Ereignis",
+  "code" : "ae",
+  "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
+  "version" : "2027.0.0-ballot.rc1",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Analysing https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1 for validation purposes\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Parameters: http-lang=de, disp-lang=de, generate-narrative, default-to-latest\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Prepare include[0]: \"(https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis)\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot.rc1\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Prepare include[1]: \"(http://snomed.info/sct)(conceptis-a53741008)\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n1ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Prepare include[2]: \"(http://snomed.info/sct)(conceptis-a88032003)\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Prepare include[3]: \"(http://snomed.info/sct)(conceptis-a422504002)\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Prepare include[4]: \"(http://snomed.info/sct)(conceptis-a232035005)\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Prepare include[5]: \"(http://snomed.info/sct)(conceptis-a399957001)\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Prepare include[6]: \"(http://snomed.info/sct)(conceptis-a233985008)\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Prepare include[7]: \"(http://snomed.info/sct)(conceptis-a266257000)\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Prepare include[8]: \"(http://snomed.info/sct)(conceptis-a1287902001)\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: CodeSystem found: \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Validate \"[https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot.rc1#ae (\"Atherosklerotisches Ereignis\")]\"\n2ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Check \"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot.rc1#ae\"\n3ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: CodeSystem found: https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot.rc1 for https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot.rc1\n3ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: check code in (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis) at CodeableConcept.coding[0]\n3ms https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct|2027.0.0-ballot.rc1: Code \"ae\" found in https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot.rc1",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+    "code" : "250908004",
+    "display" : "Left ventricular ejection fraction"
+  },
+  {
+    "system" : "http://loinc.org",
+    "version" : "2.82",
+    "code" : "10230-1",
+    "display" : "Left ventricular ejection fraction"
+  }],
+  "text" : "Linksventrikuläre Ejektionsfraktion"
+}, "langs":"de", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Left ventricular ejection fraction",
+  "code" : "250908004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code http://snomed.info/sct#250908004 for language(s) 'de'. The display is 'Left ventricular ejection fraction' which is a valid display for the default language",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Validate \"[http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701#250908004 (\"Left ventricular ejection fraction\"), http://loinc.org|2.82#10230-1 (\"Left ventricular ejection fraction\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Check \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701#250908004\"\n2ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\n2ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: check code in (http://snomed.info/sct) at CodeableConcept.coding[0]\n2ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Code \"250908004\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\n26ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Check \"http://loinc.org|2.82#10230-1\"\n26ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Include for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 not considered for \"http://loinc.org|2.82\"",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code http://snomed.info/sct#250908004 for language(s) 'de'. The display is 'Left ventricular ejection fraction' which is a valid display for the default language"
+    },
+    "expression" : ["CodeableConcept.coding[0].display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+    "code" : "1255866005",
+    "display" : "Modified Rankin Scale score"
+  },
+  {
+    "system" : "http://loinc.org",
+    "version" : "2.82",
+    "code" : "75859-9",
+    "display" : "Modified rankin scale"
+  }]
+}, "langs":"de", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Modified Rankin Scale score",
+  "code" : "1255866005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code http://snomed.info/sct#1255866005 for language(s) 'de'. The display is 'Modified Rankin Scale score' which is a valid display for the default language",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Validate \"[http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701#1255866005 (\"Modified Rankin Scale score\"), http://loinc.org|2.82#75859-9 (\"Modified rankin scale\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Check \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701#1255866005\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: check code in (http://snomed.info/sct) at CodeableConcept.coding[0]\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Code \"1255866005\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\n16ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Check \"http://loinc.org|2.82#75859-9\"\n16ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Include for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 not considered for \"http://loinc.org|2.82\"",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code http://snomed.info/sct#1255866005 for language(s) 'de'. The display is 'Modified Rankin Scale score' which is a valid display for the default language"
+    },
+    "expression" : ["CodeableConcept.coding[0].display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+    "code" : "762994006",
+    "display" : "New York Heart Association Classification class"
+  },
+  {
+    "system" : "http://loinc.org",
+    "version" : "2.82",
+    "code" : "93124-6",
+    "display" : "New York Heart Association Functional Classification panel"
+  }]
+}, "langs":"de", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "New York Heart Association Classification class",
+  "code" : "762994006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+  "severity" : "warning",
+  "error" : "There are no valid display names found for the code http://snomed.info/sct#762994006 for language(s) 'de'. The display is 'New York Heart Association Classification class' which is a valid display for the default language",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Validate \"[http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701#762994006 (\"New York Heart Association Classification class\"), http://loinc.org|2.82#93124-6 (\"New York Heart Association Functional Classification panel\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Check \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701#762994006\"\n2ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\n2ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: check code in (http://snomed.info/sct) at CodeableConcept.coding[0]\n2ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Code \"762994006\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701\n10ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Check \"http://loinc.org|2.82#93124-6\"\n10ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20250701: Include for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 not considered for \"http://loinc.org|2.82\"",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "There are no valid display names found for the code http://snomed.info/sct#762994006 for language(s) 'de'. The display is 'New York Heart Association Classification class' which is a valid display for the default language"
+    },
+    "expression" : ["CodeableConcept.coding[0].display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "code" : "276"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Code '276' not found in filter set; No valid coding was found for the value set 'http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1'",
+  "class" : "UNKNOWN",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Version Rules: default:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20250701, default:http://hl7.org/fhir/encounter-status#4.0.1, default:http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#3.0.0, default:urn:iso:std:iso:11073:10101#2024-12-05, default:http://terminology.hl7.org/CodeSystem/v3-ActCode#10.0.0\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem version undefined not found: \"urn:iso:std:iso:3166:-2\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[http://unstats.un.org/unsd/methods/m49/m49.htm#276 (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"http://unstats.un.org/unsd/methods/m49/m49.htm#276\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166:-2 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: http://unstats.un.org/unsd/methods/m49/m49.htm|null for http://unstats.un.org/unsd/methods/m49/m49.htm\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region) at CodeableConcept.coding[0]\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Filter class = region: Code \"276\" not found in http://unstats.un.org/unsd/methods/m49/m49.htm|null: Code '276' not found in filter set",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://unstats.un.org/unsd/methods/m49/m49.htm#276' was not found in the value set 'http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1'"
+    },
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------

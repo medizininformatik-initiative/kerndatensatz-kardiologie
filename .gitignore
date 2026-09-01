@@ -2,7 +2,8 @@
 *.bak
 Thumbs.db
 
-/input-cache
+input-cache/*
+!input-cache/txcache/
 /output
 /temp
 /template

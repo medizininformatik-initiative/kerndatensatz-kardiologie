@@ -1,0 +1,5790 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.orpha.net"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Coding has no code for system http://www.orpha.net and cannot be validated",
+  "class" : "UNKNOWN",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://www.orpha.net/vs|2025: Validate \"[http://www.orpha.net#undefined (\"undefined\")]\"",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "error",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "Coding has no code for system http://www.orpha.net and cannot be validated"
+    },
+    "expression" : ["Coding"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://www.orpha.net"
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:bd1027d5-293f-49b2-8e41-318b46a7a39b",
+    "timestamp" : "2026-09-01T17:30:18.341Z",
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://www.orpha.net|2025"
+    }],
+    "property" : [{
+      "code" : "status",
+      "uri" : "http://hl7.org/fhir/concept-properties#status"
+    }],
+    "contains" : [{
+      "system" : "http://www.orpha.net",
+      "code" : "5",
+      "display" : "Langketten-3-Hydroxyacyl-CoA-Dehydrogenase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "6",
+      "display" : "3-Methylcrotonyl-CoA-Carboxylase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "7",
+      "display" : "3C-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "8",
+      "display" : "47,XYY-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "9",
+      "display" : "Tetrasomie X"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "10",
+      "display" : "48,XXYY-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "11",
+      "display" : "Pentasomie X"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "13",
+      "display" : "6-Pyruvoyl-Tetrahydropterin-Synthase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "14",
+      "display" : "Abetalipoproteinämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "15",
+      "display" : "Achondroplasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "16",
+      "display" : "Blauzapfenmonochromasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "17",
+      "display" : "Fatale infantile Laktatazidose mit Methylmalonazidurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "18",
+      "display" : "Azidose, renale tubuläre, distale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "19",
+      "display" : "2-Hydroxy-Glutarazidurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "20",
+      "display" : "3-Hydroxy-3-Methylglutarazidurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "22",
+      "display" : "Succinat-Semialdehyd-Dehydrogenase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "23",
+      "display" : "Argininbernsteinsäure-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "24",
+      "display" : "Fumarazidurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "25",
+      "display" : "Glutaryl-CoA-Dehydrogenase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "26",
+      "display" : "Methylmalonazidämie mit Homocystinurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "27",
+      "display" : "Methylmalonazidämie, Vitamin B12-resistente"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "28",
+      "display" : "Methylmalonazidämie, Vitamin B12-sensible"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "29",
+      "display" : "Mevalonazidurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "30",
+      "display" : "Orotazidurie, hereditäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "31",
+      "display" : "Oxoglutarazidurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "32",
+      "display" : "Glutathionsynthetase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "33",
+      "display" : "Isovalerianazidämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "34",
+      "display" : "Pipecolin-Azidämie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "35",
+      "display" : "Propionazidämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "36",
+      "display" : "Akrokallosal-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "37",
+      "display" : "Acrodermatitis enteropathica"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "38",
+      "display" : "Akrokeratoelastoidose Costa"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "39",
+      "display" : "Akromelanose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "40",
+      "display" : "Dysplasie, akromesomele, Typ Maroteaux"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "41",
+      "display" : "Dyschromatosis symmetrica hereditaria"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "42",
+      "display" : "Mittelketten-Acyl-CoA-Dehydrogenase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "43",
+      "display" : "Adrenoleukodystrophie, X-chromosomale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "44",
+      "display" : "Adrenoleukodystrophie, neonatale Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "45",
+      "display" : "Adenosinmonophosphat-Desaminase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "46",
+      "display" : "Adenylosuccinat-Lyase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "47",
+      "display" : "Agammaglobulinämie, X-chromosomale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "48",
+      "display" : "Vas-deferens-Aplasie, bilaterale kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "49",
+      "display" : "Penisagenesie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "50",
+      "display" : "Aicardi-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "51",
+      "display" : "Aicardi-Goutières-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "52",
+      "display" : "Alagille-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "53",
+      "display" : "Osteopetrosis Albers-Schönberg"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "54",
+      "display" : "Albinismus, okulärer rezessiver X-chromosomaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "55",
+      "display" : "Albinismus, okulokutaner"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "56",
+      "display" : "Alkaptonurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "57",
+      "display" : "Glykogenose Typ 12"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "58",
+      "display" : "Alexander-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "59",
+      "display" : "Allan-Herndon-Dudley-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "60",
+      "display" : "Alpha-1-Antitrypsin-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "61",
+      "display" : "Alpha-Mannosidose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "62",
+      "display" : "Alpha-Sarkoglykan assoziierte Gliedergürtelmuskeldystrophie R3"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "63",
+      "display" : "Alport-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "64",
+      "display" : "Alström-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "65",
+      "display" : "Amaurosis congenita Leber"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "67",
+      "display" : "Amöbiasis durch Entamoeba histolytica"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "68",
+      "display" : "Amöbiasis durch frei vorkommende Amöben"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "69",
+      "display" : "Amyloidose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "70",
+      "display" : "Spinale Muskelatrophie, proximale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "71",
+      "display" : "Chylomikronen-Retentions-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "72",
+      "display" : "Angelman-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "73",
+      "display" : "Gorham-Stout-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "74",
+      "display" : "Angiostrongylose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "76",
+      "display" : "Strongyloidose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "77",
+      "display" : "OBSOLET: Aniridie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "78",
+      "display" : "Ankylostomiasis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "79",
+      "display" : "Alpha-2 Antiplasmin-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "80",
+      "display" : "Anti-Phospholipid-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "81",
+      "display" : "Anti-Synthetase-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "82",
+      "display" : "Hereditäre Thrombophilie durch kongenitalen Antithrombin-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "83",
+      "display" : "Antley-Bixler-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "84",
+      "display" : "Fanconi-Anämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "85",
+      "display" : "Anämie, dyserythropoetische kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86",
+      "display" : "Aortenaneurysma, abdominales, familiäre Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "87",
+      "display" : "Apert-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "88",
+      "display" : "Aplastische Anämie, idiopathische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90",
+      "display" : "Argininämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "91",
+      "display" : "Aromatase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "92",
+      "display" : "Arthritis, idiopathische juvenile"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93",
+      "display" : "Aspartylglukosaminurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "94",
+      "display" : "Astrozytom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "95",
+      "display" : "Friedreich-Ataxie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "96",
+      "display" : "Ataxie mit Vitamin E-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "97",
+      "display" : "Ataxie, paroxysmale, familiäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98",
+      "display" : "Ataxie, spastische, autosomal-rezessive, Typ Charlevoix-Saguenay"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99",
+      "display" : "Zerebelläre Ataxie, autosomal-dominante"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100",
+      "display" : "Ataxia-Teleangiectasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "101",
+      "display" : "Atrophie, dentatorubrale-pallidolysiale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "102",
+      "display" : "Multiple Systematrophie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "103",
+      "display" : "OBSOLET: Optikusatrophie, genetisch bedingte",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "104",
+      "display" : "Leber-Optikusneuropathie, hereditäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "105",
+      "display" : "Atresie der Urethra"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "106",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Autismus",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "107",
+      "display" : "BOR-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108",
+      "display" : "Babesiose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "109",
+      "display" : "Bannayan-Riley-Ruvalcaba-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "110",
+      "display" : "Bardet-Biedl-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "111",
+      "display" : "Barth-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "112",
+      "display" : "Bartter-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "113",
+      "display" : "Bazex-Dupré-Christol-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "114",
+      "display" : "Aurikulo-Osteo-Dysplasie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "115",
+      "display" : "Arachnodaktylie, kongenitale kontrakturale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "116",
+      "display" : "Beckwith-Wiedemann-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "117",
+      "display" : "Behçet-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "118",
+      "display" : "Beta-Mannosidose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "119",
+      "display" : "Beta-Sarkoglykan-assoziierte Gliedergürtelmuskeldystrophie R4"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "120",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Perniziöse Anämie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "122",
+      "display" : "Birt-Hogg-Dubé-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "123",
+      "display" : "Björnstad-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "124",
+      "display" : "Diamond-Blackfan-Anämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "125",
+      "display" : "Bloom-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "126",
+      "display" : "Blepharophimose-Ptosis-Epicanthus inversus-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "127",
+      "display" : "Borjeson-Forssman-Lehmann-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "128",
+      "display" : "Diphyllobothriasis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "129",
+      "display" : "Pseudopelade Brocq"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "130",
+      "display" : "Brugada-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "131",
+      "display" : "Budd-Chiari-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "132",
+      "display" : "Butyrylcholinesterase-Mangel, hereditärer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "133",
+      "display" : "Beryllium-Krankheit, chronische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "134",
+      "display" : "Beta-Ketothiolase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "135",
+      "display" : "CACH-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "136",
+      "display" : "Zerebrale autosomal-dominante Arteriopathie mit subkortikalen Infarkten und Leukenzephalopathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "137",
+      "display" : "Kongenitale Glykosylierungsstörung"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138",
+      "display" : "CHARGE-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "139",
+      "display" : "CHILD-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "140",
+      "display" : "Dysplasie, kampomele"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "141",
+      "display" : "Canavan-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "142",
+      "display" : "Schilddrüsenkarzinom, anaplastisches"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "143",
+      "display" : "Nebenschilddrüsen-Karzinom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "144",
+      "display" : "Lynch-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "145",
+      "display" : "Brust- und/oder Ovarialkrebssyndrom, hereditäres"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "146",
+      "display" : "Schilddrüsenkarzinom, differenziertes"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "147",
+      "display" : "Carbamoyl-Phosphat-Synthetase 1-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "148",
+      "display" : "Multipler Carboxylase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "150",
+      "display" : "Nasopharynxkarzinom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "151",
+      "display" : "OBSOLET: Nierenzellkarzinom, familiäres",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "154",
+      "display" : "Kardiomyopathie, dilatative familiäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "155",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Kardiomyopathie, hypertrophe isolierte, familiäre Form",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "156",
+      "display" : "Carnitin-Palmitoyl-Transferase IA-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "157",
+      "display" : "Carnitin-Palmitoyl-Transferase II-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158",
+      "display" : "Carnitin-Mangel, primärer systemischer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "159",
+      "display" : "Carnitin-Acylcarnitin-Translokase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "160",
+      "display" : "Castleman-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "162",
+      "display" : "Syndrom der kongenitalen Katarakt mit Dysgenesie des vorderen Augensegmentes"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163",
+      "display" : "Hereditäre Hyperferritinämie-Katarakt-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "164",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Zerebrale kavernöse Fehlbildung",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "165",
+      "display" : "Neutralfett-Speicherkrankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "166",
+      "display" : "Charcot-Marie-Tooth-Krankheit/Hereditäre motorische und sensorische Neuropathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "167",
+      "display" : "Chédiak-Higashi-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168",
+      "display" : "Lose Anagenhaar-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "169",
+      "display" : "Ringelhaare"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "170",
+      "display" : "Wollhaare"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "171",
+      "display" : "Primäre sklerosierende Cholangitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "172",
+      "display" : "Cholestase, familiäre intrahepatische progressive"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "173",
+      "display" : "Cholera"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "174",
+      "display" : "Chondrodysplasie, metaphysäre, Typ Schmid"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "175",
+      "display" : "Knorpel-Haar-Hypoplasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "176",
+      "display" : "Chondrodysplasia punctata, nicht-rhizomeler Typ"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "177",
+      "display" : "Chondrodysplasia punctata, rhizomeler Typ"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "178",
+      "display" : "Chordom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "179",
+      "display" : "Chorioretinopathie Typ Birdshot"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180",
+      "display" : "Chorioideremie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "181",
+      "display" : "Dysplasie, ektodermale hypohidrotische, X-chromosomale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "182",
+      "display" : "Chromomykose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "183",
+      "display" : "Eosinophile Granulomatose mit Polyangiitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "184",
+      "display" : "Cherubismus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "185",
+      "display" : "Scimitar-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "186",
+      "display" : "Cholangitis, primär biliäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "187",
+      "display" : "Zitrullinämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "188",
+      "display" : "Capillary-Leak-Syndrom, systemisches"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "189",
+      "display" : "Dysplasie, ektodermale hidrotische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "190",
+      "display" : "Coats-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "191",
+      "display" : "Cockayne-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "192",
+      "display" : "Coffin-Lowry-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "193",
+      "display" : "Cohen-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "194",
+      "display" : "OBSOLET: Kolobom des Auges",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "195",
+      "display" : "Katzenaugensyndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "198",
+      "display" : "Okzipitalhorn-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "199",
+      "display" : "Cornelia de Lange-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "200",
+      "display" : "Corpus callosum-Agenesie, isolierte Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "201",
+      "display" : "Cowden-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "202",
+      "display" : "Crandall-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "204",
+      "display" : "Creutzfeldt-Jakob-Krankheit, sporadische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "205",
+      "display" : "Crigler-Najjar-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "206",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Crohn-Krankheit",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "207",
+      "display" : "Crouzon-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "209",
+      "display" : "Cutis laxa"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "210",
+      "display" : "Zyklosporiasis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "211",
+      "display" : "Zylindromatose, familiäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "212",
+      "display" : "Cystathioninurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "213",
+      "display" : "Cystinose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "214",
+      "display" : "Zystinurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "215",
+      "display" : "Nachtblindheit, kongenitale stationäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "216",
+      "display" : "Ceroid-Lipofuszinose, neuronale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "217",
+      "display" : "Dandy-Walker-Fehlbildung, isolierte"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "218",
+      "display" : "Darier-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "219",
+      "display" : "Delta-Sarkoglykan-assoziierte Gliedergürtelmuskeldystrophie R6"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "220",
+      "display" : "Denys-Drash-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "221",
+      "display" : "Dermatomyositis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "222",
+      "display" : "Erosiv-pustulöse Dermatose der Kopfhaut"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "223",
+      "display" : "Arginin-Vasopressin-Resistenz"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "224",
+      "display" : "Diabetes mellitus, neonataler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "225",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Maternal vererbter Diabetes mit Schwerhörigkeit",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "226",
+      "display" : "Dihydropteridinreduktase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "227",
+      "display" : "Diphallie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "229",
+      "display" : "Aortendissektion, familiäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "230",
+      "display" : "Dopamin-beta-Hydroxylase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "231",
+      "display" : "Drakunkulose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "232",
+      "display" : "Sichelzellkrankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "233",
+      "display" : "Duane-Retraktionssyndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "234",
+      "display" : "Dubin-Johnson-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "235",
+      "display" : "Dubowitz-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "236",
+      "display" : "Duplikation 9p partial"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "237",
+      "display" : "Urethra-Duplikation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "238",
+      "display" : "OBSOLET: Verdoppelung, gastrointestinale",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "239",
+      "display" : "Dyggve-Melchior-Clausen-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "240",
+      "display" : "Léri-Weill-Dyschondrosteose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "241",
+      "display" : "Dyschromatosis universalis hereditaria"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "242",
+      "display" : "46,XY-Gonadendysgenesie, vollständige"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "243",
+      "display" : "Gonadendysgenesie, 46, XX-Typ"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "244",
+      "display" : "Zilien-Dyskinesie, primäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "245",
+      "display" : "Nager-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "246",
+      "display" : "Dysostose, akrofaziale postaxiale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "247",
+      "display" : "Hereditäre arrhythmogene Kardiomyopathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "248",
+      "display" : "Dysplasie, ektodermale hypohidrotische, autosomal-rezessive"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "249",
+      "display" : "Knochendysplasie, fibröse"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "250",
+      "display" : "Dysplasie, fronto-nasale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "251",
+      "display" : "Dysplasie, epiphysäre multiple"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "252",
+      "display" : "OBSOLET: Dysplasie, spondyloepimetaphysäre",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "253",
+      "display" : "Spondyloepiphysäre und spondyloepimetaphysäre Dysplasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "254",
+      "display" : "Dysplasie, spondylometaphysäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "255",
+      "display" : "Dopa-sensitive Dystonie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "256",
+      "display" : "Früh beginnende generalisierte Dystonie der Extremitäten"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "257",
+      "display" : "Epidermolysis bullosa simplex mit Muskeldystrophie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "258",
+      "display" : "Muskeldystrophie, kongenitale, Typ 1A"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "261",
+      "display" : "Emery-Dreifuss Muskeldystrophie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "262",
+      "display" : "Duchenne- und Becker-Muskeldystrophie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "263",
+      "display" : "Gliedergürtelmuskeldystrophie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "264",
+      "display" : "Gliedergürtelmuskeldystrophie, autosomal-dominante, Typ 1B",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "265",
+      "display" : "Gliedergürtelmuskeldystrophie, autosomal-dominante, Typ 1C",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "266",
+      "display" : "Gliedergürtelmuskeldystrophie, autosomal-dominante, Typ 1A",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "267",
+      "display" : "Calpain-3-assoziierte Gliedergürtelmuskeldystrophie R1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "268",
+      "display" : "Dysferlin-assoziierte Gliedergürtelmuskeldystrophie R2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "269",
+      "display" : "Muskeldystrophie, fazio-skapulo-humerale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "270",
+      "display" : "Muskeldystrophie, okulopharyngeale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "272",
+      "display" : "Muskeldystrophie, kongenitale, Typ Fukuyama"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "273",
+      "display" : "Myotone Dystrophie Steinert"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "274",
+      "display" : "Bernard-Soulier-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "275",
+      "display" : "Immundefekt, kombinierter schwerer, durch DCLRE1C-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "276",
+      "display" : "Immundefekt, kombinierter schwerer, durch Gamma-Ketten-Defekt, T- B+"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "277",
+      "display" : "Immundefekt, kombinierter schwerer, durch Adenosin-Desaminase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "278",
+      "display" : "OBSOLET: Degeneration, kortiko-basale",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "279",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Makuladegeneration, altersabhängige",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "280",
+      "display" : "Wolf-Hirschhorn-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "281",
+      "display" : "5p-minus-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "282",
+      "display" : "Frontotemporale Demenz"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "283",
+      "display" : "Demodikose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "284",
+      "display" : "Echinokokkose, alveoläre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "285",
+      "display" : "Ehlers-Danlos-Syndrom, hypermobiler Typ"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "286",
+      "display" : "Ehlers-Danlos-Syndrom, vaskulärer Typ"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "287",
+      "display" : "Ehlers-Danlos-Syndrom, klassischer Typ"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "288",
+      "display" : "Elliptozytose, hereditäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "289",
+      "display" : "Ellis Van Creveld-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "290",
+      "display" : "Rötelnembryopathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "291",
+      "display" : "Varizellen-Syndrom, kongenitales"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "292",
+      "display" : "Enterovirus-Infektion, kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "293",
+      "display" : "Herpes simplex-Virusinfektion, kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "294",
+      "display" : "Fetales Zytomegalie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "295",
+      "display" : "Parvovirus-Embryopathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "296",
+      "display" : "Ollier-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "297",
+      "display" : "Zeckenenzephalitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "298",
+      "display" : "Enzephalomyopathie, mitochondriale neurogastrointestinale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "300",
+      "display" : "D-bifunktionales Enzym-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "301",
+      "display" : "Tumor, ependymaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "302",
+      "display" : "Epidermodysplasia verruciformis, hereditäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "303",
+      "display" : "Epidermolysis bullosa, dystrophe"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "304",
+      "display" : "Epidermolysis bullosa simplex"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "305",
+      "display" : "Epidermolysis bullosa, junktionale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "306",
+      "display" : "Selbstlimitierende infantile Epilepsie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "307",
+      "display" : "Myoklonusepilepsie, juvenile"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "308",
+      "display" : "Epilepsie, myoklonische progressive, Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "309",
+      "display" : "Epilepsie, familiäre partielle"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "310",
+      "display" : "Reflexepilepsie, genetisch-bedingte"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "312",
+      "display" : "Ichthyose, epidermolytische, autosomal-dominante"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "313",
+      "display" : "Ichthyose, lamelläre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "314",
+      "display" : "Erythroderma desquamativa"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "315",
+      "display" : "Erythrokeratoderma en cocardes Degos"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "316",
+      "display" : "Erythrokeratodermie, progressive symmetrische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "317",
+      "display" : "Erythrokeratodermia variabilis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "318",
+      "display" : "Akute Erythroleukämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "319",
+      "display" : "Ewing-Sarkom, skelettales"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "320",
+      "display" : "Apparenter Mineralocorticoid Exzess"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "321",
+      "display" : "Osteochondrome, multiple"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "322",
+      "display" : "Ekstrophie-Epispadie-Komplex"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "323",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: FG-Syndrom-Spektrum",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "324",
+      "display" : "Fabry-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325",
+      "display" : "Faktor II-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "326",
+      "display" : "Faktor V-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "327",
+      "display" : "Faktor VII-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "328",
+      "display" : "Faktor X-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "329",
+      "display" : "Faktor XI-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "330",
+      "display" : "Faktor XII-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "331",
+      "display" : "Faktor XIII-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "332",
+      "display" : "Intrinsic-Faktor-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "333",
+      "display" : "Farber-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "334",
+      "display" : "Vorhofflimmern, familiäres"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "335",
+      "display" : "Fibrinogen-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "336",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Fibromuskuläre Dysplasie der Arterien",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "337",
+      "display" : "Fibrodysplasia ossificans progressiva"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "338",
+      "display" : "Fibrofollikulom, familiäres multiples",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "340",
+      "display" : "Hämorrhagisches Fieber mit renalem Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "341",
+      "display" : "Virales hämorrhagische Fieber"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "342",
+      "display" : "Mittelmeerfieber, familiäres"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "343",
+      "display" : "Hyperimmunglobulinämie D mit Rückfallfieber"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "344",
+      "display" : "OBSOLET: Arbovirus-Fieber",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "345",
+      "display" : "Dissezierende Zellulitis der Kopfhaut"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "346",
+      "display" : "Folliculitis decalvans Quinquaud"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "347",
+      "display" : "Frasier-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "348",
+      "display" : "Fruktose-1,6-Bisphosphatase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "349",
+      "display" : "Fukosidose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "351",
+      "display" : "Galaktosialidose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "352",
+      "display" : "Galaktosämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "353",
+      "display" : "Gamma-Sarkoglykan-assoziierte Gliedergürtelmuskeldystrophie R5"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "354",
+      "display" : "GM1-Gangliosidose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "355",
+      "display" : "Gaucher-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "356",
+      "display" : "Gerstmann-Sträussler-Scheinker-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "357",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Gilbert-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "358",
+      "display" : "Gitelman-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "359",
+      "display" : "Glaukom, genetisch bedingtes, mit Beginn im Kindesalter"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "360",
+      "display" : "Glioblastom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "361",
+      "display" : "Glukokortikoid-Mangel, familiärer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "362",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Glukose-6-Phosphat-Dehydrogenase-Mangel",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "364",
+      "display" : "Glykogenose Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "365",
+      "display" : "Glykogenose Typ 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "366",
+      "display" : "Glykogenose Typ 3"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "367",
+      "display" : "Glykogenose Typ 4"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "368",
+      "display" : "Glykogenose Typ 5"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "369",
+      "display" : "Glykogenose Typ 6"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "370",
+      "display" : "Glykogenose durch Phosphorylase-Kinase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "371",
+      "display" : "Glykogenose Typ 7"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "373",
+      "display" : "Simpson-Golabi-Behmel-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "374",
+      "display" : "Goldenhar-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "375",
+      "display" : "Antikörper vermittelte Krankheit der glomerulären Basalmembran"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "376",
+      "display" : "Gordon-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "377",
+      "display" : "Gorlin-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "378",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Sjögren-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "379",
+      "display" : "Granulomatose, chronische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "380",
+      "display" : "Greig-Zephalopolysyndaktylie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "381",
+      "display" : "Griscelli-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "382",
+      "display" : "Guanidinoacetat-Methyltransferase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "383",
+      "display" : "X-chromosomale gemischte Schwerhörigkeit mit Perilymphfistel",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "384",
+      "display" : "Huriez-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "385",
+      "display" : "Neurodegeneration mit Eisenspeicherung im Gehirn"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "386",
+      "display" : "Zystisches Leberhamartom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "387",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Hidradenitis suppurativa",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "388",
+      "display" : "Hirschsprung-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "389",
+      "display" : "Langerhans-Zell-Histiozytose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "390",
+      "display" : "Histoplasmose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "391",
+      "display" : "Hodgkin-Lymphom, klassisches"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "392",
+      "display" : "Holt-Oram-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "393",
+      "display" : "46,XX testikuläre Störung der Geschlechtsentwicklung"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "394",
+      "display" : "Homocystinurie durch Cystathionin-beta-Synthase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "395",
+      "display" : "Homocystinurie durch Methylen-Tetrahydrofolat-Reduktase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "396",
+      "display" : "Singultus, chronischer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "397",
+      "display" : "Riesenzell-Arteriitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "399",
+      "display" : "Huntington-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "400",
+      "display" : "Zystische Echinokokkose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "401",
+      "display" : "Hymenolepiasis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "403",
+      "display" : "Hyperaldosteronismus, familiärer, Typ I"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "404",
+      "display" : "Hyperaldosteronismus, familiärer, Typ II"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "405",
+      "display" : "Hyperkalzämie, familiäre hypokalziurische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "406",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Hypercholesterinämie, heterozygote, familiäre Form",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "407",
+      "display" : "Glycin-Enzephalopathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "408",
+      "display" : "Glycerol-Kinase-Mangel, isolierter"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "409",
+      "display" : "Hyperkeratosis lenticularis perstans"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "411",
+      "display" : "Hyperlipoproteinämie Typ 1",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "412",
+      "display" : "Dysbetalipoproteinämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "413",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Hyperlipoproteinämie Typ 4",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "414",
+      "display" : "Atrophia gyrata der Chorioidea und Retina"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "415",
+      "display" : "Hyperornithinämie-Hyperammonämie-Homocitrullinurie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "416",
+      "display" : "Hyperoxalurie, primäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "417",
+      "display" : "Hyperparathyroidismus, neonataler primärer schwerer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "418",
+      "display" : "Nebennierenhyperplasie, kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "419",
+      "display" : "Hyperprolinämie Typ I"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "422",
+      "display" : "Pulmonale arterielle Hypertonie, idiopathische/hereditäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "423",
+      "display" : "Maligne Hyperthermie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "424",
+      "display" : "Hyperthyreose durch TSH-Rezeptor-Genmutationen, familiäre Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "425",
+      "display" : "Apolipoprotein A-I-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "426",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Hypobetalipoproteinämie, familiäre",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "427",
+      "display" : "Hypoaldosteronismus, familiärer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "428",
+      "display" : "Hypokalzämie, autosomal-dominante"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "429",
+      "display" : "Hypochondroplasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "430",
+      "display" : "OBSOLET: Hypodermyasis",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "431",
+      "display" : "Ichthyose und männlicher Hypogonadismus",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "432",
+      "display" : "Hypogonadismus, hypogonadotroper normosmischer, kongenitale Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "435",
+      "display" : "OBSOLET: Hypomelanose Typ Ito",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "436",
+      "display" : "Hypophosphatasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "437",
+      "display" : "Hypophosphatämische Rachitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "439",
+      "display" : "Rechtsventrikuläre Hypoplasie, isolierte Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "440",
+      "display" : "OBSOLET: Hypospadie, familäre",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "441",
+      "display" : "Dysautonomie, reine"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "442",
+      "display" : "Hypothyreose, kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "444",
+      "display" : "Hypotrichose, hereditäre, Typ Marie Unna"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "446",
+      "display" : "Hämochromatose, neonatale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "447",
+      "display" : "Hämoglobinurie, nächtliche paroxysmale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "448",
+      "display" : "Hämophilie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "449",
+      "display" : "Hepatoblastom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "450",
+      "display" : "Heterotaxie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "452",
+      "display" : "X-chromosomale Lissenzephalie mit Genitalanomalien"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "453",
+      "display" : "IBIDS-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "454",
+      "display" : "Ichthyose, erworbene"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "455",
+      "display" : "Ichthyose, epidermolytische superfizielle"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "457",
+      "display" : "Harlekin-Ichthyose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "461",
+      "display" : "Ichthyose, X-chromosomal-rezessive"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "462",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Ichthyosis vulgaris, autosomal-dominante",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "463",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Inzidentalom, adrenales",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "464",
+      "display" : "Incontinentia pigmenti"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "465",
+      "display" : "Plasminogenaktivator-Inhibitor Typ 1-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "466",
+      "display" : "Insomnie, familiäre fatale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "467",
+      "display" : "Hypophysenhormon-Mangel, kombinierter, nicht-erworbener"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "469",
+      "display" : "Fruktoseintoleranz, hereditäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "470",
+      "display" : "Lysinurische Proteinintoleranz (LPI)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "472",
+      "display" : "Isosporiasis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "474",
+      "display" : "Jeune-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "475",
+      "display" : "Joubert-Syndrom, isoliertes"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "477",
+      "display" : "KID-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "478",
+      "display" : "Kallmann-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "480",
+      "display" : "Kearns-Sayre-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "481",
+      "display" : "Kennedy-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "482",
+      "display" : "Kimura-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "483",
+      "display" : "High-Molecular-Weight Kininogen-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "484",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Klinefelter-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "485",
+      "display" : "Kniest-Dysplasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "486",
+      "display" : "Neutropenie, kongenitale schwere, autosomal-dominante"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "487",
+      "display" : "Krabbe-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "488",
+      "display" : "Urachuszyste"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "489",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Thyreoglossus-Zyste",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "490",
+      "display" : "Zyste, omphalomesenterische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "492",
+      "display" : "Trichilemmalzyste, proliferierende"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "493",
+      "display" : "Keratoakanthom, familiäres"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "494",
+      "display" : "Keratoderma hereditarium mutilans"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "495",
+      "display" : "Keratoderma palmoplantaris transgrediens et progrediens"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "496",
+      "display" : "Palmoplantarkeratose Unna-Thost",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "498",
+      "display" : "Keratosis pilaris rubra atrophicans"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "499",
+      "display" : "Kerion Celsi"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "500",
+      "display" : "Noonan-Syndrom mit multiplen Lentigines"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "501",
+      "display" : "Lafora-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "502",
+      "display" : "Tricho-rhino-phalangeales-Syndrom Typ 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "503",
+      "display" : "Larsen-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "504",
+      "display" : "Myiasis, migratorische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "505",
+      "display" : "Graham Little-Piccardi-Lassueur-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "506",
+      "display" : "Leigh-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "507",
+      "display" : "Leishmaniose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "508",
+      "display" : "Donohue-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "509",
+      "display" : "Leptospirose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "510",
+      "display" : "Lesch-Nyhan-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "511",
+      "display" : "Ahornsirup-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "512",
+      "display" : "Leukodystrophie, metachromatische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "513",
+      "display" : "Leukämie, akute lymphoblastische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "514",
+      "display" : "Leukämie, akute monoblastische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "517",
+      "display" : "Myelomonozytenleukämie, akute"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "518",
+      "display" : "Akute Megakaryoblastenleukämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "519",
+      "display" : "Leukämie, akute myeloische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "520",
+      "display" : "Promyelozytenleukämie, akute"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "521",
+      "display" : "Leukämie, chronische myeloische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "523",
+      "display" : "Hereditäre Leiomyomatose mit Nierenzellkrebs"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "524",
+      "display" : "Li-Fraumeni-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "525",
+      "display" : "Lichen planopilaris"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "526",
+      "display" : "Liddle-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "528",
+      "display" : "Lipodystrophie, generalisierte kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "529",
+      "display" : "Lipomatose, mesosomatische, Typ Roch-Leri",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "530",
+      "display" : "Lipoidproteinose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "531",
+      "display" : "Miller-Dieker-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "533",
+      "display" : "Listeriose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "534",
+      "display" : "Okulo-zerebro-renales Syndrom Lowe"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "535",
+      "display" : "Lupus erythematodes, kutaner seltener"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "536",
+      "display" : "Lupus erythematodes, systemischer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "537",
+      "display" : "Toxische epidermale Nekrolyse"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "538",
+      "display" : "Lymphangioleiomyomatose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "540",
+      "display" : "Lymphohistiozytose, hämophagozytische, familiäre Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "541",
+      "display" : "Primär kutane CD30-positive T-Zell-Lymphoproliferation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "542",
+      "display" : "Lymphom, kutanes primäres"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "543",
+      "display" : "Burkitt-Lymphom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "544",
+      "display" : "B-Zell-Lymphom, diffuses großzelliges"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "545",
+      "display" : "Lymphom, follikuläres"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "547",
+      "display" : "Non-Hodgkin-Lymphom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "548",
+      "display" : "Lepra"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "549",
+      "display" : "Legionärskrankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "550",
+      "display" : "MELAS"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "551",
+      "display" : "MERRF"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "552",
+      "display" : "MODY"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "553",
+      "display" : "OBSOLET: Cushing-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "555",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Zöliakie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "556",
+      "display" : "Malakoplasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "557",
+      "display" : "Anorektale Fehlbildung, nicht-syndromale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "558",
+      "display" : "Marfan-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "559",
+      "display" : "Marinesco-Sjögren-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "560",
+      "display" : "Marshall-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "561",
+      "display" : "Marshall-Smith-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "562",
+      "display" : "McCune-Albright-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "563",
+      "display" : "Kardiomyopathie, peripartale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "564",
+      "display" : "Meckel-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "565",
+      "display" : "Menkes-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "566",
+      "display" : "Mikrokorie, kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "567",
+      "display" : "22q11.2-Deletionssyndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "568",
+      "display" : "Mikrophthalmie Typ Lenz"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "569",
+      "display" : "Migräne, hemiplegische, familiäre oder sporadische Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "570",
+      "display" : "Moebius-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "572",
+      "display" : "Immundefekt durch MHC Klasse II-Expressionsdefekt"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "573",
+      "display" : "Monilethrix"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "574",
+      "display" : "21q-Deletionssyndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "575",
+      "display" : "Muckle-Wells-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "576",
+      "display" : "Mukolipidose Typ II"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "577",
+      "display" : "Mukolipidose Typ III"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "578",
+      "display" : "Mukolipidose Typ IV"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "579",
+      "display" : "Mukopolysaccharidose Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "580",
+      "display" : "Mukopolysaccharidose Typ 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "581",
+      "display" : "Mukopolysaccharidose Typ 3"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "582",
+      "display" : "Mukopolysaccharidose Typ 4"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "583",
+      "display" : "Mukopolysaccharidose Typ 6"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "584",
+      "display" : "Mukopolysaccharidose Typ 7"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "585",
+      "display" : "Sulfatase-Mangel, multipler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "586",
+      "display" : "Zystische Fibrose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "587",
+      "display" : "Muir-Torre-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "588",
+      "display" : "Muskel-Augen-Gehirn-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "589",
+      "display" : "Myasthenia gravis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "590",
+      "display" : "Kongenitales myasthenes Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "591",
+      "display" : "Furunkuloide Myiasis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "592",
+      "display" : "Makrophagische Myofasziitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "593",
+      "display" : "Myopathie, myofibrilläre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "595",
+      "display" : "Myopathie, zentronukleäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "596",
+      "display" : "Myopathie, zentronukleäre, X-chromosomale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "597",
+      "display" : "Central-Core-Myopathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "598",
+      "display" : "Multiminicore-Myopathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "599",
+      "display" : "Myopathie, distale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "600",
+      "display" : "Distale Myopathie mit Stimmband- und\u00a0Pharynxschwäche"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "602",
+      "display" : "GNE-Myopathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "603",
+      "display" : "Myopathie, distale, Typ Welander"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "606",
+      "display" : "Myopathie, myotone proximale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "607",
+      "display" : "Nemalin-Myopathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "609",
+      "display" : "Muskeldystrophie, tibiale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "610",
+      "display" : "Bethlem-Muskeldystrophie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "611",
+      "display" : "Einschlusskörper-Myositis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "612",
+      "display" : "Myotonie, Kalium-sensitive"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "614",
+      "display" : "Myotonia congenita Typ Thomsen und Becker"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "615",
+      "display" : "Myxom, atriales familiäres"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "616",
+      "display" : "Medulloblastom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "617",
+      "display" : "Megaureter, kongenitaler primärer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "618",
+      "display" : "Melanom, familiäres"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "619",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Ovarialinsuffizienz, primäre",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "620",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Mesenterium commune",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "621",
+      "display" : "Methämoglobinämie, hereditäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "622",
+      "display" : "Homocystinurie ohne Methylmalonazidurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "623",
+      "display" : "NAME-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "624",
+      "display" : "Familiäre multiple Naevi flammei"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "625",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Muttermal, atypisches",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "626",
+      "display" : "Großer/riesiger kongenitaler melanozytärer Naevus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "627",
+      "display" : "Nance-Horan-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "628",
+      "display" : "Dysplasie, diastrophe"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "629",
+      "display" : "Kleinwuchs durch qualitative Wachstumshormonanomalien"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "631",
+      "display" : "Wachstumshormonmangel, isolierter, nicht erworbener"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "632",
+      "display" : "Kleinwuchs durch isolierten Wachstumshormonmangel mit X-chromosomaler Hypogammaglobulinämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "633",
+      "display" : "Laron-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "634",
+      "display" : "Netherton-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "635",
+      "display" : "Neuroblastom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "636",
+      "display" : "Neurofibromatose Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "637",
+      "display" : "Schwannomatose, NF2-assoziierte"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "638",
+      "display" : "Neurofibromatose-Noonan-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "639",
+      "display" : "Polyneuropathie mit monoklonaler IgM-Gammopathie mit Anti-MAG",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "640",
+      "display" : "Hereditäre Neuropathie mit Neigung zu Drucklähmungen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "641",
+      "display" : "Multifokale motorische Neuropathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "642",
+      "display" : "Neuropathie, autonome hereditäre sensorische, Typ 4"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "643",
+      "display" : "Riesenaxon-Neuropathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "644",
+      "display" : "NARP-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "646",
+      "display" : "Niemann-Pick-Krankheit Typ C"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "647",
+      "display" : "Nijmegen-Chromosomenbruch-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "648",
+      "display" : "Noonan-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "649",
+      "display" : "Norrie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "650",
+      "display" : "LCAT-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "651",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: idiopathischer infantiler Nystagmus",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "652",
+      "display" : "Neoplasie, endokrine multiple, Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "653",
+      "display" : "Neoplasie, endokrine multiple, Typ 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "654",
+      "display" : "Nephroblastom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "655",
+      "display" : "Nephronophthise"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "656",
+      "display" : "Nephrotisches Syndrom, steroid-resistentes, hereditäres"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "657",
+      "display" : "Hyperinsulinismus, isolierter, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "658",
+      "display" : "Angioödem, nicht-Histamin-vermitteltes"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "659",
+      "display" : "Mutilierende Palmoplantarkeratose mit periorifiziellen keratotischen Plaques"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "660",
+      "display" : "Omphalozele"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "661",
+      "display" : "Kongenitales zentrales Hypoventilationssyndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "662",
+      "display" : "Lymphödem mit gelben Nägeln"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "663",
+      "display" : "Ophthalmoplegie, chronische externe progressive, maternal-vererbte"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "664",
+      "display" : "Ornithin-Transcarbamylase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "665",
+      "display" : "Albright-Osteodystrophie, hereditäre",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "666",
+      "display" : "Osteogenesis imperfecta"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "667",
+      "display" : "Osteopetrose, maligne, autosomal-rezessive Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "668",
+      "display" : "Osteosarkom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "669",
+      "display" : "OBSOLET: Oto-palato-digitales Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "670",
+      "display" : "PIBIDS-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "671",
+      "display" : "Cutis verticis gyrata, primäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "672",
+      "display" : "Pallister-Hall-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "673",
+      "display" : "Malaria"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "674",
+      "display" : "Pankreas, akzessorisches"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "675",
+      "display" : "Pankreas anularis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "676",
+      "display" : "Pankreatitis, chronische hereditäre, autosomal-dominante"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "677",
+      "display" : "Pankreasblastom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "678",
+      "display" : "Papillon-Lefèvre-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "679",
+      "display" : "Papulose, atrophische maligne"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "680",
+      "display" : "Paralyse, normokaliämische periodische",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "681",
+      "display" : "Paralyse, hypokaliämische periodische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "682",
+      "display" : "Paralyse, hyperkaliämische periodische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "683",
+      "display" : "Progressive supranukleäre Blickparese"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "684",
+      "display" : "Paramyotonia congenita Eulenburg"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "685",
+      "display" : "Hereditäre spastische Paraplegie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "699",
+      "display" : "Pearson-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "700",
+      "display" : "Alopecia totalis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "701",
+      "display" : "Alopecia universalis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "702",
+      "display" : "Pelizaeus-Merzbacher-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "703",
+      "display" : "Pemphigoid, bullöses"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "704",
+      "display" : "Pemphigus vulgaris"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "705",
+      "display" : "Pendred-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "706",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Persistierender Ductus arteriosus",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "707",
+      "display" : "Pest"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "708",
+      "display" : "Peters-Anomalie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "709",
+      "display" : "Peters plus-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "710",
+      "display" : "Pfeiffer-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "711",
+      "display" : "Glykogenose Typ 14",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "712",
+      "display" : "Hämolytische Anämie durch Glukosephosphat-Isomerase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "713",
+      "display" : "Glykogenose durch Phosphoglycerat-Kinase 1-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "714",
+      "display" : "Hämolytische Anämie durch Diphosphoglycerat-Mutase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "715",
+      "display" : "Glykogenose durch muskulären Phosphorylasekinase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "716",
+      "display" : "Phenylketonurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "717",
+      "display" : "OBSOLET: Katecholamin-produzierender Tumor",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "718",
+      "display" : "Pierre-Robin-Sequenz, isolierte"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "719",
+      "display" : "OBSOLET: Pili canulati",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "720",
+      "display" : "Pili bifurcati"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "721",
+      "display" : "Gray-platelet-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "722",
+      "display" : "Hypoplasminogenämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "723",
+      "display" : "Pneumozystose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "724",
+      "display" : "Pneumonie, eosinophile idiopathische, akute Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "725",
+      "display" : "Epilepsie mit kontinuierlichen Spike-Wave-Entladungen im Schlaf"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "726",
+      "display" : "Alpers-Huttenlocher-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "727",
+      "display" : "Polyangiitis, mikroskopische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "728",
+      "display" : "Polychondritis, rezidivierende"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "729",
+      "display" : "Polycythaemia vera"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "730",
+      "display" : "Nierenkrankheit, polyzystische, autosomal-dominante"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "731",
+      "display" : "Nierenkrankheit, polyzystische, autosomal-rezessive"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "732",
+      "display" : "Polymyositis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "733",
+      "display" : "Polyposis, adenomatöse familiäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "734",
+      "display" : "Alpha- und Delta-Thrombozytengranula-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "735",
+      "display" : "Porokeratosis Mibelli"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "736",
+      "display" : "Porokeratose, palmoplantare, Typ Mantoux",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "737",
+      "display" : "Porokeratosis plantaris palmaris et disseminata"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "738",
+      "display" : "Porphyrie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "739",
+      "display" : "Prader-Willi-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "740",
+      "display" : "Hutchinson-Gilford-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "741",
+      "display" : "Mitralklappenprolaps, familiärer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "742",
+      "display" : "Prolidase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "743",
+      "display" : "Schwere hereditäre Thrombophilie durch kongenitalen Protein-S-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "744",
+      "display" : "Proteus-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "745",
+      "display" : "Schwere hereditäre Thrombophilie durch kongenitalen Protein-C-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "746",
+      "display" : "Defekt des mitochondrialen trifunktionalen Proteins"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "747",
+      "display" : "Pulmonale Alveolarproteinose, autoimmune"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "748",
+      "display" : "Suszeptibilität für Mykobakteriosen, familiäre Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "749",
+      "display" : "Präkallikrein-Mangel, kongenitaler"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "750",
+      "display" : "Pseudoachondroplasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "751",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Pseudoarylsulfatase A-Mangel",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "752",
+      "display" : "Störung der Geschlechtsentwicklung 46,XY, durch 17-beta-Hydroxysteroid-Dehydrogenase 3-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "753",
+      "display" : "Störung der Geschlechtsentwicklung 46,XY, durch 5-Alpha-Reduktase 2-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "754",
+      "display" : "Androgeninsensitivitätssyndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "755",
+      "display" : "Leydig-Zell-Hypoplasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "756",
+      "display" : "Pseudohypoaldosteronismus Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "757",
+      "display" : "Pseudohypoaldosteronismus Typ 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "758",
+      "display" : "Pseudoxanthoma elasticum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "759",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Pubertas praecox, zentrale",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "760",
+      "display" : "Purin-Nukleosid-Phosphorylase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "761",
+      "display" : "Immunoglobulin A-Vaskulitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "763",
+      "display" : "Pyknodysostose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "764",
+      "display" : "Pyomyositis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "765",
+      "display" : "Pyruvat-Dehydrogenase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "766",
+      "display" : "Hämolytische Anämie durch Mangel der erythrozytären Pyruvatkinase"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "767",
+      "display" : "Polyarteriitis nodosa"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "768",
+      "display" : "Long-QT-Syndrom, kongenitales"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "769",
+      "display" : "Rabson-Mendenhall-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "770",
+      "display" : "Tollwut"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "771",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Colitis ulcerosa",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "772",
+      "display" : "Refsum-Krankheit, infantile Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "773",
+      "display" : "Refsum-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "774",
+      "display" : "Hereditäre hämorrhagische Teleangiektasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "775",
+      "display" : "OBSOLET: Intelligenzminderung, X-chromosomale, Typ Martinez",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "776",
+      "display" : "Lujan-Fryns-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "777",
+      "display" : "Intelligenzminderung, nicht-syndromale, X-chromosomale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "778",
+      "display" : "Rett-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "779",
+      "display" : "Reynolds-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "780",
+      "display" : "Rhabdomyosarkom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "781",
+      "display" : "Q-Fieber"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "782",
+      "display" : "Axenfeld-Rieger-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "783",
+      "display" : "Rubinstein-Taybi-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "785",
+      "display" : "Östrogen-Resistenz-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "786",
+      "display" : "Glukokortikoid-Resistenz, generalisierte"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "790",
+      "display" : "Retinoblastom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "791",
+      "display" : "Retinitis pigmentosa"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "792",
+      "display" : "Retinoschisis, X-chromosomale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "793",
+      "display" : "SAPHO-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "794",
+      "display" : "Saethre-Chotzen-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "795",
+      "display" : "Seltene Form der Salmonellose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "796",
+      "display" : "Sandhoff-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "797",
+      "display" : "Sarkoidose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "798",
+      "display" : "Schinzel-Giedion-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "799",
+      "display" : "Schizenzephalie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "800",
+      "display" : "Schwartz-Jampel-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "801",
+      "display" : "Sklerodermie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "802",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Multiple Sklerose",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "803",
+      "display" : "Amyotrophe Lateralsklerose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "805",
+      "display" : "Tuberöse Sklerose Komplex"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "806",
+      "display" : "Scott-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "807",
+      "display" : "Sebastian-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "808",
+      "display" : "Seckel-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "809",
+      "display" : "Mischkollagenose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "810",
+      "display" : "Shigellose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "811",
+      "display" : "Shwachman-Diamond-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "812",
+      "display" : "Sialidose Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "813",
+      "display" : "Silver-Russell-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "816",
+      "display" : "Sjögren-Larsson-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "817",
+      "display" : "Peeling Skin-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "818",
+      "display" : "Smith-Lemli-Opitz-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "819",
+      "display" : "Smith-Magenis-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "820",
+      "display" : "Sneddon-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "821",
+      "display" : "Sotos-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "822",
+      "display" : "Sphärozytose, hereditäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "823",
+      "display" : "Spina bifida und weitere spinale Dysraphien"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "824",
+      "display" : "Primäre Myelofibrose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "825",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Spondylarthritis, ankylosierende",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "826",
+      "display" : "Sporotrichose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "827",
+      "display" : "Stargardt-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "828",
+      "display" : "Stickler-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "829",
+      "display" : "Still-Syndrom des Erwachsenen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "830",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Stukkokeratose",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "831",
+      "display" : "Zervikale Spinalkanalstenose, kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "832",
+      "display" : "Succinyl-CoA:3-Ketosäure-CoA-Transferase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "833",
+      "display" : "Enzephalopathie durch Sulfitoxidase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "834",
+      "display" : "Sialinsäure-Speicherkrankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "838",
+      "display" : "Susac-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "839",
+      "display" : "Nephrotisches Syndrom, kongenitales, finnischer Typ"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "840",
+      "display" : "Syringocystadenoma papilliferum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "841",
+      "display" : "Sebozystomatose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "842",
+      "display" : "Testikulärer Keimzelltumor, seminomatöser"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "844",
+      "display" : "OBSOLET: Lown-Ganong-Levine-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "845",
+      "display" : "Tay-Sachs-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "846",
+      "display" : "Alpha-Thalassämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "847",
+      "display" : "Alpha-Thalassämie-X-chromosomale Intelligenzminderung-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "848",
+      "display" : "Beta-Thalassämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "849",
+      "display" : "Thrombasthenie Glanzmann"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "850",
+      "display" : "Thrombozytopenie May-Hegglin",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "851",
+      "display" : "Paris-Trousseau-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "852",
+      "display" : "Thrombozytopenie, X-chromosomale, mit normalen Plättchen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "853",
+      "display" : "Alloimmunthrombozytopenie, fetale und neonatale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "854",
+      "display" : "Pfortaderthrombose, nicht-maligne und nicht-zirrhotische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "855",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Hashimoto-Thyreoiditis",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "856",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Tourette-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "857",
+      "display" : "Townes-Brocks-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "858",
+      "display" : "Toxoplasmose, kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "859",
+      "display" : "Transcobalamin II-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "860",
+      "display" : "Kongenitale unkorrigierte Transposition der großen Arterien"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "861",
+      "display" : "Treacher-Collins-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "862",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Tremor, essentieller hereditärer",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "863",
+      "display" : "Trichinellose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "864",
+      "display" : "Trichofollikulom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "867",
+      "display" : "Trichoepitheliom, familiäres multiples"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "868",
+      "display" : "Triosephosphat-Isomerase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "869",
+      "display" : "Triple-A-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "870",
+      "display" : "Down-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "871",
+      "display" : "Familiäre progressive kardiale Reizleitungsstörungen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "872",
+      "display" : "OBSOLET: Störung der hormonellen Synthese mit oder ohne Kropf",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "873",
+      "display" : "Desmoidtumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "874",
+      "display" : "Herztumor, primärer, des Erwachsenen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "875",
+      "display" : "Herztumor, primärer, des Kindes"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "876",
+      "display" : "Dottersacktumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "877",
+      "display" : "Neuroendokrine Neoplasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "879",
+      "display" : "Tungiasis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "881",
+      "display" : "Turner-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "882",
+      "display" : "Tyrosinämie Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "883",
+      "display" : "Teratom, extragonadales"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "884",
+      "display" : "Pallister-Killian-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "886",
+      "display" : "Usher-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "887",
+      "display" : "VACTERL/VATER-Assoziation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "888",
+      "display" : "Van-der-Woude-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "889",
+      "display" : "Kutane Vaskulitis kleiner Gefäße"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "890",
+      "display" : "Lebervenen-Verschlusskrankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "891",
+      "display" : "Retinopathie, exsudative familiäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "892",
+      "display" : "Von-Hippel-Lindau-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "893",
+      "display" : "WAGR-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "894",
+      "display" : "Waardenburg-Syndrom Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "895",
+      "display" : "Waardenburg-Syndrom Typ 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "896",
+      "display" : "Waardenburg-Syndrom Typ 3"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "897",
+      "display" : "Waardenburg-Shah-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "898",
+      "display" : "Wagner-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "899",
+      "display" : "Walker-Warburg-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "900",
+      "display" : "Granulomatose mit Polyangiitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "901",
+      "display" : "Wells-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "902",
+      "display" : "Werner-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "903",
+      "display" : "Von-Willebrand-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "904",
+      "display" : "Williams-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "905",
+      "display" : "Wilson-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "906",
+      "display" : "Wiskott-Aldrich-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "907",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Wolff-Parkinson-White-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "908",
+      "display" : "Fragiles X-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "909",
+      "display" : "Xanthomatose, zerebrotendinöse"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "910",
+      "display" : "Xeroderma pigmentosum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "911",
+      "display" : "Immundefekt, kombinierter, durch ZAP70-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "912",
+      "display" : "Zellweger-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "913",
+      "display" : "Zollinger-Ellison-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "915",
+      "display" : "Aarskog-Scott-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "916",
+      "display" : "Aase-Smith-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "918",
+      "display" : "ABCD-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "920",
+      "display" : "Ablepharon-Makrostomie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "921",
+      "display" : "Abruzzo-Erickson-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "922",
+      "display" : "Syndrom der fehlenden Nasenzilien, familiäre Form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "924",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Acanthosis nigricans",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "926",
+      "display" : "Akatalasämie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "927",
+      "display" : "Hyperammonämie durch N-Acetylglutamat-Synthetase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "929",
+      "display" : "Achalasie - Mikrozephalie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "930",
+      "display" : "Achalasie, idiopathische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "931",
+      "display" : "Acheiropodie, isolierte"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "932",
+      "display" : "Achondrogenesie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "935",
+      "display" : "Skelettdysplasie mit verkürzten Extremitäten und schwerem kombinierten Immundefekt"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "936",
+      "display" : "Bernsteinsäure-Krankheit",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "939",
+      "display" : "3-Hydroxy-Isobuttersäure-Krankheit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "941",
+      "display" : "D-Glycerat-Kinase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "943",
+      "display" : "Malonazidurie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "945",
+      "display" : "Akranie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "946",
+      "display" : "OBSOLET: Akrozephalosyndaktylie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "949",
+      "display" : "Dysostose, akro-kranio-faziale",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "950",
+      "display" : "Akrodysostose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "952",
+      "display" : "Dysostose, akrofaziale, Typ Weyers"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "953",
+      "display" : "OBSOLET: Dysplasie, akromesomele, Typ Brahimi-Bacha",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "955",
+      "display" : "Hajdu-Cheney-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "956",
+      "display" : "Akro-pektoro-renale Dysplasie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "957",
+      "display" : "Dysplasie, akro-pectoro-vertebrale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "958",
+      "display" : "Akro-reno-mandibuläres Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "959",
+      "display" : "Akro-reno-okuläres Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "963",
+      "display" : "Akromegalie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "964",
+      "display" : "Akromegalie-Cutis verticis gyrata-Kornea-Leukom-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "965",
+      "display" : "Syndrom der akromegalen Gesichtszüge",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "966",
+      "display" : "Syndrom des akromegaloiden Gesichtes mit Hypertrichose",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "968",
+      "display" : "Dysplasie, akromesomele, Typ Hunter-Thompson"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "969",
+      "display" : "Dysplasie, akromikrische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "970",
+      "display" : "Neuropathie, autonome hereditäre sensorische, Typ 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "971",
+      "display" : "Akrorenales Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "972",
+      "display" : "Muskuläre Daueraktivität, hereditäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "973",
+      "display" : "Isolierte unilaterale Fingeraplasie/-hypoplasie, excl. Daumen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "974",
+      "display" : "Adams-Oliver-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "976",
+      "display" : "Adenin-Phosphoribosyl-Transferase-Mangel"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "977",
+      "display" : "Adrenomyodystrophie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "978",
+      "display" : "ADULT-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "980",
+      "display" : "Fehlen der Pulmonalarterie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "981",
+      "display" : "Fehlen der Arteria carotis interna"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "982",
+      "display" : "Pulmonalklappenagenesie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "983",
+      "display" : "Testikuläres Regressionssyndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "984",
+      "display" : "Lungenagenesie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "988",
+      "display" : "Tibia-Hemimelie-Polysyndaktylie-triphalangealer Daumen-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "989",
+      "display" : "Hypoglossie-Hypodaktylie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "990",
+      "display" : "Agnathie-Holoprosenzephalie-Situs inversus-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "991",
+      "display" : "PAGOD-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "994",
+      "display" : "Fetale Akinesie/Hypokinesie-Sequenz"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "995",
+      "display" : "Fetales Akinesie-Syndrom, X-chromosomales",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "998",
+      "display" : "Albinismus-Schwerhörigkeit-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "999",
+      "display" : "Albinismus, kutaner, Hermelin-Phänotyp"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1000",
+      "display" : "Okulärer Albinismus mit spät einsetzender sensorineuraler Schwerhörigkeit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1001",
+      "display" : "Mikrodeletionssyndrom 2q37"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1002",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Cluster-Kopfschmerz",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1003",
+      "display" : "Kopfhautdefekte-postaxiale Polydaktylie-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1005",
+      "display" : "Alopezie-Kontrakturen-Kleinwuchs-Intelligenzminderung-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1006",
+      "display" : "Alopezie mit Antikörper-Mangel",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1008",
+      "display" : "Alopezie-Epilepsie-Pyorrhoe-Intelligenzminderung-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1010",
+      "display" : "Autosomal-dominante Palmoplantarkeratose und kongenitale Alopezie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1011",
+      "display" : "Alopezie-Hypogonadismus-extrapyramidale Störung-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1014",
+      "display" : "Alopezie-Intelligenzminderung-hypergonadotroper Hypogonadismus-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1018",
+      "display" : "X-chromosomales Alport-Syndrom mit diffuser Leiomyomatose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1019",
+      "display" : "Epstein-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1020",
+      "display" : "Alzheimer-Krankheit mit frühem Beginn, autosomal-dominante"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1021",
+      "display" : "Amaurose-Hypertrichose-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1023",
+      "display" : "Kongenitale generalisierte Hypertrichose Typ Ambras"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1027",
+      "display" : "Amelie, autosomal-rezessive",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1028",
+      "display" : "Amelo-onycho-hypohidrotisches Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1031",
+      "display" : "Zahnschmelz-Niere-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1032",
+      "display" : "OBSOLET: Aminoazidurie, hyperdibasische, Typ 1",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1034",
+      "display" : "OBSOLET: Amnionruptur-Sequenz",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1035",
+      "display" : "Beta-Mercaptolaktat-Cystein Disulfidurie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1037",
+      "display" : "Arthrogryposis multiplex congenita"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1040",
+      "display" : "Anadysplasie, metaphysäre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1041",
+      "display" : "Hydrops fetalis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1044",
+      "display" : "OBSOLET: Anämie durch Adenosintriphosphatase-Mangel",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1046",
+      "display" : "Letale hämolytische Anämie-Genitalfehlbildungen-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1047",
+      "display" : "Anämie, sideroachrestische"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1048",
+      "display" : "Anenzephalie/Exenzephalie, isolierte"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1051",
+      "display" : "Ramos-Arroyo-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1052",
+      "display" : "Variables Aneuploidie-Mosaik-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1053",
+      "display" : "Aneurysma der Vena Galeni"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1054",
+      "display" : "Sinus-Valsalva-Aneurysma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1055",
+      "display" : "Fetales Aneurysma des linken Ventrikels"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1057",
+      "display" : "OBSOLET: Intrakranielle Aneurysmen-multiple kongenitale Anomalien-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1059",
+      "display" : "Blue rubber bleb-Naevus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1060",
+      "display" : "Systemische zystische Angiomatose-Seip-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1062",
+      "display" : "Neurokutane Fehlbildung, hereditäre",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1063",
+      "display" : "Hämangiom, büschelartiges"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1064",
+      "display" : "Aniridie-Nierenagenesie-psychomotorische Retardierung-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1065",
+      "display" : "Aniridie-zerebelläre Ataxie-Intelligenzminderung-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1067",
+      "display" : "Aniridie-Ptosis-Intelligenzminderung-familiäre Adipositas-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1068",
+      "display" : "Aniridie-Intelligenzminderung-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1069",
+      "display" : "Aniridie-Patellaaplasie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1070",
+      "display" : "Anisakiasis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1071",
+      "display" : "Ankyloblepharon-ektodermale Defekte-Lippen-Kiefer-Gaumenspalte-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1072",
+      "display" : "Ankyloblepharon filiformis-Gaumenspalte-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1074",
+      "display" : "Ankyloblepharon filiformis adnatum-Anus imperforatus-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1077",
+      "display" : "Dentale Ankylose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1078",
+      "display" : "Steifer Daumen-Brachydaktylie-Intelligenzminderung-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1081",
+      "display" : "Fehlbildung der Koronararterien, kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1083",
+      "display" : "Mikrolissenzephalie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1084",
+      "display" : "Lissenzephalie Typ 1, isolierte, ohne bekannten genetischen Defekt"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1088",
+      "display" : "OBSOLET: Kleinwuchs-Herzfehler-kraniofaziale Anomalien-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1092",
+      "display" : "Anomalien der Niere, Genitalien und des Mittelohrs",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1094",
+      "display" : "Anonychie-Mikrozephalie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1101",
+      "display" : "Anophthalmie-Megalokornea-Kardiopathie-Skelettanomalien-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1102",
+      "display" : "Anophthalmie mit Hypothalamus-Hypophysen-Insuffizienz",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1104",
+      "display" : "Anophthalie plus-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1106",
+      "display" : "Mikrophthalmie mit Gliedmaßenanomalien"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1110",
+      "display" : "Aortenbogenanomalie-Gesichtsdysmorphie-Intelligenzminderung-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1112",
+      "display" : "Aphalangie-Hemivertebrae-urogenital-intestinale Dysgenesie-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1113",
+      "display" : "Aphalangie-Syndaktylie-Mikrozephalie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1114",
+      "display" : "Aplasia cutis congenita"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1115",
+      "display" : "OBSOLET: Aplasia cutis congenita der Gliedmaßen, rezessive",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1116",
+      "display" : "Aplasia cutis congenita mit intestinaler Lymphangiektasie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1117",
+      "display" : "Aplasia cutis congenita-Myopie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1118",
+      "display" : "Fibula-Aplasie-Ektrodaktylie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1120",
+      "display" : "Lungenagenesie-Herzfehler-Daumenanomalien-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1121",
+      "display" : "Radiusaplasie-Tibiahypoplasie-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1122",
+      "display" : "Ulna-Hypoplasie-Spaltfuß-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1123",
+      "display" : "Kaudaler Appendix-Taubheit-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1125",
+      "display" : "Apraxie, okulomotorische, Typ Cogan"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1126",
+      "display" : "Aprosenzephalie mit zerebellärer Dysgenesie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1129",
+      "display" : "Arachnodaktylie-Ossifikationsstörungen-Intelligenzminderung-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1130",
+      "display" : "Arachnodaktylie-Intelligenzminderung-Dysmorphie-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1131",
+      "display" : "Dysostose, mandibulofaziale, X-chromosomale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1132",
+      "display" : "Aortenbogen-Defekte"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1133",
+      "display" : "AREDYLD-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1134",
+      "display" : "Arrhinie, isolierte"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1135",
+      "display" : "Arrhinie-Choanalatresie-Mikrophthalmie-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1136",
+      "display" : "OBSOLET: Arnold-Chiari-Fehlbildung Typ II",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1137",
+      "display" : "OBSOLET: Pulmonalarterienstenose mit obstruktiver Uropathie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1138",
+      "display" : "Pulmonalarterie, abnormaler Ursprung"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1139",
+      "display" : "OBSOLET: Arthrogrypose - epileptische Anfälle - neuronale Migrationsstörungen",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1143",
+      "display" : "Arthrogryposis multiplex congenita, neurogener Typ"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1144",
+      "display" : "Arthrogrypose-ähnliche Handanomalie mit sensorineuraler Schwerhörigkeit"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1145",
+      "display" : "Spinale Muskelatrophie, infantile, X-chromosomale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1146",
+      "display" : "Arthrogrypose, distale, Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1147",
+      "display" : "Sheldon-Hall-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1149",
+      "display" : "Kuskokwim-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1150",
+      "display" : "Arthrogryposis multiplex congenita-Whistling-face-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1153",
+      "display" : "OBSOLET: Arthrogrypose, neonatale transiente",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1154",
+      "display" : "Syndrom der Arthrogryposis mit okulomotorischen Einschränkungen und elektroretinalen Anomalien"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1155",
+      "display" : "OBSOLET: Arthrogrypose infolge Muskeldystrophie",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1159",
+      "display" : "Progressive pseudorheumatoide Dysplasie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1160",
+      "display" : "Aszites, chylöser"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1162",
+      "display" : "NICHT SELTENE KRANKHEIT IN EUROPA: Asperger-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1163",
+      "display" : "Aspergillose"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1164",
+      "display" : "Aspergillose, allergische bronchopulmonale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1166",
+      "display" : "Kongenitale unilaterale Hypoplasie des M. depressor anguli oris"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1167",
+      "display" : "OBSOLET: Gesichtsasymmetrie-temporäre Anfälle-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1168",
+      "display" : "Ataxie mit okulomotorischer Apraxie Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1170",
+      "display" : "Zerebello-parenchymale Krankheit, autosomal-rezessive, Typ 3"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1171",
+      "display" : "Zerebelläre Ataxie-Areflexie-Pes cavus-Optikusatrophie-sensorineurale Schwerhörigkeit-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1172",
+      "display" : "Zerebelläre Ataxie, autosomal-rezessive"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1173",
+      "display" : "Zerebelläre Ataxie - Hypogonadismus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1174",
+      "display" : "Zerebelläre Ataxie-Ektodermale Dysplasie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1175",
+      "display" : "Ataxie, zerebelläre, X-chromosomale, Typ 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1177",
+      "display" : "Ataxie, zerebelläre, früh beginnende, mit Erhalt der Sehnenreflexe"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1178",
+      "display" : "Ataxie mit tapetoretinaler Degeneration",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1179",
+      "display" : "Ataxie mit tonischer Aufwärtsabweichung der Augen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1180",
+      "display" : "Ataxie-Hypogonadismus-chorioretinale Dystrophie-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1182",
+      "display" : "Spastische Ataxie mit kongenitaler Miosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1183",
+      "display" : "Opsoklonus-Myoklonus-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1184",
+      "display" : "Ataxie-Lichtempfindlichkeit-Kleinwuchs-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1185",
+      "display" : "Spinozerebelläre Ataxie-Dysmorphie-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1186",
+      "display" : "Ataxie, infantile spinozerebelläre"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1187",
+      "display" : "Letale Ataxie mit Schwerhörigkeit und Optikusatrophie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1188",
+      "display" : "Ataxie-Schwerhörigkeit-Intelligenzminderung-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1190",
+      "display" : "Atelosteogenesis Typ I"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "inactive" : true,
+      "code" : "1192",
+      "display" : "Atherosklerose-Schwerhörigkeit-Diabetes-Epilepsie-Nephropathie-Syndrom",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "inactive"
+      }]
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1193",
+      "display" : "Atkin-Flaitz-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1194",
+      "display" : "TMEM70-abhängige mitochondriale Enzephalokardiomyopathie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1195",
+      "display" : "Atransferrinämie, kongenitale"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1198",
+      "display" : "Dickdarmatresie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1199",
+      "display" : "Ösophagusatresie"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1200",
+      "display" : "Burn-McKeown-Syndrom"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1201",
+      "display" : "Dünndarmatresie"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

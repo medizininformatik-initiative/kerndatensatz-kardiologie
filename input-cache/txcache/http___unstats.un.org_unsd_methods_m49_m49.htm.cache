@@ -1,0 +1,1712 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "concept" : [{
+        "code" : "528"
+      },
+      {
+        "code" : "276"
+      },
+      {
+        "code" : "155"
+      },
+      {
+        "code" : "021"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:b3d70e4b-386a-4c28-a350-574f0ca4c982",
+    "timestamp" : "2026-09-01T17:29:00.205Z",
+    "total" : 4,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
+    }],
+    "contains" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "528",
+      "display" : "Netherlands (NLD)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276",
+      "display" : "Germany (DEU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "155",
+      "display" : "Western Europe"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "021",
+      "display" : "Northern America"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "code" : "528"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Netherlands (NLD)",
+  "code" : "528",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://unstats.un.org/unsd/methods/m49/m49.htm/vs: Validate \"[http://unstats.un.org/unsd/methods/m49/m49.htm#528 (\"undefined\")]\"\n1ms http://unstats.un.org/unsd/methods/m49/m49.htm/vs: Check \"http://unstats.un.org/unsd/methods/m49/m49.htm#528\"\n1ms http://unstats.un.org/unsd/methods/m49/m49.htm/vs: CodeSystem found: http://unstats.un.org/unsd/methods/m49/m49.htm|null for http://unstats.un.org/unsd/methods/m49/m49.htm\n1ms http://unstats.un.org/unsd/methods/m49/m49.htm/vs: check code in (http://unstats.un.org/unsd/methods/m49/m49.htm) at Coding\n1ms http://unstats.un.org/unsd/methods/m49/m49.htm/vs: Code \"528\" found in http://unstats.un.org/unsd/methods/m49/m49.htm|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "code" : "276"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Germany (DEU)",
+  "code" : "276",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "server" : "https://localhost/fhir",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "code" : "155"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Western Europe",
+  "code" : "155",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "server" : "https://localhost/fhir",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "code" : "021"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Northern America",
+  "code" : "021",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "server" : "https://localhost/fhir",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "concept" : [{
+        "code" : "528"
+      },
+      {
+        "code" : "276"
+      },
+      {
+        "code" : "155"
+      },
+      {
+        "code" : "021"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:fa209cac-a9ef-48a2-9626-ad559ad90d2f",
+    "timestamp" : "2026-09-01T17:30:35.263Z",
+    "total" : 4,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
+    }],
+    "contains" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "528",
+      "display" : "Netherlands (NLD)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276",
+      "display" : "Germany (DEU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "155",
+      "display" : "Western Europe"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "021",
+      "display" : "Northern America"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:dd128ade-031d-4f33-975e-da25349b80f3",
+    "timestamp" : "2026-09-01T17:30:35.278Z",
+    "total" : 270,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://unstats.un.org/unsd/methods/m49/m49.htm"
+    }],
+    "contains" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "004",
+      "display" : "Afghanistan (AFG)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "248",
+      "display" : "Åland Islands (ALA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "008",
+      "display" : "Albania (ALB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "012",
+      "display" : "Algeria (DZA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "016",
+      "display" : "American Samoa (ASM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "020",
+      "display" : "Andorra (AND)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "024",
+      "display" : "Angola (AGO)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "660",
+      "display" : "Anguilla (AIA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "028",
+      "display" : "Antigua and Barbuda (ATG)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "032",
+      "display" : "Argentina (ARG)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "051",
+      "display" : "Armenia (ARM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "533",
+      "display" : "Aruba (ABW)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "036",
+      "display" : "Australia (AUS)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "040",
+      "display" : "Austria (AUT)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "031",
+      "display" : "Azerbaijan (AZE)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "044",
+      "display" : "Bahamas (BHS)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "048",
+      "display" : "Bahrain (BHR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "050",
+      "display" : "Bangladesh (BGD)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "052",
+      "display" : "Barbados (BRB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "112",
+      "display" : "Belarus (BLR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "056",
+      "display" : "Belgium (BEL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "084",
+      "display" : "Belize (BLZ)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "204",
+      "display" : "Benin (BEN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "060",
+      "display" : "Bermuda (BMU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "064",
+      "display" : "Bhutan (BTN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "068",
+      "display" : "Bolivia (Plurinational State of) (BOL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "535",
+      "display" : "Bonaire, Sint Eustatius and Saba (BES)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "070",
+      "display" : "Bosnia and Herzegovina (BIH)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "072",
+      "display" : "Botswana (BWA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "076",
+      "display" : "Brazil (BRA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "092",
+      "display" : "British Virgin Islands (VGB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "096",
+      "display" : "Brunei Darussalam (BRN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "100",
+      "display" : "Bulgaria (BGR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "854",
+      "display" : "Burkina Faso (BFA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "108",
+      "display" : "Burundi (BDI)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "132",
+      "display" : "Cabo Verde (CPV)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "116",
+      "display" : "Cambodia (KHM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "120",
+      "display" : "Cameroon (CMR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "124",
+      "display" : "Canada (CAN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "136",
+      "display" : "Cayman Islands (CYM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "140",
+      "display" : "Central African Republic (CAF)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "148",
+      "display" : "Chad (TCD)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "830",
+      "display" : "Channel Islands"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "152",
+      "display" : "Chile (CHL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "156",
+      "display" : "China (CHN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "344",
+      "display" : "China, Hong Kong Special Administrative Region (HKG)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "446",
+      "display" : "China, Macao Special Administrative Region (MAC)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "170",
+      "display" : "Colombia (COL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "174",
+      "display" : "Comoros (COM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "178",
+      "display" : "Congo (COG)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "184",
+      "display" : "Cook Islands (COK)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "188",
+      "display" : "Costa Rica (CRI)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "384",
+      "display" : "Côte d'Ivoire (CIV)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "191",
+      "display" : "Croatia (HRV)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "192",
+      "display" : "Cuba (CUB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "531",
+      "display" : "Curaçao (CUW)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "196",
+      "display" : "Cyprus (CYP)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "203",
+      "display" : "Czech Republic (CZE)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "408",
+      "display" : "Democratic People's Republic of Korea (PRK)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "180",
+      "display" : "Democratic Republic of the Congo (COD)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "208",
+      "display" : "Denmark (DNK)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "262",
+      "display" : "Djibouti (DJI)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "212",
+      "display" : "Dominica (DMA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "214",
+      "display" : "Dominican Republic (DOM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "218",
+      "display" : "Ecuador (ECU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "818",
+      "display" : "Egypt (EGY)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "222",
+      "display" : "El Salvador (SLV)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "226",
+      "display" : "Equatorial Guinea (GNQ)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "232",
+      "display" : "Eritrea (ERI)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "233",
+      "display" : "Estonia (EST)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "234",
+      "display" : "Faeroe Islands (FRO)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "238",
+      "display" : "Falkland Islands (Malvinas) (FLK)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "242",
+      "display" : "Fiji (FJI)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "246",
+      "display" : "Finland (FIN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "250",
+      "display" : "France (FRA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "254",
+      "display" : "French Guiana (GUF)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "258",
+      "display" : "French Polynesia (PYF)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "266",
+      "display" : "Gabon (GAB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "270",
+      "display" : "Gambia (GMB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "268",
+      "display" : "Georgia (GEO)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "276",
+      "display" : "Germany (DEU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "288",
+      "display" : "Ghana (GHA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "292",
+      "display" : "Gibraltar (GIB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "300",
+      "display" : "Greece (GRC)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "304",
+      "display" : "Greenland (GRL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "308",
+      "display" : "Grenada (GRD)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "312",
+      "display" : "Guadeloupe (GLP)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "316",
+      "display" : "Guam (GUM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "320",
+      "display" : "Guatemala (GTM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "831",
+      "display" : "Guernsey (GGY)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "324",
+      "display" : "Guinea (GIN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "624",
+      "display" : "Guinea-Bissau (GNB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "328",
+      "display" : "Guyana (GUY)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "332",
+      "display" : "Haiti (HTI)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "336",
+      "display" : "Holy See (VAT)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "340",
+      "display" : "Honduras (HND)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "348",
+      "display" : "Hungary (HUN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "352",
+      "display" : "Iceland (ISL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "356",
+      "display" : "India (IND)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "360",
+      "display" : "Indonesia (IDN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "364",
+      "display" : "Iran (Islamic Republic of) (IRN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "368",
+      "display" : "Iraq (IRQ)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "372",
+      "display" : "Ireland (IRL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "833",
+      "display" : "Isle of Man (IMN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "376",
+      "display" : "Israel (ISR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "380",
+      "display" : "Italy (ITA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "388",
+      "display" : "Jamaica (JAM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "392",
+      "display" : "Japan (JPN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "832",
+      "display" : "Jersey (JEY)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "400",
+      "display" : "Jordan (JOR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "398",
+      "display" : "Kazakhstan (KAZ)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "404",
+      "display" : "Kenya (KEN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "296",
+      "display" : "Kiribati (KIR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "414",
+      "display" : "Kuwait (KWT)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "417",
+      "display" : "Kyrgyzstan (KGZ)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "418",
+      "display" : "Lao People's Democratic Republic (LAO)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "428",
+      "display" : "Latvia (LVA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "422",
+      "display" : "Lebanon (LBN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "426",
+      "display" : "Lesotho (LSO)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "430",
+      "display" : "Liberia (LBR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "434",
+      "display" : "Libya (LBY)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "438",
+      "display" : "Liechtenstein (LIE)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "440",
+      "display" : "Lithuania (LTU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "442",
+      "display" : "Luxembourg (LUX)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "450",
+      "display" : "Madagascar (MDG)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "454",
+      "display" : "Malawi (MWI)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "458",
+      "display" : "Malaysia (MYS)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "462",
+      "display" : "Maldives (MDV)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "466",
+      "display" : "Mali (MLI)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "470",
+      "display" : "Malta (MLT)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "584",
+      "display" : "Marshall Islands (MHL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "474",
+      "display" : "Martinique (MTQ)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "478",
+      "display" : "Mauritania (MRT)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "480",
+      "display" : "Mauritius (MUS)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "175",
+      "display" : "Mayotte (MYT)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "484",
+      "display" : "Mexico (MEX)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "583",
+      "display" : "Micronesia (Federated States of) (FSM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "492",
+      "display" : "Monaco (MCO)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "496",
+      "display" : "Mongolia (MNG)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "499",
+      "display" : "Montenegro (MNE)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "500",
+      "display" : "Montserrat (MSR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "504",
+      "display" : "Morocco (MAR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "508",
+      "display" : "Mozambique (MOZ)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "104",
+      "display" : "Myanmar (MMR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "516",
+      "display" : "Namibia (NAM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "520",
+      "display" : "Nauru (NRU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "524",
+      "display" : "Nepal (NPL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "528",
+      "display" : "Netherlands (NLD)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "540",
+      "display" : "New Caledonia (NCL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "554",
+      "display" : "New Zealand (NZL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "558",
+      "display" : "Nicaragua (NIC)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "562",
+      "display" : "Niger (NER)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "566",
+      "display" : "Nigeria (NGA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "570",
+      "display" : "Niue (NIU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "574",
+      "display" : "Norfolk Island (NFK)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "580",
+      "display" : "Northern Mariana Islands (MNP)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "578",
+      "display" : "Norway (NOR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "512",
+      "display" : "Oman (OMN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "586",
+      "display" : "Pakistan (PAK)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "585",
+      "display" : "Palau (PLW)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "591",
+      "display" : "Panama (PAN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "598",
+      "display" : "Papua New Guinea (PNG)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "600",
+      "display" : "Paraguay (PRY)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "604",
+      "display" : "Peru (PER)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "608",
+      "display" : "Philippines (PHL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "612",
+      "display" : "Pitcairn (PCN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "616",
+      "display" : "Poland (POL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "620",
+      "display" : "Portugal (PRT)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "630",
+      "display" : "Puerto Rico (PRI)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "634",
+      "display" : "Qatar (QAT)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "410",
+      "display" : "Republic of Korea (KOR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "498",
+      "display" : "Republic of Moldova (MDA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "638",
+      "display" : "Réunion (REU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "642",
+      "display" : "Romania (ROU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "643",
+      "display" : "Russian Federation (RUS)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "646",
+      "display" : "Rwanda (RWA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "652",
+      "display" : "Saint Barthélemy (BLM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "654",
+      "display" : "Saint Helena (SHN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "659",
+      "display" : "Saint Kitts and Nevis (KNA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "662",
+      "display" : "Saint Lucia (LCA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "663",
+      "display" : "Saint Martin (French part) (MAF)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "666",
+      "display" : "Saint Pierre and Miquelon (SPM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "670",
+      "display" : "Saint Vincent and the Grenadines (VCT)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "882",
+      "display" : "Samoa (WSM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "674",
+      "display" : "San Marino (SMR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "678",
+      "display" : "Sao Tome and Principe (STP)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "680",
+      "display" : "Sark"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "682",
+      "display" : "Saudi Arabia (SAU)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "686",
+      "display" : "Senegal (SEN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "688",
+      "display" : "Serbia (SRB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "690",
+      "display" : "Seychelles (SYC)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "694",
+      "display" : "Sierra Leone (SLE)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "702",
+      "display" : "Singapore (SGP)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "534",
+      "display" : "Sint Maarten (Dutch part) (SXM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "703",
+      "display" : "Slovakia (SVK)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "705",
+      "display" : "Slovenia (SVN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "090",
+      "display" : "Solomon Islands (SLB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "706",
+      "display" : "Somalia (SOM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "710",
+      "display" : "South Africa (ZAF)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "728",
+      "display" : "South Sudan (SSD)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "724",
+      "display" : "Spain (ESP)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "144",
+      "display" : "Sri Lanka (LKA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "275",
+      "display" : "State of Palestine (PSE)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "729",
+      "display" : "Sudan (SDN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "740",
+      "display" : "Suriname (SUR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "744",
+      "display" : "Svalbard and Jan Mayen Islands (SJM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "748",
+      "display" : "Swaziland (SWZ)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "752",
+      "display" : "Sweden (SWE)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "756",
+      "display" : "Switzerland (CHE)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "760",
+      "display" : "Syrian Arab Republic (SYR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "762",
+      "display" : "Tajikistan (TJK)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "764",
+      "display" : "Thailand (THA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "807",
+      "display" : "The former Yugoslav Republic of Macedonia (MKD)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "626",
+      "display" : "Timor-Leste (TLS)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "768",
+      "display" : "Togo (TGO)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "772",
+      "display" : "Tokelau (TKL)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "776",
+      "display" : "Tonga (TON)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "780",
+      "display" : "Trinidad and Tobago (TTO)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "788",
+      "display" : "Tunisia (TUN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "792",
+      "display" : "Turkey (TUR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "795",
+      "display" : "Turkmenistan (TKM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "796",
+      "display" : "Turks and Caicos Islands (TCA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "798",
+      "display" : "Tuvalu (TUV)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "800",
+      "display" : "Uganda (UGA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "804",
+      "display" : "Ukraine (UKR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "784",
+      "display" : "United Arab Emirates (ARE)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "826",
+      "display" : "United Kingdom of Great Britain and Northern Ireland (GBR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "834",
+      "display" : "United Republic of Tanzania (TZA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "840",
+      "display" : "United States of America (USA)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "850",
+      "display" : "United States Virgin Islands (VIR)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "858",
+      "display" : "Uruguay (URY)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "860",
+      "display" : "Uzbekistan (UZB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "548",
+      "display" : "Vanuatu (VUT)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "862",
+      "display" : "Venezuela (Bolivarian Republic of) (VEN)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "704",
+      "display" : "Viet Nam (VNM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "876",
+      "display" : "Wallis and Futuna Islands (WLF)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "732",
+      "display" : "Western Sahara (ESH)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "887",
+      "display" : "Yemen (YEM)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "894",
+      "display" : "Zambia (ZMB)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "002",
+      "display" : "Africa"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "014",
+      "display" : "Eastern Africa"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "017",
+      "display" : "Middle Africa"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "015",
+      "display" : "Northern Africa"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "018",
+      "display" : "Southern Africa"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "011",
+      "display" : "Western Africa"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "019",
+      "display" : "Americas"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "419",
+      "display" : "Latin America and the Caribbean"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "029",
+      "display" : "Caribbean"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "013",
+      "display" : "Central America"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "005",
+      "display" : "South America"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "021",
+      "display" : "Northern America"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "142",
+      "display" : "Asia"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "143",
+      "display" : "Central Asia"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "030",
+      "display" : "Eastern Asia"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "034",
+      "display" : "Southern Asia"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "035",
+      "display" : "South-Eastern Asia"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "145",
+      "display" : "Western Asia"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "150",
+      "display" : "Europe"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "151",
+      "display" : "Eastern Europe"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "154",
+      "display" : "Northern Europe"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "039",
+      "display" : "Southern Europe"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "155",
+      "display" : "Western Europe"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "009",
+      "display" : "Oceania"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "053",
+      "display" : "Australia and New Zealand"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "054",
+      "display" : "Melanesia"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "057",
+      "display" : "Micronesia"
+    },
+    {
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "061",
+      "display" : "Polynesia"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

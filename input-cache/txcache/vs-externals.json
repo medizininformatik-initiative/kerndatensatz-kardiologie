@@ -1,0 +1,17 @@
+{
+  "http://unstats.un.org/unsd/methods/m49/m49.htm" : null,
+  "http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C" : null,
+  "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701" : null,
+  "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT" : {
+    "server" : "https://localhost/fhir",
+    "filename" : "vs-91211e56-6179-4b7f-b636-7f6bc134cfea.json"
+  },
+  "http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik" : null,
+  "urn:iso:std:iso:11073:10101|2024-12-05" : null,
+  "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION" : {
+    "server" : "https://localhost/fhir",
+    "filename" : "vs-4608467e-5d19-47e1-bc93-58e81f283ead.json"
+  },
+  "http://snomed.info/sct" : null,
+  "http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4" : null
+}

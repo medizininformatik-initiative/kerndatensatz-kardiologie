@@ -509,7 +509,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\MII_VS_Kardio_Geraeteprogrammierung_MDC.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 17
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-geraetetyp-snomedct.json",

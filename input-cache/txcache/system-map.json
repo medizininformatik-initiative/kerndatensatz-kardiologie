@@ -1,0 +1,632 @@
+{
+  "systems" : [{
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id in en, en-US",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2018",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2018",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2019",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2019",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2020",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2020",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2021",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2021",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2022",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2022",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2023",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2023",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2024",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2024",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2025",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2025",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2026",
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id|2026",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm in en, en-US",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2009",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2009",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2009 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2009",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2010",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2010",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2010 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2010",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2011",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2011",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2011 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2011",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2012",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2012",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2012 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2012",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2013",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2013",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2013 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2013",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2014",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2014",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2014 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2014",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2015",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2015",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2015 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2015",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2016",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2016",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2016 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2016",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2017",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2017",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2017 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2017",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2018",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2018",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2018 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2018",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2019",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2019",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2019 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2019",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2020",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2020",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2020 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2020",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2021",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2021",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2021 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2021",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2022",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2022",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2022 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2022",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2023",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2023",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2023 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2023",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2024",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2024",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2024 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2024",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 in de",
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops in en, en-US",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2010",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2010",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2011",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2011",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2012",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2012",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2013",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2013",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2014",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2014",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2015",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2015",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2016",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2016",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2017",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2017",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2018",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2018",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2019",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2019",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2020",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2020",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2021",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2021",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2022",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2022",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2023",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2023",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2024",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2024",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2025",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2025",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://fhir.de/CodeSystem/bfarm/ops|2026",
+    "url" : "http://fhir.de/CodeSystem/bfarm/ops|2026",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://loinc.org",
+    "url" : "http://loinc.org",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://loinc.org in de",
+    "url" : "http://loinc.org",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://loinc.org in en, en-US",
+    "url" : "http://loinc.org",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://loinc.org|2.82",
+    "url" : "http://loinc.org|2.82",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://loinc.org|2.82 in de",
+    "url" : "http://loinc.org|2.82",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl in de",
+    "url" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://snomed.info/sct",
+    "url" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://snomed.info/sct in de",
+    "url" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://snomed.info/sct in en, en-US",
+    "url" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701",
+    "url" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 in de",
+    "url" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701 in en, en-US",
+    "url" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://terminology.hl7.org/CodeSystem/data-absent-reason|1.0.0 in de",
+    "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason|1.0.0",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://unitsofmeasure.org",
+    "url" : "http://unitsofmeasure.org",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://unitsofmeasure.org in de",
+    "url" : "http://unitsofmeasure.org",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "url" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm in de",
+    "url" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm in en-US",
+    "url" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://www.orpha.net",
+    "url" : "http://www.orpha.net",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "http://www.orpha.net in de",
+    "url" : "http://www.orpha.net",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot.rc1 in de",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot.rc1",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:ietf:bcp:13 in de",
+    "url" : "urn:ietf:bcp:13",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:ietf:bcp:47 in de",
+    "url" : "urn:ietf:bcp:47",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:ietf:bcp:47 in de-DE",
+    "url" : "urn:ietf:bcp:47",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:11073:10101",
+    "url" : "urn:iso:std:iso:11073:10101|2024-12-05",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:11073:10101 in de",
+    "url" : "urn:iso:std:iso:11073:10101|2024-12-05",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:11073:10101 in en, en-US",
+    "url" : "urn:iso:std:iso:11073:10101|2024-12-05",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:11073:10101|2.0.1",
+    "url" : "urn:iso:std:iso:11073:10101|2.0.1",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:11073:10101|2024-12-05",
+    "url" : "urn:iso:std:iso:11073:10101|2024-12-05",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:11073:10101|2024-12-05 in de",
+    "url" : "urn:iso:std:iso:11073:10101|2024-12-05",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:11073:10101|20250520",
+    "url" : "urn:iso:std:iso:11073:10101|20250520",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:3166 in de",
+    "url" : "urn:iso:std:iso:3166",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:3166 in en-US",
+    "url" : "urn:iso:std:iso:3166",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:3166:-2 in de",
+    "url" : "urn:iso:std:iso:3166:-2",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  },
+  {
+    "system" : "urn:iso:std:iso:3166:-2 in en-US",
+    "url" : "urn:iso:std:iso:3166:-2",
+    "authoritative" : [],
+    "candidates" : ["https://localhost/fhir"]
+  }]
+}

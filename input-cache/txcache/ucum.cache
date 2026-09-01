@@ -1,0 +1,302 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "cm"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "cm",
+  "code" : "cm",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://unitsofmeasure.org/vs|2.2: Validate \"[http://unitsofmeasure.org#cm (\"undefined\")]\"\n1ms http://unitsofmeasure.org/vs|2.2: Check \"http://unitsofmeasure.org#cm\"\n1ms http://unitsofmeasure.org/vs|2.2: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org|2.2\n1ms http://unitsofmeasure.org/vs|2.2: check code in (http://unitsofmeasure.org) at Coding\n2ms http://unitsofmeasure.org/vs|2.2: Code \"cm\" found in http://unitsofmeasure.org|2.2",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "kg"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "kg",
+  "code" : "kg",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://unitsofmeasure.org/vs|2.2: Validate \"[http://unitsofmeasure.org#kg (\"undefined\")]\"\n1ms http://unitsofmeasure.org/vs|2.2: Check \"http://unitsofmeasure.org#kg\"\n1ms http://unitsofmeasure.org/vs|2.2: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org|2.2\n1ms http://unitsofmeasure.org/vs|2.2: check code in (http://unitsofmeasure.org) at Coding\n1ms http://unitsofmeasure.org/vs|2.2: Code \"kg\" found in http://unitsofmeasure.org|2.2",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "ms"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "ms",
+  "code" : "ms",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://unitsofmeasure.org/vs|2.2: Validate \"[http://unitsofmeasure.org#ms (\"undefined\")]\"\n1ms http://unitsofmeasure.org/vs|2.2: Check \"http://unitsofmeasure.org#ms\"\n1ms http://unitsofmeasure.org/vs|2.2: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org|2.2\n2ms http://unitsofmeasure.org/vs|2.2: check code in (http://unitsofmeasure.org) at Coding\n2ms http://unitsofmeasure.org/vs|2.2: Code \"ms\" found in http://unitsofmeasure.org|2.2",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "%"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "%",
+  "code" : "%",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://unitsofmeasure.org/vs|2.2: Validate \"[http://unitsofmeasure.org#% (\"undefined\")]\"\n1ms http://unitsofmeasure.org/vs|2.2: Check \"http://unitsofmeasure.org#%\"\n1ms http://unitsofmeasure.org/vs|2.2: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org|2.2\n1ms http://unitsofmeasure.org/vs|2.2: check code in (http://unitsofmeasure.org) at Coding\n1ms http://unitsofmeasure.org/vs|2.2: Code \"%\" found in http://unitsofmeasure.org|2.2",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "{pack-years}"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "{pack-years}",
+  "code" : "{pack-years}",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://unitsofmeasure.org/vs|2.2: Validate \"[http://unitsofmeasure.org#{pack-years} (\"undefined\")]\"\n1ms http://unitsofmeasure.org/vs|2.2: Check \"http://unitsofmeasure.org#{pack-years}\"\n1ms http://unitsofmeasure.org/vs|2.2: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org|2.2\n1ms http://unitsofmeasure.org/vs|2.2: check code in (http://unitsofmeasure.org) at Coding\n1ms http://unitsofmeasure.org/vs|2.2: Code \"{pack-years}\" found in http://unitsofmeasure.org|2.2",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "{cigarettes-per-day}"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "{cigarettes-per-day}",
+  "code" : "{cigarettes-per-day}",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://unitsofmeasure.org/vs|2.2: Validate \"[http://unitsofmeasure.org#{cigarettes-per-day} (\"undefined\")]\"\n1ms http://unitsofmeasure.org/vs|2.2: Check \"http://unitsofmeasure.org#{cigarettes-per-day}\"\n1ms http://unitsofmeasure.org/vs|2.2: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org|2.2\n1ms http://unitsofmeasure.org/vs|2.2: check code in (http://unitsofmeasure.org) at Coding\n1ms http://unitsofmeasure.org/vs|2.2: Code \"{cigarettes-per-day}\" found in http://unitsofmeasure.org|2.2",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "a"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "a",
+  "code" : "a",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://unitsofmeasure.org/vs|2.2: Validate \"[http://unitsofmeasure.org#a (\"undefined\")]\"\n1ms http://unitsofmeasure.org/vs|2.2: Check \"http://unitsofmeasure.org#a\"\n1ms http://unitsofmeasure.org/vs|2.2: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org|2.2\n1ms http://unitsofmeasure.org/vs|2.2: check code in (http://unitsofmeasure.org) at Coding\n1ms http://unitsofmeasure.org/vs|2.2: Code \"a\" found in http://unitsofmeasure.org|2.2",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------

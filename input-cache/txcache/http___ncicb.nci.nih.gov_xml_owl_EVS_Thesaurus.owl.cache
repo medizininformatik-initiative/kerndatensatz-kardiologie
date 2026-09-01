@@ -1,0 +1,123 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+  "code" : "C15607"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "code" : "C15607",
+  "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl/vs: Validate \"[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15607 (\"undefined\")]\"\n1ms http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl/vs: Check \"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15607\"\n2ms http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl/vs: CodeSystem found: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|null for http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl\n2ms http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl/vs: check code in (http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl) at Coding\n2ms http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl/vs: Code \"C15607\" not found in http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|null: undefined",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown Code 'C15607' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version 'null' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
+    },
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+  "code" : "C25218"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "code" : "C25218",
+  "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl/vs: Validate \"[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25218 (\"undefined\")]\"\n1ms http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl/vs: Check \"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25218\"\n2ms http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl/vs: CodeSystem found: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|null for http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl\n2ms http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl/vs: check code in (http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl) at Coding\n2ms http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl/vs: Code \"C25218\" not found in http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|null: undefined",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "UNKNOWN_CODE_IN_FRAGMENT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown Code 'C25218' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version 'null' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment"
+    },
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------

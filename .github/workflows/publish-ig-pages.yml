@@ -1,0 +1,29 @@
+# Branch-Preview des Implementation Guides auf GitHub Pages.
+#
+# Baut auf jedem Push (außer main/gh-pages) SUSHI + IG Publisher und
+# veröffentlicht das Ergebnis nach gh-pages unter branches/<branch>/:
+#   https://medizininformatik-initiative.github.io/kerndatensatz-kardiologie/branches/<branch>/
+#
+# Die Root des Pages-Sites bleibt für die formale Publikation reserviert –
+# ein Preview überschreibt sie nie.
+#
+# Voraussetzung (einmalig, Admin): Settings -> Pages -> Source =
+# "Deploy from a branch" -> gh-pages / (root).
+#
+# Die zentrale Logik liegt in kerndatensatz-meta (ci_ig_publish_pages.yml),
+# genau wie bei den Validierungs-Workflows in main.yml.
+# TODO: auf @master umstellen, sobald der Reusable dort gemergt ist.
+name: Publish IG to GitHub Pages (branch preview)
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - gh-pages
+      - fsh-generated
+  workflow_dispatch:
+
+jobs:
+  publish-ig:
+    uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_ig_publish_pages.yml@feat/reusable-ig-publish-pages-2026-07-23
+    secrets: inherit

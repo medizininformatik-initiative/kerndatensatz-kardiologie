@@ -29,6 +29,7 @@ In der Umsetzung werden drei Stufen durchlaufen, in denen sukzessiv der kardiolo
 * **Stufe 3:** Erweiterung des Moduls Kardiologie durch die Abbildung zusätzlicher Parameter der kardiologischen Versorgung, die auch seltene Erkrankungen und weitere Risikobewertungen einschliessen. 
 
 Das Modul Kardiologie soll in den Datenintegrationszentren (DIZ) bei der Aufbereitung und Bereitstellung von vorhandenen Patientendaten aus dem Versorgungskontext unterstützen. Es baut bewusst auf bereits vorhandenen Modulen des MII-KDS auf (base, meta, icu, isik, Diagnose, Prozedur) und verwendet, wo möglich, bestehende Strukturen wieder.
+
 ---
 
 ## Spezifikation der Parameter

@@ -6,7 +6,7 @@ Usage:  #inline
 
 * language = #de-DE
 * identifier.use = #usual
-* identifier.type = $v2-0203#MR "Krankenaktennummer"
+* identifier.type = $v2-0203-with-version#MR "Krankenaktennummer"
 * identifier.value = "0123456789"
 * name.use = #official
 * name.family = "Mustermann"

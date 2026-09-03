@@ -1,9 +1,51 @@
 {
   "resourceType": "QuestionnaireResponse",
   "id": "mii-exa-kardio-questionnaireresponse-andere",
-  "subject": {
-    "display": "Beispielpatient"
-  },
+  "contained": [
+    {
+      "resourceType": "Patient",
+      "id": "Beispielpatient",
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "coding": [
+              {
+                "code": "MR",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "version": "5.0.0",
+                "display": "Krankenaktennummer"
+              }
+            ]
+          },
+          "value": "0123456789"
+        }
+      ],
+      "name": [
+        {
+          "given": [
+            "Max"
+          ],
+          "use": "official",
+          "family": "Mustermann"
+        }
+      ],
+      "address": [
+        {
+          "line": [
+            "Musterstraße 1"
+          ],
+          "type": "both",
+          "city": "Musterstadt",
+          "postalCode": "12345",
+          "country": "DE"
+        }
+      ],
+      "language": "de-DE",
+      "gender": "male",
+      "birthDate": "1980-01-01"
+    }
+  ],
   "item": [
     {
       "item": [
@@ -727,6 +769,9 @@
   ],
   "language": "de-DE",
   "status": "completed",
+  "subject": {
+    "reference": "#Beispielpatient"
+  },
   "authored": "2025-11-20T14:09:29.361Z",
   "questionnaire": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup"
 }

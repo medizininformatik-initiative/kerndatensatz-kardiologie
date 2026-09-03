@@ -5,22 +5,23 @@ Description: "Beispielhafte vollständige Instanz einer Diagnose die vom Arzt be
 Usage: #example
 
 * language = #de-DE
+* contained[0] = Beispielpatient
 // --------------------------------------
 // CATEGORY (problem-list-item)
 * category = $condition-category#problem-list-item "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED)
-* code.coding[icd10-gm] = $example-icd-10-gm#I21.9 "Akuter Myokardinfarkt, nicht näher bezeichnet"
-* code.coding[sct] = $example-sct#22298006 "Myocardial infarction"
+* code.coding[icd10-gm] = $icd-10-gm-with-version#I21.9 "Akuter Myokardinfarkt, nicht näher bezeichnet"
+* code.coding[sct] = $sct-with-version#22298006 "Myocardial infarction"
 
 // --------------------------------------
 // SUBJECT (Patientenreferenz)
-* subject.display = "Max Mustermann"
+* subject = Reference(Beispielpatient)
 
 // --------------------------------------
 // RECORDER (Patient selbst hat Angabe gemacht / Patient)
-* recorder.display = "Patient"
+* recorder = Reference(Beispielpatient)
 
 // --------------------------------------
 // ASSERTER (Arzt)

@@ -6,5 +6,5 @@ Usage: #example
 
 * language = #de-DE
 * organization.display = "Klinikum Musterstadt"
-* code = $example-sct#17561000 "Cardiologist"
-* specialty = $example-sct#394579002 "Cardiology"
+* code = $sct-with-version#17561000 "Cardiologist"
+* specialty = $sct-with-version#394579002 "Cardiology"

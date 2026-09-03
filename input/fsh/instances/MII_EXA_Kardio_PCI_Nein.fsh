@@ -5,14 +5,15 @@ Description: "Beispiel: Der Patient hatte noch keine Koronarintervention mit PCI
 Usage: #example
 
 * language = #de-DE
+* contained[0] = Beispielpatient
 * status = #final
-* category = $observation-category#survey
+* category = $observation-category-with-version#survey
 * code.text = "Koronarintervention mit PCI/Stent"
-* code = $example-sct#415070008 "Percutaneous coronary intervention"
+* code = $sct-with-version#415070008 "Percutaneous coronary intervention"
 * performer.display = "Beispielkardiologe"
-* subject.display = "Beispielpatient"
+* subject = Reference(Beispielpatient)
 * effectiveDateTime = "2025-06-06T14:29:34.214+02:00"
-* valueCodeableConcept = $v2-0532#N "Nein"
-* method =  $example-sct#129431000 "History taking - action"
+* valueCodeableConcept = $v2-0532-with-version#N "Nein"
+* method =  $sct-with-version#129431000 "History taking - action"
 * device.display = "Beispieltablet"
 * derivedFrom.display = "Beispielfragebogen"

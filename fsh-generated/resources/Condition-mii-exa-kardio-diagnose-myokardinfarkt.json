@@ -6,6 +6,51 @@
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
     ]
   },
+  "contained": [
+    {
+      "resourceType": "Patient",
+      "id": "Beispielpatient",
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "coding": [
+              {
+                "code": "MR",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "version": "5.0.0",
+                "display": "Krankenaktennummer"
+              }
+            ]
+          },
+          "value": "0123456789"
+        }
+      ],
+      "name": [
+        {
+          "given": [
+            "Max"
+          ],
+          "use": "official",
+          "family": "Mustermann"
+        }
+      ],
+      "address": [
+        {
+          "line": [
+            "Musterstraße 1"
+          ],
+          "type": "both",
+          "city": "Musterstadt",
+          "postalCode": "12345",
+          "country": "DE"
+        }
+      ],
+      "language": "de-DE",
+      "gender": "male",
+      "birthDate": "1980-01-01"
+    }
+  ],
   "category": [
     {
       "coding": [
@@ -22,7 +67,7 @@
       {
         "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
         "code": "I21.9",
-        "version": "2025",
+        "version": "2026",
         "display": "Akuter Myokardinfarkt, nicht näher bezeichnet"
       },
       {
@@ -32,12 +77,6 @@
         "display": "Myocardial infarction"
       }
     ]
-  },
-  "subject": {
-    "display": "Max Mustermann"
-  },
-  "recorder": {
-    "display": "Patient"
   },
   "asserter": {
     "display": "Facharzt für Kardiologie"
@@ -49,6 +88,12 @@
     }
   ],
   "language": "de-DE",
+  "subject": {
+    "reference": "#Beispielpatient"
+  },
+  "recorder": {
+    "reference": "#Beispielpatient"
+  },
   "verificationStatus": {
     "coding": [
       {

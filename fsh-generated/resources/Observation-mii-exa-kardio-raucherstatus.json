@@ -18,6 +18,7 @@
               {
                 "code": "MR",
                 "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "version": "5.0.0",
                 "display": "Krankenaktennummer"
               }
             ]
@@ -74,6 +75,7 @@
         {
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
           "code": "social-history",
+          "version": "2.0.0",
           "display": "Social History"
         }
       ]
@@ -96,12 +98,6 @@
   ],
   "component": [
     {
-      "valueQuantity": {
-        "unit": "{pack-years}",
-        "system": "http://unitsofmeasure.org",
-        "code": "{pack-years}",
-        "value": 35.5
-      },
       "code": {
         "coding": [
           {
@@ -111,15 +107,15 @@
             "display": "Cigarette pack-years"
           }
         ]
+      },
+      "valueQuantity": {
+        "value": 35.5,
+        "code": "{pack-years}",
+        "system": "http://unitsofmeasure.org",
+        "unit": "{pack-years}"
       }
     },
     {
-      "valueQuantity": {
-        "unit": "{cigarettes-per-day}",
-        "system": "http://unitsofmeasure.org",
-        "code": "{cigarettes-per-day}",
-        "value": 1
-      },
       "code": {
         "coding": [
           {
@@ -128,6 +124,12 @@
             "version": "2.82"
           }
         ]
+      },
+      "valueQuantity": {
+        "value": 1,
+        "code": "{cigarettes-per-day}",
+        "system": "http://unitsofmeasure.org",
+        "unit": "{cigarettes-per-day}"
       }
     },
     {
@@ -143,12 +145,6 @@
       "valueDateTime": "2025-01-31"
     },
     {
-      "valueQuantity": {
-        "unit": "year",
-        "system": "http://unitsofmeasure.org",
-        "code": "a",
-        "value": 19
-      },
       "code": {
         "coding": [
           {
@@ -157,14 +153,20 @@
             "version": "http://snomed.info/sct/900000000000207008/version/20250701"
           }
         ]
+      },
+      "valueQuantity": {
+        "value": 19,
+        "code": "a",
+        "system": "http://unitsofmeasure.org",
+        "unit": "year"
       }
     },
     {
       "valueQuantity": {
-        "unit": "year",
-        "system": "http://unitsofmeasure.org",
-        "code": "a",
         "value": 35.5,
+        "code": "a",
+        "system": "http://unitsofmeasure.org",
+        "unit": "year",
         "comparator": "<="
       },
       "code": {

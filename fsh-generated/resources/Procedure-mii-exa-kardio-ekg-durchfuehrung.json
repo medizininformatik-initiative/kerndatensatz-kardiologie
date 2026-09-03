@@ -6,6 +6,51 @@
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-durchfuehrung"
     ]
   },
+  "contained": [
+    {
+      "resourceType": "Patient",
+      "id": "Beispielpatient",
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "coding": [
+              {
+                "code": "MR",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "version": "5.0.0",
+                "display": "Krankenaktennummer"
+              }
+            ]
+          },
+          "value": "0123456789"
+        }
+      ],
+      "name": [
+        {
+          "given": [
+            "Max"
+          ],
+          "use": "official",
+          "family": "Mustermann"
+        }
+      ],
+      "address": [
+        {
+          "line": [
+            "Musterstraße 1"
+          ],
+          "type": "both",
+          "city": "Musterstadt",
+          "postalCode": "12345",
+          "country": "DE"
+        }
+      ],
+      "language": "de-DE",
+      "gender": "male",
+      "birthDate": "1980-01-01"
+    }
+  ],
   "extension": [
     {
       "url": "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum",
@@ -40,9 +85,6 @@
       }
     ]
   },
-  "subject": {
-    "display": "Beispielpatient"
-  },
   "performedPeriod": {
     "start": "2023-05-03T07:38:07Z",
     "end": "2023-05-03T07:38:17Z"
@@ -70,5 +112,8 @@
     }
   ],
   "language": "de-DE",
-  "status": "completed"
+  "status": "completed",
+  "subject": {
+    "reference": "#Beispielpatient"
+  }
 }

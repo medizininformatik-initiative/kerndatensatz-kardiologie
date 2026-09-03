@@ -11,17 +11,9 @@ Usage: #example
 
 * specialization.systemType = "Resting ECG"
 
-* physicalCharacteristics.height.value = 14
-* physicalCharacteristics.height.system = $ucum
-* physicalCharacteristics.height.code = #cm
-* physicalCharacteristics.width.value = 39
-* physicalCharacteristics.width.system = $ucum
-* physicalCharacteristics.width.code = #cm
-* physicalCharacteristics.depth.value = 51
-* physicalCharacteristics.depth.system = $ucum
-* physicalCharacteristics.depth.code = #cm
-* physicalCharacteristics.weight.value = 12
-* physicalCharacteristics.weight.system = $ucum
-* physicalCharacteristics.weight.code = #kg
+* physicalCharacteristics.height = 14 'cm' "cm"
+* physicalCharacteristics.width = 39 'cm' "cm"
+* physicalCharacteristics.depth = 51 'cm' "cm"
+* physicalCharacteristics.weight = 12 'kg' "kg"
 
 * onlineInformation = "https://www.hillrom.de/de/products/eli-380-electrocardiograph/"

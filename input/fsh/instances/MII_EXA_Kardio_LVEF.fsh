@@ -5,6 +5,8 @@ Description: "Beispielhafte Observation einer linksventrikulären Ejektionsfrakt
 Usage: #example
 
 * language = #de-DE
+* contained[0] = Beispielpatient
+* contained[1] = Beispielfall
 * identifier.system = "http://hospital.demo.org/observation-lvef"
 * identifier.value = "lvef-123456"
 
@@ -13,14 +15,14 @@ Usage: #example
 
 * status = #final
 
-* category[vs-cat].coding = $observation-category#imaging "Imaging"
+* category[vs-cat].coding = $observation-category-with-version#imaging "Imaging"
 
-* code.coding[sct] = $example-sct#250908004 "Left ventricular ejection fraction"
-* code.coding[loinc] = $example-loinc#10230-1 "Left ventricular ejection fraction"
+* code.coding[sct] = $sct-with-version#250908004 "Left ventricular ejection fraction"
+* code.coding[loinc] = $loinc-with-version#10230-1 "Left ventricular ejection fraction"
 * code.text = "Linksventrikuläre Ejektionsfraktion"
 
-* subject.display = "Beispielpatient"
-* encounter.display = "Beispielfall"
+* subject = Reference(Beispielpatient)
+* encounter = Reference(Beispielfall)
 * effectiveDateTime = "2025-05-12T10:15:00+01:00"
 
 * performer[0].display = "Beispielarzt"
@@ -32,10 +34,10 @@ Usage: #example
 
 * interpretation[0].coding[0] = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#N "Normal"
 
-* bodySite.coding[0] = $example-sct#87878005 "Left cardiac ventricular structure"
+* bodySite.coding[0] = $sct-with-version#87878005 "Left cardiac ventricular structure"
 * bodySite.text = "Linker Ventrikel"
 
-* method.coding[0] = $example-sct#40701008 "Echocardiography"
+* method.coding[0] = $sct-with-version#40701008 "Echocardiography"
 * method.text = "Echokardiographie"
 
 * device.display = "Philips EPIQ CVx Ultrasound System"

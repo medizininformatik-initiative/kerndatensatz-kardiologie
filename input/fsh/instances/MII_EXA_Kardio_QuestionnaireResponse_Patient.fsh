@@ -6,7 +6,8 @@ Usage: #example
 
 * language = #de-DE
 * status = #completed
-* subject.display = "Beispielpatient"
+* contained[0] = Beispielpatient
+* subject = Reference(Beispielpatient)
 * authored = "2025-11-20T13:57:45.476Z"
 * questionnaire = Canonical(mii-qn-kardio-acribis-study-followup)
 * item[0].linkId = "group1"

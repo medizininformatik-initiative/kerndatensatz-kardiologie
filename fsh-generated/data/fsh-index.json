@@ -45,15 +45,15 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Diagnose_Myokardinfarkt.fsh",
     "startLine": 1,
-    "endLine": 44
+    "endLine": 45
   },
   {
     "outputFile": "Condition-mii-exa-kardio-embolischer-gefaessverschluss.json",
     "fshName": "mii-exa-kardio-embolischer-gefaessverschluss",
     "fshType": "Instance",
-    "fshFile": "instances\\MII_EXA_Kardio_Diagnose_Embolischer_Gefaessverschluss.fsh",
+    "fshFile": "instances\\MII_EXA_Kardio_Embolischer_Gefaessverschluss.fsh",
     "startLine": 1,
-    "endLine": 43
+    "endLine": 44
   },
   {
     "outputFile": "Condition-mii-exa-kardio-hoehergradiges-vitium.json",
@@ -109,7 +109,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_EKG_Geraetedefinition_Mortara.fsh",
     "startLine": 1,
-    "endLine": 27
+    "endLine": 19
   },
   {
     "outputFile": "DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.json",
@@ -125,7 +125,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_EKG_Referenz.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 16
   },
   {
     "outputFile": "Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.json",
@@ -133,7 +133,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Anzahl_KH_Aufenthalte_wg_HF.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 17
   },
   {
     "outputFile": "Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.json",
@@ -141,7 +141,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Anzahl_KH_Aufenthalte_wg_HF2.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 17
   },
   {
     "outputFile": "Observation-mii-exa-kardio-atherosklerotisches-erstereignis.json",
@@ -149,7 +149,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Atherosklerotisches_Erstereignis.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 19
   },
   {
     "outputFile": "Observation-mii-exa-kardio-ekg-rr-interval.json",
@@ -157,7 +157,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_EKG_RR_Interval.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 18
   },
   {
     "outputFile": "Observation-mii-exa-kardio-geraeteprogrammierung-vvi.json",
@@ -173,7 +173,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Herzinsuffizienz_Unbekannt.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 18
   },
   {
     "outputFile": "Observation-mii-exa-kardio-hoehergradiges-vitium-nein.json",
@@ -189,7 +189,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Kein_Device.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 18
   },
   {
     "outputFile": "Observation-mii-exa-kardio-lvef.json",
@@ -197,7 +197,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_LVEF.fsh",
     "startLine": 1,
-    "endLine": 63
+    "endLine": 65
   },
   {
     "outputFile": "Observation-mii-exa-kardio-mrs.json",
@@ -205,7 +205,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_MRS.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 21
   },
   {
     "outputFile": "Observation-mii-exa-kardio-pci-nein.json",
@@ -213,7 +213,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_PCI_Nein.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 19
   },
   {
     "outputFile": "Observation-mii-exa-kardio-raucherstatus.json",
@@ -221,7 +221,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Raucherstatus.fsh",
     "startLine": 1,
-    "endLine": 44
+    "endLine": 32
   },
   {
     "outputFile": "Observation-mii-exa-kardio-score-nyha-ii.json",
@@ -229,7 +229,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Score_NYHA_II.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 21
   },
   {
     "outputFile": "PractitionerRole-mii-exa-kardio-rolle-kardiologe.json",
@@ -245,7 +245,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_EKG_Durchführung.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 19
   },
   {
     "outputFile": "Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json",
@@ -253,7 +253,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_Kardiale_Deviceimplantation_ICD.fsh",
     "startLine": 1,
-    "endLine": 20
+    "endLine": 21
   },
   {
     "outputFile": "Questionnaire-mii-qn-kardio-acribis-study-followup.json",
@@ -269,7 +269,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_QuestionnaireResponse_Andere.fsh",
     "startLine": 1,
-    "endLine": 230
+    "endLine": 231
   },
   {
     "outputFile": "QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige.json",
@@ -277,7 +277,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_QuestionnaireResponse_Angehoerige.fsh",
     "startLine": 1,
-    "endLine": 145
+    "endLine": 146
   },
   {
     "outputFile": "QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt.json",
@@ -285,7 +285,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_QuestionnaireResponse_Arzt.fsh",
     "startLine": 1,
-    "endLine": 206
+    "endLine": 207
   },
   {
     "outputFile": "QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient.json",
@@ -293,7 +293,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_QuestionnaireResponse_Patient.fsh",
     "startLine": 1,
-    "endLine": 127
+    "endLine": 128
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json",

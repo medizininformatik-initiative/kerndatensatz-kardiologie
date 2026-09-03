@@ -5,13 +5,14 @@ Description: "Beispiel: Der Patient weiß nicht, ob er Herzinsuffizienz hat."
 Usage: #example
 
 * language = #de-DE
+* contained[0] = Beispielpatient
 * status = #final
-* category = $observation-category#survey
-* code.coding[diagnoseSnomed] = $example-sct#84114007 "Heart failure"
+* category = $observation-category-with-version#survey
+* code.coding[diagnoseSnomed] = $sct-with-version#84114007 "Heart failure"
 * performer.display = "Beispielkardiologe"
-* subject.display = "Beispielpatient"
+* subject = Reference(Beispielpatient)
 * effectiveDateTime = "2025-06-06T14:29:34.214+02:00"
-* valueCodeableConcept = $example-v2-0532#ASKU "gefragt, aber nicht genannt"
-* method =  $example-sct#129431000 "History taking - action"
+* valueCodeableConcept = $v2-0532-with-version#ASKU "gefragt, aber nicht genannt"
+* method =  $sct-with-version#129431000 "History taking - action"
 * device.display = "Beispieltablet"
 * derivedFrom.display = "Beispielfragebogen"

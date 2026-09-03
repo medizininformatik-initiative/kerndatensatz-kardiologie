@@ -5,21 +5,22 @@ Description: "Beispiel: Der Patient hat angegeben, einen embolischen Gefäßvers
 Usage: #example
 
 * language = #de-DE
+* contained[0] = Beispielpatient
 // --------------------------------------
 // CATEGORY (problem-list-item)
 * category = $condition-category#problem-list-item "Problem List Item"
 
 // --------------------------------------
 // CODE (ICD10-GM & SNOMED --> hier local kardio vs)
-* code.coding[kardio] = $example-ath-ereignis#eg-cv "Embolischer Gefäßverschluss cerebro-vaskulär"
+* code.coding[kardio] = $ath-ereignis-with-version#eg-cv "Embolischer Gefäßverschluss cerebro-vaskulär"
 
 // --------------------------------------
 // SUBJECT (Patientenreferenz)
-* subject.display = "Max Mustermann"
+* subject = Reference(Beispielpatient)
 
 // --------------------------------------
 // RECORDER (Patient selbst hat Angabe gemacht / Patient)
-* recorder.display = "Patient"
+* recorder = Reference(Beispielpatient)
 
 // --------------------------------------
 // ASSERTER (Arzt)

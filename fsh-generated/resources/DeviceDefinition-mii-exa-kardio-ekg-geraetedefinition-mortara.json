@@ -20,23 +20,27 @@
   "physicalCharacteristics": {
     "height": {
       "value": 14,
+      "code": "cm",
       "system": "http://unitsofmeasure.org",
-      "code": "cm"
+      "unit": "cm"
     },
     "width": {
       "value": 39,
+      "code": "cm",
       "system": "http://unitsofmeasure.org",
-      "code": "cm"
+      "unit": "cm"
     },
     "depth": {
       "value": 51,
+      "code": "cm",
       "system": "http://unitsofmeasure.org",
-      "code": "cm"
+      "unit": "cm"
     },
     "weight": {
       "value": 12,
+      "code": "kg",
       "system": "http://unitsofmeasure.org",
-      "code": "kg"
+      "unit": "kg"
     }
   },
   "language": "de-DE",

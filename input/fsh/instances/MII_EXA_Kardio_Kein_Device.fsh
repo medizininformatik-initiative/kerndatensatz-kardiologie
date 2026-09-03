@@ -5,13 +5,14 @@ Description: "Beispiel: Der Patient hat kein implantiertes kardiales Device."
 Usage: #example
 
 * language = #de-DE
+* contained[0] = Beispielpatient
 * status = #final
-* category = $observation-category#survey
-* code.coding[diagnoseSnomed] = $example-sct#703398004 "Cardiac implant in situ"
+* category = $observation-category-with-version#survey
+* code.coding[diagnoseSnomed] = $sct-with-version#703398004 "Cardiac implant in situ"
 * performer.display = "Beispielkardiologe"
-* subject.display = "Beispielpatient"
+* subject = Reference(Beispielpatient)
 * effectiveDateTime = "2025-11-13T18:06:34.214+01:00"
-* valueCodeableConcept = $v2-0532#N "Nein"
-* method =  $example-sct#129431000 "History taking - action"
+* valueCodeableConcept = $v2-0532-with-version#N "Nein"
+* method =  $sct-with-version#129431000 "History taking - action"
 * device.display = "Beispieltablet"
 * derivedFrom.display = "Beispielfragebogen"

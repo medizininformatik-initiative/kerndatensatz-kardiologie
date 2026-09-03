@@ -6,20 +6,63 @@
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotation"
     ]
   },
+  "contained": [
+    {
+      "resourceType": "Patient",
+      "id": "Beispielpatient",
+      "identifier": [
+        {
+          "use": "usual",
+          "type": {
+            "coding": [
+              {
+                "code": "MR",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                "version": "5.0.0",
+                "display": "Krankenaktennummer"
+              }
+            ]
+          },
+          "value": "0123456789"
+        }
+      ],
+      "name": [
+        {
+          "given": [
+            "Max"
+          ],
+          "use": "official",
+          "family": "Mustermann"
+        }
+      ],
+      "address": [
+        {
+          "line": [
+            "Musterstraße 1"
+          ],
+          "type": "both",
+          "city": "Musterstadt",
+          "postalCode": "12345",
+          "country": "DE"
+        }
+      ],
+      "language": "de-DE",
+      "gender": "male",
+      "birthDate": "1980-01-01"
+    }
+  ],
   "category": [
     {
       "coding": [
         {
           "code": "vital-signs",
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "version": "2.0.0",
           "display": "Vital Signs"
         }
       ]
     }
   ],
-  "subject": {
-    "display": "Beispielpatient"
-  },
   "effectivePeriod": {
     "start": "2023-05-03T07:38:07Z",
     "end": "2023-05-03T07:38:17Z"
@@ -29,15 +72,6 @@
       "display": "Kardiologe"
     }
   ],
-  "valueQuantity": {
-    "value": 1000,
-    "unit": "millisecond",
-    "system": "http://unitsofmeasure.org",
-    "code": "ms"
-  },
-  "device": {
-    "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
-  },
   "derivedFrom": [
     {
       "reference": "DocumentReference/mii-exa-kardio-ekg-referenz"
@@ -54,5 +88,17 @@
         "display": "MDC_ECG_TIME_PD_RR_GL"
       }
     ]
+  },
+  "subject": {
+    "reference": "#Beispielpatient"
+  },
+  "valueQuantity": {
+    "value": 1000,
+    "code": "ms",
+    "system": "http://unitsofmeasure.org",
+    "unit": "millisecond"
+  },
+  "device": {
+    "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
   }
 }

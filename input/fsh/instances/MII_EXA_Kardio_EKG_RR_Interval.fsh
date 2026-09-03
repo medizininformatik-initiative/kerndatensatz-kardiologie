@@ -5,16 +5,14 @@ Description: "Beispiel einer Observation zur Darstellung des RR Intervals eines 
 Usage: #example
 
 * language = #de-DE
+* contained[0] = Beispielpatient
 * status = #final
-* category[vital-signs] = $observation-category#vital-signs "Vital Signs"
-* code = $example-mdc#147240 "MDC_ECG_TIME_PD_RR_GL"
-* subject.display = "Beispielpatient"
+* category[vital-signs] = $observation-category-with-version#vital-signs "Vital Signs"
+* code = $mdc-with-version#147240 "MDC_ECG_TIME_PD_RR_GL"
+* subject = Reference(Beispielpatient)
 * effectivePeriod.start = "2023-05-03T07:38:07Z"
 * effectivePeriod.end = "2023-05-03T07:38:17Z"
 * performer.display = "Kardiologe"
-* valueQuantity.value = 1000
-* valueQuantity.unit = "millisecond"
-* valueQuantity.system = $ucum
-* valueQuantity.code = #ms
-* device.reference = "Device/mii-exa-kardio-ekg-geraet-mortara"
-* derivedFrom.reference = "DocumentReference/mii-exa-kardio-ekg-referenz"
+* valueQuantity = 1000 'ms' "millisecond"
+* device = Reference(mii-exa-kardio-ekg-geraet-mortara)
+* derivedFrom = Reference(mii-exa-kardio-ekg-referenz)

@@ -13,4 +13,4 @@ Description: "Erweiterung des MII VS Diagnose Diagnosecodes [SNOMED CT]"
 * ^extension[http://hl7.org/fhir/StructureDefinition/valueset-supplement].valueCanonical = "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct"
 
 * include codes from valueset $diagnoses-sct-vs
-* include $example-sct#368009:{116676008=49755003,363698007=17401000},{246112005=24484000} // Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure},{Severity=Severe}
+* include $sct-with-version#368009:{116676008=49755003,363698007=17401000},{246112005=24484000} // Heart valve disorder:{Associated morphology=Morphologically abnormal structure,Finding site=Cardiac valve structure},{Severity=Severe}

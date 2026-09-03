@@ -6,30 +6,6 @@
 
 ## Beispiel Observation: MII EXA Kardio Kein Device
 
-Language: de
-
-Profile: [MII PR Kardio Diagnose Prozedur Nein Unbekannt](StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.md)
-
-**status**: Final
-
-**category**: Survey
-
-**code**: Cardiac implant in situ
-
-**subject**: Beispielpatient
-
-**effective**: 2025-11-13 18:06:34+0100
-
-**performer**: Beispielkardiologe
-
-**value**: Nein
-
-**method**: History taking - action
-
-**device**: Beispieltablet
-
-**derivedFrom**: Beispielfragebogen
-
 
 
 ## Resource Content
@@ -42,10 +18,42 @@ Profile: [MII PR Kardio Diagnose Prozedur Nein Unbekannt](StructureDefinition-mi
     "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt"]
   },
   "language" : "de",
+  "contained" : [{
+    "resourceType" : "Patient",
+    "id" : "Beispielpatient",
+    "language" : "de-DE",
+    "identifier" : [{
+      "use" : "usual",
+      "type" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+          "version" : "5.0.0",
+          "code" : "MR",
+          "display" : "Krankenaktennummer"
+        }]
+      },
+      "value" : "0123456789"
+    }],
+    "name" : [{
+      "use" : "official",
+      "family" : "Mustermann",
+      "given" : ["Max"]
+    }],
+    "gender" : "male",
+    "birthDate" : "1980-01-01",
+    "address" : [{
+      "type" : "both",
+      "line" : ["Musterstraße 1"],
+      "city" : "Musterstadt",
+      "postalCode" : "12345",
+      "country" : "DE"
+    }]
+  }],
   "status" : "final",
   "category" : [{
     "coding" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version" : "2.0.0",
       "code" : "survey"
     }]
   }],
@@ -58,7 +66,7 @@ Profile: [MII PR Kardio Diagnose Prozedur Nein Unbekannt](StructureDefinition-mi
     }]
   },
   "subject" : {
-    "display" : "Beispielpatient"
+    "reference" : "#Beispielpatient"
   },
   "effectiveDateTime" : "2025-11-13T18:06:34.214+01:00",
   "performer" : [{
@@ -67,6 +75,7 @@ Profile: [MII PR Kardio Diagnose Prozedur Nein Unbekannt](StructureDefinition-mi
   "valueCodeableConcept" : {
     "coding" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+      "version" : "3.0.0",
       "code" : "N",
       "display" : "Nein"
     }]

@@ -3,22 +3,22 @@
 ## Pages
 
 * [Home](de/index.md)
+* [Referenzen](de/references.md)
+* [Kontext und Bezüge zu anderen Modulen](de/context.md)
 * [Datensätze und Beschreibungen](de/datasets.md)
 * [Profile: KardioDevices](de/profiles-kardiodevices.md)
-* [Kontext und Bezüge zu anderen Modulen](de/context.md)
-* [Beschreibung des Moduls](de/module-description.md)
-* [Terminologien](de/terminology.md)
-* [Profile: EKG-Metadaten](de/profiles-ekg.md)
-* [Profile: Diagnostik](de/profiles-diagnostik.md)
-* [Artefaktübersicht](de/artifacts.md)
-* [Profile: Risikofaktoren](de/profiles-risikofaktoren.md)
-* [Referenzen](de/references.md)
-* [Profile: Anamnese](de/profiles-anamnese.md)
 * [Anwendungsszenarien](de/scenarios.md)
-* [Profilübersicht](de/profiles-overview.md)
+* [Profile: Risikofaktoren](de/profiles-risikofaktoren.md)
+* [Beschreibung des Moduls](de/module-description.md)
+* [Profile: EKG-Metadaten](de/profiles-ekg.md)
+* [Profile: Anamnese](de/profiles-anamnese.md)
+* [Artefaktübersicht](de/artifacts.md)
 * [Release Notes](de/release-notes.md)
-* [Informationsmodell (UML)](de/information-model.md)
 * [Profile: Skalen](de/profiles-skalen.md)
+* [Profilübersicht](de/profiles-overview.md)
+* [Profile: Diagnostik](de/profiles-diagnostik.md)
+* [Terminologien](de/terminology.md)
+* [Informationsmodell (UML)](de/information-model.md)
 
 ## Resources
 

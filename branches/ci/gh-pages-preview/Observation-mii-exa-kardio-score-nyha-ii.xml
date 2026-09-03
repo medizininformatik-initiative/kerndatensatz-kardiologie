@@ -7,9 +7,60 @@
   </meta>
   <language value="de"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Observation mii-exa-kardio-score-nyha-ii</b></p><a name="mii-exa-kardio-score-nyha-ii"> </a><a name="hcmii-exa-kardio-score-nyha-ii"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-score-nyha.html">MII PR Kardio Score NYHA</a></p></div><p><b>identifier</b>: <code>http://demo.org/observation-ids</code>/NYHA-OBS-123456</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 762994006}, {http://loinc.org 93124-6}">New York Heart Association Classification class</span></p><p><b>subject</b>: Beispielpatient</p><p><b>encounter</b>: Beispielfall</p><p><b>effective</b>: 2024-11-12 14:23:00+0100</p><p><b>issued</b>: 2024-11-12 15:00:00+0100</p><p><b>performer</b>: <a href="PractitionerRole-mii-exa-kardio-rolle-kardiologe.html">PractitionerRole Cardiologist</a></p><p><b>value</b>: <span title="Codes:{http://snomed.info/sct 421704003}">New York Heart Association Classification - Class II</span></p><p><b>note</b>: </p><blockquote><div><p>Patient berichtet über leichte Einschränkungen bei moderater körperlicher Aktivität. Keine Beschwerden in Ruhe.</p>
-</div></blockquote></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Observation mii-exa-kardio-score-nyha-ii</b></p><a name="mii-exa-kardio-score-nyha-ii"> </a><a name="hcmii-exa-kardio-score-nyha-ii"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-score-nyha.html">MII PR Kardio Score NYHA</a></p></div><p><b>identifier</b>: <code>http://demo.org/observation-ids</code>/NYHA-OBS-123456</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 762994006}, {http://loinc.org 93124-6}">New York Heart Association Classification class</span></p><p><b>subject</b>: <a href="#hcmii-exa-kardio-score-nyha-ii/Beispielpatient">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789 (use: usual, ))</a></p><p><b>encounter</b>: <a href="#hcmii-exa-kardio-score-nyha-ii/Beispielfall">Encounter: status = finished; class = inpatient encounter (ActCode[10.0.0]#IMP); period = 2023-12-01 10:00:00+0100 --&gt; 2023-12-03 11:00:00+0100</a></p><p><b>effective</b>: 2024-11-12 14:23:00+0100</p><p><b>issued</b>: 2024-11-12 15:00:00+0100</p><p><b>performer</b>: <a href="PractitionerRole-mii-exa-kardio-rolle-kardiologe.html">PractitionerRole Cardiologist</a></p><p><b>value</b>: <span title="Codes:{http://snomed.info/sct 421704003}">New York Heart Association Classification - Class II</span></p><p><b>note</b>: </p><blockquote><div><p>Patient berichtet über leichte Einschränkungen bei moderater körperlicher Aktivität. Keine Beschwerden in Ruhe.</p>
+</div></blockquote><hr/><blockquote><p class="res-header-id"><b>Generated Narrative: Patient #Beispielpatient</b></p><a name="mii-exa-kardio-score-nyha-ii/Beispielpatient"> </a><a name="hcmii-exa-kardio-score-nyha-ii/Beispielpatient"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de-DE</p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789 (use: usual, ))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3">Musterstraße 1 Musterstadt 12345 DE </td></tr></table></blockquote><hr/><blockquote><p class="res-header-id"><b>Generated Narrative: Encounter #Beispielfall</b></p><a name="mii-exa-kardio-score-nyha-ii/Beispielfall"> </a><a name="hcmii-exa-kardio-score-nyha-ii/Beispielfall"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de-DE</p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP">ActCode: IMP</a> (inpatient encounter) (version = 10.0.0 )</p><p><b>subject</b>: <a href="#hcmii-exa-kardio-score-nyha-ii/Beispielpatient">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789 (use: usual, ))</a></p><p><b>period</b>: 2023-12-01 10:00:00+0100 --&gt; 2023-12-03 11:00:00+0100</p></blockquote></div>
   </text>
+  <contained>
+    <Patient>
+      <id value="Beispielpatient"/>
+      <language value="de-DE"/>
+      <identifier>
+        <use value="usual"/>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+            <version value="5.0.0"/>
+            <code value="MR"/>
+            <display value="Krankenaktennummer"/>
+          </coding>
+        </type>
+        <value value="0123456789"/>
+      </identifier>
+      <name>
+        <use value="official"/>
+        <family value="Mustermann"/>
+        <given value="Max"/>
+      </name>
+      <gender value="male"/>
+      <birthDate value="1980-01-01"/>
+      <address>
+        <type value="both"/>
+        <line value="Musterstraße 1"/>
+        <city value="Musterstadt"/>
+        <postalCode value="12345"/>
+        <country value="DE"/>
+      </address>
+    </Patient>
+  </contained>
+  <contained>
+    <Encounter>
+      <id value="Beispielfall"/>
+      <language value="de-DE"/>
+      <status value="finished"/>
+      <class>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+        <version value="10.0.0"/>
+        <code value="IMP"/>
+      </class>
+      <subject>
+        <reference value="#Beispielpatient"/>
+      </subject>
+      <period>
+        <start value="2023-12-01T10:00:00+01:00"/>
+        <end value="2023-12-03T11:00:00+01:00"/>
+      </period>
+    </Encounter>
+  </contained>
   <identifier>
     <system value="http://demo.org/observation-ids"/>
     <value value="NYHA-OBS-123456"/>
@@ -36,10 +87,10 @@
     </coding>
   </code>
   <subject>
-    <display value="Beispielpatient"/>
+    <reference value="#Beispielpatient"/>
   </subject>
   <encounter>
-    <display value="Beispielfall"/>
+    <reference value="#Beispielfall"/>
   </encounter>
   <effectiveDateTime value="2024-11-12T14:23:00+01:00"/>
   <issued value="2024-11-12T15:00:00+01:00"/>

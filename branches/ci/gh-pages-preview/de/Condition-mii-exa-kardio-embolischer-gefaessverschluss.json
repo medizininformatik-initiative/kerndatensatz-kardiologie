@@ -7,8 +7,39 @@
   "language" : "de",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: Condition mii-exa-kardio-embolischer-gefaessverschluss</b></p><a name=\"mii-exa-kardio-embolischer-gefaessverschluss\"> </a><a name=\"hcmii-exa-kardio-embolischer-gefaessverschluss\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-kardio-diagnose.html\">MII PR Kardio Diagnose</a></p></div><p><b>Condition Asserted Date</b>: 2025-02-02</p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis eg-cv}\">Embolischer Gefäßverschluss cerebro-vaskulär</span></p><p><b>subject</b>: Max Mustermann</p><p><b>onset</b>: 2024-11-05</p><p><b>recordedDate</b>: 2025-02-02</p><p><b>recorder</b>: Patient</p><p><b>asserter</b>: Facharzt für Kardiologie</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: Condition mii-exa-kardio-embolischer-gefaessverschluss</b></p><a name=\"mii-exa-kardio-embolischer-gefaessverschluss\"> </a><a name=\"hcmii-exa-kardio-embolischer-gefaessverschluss\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-kardio-diagnose.html\">MII PR Kardio Diagnose</a></p></div><p><b>Condition Asserted Date</b>: 2025-02-02</p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category problem-list-item}\">Problem List Item</span></p><p><b>code</b>: <span title=\"Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis eg-cv}\">Embolischer Gefäßverschluss cerebro-vaskulär</span></p><p><b>subject</b>: <a href=\"#hcmii-exa-kardio-embolischer-gefaessverschluss/Beispielpatient\">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>onset</b>: 2024-11-05</p><p><b>recordedDate</b>: 2025-02-02</p><p><b>recorder</b>: <a href=\"#hcmii-exa-kardio-embolischer-gefaessverschluss/Beispielpatient\">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789\u00a0(use:\u00a0usual,\u00a0))</a></p><p><b>asserter</b>: Facharzt für Kardiologie</p><hr/><blockquote><p class=\"res-header-id\"><b>Generated Narrative: Patient #Beispielpatient</b></p><a name=\"mii-exa-kardio-embolischer-gefaessverschluss/Beispielpatient\"> </a><a name=\"hcmii-exa-kardio-embolischer-gefaessverschluss/Beispielpatient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de-DE</p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Max Mustermann (official) Male, DoB: 1980-01-01 ( Krankenaktennummer: 0123456789\u00a0(use:\u00a0usual,\u00a0))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">Musterstraße 1 Musterstadt 12345 DE </td></tr></table></blockquote></div>"
   },
+  "contained" : [{
+    "resourceType" : "Patient",
+    "id" : "Beispielpatient",
+    "language" : "de-DE",
+    "identifier" : [{
+      "use" : "usual",
+      "type" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+          "version" : "5.0.0",
+          "code" : "MR",
+          "display" : "Krankenaktennummer"
+        }]
+      },
+      "value" : "0123456789"
+    }],
+    "name" : [{
+      "use" : "official",
+      "family" : "Mustermann",
+      "given" : ["Max"]
+    }],
+    "gender" : "male",
+    "birthDate" : "1980-01-01",
+    "address" : [{
+      "type" : "both",
+      "line" : ["Musterstraße 1"],
+      "city" : "Musterstadt",
+      "postalCode" : "12345",
+      "country" : "DE"
+    }]
+  }],
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
     "valueDateTime" : "2025-02-02"
@@ -36,12 +67,12 @@
     }]
   },
   "subject" : {
-    "display" : "Max Mustermann"
+    "reference" : "#Beispielpatient"
   },
   "onsetDateTime" : "2024-11-05",
   "recordedDate" : "2025-02-02",
   "recorder" : {
-    "display" : "Patient"
+    "reference" : "#Beispielpatient"
   },
   "asserter" : {
     "display" : "Facharzt für Kardiologie"

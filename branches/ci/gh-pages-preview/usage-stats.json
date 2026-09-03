@@ -105,6 +105,10 @@
     "http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy": [
       "StructureDefinition"
     ],
+    "http://hl7.org/fhir/StructureDefinition/bodySite|5.3.0": [
+      "Condition.bodySite",
+      "Procedure.bodySite"
+    ],
     "http://hl7.org/fhir/StructureDefinition/condition-assertedDate": [
       "Condition"
     ],
@@ -188,7 +192,7 @@
     "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht": [
       "Procedure"
     ],
-    "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht|2026.0.1": [
+    "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht|2027.0.0-ballot.rc1": [
       "Procedure"
     ]
   }

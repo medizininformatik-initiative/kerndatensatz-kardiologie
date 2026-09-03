@@ -26,9 +26,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.403"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-kardio-score-nyha.html" : "MII PR Kardio Score NYHA",
-    "StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html" : "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
     "StructureDefinition-mii-pr-kardio-observation-rauchen.html" : "MII PR Kardio Observation Rauchen",
+    "StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html" : "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
+    "StructureDefinition-mii-pr-kardio-score-nyha.html" : "MII PR Kardio Score NYHA",
     "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html" : "MII PR Kardio Score Modifizierte Rankin Skala"
   },
   {
@@ -47,7 +47,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Diagnose_DiagnoseCodes_SNOMED",
     "title" : "MII VS Diagnose Diagnose-Codes SNOMED",
@@ -59,7 +59,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-alphaid",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Diagnose_AlphaID",
     "title" : "MII VS Diagnose Alpha-ID",
@@ -71,7 +71,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-icd10gm",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Diagnose_ICD10GM",
     "title" : "MII VS Diagnose ICD-10-GM",
@@ -83,7 +83,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-orphanet",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Diagnose_Orphanet",
     "title" : "MII VS Diagnose Orphanet",
@@ -95,7 +95,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Prozedur_Prozeduren_SNOMEDCT",
     "title" : "MII VS Prozedur Prozeduren [SNOMED CT]",
@@ -371,7 +371,7 @@
     "systems" : ["urn:iso:std:iso:11073:10101"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-kardio-ekg-geraet.html" : "MII PR Kardio EKG Gerät",
-    "StructureDefinition-mii-pr-kardio-ekg-kanal.html" : "MII PR Kardio EKG Kanal"
+    "StructureDefinition-mii-pr-kardio-ekg-kanal.html" : "MII PR Kardio EKG Kanal",
+    "StructureDefinition-mii-pr-kardio-ekg-geraet.html" : "MII PR Kardio EKG Gerät"
   }]
 }

@@ -6,35 +6,6 @@
 
 ## Beispiel Procedure: MII EXA Kardio EKG Durchführung
 
-Language: de
-
-Profile: [MII PR Kardio EKG Durchführung](StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.md)
-
-**ExtensionProzedurDokumentationsdatum**: 2025-01-10 16:23:12+0200
-
-**MII EX Prozedur Durchführungsabsicht**: [SNOMED CT: 261004008](http://snomed.info/id/261004008) (Diagnostic intent)
-
-**status**: Completed
-
-**category**: Diagnostic assessment
-
-**code**: 12 lead electrocardiogram at rest
-
-**subject**: Beispielpatient
-
-**performed**: 2023-05-03 07:38:07+0000 --> 2023-05-03 07:38:17+0000
-
-**bodySite**: Heart structure
-
-**note**: 
-
-> 
-
-ICD Kontrolle
-
-
-**usedReference**: [Device: status = active; manufacturer = Mortara Instrument, Inc.; type = MDC_DEV_ECG_MDS](Device-mii-exa-kardio-ekg-geraet-mortara.md)
-
 
 
 ## Resource Content
@@ -47,6 +18,37 @@ ICD Kontrolle
     "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-durchfuehrung"]
   },
   "language" : "de",
+  "contained" : [{
+    "resourceType" : "Patient",
+    "id" : "Beispielpatient",
+    "language" : "de-DE",
+    "identifier" : [{
+      "use" : "usual",
+      "type" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+          "version" : "5.0.0",
+          "code" : "MR",
+          "display" : "Krankenaktennummer"
+        }]
+      },
+      "value" : "0123456789"
+    }],
+    "name" : [{
+      "use" : "official",
+      "family" : "Mustermann",
+      "given" : ["Max"]
+    }],
+    "gender" : "male",
+    "birthDate" : "1980-01-01",
+    "address" : [{
+      "type" : "both",
+      "line" : ["Musterstraße 1"],
+      "city" : "Musterstadt",
+      "postalCode" : "12345",
+      "country" : "DE"
+    }]
+  }],
   "extension" : [{
     "url" : "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum",
     "valueDateTime" : "2025-01-10T16:23:12+02:00"
@@ -77,7 +79,7 @@ ICD Kontrolle
     }]
   },
   "subject" : {
-    "display" : "Beispielpatient"
+    "reference" : "#Beispielpatient"
   },
   "performedPeriod" : {
     "start" : "2023-05-03T07:38:07Z",

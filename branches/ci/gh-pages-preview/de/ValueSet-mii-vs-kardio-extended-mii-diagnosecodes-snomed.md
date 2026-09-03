@@ -73,7 +73,7 @@ No Expansion for this valueset (Unknown Code System)
   "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
   "compose" : {
     "include" : [{
-      "valueSet" : ["https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2026.0.1"]
+      "valueSet" : ["https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2027.0.0-ballot.rc1"]
     },
     {
       "system" : "http://snomed.info/sct",

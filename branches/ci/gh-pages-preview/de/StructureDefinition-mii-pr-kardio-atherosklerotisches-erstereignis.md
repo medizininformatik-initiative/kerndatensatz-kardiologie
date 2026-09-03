@@ -183,6 +183,13 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
     {
       "id" : "Observation.code",
       "path" : "Observation.code",
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
+          "code" : "ae",
+          "display" : "Atherosklerotisches Ereignis"
+        }]
+      },
       "mustSupport" : true
     },
     {
@@ -190,11 +197,6 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "path" : "Observation.code.coding",
       "min" : 1,
       "max" : "1",
-      "patternCoding" : {
-        "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
-        "code" : "ae",
-        "display" : "Atherosklerotisches Ereignis"
-      },
       "mustSupport" : true
     },
     {

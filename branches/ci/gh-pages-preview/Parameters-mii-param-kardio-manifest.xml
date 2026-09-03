@@ -22,8 +22,4 @@
     <name value="system-version"/>
     <valueCanonical value="urn:iso:std:iso:11073:10101|2024-12-05"/>
   </parameter>
-  <parameter>
-    <name value="system-version"/>
-    <valueCanonical value="http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"/>
-  </parameter>
 </Parameters>

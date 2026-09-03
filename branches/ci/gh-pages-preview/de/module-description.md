@@ -17,7 +17,7 @@ Das langfristige übergeordnete Ziel des kardiologischen Kerndatensatzes ist es,
 
 Das Kerndatensatzmodul Kardiolgie wurde als eigenständiges Modul des Kerndatensatzes der MII konzipiert, ist jedoch über die gemeinsame Nutzung von verschiedenen Datenitems mit bereits existierenden Modulen eingebunden. Die untenstehende Graphik zeigt die gegenwärtigen (Stand 08.2026) Module an und in dieser werden die grundlegenden Datenquellen wie Person, Fall oder auch Medikation hervorgehoben. Die Übersicht visualisierte jedoch keine Abhängigkeiten oder inhaltlichen Gemeinsamkeiten der einzelnen Module auf.
 
-![](Kerndatensatz.png)
+![](https://www.medizininformatik-initiative.de/sites/default/files/2026-07/2026-07-03_Kerndatensatz_d.png)
 
 (aus: [Medizininformatik Initiative Webseite](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative)]
 
@@ -31,7 +31,9 @@ In der Umsetzung werden drei Stufen durchlaufen, in denen sukzessiv der kardiolo
 * **Stufe 2:** Integration weiterer Vorarbeiten aus MII - Forschungsprojekten, Gematik und Patientenvertretungen (vollständiger Datensatz aus [ACRIBiS](https://www.medizininformatik-initiative.de/de/acribis-personalisierte-risikobewertungen-fuer-herz-kreislauf-erkrankungen), [HIGHmed Use Case](https://www.medizininformatik-initiative.de/de/acribis-personalisierte-risikobewertungen-fuer-herz-kreislauf-erkrankungen), [CAEHR](https://www.medizininformatik-initiative.de/de/digitaler-fortschrittshub-caehr), [INA](https://www.ina.gematik.de/community-hub/vernetzen-mitwirken/arbeitskreise/erstellung-eines-kardiologischen-basisdatensatzes), standardisierte Patientenfragebögen [PROMs](https://future.hospital/wissensdatenbank/details/patientenzentrierte-erfassung-des-wohlbefindens-proms-und-prems), u.a.)
 * **Stufe 3:** Erweiterung des Moduls Kardiologie durch die Abbildung zusätzlicher Parameter der kardiologischen Versorgung, die auch seltene Erkrankungen und weitere Risikobewertungen einschliessen.
 
-## Das Modul Kardiologie soll in den Datenintegrationszentren (DIZ) bei der Aufbereitung und Bereitstellung von vorhandenen Patientendaten aus dem Versorgungskontext unterstützen. Es baut bewusst auf bereits vorhandenen Modulen des MII-KDS auf (base, meta, icu, isik, Diagnose, Prozedur) und verwendet, wo möglich, bestehende Strukturen wieder.
+Das Modul Kardiologie soll in den Datenintegrationszentren (DIZ) bei der Aufbereitung und Bereitstellung von vorhandenen Patientendaten aus dem Versorgungskontext unterstützen. Es baut bewusst auf bereits vorhandenen Modulen des MII-KDS auf (base, meta, icu, isik, Diagnose, Prozedur) und verwendet, wo möglich, bestehende Strukturen wieder.
+
+-------
 
 ## Spezifikation der Parameter
 

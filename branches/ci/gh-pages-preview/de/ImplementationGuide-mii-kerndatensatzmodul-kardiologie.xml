@@ -12,7 +12,7 @@
   <name value="MII_IG_MODUL_KARDIO_DE"/>
   <title value="MII IG Modul Kardio DE"/>
   <status value="draft"/>
-  <date value="2026-09-01T20:00:38+00:00"/>
+  <date value="2026-09-03T15:07:11+00:00"/>
   <publisher value="Medizininformatik-Initiative"/>
   <contact>
     <name value="Medizininformatik-Initiative"/>
@@ -51,12 +51,12 @@
   <dependsOn id="de_medizininformatikinitiative_kerndatensatz_base">
     <uri value="https://www.medizininformatik-initiative.de/fhir/modul-base/ImplementationGuide/mii-ig-base"/>
     <packageId value="de.medizininformatikinitiative.kerndatensatz.base"/>
-    <version value="2026.0.x"/>
+    <version value="2027.0.0-ballot.rc1"/>
   </dependsOn>
   <dependsOn id="de_medizininformatikinitiative_kerndatensatz_meta">
     <uri value="https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta"/>
     <packageId value="de.medizininformatikinitiative.kerndatensatz.meta"/>
-    <version value="2026.0.x"/>
+    <version value="2027.0.0-ballot.rc3"/>
   </dependsOn>
   <dependsOn id="de_gematik_isik">
     <uri value="http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik"/>

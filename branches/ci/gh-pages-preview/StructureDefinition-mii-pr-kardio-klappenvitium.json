@@ -27,6 +27,7 @@
     "valueCodeableConcept" : {
       "coding" : [{
         "system" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes",
+        "version" : "3.0.0",
         "code" : "package",
         "display" : "Package"
       }]
@@ -107,7 +108,7 @@
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2026"
+      "start" : "2027"
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-klappenvitium",
@@ -2815,8 +2816,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -2848,6 +2847,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -2861,14 +2861,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -2906,8 +2908,6 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -2937,8 +2937,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -2970,6 +2968,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -2983,14 +2982,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -3016,8 +3017,6 @@
       }],
       "fixedUri" : "http://fhir.de/StructureDefinition/icd-10-gm-mehrfachcodierungs-kennzeichen",
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "N/A"
@@ -3038,6 +3037,7 @@
       "type" : [{
         "code" : "Coding"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3047,13 +3047,15 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "binding" : {
         "strength" : "required",
         "valueSet" : "http://fhir.de/ValueSet/icd-10-gm-mehrfachcodierungs-kennzeichen|1.6.0"
       },
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "rim",
         "map" : "N/A"
       }]
@@ -3078,8 +3080,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -3111,6 +3111,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3124,14 +3125,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -3151,6 +3154,7 @@
       "type" : [{
         "code" : "uri"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3160,9 +3164,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.3"
       },
@@ -3191,6 +3198,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3199,9 +3207,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.7"
       },
@@ -3219,6 +3230,7 @@
       "path" : "Condition.code.coding.extension.value[x].code",
       "short" : "Symbol in syntax defined by the system",
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to refer to a particular code in the system.",
       "min" : 1,
       "max" : "1",
@@ -3230,6 +3242,7 @@
       "type" : [{
         "code" : "code"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3239,9 +3252,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.1"
       },
@@ -3263,6 +3279,7 @@
       "path" : "Condition.code.coding.extension.value[x].display",
       "short" : "Representation defined by the system",
       "definition" : "A representation of the meaning of the code in the system, following the rules of the system.",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
       "min" : 0,
       "max" : "1",
@@ -3274,6 +3291,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3282,9 +3300,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.2 - but note this is not well followed"
       },
@@ -3314,6 +3335,7 @@
       "type" : [{
         "code" : "boolean"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3322,9 +3344,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "Sometimes implied by being first"
       },
@@ -3372,8 +3397,6 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -3403,8 +3426,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -3436,6 +3457,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3449,14 +3471,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -3482,8 +3506,6 @@
       }],
       "fixedUri" : "http://fhir.de/StructureDefinition/seitenlokalisation",
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "N/A"
@@ -3504,6 +3526,7 @@
       "type" : [{
         "code" : "Coding"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3513,13 +3536,15 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION"
       },
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "rim",
         "map" : "N/A"
       }]
@@ -3544,8 +3569,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -3577,6 +3600,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3590,14 +3614,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -3617,6 +3643,7 @@
       "type" : [{
         "code" : "uri"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3626,9 +3653,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.3"
       },
@@ -3657,6 +3687,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3665,9 +3696,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.7"
       },
@@ -3685,6 +3719,7 @@
       "path" : "Condition.code.coding.extension.value[x].code",
       "short" : "Symbol in syntax defined by the system",
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to refer to a particular code in the system.",
       "min" : 1,
       "max" : "1",
@@ -3696,6 +3731,7 @@
       "type" : [{
         "code" : "code"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3705,9 +3741,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.1"
       },
@@ -3729,6 +3768,7 @@
       "path" : "Condition.code.coding.extension.value[x].display",
       "short" : "Representation defined by the system",
       "definition" : "A representation of the meaning of the code in the system, following the rules of the system.",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
       "min" : 0,
       "max" : "1",
@@ -3740,6 +3780,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3748,9 +3789,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.2 - but note this is not well followed"
       },
@@ -3780,6 +3824,7 @@
       "type" : [{
         "code" : "boolean"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3788,9 +3833,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "Sometimes implied by being first"
       },
@@ -3838,8 +3886,6 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -3869,8 +3915,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -3902,6 +3946,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -3915,14 +3960,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -3948,8 +3995,6 @@
       }],
       "fixedUri" : "http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit",
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "N/A"
@@ -3970,6 +4015,7 @@
       "type" : [{
         "code" : "Coding"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4007,13 +4053,15 @@
         "source" : "http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit|1.6.0"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "binding" : {
         "strength" : "required",
         "valueSet" : "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT"
       },
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "rim",
         "map" : "N/A"
       }]
@@ -4315,6 +4363,7 @@
         "code" : "uri"
       }],
       "fixedUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4324,9 +4373,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.3"
       },
@@ -4355,6 +4407,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4364,9 +4417,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.7"
       },
@@ -4384,6 +4440,7 @@
       "path" : "Condition.code.coding.code",
       "short" : "Der ICD-10-Code",
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to refer to a particular code in the system.",
       "min" : 1,
       "max" : "1",
@@ -4399,6 +4456,7 @@
         "label" : "Einfacher ICD-Code",
         "valueCode" : "F17.4"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4415,11 +4473,14 @@
         "source" : "http://fhir.de/StructureDefinition/CodingICD10GM|1.6.0"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "LogicalModel",
         "map" : "ICD10GMDiagnoseKodiert.Diagnosecode"
+      },
+      {
+        "identity" : "rim",
+        "map" : "n/a"
       },
       {
         "identity" : "v2",
@@ -4443,6 +4504,7 @@
       "path" : "Condition.code.coding.display",
       "short" : "Representation defined by the system",
       "definition" : "A representation of the meaning of the code in the system, following the rules of the system.",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
       "min" : 0,
       "max" : "1",
@@ -4454,6 +4516,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4462,9 +4525,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.2 - but note this is not well followed"
       },
@@ -4494,6 +4560,7 @@
       "type" : [{
         "code" : "boolean"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4502,9 +4569,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "Sometimes implied by being first"
       },
@@ -4639,8 +4709,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -4672,6 +4740,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4685,14 +4754,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -4713,6 +4784,7 @@
         "code" : "uri"
       }],
       "fixedUri" : "http://fhir.de/CodeSystem/bfarm/alpha-id",
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4722,9 +4794,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.3"
       },
@@ -4753,6 +4828,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4762,9 +4838,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.7"
       },
@@ -4782,6 +4861,7 @@
       "path" : "Condition.code.coding.code",
       "short" : "Der Alpha-ID-Code",
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to refer to a particular code in the system.",
       "min" : 1,
       "max" : "1",
@@ -4793,6 +4873,7 @@
       "type" : [{
         "code" : "code"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4802,11 +4883,14 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "LogicalModel",
         "map" : "ALPHAIDKodiert.Diagnosecode"
+      },
+      {
+        "identity" : "rim",
+        "map" : "n/a"
       },
       {
         "identity" : "v2",
@@ -4830,6 +4914,7 @@
       "path" : "Condition.code.coding.display",
       "short" : "Representation defined by the system",
       "definition" : "A representation of the meaning of the code in the system, following the rules of the system.",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
       "min" : 0,
       "max" : "1",
@@ -4841,6 +4926,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4849,9 +4935,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.2 - but note this is not well followed"
       },
@@ -4881,6 +4970,7 @@
       "type" : [{
         "code" : "boolean"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -4889,9 +4979,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "Sometimes implied by being first"
       },
@@ -5371,7 +5464,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-orphanet|2026.0.1"
+        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-orphanet|2027.0.0-ballot.rc1"
       },
       "mapping" : [{
         "identity" : "LogicalModel",
@@ -6230,6 +6323,42 @@
       }]
     },
     {
+      "id" : "Condition.bodySite.extension:bodySite",
+      "path" : "Condition.bodySite.extension",
+      "sliceName" : "bodySite",
+      "short" : "Target anatomic location or structure",
+      "definition" : "Record details about the anatomical location of a specimen or body part. This resource may be used when a coded concept does not provide the necessary detail needed for the use case.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Element.extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/bodySite|5.3.0"]
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
+      }],
+      "isModifier" : false,
+      "isSummary" : false
+    },
+    {
       "id" : "Condition.bodySite.coding",
       "path" : "Condition.bodySite.coding",
       "slicing" : {
@@ -6356,7 +6485,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-bodystructure-snomed|2026.0.1"
+        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-bodystructure-snomed|2027.0.0-ballot.rc1"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -7642,7 +7771,7 @@
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Condition|4.0.1"
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -7676,8 +7805,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -7709,6 +7836,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -7722,14 +7850,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -7755,8 +7885,6 @@
       }],
       "fixedUri" : "http://fhir.de/StructureDefinition/lebensphase",
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "N/A"
@@ -7777,6 +7905,7 @@
       "type" : [{
         "code" : "CodeableConcept"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -7786,11 +7915,13 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "LogicalModel",
         "map" : "KlinischRelevanterZeitraum.Lebensphase.von"
+      },
+      {
+        "identity" : "rim",
+        "map" : "n/a"
       },
       {
         "identity" : "rim",
@@ -7817,8 +7948,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -7850,6 +7979,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -7863,14 +7993,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -7890,6 +8022,7 @@
       "type" : [{
         "code" : "Coding"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -7899,7 +8032,6 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
@@ -7907,6 +8039,22 @@
         "valueSet" : "http://fhir.de/ValueSet/lebensphase-de|1.6.0"
       },
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
+        "identity" : "v2",
+        "map" : "CE/CNE/CWE subset one of the sets of component 1-3 or 4-6"
+      },
+      {
+        "identity" : "rim",
+        "map" : "CV"
+      },
+      {
+        "identity" : "orim",
+        "map" : "fhir:Coding rdfs:subClassOf dt:CDCoding"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.1-8, C*E.10-22"
       },
@@ -7939,8 +8087,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -7972,6 +8118,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -7985,14 +8132,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -8012,6 +8161,7 @@
       "type" : [{
         "code" : "uri"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8021,9 +8171,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.3"
       },
@@ -8052,6 +8205,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8060,9 +8214,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.7"
       },
@@ -8080,6 +8237,7 @@
       "path" : "Condition.onset[x].start.extension.value[x].coding.code",
       "short" : "Symbol in syntax defined by the system",
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to refer to a particular code in the system.",
       "min" : 1,
       "max" : "1",
@@ -8091,6 +8249,7 @@
       "type" : [{
         "code" : "code"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8100,9 +8259,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.1"
       },
@@ -8124,6 +8286,7 @@
       "path" : "Condition.onset[x].start.extension.value[x].coding.display",
       "short" : "Representation defined by the system",
       "definition" : "A representation of the meaning of the code in the system, following the rules of the system.",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
       "min" : 0,
       "max" : "1",
@@ -8135,6 +8298,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8143,9 +8307,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.2 - but note this is not well followed"
       },
@@ -8175,6 +8342,7 @@
       "type" : [{
         "code" : "boolean"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8183,9 +8351,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "Sometimes implied by being first"
       },
@@ -8219,6 +8390,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8227,9 +8399,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.9. But note many systems use C*E.2 for this"
       },
@@ -8408,7 +8583,7 @@
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Condition|4.0.1"
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
       "mustSupport" : true,
       "isModifier" : false,
@@ -8442,8 +8617,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -8475,6 +8648,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8488,14 +8662,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -8521,8 +8697,6 @@
       }],
       "fixedUri" : "http://fhir.de/StructureDefinition/lebensphase",
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "N/A"
@@ -8543,6 +8717,7 @@
       "type" : [{
         "code" : "CodeableConcept"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8552,11 +8727,13 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "LogicalModel",
         "map" : "KlinischRelevanterZeitraum.Lebensphase.bis"
+      },
+      {
+        "identity" : "rim",
+        "map" : "n/a"
       },
       {
         "identity" : "rim",
@@ -8583,8 +8760,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -8616,6 +8791,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8629,14 +8805,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -8656,6 +8834,7 @@
       "type" : [{
         "code" : "Coding"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8665,7 +8844,6 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
@@ -8673,6 +8851,22 @@
         "valueSet" : "http://fhir.de/ValueSet/lebensphase-de|1.6.0"
       },
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
+        "identity" : "v2",
+        "map" : "CE/CNE/CWE subset one of the sets of component 1-3 or 4-6"
+      },
+      {
+        "identity" : "rim",
+        "map" : "CV"
+      },
+      {
+        "identity" : "orim",
+        "map" : "fhir:Coding rdfs:subClassOf dt:CDCoding"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.1-8, C*E.10-22"
       },
@@ -8705,8 +8899,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -8738,6 +8930,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8751,14 +8944,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -8778,6 +8973,7 @@
       "type" : [{
         "code" : "uri"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8787,9 +8983,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.3"
       },
@@ -8818,6 +9017,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8826,9 +9026,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.7"
       },
@@ -8846,6 +9049,7 @@
       "path" : "Condition.onset[x].end.extension.value[x].coding.code",
       "short" : "Symbol in syntax defined by the system",
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to refer to a particular code in the system.",
       "min" : 1,
       "max" : "1",
@@ -8857,6 +9061,7 @@
       "type" : [{
         "code" : "code"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8866,9 +9071,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.1"
       },
@@ -8890,6 +9098,7 @@
       "path" : "Condition.onset[x].end.extension.value[x].coding.display",
       "short" : "Representation defined by the system",
       "definition" : "A representation of the meaning of the code in the system, following the rules of the system.",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
       "min" : 0,
       "max" : "1",
@@ -8901,6 +9110,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8909,9 +9119,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.2 - but note this is not well followed"
       },
@@ -8941,6 +9154,7 @@
       "type" : [{
         "code" : "boolean"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8949,9 +9163,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "Sometimes implied by being first"
       },
@@ -8985,6 +9202,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -8993,9 +9211,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.9. But note many systems use C*E.2 for this"
       },
@@ -9266,8 +9487,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -9299,6 +9518,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9312,14 +9532,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -9345,8 +9567,6 @@
       }],
       "fixedUri" : "http://fhir.de/StructureDefinition/lebensphase",
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "N/A"
@@ -9367,6 +9587,7 @@
       "type" : [{
         "code" : "CodeableConcept"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9376,9 +9597,11 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "rim",
         "map" : "N/A"
       }]
@@ -9403,8 +9626,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -9436,6 +9657,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9449,14 +9671,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -9476,6 +9700,7 @@
       "type" : [{
         "code" : "Coding"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9485,7 +9710,6 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
@@ -9493,6 +9717,22 @@
         "valueSet" : "http://fhir.de/ValueSet/lebensphase-de|1.6.0"
       },
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
+        "identity" : "v2",
+        "map" : "CE/CNE/CWE subset one of the sets of component 1-3 or 4-6"
+      },
+      {
+        "identity" : "rim",
+        "map" : "CV"
+      },
+      {
+        "identity" : "orim",
+        "map" : "fhir:Coding rdfs:subClassOf dt:CDCoding"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.1-8, C*E.10-22"
       },
@@ -9525,8 +9765,6 @@
         }],
         "code" : "http://hl7.org/fhirpath/System.String"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
@@ -9558,6 +9796,7 @@
       "type" : [{
         "code" : "Extension"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9571,14 +9810,16 @@
         "severity" : "error",
         "human" : "Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"
       }],
-      "isModifier" : false,
-      "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "N/A"
       }]
     },
     {
@@ -9598,6 +9839,7 @@
       "type" : [{
         "code" : "uri"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9607,9 +9849,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.3"
       },
@@ -9638,6 +9883,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9646,9 +9892,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.7"
       },
@@ -9666,6 +9915,7 @@
       "path" : "Condition.onset[x].extension.value[x].coding.code",
       "short" : "Symbol in syntax defined by the system",
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to refer to a particular code in the system.",
       "min" : 1,
       "max" : "1",
@@ -9677,6 +9927,7 @@
       "type" : [{
         "code" : "code"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9686,9 +9937,12 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
       "mustSupport" : true,
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.1"
       },
@@ -9710,6 +9964,7 @@
       "path" : "Condition.onset[x].extension.value[x].coding.display",
       "short" : "Representation defined by the system",
       "definition" : "A representation of the meaning of the code in the system, following the rules of the system.",
+      "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
       "min" : 0,
       "max" : "1",
@@ -9721,6 +9976,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9729,9 +9985,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.2 - but note this is not well followed"
       },
@@ -9761,6 +10020,7 @@
       "type" : [{
         "code" : "boolean"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9769,9 +10029,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "Sometimes implied by being first"
       },
@@ -9805,6 +10068,7 @@
       "type" : [{
         "code" : "string"
       }],
+      "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -9813,9 +10077,12 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element|4.0.1"
       }],
-      "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      },
+      {
         "identity" : "v2",
         "map" : "C*E.9. But note many systems use C*E.2 for this"
       },

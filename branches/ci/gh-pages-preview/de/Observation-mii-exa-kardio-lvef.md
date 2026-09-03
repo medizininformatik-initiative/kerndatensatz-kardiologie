@@ -6,46 +6,6 @@
 
 ## Beispiel Observation: MII EXA Kardio LVEF
 
-Language: de
-
-Profile: [MII PR Kardio Linksventrikulaere Ejektionsfraktion](StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.md)
-
-**identifier**: `http://hospital.demo.org/observation-lvef`/lvef-123456
-
-**basedOn**: Echokardiographie: Beispielanforderung
-
-**partOf**: Echokardiographie: Beispieluntersuchung
-
-**status**: Final
-
-**category**: Imaging
-
-**code**: Linksventrikuläre Ejektionsfraktion
-
-**subject**: Beispielpatient
-
-**encounter**: Beispielfall
-
-**effective**: 2025-05-12 10:15:00+0100
-
-**performer**: Beispielarzt
-
-**value**: 55 % (Details: UCUM code% = '%')
-
-**interpretation**: Normal
-
-**bodySite**: Linker Ventrikel
-
-**method**: Echokardiographie
-
-**device**: Philips EPIQ CVx Ultrasound System
-
-> **referenceRange****low**: 50 % (Details: UCUM code% = '%')**text**: Normal
-
-> **referenceRange****low**: 41 % (Details: UCUM code% = '%')**high**: 49 % (Details: UCUM code% = '%')**text**: Mildly reduced
-
-> **referenceRange****high**: 40 % (Details: UCUM code% = '%')**text**: Reduced
-
 
 
 ## Resource Content
@@ -58,6 +18,55 @@ Profile: [MII PR Kardio Linksventrikulaere Ejektionsfraktion](StructureDefinitio
     "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion"]
   },
   "language" : "de",
+  "contained" : [{
+    "resourceType" : "Patient",
+    "id" : "Beispielpatient",
+    "language" : "de-DE",
+    "identifier" : [{
+      "use" : "usual",
+      "type" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+          "version" : "5.0.0",
+          "code" : "MR",
+          "display" : "Krankenaktennummer"
+        }]
+      },
+      "value" : "0123456789"
+    }],
+    "name" : [{
+      "use" : "official",
+      "family" : "Mustermann",
+      "given" : ["Max"]
+    }],
+    "gender" : "male",
+    "birthDate" : "1980-01-01",
+    "address" : [{
+      "type" : "both",
+      "line" : ["Musterstraße 1"],
+      "city" : "Musterstadt",
+      "postalCode" : "12345",
+      "country" : "DE"
+    }]
+  },
+  {
+    "resourceType" : "Encounter",
+    "id" : "Beispielfall",
+    "language" : "de-DE",
+    "status" : "finished",
+    "class" : {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "version" : "10.0.0",
+      "code" : "IMP"
+    },
+    "subject" : {
+      "reference" : "#Beispielpatient"
+    },
+    "period" : {
+      "start" : "2023-12-01T10:00:00+01:00",
+      "end" : "2023-12-03T11:00:00+01:00"
+    }
+  }],
   "identifier" : [{
     "system" : "http://hospital.demo.org/observation-lvef",
     "value" : "lvef-123456"
@@ -72,6 +81,7 @@ Profile: [MII PR Kardio Linksventrikulaere Ejektionsfraktion](StructureDefinitio
   "category" : [{
     "coding" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version" : "2.0.0",
       "code" : "imaging",
       "display" : "Imaging"
     }]
@@ -92,10 +102,10 @@ Profile: [MII PR Kardio Linksventrikulaere Ejektionsfraktion](StructureDefinitio
     "text" : "Linksventrikuläre Ejektionsfraktion"
   },
   "subject" : {
-    "display" : "Beispielpatient"
+    "reference" : "#Beispielpatient"
   },
   "encounter" : {
-    "display" : "Beispielfall"
+    "reference" : "#Beispielfall"
   },
   "effectiveDateTime" : "2025-05-12T10:15:00+01:00",
   "performer" : [{

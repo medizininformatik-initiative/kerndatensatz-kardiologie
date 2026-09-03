@@ -6,28 +6,6 @@
 
 ## Beispiel Condition: MII EXA Kardio Emoblischer Gefäßverschluss
 
-Language: de
-
-Profile: [MII PR Kardio Diagnose](StructureDefinition-mii-pr-kardio-diagnose.md)
-
-**Condition Asserted Date**: 2025-02-02
-
-**verificationStatus**: Confirmed
-
-**category**: Problem List Item
-
-**code**: Embolischer Gefäßverschluss cerebro-vaskulär
-
-**subject**: Max Mustermann
-
-**onset**: 2024-11-05
-
-**recordedDate**: 2025-02-02
-
-**recorder**: Patient
-
-**asserter**: Facharzt für Kardiologie
-
 
 
 ## Resource Content
@@ -40,6 +18,37 @@ Profile: [MII PR Kardio Diagnose](StructureDefinition-mii-pr-kardio-diagnose.md)
     "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"]
   },
   "language" : "de",
+  "contained" : [{
+    "resourceType" : "Patient",
+    "id" : "Beispielpatient",
+    "language" : "de-DE",
+    "identifier" : [{
+      "use" : "usual",
+      "type" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+          "version" : "5.0.0",
+          "code" : "MR",
+          "display" : "Krankenaktennummer"
+        }]
+      },
+      "value" : "0123456789"
+    }],
+    "name" : [{
+      "use" : "official",
+      "family" : "Mustermann",
+      "given" : ["Max"]
+    }],
+    "gender" : "male",
+    "birthDate" : "1980-01-01",
+    "address" : [{
+      "type" : "both",
+      "line" : ["Musterstraße 1"],
+      "city" : "Musterstadt",
+      "postalCode" : "12345",
+      "country" : "DE"
+    }]
+  }],
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/condition-assertedDate",
     "valueDateTime" : "2025-02-02"
@@ -67,12 +76,12 @@ Profile: [MII PR Kardio Diagnose](StructureDefinition-mii-pr-kardio-diagnose.md)
     }]
   },
   "subject" : {
-    "display" : "Max Mustermann"
+    "reference" : "#Beispielpatient"
   },
   "onsetDateTime" : "2024-11-05",
   "recordedDate" : "2025-02-02",
   "recorder" : {
-    "display" : "Patient"
+    "reference" : "#Beispielpatient"
   },
   "asserter" : {
     "display" : "Facharzt für Kardiologie"

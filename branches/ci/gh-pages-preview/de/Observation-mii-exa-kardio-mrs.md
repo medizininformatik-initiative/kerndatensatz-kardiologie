@@ -6,37 +6,6 @@
 
 ## Beispiel Observation: MII EXA Kardio MRS
 
-Language: de
-
-Profile: [MII PR Kardio Score Modifizierte Rankin Skala](StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.md)
-
-**identifier**: `http://demo.org/observation-ids`/MRS-OBS-123457
-
-**status**: Final
-
-**category**: Survey
-
-**code**: Modified Rankin Scale score
-
-**subject**: Beispielpatient
-
-**encounter**: Beispielfall
-
-**effective**: 2024-11-12 14:23:00+0100
-
-**issued**: 2024-11-12 15:00:00+0100
-
-**performer**: Beispielkardiologe
-
-**value**: Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)
-
-**note**: 
-
-> 
-
-Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)
-
-
 
 
 ## Resource Content
@@ -49,6 +18,55 @@ Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne f
     "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala"]
   },
   "language" : "de",
+  "contained" : [{
+    "resourceType" : "Patient",
+    "id" : "Beispielpatient",
+    "language" : "de-DE",
+    "identifier" : [{
+      "use" : "usual",
+      "type" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+          "version" : "5.0.0",
+          "code" : "MR",
+          "display" : "Krankenaktennummer"
+        }]
+      },
+      "value" : "0123456789"
+    }],
+    "name" : [{
+      "use" : "official",
+      "family" : "Mustermann",
+      "given" : ["Max"]
+    }],
+    "gender" : "male",
+    "birthDate" : "1980-01-01",
+    "address" : [{
+      "type" : "both",
+      "line" : ["Musterstraße 1"],
+      "city" : "Musterstadt",
+      "postalCode" : "12345",
+      "country" : "DE"
+    }]
+  },
+  {
+    "resourceType" : "Encounter",
+    "id" : "Beispielfall",
+    "language" : "de-DE",
+    "status" : "finished",
+    "class" : {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "version" : "10.0.0",
+      "code" : "IMP"
+    },
+    "subject" : {
+      "reference" : "#Beispielpatient"
+    },
+    "period" : {
+      "start" : "2023-12-01T10:00:00+01:00",
+      "end" : "2023-12-03T11:00:00+01:00"
+    }
+  }],
   "identifier" : [{
     "system" : "http://demo.org/observation-ids",
     "value" : "MRS-OBS-123457"
@@ -75,10 +93,10 @@ Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne f
     }]
   },
   "subject" : {
-    "display" : "Beispielpatient"
+    "reference" : "#Beispielpatient"
   },
   "encounter" : {
-    "display" : "Beispielfall"
+    "reference" : "#Beispielfall"
   },
   "effectiveDateTime" : "2024-11-12T14:23:00+01:00",
   "issued" : "2024-11-12T15:00:00+01:00",

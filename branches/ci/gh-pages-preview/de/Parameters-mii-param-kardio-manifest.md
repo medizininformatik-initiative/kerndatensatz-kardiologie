@@ -33,10 +33,6 @@
   {
     "name" : "system-version",
     "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
-  },
-  {
-    "name" : "system-version",
-    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0"
   }]
 }
 

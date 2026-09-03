@@ -14,7 +14,7 @@
   "name" : "MII_IG_MODUL_KARDIO_DE",
   "title" : "MII IG Modul Kardio DE",
   "status" : "draft",
-  "date" : "2026-09-01T20:00:38+00:00",
+  "date" : "2026-09-03T15:07:11+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -57,13 +57,13 @@
     "id" : "de_medizininformatikinitiative_kerndatensatz_base",
     "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-base/ImplementationGuide/mii-ig-base",
     "packageId" : "de.medizininformatikinitiative.kerndatensatz.base",
-    "version" : "2026.0.x"
+    "version" : "2027.0.0-ballot.rc1"
   },
   {
     "id" : "de_medizininformatikinitiative_kerndatensatz_meta",
     "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
     "packageId" : "de.medizininformatikinitiative.kerndatensatz.meta",
-    "version" : "2026.0.x"
+    "version" : "2027.0.0-ballot.rc3"
   },
   {
     "id" : "de_gematik_isik",

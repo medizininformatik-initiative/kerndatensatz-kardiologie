@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT |
+| Active Stand: 2026-09-03 | *Maschinenlesbarer Name*:MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT |
 
  
 An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage) 
@@ -43,7 +43,7 @@ An extended ValueSet including standard condition severity and SNOMED CT code 42
   "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-01T20:00:38+00:00",
+  "date" : "2026-09-03T15:07:11+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

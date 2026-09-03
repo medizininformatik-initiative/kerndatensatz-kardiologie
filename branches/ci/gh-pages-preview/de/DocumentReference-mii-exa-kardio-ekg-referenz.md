@@ -6,30 +6,6 @@
 
 ## Beispiel DocumentReference: MII EXA Kardio EKG Referenz
 
-Language: de
-
-Profile: [MII PR Kardio EKG Referenz](StructureDefinition-mii-pr-kardio-ekg-referenz.md)
-
-**status**: Current
-
-**type**: EKG study
-
-**subject**: Beispielpatient
-
-**date**: 2025-07-17 16:41:22+0200
-
-**author**: [Device: status = active; manufacturer = Mortara Instrument, Inc.; type = MDC_DEV_ECG_MDS](Device-mii-exa-kardio-ekg-geraet-mortara.md)
-
-> **content**
-
-### Attachments
-
-| | | | |
-| :--- | :--- | :--- | :--- |
-| - | **ContentType** | **Url** | **Title** |
-| * | application/dicom | [https://example.com/EKGs/beispiel-ekg](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=https://example.com/EKGs/beispiel-ekg) | Beispiel EKG an einem anteren Ort |
-
-
 
 
 ## Resource Content
@@ -42,6 +18,37 @@ Profile: [MII PR Kardio EKG Referenz](StructureDefinition-mii-pr-kardio-ekg-refe
     "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz"]
   },
   "language" : "de",
+  "contained" : [{
+    "resourceType" : "Patient",
+    "id" : "Beispielpatient",
+    "language" : "de-DE",
+    "identifier" : [{
+      "use" : "usual",
+      "type" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+          "version" : "5.0.0",
+          "code" : "MR",
+          "display" : "Krankenaktennummer"
+        }]
+      },
+      "value" : "0123456789"
+    }],
+    "name" : [{
+      "use" : "official",
+      "family" : "Mustermann",
+      "given" : ["Max"]
+    }],
+    "gender" : "male",
+    "birthDate" : "1980-01-01",
+    "address" : [{
+      "type" : "both",
+      "line" : ["Musterstraße 1"],
+      "city" : "Musterstadt",
+      "postalCode" : "12345",
+      "country" : "DE"
+    }]
+  }],
   "status" : "current",
   "type" : {
     "coding" : [{
@@ -51,7 +58,7 @@ Profile: [MII PR Kardio EKG Referenz](StructureDefinition-mii-pr-kardio-ekg-refe
     }]
   },
   "subject" : {
-    "display" : "Beispielpatient"
+    "reference" : "#Beispielpatient"
   },
   "date" : "2025-07-17T16:41:22+02:00",
   "author" : [{

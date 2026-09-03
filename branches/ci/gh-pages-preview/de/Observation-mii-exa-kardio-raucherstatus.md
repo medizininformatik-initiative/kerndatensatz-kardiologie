@@ -27,6 +27,7 @@
       "type" : {
         "coding" : [{
           "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+          "version" : "5.0.0",
           "code" : "MR",
           "display" : "Krankenaktennummer"
         }]
@@ -70,6 +71,7 @@
   "category" : [{
     "coding" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version" : "2.0.0",
       "code" : "social-history",
       "display" : "Social History"
     }]

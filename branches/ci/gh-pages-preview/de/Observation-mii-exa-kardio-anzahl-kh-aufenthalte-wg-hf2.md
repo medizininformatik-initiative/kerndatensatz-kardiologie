@@ -6,29 +6,6 @@
 
 ## Beispiel Observation: MII EXA Kardio Anzahl KH Aufenthalte WG HF (mit Angabe 'Weiß nicht')
 
-Language: de
-
-Profile: [MII PR Kardio Anzahl KH Aufenthalte wg HF](StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.md)
-
-**status**: Final
-
-**code**: Number of admissions
-
-**subject**: Beispielpatient
-
-**effective**: 2025-05-21 --> 2026-05-20
-
-**performer**: Beispielkardiologe
-
-**value**: unbekannt
-
-### Components
-
-| | | |
-| :--- | :--- | :--- |
-| - | **Code** | **Value[x]** |
-| * | Reason for visit diagnosis | Heart failure |
-
 
 
 ## Resource Content
@@ -41,6 +18,37 @@ Profile: [MII PR Kardio Anzahl KH Aufenthalte wg HF](StructureDefinition-mii-pr-
     "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"]
   },
   "language" : "de",
+  "contained" : [{
+    "resourceType" : "Patient",
+    "id" : "Beispielpatient",
+    "language" : "de-DE",
+    "identifier" : [{
+      "use" : "usual",
+      "type" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+          "version" : "5.0.0",
+          "code" : "MR",
+          "display" : "Krankenaktennummer"
+        }]
+      },
+      "value" : "0123456789"
+    }],
+    "name" : [{
+      "use" : "official",
+      "family" : "Mustermann",
+      "given" : ["Max"]
+    }],
+    "gender" : "male",
+    "birthDate" : "1980-01-01",
+    "address" : [{
+      "type" : "both",
+      "line" : ["Musterstraße 1"],
+      "city" : "Musterstadt",
+      "postalCode" : "12345",
+      "country" : "DE"
+    }]
+  }],
   "status" : "final",
   "code" : {
     "coding" : [{
@@ -51,7 +59,7 @@ Profile: [MII PR Kardio Anzahl KH Aufenthalte wg HF](StructureDefinition-mii-pr-
     }]
   },
   "subject" : {
-    "display" : "Beispielpatient"
+    "reference" : "#Beispielpatient"
   },
   "effectivePeriod" : {
     "start" : "2025-05-21",
@@ -63,6 +71,7 @@ Profile: [MII PR Kardio Anzahl KH Aufenthalte wg HF](StructureDefinition-mii-pr-
   "valueCodeableConcept" : {
     "coding" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+      "version" : "3.0.0",
       "code" : "UNK",
       "display" : "unbekannt"
     }]

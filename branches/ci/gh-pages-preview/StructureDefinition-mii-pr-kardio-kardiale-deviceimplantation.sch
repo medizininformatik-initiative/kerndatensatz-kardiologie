@@ -25,6 +25,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>f:Procedure/f:bodySite</sch:title>
+    <sch:rule context="f:Procedure/f:bodySite">
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/bodySite|5.3.0']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/bodySite|5.3.0': maximum cardinality of 'extension' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>f:Procedure/f:bodySite/f:coding</sch:title>
     <sch:rule context="f:Procedure/f:bodySite/f:coding">
       <sch:assert test="count(f:version) &gt;= 1">version: minimum cardinality of 'version' is 1</sch:assert>

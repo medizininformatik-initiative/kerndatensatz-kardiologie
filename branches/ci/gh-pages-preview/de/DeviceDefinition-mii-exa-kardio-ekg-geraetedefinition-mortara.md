@@ -58,21 +58,25 @@ Profile: [MII PR Kardio EKG Gerätedefinition](StructureDefinition-mii-pr-kardio
   "physicalCharacteristics" : {
     "height" : {
       "value" : 14,
+      "unit" : "cm",
       "system" : "http://unitsofmeasure.org",
       "code" : "cm"
     },
     "width" : {
       "value" : 39,
+      "unit" : "cm",
       "system" : "http://unitsofmeasure.org",
       "code" : "cm"
     },
     "depth" : {
       "value" : 51,
+      "unit" : "cm",
       "system" : "http://unitsofmeasure.org",
       "code" : "cm"
     },
     "weight" : {
       "value" : 12,
+      "unit" : "kg",
       "system" : "http://unitsofmeasure.org",
       "code" : "kg"
     }

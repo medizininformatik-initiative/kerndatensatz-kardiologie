@@ -36,3 +36,6 @@ Das Kardiologie-Modul ist stark vernetzt: Es nutzt die strukturellen Grundlagen 
 ## Abhängigkeitsbaum
 
 {% include dependency-table-short.xhtml %}
+
+## Expansionsparameter
+{% include expansion-params.xhtml %}

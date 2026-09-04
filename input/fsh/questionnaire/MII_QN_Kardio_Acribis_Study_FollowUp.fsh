@@ -806,7 +806,7 @@ Usage: #definition
 * item[3].item[6].item[0].item[0].enableWhen[0].answerCoding.display = "Yes"
 * item[3].item[6].item[0].item[0].enableBehavior = #all
 * item[3].item[6].item[0].item[0].repeats = true
-* item[3].item[6].item[0].item[0].answerValueSet = "http://snomed.info/sct?fhir_vs=isa/049601007"
+* item[3].item[6].item[0].item[0].answerValueSet = "http://snomed.info/sct?fhir_vs=isa/49601007"
 * item[3].item[6].item[0].type = #choice
 * item[3].item[6].item[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[3].item[6].item[0].extension[0].valueCodeableConcept.coding[0].system = "http://hl7.org/fhir/questionnaire-item-control"

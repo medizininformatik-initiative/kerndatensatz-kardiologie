@@ -1975,7 +1975,7 @@
                   "text": "Um welche weitere Herz-Kreislauf-Erkrankung handelt es sich?",
                   "enableBehavior": "all",
                   "repeats": true,
-                  "answerValueSet": "http://snomed.info/sct?fhir_vs=isa/049601007"
+                  "answerValueSet": "http://snomed.info/sct?fhir_vs=isa/49601007"
                 }
               ],
               "extension": [

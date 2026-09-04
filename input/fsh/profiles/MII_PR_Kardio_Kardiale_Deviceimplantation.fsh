@@ -36,7 +36,6 @@ Für ACRIBiS eignen sich die folgenden Codes (Stand 01.05.2025):
 * performedDateTime MS
 * performedPeriod MS
 
-* bodySite from MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT (required)
 * bodySite ^comment = "Hier soll mindestens ein SNOMED-Code angegeben werden.
 Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
  - **Herzschrittmacher/Implantierter Defibrillator**: 80891009 - Heart structure (body structure)
@@ -48,6 +47,7 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
 * bodySite.coding 1.. MS
 * bodySite.coding.version 1.. MS
 * bodySite.coding[snomed-ct] 1.. MS
+* bodySite.coding[snomed-ct] from MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT (extensible)
 
 * focalDevice 1.. MS
 * focalDevice.manipulated MS

@@ -19,4 +19,4 @@ Description: "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul 
 * #73544002:{260507000=260519008} "73544002|Operation on heart valve|:{260507000|Access|=260519008|Transcatheter approach|}"
 
 // Kodierung des Fragebogenitems "Starke spontane Blutung" aus dem Acribis-FollowUp-Fragebogen
-* #64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000} "64572001|Disease|:{116676008|Associated morphology|=50960005|Hemorrhage|,47429007|Associated with|=131148009|Bleeding|,42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"
+* #131148009:{42752001=789750003,246112005=24484000} "131148009|Bleeding|:{42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"

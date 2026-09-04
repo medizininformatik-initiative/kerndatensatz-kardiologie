@@ -1975,7 +1975,7 @@
                   "text": "Um welche weitere Herz-Kreislauf-Erkrankung handelt es sich?",
                   "enableBehavior": "all",
                   "repeats": true,
-                  "answerValueSet": "http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C"
+                  "answerValueSet": "http://snomed.info/sct?fhir_vs=isa/049601007"
                 }
               ],
               "extension": [

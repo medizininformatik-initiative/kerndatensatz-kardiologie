@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-03 | *Maschinenlesbarer Name*:MII_IG_MODUL_KARDIO_DE |
+| Draft Stand: 2026-09-04 | *Maschinenlesbarer Name*:MII_IG_MODUL_KARDIO_DE |
 
 # Kerndatensatz-Modul Kardiologie
 
@@ -16,7 +16,7 @@ Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatens
 
 | | |
 | :--- | :--- |
-| Datum | 2026-09-03T15:07:11+00:00 |
+| Datum | 2026-09-04T19:01:50+00:00 |
 | Version | 2027.0.0-ballot.rc1 |
 | Status | draft |
 | Realm | DE |
@@ -68,7 +68,7 @@ Einige verwendete Codesysteme werden von anderen Organisationen herausgegeben un
 
 Der Inhalt dieses Dokuments ist öffentlich. Zu beachten ist, dass Teile dieses Dokuments auf FHIR Version R4 beruhen, für die Copyright HL7 International gilt.
 
-This is an R4 IG. None of the features it uses are changed in R4B, so it can be used as is with R4B systems. Packages for both [R4 (mii-kerndatensatzmodul-kardiologie.r4)](../package.r4.tgz) and [R4B (mii-kerndatensatzmodul-kardiologie.r4b)](../package.r4b.tgz) are available.
+## IP Statements
 
 This publication includes IP covered under the following statements.
 
@@ -117,4 +117,10 @@ This publication includes IP covered under the following statements.
 
 * [ICD-10-GM](https://simplifier.net/resolve?scope=de.gematik.ti@1.3.1&canonical=http://fhir.de/CodeSystem/bfarm/icd-10-gm): [Condition/mii-exa-kardio-diagnose-myokardinfarkt](Condition-mii-exa-kardio-diagnose-myokardinfarkt.md), [MII_PR_Kardio_Diagnose](StructureDefinition-mii-pr-kardio-diagnose.md), [MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt](StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.md), [MII_PR_Kardio_Klappenvitium](StructureDefinition-mii-pr-kardio-klappenvitium.md) and [MII_VS_Kardio_Klappenvitium_ICD](ValueSet-mii-vs-kardio-klappenvitium-icd.md)
 
+
+## Versionsanalyse
+
+This is an R4 IG. None of the features it uses are changed in R4B, so it can be used as is with R4B systems. Packages for both [R4 (mii-kerndatensatzmodul-kardiologie.r4)](../package.r4.tgz) and [R4B (mii-kerndatensatzmodul-kardiologie.r4b)](../package.r4b.tgz) are available.
+
+*There are no Global profiles defined*
 

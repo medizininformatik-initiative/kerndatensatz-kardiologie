@@ -1,7 +1,7 @@
 {
   "version" : "2027.0.0-ballot.rc1",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20260903150711",
+  "date" : "20260904190150",
   "name" : "mii-kerndatensatzmodul-kardiologie",
   "jurisdiction" : "http://unstats.un.org/unsd/methods/m49/m49.htm#276"
 }

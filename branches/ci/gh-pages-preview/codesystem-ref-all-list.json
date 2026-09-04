@@ -32,8 +32,8 @@
     "description" : "OPS Platzhalter-CodeSystem",
     "uses" : {
     },
-    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-prozedur-ops.html" : "MII VS Prozedur OPS",
-    "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.html" : "MII VS Kardio Kardiale Devicemimplantation [OPS]"
+    "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.html" : "MII VS Kardio Kardiale Devicemimplantation [OPS]",
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-prozedur-ops.html" : "MII VS Prozedur OPS"
   },
   {
     "url" : "http://fhir.de/CodeSystem/icd-10-gm-mehrfachcodierungs-kennzeichen",
@@ -235,10 +235,10 @@
     "oids" : ["2.16.840.1.113883.6.1"],
     "uses" : {
     },
+    "http://hl7.org/fhir/R4/valueset-c80-doc-typecodes.html" : "Document Type Value Set",
     "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes",
     "https://simplifier.net/resolve?scope=de.gematik.isik@6.0.0&canonical=https://gematik.de/fhir/isik/ValueSet/current-smoking-status-uv-ips" : "Current Smoking Status - IPS",
-    "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set",
-    "http://hl7.org/fhir/R4/valueset-c80-doc-typecodes.html" : "Document Type Value Set"
+    "http://hl7.org/fhir/R4/valueset-document-classcodes.html" : "Document Class Value Set"
   },
   {
     "url" : "http://snomed.info/sct",
@@ -250,44 +250,45 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
-    "ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html" : "MII VS Kardio NYHA Klassen [SNOMED CT]",
-    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-diagnose-diagnosecodes-snomed.html" : "MII VS Diagnose Diagnose-Codes SNOMED",
-    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-diagnose-bodystructure-snomed.html" : "MII VS Diagnose BodyStructure SNOMED",
-    "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
-    "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-    "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
-    "https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.de/ValueSet/lebensphase-de" : "LebensphaseDe ValueSet",
-    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-    "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.html" : "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
-    "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
-    "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
     "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-    "ValueSet-mii-vs-kardio-geraetetyp-snomedct.html" : "MII VS Kardio Gerätetyp [SNOMED CT]",
-    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-prozedur-opskategorien-snomedct.html" : "MII VS Prozedur OPS Kategorien [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-allergene-snomedct.html" : "MII VS Kardio Allergene [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.html" : "MII VS Kardio Extended MII DiagnoseCodes [SNOMED CT]",
-    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-    "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
-    "ValueSet-mii-vs-kardio-ethnie-snomedct.html" : "MII VS Kardio Ethnie [SNOMED CT]",
-    "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
-    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-prozedur-durchfuehrungsabsicht-snomedct.html" : "MII VS Prozedur Durchführungsabsicht [SNOMED CT]",
-    "http://hl7.org/fhir/R4/valueset-device-type.html" : "Device Type",
+    "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
     "ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html" : "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
-    "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
-    "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
-    "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
-    "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
+    "ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.html" : "MII VS Kardio Klappenvitium Grad [SNOMED CT]",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.html" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
     "ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.html" : "MII VS Kardio EKG Prozedur [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.html" : "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
+    "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
+    "https://browser.ihtsdotools.org/?perspective=full&conceptId1=49601007" : "SCT ValueSet for 49601007",
+    "ValueSet-mii-vs-kardio-ethnie-snomedct.html" : "MII VS Kardio Ethnie [SNOMED CT]",
     "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-prozedur-opskategorien-snomedct.html" : "MII VS Prozedur OPS Kategorien [SNOMED CT]",
     "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.html" : "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
     "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-device-type.html" : "Device Type",
+    "ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.html" : "MII VS Kardio Extended MII DiagnoseCodes [SNOMED CT]",
+    "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
     "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-prozedur-prozeduren-snomedct.html" : "MII VS Prozedur Prozeduren [SNOMED CT]",
+    "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-diagnose-diagnosecodes-snomed.html" : "MII VS Diagnose Diagnose-Codes SNOMED",
+    "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+    "ValueSet-mii-vs-kardio-geraetetyp-snomedct.html" : "MII VS Kardio Gerätetyp [SNOMED CT]",
+    "ValueSet-mii-vs-kardio-nyha-klassen-snomedct.html" : "MII VS Kardio NYHA Klassen [SNOMED CT]",
+    "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
+    "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.html" : "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+    "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
     "ValueSet-mii-vs-kardio-klappenvitium-snomedct.html" : "MII VS Kardio Klappenvitium [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.html" : "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.html" : "MII VS Kardio Klappenvitium Grad [SNOMED CT]",
-    "ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.html" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
-    "http://hl7.org/fhir/R4/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set"
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-prozedur-durchfuehrungsabsicht-snomedct.html" : "MII VS Prozedur Durchführungsabsicht [SNOMED CT]",
+    "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+    "https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.de/ValueSet/lebensphase-de" : "LebensphaseDe ValueSet",
+    "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
+    "http://hl7.org/fhir/R4/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set",
+    "ValueSet-mii-vs-kardio-allergene-snomedct.html" : "MII VS Kardio Allergene [SNOMED CT]",
+    "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
+    "https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/ValueSet-mii-vs-diagnose-bodystructure-snomed.html" : "MII VS Diagnose BodyStructure SNOMED",
+    "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/common-tags",
@@ -397,8 +398,8 @@
     "oids" : ["2.16.840.1.113883.18.347"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html" : "hl7VS-expandedYes-NoIndicator",
-    "ValueSet-mii-vs-kardio-nein-unbekannt.html" : "MII VS Kardio Nein Unbekannt"
+    "ValueSet-mii-vs-kardio-nein-unbekannt.html" : "MII VS Kardio Nein Unbekannt",
+    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html" : "hl7VS-expandedYes-NoIndicator"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -489,10 +490,10 @@
     "oids" : ["2.16.840.1.113883.6.24"],
     "uses" : {
     },
-    "ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.html" : "MII VS Kardio Geräteprogrammierung [MDC]",
-    "http://hl7.org/fhir/R4/valueset-devicemetric-type.html" : "Device Metric and Component Types",
     "ValueSet-mii-vs-kardio-objekte-geraete-mdc.html" : "MII VS Kardio MDC Objects Devices [MDC]",
+    "ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.html" : "MII VS Kardio Metriken EKG Annotationen [MDC]",
+    "http://hl7.org/fhir/R4/valueset-devicemetric-type.html" : "Device Metric and Component Types",
     "ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html" : "MII VS Kardio EKG Kanäle [MDC]",
-    "ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.html" : "MII VS Kardio Metriken EKG Annotationen [MDC]"
+    "ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.html" : "MII VS Kardio Geräteprogrammierung [MDC]"
   }]
 }

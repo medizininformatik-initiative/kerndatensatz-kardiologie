@@ -24,7 +24,7 @@ Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defi
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
+This value set cannot be expanded because the terminology server(s) deemed it too costly to do so
 
 -------
 

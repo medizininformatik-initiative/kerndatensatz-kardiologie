@@ -340,11 +340,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Procedure.bodySite",
       "path" : "Procedure.bodySite",
       "comment" : "Hier soll mindestens ein SNOMED-Code angegeben werden.\r\nFür ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):\r\n - **Herzschrittmacher/Implantierter Defibrillator**: 80891009 - Heart structure (body structure)\r\n - **LVAD**: 87878005 - Left cardiac ventricular structure (body structure)\r\n - **RVAD**: 53085002 - Right cardiac ventricular structure (body structure)\r\n - **BiVAD**: 87878005 - Left cardiac ventricular structure (body structure) **und** 53085002 - Right cardiac ventricular structure (body structure)\r\n",
-      "min" : 1,
-      "binding" : {
-        "strength" : "required",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct|2027.0.0-ballot.rc1"
-      }
+      "min" : 1
     },
     {
       "id" : "Procedure.bodySite.coding",
@@ -361,7 +357,11 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Procedure.bodySite.coding:snomed-ct",
       "path" : "Procedure.bodySite.coding",
       "sliceName" : "snomed-ct",
-      "min" : 1
+      "min" : 1,
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct|2027.0.0-ballot.rc1"
+      }
     },
     {
       "id" : "Procedure.bodySite.coding:snomed-ct.version",

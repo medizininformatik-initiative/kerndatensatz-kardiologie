@@ -25,7 +25,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 
 ### Expansion
 
-This value set cannot be expanded because the terminology server(s) deemed it too costly to do so
+No Expansion for this valueset (Unknown Code System)
 
 -------
 

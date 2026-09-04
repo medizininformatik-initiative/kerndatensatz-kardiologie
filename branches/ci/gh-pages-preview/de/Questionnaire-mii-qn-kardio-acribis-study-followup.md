@@ -1705,7 +1705,7 @@ Follow-Up-Fragebogen im Rahmen der Acribis-Studie.
           }],
           "enableBehavior" : "all",
           "repeats" : true,
-          "answerValueSet" : "http://snomed.info/sct?fhir_vs=ecl/%3C%3C%2049601007%20%7CDisorder%20of%20cardiovascular%20system%20(disorder)%7C",
+          "answerValueSet" : "http://snomed.info/sct?fhir_vs=isa/49601007",
           "item" : [{
             "linkId" : "o_10b",
             "code" : [{

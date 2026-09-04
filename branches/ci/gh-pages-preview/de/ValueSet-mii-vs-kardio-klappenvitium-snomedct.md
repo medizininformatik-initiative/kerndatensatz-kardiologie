@@ -24,8 +24,6 @@ SNOMED CT Codes für Klappenerkrankungen
 
 ### Expansion
 
-This value set cannot be expanded because the terminology server(s) deemed it too costly to do so
-
 -------
 
  [Beschreibung der obigen Tabelle(n)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 

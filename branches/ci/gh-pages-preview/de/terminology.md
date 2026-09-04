@@ -187,7 +187,7 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: is-a flat compositional
   * Count: 0 (not-present)
-  * References: 14 references
+  * References: 15 references
 * URL: [http://terminology.hl7.org/CodeSystem/data-absent-reason](http://terminology.hl7.org/7.2.0/CodeSystem-data-absent-reason.html)
   * Version: 1.0.0
   * Name / Title: DataAbsentReasonDataAbsentReason
@@ -208,7 +208,7 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: is-a flat
   * Count: 9 (complete)
-  * References: [hl7VS-expandedYes-NoIndicator](http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html),[MII VS Kardio Nein Unbekannt](ValueSet-mii-vs-kardio-nein-unbekannt.md)
+  * References: [MII VS Kardio Nein Unbekannt](ValueSet-mii-vs-kardio-nein-unbekannt.md),[hl7VS-expandedYes-NoIndicator](http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html)
 * URL: [https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis](CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.md)
   * Version: 2027.0.0-ballot.rc1
   * Name / Title: MII_CS_Kardio_Atherosklerotisches_EreignisMII CS Kardio Atherosklerotisches Ereignis
@@ -236,5 +236,5 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md),[Device Metric and Component Types](http://hl7.org/fhir/R4/valueset-devicemetric-type.html),[MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md),[MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md),[MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md)
+  * References: [MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md),[MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md),[Device Metric and Component Types](http://hl7.org/fhir/R4/valueset-devicemetric-type.html),[MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md),[MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md)
 

@@ -574,7 +574,7 @@ Usage: #definition
 * item[3].item[2].item[0].extension[0].valueCodeableConcept.coding[0].code = #radio-button
 * item[3].item[2].item[0].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[3].item[2].item[0].linkId = "o_5"
-* item[3].item[2].item[0].code[0] = $sct#64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000} "64572001|Disease|:{116676008|Associated morphology|=50960005|Hemorrhage|,47429007|Associated with|=131148009|Bleeding|,42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"
+* item[3].item[2].item[0].code[0] = $sct#131148009:{42752001=789750003,246112005=24484000} "131148009|Bleeding|:{42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"
 * item[3].item[2].item[0].text = "Trat eine starke spontane Blutung (Starke Blutung, siehe Infobox) auf, die diagnostiziert wurde und ärztlch behandelt werden musste?"
 * item[3].item[2].item[0].repeats = false
 * item[3].item[2].item[0].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"

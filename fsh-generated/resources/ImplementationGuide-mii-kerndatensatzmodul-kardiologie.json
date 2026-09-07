@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "mii-kerndatensatzmodul-kardiologie",
-  "language": "de",
+  "language": "de-DE",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
   "version": "2027.0.0-ballot.rc1",
   "name": "MII_IG_MODUL_KARDIO_DE",
@@ -28,8 +28,9 @@
     {
       "coding": [
         {
-          "code": "276",
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm"
+          "code": "DE",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Germany"
         }
       ]
     }
@@ -828,7 +829,7 @@
       },
       {
         "code": "i18n-default-lang",
-        "value": "de"
+        "value": "de-DE"
       }
     ]
   }

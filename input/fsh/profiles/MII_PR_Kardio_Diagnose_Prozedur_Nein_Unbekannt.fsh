@@ -7,6 +7,7 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-09-04"

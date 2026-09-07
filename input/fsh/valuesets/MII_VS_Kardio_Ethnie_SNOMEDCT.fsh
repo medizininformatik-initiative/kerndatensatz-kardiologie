@@ -6,6 +6,7 @@ Description: "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-08-12"

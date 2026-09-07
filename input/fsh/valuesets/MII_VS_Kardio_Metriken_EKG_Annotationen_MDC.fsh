@@ -6,6 +6,7 @@ Description: "ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-07-30"

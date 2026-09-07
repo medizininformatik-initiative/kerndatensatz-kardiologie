@@ -6,6 +6,7 @@ Description: "Lebensmittelpunkt des Patienten"
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-01-30"

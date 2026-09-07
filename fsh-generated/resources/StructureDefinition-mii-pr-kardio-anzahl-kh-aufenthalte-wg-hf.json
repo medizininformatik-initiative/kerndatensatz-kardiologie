@@ -1,6 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",
+  "language": "de-DE",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",
   "version": "2027.0.0-ballot.rc1",
   "name": "MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF",

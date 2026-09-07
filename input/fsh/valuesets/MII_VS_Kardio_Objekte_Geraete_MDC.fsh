@@ -6,6 +6,7 @@ Description: "ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)"
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-07-09"

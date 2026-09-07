@@ -1,6 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "mii-pr-kardio-klappenvitium",
+  "language": "de-DE",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",

@@ -6,6 +6,7 @@ Description: "SNOMED CT Codes für Klappenerkrankungen"
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-09-16"

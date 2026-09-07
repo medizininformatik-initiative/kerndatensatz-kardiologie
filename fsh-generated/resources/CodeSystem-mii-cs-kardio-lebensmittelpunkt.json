@@ -25,6 +25,7 @@
       ]
     }
   ],
+  "language": "de-DE",
   "experimental": true,
   "date": "2025-01-30",
   "purpose": "Dieses Code System bildet die aktuellen Lebensmittelpunkt des Patienten unabhängig von seiner Herkunft ab. Damit wird der Parameter 'Geographic region' des SMART-REACH-Scores mit der Ergänzung Deutschland abgebildet.",

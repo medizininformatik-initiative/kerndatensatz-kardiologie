@@ -18,6 +18,7 @@
       ]
     }
   ],
+  "language": "de-DE",
   "experimental": false,
   "date": "2026-04-17",
   "purpose": "Codes aus diesem Value Set können in einer Prozedur die Implantation eines kardialen Devices in der Kardiologie spezifizieren.",

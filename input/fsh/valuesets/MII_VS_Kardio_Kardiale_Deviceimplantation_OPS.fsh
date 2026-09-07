@@ -6,6 +6,7 @@ Description: "Dieses Value Set bildet die Implantation der kardialen Devices Kar
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-04-17"

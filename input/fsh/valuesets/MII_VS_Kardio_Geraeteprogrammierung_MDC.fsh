@@ -7,6 +7,7 @@ Dazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet."
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-09-05"

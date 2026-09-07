@@ -7,6 +7,7 @@ Description: "Profil zur Abbildung eines implantierten Herzschrittmachers, Defib
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-12-10"

@@ -6,6 +6,8 @@ Usage: #definition
 
 * insert Version
 * insert Instance_Publisher
+
+* language = #de-DE
 * name = "MII_QN_Kardio_Acribis_Study_FollowUp"                          // Technischer Name (PascalCase empfohlen)
 * title = "MII QN Kardio Acribis Study FollowUp"                         // Titel zur Anzeige
 * status = #draft                                                        // #draft | #active | #retired | #NInown

@@ -6,6 +6,7 @@ Description: "Beeinträchtigung des Patienten nach Schlaganfall"
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-04-29"

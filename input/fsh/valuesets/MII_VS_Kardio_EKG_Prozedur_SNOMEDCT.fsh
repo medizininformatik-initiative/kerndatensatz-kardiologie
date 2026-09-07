@@ -6,6 +6,7 @@ Description: "SNOMED CT Codes für verschieden EKG-Prozeduren."
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-09-30"

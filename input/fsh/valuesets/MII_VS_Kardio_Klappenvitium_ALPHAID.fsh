@@ -6,6 +6,7 @@ Description: "Alpha-ID-Codes für Klappenerkrankungen"
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-06-12"

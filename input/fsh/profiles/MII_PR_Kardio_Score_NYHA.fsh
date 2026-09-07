@@ -7,6 +7,7 @@ Description: "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffiz
 * insert PR_CS_VS_Version
 * insert Publisher
 
+* ^language = #de-DE
 * ^status = #active
 * ^experimental = false
 

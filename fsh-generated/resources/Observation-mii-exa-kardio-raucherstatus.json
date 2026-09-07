@@ -86,7 +86,7 @@
       {
         "system": "http://loinc.org",
         "code": "72166-2",
-        "version": "2.82",
+        "version": "2.83",
         "display": "Raucherstatus"
       }
     ]
@@ -121,7 +121,7 @@
           {
             "code": "63640-7",
             "system": "http://loinc.org",
-            "version": "2.82"
+            "version": "2.83"
           }
         ]
       },
@@ -194,7 +194,7 @@
       {
         "code": "LA18976-3",
         "system": "http://loinc.org",
-        "version": "2.82",
+        "version": "2.83",
         "display": "Current every day smoker"
       }
     ]

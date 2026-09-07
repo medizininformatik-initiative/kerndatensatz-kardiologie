@@ -15,7 +15,7 @@ Alias: $observation-category              = http://terminology.hl7.org/CodeSyste
 Alias: $data-absent-reason                = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 // CodeSystems mit konkreter Versionsangabe
-Alias: $loinc-with-version                = http://loinc.org|2.82
+Alias: $loinc-with-version                = http://loinc.org|2.83
 Alias: $sct-with-version                  = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701
 Alias: $icd-10-gm-with-version            = http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026
 Alias: $mdc-with-version                  = urn:iso:std:iso:11073:10101|2024-12-05

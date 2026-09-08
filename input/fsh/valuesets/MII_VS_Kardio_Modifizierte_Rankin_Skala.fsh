@@ -6,7 +6,7 @@ Description: "Stufen der modifizierten Rankin-Skala"
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-09-05"

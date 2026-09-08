@@ -6,7 +6,7 @@ Description: "Dieses Value Set bildet den aktuellen Lebensmittelpunkt des Patien
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-03-03"

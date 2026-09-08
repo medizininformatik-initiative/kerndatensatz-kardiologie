@@ -7,7 +7,7 @@ Description: "Profil zur Erfassung einer Implantation eines Herzschrittmachers, 
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-10-07"

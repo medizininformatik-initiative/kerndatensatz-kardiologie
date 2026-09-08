@@ -4,7 +4,7 @@ Title: "MII EXA Kardio Raucherstatus"
 Description: "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen."
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 * contained[1] = Beispielfall
 * status = #final

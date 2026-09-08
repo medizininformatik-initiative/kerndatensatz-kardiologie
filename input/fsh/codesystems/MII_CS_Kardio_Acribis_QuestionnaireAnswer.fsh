@@ -6,7 +6,7 @@ Description: "Questionnaire-lokale Antwortcodes für den ACRIBiS Follow-Up-Frage
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-09-03"

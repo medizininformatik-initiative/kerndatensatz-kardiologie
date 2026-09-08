@@ -4,7 +4,7 @@ Title: "MII EXA Kardio Höhergradiges Vitium Nein"
 Description: "Beispiel um abzubilden, dass kein höhergradiges Klappenvitium vorliegt."
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 * status = #final
 * category = $observation-category-with-version#survey "Survey"

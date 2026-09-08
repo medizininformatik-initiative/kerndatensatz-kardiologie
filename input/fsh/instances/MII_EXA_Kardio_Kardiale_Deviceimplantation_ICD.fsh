@@ -4,7 +4,7 @@ Title: "MII EXA Kardio Kardiale Deviceimplantation ICD"
 Description: "Beispiel einer Implantation eines Kardioverter-Defibrillators (ICD)"
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 * extension[Dokumentationsdatum].url = "http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum"
 * extension[Dokumentationsdatum].valueDateTime = "2025-05-16T16:23:12+02:00"

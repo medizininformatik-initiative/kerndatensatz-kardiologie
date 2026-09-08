@@ -42,7 +42,7 @@
       }
     }
   ],
-  "language": "de-DE",
+  "language": "de",
   "status": "active",
   "parent": {
     "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"

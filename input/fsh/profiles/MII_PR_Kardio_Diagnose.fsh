@@ -7,7 +7,7 @@ Description: "Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribi
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-10-07"

@@ -4,7 +4,7 @@ Title: "MII EXA Kardio Atherosklerotisches Erstereignis"
 Description: "Beispiel einer Observation für das Datum eines unbestimmten atherosklerotischen Erstereignisses"
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 * status = #final
 * code = $ath-ereignis-with-version|#ae "Atherosklerotisches Ereignis"

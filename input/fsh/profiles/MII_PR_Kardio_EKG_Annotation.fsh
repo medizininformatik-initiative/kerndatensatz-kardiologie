@@ -7,7 +7,7 @@ Description: "Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Int
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-07-30"

@@ -7,7 +7,7 @@ Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen 
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-06-12"

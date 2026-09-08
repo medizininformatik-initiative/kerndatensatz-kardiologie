@@ -4,7 +4,7 @@ Title: "MII EXA Kardio Device ICD"
 Description: "Beispiel eines implantierten Kardioverter-Defibrillators (ICD)"
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * status = #active
 * manufacturer = "Medtronic"
 * type.coding = $sct-with-version#72506001 "Implantable defibrillator"

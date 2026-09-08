@@ -4,7 +4,7 @@ Title: "MII EXA Kardio Emoblischer Gefäßverschluss"
 Description: "Beispiel: Der Patient hat angegeben, einen embolischen Gefäßverschluss gehabt zu haben."
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 // --------------------------------------
 // CATEGORY (problem-list-item)

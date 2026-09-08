@@ -4,7 +4,7 @@ Usage: #example
 Title: "MII EXA Kardio MRS"
 Description: "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem Schlaganfall gemäß MII PR Kardio Score mRS."
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 * contained[1] = Beispielfall
 * identifier.system = "http://demo.org/observation-ids"

@@ -27,7 +27,7 @@
       "display": "Beipielarzt"
     }
   ],
-  "language": "de-DE",
+  "language": "de",
   "status": "final",
   "subject": {
     "reference": "Device/mii-exa-kardio-device-icd"

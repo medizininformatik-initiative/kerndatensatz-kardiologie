@@ -4,7 +4,7 @@ Title: "MII EXA Kardio EKG Referenz"
 Description: "Beispiel einer Referenz auf ein EKG, dessen Rohdaten an einem anderen Ort gespeichert werden."
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 * status = #current
 * type = $loinc#11524-6 "EKG study"

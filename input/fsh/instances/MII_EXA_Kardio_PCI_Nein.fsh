@@ -4,7 +4,7 @@ Title: "MII EXA Kardio PCI/Stent Nein"
 Description: "Beispiel: Der Patient hatte noch keine Koronarintervention mit PCI/Stent."
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 * status = #final
 * category = $observation-category-with-version#survey

@@ -46,7 +46,7 @@
           "country": "DE"
         }
       ],
-      "language": "de-DE",
+      "language": "de",
       "gender": "male",
       "birthDate": "1980-01-01"
     }
@@ -77,7 +77,7 @@
       "reference": "DocumentReference/mii-exa-kardio-ekg-referenz"
     }
   ],
-  "language": "de-DE",
+  "language": "de",
   "status": "final",
   "code": {
     "coding": [

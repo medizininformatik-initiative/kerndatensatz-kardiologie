@@ -4,7 +4,7 @@ Title: "MII EXA Kardio Anzahl KH Aufenthalte WG HF (mit Angabe 'Weiß nicht')"
 Description: "Beispiel einer Observation bei Angabe 'Ich weiß es nicht' zu Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr"
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 * status = #final
 * code.coding[sct] = $sct-with-version#298060002 "Number of admissions"

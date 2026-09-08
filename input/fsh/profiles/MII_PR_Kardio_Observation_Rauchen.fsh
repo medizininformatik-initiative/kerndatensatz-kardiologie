@@ -6,7 +6,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 

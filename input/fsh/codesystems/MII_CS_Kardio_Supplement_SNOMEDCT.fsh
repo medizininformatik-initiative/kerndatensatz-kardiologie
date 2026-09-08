@@ -6,7 +6,7 @@ Description: "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul 
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-12-05"

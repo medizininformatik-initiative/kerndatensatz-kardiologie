@@ -41,7 +41,7 @@
           "country": "DE"
         }
       ],
-      "language": "de-DE",
+      "language": "de",
       "gender": "male",
       "birthDate": "1980-01-01"
     }
@@ -683,7 +683,7 @@
       "text": "Allgemeine Angaben 2"
     }
   ],
-  "language": "de-DE",
+  "language": "de",
   "status": "completed",
   "subject": {
     "reference": "#Beispielpatient"

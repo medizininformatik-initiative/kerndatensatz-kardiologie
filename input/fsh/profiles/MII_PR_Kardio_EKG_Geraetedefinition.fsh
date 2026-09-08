@@ -7,7 +7,7 @@ Description: "Profil zur Abbildung einer EKG-Gerätedefinition."
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-05-22"

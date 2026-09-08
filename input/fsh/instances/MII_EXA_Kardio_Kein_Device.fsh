@@ -4,7 +4,7 @@ Title: "MII EXA Kardio Kein Device"
 Description: "Beispiel: Der Patient hat kein implantiertes kardiales Device."
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 * status = #final
 * category = $observation-category-with-version#survey

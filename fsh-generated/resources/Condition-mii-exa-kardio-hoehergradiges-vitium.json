@@ -46,7 +46,7 @@
           "country": "DE"
         }
       ],
-      "language": "de-DE",
+      "language": "de",
       "gender": "male",
       "birthDate": "1980-01-01"
     }
@@ -90,7 +90,7 @@
   "asserter": {
     "display": "Facharzt für Kardiologie"
   },
-  "language": "de-DE",
+  "language": "de",
   "clinicalStatus": {
     "coding": [
       {

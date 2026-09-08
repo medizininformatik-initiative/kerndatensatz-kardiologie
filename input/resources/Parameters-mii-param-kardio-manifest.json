@@ -6,6 +6,7 @@
       "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-manifestparameters"
     ]
   },
+  "language": "de",
   "parameter": [
     {
       "name": "system-version",

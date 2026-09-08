@@ -18,7 +18,7 @@
       ]
     }
   ],
-  "language": "de-DE",
+  "language": "de",
   "experimental": true,
   "date": "2025-08-29",
   "purpose": "Dieses Value Set listet relevante Substanzen kodiert in SNOMED CT für die Verwendung in einer Observation zu Allergien.",

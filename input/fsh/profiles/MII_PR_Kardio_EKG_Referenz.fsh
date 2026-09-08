@@ -7,7 +7,7 @@ Description: "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem ande
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #draft
 * ^experimental = true
 

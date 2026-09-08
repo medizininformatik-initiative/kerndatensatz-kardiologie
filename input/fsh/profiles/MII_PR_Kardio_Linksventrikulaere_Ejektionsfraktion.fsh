@@ -9,7 +9,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 // ICU Vitalparameter "Monitoring und Vitaldaten": "https://simplifier.net/isik-vitalparameter-v4/sd_mii_icu_monitoring_und_vitaldaten
 // bei Übernahme aus ISiK Monitoring und Vitaldaten die category und restriktive valueSets abgeändert.
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-12-08"

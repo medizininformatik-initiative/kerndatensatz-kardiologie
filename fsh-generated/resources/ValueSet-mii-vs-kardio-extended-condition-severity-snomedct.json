@@ -18,7 +18,7 @@
       ]
     }
   ],
-  "language": "de-DE",
+  "language": "de",
   "experimental": false,
   "compose": {
     "include": [

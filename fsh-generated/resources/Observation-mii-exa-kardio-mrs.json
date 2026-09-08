@@ -46,7 +46,7 @@
           "country": "DE"
         }
       ],
-      "language": "de-DE",
+      "language": "de",
       "gender": "male",
       "birthDate": "1980-01-01"
     },
@@ -60,7 +60,7 @@
         "start": "2023-12-01T10:00:00+01:00",
         "end": "2023-12-03T11:00:00+01:00"
       },
-      "language": "de-DE",
+      "language": "de",
       "status": "finished",
       "class": {
         "code": "IMP",
@@ -111,7 +111,7 @@
       ]
     }
   ],
-  "language": "de-DE",
+  "language": "de",
   "status": "final",
   "subject": {
     "reference": "#Beispielpatient"

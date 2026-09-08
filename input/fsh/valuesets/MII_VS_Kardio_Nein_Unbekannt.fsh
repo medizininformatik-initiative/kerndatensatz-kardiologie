@@ -6,7 +6,7 @@ Description: "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-09-05"

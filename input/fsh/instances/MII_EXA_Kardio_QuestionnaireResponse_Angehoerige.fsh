@@ -4,7 +4,7 @@ Title: "MII EXA Kardio QuestionnaireResponse Angehoerige"
 Description: "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Angehörigen"
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * status = #completed
 * contained[0] = Beispielpatient
 * subject = Reference(Beispielpatient)

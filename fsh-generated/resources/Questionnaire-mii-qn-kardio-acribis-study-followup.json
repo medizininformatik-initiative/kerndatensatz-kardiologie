@@ -2121,7 +2121,7 @@
   ],
   "version": "2027.0.0-ballot.rc1",
   "publisher": "Medizininformatik Initiative",
-  "language": "de-DE",
+  "language": "de",
   "name": "MII_QN_Kardio_Acribis_Study_FollowUp",
   "status": "draft",
   "experimental": true,

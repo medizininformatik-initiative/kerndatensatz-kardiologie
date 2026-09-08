@@ -4,7 +4,7 @@ Title: "MII EXA Kardio QuestionnaireResponse Arzt"
 Description: "Beispiel eines ausgefüllten Follow-Up Fragebogens aus Sicht eines Arztes/Ärztin"
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * status = #completed
 * contained[0] = Beispielpatient
 * subject = Reference(Beispielpatient)

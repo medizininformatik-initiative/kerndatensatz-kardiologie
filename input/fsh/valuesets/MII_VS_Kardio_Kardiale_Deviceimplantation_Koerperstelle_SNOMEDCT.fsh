@@ -6,7 +6,7 @@ Description: "Dieses Value Set bildet die Körperstellen, an denen eine Implanta
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-09-05"

@@ -6,7 +6,7 @@ Description: "Liste von Substanzen"
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-08-29"

@@ -6,7 +6,7 @@ Description: "Erweiterung des MII VS Diagnose Diagnosecodes [SNOMED CT]"
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-05-29"

@@ -6,7 +6,7 @@ Description: "An extended ValueSet including standard condition severity and SNO
 * insert PR_CS_VS_Version
 * insert Publisher
 
-* ^language = #de-DE
+* ^language = #de
 * ^status = #active
 * ^experimental = false
 

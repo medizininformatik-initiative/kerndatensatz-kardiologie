@@ -46,7 +46,7 @@
           "country": "DE"
         }
       ],
-      "language": "de-DE",
+      "language": "de",
       "gender": "male",
       "birthDate": "1980-01-01"
     }
@@ -81,7 +81,7 @@
       "valueDateTime": "2025-02-02"
     }
   ],
-  "language": "de-DE",
+  "language": "de",
   "subject": {
     "reference": "#Beispielpatient"
   },

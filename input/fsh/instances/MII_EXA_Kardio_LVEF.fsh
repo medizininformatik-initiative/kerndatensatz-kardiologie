@@ -4,7 +4,7 @@ Title: "MII EXA Kardio LVEF"
 Description: "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie"
 Usage: #example
 
-* language = #de-DE
+* language = #de
 * contained[0] = Beispielpatient
 * contained[1] = Beispielfall
 * identifier.system = "http://hospital.demo.org/observation-lvef"

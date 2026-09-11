@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Device xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-kardio-ekg-kanal-iii"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Device mii-exa-kardio-ekg-kanal-iii</b></p><a name="mii-exa-kardio-ekg-kanal-iii"> </a><a name="hcmii-exa-kardio-ekg-kanal-iii"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-ekg-kanal.html">MII PR Kardio EKG Kanal</a></p></div><p><b>status</b>: Active</p><p><b>type</b>: <span title="Codes:{urn:iso:std:iso:11073:10101 69799}">MDC_DEV_ECG_CHAN</span></p><h3>Properties</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>ValueCode</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{urn:iso:std:iso:11073:10101 68142}">MDC_ATTR_CHAN_NUM_LOGICAL</span></td><td><span title="Codes:{urn:iso:std:iso:11073:10101 131133}">MDC_ECG_LEAD_III</span></td></tr></table><p><b>parent</b>: <a href="Device-mii-exa-kardio-ekg-geraet-mortara.html">Device: status = active; manufacturer = Mortara Instrument, Inc.; type = MDC_DEV_ECG_MDS</a></p></div>
+  </text>
+  <status value="active"/>
+  <type>
+    <coding>
+      <system value="urn:iso:std:iso:11073:10101"/>
+      <version value="2024-12-05"/>
+      <code value="69799"/>
+      <display value="MDC_DEV_ECG_CHAN"/>
+    </coding>
+  </type>
+  <property>
+    <type>
+      <coding>
+        <system value="urn:iso:std:iso:11073:10101"/>
+        <version value="2024-12-05"/>
+        <code value="68142"/>
+        <display value="MDC_ATTR_CHAN_NUM_LOGICAL"/>
+      </coding>
+    </type>
+    <valueCode>
+      <coding>
+        <system value="urn:iso:std:iso:11073:10101"/>
+        <version value="2024-12-05"/>
+        <code value="131133"/>
+        <display value="MDC_ECG_LEAD_III"/>
+      </coding>
+    </valueCode>
+  </property>
+  <parent>
+    <reference value="Device/mii-exa-kardio-ekg-geraet-mortara"/>
+  </parent>
+</Device>

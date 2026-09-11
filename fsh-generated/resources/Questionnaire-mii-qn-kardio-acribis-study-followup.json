@@ -25,7 +25,7 @@
           {
             "code": "110465008",
             "system": "http://snomed.info/sct",
-            "display": "Clinical trial (procedure)"
+            "display": "Clinical trial"
           }
         ]
       }
@@ -1512,7 +1512,7 @@
                 {
                   "code": "266257000",
                   "system": "http://snomed.info/sct",
-                  "display": "Transient ischemic attack"
+                  "display": "Transient cerebral ischemia"
                 }
               ],
               "answerOption": [

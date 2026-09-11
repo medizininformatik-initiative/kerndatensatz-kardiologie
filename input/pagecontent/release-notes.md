@@ -1,6 +1,23 @@
 Auf dieser Seite werden die Unterschiede zwischen den Versionen nachgehalten.
 
-Die aktuelle Version des Kardiologie-Moduls ist **2026.0.0-alpha.3**.
+Die aktuelle Version des Kardiologie-Moduls ist **2027.0.0-ballot**.
+
+## Version 2027.0.0-ballot (Ballot-Version)
+
+### Änderungen seit 2027.0.0-ballot.rc1
+
+#### Terminologie
+
+ - Vereinfachen der SNOMED PCE für schwere spontane Blutung: [#87](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/87)
+ - Fix SNOMED-Code im Follow-Up-Fragebogen
+ - LOINC Update auf Version 2.83
+ - Das VS-Binding im Profil `MII PR Kardio Kardiale Deviceimplantation` für `bodySite` wurde von `requiered` auf `extensible` geändert. Außerdem sind jetzt auch andere Codes als SNOMED per Slicing erlaubt.
+
+#### Dependency-Updates
+ - Update der Dependenies auf die Version 2027.0.0-ballot der KDS Module Basis und Meta
+
+#### Dokumentation
+ - Sprache für alle Ressourcen auf `de` gesetzt
 
 ## Version 2027.0.0-ballot.rc1 (Release Candidate für Ballot in Q4/2026)
 

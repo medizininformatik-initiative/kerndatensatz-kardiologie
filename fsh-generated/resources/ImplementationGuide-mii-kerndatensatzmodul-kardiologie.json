@@ -3,7 +3,7 @@
   "id": "mii-kerndatensatzmodul-kardiologie",
   "language": "de",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
-  "version": "2027.0.0-ballot.rc1",
+  "version": "2027.0.0-ballot",
   "name": "MII_IG_MODUL_KARDIO_DE",
   "title": "MII IG Modul Kardio DE",
   "status": "draft",
@@ -49,13 +49,13 @@
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.base",
-      "version": "2027.0.0-ballot.rc1",
+      "version": "2027.0.0-ballot",
       "uri": "https://www.medizininformatik-initiative.de/fhir/modul-base/ImplementationGuide/mii-ig-base",
       "id": "de_medizininformatikinitiative_kerndatensatz_base"
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.meta",
-      "version": "2027.0.0-ballot.rc3",
+      "version": "2027.0.0-ballot",
       "uri": "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
       "id": "de_medizininformatikinitiative_kerndatensatz_meta"
     },
@@ -809,7 +809,7 @@
       },
       {
         "code": "releaselabel",
-        "value": "ci-build"
+        "value": "ballot"
       },
       {
         "code": "pin-canonicals",

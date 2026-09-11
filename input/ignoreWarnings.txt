@@ -71,3 +71,9 @@ Unknown Code 'application/dicom' in the CodeSystem 'urn:ietf:bcp:13' version '6.
 
 # We use the older version because of a problem with circular dependencies in the newer version
 The ImplementationGuide uses package hl7.terminology.r4#7.1.0 released on 2026-03-08, but the most recent appropriate version is 7.3.0. This reference is getting old and the more recent version should be considered
+
+# URLs don't resolve, but it's not under our control
+Canonical URL 'http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4' kann nicht aufgelöst werden
+Canonical URL 'http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik' kann nicht aufgelöst werden
+The canonical URL http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4 doesn't point to an actual ImplementationGuide resource
+The canonical URL http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik doesn't point to an actual ImplementationGuide resource

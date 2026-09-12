@@ -78,6 +78,9 @@ Canonical URL 'http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.g
 The canonical URL http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4 doesn't point to an actual ImplementationGuide resource
 The canonical URL http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik doesn't point to an actual ImplementationGuide resource
 
-# Error in JAVA FHIR VALIDATION-Workflow caused by a timeout that does not occur with local validation server.
-Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json | ERROR | code-invalid | Procedure.code.coding[0] | Terminology_TX_NoValid_12 | The Coding provided (http://snomed.info/sct#395218007) was not found in the value set 'MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct|2027.0.0-ballot), and a code is required from this value set.  (error message = java.net.SocketTimeoutException: timeout)
-Procedure-mii-exa-kardio-ekg-durchfuehrung.json | ERROR | code-invalid | Procedure.code.coding[0] | Terminology_TX_NoValid_12 | The Coding provided (http://snomed.info/sct#447113005) was not found in the value set 'MII VS Kardio EKG Prozedur [SNOMED CT]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct|2027.0.0-ballot), and a code is required from this value set.  (error message = java.net.SocketTimeoutException: timeout)
+# Ignore SocketTimeoutExceptions specifically for cardiology example files (for errors with JAVA FHIR VALIDATION-Workflow)
+Condition-mii-exa-kardio-hoehergradiges-vitium.json | * | * | * | *SocketTimeoutException*
+Device-mii-exa-kardio-device-icd.json | * | * | * | *SocketTimeoutException*
+Observation-mii-exa-kardio-score-nyha-ii.json | * | * | * | *SocketTimeoutException*
+Procedure-mii-exa-kardio-ekg-durchfuehrung.json | * | * | * | *SocketTimeoutException*
+Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json | * | * | * | *SocketTimeoutException*

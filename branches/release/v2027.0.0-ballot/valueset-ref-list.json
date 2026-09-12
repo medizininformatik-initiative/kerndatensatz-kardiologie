@@ -26,10 +26,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.403"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html" : "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
-    "StructureDefinition-mii-pr-kardio-score-nyha.html" : "MII PR Kardio Score NYHA",
+    "StructureDefinition-mii-pr-kardio-observation-rauchen.html" : "MII PR Kardio Observation Rauchen",
     "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html" : "MII PR Kardio Score Modifizierte Rankin Skala",
-    "StructureDefinition-mii-pr-kardio-observation-rauchen.html" : "MII PR Kardio Observation Rauchen"
+    "StructureDefinition-mii-pr-kardio-score-nyha.html" : "MII PR Kardio Score NYHA",
+    "StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html" : "MII PR Kardio Diagnose Prozedur Nein Unbekannt"
   },
   {
     "url" : "http://snomed.info/sct?fhir_vs=isa/49601007",

@@ -14,7 +14,7 @@
   "name" : "MII_IG_MODUL_KARDIO_DE",
   "title" : "MII IG Modul Kardio DE",
   "status" : "draft",
-  "date" : "2026-09-11T14:03:30+00:00",
+  "date" : "2026-09-12T09:57:23+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

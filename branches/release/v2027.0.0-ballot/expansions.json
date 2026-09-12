@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "34f0bd35-7ec5-4d4a-abf7-046bc9f12c03",
+  "id" : "964ca508-570f-451a-8094-f3c930a396b3",
   "meta" : {
-    "lastUpdated" : "2026-09-11T14:03:30.354+00:00"
+    "lastUpdated" : "2026-09-12T09:57:23.337+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -29,8 +29,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dc6169f0-618c-4642-8eb8-f9878d517546",
-        "timestamp" : "2026-09-11T15:36:55+00:00",
+        "identifier" : "urn:uuid:38f7dc87-55ec-42c4-a23d-5ea2c3f4c9b5",
+        "timestamp" : "2026-09-12T11:27:13+00:00",
         "total" : 185,
         "offset" : 0,
         "parameter" : [{
@@ -832,8 +832,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dc6169f0-618c-4642-8eb8-f9878d517546",
-        "timestamp" : "2026-09-11T15:36:55+00:00",
+        "identifier" : "urn:uuid:38f7dc87-55ec-42c4-a23d-5ea2c3f4c9b5",
+        "timestamp" : "2026-09-12T11:27:13+00:00",
         "total" : 185,
         "offset" : 0,
         "parameter" : [{
@@ -1607,790 +1607,6 @@
         {
           "system" : "urn:iso:std:iso:11073:10101",
           "code" : "131090"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "language" : "de",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 57 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-268400002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/268400002\">268400002</a></td><td>12 lead ECG</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;268400002&quot;, &quot;display&quot;: &quot;12 lead ECG&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;268400002&quot;&gt;&lt;display value=&quot;12 lead ECG&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-447113005\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/447113005\">447113005</a></td><td>12 lead electrocardiogram at rest</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;447113005&quot;, &quot;display&quot;: &quot;12 lead electrocardiogram at rest&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;447113005&quot;&gt;&lt;display value=&quot;12 lead electrocardiogram at rest&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-447114004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/447114004\">447114004</a></td><td>12 lead electrocardiogram during exercise</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;447114004&quot;, &quot;display&quot;: &quot;12 lead electrocardiogram during exercise&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;447114004&quot;&gt;&lt;display value=&quot;12 lead electrocardiogram during exercise&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-35161000087102\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/35161000087102\">35161000087102</a></td><td>14 day ambulatory electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;35161000087102&quot;, &quot;display&quot;: &quot;14 day ambulatory electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;35161000087102&quot;&gt;&lt;display value=&quot;14 day ambulatory electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-429163003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/429163003\">429163003</a></td><td>15 lead electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;429163003&quot;, &quot;display&quot;: &quot;15 lead electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;429163003&quot;&gt;&lt;display value=&quot;15 lead electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-425808002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/425808002\">425808002</a></td><td>18 lead electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;425808002&quot;, &quot;display&quot;: &quot;18 lead electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;425808002&quot;&gt;&lt;display value=&quot;18 lead electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-252417001\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/252417001\">252417001</a></td><td>24 Hour ECG</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;252417001&quot;, &quot;display&quot;: &quot;24 Hour ECG&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;252417001&quot;&gt;&lt;display value=&quot;24 Hour ECG&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-428803005\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/428803005\">428803005</a></td><td>3 lead electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;428803005&quot;, &quot;display&quot;: &quot;3 lead electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;428803005&quot;&gt;&lt;display value=&quot;3 lead electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-427446001\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/427446001\">427446001</a></td><td>48 hour ambulatory electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;427446001&quot;, &quot;display&quot;: &quot;48 hour ambulatory electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;427446001&quot;&gt;&lt;display value=&quot;48 hour ambulatory electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-35171000087106\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/35171000087106\">35171000087106</a></td><td>7 day ambulatory electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;35171000087106&quot;, &quot;display&quot;: &quot;7 day ambulatory electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;35171000087106&quot;&gt;&lt;display value=&quot;7 day ambulatory electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-715994002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/715994002\">715994002</a></td><td>72 hour ambulatory electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;715994002&quot;, &quot;display&quot;: &quot;72 hour ambulatory electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;715994002&quot;&gt;&lt;display value=&quot;72 hour ambulatory electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-164850009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/164850009\">164850009</a></td><td>Ambulatory ECG</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;164850009&quot;, &quot;display&quot;: &quot;Ambulatory ECG&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;164850009&quot;&gt;&lt;display value=&quot;Ambulatory ECG&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-86688004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/86688004\">86688004</a></td><td>Apexcardiogram with ECG lead</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;86688004&quot;, &quot;display&quot;: &quot;Apexcardiogram with ECG lead&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;86688004&quot;&gt;&lt;display value=&quot;Apexcardiogram with ECG lead&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-55106003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/55106003\">55106003</a></td><td>Apexcardiography</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;55106003&quot;, &quot;display&quot;: &quot;Apexcardiography&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;55106003&quot;&gt;&lt;display value=&quot;Apexcardiography&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-30597000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/30597000\">30597000</a></td><td>Bundle of His recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;30597000&quot;, &quot;display&quot;: &quot;Bundle of His recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;30597000&quot;&gt;&lt;display value=&quot;Bundle of His recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-425529000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/425529000\">425529000</a></td><td>Cardiomemo electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;425529000&quot;, &quot;display&quot;: &quot;Cardiomemo electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;425529000&quot;&gt;&lt;display value=&quot;Cardiomemo electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-266706003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/266706003\">266706003</a></td><td>Continuous ECG monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;266706003&quot;, &quot;display&quot;: &quot;Continuous ECG monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;266706003&quot;&gt;&lt;display value=&quot;Continuous ECG monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-34405006\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/34405006\">34405006</a></td><td>Continuous electrocardiogram</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;34405006&quot;, &quot;display&quot;: &quot;Continuous electrocardiogram&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;34405006&quot;&gt;&lt;display value=&quot;Continuous electrocardiogram&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-284021008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/284021008\">284021008</a></td><td>ECG automated dysrhythmia monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;284021008&quot;, &quot;display&quot;: &quot;ECG automated dysrhythmia monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;284021008&quot;&gt;&lt;display value=&quot;ECG automated dysrhythmia monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-284020009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/284020009\">284020009</a></td><td>EKG ST segment monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;284020009&quot;, &quot;display&quot;: &quot;EKG ST segment monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;284020009&quot;&gt;&lt;display value=&quot;EKG ST segment monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-34455003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/34455003\">34455003</a></td><td>Electrocardiogram monitoring, 10 hour portrait</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;34455003&quot;, &quot;display&quot;: &quot;Electrocardiogram monitoring, 10 hour portrait&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;34455003&quot;&gt;&lt;display value=&quot;Electrocardiogram monitoring, 10 hour portrait&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-46136006\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/46136006\">46136006</a></td><td>Electrocardiogram with exercise test</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;46136006&quot;, &quot;display&quot;: &quot;Electrocardiogram with exercise test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;46136006&quot;&gt;&lt;display value=&quot;Electrocardiogram with exercise test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1156362006\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1156362006\">1156362006</a></td><td>Electrocardiogram with exercise test using Bruce protocol</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;1156362006&quot;, &quot;display&quot;: &quot;Electrocardiogram with exercise test using Bruce protocol&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;1156362006&quot;&gt;&lt;display value=&quot;Electrocardiogram with exercise test using Bruce protocol&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-23638006\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/23638006\">23638006</a></td><td>Electrocardiogram with maximal exercise test</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;23638006&quot;, &quot;display&quot;: &quot;Electrocardiogram with maximal exercise test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;23638006&quot;&gt;&lt;display value=&quot;Electrocardiogram with maximal exercise test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-31303001\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/31303001\">31303001</a></td><td>Electrocardiogram with sub-maximal exercise test</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;31303001&quot;, &quot;display&quot;: &quot;Electrocardiogram with sub-maximal exercise test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;31303001&quot;&gt;&lt;display value=&quot;Electrocardiogram with sub-maximal exercise test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-73605004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/73605004\">73605004</a></td><td>Electrocardiogram with vectorcardiogram</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;73605004&quot;, &quot;display&quot;: &quot;Electrocardiogram with vectorcardiogram&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;73605004&quot;&gt;&lt;display value=&quot;Electrocardiogram with vectorcardiogram&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-57338000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/57338000\">57338000</a></td><td>Electrocardiogram, esophageal lead</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;57338000&quot;, &quot;display&quot;: &quot;Electrocardiogram, esophageal lead&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;57338000&quot;&gt;&lt;display value=&quot;Electrocardiogram, esophageal lead&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-65331008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/65331008\">65331008</a></td><td>Electrocardiogram, intracardiac</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;65331008&quot;, &quot;display&quot;: &quot;Electrocardiogram, intracardiac&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;65331008&quot;&gt;&lt;display value=&quot;Electrocardiogram, intracardiac&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-13478008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/13478008\">13478008</a></td><td>Electrocardiogram, intracardiac, His bundle recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;13478008&quot;, &quot;display&quot;: &quot;Electrocardiogram, intracardiac, His bundle recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;13478008&quot;&gt;&lt;display value=&quot;Electrocardiogram, intracardiac, His bundle recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-70878000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/70878000\">70878000</a></td><td>Electrocardiogram, rhythm</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;70878000&quot;, &quot;display&quot;: &quot;Electrocardiogram, rhythm&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;70878000&quot;&gt;&lt;display value=&quot;Electrocardiogram, rhythm&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-14431003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/14431003\">14431003</a></td><td>Electrocardiogram, single lead</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;14431003&quot;, &quot;display&quot;: &quot;Electrocardiogram, single lead&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;14431003&quot;&gt;&lt;display value=&quot;Electrocardiogram, single lead&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-46825001\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/46825001\">46825001</a></td><td>Electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;46825001&quot;, &quot;display&quot;: &quot;Electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;46825001&quot;&gt;&lt;display value=&quot;Electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-29303009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/29303009\">29303009</a></td><td>Electrocardiographic procedure</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;29303009&quot;, &quot;display&quot;: &quot;Electrocardiographic procedure&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;29303009&quot;&gt;&lt;display value=&quot;Electrocardiographic procedure&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-68611002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/68611002\">68611002</a></td><td>Electrocardiographic recording from artificial pacemaker</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;68611002&quot;, &quot;display&quot;: &quot;Electrocardiographic recording from artificial pacemaker&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;68611002&quot;&gt;&lt;display value=&quot;Electrocardiographic recording from artificial pacemaker&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-709187004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/709187004\">709187004</a></td><td>Electrocardiography via fetal scalp electrodes</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;709187004&quot;, &quot;display&quot;: &quot;Electrocardiography via fetal scalp electrodes&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;709187004&quot;&gt;&lt;display value=&quot;Electrocardiography via fetal scalp electrodes&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-129098000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/129098000\">129098000</a></td><td>Ellestad protocol</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;129098000&quot;, &quot;display&quot;: &quot;Ellestad protocol&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;129098000&quot;&gt;&lt;display value=&quot;Ellestad protocol&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-75444003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/75444003\">75444003</a></td><td>Fetal electrocardiogram</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;75444003&quot;, &quot;display&quot;: &quot;Fetal electrocardiogram&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;75444003&quot;&gt;&lt;display value=&quot;Fetal electrocardiogram&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-764840003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/764840003\">764840003</a></td><td>GSPECT of myocardium using technetium (99m-Tc) sestamibi</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;764840003&quot;, &quot;display&quot;: &quot;GSPECT of myocardium using technetium (99m-Tc) sestamibi&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;764840003&quot;&gt;&lt;display value=&quot;GSPECT of myocardium using technetium (99m-Tc) sestamibi&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-427047002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/427047002\">427047002</a></td><td>Holter extended electrocardiographic recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;427047002&quot;, &quot;display&quot;: &quot;Holter extended electrocardiographic recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;427047002&quot;&gt;&lt;display value=&quot;Holter extended electrocardiographic recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-90728002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/90728002\">90728002</a></td><td>Intra-atrial recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;90728002&quot;, &quot;display&quot;: &quot;Intra-atrial recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;90728002&quot;&gt;&lt;display value=&quot;Intra-atrial recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-11148001\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/11148001\">11148001</a></td><td>Intracardiac electrophysiologic procedure with ECG</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;11148001&quot;, &quot;display&quot;: &quot;Intracardiac electrophysiologic procedure with ECG&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;11148001&quot;&gt;&lt;display value=&quot;Intracardiac electrophysiologic procedure with ECG&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-15291005\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/15291005\">15291005</a></td><td>Left ventricular recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;15291005&quot;, &quot;display&quot;: &quot;Left ventricular recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;15291005&quot;&gt;&lt;display value=&quot;Left ventricular recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-45076008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/45076008\">45076008</a></td><td>Masters' stress test, two-step</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;45076008&quot;, &quot;display&quot;: &quot;Masters' stress test, two-step&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;45076008&quot;&gt;&lt;display value=&quot;Masters' stress test, two-step&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-438605009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/438605009\">438605009</a></td><td>Measurement of microvolt T wave alternans for ventricular arrhythmia assessment</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;438605009&quot;, &quot;display&quot;: &quot;Measurement of microvolt T wave alternans for ventricular arrhythmia assessment&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;438605009&quot;&gt;&lt;display value=&quot;Measurement of microvolt T wave alternans for ventricular arrhythmia assessment&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-3130004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/3130004\">3130004</a></td><td>Monitoring of cardiac output by ECG</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;3130004&quot;, &quot;display&quot;: &quot;Monitoring of cardiac output by ECG&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;3130004&quot;&gt;&lt;display value=&quot;Monitoring of cardiac output by ECG&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-91090004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/91090004\">91090004</a></td><td>Monitoring of ECG and pressure during major surgery</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;91090004&quot;, &quot;display&quot;: &quot;Monitoring of ECG and pressure during major surgery&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;91090004&quot;&gt;&lt;display value=&quot;Monitoring of ECG and pressure during major surgery&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-91096005\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/91096005\">91096005</a></td><td>Monitoring of ECG at surgery</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;91096005&quot;, &quot;display&quot;: &quot;Monitoring of ECG at surgery&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;91096005&quot;&gt;&lt;display value=&quot;Monitoring of ECG at surgery&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-85734009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/85734009\">85734009</a></td><td>Monitoring of ECG, pressure, blood gases and cardiac output</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;85734009&quot;, &quot;display&quot;: &quot;Monitoring of ECG, pressure, blood gases and cardiac output&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;85734009&quot;&gt;&lt;display value=&quot;Monitoring of ECG, pressure, blood gases and cardiac output&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-709186008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/709186008\">709186008</a></td><td>Noninvasive abdominal fetal electrocardiography</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;709186008&quot;, &quot;display&quot;: &quot;Noninvasive abdominal fetal electrocardiography&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;709186008&quot;&gt;&lt;display value=&quot;Noninvasive abdominal fetal electrocardiography&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-129100000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/129100000\">129100000</a></td><td>Pepper protocol</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;129100000&quot;, &quot;display&quot;: &quot;Pepper protocol&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;129100000&quot;&gt;&lt;display value=&quot;Pepper protocol&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-428813002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/428813002\">428813002</a></td><td>Pharmacologic and exercise stress test</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;428813002&quot;, &quot;display&quot;: &quot;Pharmacologic and exercise stress test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;428813002&quot;&gt;&lt;display value=&quot;Pharmacologic and exercise stress test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-129099008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/129099008\">129099008</a></td><td>Ramp protocol</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;129099008&quot;, &quot;display&quot;: &quot;Ramp protocol&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;129099008&quot;&gt;&lt;display value=&quot;Ramp protocol&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-71869000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/71869000\">71869000</a></td><td>Right ventricular recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;71869000&quot;, &quot;display&quot;: &quot;Right ventricular recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;71869000&quot;&gt;&lt;display value=&quot;Right ventricular recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-33442008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/33442008\">33442008</a></td><td>Signal-averaged electrocardiography</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;33442008&quot;, &quot;display&quot;: &quot;Signal-averaged electrocardiography&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;33442008&quot;&gt;&lt;display value=&quot;Signal-averaged electrocardiography&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-22872007\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/22872007\">22872007</a></td><td>Stimulation of carotid sinus with simultaneous electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;22872007&quot;, &quot;display&quot;: &quot;Stimulation of carotid sinus with simultaneous electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;22872007&quot;&gt;&lt;display value=&quot;Stimulation of carotid sinus with simultaneous electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-14769009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/14769009\">14769009</a></td><td>Tilt table test</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;14769009&quot;, &quot;display&quot;: &quot;Tilt table test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;14769009&quot;&gt;&lt;display value=&quot;Tilt table test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-85038003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/85038003\">85038003</a></td><td>Tracing of carotid pulse with ECG lead</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;85038003&quot;, &quot;display&quot;: &quot;Tracing of carotid pulse with ECG lead&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;85038003&quot;&gt;&lt;display value=&quot;Tracing of carotid pulse with ECG lead&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct",
-      "version" : "2027.0.0-ballot",
-      "name" : "MII_VS_Kardio_EKG_Prozedur_SNOMEDCT",
-      "title" : "MII VS Kardio EKG Prozedur [SNOMED CT]",
-      "status" : "draft",
-      "experimental" : true,
-      "expansion" : {
-        "identifier" : "urn:uuid:172e7098-2963-4ac0-8a6f-98af97faafee",
-        "timestamp" : "2026-09-11T15:38:57+00:00",
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "used-supplement",
-          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
-        },
-        {
-          "name" : "displayLanguage",
-          "valueCode" : "de"
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        }],
-        "contains" : [{
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "268400002",
-          "display" : "12 lead ECG"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "447113005",
-          "display" : "12 lead electrocardiogram at rest"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "447114004",
-          "display" : "12 lead electrocardiogram during exercise"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "35161000087102",
-          "display" : "14 day ambulatory electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "429163003",
-          "display" : "15 lead electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "425808002",
-          "display" : "18 lead electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "252417001",
-          "display" : "24 Hour ECG"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "428803005",
-          "display" : "3 lead electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "427446001",
-          "display" : "48 hour ambulatory electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "35171000087106",
-          "display" : "7 day ambulatory electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "715994002",
-          "display" : "72 hour ambulatory electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "164850009",
-          "display" : "Ambulatory ECG"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "86688004",
-          "display" : "Apexcardiogram with ECG lead"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "55106003",
-          "display" : "Apexcardiography"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "30597000",
-          "display" : "Bundle of His recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "425529000",
-          "display" : "Cardiomemo electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "266706003",
-          "display" : "Continuous ECG monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "34405006",
-          "display" : "Continuous electrocardiogram"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "284021008",
-          "display" : "ECG automated dysrhythmia monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "284020009",
-          "display" : "EKG ST segment monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "34455003",
-          "display" : "Electrocardiogram monitoring, 10 hour portrait"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "46136006",
-          "display" : "Electrocardiogram with exercise test"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "1156362006",
-          "display" : "Electrocardiogram with exercise test using Bruce protocol"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "23638006",
-          "display" : "Electrocardiogram with maximal exercise test"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "31303001",
-          "display" : "Electrocardiogram with sub-maximal exercise test"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "73605004",
-          "display" : "Electrocardiogram with vectorcardiogram"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "57338000",
-          "display" : "Electrocardiogram, esophageal lead"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "65331008",
-          "display" : "Electrocardiogram, intracardiac"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "13478008",
-          "display" : "Electrocardiogram, intracardiac, His bundle recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "70878000",
-          "display" : "Electrocardiogram, rhythm"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "14431003",
-          "display" : "Electrocardiogram, single lead"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "46825001",
-          "display" : "Electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "29303009",
-          "display" : "Electrocardiographic procedure"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "68611002",
-          "display" : "Electrocardiographic recording from artificial pacemaker"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "709187004",
-          "display" : "Electrocardiography via fetal scalp electrodes"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "129098000",
-          "display" : "Ellestad protocol"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "75444003",
-          "display" : "Fetal electrocardiogram"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "764840003",
-          "display" : "GSPECT of myocardium using technetium (99m-Tc) sestamibi"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "427047002",
-          "display" : "Holter extended electrocardiographic recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "90728002",
-          "display" : "Intra-atrial recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "11148001",
-          "display" : "Intracardiac electrophysiologic procedure with ECG"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "15291005",
-          "display" : "Left ventricular recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "45076008",
-          "display" : "Masters' stress test, two-step"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "438605009",
-          "display" : "Measurement of microvolt T wave alternans for ventricular arrhythmia assessment"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "3130004",
-          "display" : "Monitoring of cardiac output by ECG"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "91090004",
-          "display" : "Monitoring of ECG and pressure during major surgery"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "91096005",
-          "display" : "Monitoring of ECG at surgery"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "85734009",
-          "display" : "Monitoring of ECG, pressure, blood gases and cardiac output"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "709186008",
-          "display" : "Noninvasive abdominal fetal electrocardiography"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "129100000",
-          "display" : "Pepper protocol"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "428813002",
-          "display" : "Pharmacologic and exercise stress test"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "129099008",
-          "display" : "Ramp protocol"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "71869000",
-          "display" : "Right ventricular recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "33442008",
-          "display" : "Signal-averaged electrocardiography"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "22872007",
-          "display" : "Stimulation of carotid sinus with simultaneous electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "14769009",
-          "display" : "Tilt table test"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "85038003",
-          "display" : "Tracing of carotid pulse with ECG lead"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "language" : "de",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 57 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-268400002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/268400002\">268400002</a></td><td>12 lead ECG</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;268400002&quot;, &quot;display&quot;: &quot;12 lead ECG&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;268400002&quot;&gt;&lt;display value=&quot;12 lead ECG&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-447113005\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/447113005\">447113005</a></td><td>12 lead electrocardiogram at rest</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;447113005&quot;, &quot;display&quot;: &quot;12 lead electrocardiogram at rest&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;447113005&quot;&gt;&lt;display value=&quot;12 lead electrocardiogram at rest&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-447114004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/447114004\">447114004</a></td><td>12 lead electrocardiogram during exercise</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;447114004&quot;, &quot;display&quot;: &quot;12 lead electrocardiogram during exercise&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;447114004&quot;&gt;&lt;display value=&quot;12 lead electrocardiogram during exercise&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-35161000087102\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/35161000087102\">35161000087102</a></td><td>14 day ambulatory electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;35161000087102&quot;, &quot;display&quot;: &quot;14 day ambulatory electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;35161000087102&quot;&gt;&lt;display value=&quot;14 day ambulatory electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-429163003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/429163003\">429163003</a></td><td>15 lead electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;429163003&quot;, &quot;display&quot;: &quot;15 lead electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;429163003&quot;&gt;&lt;display value=&quot;15 lead electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-425808002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/425808002\">425808002</a></td><td>18 lead electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;425808002&quot;, &quot;display&quot;: &quot;18 lead electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;425808002&quot;&gt;&lt;display value=&quot;18 lead electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-252417001\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/252417001\">252417001</a></td><td>24 Hour ECG</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;252417001&quot;, &quot;display&quot;: &quot;24 Hour ECG&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;252417001&quot;&gt;&lt;display value=&quot;24 Hour ECG&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-428803005\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/428803005\">428803005</a></td><td>3 lead electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;428803005&quot;, &quot;display&quot;: &quot;3 lead electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;428803005&quot;&gt;&lt;display value=&quot;3 lead electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-427446001\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/427446001\">427446001</a></td><td>48 hour ambulatory electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;427446001&quot;, &quot;display&quot;: &quot;48 hour ambulatory electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;427446001&quot;&gt;&lt;display value=&quot;48 hour ambulatory electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-35171000087106\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/35171000087106\">35171000087106</a></td><td>7 day ambulatory electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;35171000087106&quot;, &quot;display&quot;: &quot;7 day ambulatory electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;35171000087106&quot;&gt;&lt;display value=&quot;7 day ambulatory electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-715994002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/715994002\">715994002</a></td><td>72 hour ambulatory electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;715994002&quot;, &quot;display&quot;: &quot;72 hour ambulatory electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;715994002&quot;&gt;&lt;display value=&quot;72 hour ambulatory electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-164850009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/164850009\">164850009</a></td><td>Ambulatory ECG</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;164850009&quot;, &quot;display&quot;: &quot;Ambulatory ECG&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;164850009&quot;&gt;&lt;display value=&quot;Ambulatory ECG&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-86688004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/86688004\">86688004</a></td><td>Apexcardiogram with ECG lead</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;86688004&quot;, &quot;display&quot;: &quot;Apexcardiogram with ECG lead&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;86688004&quot;&gt;&lt;display value=&quot;Apexcardiogram with ECG lead&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-55106003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/55106003\">55106003</a></td><td>Apexcardiography</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;55106003&quot;, &quot;display&quot;: &quot;Apexcardiography&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;55106003&quot;&gt;&lt;display value=&quot;Apexcardiography&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-30597000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/30597000\">30597000</a></td><td>Bundle of His recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;30597000&quot;, &quot;display&quot;: &quot;Bundle of His recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;30597000&quot;&gt;&lt;display value=&quot;Bundle of His recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-425529000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/425529000\">425529000</a></td><td>Cardiomemo electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;425529000&quot;, &quot;display&quot;: &quot;Cardiomemo electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;425529000&quot;&gt;&lt;display value=&quot;Cardiomemo electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-266706003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/266706003\">266706003</a></td><td>Continuous ECG monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;266706003&quot;, &quot;display&quot;: &quot;Continuous ECG monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;266706003&quot;&gt;&lt;display value=&quot;Continuous ECG monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-34405006\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/34405006\">34405006</a></td><td>Continuous electrocardiogram</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;34405006&quot;, &quot;display&quot;: &quot;Continuous electrocardiogram&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;34405006&quot;&gt;&lt;display value=&quot;Continuous electrocardiogram&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-284021008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/284021008\">284021008</a></td><td>ECG automated dysrhythmia monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;284021008&quot;, &quot;display&quot;: &quot;ECG automated dysrhythmia monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;284021008&quot;&gt;&lt;display value=&quot;ECG automated dysrhythmia monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-284020009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/284020009\">284020009</a></td><td>EKG ST segment monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;284020009&quot;, &quot;display&quot;: &quot;EKG ST segment monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;284020009&quot;&gt;&lt;display value=&quot;EKG ST segment monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-34455003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/34455003\">34455003</a></td><td>Electrocardiogram monitoring, 10 hour portrait</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;34455003&quot;, &quot;display&quot;: &quot;Electrocardiogram monitoring, 10 hour portrait&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;34455003&quot;&gt;&lt;display value=&quot;Electrocardiogram monitoring, 10 hour portrait&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-46136006\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/46136006\">46136006</a></td><td>Electrocardiogram with exercise test</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;46136006&quot;, &quot;display&quot;: &quot;Electrocardiogram with exercise test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;46136006&quot;&gt;&lt;display value=&quot;Electrocardiogram with exercise test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1156362006\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1156362006\">1156362006</a></td><td>Electrocardiogram with exercise test using Bruce protocol</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;1156362006&quot;, &quot;display&quot;: &quot;Electrocardiogram with exercise test using Bruce protocol&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;1156362006&quot;&gt;&lt;display value=&quot;Electrocardiogram with exercise test using Bruce protocol&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-23638006\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/23638006\">23638006</a></td><td>Electrocardiogram with maximal exercise test</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;23638006&quot;, &quot;display&quot;: &quot;Electrocardiogram with maximal exercise test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;23638006&quot;&gt;&lt;display value=&quot;Electrocardiogram with maximal exercise test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-31303001\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/31303001\">31303001</a></td><td>Electrocardiogram with sub-maximal exercise test</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;31303001&quot;, &quot;display&quot;: &quot;Electrocardiogram with sub-maximal exercise test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;31303001&quot;&gt;&lt;display value=&quot;Electrocardiogram with sub-maximal exercise test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-73605004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/73605004\">73605004</a></td><td>Electrocardiogram with vectorcardiogram</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;73605004&quot;, &quot;display&quot;: &quot;Electrocardiogram with vectorcardiogram&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;73605004&quot;&gt;&lt;display value=&quot;Electrocardiogram with vectorcardiogram&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-57338000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/57338000\">57338000</a></td><td>Electrocardiogram, esophageal lead</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;57338000&quot;, &quot;display&quot;: &quot;Electrocardiogram, esophageal lead&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;57338000&quot;&gt;&lt;display value=&quot;Electrocardiogram, esophageal lead&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-65331008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/65331008\">65331008</a></td><td>Electrocardiogram, intracardiac</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;65331008&quot;, &quot;display&quot;: &quot;Electrocardiogram, intracardiac&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;65331008&quot;&gt;&lt;display value=&quot;Electrocardiogram, intracardiac&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-13478008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/13478008\">13478008</a></td><td>Electrocardiogram, intracardiac, His bundle recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;13478008&quot;, &quot;display&quot;: &quot;Electrocardiogram, intracardiac, His bundle recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;13478008&quot;&gt;&lt;display value=&quot;Electrocardiogram, intracardiac, His bundle recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-70878000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/70878000\">70878000</a></td><td>Electrocardiogram, rhythm</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;70878000&quot;, &quot;display&quot;: &quot;Electrocardiogram, rhythm&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;70878000&quot;&gt;&lt;display value=&quot;Electrocardiogram, rhythm&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-14431003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/14431003\">14431003</a></td><td>Electrocardiogram, single lead</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;14431003&quot;, &quot;display&quot;: &quot;Electrocardiogram, single lead&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;14431003&quot;&gt;&lt;display value=&quot;Electrocardiogram, single lead&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-46825001\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/46825001\">46825001</a></td><td>Electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;46825001&quot;, &quot;display&quot;: &quot;Electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;46825001&quot;&gt;&lt;display value=&quot;Electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-29303009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/29303009\">29303009</a></td><td>Electrocardiographic procedure</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;29303009&quot;, &quot;display&quot;: &quot;Electrocardiographic procedure&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;29303009&quot;&gt;&lt;display value=&quot;Electrocardiographic procedure&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-68611002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/68611002\">68611002</a></td><td>Electrocardiographic recording from artificial pacemaker</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;68611002&quot;, &quot;display&quot;: &quot;Electrocardiographic recording from artificial pacemaker&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;68611002&quot;&gt;&lt;display value=&quot;Electrocardiographic recording from artificial pacemaker&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-709187004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/709187004\">709187004</a></td><td>Electrocardiography via fetal scalp electrodes</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;709187004&quot;, &quot;display&quot;: &quot;Electrocardiography via fetal scalp electrodes&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;709187004&quot;&gt;&lt;display value=&quot;Electrocardiography via fetal scalp electrodes&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-129098000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/129098000\">129098000</a></td><td>Ellestad protocol</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;129098000&quot;, &quot;display&quot;: &quot;Ellestad protocol&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;129098000&quot;&gt;&lt;display value=&quot;Ellestad protocol&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-75444003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/75444003\">75444003</a></td><td>Fetal electrocardiogram</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;75444003&quot;, &quot;display&quot;: &quot;Fetal electrocardiogram&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;75444003&quot;&gt;&lt;display value=&quot;Fetal electrocardiogram&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-764840003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/764840003\">764840003</a></td><td>GSPECT of myocardium using technetium (99m-Tc) sestamibi</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;764840003&quot;, &quot;display&quot;: &quot;GSPECT of myocardium using technetium (99m-Tc) sestamibi&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;764840003&quot;&gt;&lt;display value=&quot;GSPECT of myocardium using technetium (99m-Tc) sestamibi&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-427047002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/427047002\">427047002</a></td><td>Holter extended electrocardiographic recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;427047002&quot;, &quot;display&quot;: &quot;Holter extended electrocardiographic recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;427047002&quot;&gt;&lt;display value=&quot;Holter extended electrocardiographic recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-90728002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/90728002\">90728002</a></td><td>Intra-atrial recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;90728002&quot;, &quot;display&quot;: &quot;Intra-atrial recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;90728002&quot;&gt;&lt;display value=&quot;Intra-atrial recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-11148001\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/11148001\">11148001</a></td><td>Intracardiac electrophysiologic procedure with ECG</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;11148001&quot;, &quot;display&quot;: &quot;Intracardiac electrophysiologic procedure with ECG&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;11148001&quot;&gt;&lt;display value=&quot;Intracardiac electrophysiologic procedure with ECG&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-15291005\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/15291005\">15291005</a></td><td>Left ventricular recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;15291005&quot;, &quot;display&quot;: &quot;Left ventricular recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;15291005&quot;&gt;&lt;display value=&quot;Left ventricular recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-45076008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/45076008\">45076008</a></td><td>Masters' stress test, two-step</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;45076008&quot;, &quot;display&quot;: &quot;Masters' stress test, two-step&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;45076008&quot;&gt;&lt;display value=&quot;Masters' stress test, two-step&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-438605009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/438605009\">438605009</a></td><td>Measurement of microvolt T wave alternans for ventricular arrhythmia assessment</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;438605009&quot;, &quot;display&quot;: &quot;Measurement of microvolt T wave alternans for ventricular arrhythmia assessment&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;438605009&quot;&gt;&lt;display value=&quot;Measurement of microvolt T wave alternans for ventricular arrhythmia assessment&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-3130004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/3130004\">3130004</a></td><td>Monitoring of cardiac output by ECG</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;3130004&quot;, &quot;display&quot;: &quot;Monitoring of cardiac output by ECG&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;3130004&quot;&gt;&lt;display value=&quot;Monitoring of cardiac output by ECG&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-91090004\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/91090004\">91090004</a></td><td>Monitoring of ECG and pressure during major surgery</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;91090004&quot;, &quot;display&quot;: &quot;Monitoring of ECG and pressure during major surgery&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;91090004&quot;&gt;&lt;display value=&quot;Monitoring of ECG and pressure during major surgery&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-91096005\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/91096005\">91096005</a></td><td>Monitoring of ECG at surgery</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;91096005&quot;, &quot;display&quot;: &quot;Monitoring of ECG at surgery&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;91096005&quot;&gt;&lt;display value=&quot;Monitoring of ECG at surgery&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-85734009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/85734009\">85734009</a></td><td>Monitoring of ECG, pressure, blood gases and cardiac output</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;85734009&quot;, &quot;display&quot;: &quot;Monitoring of ECG, pressure, blood gases and cardiac output&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;85734009&quot;&gt;&lt;display value=&quot;Monitoring of ECG, pressure, blood gases and cardiac output&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-709186008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/709186008\">709186008</a></td><td>Noninvasive abdominal fetal electrocardiography</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;709186008&quot;, &quot;display&quot;: &quot;Noninvasive abdominal fetal electrocardiography&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;709186008&quot;&gt;&lt;display value=&quot;Noninvasive abdominal fetal electrocardiography&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-129100000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/129100000\">129100000</a></td><td>Pepper protocol</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;129100000&quot;, &quot;display&quot;: &quot;Pepper protocol&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;129100000&quot;&gt;&lt;display value=&quot;Pepper protocol&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-428813002\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/428813002\">428813002</a></td><td>Pharmacologic and exercise stress test</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;428813002&quot;, &quot;display&quot;: &quot;Pharmacologic and exercise stress test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;428813002&quot;&gt;&lt;display value=&quot;Pharmacologic and exercise stress test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-129099008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/129099008\">129099008</a></td><td>Ramp protocol</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;129099008&quot;, &quot;display&quot;: &quot;Ramp protocol&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;129099008&quot;&gt;&lt;display value=&quot;Ramp protocol&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-71869000\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/71869000\">71869000</a></td><td>Right ventricular recording</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;71869000&quot;, &quot;display&quot;: &quot;Right ventricular recording&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;71869000&quot;&gt;&lt;display value=&quot;Right ventricular recording&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-33442008\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/33442008\">33442008</a></td><td>Signal-averaged electrocardiography</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;33442008&quot;, &quot;display&quot;: &quot;Signal-averaged electrocardiography&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;33442008&quot;&gt;&lt;display value=&quot;Signal-averaged electrocardiography&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-22872007\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/22872007\">22872007</a></td><td>Stimulation of carotid sinus with simultaneous electrocardiographic monitoring</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;22872007&quot;, &quot;display&quot;: &quot;Stimulation of carotid sinus with simultaneous electrocardiographic monitoring&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;22872007&quot;&gt;&lt;display value=&quot;Stimulation of carotid sinus with simultaneous electrocardiographic monitoring&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-14769009\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/14769009\">14769009</a></td><td>Tilt table test</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;14769009&quot;, &quot;display&quot;: &quot;Tilt table test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;14769009&quot;&gt;&lt;display value=&quot;Tilt table test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-85038003\"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/900000000000207008/version/20260701</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/85038003\">85038003</a></td><td>Tracing of carotid pulse with ECG lead</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;85038003&quot;, &quot;display&quot;: &quot;Tracing of carotid pulse with ECG lead&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;85038003&quot;&gt;&lt;display value=&quot;Tracing of carotid pulse with ECG lead&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct",
-      "version" : "2027.0.0-ballot",
-      "name" : "MII_VS_Kardio_EKG_Prozedur_SNOMEDCT",
-      "title" : "MII VS Kardio EKG Prozedur [SNOMED CT]",
-      "status" : "draft",
-      "experimental" : true,
-      "expansion" : {
-        "identifier" : "urn:uuid:172e7098-2963-4ac0-8a6f-98af97faafee",
-        "timestamp" : "2026-09-11T15:38:57+00:00",
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "used-supplement",
-          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
-        },
-        {
-          "name" : "displayLanguage",
-          "valueCode" : "de"
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        }],
-        "contains" : [{
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "268400002",
-          "display" : "12 lead ECG"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "447113005",
-          "display" : "12 lead electrocardiogram at rest"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "447114004",
-          "display" : "12 lead electrocardiogram during exercise"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "35161000087102",
-          "display" : "14 day ambulatory electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "429163003",
-          "display" : "15 lead electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "425808002",
-          "display" : "18 lead electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "252417001",
-          "display" : "24 Hour ECG"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "428803005",
-          "display" : "3 lead electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "427446001",
-          "display" : "48 hour ambulatory electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "35171000087106",
-          "display" : "7 day ambulatory electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "715994002",
-          "display" : "72 hour ambulatory electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "164850009",
-          "display" : "Ambulatory ECG"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "86688004",
-          "display" : "Apexcardiogram with ECG lead"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "55106003",
-          "display" : "Apexcardiography"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "30597000",
-          "display" : "Bundle of His recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "425529000",
-          "display" : "Cardiomemo electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "266706003",
-          "display" : "Continuous ECG monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "34405006",
-          "display" : "Continuous electrocardiogram"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "284021008",
-          "display" : "ECG automated dysrhythmia monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "284020009",
-          "display" : "EKG ST segment monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "34455003",
-          "display" : "Electrocardiogram monitoring, 10 hour portrait"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "46136006",
-          "display" : "Electrocardiogram with exercise test"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "1156362006",
-          "display" : "Electrocardiogram with exercise test using Bruce protocol"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "23638006",
-          "display" : "Electrocardiogram with maximal exercise test"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "31303001",
-          "display" : "Electrocardiogram with sub-maximal exercise test"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "73605004",
-          "display" : "Electrocardiogram with vectorcardiogram"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "57338000",
-          "display" : "Electrocardiogram, esophageal lead"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "65331008",
-          "display" : "Electrocardiogram, intracardiac"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "13478008",
-          "display" : "Electrocardiogram, intracardiac, His bundle recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "70878000",
-          "display" : "Electrocardiogram, rhythm"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "14431003",
-          "display" : "Electrocardiogram, single lead"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "46825001",
-          "display" : "Electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "29303009",
-          "display" : "Electrocardiographic procedure"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "68611002",
-          "display" : "Electrocardiographic recording from artificial pacemaker"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "709187004",
-          "display" : "Electrocardiography via fetal scalp electrodes"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "129098000",
-          "display" : "Ellestad protocol"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "75444003",
-          "display" : "Fetal electrocardiogram"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "764840003",
-          "display" : "GSPECT of myocardium using technetium (99m-Tc) sestamibi"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "427047002",
-          "display" : "Holter extended electrocardiographic recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "90728002",
-          "display" : "Intra-atrial recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "11148001",
-          "display" : "Intracardiac electrophysiologic procedure with ECG"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "15291005",
-          "display" : "Left ventricular recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "45076008",
-          "display" : "Masters' stress test, two-step"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "438605009",
-          "display" : "Measurement of microvolt T wave alternans for ventricular arrhythmia assessment"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "3130004",
-          "display" : "Monitoring of cardiac output by ECG"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "91090004",
-          "display" : "Monitoring of ECG and pressure during major surgery"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "91096005",
-          "display" : "Monitoring of ECG at surgery"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "85734009",
-          "display" : "Monitoring of ECG, pressure, blood gases and cardiac output"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "709186008",
-          "display" : "Noninvasive abdominal fetal electrocardiography"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "129100000",
-          "display" : "Pepper protocol"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "428813002",
-          "display" : "Pharmacologic and exercise stress test"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "129099008",
-          "display" : "Ramp protocol"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "71869000",
-          "display" : "Right ventricular recording"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "33442008",
-          "display" : "Signal-averaged electrocardiography"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "22872007",
-          "display" : "Stimulation of carotid sinus with simultaneous electrocardiographic monitoring"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "14769009",
-          "display" : "Tilt table test"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
-          "code" : "85038003",
-          "display" : "Tracing of carotid pulse with ECG lead"
         }]
       }
     }
@@ -2419,8 +1635,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0810e98f-0111-4649-a039-48e229a48749",
-        "timestamp" : "2026-09-11T15:38:57+00:00",
+        "identifier" : "urn:uuid:52982be3-41a7-4809-bd8e-b0189f74a3f0",
+        "timestamp" : "2026-09-12T11:28:14+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2497,8 +1713,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0810e98f-0111-4649-a039-48e229a48749",
-        "timestamp" : "2026-09-11T15:38:57+00:00",
+        "identifier" : "urn:uuid:52982be3-41a7-4809-bd8e-b0189f74a3f0",
+        "timestamp" : "2026-09-12T11:28:14+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2566,7 +1782,7 @@
       "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-09-11T14:03:30+00:00",
+      "date" : "2026-09-12T09:57:23+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2575,8 +1791,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:019c9b00-2fb9-4dba-ae6e-bf8133ad71b3",
-        "timestamp" : "2026-09-11T15:27:57+00:00",
+        "identifier" : "urn:uuid:462d7dbd-5ffa-4458-9277-e05ec2b55ce3",
+        "timestamp" : "2026-09-12T11:14:03+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2652,7 +1868,7 @@
       "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-09-11T14:03:30+00:00",
+      "date" : "2026-09-12T09:57:23+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -2661,8 +1877,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:019c9b00-2fb9-4dba-ae6e-bf8133ad71b3",
-        "timestamp" : "2026-09-11T15:27:57+00:00",
+        "identifier" : "urn:uuid:462d7dbd-5ffa-4458-9277-e05ec2b55ce3",
+        "timestamp" : "2026-09-12T11:14:03+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2747,8 +1963,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4dffb649-7e7d-456c-9989-bca2d65e18a8",
-        "timestamp" : "2026-09-11T15:30:49+00:00",
+        "identifier" : "urn:uuid:ac152894-163c-4a79-9efb-139f1233b23b",
+        "timestamp" : "2026-09-12T11:18:12+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2826,8 +2042,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4dffb649-7e7d-456c-9989-bca2d65e18a8",
-        "timestamp" : "2026-09-11T15:30:49+00:00",
+        "identifier" : "urn:uuid:ac152894-163c-4a79-9efb-139f1233b23b",
+        "timestamp" : "2026-09-12T11:18:12+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2905,8 +2121,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:329977ed-240c-4d6d-955b-c340d8eaa561",
-        "timestamp" : "2026-09-11T15:41:32+00:00",
+        "identifier" : "urn:uuid:6a247fec-67e3-4925-a1ea-851816e74793",
+        "timestamp" : "2026-09-12T11:30:48+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2987,8 +2203,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:329977ed-240c-4d6d-955b-c340d8eaa561",
-        "timestamp" : "2026-09-11T15:41:32+00:00",
+        "identifier" : "urn:uuid:6a247fec-67e3-4925-a1ea-851816e74793",
+        "timestamp" : "2026-09-12T11:30:48+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -3069,8 +2285,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:675f5b32-39d7-43b3-af48-f0ed25897378",
-        "timestamp" : "2026-09-11T15:42:12+00:00",
+        "identifier" : "urn:uuid:dc4ca823-308d-4128-850d-0d6b42881aa2",
+        "timestamp" : "2026-09-12T11:31:36+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -3147,8 +2363,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:675f5b32-39d7-43b3-af48-f0ed25897378",
-        "timestamp" : "2026-09-11T15:42:12+00:00",
+        "identifier" : "urn:uuid:dc4ca823-308d-4128-850d-0d6b42881aa2",
+        "timestamp" : "2026-09-12T11:31:36+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -3225,8 +2441,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0e7f7eec-8a9a-4076-a8dd-f7a3ee1a3873",
-        "timestamp" : "2026-09-11T15:43:02+00:00",
+        "identifier" : "urn:uuid:4df388a4-db46-41ac-b78a-267da424172c",
+        "timestamp" : "2026-09-12T11:32:12+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -3675,8 +2891,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0e7f7eec-8a9a-4076-a8dd-f7a3ee1a3873",
-        "timestamp" : "2026-09-11T15:43:02+00:00",
+        "identifier" : "urn:uuid:4df388a4-db46-41ac-b78a-267da424172c",
+        "timestamp" : "2026-09-12T11:32:12+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -4125,8 +3341,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0702bee2-5acb-4c82-a371-06103c569125",
-        "timestamp" : "2026-09-11T15:31:51+00:00",
+        "identifier" : "urn:uuid:4cf2f68e-a347-40ea-b9ed-8b19f388ed84",
+        "timestamp" : "2026-09-12T11:21:14+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -5183,8 +4399,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0702bee2-5acb-4c82-a371-06103c569125",
-        "timestamp" : "2026-09-11T15:31:51+00:00",
+        "identifier" : "urn:uuid:4cf2f68e-a347-40ea-b9ed-8b19f388ed84",
+        "timestamp" : "2026-09-12T11:21:14+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -6241,8 +5457,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:77e5b6a1-a03f-4fd6-823c-2b7bc36216d0",
-        "timestamp" : "2026-09-11T15:31:51+00:00",
+        "identifier" : "urn:uuid:ddd44c3f-82d9-4830-8f2d-a315a39dab7d",
+        "timestamp" : "2026-09-12T11:21:14+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -6479,8 +5695,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:77e5b6a1-a03f-4fd6-823c-2b7bc36216d0",
-        "timestamp" : "2026-09-11T15:31:51+00:00",
+        "identifier" : "urn:uuid:ddd44c3f-82d9-4830-8f2d-a315a39dab7d",
+        "timestamp" : "2026-09-12T11:21:14+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -6717,8 +5933,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:aa90a246-9c2e-4ec0-ae18-eb29f12aee6f",
-        "timestamp" : "2026-09-11T15:30:46+00:00",
+        "identifier" : "urn:uuid:82cdc603-6497-434d-81da-e386d2078ff0",
+        "timestamp" : "2026-09-12T11:18:08+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -10783,8 +9999,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:aa90a246-9c2e-4ec0-ae18-eb29f12aee6f",
-        "timestamp" : "2026-09-11T15:30:46+00:00",
+        "identifier" : "urn:uuid:82cdc603-6497-434d-81da-e386d2078ff0",
+        "timestamp" : "2026-09-12T11:18:08+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -14849,8 +14065,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fc420822-d9db-4e98-8b1e-64f0d84efc91",
-        "timestamp" : "2026-09-11T15:33:56+00:00",
+        "identifier" : "urn:uuid:52b421cd-2a92-4e66-b78e-56c7ce6eeab9",
+        "timestamp" : "2026-09-12T11:23:20+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -14950,8 +14166,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fc420822-d9db-4e98-8b1e-64f0d84efc91",
-        "timestamp" : "2026-09-11T15:33:56+00:00",
+        "identifier" : "urn:uuid:52b421cd-2a92-4e66-b78e-56c7ce6eeab9",
+        "timestamp" : "2026-09-12T11:23:20+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -15051,8 +14267,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:44f277c7-8f38-48ff-b981-010b9afb5539",
-        "timestamp" : "2026-09-11T15:27:56+00:00",
+        "identifier" : "urn:uuid:8e1fe669-290e-4ff6-931d-398187161281",
+        "timestamp" : "2026-09-12T11:14:02+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -15122,8 +14338,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:44f277c7-8f38-48ff-b981-010b9afb5539",
-        "timestamp" : "2026-09-11T15:27:56+00:00",
+        "identifier" : "urn:uuid:8e1fe669-290e-4ff6-931d-398187161281",
+        "timestamp" : "2026-09-12T11:14:02+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -15193,8 +14409,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b0ac2005-0e88-4c00-b0fd-fa6dec8f7a99",
-        "timestamp" : "2026-09-11T15:33:56+00:00",
+        "identifier" : "urn:uuid:cc6edaec-ef1e-40b4-93bc-01e722038d2e",
+        "timestamp" : "2026-09-12T11:23:20+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -15275,8 +14491,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b0ac2005-0e88-4c00-b0fd-fa6dec8f7a99",
-        "timestamp" : "2026-09-11T15:33:56+00:00",
+        "identifier" : "urn:uuid:cc6edaec-ef1e-40b4-93bc-01e722038d2e",
+        "timestamp" : "2026-09-12T11:23:20+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -15357,8 +14573,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:53a41aa6-538c-4cf3-8571-47987d50e99f",
-        "timestamp" : "2026-09-11T15:44:23+00:00",
+        "identifier" : "urn:uuid:d58be703-e5cd-4dcf-9c76-1439e741d642",
+        "timestamp" : "2026-09-12T11:33:15+00:00",
         "total" : 1466,
         "offset" : 0,
         "parameter" : [{
@@ -19420,8 +18636,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:53a41aa6-538c-4cf3-8571-47987d50e99f",
-        "timestamp" : "2026-09-11T15:44:23+00:00",
+        "identifier" : "urn:uuid:d58be703-e5cd-4dcf-9c76-1439e741d642",
+        "timestamp" : "2026-09-12T11:33:15+00:00",
         "total" : 1466,
         "offset" : 0,
         "parameter" : [{

@@ -173,7 +173,7 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Kardio Klappenvitium [ICD 10 GM]](ValueSet-mii-vs-kardio-klappenvitium-icd.md),[MII VS Diagnose ICD-10-GM](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot/ValueSet-mii-vs-diagnose-icd10gm.html)
+  * References: [MII VS Diagnose ICD-10-GM](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot/ValueSet-mii-vs-diagnose-icd10gm.html),[MII VS Kardio Klappenvitium [ICD 10 GM]](ValueSet-mii-vs-kardio-klappenvitium-icd.md)
 * URL: [http://fhir.de/CodeSystem/bfarm/ops](https://simplifier.net/resolve?scope=de.gematik.ti@1.3.1&canonical=http://fhir.de/CodeSystem/bfarm/ops)
   * Version: 
   * Name / Title: OPSOPS
@@ -194,7 +194,7 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active / FMM5
   * Flags: 
   * Count: 15 (complete)
-  * References: [MII VS Kardio Kardiale Devicemimplantation [OPS]](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md),[MII VS Kardio Gerätetyp [SNOMED CT]](ValueSet-mii-vs-kardio-geraetetyp-snomedct.md)
+  * References: [MII VS Kardio Gerätetyp [SNOMED CT]](ValueSet-mii-vs-kardio-geraetetyp-snomedct.md),[MII VS Kardio Kardiale Devicemimplantation [OPS]](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md)
 * URL: [http://terminology.hl7.org/CodeSystem/observation-category](http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html)
   * Version: 2.0.0
   * Name / Title: ObservationCategoryCodesObservation Category Codes
@@ -236,5 +236,5 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md),[MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md),[Device Metric and Component Types](http://hl7.org/fhir/R4/valueset-devicemetric-type.html),[MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md),[MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md)
+  * References: [Device Metric and Component Types](http://hl7.org/fhir/R4/valueset-devicemetric-type.html),[MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md),[MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md),[MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md),[MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md)
 

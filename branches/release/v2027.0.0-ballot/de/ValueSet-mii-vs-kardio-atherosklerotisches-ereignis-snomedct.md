@@ -24,7 +24,7 @@ ValueSet for Relevant Codes for Atherosclerotic Events
 
 ### Expansion
 
-This value set cannot be expanded because the terminology server(s) deemed it too costly to do so
+No Expansion for this valueset (Unknown Code System)
 
 -------
 

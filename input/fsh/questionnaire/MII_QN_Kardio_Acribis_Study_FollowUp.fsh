@@ -16,7 +16,7 @@ Usage: #definition
 * description = "Follow-Up-Fragebogen im Rahmen der Acribis-Studie."     // Beschreibung
 * purpose = "Follow-Up-Fragebogen im Rahmen der Acribis-Studie."
 * useContext[0].code = http://terminology.hl7.org/CodeSystem/usage-context-type#focus
-* useContext[0].valueCodeableConcept = $sct#110465008 "Clinical trial (procedure)" // Optionaler Anwendungskontext
+* useContext[0].valueCodeableConcept = $sct#110465008 "Clinical trial" // Optionaler Anwendungskontext
 * subjectType[0] = #Patient                                              // #Patient | #Practitioner | #Group | #Location
 
 // Details zur Codierung der Med. Items sowie verwendeten Vorlagen im zugehörigen Issue unter https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/18
@@ -621,7 +621,7 @@ Usage: #definition
 * item[3].item[3].item[0].extension[0].valueCodeableConcept.coding[0].code = #radio-button
 * item[3].item[3].item[0].extension[0].valueCodeableConcept.coding[0].display = "Radio Button"
 * item[3].item[3].item[0].linkId = "o_6"
-* item[3].item[3].item[0].code[0] = $sct#266257000 "Transient ischemic attack"
+* item[3].item[3].item[0].code[0] = $sct#266257000 "Transient cerebral ischemia"
 * item[3].item[3].item[0].text = "Wurde eine Transiente Ischämische Attacke (TIA, siehe Infobox) diagnostiziert?"
 * item[3].item[3].item[0].repeats = false
 * item[3].item[3].item[0].answerOption[0].valueCoding.system = "http://terminology.hl7.org/CodeSystem/v2-0532"

@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "mii-kerndatensatzmodul-kardiologie",
   "ig-ver" : "2027.0.0-ballot",
-  "date" : "Sat, 12 Sep, 2026 09:57:23 +0000",
-  "dateISO8601" : "2026-09-12T09:57:23+00:00",
+  "date" : "Mon, 14 Sep, 2026 11:41:04 +0000",
+  "dateISO8601" : "2026-09-14T11:41:04+00:00",
   "errs" : 42,
   "warnings" : 78,
   "hints" : 337,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 62,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2950946656
+  "maxMemory" : 2025276712
 }

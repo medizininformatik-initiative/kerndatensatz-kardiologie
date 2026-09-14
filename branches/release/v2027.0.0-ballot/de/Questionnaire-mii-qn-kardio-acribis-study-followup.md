@@ -1199,8 +1199,8 @@ Follow-Up-Fragebogen im Rahmen der Acribis-Studie.
         "linkId" : "o_5",
         "code" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000}",
-          "display" : "64572001|Disease|:{116676008|Associated morphology|=50960005|Hemorrhage|,47429007|Associated with|=131148009|Bleeding|,42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"
+          "code" : "131148009:{42752001=789750003,246112005=24484000}",
+          "display" : "131148009|Bleeding|:{42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"
         }],
         "text" : "Trat eine starke spontane Blutung (Starke Blutung, siehe Infobox) auf, die diagnostiziert wurde und ärztlch behandelt werden musste?",
         "type" : "choice",

@@ -68,7 +68,6 @@ jobs:
         with:
           persist-credentials: false
           repository: PhGoos/terminology-server
-          ref: main
           token: ${{ secrets.TX_DOCKER_REPO_PAT }}
       
       - name: Prepare Terminology Server

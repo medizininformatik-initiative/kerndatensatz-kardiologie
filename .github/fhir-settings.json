@@ -6,6 +6,18 @@
       "authenticationType": "none",
       "allowHttp": true,
       "allowPrivateNetwork": true
+    },
+    {
+      "url": "https://localhost/fhir",
+      "type": "fhir",
+      "authenticationType": "none",
+      "allowPrivateNetwork": true
+    },
+    {
+      "url": "https://127.0.0.1/fhir",
+      "type": "fhir",
+      "authenticationType": "none",
+      "allowPrivateNetwork": true
     }
   ]
 }

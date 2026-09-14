@@ -1,0 +1,104 @@
+name: IG build with local terminology server
+
+on:
+  push:
+    branches:
+      - "feature/term-test"
+  workflow_dispatch:
+
+concurrency:
+  group: gh-pages-writes
+  cancel-in-progress: false
+
+env:
+  JAVA_VERSION: "25"
+  NODE_VERSION: "24"
+  RUBY_VERSION: "4.0.6"
+  JEKYLL_VERSION: "4.4.1"
+  PUBLISHER_VERSION: "2.3.4"
+  PUBLISHER_SHA256: "970922c12eb583bfb4cb6121584b922a236d5904e36413e3545d2fbc248f8e2b"
+  SUSHI_VERSION: "3.20.1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: FHIR-Paket-Cache aus dem fhir-package-store laden (ISiK-Snapshots)
+        uses: actions/checkout@v7.0.1
+        with:
+          repository: medizininformatik-initiative/fhir-package-store
+          ref: cache-store
+          path: .fhir-package-store
+          persist-credentials: false
+
+      - name: Paket-Cache nach ~/.fhir uebernehmen
+        run: |
+          mkdir -p ~/.fhir/packages
+          cp -r .fhir-package-store/packages/* ~/.fhir/packages/
+          rm -rf .fhir-package-store
+          ls ~/.fhir/packages | head -20
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7.0.0
+        with:
+          node-version: "${NODE_VERSION}"
+
+      - name: Set up Java
+        uses: actions/setup-java@v6.0.1
+        with:
+          distribution: temurin
+          java-version: "${JAVA_VERSION}"
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1.321.0
+        with:
+          ruby-version: "${RUBY_VERSION}"
+
+      - name: Install Jekyll
+        run: gem install jekyll -v "${JEKYLL_VERSION}"
+
+      - name: Install SUSHI
+        run: npm install --global "fsh-sushi@${SUSHI_VERSION}"
+      
+      - name: Checkout Terminology Server Docker Repo
+        uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+          repository: PhGoos/terminology-server
+          ref: main
+          token: ${{ secrets.TX_DOCKER_REPO_PAT }}
+      
+      - name: Prepare Terminology Server
+        working-directory: terminology-server
+        run: |
+          curl -fLsSo 'data/prebuild/terminologies.zip' "${{ secrets.CACHE_ZIP }}"
+          mkdir -p 'data/terminology-cache'
+          unzip -qo "data/prebuild/terminologies.zip" -d 'data/terminology-cache'
+          docker compose up -d
+          ready=false
+          sleep 10
+          for _ in {1..15}; do
+            if curl --head --silent --fail http://127.0.0.1 >/dev/null; then ready=true; break; fi
+            sleep 10
+          done
+          if [ "${ready}" != "true" ]; then docker compose logs; exit 1; fi
+          keytool -importcert -cacerts -alias tx-localhost -file nginx/certs/server.crt -storepass changeit
+
+      - name: Build IG
+        run: |
+          set -euo pipefail
+          publisher_url="https://github.com/HL7/fhir-ig-publisher/releases/download/${PUBLISHER_VERSION}/publisher.jar"
+          curl --fail --location --silent --show-error "${publisher_url}" --output "${RUNNER_TEMP}/publisher.jar"
+          echo "${PUBLISHER_SHA256}  ${RUNNER_TEMP}/publisher.jar" | sha256sum --check
+          java -Xmx6g -jar "${RUNNER_TEMP}/publisher.jar" -ig ig.ini -tx "https://localhost/fhir" \
+            -fhir-settings "${GITHUB_WORKSPACE}/.github/fhir-settings.json"
+
+      - name: Stop terminology proxy
+        working-directory: terminology-server
+        run: docker compose down

@@ -13,7 +13,7 @@
   "url": "https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~releases",
   "title": "MII - Erweiterungsmodul Kardiologie",
   "author": "Medizininformatik Initiative",
-  "jurisdiction": "http://unstats.un.org/unsd/methods/m49/m49.htm#276",
+  "jurisdiction": "urn:iso:std:iso:3166#DE",
   "fhirVersions": [
     "4.0.1"
   ],

@@ -75,6 +75,9 @@ jobs:
       - name: Prepare Terminology Server
         working-directory: terminology-server
         run: |
+          pwd
+          ls -la
+          mkdir -p 'data/prebuild'
           curl -fLsSo 'data/prebuild/terminologies.zip' "${{ secrets.CACHE_ZIP }}"
           mkdir -p 'data/terminology-cache'
           unzip -qo "data/prebuild/terminologies.zip" -d 'data/terminology-cache'

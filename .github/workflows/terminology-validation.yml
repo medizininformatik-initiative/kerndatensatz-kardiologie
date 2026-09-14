@@ -87,7 +87,7 @@ jobs:
             sleep 10
           done
           if [ "${ready}" != "true" ]; then docker compose logs; exit 1; fi
-          keytool -importcert -cacerts -alias tx-localhost -file nginx/certs/server.crt -storepass changeit
+          keytool -importcert -cacerts -alias tx-localhost -file nginx/certs/server.crt -storepass changeit -noprompt
 
       - name: Build IG
         working-directory: kerndatensatz-kardiologie
@@ -99,6 +99,6 @@ jobs:
           java -Xmx6g -jar "${RUNNER_TEMP}/publisher.jar" -ig ig.ini -tx "https://localhost/fhir" \
             -fhir-settings ".github/fhir-settings.json"
 
-      - name: Stop terminology proxy
+      - name: Stop terminology server
         working-directory: terminology-server
         run: docker compose down

@@ -77,10 +77,3 @@ Canonical URL 'http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de
 Canonical URL 'http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik' kann nicht aufgelöst werden
 The canonical URL http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4 doesn't point to an actual ImplementationGuide resource
 The canonical URL http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik doesn't point to an actual ImplementationGuide resource
-
-# Ignore SocketTimeoutExceptions specifically for cardiology example files (for errors with JAVA FHIR VALIDATION-Workflow)
-Condition-mii-exa-kardio-hoehergradiges-vitium.json | * | * | * | *SocketTimeoutException*
-Device-mii-exa-kardio-device-icd.json | * | * | * | *SocketTimeoutException*
-Observation-mii-exa-kardio-score-nyha-ii.json | * | * | * | *SocketTimeoutException*
-Procedure-mii-exa-kardio-ekg-durchfuehrung.json | * | * | * | *SocketTimeoutException*
-Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json | * | * | * | *SocketTimeoutException*

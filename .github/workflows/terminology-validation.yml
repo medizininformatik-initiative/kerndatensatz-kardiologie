@@ -87,7 +87,7 @@ jobs:
             sleep 10
           done
           if [ "${ready}" != "true" ]; then docker compose logs; exit 1; fi
-          keytool -importcert -cacerts -alias tx-localhost -file nginx/certs/server.crt -storepass changeit -noprompt
+          sudo keytool -importcert -cacerts -alias tx-localhost -file nginx/certs/server.crt -storepass changeit -noprompt
 
       - name: Build IG
         working-directory: kerndatensatz-kardiologie

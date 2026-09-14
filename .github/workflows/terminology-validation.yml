@@ -24,6 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7.0.1
         with:
+          path: kerndatensatz-kardiologie
           persist-credentials: false
 
       - name: FHIR-Paket-Cache aus dem fhir-package-store laden (ISiK-Snapshots)
@@ -66,6 +67,7 @@ jobs:
       - name: Checkout Terminology Server Docker Repo
         uses: actions/checkout@v7.0.1
         with:
+          path: terminology-server
           persist-credentials: false
           repository: PhGoos/terminology-server
           token: ${{ secrets.TX_DOCKER_REPO_PAT }}

@@ -11,9 +11,6 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  JAVA_VERSION: "25"
-  NODE_VERSION: "24"
-  RUBY_VERSION: "4.0.6"
   JEKYLL_VERSION: "4.4.1"
   PUBLISHER_VERSION: "2.3.4"
   PUBLISHER_SHA256: "970922c12eb583bfb4cb6121584b922a236d5904e36413e3545d2fbc248f8e2b"
@@ -47,18 +44,18 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v7.0.0
         with:
-          node-version: "${NODE_VERSION}"
+          node-version: "24"
 
       - name: Set up Java
         uses: actions/setup-java@v6.0.1
         with:
           distribution: temurin
-          java-version: "${JAVA_VERSION}"
+          java-version: "25"
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1.321.0
         with:
-          ruby-version: "${RUBY_VERSION}"
+          ruby-version: "4.0.6"
 
       - name: Install Jekyll
         run: gem install jekyll -v "${JEKYLL_VERSION}"

@@ -98,7 +98,7 @@ jobs:
           curl --fail --location --silent --show-error "${publisher_url}" --output "${RUNNER_TEMP}/publisher.jar"
           echo "${PUBLISHER_SHA256}  ${RUNNER_TEMP}/publisher.jar" | sha256sum --check
           java -Xmx6g -jar "${RUNNER_TEMP}/publisher.jar" -ig ig.ini -tx "https://localhost/fhir" \
-            -fhir-settings "${GITHUB_WORKSPACE}/.github/fhir-settings.json"
+            -fhir-settings "${GITHUB_WORKSPACE}/kerndatensatz-kardiologie/.github/fhir-settings.json"
 
       - name: Stop terminology proxy
         working-directory: terminology-server

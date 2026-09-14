@@ -3,7 +3,7 @@
   "id": "mii-pr-kardio-score-modifizierte-rankin-skala",
   "language": "de",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala",
-  "version": "2027.0.0-ballot.rc1",
+  "version": "2027.0.0-ballot",
   "name": "MII_PR_Kardio_Score_Modifizierte_Rankin_Skala",
   "title": "MII PR Kardio Score Modifizierte Rankin Skala",
   "status": "active",

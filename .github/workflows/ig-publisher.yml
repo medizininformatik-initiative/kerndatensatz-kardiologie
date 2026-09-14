@@ -110,7 +110,7 @@ jobs:
   build:
     if: ${{ vars.ENABLE_PREVIEW != 'false' }} # toggle: ON by default
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 360
     outputs:
       mode: ${{ steps.build.outputs.mode }}
     steps:

@@ -9,10 +9,10 @@ name: MII_IG_MODUL_KARDIO_DE
 title: MII IG Modul Kardio DE
 description: "Medizininformatik Initiative - Erweiterungsmodul Kardiologie"
 status: draft # draft | active | retired | unknown
-version: 2027.0.0-ballot.rc1
+version: 2027.0.0-ballot
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
-releaseLabel: ci-build
+releaseLabel: ballot
 license: CC-BY-4.0 # https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable # https://build.fhir.org/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#DE "Germany"
 publisher:
@@ -28,8 +28,8 @@ language: de
 dependencies:
   de.basisprofil.r4: 1.6.0
   # de.medizininformatikinitiative.kerndatensatz.icu: 2026.0.x 
-  de.medizininformatikinitiative.kerndatensatz.base: 2027.0.0-ballot.rc1
-  de.medizininformatikinitiative.kerndatensatz.meta: 2027.0.0-ballot.rc3
+  de.medizininformatikinitiative.kerndatensatz.base: 2027.0.0-ballot
+  de.medizininformatikinitiative.kerndatensatz.meta: 2027.0.0-ballot
   de.gematik.isik: 6.0.0
   hl7.terminology.r4: 7.1.0
   # Analog zu https://github.com/medizininformatik-initiative/kerndatensatzmodul-proms/blob/dev/sushi-config.yaml festgeschriebene Version. 

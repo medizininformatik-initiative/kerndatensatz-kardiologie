@@ -64,7 +64,7 @@
             "system": "http://snomed.info/sct",
             "code": "439401001",
             "display": "Diagnosis",
-            "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+            "version": "http://snomed.info/sct/900000000000207008/version/20260701"
           }
         ]
       },
@@ -73,7 +73,7 @@
           {
             "code": "ae",
             "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
-            "version": "2027.0.0-ballot.rc1",
+            "version": "2027.0.0-ballot",
             "display": "Atherosklerotisches Ereignis"
           }
         ]
@@ -86,7 +86,7 @@
             "system": "http://snomed.info/sct",
             "code": "432213005",
             "display": "Date of diagnosis",
-            "version": "http://snomed.info/sct/900000000000207008/version/20250701"
+            "version": "http://snomed.info/sct/900000000000207008/version/20260701"
           }
         ]
       },
@@ -99,7 +99,7 @@
         "code": "ae",
         "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
         "display": "Atherosklerotisches Ereignis",
-        "version": "2027.0.0-ballot.rc1"
+        "version": "2027.0.0-ballot"
       }
     ]
   },

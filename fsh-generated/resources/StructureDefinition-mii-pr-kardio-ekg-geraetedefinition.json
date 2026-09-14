@@ -3,7 +3,7 @@
   "id": "mii-pr-kardio-ekg-geraetedefinition",
   "language": "de",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition",
-  "version": "2027.0.0-ballot.rc1",
+  "version": "2027.0.0-ballot",
   "name": "MII_PR_Kardio_EKG_Geraetedefinition",
   "title": "MII PR Kardio EKG Gerätedefinition",
   "status": "draft",

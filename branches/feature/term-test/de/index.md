@@ -16,7 +16,7 @@ Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatens
 
 | | |
 | :--- | :--- |
-| Datum | 2026-09-15T12:43:58+00:00 |
+| Datum | 2026-09-15T13:04:36+00:00 |
 | Version | 2027.0.0-ballot |
 | Status | draft |
 | Realm | DE |

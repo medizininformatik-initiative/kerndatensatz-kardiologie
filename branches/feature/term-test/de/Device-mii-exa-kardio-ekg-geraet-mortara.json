@@ -1,0 +1,35 @@
+{
+  "resourceType" : "Device",
+  "id" : "mii-exa-kardio-ekg-geraet-mortara",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet"]
+  },
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: Device mii-exa-kardio-ekg-geraet-mortara</b></p><a name=\"mii-exa-kardio-ekg-geraet-mortara\"> </a><a name=\"hcmii-exa-kardio-ekg-geraet-mortara\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-kardio-ekg-geraet.html\">MII PR Kardio EKG Gerät</a></p></div><p><b>definition</b>: <a href=\"DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.html\">DeviceDefinition: manufacturer[x] = Mortara Instrument, Inc.; onlineInformation = https://www.hillrom.de/de/products/eli-380-electrocardiograph/</a></p><p><b>status</b>: Active</p><p><b>manufacturer</b>: Mortara Instrument, Inc.</p><h3>DeviceNames</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style=\"display: none\">*</td><td>ELI 380</td><td>Model name</td></tr></table><p><b>type</b>: <span title=\"Codes:{urn:iso:std:iso:11073:10101 69797}, {urn:iso:std:iso:11073:10101 69798}\">MDC_DEV_ECG_MDS</span></p></div>"
+  },
+  "definition" : {
+    "reference" : "DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara"
+  },
+  "status" : "active",
+  "manufacturer" : "Mortara Instrument, Inc.",
+  "deviceName" : [{
+    "name" : "ELI 380",
+    "type" : "model-name"
+  }],
+  "type" : {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:11073:10101",
+      "version" : "2024-12-05",
+      "code" : "69797",
+      "display" : "MDC_DEV_ECG_MDS"
+    },
+    {
+      "system" : "urn:iso:std:iso:11073:10101",
+      "version" : "2024-12-05",
+      "code" : "69798",
+      "display" : "MDC_DEV_ECG_VMD"
+    }]
+  }
+}

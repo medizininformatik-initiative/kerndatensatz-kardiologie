@@ -1,0 +1,174 @@
+MII_IG_MODUL_KARDIO_DE : Validation Results
+=========================================
+
+err = 1, warn = 1, info = 1
+IG Publisher Version: 2.3.2 Out of date - current version is 2.3.4
+Generated Tue Sep 15 12:55:35 UTC 2026. FHIR version 4.0.1 for mii-kerndatensatzmodul-kardiologie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio)
+ Build Errors : 1 / 0 / 0
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-lebensmittelpunkt : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-modifizierte-rankin-skala : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-supplement-snomedct : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Condition-mii-exa-kardio-diagnose-myokardinfarkt : 0 / 1 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Condition-mii-exa-kardio-embolischer-gefaessverschluss : 0 / 0 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Condition-mii-exa-kardio-hoehergradiges-vitium : 0 / 2 / 6
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-device-icd : 0 / 0 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-geraet-mortara : 0 / 0 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-i : 0 / 0 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-ii : 0 / 0 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-iii : 0 / 0 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara : 0 / 1 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus : 0 / 0 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/DocumentReference-mii-exa-kardio-ekg-referenz : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ImplementationGuide-mii-kerndatensatzmodul-kardiologie : 0 / 5 / 29
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf : 0 / 0 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2 : 0 / 0 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-atherosklerotisches-erstereignis : 0 / 0 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-ekg-rr-interval : 0 / 0 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-geraeteprogrammierung-vvi : 0 / 0 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-herzinsuffizienz-unbekannt : 0 / 1 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-hoehergradiges-vitium-nein : 0 / 1 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-kein-device : 0 / 1 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-lvef : 0 / 1 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-mrs : 0 / 1 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-pci-nein : 0 / 1 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-raucherstatus : 0 / 2 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-score-nyha-ii : 0 / 1 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/PractitionerRole-mii-exa-kardio-rolle-kardiologe : 0 / 0 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Procedure-mii-exa-kardio-ekg-durchfuehrung : 0 / 2 / 6
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd : 0 / 3 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Questionnaire-mii-qn-kardio-acribis-study-followup : 0 / 36 / 64
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-andere : 0 / 7 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige : 0 / 6 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt : 0 / 7 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient : 0 / 6 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf : 0 / 0 / 102
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis : 0 / 0 / 136
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-device : 0 / 0 / 93
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose : 0 / 4 / 296
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt : 0 / 2 / 153
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-annotation : 0 / 0 / 74
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung : 0 / 2 / 184
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraet : 0 / 0 / 93
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition : 0 / 0 / 79
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-kanal : 0 / 0 / 126
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-referenz : 0 / 0 / 82
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-geraeteprogrammierung : 0 / 0 / 102
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation : 0 / 3 / 195
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-klappenvitium : 0 / 4 / 15
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion : 0 / 0 / 171
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus : 0 / 0 / 48
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen : 0 / 0 / 189
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala : 0 / 0 / 97
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-nyha : 0 / 0 / 97
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-allergene-snomedct : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct : 0 / 1 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-kanaele-mdc : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-prozedur-snomedct : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-ethnie-snomedct : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-condition-severity-snomedct : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed : 0 / 3 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-geraetetyp-snomedct : 0 / 1 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops : 0 / 1 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-alphaid : 0 / 10 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-icd : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-snomedct : 0 / 1 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49 : 0 / 1 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc : 0 / 3 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-modifizierte-rankin-skala : 0 / 1 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-nein-unbekannt : 0 / 1 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-nyha-klassen-snomedct : 0 / 1 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-objekte-geraete-mdc : 0 / 2 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/input/resources/Parameters-mii-param-kardio-manifest : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: This IG is for FHIR version 4.0.1, while the package 'hl7.fhir.uv.subscriptions-backport.r4#1.1.0' is for FHIR version 4.0.0
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer.json ==
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.json ==
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-lebensmittelpunkt.json ==
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.json ==
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-supplement-snomedct.json ==
+== fsh-generated/resources/Condition-mii-exa-kardio-diagnose-myokardinfarkt.json ==
+== fsh-generated/resources/Condition-mii-exa-kardio-embolischer-gefaessverschluss.json ==
+== fsh-generated/resources/Condition-mii-exa-kardio-hoehergradiges-vitium.json ==
+== fsh-generated/resources/Device-mii-exa-kardio-device-icd.json ==
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-geraet-mortara.json ==
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-i.json ==
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-ii.json ==
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-iii.json ==
+== fsh-generated/resources/DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json ==
+== fsh-generated/resources/DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.json ==
+== fsh-generated/resources/DocumentReference-mii-exa-kardio-ekg-referenz.json ==
+== fsh-generated/resources/ImplementationGuide-mii-kerndatensatzmodul-kardiologie.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-atherosklerotisches-erstereignis.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-ekg-rr-interval.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-geraeteprogrammierung-vvi.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-hoehergradiges-vitium-nein.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-kein-device.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-lvef.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-mrs.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-pci-nein.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-raucherstatus.json ==
+== fsh-generated/resources/Observation-mii-exa-kardio-score-nyha-ii.json ==
+== fsh-generated/resources/PractitionerRole-mii-exa-kardio-rolle-kardiologe.json ==
+== fsh-generated/resources/Procedure-mii-exa-kardio-ekg-durchfuehrung.json ==
+== fsh-generated/resources/Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json ==
+== fsh-generated/resources/Questionnaire-mii-qn-kardio-acribis-study-followup.json ==
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-andere.json ==
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige.json ==
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt.json ==
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-device.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-annotation.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraet.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-kanal.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-referenz.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-geraeteprogrammierung.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-klappenvitium.json ==
+WARNING: MII PR Kardio Klappenvitium.coding.Condition.code.coding: Binding https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct could not be expanded
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json ==
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-nyha.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-allergene-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-kanaele-mdc.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-ethnie-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-geraetetyp-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-alphaid.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-icd.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.json ==
+INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://unstats.un.org/unsd/methods/m49/m49.htm' is not known, and no terminology service supports it
+== fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-modifizierte-rankin-skala.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-nein-unbekannt.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-nyha-klassen-snomedct.json ==
+== fsh-generated/resources/ValueSet-mii-vs-kardio-objekte-geraete-mdc.json ==
+== input/resources/Parameters-mii-param-kardio-manifest.json ==

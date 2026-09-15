@@ -1,0 +1,79 @@
+# MII VS Kardio EKG Prozedur [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot
+
+* [**Table of Contents**](toc.md)
+* [**Artefaktübersicht**](artifacts.md)
+* **MII VS Kardio EKG Prozedur [SNOMED CT]**
+
+## ValueSet: MII VS Kardio EKG Prozedur [SNOMED CT] (Experimentell) 
+
+| | |
+| :--- | :--- |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct | *Version*:2027.0.0-ballot |
+| Draft Stand: 2025-09-30 | *Maschinenlesbarer Name*:MII_VS_Kardio_EKG_Prozedur_SNOMEDCT |
+
+ 
+SNOMED CT Codes für verschieden EKG-Prozeduren. 
+
+ **References** 
+
+* [MII PR Kardio EKG Durchführung](StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.md)
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Beschreibung der obigen Tabelle(n)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "mii-vs-kardio-ekg-prozedur-snomedct",
+  "language" : "de",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct",
+  "version" : "2027.0.0-ballot",
+  "name" : "MII_VS_Kardio_EKG_Prozedur_SNOMEDCT",
+  "title" : "MII VS Kardio EKG Prozedur [SNOMED CT]",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-09-30",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    },
+    {
+      "system" : "email",
+      "value" : "office@medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "SNOMED CT Codes für verschieden EKG-Prozeduren.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "29303009"
+      }]
+    }]
+  }
+}
+
+```

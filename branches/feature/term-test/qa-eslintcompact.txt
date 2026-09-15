@@ -1,0 +1,9 @@
+MII_IG_MODUL_KARDIO_DE
+=========================================
+
+Generic: line 0, col 0, Error - This IG is for FHIR version 4.0.1, while the package 'hl7.fhir.uv.subscriptions-backport.r4#1.1.0' is for FHIR version 4.0.0 (BUSINESSRULE)
+/home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-klappenvitium.json: line 0, col 0, Warning - Binding https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct could not be expanded (BUSINESSRULE)
+/home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.json: line 1, col 3033, Info - The concepts in the value set include have not been validated because the code system 'http://unstats.un.org/unsd/methods/m49/m49.htm' is not known, and no terminology service supports it (BUSINESSRULE)
+
+err = 1, warn = 1, info = 1
+IG Publisher Version: 2.3.2

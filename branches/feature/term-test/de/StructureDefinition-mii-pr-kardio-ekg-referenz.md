@@ -101,7 +101,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio EKG Referenz",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-09-15T15:28:24+00:00",
+  "date" : "2026-09-15T15:41:49+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

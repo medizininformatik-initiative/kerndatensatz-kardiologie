@@ -3,7 +3,7 @@ MII_IG_MODUL_KARDIO_DE : Validation Results
 
 err = 1, warn = 1, info = 1
 IG Publisher Version: 2.3.2 Out of date - current version is 2.3.4
-Generated Tue Sep 15 15:39:39 UTC 2026. FHIR version 4.0.1 for mii-kerndatensatzmodul-kardiologie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio)
+Generated Tue Sep 15 15:53:06 UTC 2026. FHIR version 4.0.1 for mii-kerndatensatzmodul-kardiologie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio)
  Build Errors : 1 / 0 / 0
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer : 0 / 1 / 2
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis : 0 / 1 / 2

@@ -1,9 +1,9 @@
+# Versuch, einen Workflow zu erstellen, der den IG mit Hilfe eines lokalen Terminologie-Servers baut.
+# Funktioniert leider nicht, da zu viel RAM und/oder CPU benötigt und die GitHub Actions Runner-Umgebung nicht genügend Ressourcen bereitstellt.
+
 name: IG build with local terminology server
 
 on:
-  push:
-    branches:
-      - "feature/term-test"
   workflow_dispatch:
 
 concurrency:
@@ -18,7 +18,6 @@ env:
 
 jobs:
   build:
-    if: false
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:

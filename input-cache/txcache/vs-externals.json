@@ -1,0 +1,16 @@
+{
+  "http://unstats.un.org/unsd/methods/m49/m49.htm" : null,
+  "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT" : {
+    "server" : "https://localhost/fhir",
+    "filename" : "vs-51527e92-f1de-43e6-8048-4564689dc5df.json"
+  },
+  "http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik" : null,
+  "urn:iso:std:iso:11073:10101|2024-12-05" : null,
+  "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701" : null,
+  "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION" : {
+    "server" : "https://localhost/fhir",
+    "filename" : "vs-398aab6e-7482-4ce9-88ad-d1724c0b5532.json"
+  },
+  "http://snomed.info/sct" : null,
+  "http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4" : null
+}

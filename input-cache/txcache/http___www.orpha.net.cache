@@ -1,0 +1,5097 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.orpha.net"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://hl7.org/fhir/encounter-status|4.0.1"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "urn:iso:std:iso:11073:10101|2024-12-05"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "severity" : "error",
+  "error" : "Coding has no code for system http://www.orpha.net and cannot be validated",
+  "class" : "UNKNOWN",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n3ms http://www.orpha.net?vs|2025: Validate \"[http://www.orpha.net#undefined (\"undefined\")]\"",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "error",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "Coding has no code for system http://www.orpha.net and cannot be validated"
+    },
+    "expression" : ["Coding"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://www.orpha.net"
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:b716720e-bba7-4bf3-a715-1f4c51259694",
+    "timestamp" : "2026-09-15T13:33:58.926Z",
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://www.orpha.net|2025"
+    }],
+    "contains" : [{
+      "system" : "http://www.orpha.net",
+      "code" : "1002",
+      "display" : "NON RARE IN EUROPE: Cluster headache"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100642",
+      "display" : "NON RARE IN EUROPE: Gonorrhea"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100932",
+      "display" : "OBSOLETE: Nuclear oculomotor paralysis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100990",
+      "display" : "OBSOLETE: Autosomal dominant spastic paraplegia type 9"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "101096",
+      "display" : "OBSOLETE: Aregenerative anemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "101356",
+      "display" : "OBSOLETE: Lissencephaly-demyelinating axonal neuropathy syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "101433",
+      "display" : "Rare urogenital disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "692256",
+      "display" : "Isolated anogenital granulomatosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "693815",
+      "display" : "Uterine arteriovenous malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "693872",
+      "display" : "Urinary tract arteriovenous malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2795",
+      "display" : "Fowler urethral sphincter dysfunction syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "37202",
+      "display" : "Interstitial cystitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "83001",
+      "display" : "Urogenital tract malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "165704",
+      "display" : "Non-syndromic urogenital tract malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "182117",
+      "display" : "Non-syndromic urogenital tract malformation of female"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180065",
+      "display" : "Non-syndromic uterovaginal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1916",
+      "display" : "Diethylstilbestrol syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "73217",
+      "display" : "Müllerian aplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180068",
+      "display" : "Partial bilateral aplasia of the Müllerian ducts"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3109",
+      "display" : "Mayer-Rokitansky-Küster-Hauser syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1092",
+      "display" : "Renal-genital-middle ear anomalies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "247775",
+      "display" : "Mayer-Rokitansky-Küster-Hauser syndrome type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2578",
+      "display" : "Mayer-Rokitansky-Küster-Hauser syndrome type 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "247768",
+      "display" : "Müllerian aplasia and hyperandrogenism"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180071",
+      "display" : "Unilateral aplasia of the Müllerian ducts"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180074",
+      "display" : "True unicornuate uterus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180079",
+      "display" : "Pseudounicornuate uterus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180122",
+      "display" : "Septate uterus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180126",
+      "display" : "Complete septate uterus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180129",
+      "display" : "Partial septate uterus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180134",
+      "display" : "Bicornuate uterus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180086",
+      "display" : "Didelphys uterus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180106",
+      "display" : "Bicervical bicornuate uterus and blind hemivagina"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180111",
+      "display" : "Bicervical bicornuate uterus with patent cervix and vagina"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180114",
+      "display" : "Unicervical bicornuate uterus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180139",
+      "display" : "Uterine hypoplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180142",
+      "display" : "Absence of uterine body"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180145",
+      "display" : "Uterine cervical aplasia and agenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180151",
+      "display" : "Rare vaginal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "65681",
+      "display" : "Vaginal atresia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "96269",
+      "display" : "Isolated partial vaginal agenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180154",
+      "display" : "Septate vagina"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180157",
+      "display" : "Longitudinal vaginal septum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180160",
+      "display" : "Transverse vaginal septum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "603515",
+      "display" : "Isolated female hypospadias"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "647794",
+      "display" : "Isolated persistent urogenital sinus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "182121",
+      "display" : "Non-syndromic urogenital tract malformation of male"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "48",
+      "display" : "Congenital bilateral absence of vas deferens"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2842",
+      "display" : "Penoscrotal transposition"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "49",
+      "display" : "Penile agenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "227",
+      "display" : "Diphallia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "95706",
+      "display" : "Non-syndromic posterior hypospadias"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "440",
+      "display" : "OBSOLETE: Familial hypospadias"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "95707",
+      "display" : "Idiopathic isolated micropenis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "696897",
+      "display" : "Congenital megaprepuce"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "495879",
+      "display" : "Congenital agenesis of the scrotum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "182124",
+      "display" : "Non-syndromic urogenital tract malformation of male and female"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "322",
+      "display" : "Exstrophy-epispadias complex"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93928",
+      "display" : "Isolated epispadias"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93929",
+      "display" : "Cloacal exstrophy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93930",
+      "display" : "Classic bladder exstrophy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "237",
+      "display" : "Duplication of urethra"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "617",
+      "display" : "Congenital primary megaureter"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "238642",
+      "display" : "Primary megaureter, adult-onset form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "238646",
+      "display" : "Congenital primary megaureter, obstructed form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "238650",
+      "display" : "Congenital primary megaureter, refluxing form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "238654",
+      "display" : "Congenital primary megaureter, nonrefluxing and unobstructed form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "544578",
+      "display" : "Congenital primary megaureter, refluxing and obstructed form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "289365",
+      "display" : "Familial vesicoureteral reflux"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "435365",
+      "display" : "Fetal lower urinary tract obstruction"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2970",
+      "display" : "Prune belly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93178",
+      "display" : "OBSOLETE: Partial prune belly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "105",
+      "display" : "Atresia of urethra"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93110",
+      "display" : "Posterior urethral valve"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "435372",
+      "display" : "Anterior urethral valve"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "435743",
+      "display" : "Congenital urachal anomaly"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "488",
+      "display" : "Urachal cyst"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "431341",
+      "display" : "Patent urachus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "431344",
+      "display" : "Urachal sinus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "431347",
+      "display" : "Urachal diverticulum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "165707",
+      "display" : "Syndromic urogenital tract malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "881",
+      "display" : "Turner syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99226",
+      "display" : "Monosomy X syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99228",
+      "display" : "Mosaic monosomy X syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99413",
+      "display" : "Turner syndrome due to structural X chromosome anomalies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138",
+      "display" : "CHARGE syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1474",
+      "display" : "Colobomatous-microphthalmia-heart disease-hearing loss syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "915",
+      "display" : "Aarskog-Scott syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1046",
+      "display" : "Lethal hemolytic anemia-genital anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "444941",
+      "display" : "Caudal regression-sirenomelia spectrum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3169",
+      "display" : "Sirenomelia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3027",
+      "display" : "Caudal regression syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1773",
+      "display" : "Sacrococcygeal dysgenesis association"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1768",
+      "display" : "Familial caudal dysgenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1850",
+      "display" : "Renal dysplasia-megalocystis-sirenomelia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "10",
+      "display" : "48,XXYY syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3176",
+      "display" : "Spina bifida-hypospadias syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "921",
+      "display" : "Abruzzo-Erickson syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1299",
+      "display" : "Branchioskeletogenital syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "157788",
+      "display" : "Hypospadias-hypertelorism-coloboma and deafness syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1974",
+      "display" : "Autosomal recessive faciodigitogenital syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2211",
+      "display" : "Hypertelorism-hypospadias-polysyndactyly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2252",
+      "display" : "Radial hypoplasia-triphalangeal thumbs-hypospadias-maxillary diastema syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2261",
+      "display" : "Hypospadias-intellectual disability, Goldblatt type syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2353",
+      "display" : "Schilbach-Rott syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1251",
+      "display" : "Blepharofacioskeletal syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2437",
+      "display" : "Czeizel-Losonci syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2487",
+      "display" : "Lower limb malformation-hypospadias syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2491",
+      "display" : "Müllerian duct anomalies-limb anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2669",
+      "display" : "Nephrosis-deafness-urinary tract-digital malformations syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2957",
+      "display" : "Guttmacher syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3224",
+      "display" : "Deafness-genital anomalies-metacarpal and metatarsal synostosis syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3341",
+      "display" : "Torticollis-keloids-cryptorchidism-renal dysplasia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2745",
+      "display" : "Opitz GBBB syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "306588",
+      "display" : "OBSOLETE: Autosomal dominant Opitz G/BBB syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "306597",
+      "display" : "OBSOLETE: X-linked Opitz G/BBB syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3411",
+      "display" : "Double uterus-hemivagina-renal agenesis syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "85173",
+      "display" : "IMAGe syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1655",
+      "display" : "Müllerian derivatives-lymphangiectasia-polydactyly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "96263",
+      "display" : "48,XXXY syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "96264",
+      "display" : "49,XXXXY syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99329",
+      "display" : "48,XYYY syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "251071",
+      "display" : "8p23.1 microdeletion syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "423655",
+      "display" : "ARX-related encephalopathy-brain malformation spectrum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2508",
+      "display" : "Corpus callosum agenesis-abnormal genitalia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "452",
+      "display" : "X-linked lissencephaly with abnormal genitalia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "439897",
+      "display" : "Lethal fetal cerebrorenogenitourinary agenesis/hypoplasia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "500135",
+      "display" : "Multinucleated neurons-anhydramnios-renal dysplasia-cerebellar hypoplasia-hydranencephaly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "495875",
+      "display" : "Congenital labioscrotal agenesis-cerebellar malformation-corneal dystrophy-facial dysmorphism syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "567502",
+      "display" : "B-cell immunodeficiency-limb anomaly-urogenital malformation syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "684305",
+      "display" : "Neurooculocardiogenitourinary syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "597749",
+      "display" : "KAT6B-related multiple congenital anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3047",
+      "display" : "Blepharophimosis-intellectual disability syndrome, SBBYS type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "85201",
+      "display" : "Genitopatellar syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "597746",
+      "display" : "Blepharophimosis-intellectual disability syndrome/genitopatellar overlap syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "597743",
+      "display" : "SETD2-related microcephaly-severe intellectual disability-multiple congenital anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "84085",
+      "display" : "Hinman syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90771",
+      "display" : "Difference of sex development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2982",
+      "display" : "46,XX difference of sex development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98078",
+      "display" : "46,XX difference of sex development induced by androgens excess"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90776",
+      "display" : "46,XX difference of sex development induced by fetal androgens excess"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "786",
+      "display" : "Generalized glucocorticoid resistance syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90791",
+      "display" : "Congenital adrenal hyperplasia due to 3-beta-hydroxysteroid dehydrogenase deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90794",
+      "display" : "Classic congenital adrenal hyperplasia due to 21-hydroxylase deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "315306",
+      "display" : "Classic congenital adrenal hyperplasia due to 21-hydroxylase deficiency, salt wasting form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "315311",
+      "display" : "Classic congenital adrenal hyperplasia due to 21-hydroxylase deficiency, simple virilizing form"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90795",
+      "display" : "Congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "95699",
+      "display" : "Congenital adrenal hyperplasia due to cytochrome P450 oxidoreductase deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "63269",
+      "display" : "Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "91144",
+      "display" : "46,XX difference of sex development induced by maternal-derived androgen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325093",
+      "display" : "46,XX difference of sex development induced by endogenous maternal-derived androgen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325099",
+      "display" : "46,XX difference of sex development induced by exogenous maternal-derived androgen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325061",
+      "display" : "46,XX difference of sex development induced by fetoplacental androgens excess"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "91",
+      "display" : "Aromatase deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325055",
+      "display" : "46,XX disorder of gonadal development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "243",
+      "display" : "46,XX gonadal dysgenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2138",
+      "display" : "46,XX ovotesticular difference of sex development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "393",
+      "display" : "46,XX testicular difference of sex development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "444048",
+      "display" : "46,XX ovarian dysgenesis-short stature syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325109",
+      "display" : "Syndrome with 46,XX difference of sex development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "991",
+      "display" : "PAGOD syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2855",
+      "display" : "Perrault syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "642945",
+      "display" : "Perrault syndrome type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "642976",
+      "display" : "Perrault syndrome type 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2973",
+      "display" : "46,XX difference of sex development-anorectal anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2975",
+      "display" : "46,XX difference of sex development-skeletal anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "85112",
+      "display" : "Palmoplantar keratoderma-XX sex reversal-predisposition to squamous cell carcinoma syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "137631",
+      "display" : "Lung fibrosis-immunodeficiency-46,XX gonadal dysgenesis syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "139466",
+      "display" : "SERKAL syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98085",
+      "display" : "46,XY difference of sex development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98087",
+      "display" : "Syndrome with 46,XY difference of sex development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "893",
+      "display" : "WAGR syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1642",
+      "display" : "Distal deletion 9p syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1770",
+      "display" : "XY type gonadal dysgenesis-associated anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2983",
+      "display" : "Difference of sex development-intellectual disability syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1422",
+      "display" : "Chondrodysplasia-difference of sex development syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "847",
+      "display" : "X-linked alpha-thalassemia-intellectual disability syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "263355",
+      "display" : "OBSOLETE: ATR-X-related syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "73220",
+      "display" : "X-linked intellectual disability-hypotonic face syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93970",
+      "display" : "Holmes-Gang syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93971",
+      "display" : "Chudley-Lowry-Hoar syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93973",
+      "display" : "Carpenter-Waziri syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93974",
+      "display" : "Smith-Fineman-Myers syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "140",
+      "display" : "Campomelic dysplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2282",
+      "display" : "Dysmorphism-short stature-deafness-difference of sex development syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3097",
+      "display" : "Meacham syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "220",
+      "display" : "Denys-Drash syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "347",
+      "display" : "Frasier syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "95700",
+      "display" : "Familial adrenal hypoplasia with absent pituitary luteinizing hormone"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168563",
+      "display" : "46,XY gonadal dysgenesis-motor and sensory neuropathy syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168593",
+      "display" : "Sudden infant death-dysgenesis of the testes syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "456328",
+      "display" : "X-linked myotubular myopathy-abnormal genitalia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "494433",
+      "display" : "MIRAGE syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2075",
+      "display" : "Genitopalatocardiac syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325118",
+      "display" : "46,XY disorder of gonadal development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "242",
+      "display" : "46,XY complete gonadal dysgenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "983",
+      "display" : "Testicular regression syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "251510",
+      "display" : "46,XY partial gonadal dysgenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325124",
+      "display" : "Testicular agenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325345",
+      "display" : "46,XY ovotesticular difference of sex development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325351",
+      "display" : "46,XY difference of sex development of endocrine origin"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "754",
+      "display" : "Androgen insensitivity syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90797",
+      "display" : "Partial androgen insensitivity syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99429",
+      "display" : "Complete androgen insensitivity syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2856",
+      "display" : "Persistent Müllerian duct syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325357",
+      "display" : "46,XY difference of sex development due to impaired androgen production"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "755",
+      "display" : "Leydig cell hypoplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325448",
+      "display" : "Leydig cell hypoplasia due to LHB deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "96265",
+      "display" : "Leydig cell hypoplasia due to complete LH resistance"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "96266",
+      "display" : "Leydig cell hypoplasia due to partial LH resistance"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90783",
+      "display" : "46,XY difference of sex development due to a testosterone synthesis defect"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90786",
+      "display" : "46,XY difference of sex development due to adrenal and testicular steroidogenesis defect"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90790",
+      "display" : "Congenital lipoid adrenal hyperplasia due to STAR deficency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325524",
+      "display" : "Classic congenital lipoid adrenal hyperplasia due to STAR deficency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325529",
+      "display" : "Non-classic congenital lipoid adrenal hyperplasia due to STAR deficency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90793",
+      "display" : "Congenital adrenal hyperplasia due to 17-alpha-hydroxylase deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168558",
+      "display" : "46,XY difference of sex development-adrenal insufficiency due to CYP11A1 deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90787",
+      "display" : "46,XY difference of sex development due to testicular steroidogenesis defect"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "752",
+      "display" : "46,XY difference of sex development due to 17-beta-hydroxysteroid dehydrogenase 3 deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90796",
+      "display" : "46,XY difference of sex development due to isolated 17,20-lyase deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325511",
+      "display" : "46,XY difference of sex development due to a cholesterol synthesis defect"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "818",
+      "display" : "Smith-Lemli-Opitz syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98086",
+      "display" : "46,XY difference of sex development due to a defect in testosterone metabolism by peripheral tissue"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "753",
+      "display" : "46,XY difference of sex development due to 5-alpha-reductase 2 deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "443090",
+      "display" : "46,XY difference of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "443087",
+      "display" : "46,XY difference of sex development due to testicular 17,20-desmolase deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325537",
+      "display" : "46,XY difference of sex development induced by maternal exposure to endocrine disruptors"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "325546",
+      "display" : "Sex chromosome difference of sex development"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1772",
+      "display" : "45,X/46,XY mixed gonadal dysgenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "199310",
+      "display" : "Tetragametic chimerism syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "182114",
+      "display" : "Rare urogenital tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98058",
+      "display" : "Rare urinary tract tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "695023",
+      "display" : "Pure squamous carcinoma of the urothelial tract"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "695020",
+      "display" : "Urachal carcinoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "498228",
+      "display" : "Phyllodes tumor of the prostate"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "598216",
+      "display" : "Upper tract urothelial carcinoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1331",
+      "display" : "Familial prostate cancer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "284400",
+      "display" : "Small cell carcinoma of the bladder"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "363472",
+      "display" : "Tumor of testis and paratestis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "363478",
+      "display" : "Paratesticular adenocarcinoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "363483",
+      "display" : "Testicular teratoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "363489",
+      "display" : "Sex cord-stromal tumor of testis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "363504",
+      "display" : "Germ cell tumor of testis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "842",
+      "display" : "Testicular seminomatous germ cell tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99864",
+      "display" : "OBSOLETE: Classic seminoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99865",
+      "display" : "Spermatocytic seminoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99866",
+      "display" : "OBSOLETE: Metastatic spermatocytic seminoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "363494",
+      "display" : "Non-seminomatous germ cell tumor of testis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "685010",
+      "display" : "Mesothelioma of the tunica vaginalis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206484",
+      "display" : "Gonadoblastoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "398043",
+      "display" : "Malignant tumor of penis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "398053",
+      "display" : "Adenocarcinoma of the penis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "398058",
+      "display" : "Squamous cell carcinoma of the penis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "404463",
+      "display" : "Multisystemic smooth muscle dysfunction syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "140949",
+      "display" : "Low-flow priapism"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "101949",
+      "display" : "OBSOLETE: Rare acquired eye disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "101978",
+      "display" : "OBSOLETE: Disease with severe reduction in all serum immunoglobulin isotypes with profoundly decreased or absent B cells"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "101980",
+      "display" : "OBSOLETE: Disease with isotype or light chain deficiencies with normal numbers of B cells"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "101982",
+      "display" : "OBSOLETE: Disease with severe reduction in serum IgA and IgG with normal/elevated IgM and normal numbers of B cells"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "102025",
+      "display" : "OBSOLETE: Nuclear cell envelopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "102284",
+      "display" : "OBSOLETE: Multiple congenital anomalies/dysmorphic syndrome-variable intellectual disability syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "102373",
+      "display" : "OBSOLETE: Primary glomerular disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "103",
+      "display" : "OBSOLETE: Genetic optic atrophy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1034",
+      "display" : "OBSOLETE: Amniotic bands"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "103912",
+      "display" : "OBSOLETE: Epithelio-exfoliative colitis-deafness syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "103916",
+      "display" : "OBSOLETE: Autoimmune enteropathy type 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "103917",
+      "display" : "OBSOLETE: Autoimmune enteropathy type 3"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1044",
+      "display" : "OBSOLETE: Anemia due to adenosine triphosphatase deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1057",
+      "display" : "OBSOLETE: Intracranial aneurysms-multiple congenital anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "106",
+      "display" : "NON RARE IN EUROPE: Autism"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1088",
+      "display" : "OBSOLETE: Short stature-heart defect-craniofacial anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108985",
+      "display" : "OBSOLETE: Non-syndromic developmental defect of the eye"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108987",
+      "display" : "OBSOLETE: Syndromic developmental defect of the eye"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108999",
+      "display" : "Rare disorder due to toxic effects"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "521132",
+      "display" : "Radiation-induced disorder"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "521127",
+      "display" : "Osteoradionecrosis of the mandible"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "521123",
+      "display" : "Radiation-induced plexopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "454831",
+      "display" : "Acute radiation syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90021",
+      "display" : "Radiation myelitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "70475",
+      "display" : "Radiation proctitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "164726",
+      "display" : "Acute myeloid leukemia and myelodysplastic syndromes related to radiation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "306640",
+      "display" : "Rare intoxication due to medical products"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "565782",
+      "display" : "Methotrexate toxicity"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90070",
+      "display" : "OBSOLETE: Methotrexate poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "529831",
+      "display" : "Letrozole toxicity"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "31824",
+      "display" : "Colchicine poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "31828",
+      "display" : "Digitalis poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "43117",
+      "display" : "Acute tricyclic antidepressant poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "43119",
+      "display" : "Acute poisoning by drugs with membrane-stabilizing effect"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "217064",
+      "display" : "5-fluorouracil poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "293807",
+      "display" : "Ketamine-induced biliary dilatation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "466670",
+      "display" : "Cyanide poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "464458",
+      "display" : "Paracetamol poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "251529",
+      "display" : "Toxic or drug-related embryofetopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "485358",
+      "display" : "Propylthiouracil embryofetopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1915",
+      "display" : "Fetal alcohol syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1908",
+      "display" : "Aminopterin/methotrexate embryofetopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1909",
+      "display" : "Indomethacin embryofetopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1910",
+      "display" : "Fetal iodine syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1911",
+      "display" : "Cocaine embryofetopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1918",
+      "display" : "Fetal minoxidil syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1914",
+      "display" : "Vitamin K antagonist embryofetopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1917",
+      "display" : "Fetal methylmercury syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1920",
+      "display" : "Toluene embryopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1923",
+      "display" : "Methimazole embryofetopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2305",
+      "display" : "Isotretinoin syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3312",
+      "display" : "Thalidomide embryopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "40366",
+      "display" : "Acitretin/etretinate embryopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "268249",
+      "display" : "Mycophenolate mofetil embryopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "370068",
+      "display" : "Fetal anticonvulsant syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1906",
+      "display" : "Fetal valproate spectrum disorder"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1912",
+      "display" : "Fetal hydantoin syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1913",
+      "display" : "Fetal trimethadione syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1919",
+      "display" : "Phenobarbital embryopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "370076",
+      "display" : "Fetal carbamazepine syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "556508",
+      "display" : "Rare disorder due to poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "570470",
+      "display" : "Ricin poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2582",
+      "display" : "Myalgia-eosinophilia syndrome associated with tryptophan"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "31825",
+      "display" : "Methanol poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "31826",
+      "display" : "Ethylene glycol poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "31827",
+      "display" : "Paraquat poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "35889",
+      "display" : "Acute opioid intoxication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "60014",
+      "display" : "Argyria"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "73423",
+      "display" : "Acute ackee fruit intoxication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90068",
+      "display" : "Cocaine intoxication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90069",
+      "display" : "Systemic monochloroacetate poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "227972",
+      "display" : "Toxic oil syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "247165",
+      "display" : "Infantile mercury poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "306682",
+      "display" : "Manganese poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "306686",
+      "display" : "Delayed encephalopathy due to carbon monoxide poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "306692",
+      "display" : "Cyanide-induced parkinsonism-dystonia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "330015",
+      "display" : "Lead poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "330021",
+      "display" : "Mercury poisoning"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "449285",
+      "display" : "Snakebite envenomation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1939",
+      "display" : "OBSOLETE: Envenomization by Bothrops lanceolatus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "466677",
+      "display" : "Scorpion envenomation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1137",
+      "display" : "OBSOLETE: Pulmonary aortic stenosis obstructive uropathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1139",
+      "display" : "OBSOLETE: Arthrogryposis-epileptic seizures-migrational brain disorder syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1153",
+      "display" : "OBSOLETE: Transient neonatal arthrogryposis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1155",
+      "display" : "OBSOLETE: Arthrogryposis due to muscular dystrophy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1162",
+      "display" : "NON RARE IN EUROPE: Asperger syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1167",
+      "display" : "OBSOLETE: Facial asymmetry-temporal seizures syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "120",
+      "display" : "NON RARE IN EUROPE: Pernicious anemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1232",
+      "display" : "NON RARE IN EUROPE: Barrett esophagus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1244",
+      "display" : "NON RARE IN EUROPE: Bicuspid aortic valve"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1249",
+      "display" : "OBSOLETE: Binswanger disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1250",
+      "display" : "OBSOLETE: Blaichman syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1256",
+      "display" : "OBSOLETE: Blepharophimosis-radioulnar synostosis syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1258",
+      "display" : "OBSOLETE: Blepharoptosis-cleft palate-ectrodactyly-dental anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1306",
+      "display" : "NON RARE IN EUROPE: Buschke-Ollendorff syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1339",
+      "display" : "OBSOLETE: Cranioacrofacial syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "137586",
+      "display" : "OBSOLETE: Herpes simplex virus keratitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1376",
+      "display" : "OBSOLETE: Congenital cataract-ichthyosis syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "137923",
+      "display" : "OBSOLETE: Cervicofacial lymphatic malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138063",
+      "display" : "OBSOLETE: Syndrome associated with Pierre Robin syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138066",
+      "display" : "OBSOLETE: Pierre Robin syndrome associated with miscellaneous anomalies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138069",
+      "display" : "OBSOLETE: Sucking/swallowing disorder not related with Pierre Robin syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138072",
+      "display" : "OBSOLETE: Sucking/swallowing disorder associated with an identified syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138076",
+      "display" : "OBSOLETE: Sucking/swallowing disorder associated to a chromosomal anomaly"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138080",
+      "display" : "OBSOLETE: Syndromic sucking/swallowing disorder with unidentifyed syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138084",
+      "display" : "OBSOLETE: Sucking/swallowing disorder associated to cervicofacial or esophageal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138095",
+      "display" : "OBSOLETE: Sucking/swallowing disorder associated with neurologic anomalies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138101",
+      "display" : "OBSOLETE: Sucking/swallowing disorder associated with suprabulbar anomalies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138104",
+      "display" : "OBSOLETE: Sucking/swallowing disorder associated with basal ganglia anomalies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138109",
+      "display" : "OBSOLETE: Sucking/swallowing disorder associated with posterior fossa anomalies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138112",
+      "display" : "OBSOLETE: Sucking/swallowing disorder associated with cerebellar anomalies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138115",
+      "display" : "OBSOLETE: Sucking/swallowing disorder associated with a neuromuscular disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138118",
+      "display" : "OBSOLETE: Acquired alimentary behavior disorder of infancy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "138221",
+      "display" : "OBSOLETE: Rare sucking/swallowing disorder"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "139006",
+      "display" : "OBSOLETE: Sequence or association"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "139015",
+      "display" : "OBSOLETE: Chondrodysplastic malformation syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "139018",
+      "display" : "OBSOLETE: Non-chondrodysplastic malformation syndrome affecting bones"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "139498",
+      "display" : "NON RARE IN EUROPE: Hemochromatosis type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "140428",
+      "display" : "OBSOLETE: Hereditary iron overload with neurologic manifestation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "140432",
+      "display" : "OBSOLETE: Hereditary iron overload with anemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "140450",
+      "display" : "OBSOLETE: Hereditary motor and sensory neuropathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "140462",
+      "display" : "OBSOLETE: X-linked recessive hereditary axonal motor and sensory neuropathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "140500",
+      "display" : "OBSOLETE: Neurological channelopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "140503",
+      "display" : "OBSOLETE: Channelopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "141327",
+      "display" : "OBSOLETE: Orofaciodigital syndrome type 12"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "141330",
+      "display" : "OBSOLETE: Orofaciodigital syndrome type 13"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1417",
+      "display" : "OBSOLETE: Platyspondylic lethal chondrodysplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1420",
+      "display" : "OBSOLETE: Lethal chondrodysplasia, Moerman type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1421",
+      "display" : "OBSOLETE: Lethal chondrodysplasia, Seller type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1428",
+      "display" : "OBSOLETE: Familial chondromalacia patellae"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1480",
+      "display" : "NON RARE IN EUROPE: Ventricular septal defect"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1492",
+      "display" : "OBSOLETE: Corpus callosum agenesis-double urinary collecting system-trigonocephaly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1499",
+      "display" : "OBSOLETE: Cortada-Koussef-Matsumoto syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1526",
+      "display" : "OBSOLETE: Craniosynostosis-synostoses-hypertensive nephropathy syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1530",
+      "display" : "OBSOLETE: Craniosynostosis-cataract syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1533",
+      "display" : "OBSOLETE: Craniosynostosis-fibular aplasia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1534",
+      "display" : "OBSOLETE: Craniosynostosis-radial aplasia, Imaizumi type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "155",
+      "display" : "NON RARE IN EUROPE: Familial isolated hypertrophic cardiomyopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "156071",
+      "display" : "OBSOLETE: Keratoconus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1562",
+      "display" : "OBSOLETE: Dacryocystitis-osteopoikilosis syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1572",
+      "display" : "OBSOLETE: Common variable immunodeficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "157980",
+      "display" : "NON RARE IN EUROPE: Bladder cancer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158029",
+      "display" : "OBSOLETE: Sea-blue histiocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158661",
+      "display" : "OBSOLETE: Suprabasal epidermolysis bullosa simplex"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158665",
+      "display" : "OBSOLETE: Basal epidermolysis bullosa simplex"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1611",
+      "display" : "OBSOLETE: Deletion 20p"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1625",
+      "display" : "OBSOLETE: Deletion 4q"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163528",
+      "display" : "OBSOLETE: Acute cutaneous lupus erythematosus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163678",
+      "display" : "OBSOLETE: Unclassified spondylometaphyseal dysplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163892",
+      "display" : "OBSOLETE: Limbic encephalitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163895",
+      "display" : "OBSOLETE: Paraneoplastic limbic encephalitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163898",
+      "display" : "OBSOLETE: Classic paraneoplastic limbic encephalitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163903",
+      "display" : "OBSOLETE: Limbic encephalitis associated with antibodies to cell membrane antigens"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163908",
+      "display" : "OBSOLETE: Limbic encephalitis with LGI1 antibodies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163914",
+      "display" : "OBSOLETE: Limbic encephalitis with nCMAgs antibodies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163918",
+      "display" : "OBSOLETE: Non-paraneoplastic limbic encephalitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163924",
+      "display" : "OBSOLETE: Non-herpetic acute limbic encephalitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "164",
+      "display" : "NON RARE IN EUROPE: Cerebral cavernous malformations"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1648",
+      "display" : "NON RARE IN EUROPE: Dementia with Lewy body"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1651",
+      "display" : "OBSOLETE: Dennis-Cohen syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "165711",
+      "display" : "Rare abdominal surgical disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "645793",
+      "display" : "Spontaneous intestinal perforation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "693832",
+      "display" : "Gastrointestinal tract arteriovenous malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "228113",
+      "display" : "Anal fistula"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1160",
+      "display" : "Chylous ascites"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "49041",
+      "display" : "IgG4-related retroperitoneal fibrosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "71273",
+      "display" : "Renal nutcracker syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93292",
+      "display" : "Adenoma of pancreas"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98039",
+      "display" : "Digestive tract malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "88993",
+      "display" : "Esophageal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108959",
+      "display" : "Non-syndromic esophageal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1199",
+      "display" : "Esophageal atresia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2042",
+      "display" : "OBSOLETE: Tracheo-esophageal fistula-hypospadias syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "91357",
+      "display" : "Duplication of the esophagus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100047",
+      "display" : "Isolated esophageal duplication cyst"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100048",
+      "display" : "Isolated tubular duplication of the esophagus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "91358",
+      "display" : "Congenital esophageal diverticulum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "645749",
+      "display" : "Congenital esophageal stenosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2004",
+      "display" : "Laryngotracheoesophageal cleft"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "280205",
+      "display" : "Laryngotracheoesophageal cleft type 0"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93938",
+      "display" : "Laryngotracheoesophageal cleft type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93941",
+      "display" : "Laryngotracheoesophageal cleft type 4"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93939",
+      "display" : "Laryngotracheoesophageal cleft type 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93940",
+      "display" : "Laryngotracheoesophageal cleft type 3"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2005",
+      "display" : "OBSOLETE: Laryngo-tracheo-esophageal cleft-pulmonary hypoplasia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "454750",
+      "display" : "Isolated tracheoesophageal fistula"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "371445",
+      "display" : "Genetic syndromic esophageal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "869",
+      "display" : "Triple A syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99777",
+      "display" : "Achalasia-alacrimia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "929",
+      "display" : "Achalasia-microcephaly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1305",
+      "display" : "Feingold syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "391641",
+      "display" : "Feingold syndrome type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "391646",
+      "display" : "Feingold syndrome type 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "77298",
+      "display" : "Anophthalmia/microphthalmia-esophageal atresia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99987",
+      "display" : "OBSOLETE: Anophthalmia-esophageal-genital syndrome syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "514352",
+      "display" : "Congenital brachyesophagus-intrathoracic stomach-vertebral anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108961",
+      "display" : "Syndromic esophageal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "887",
+      "display" : "VACTERL/VATER association"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "97944",
+      "display" : "Gastroduodenal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108963",
+      "display" : "Non-syndromic gastroduodenal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "662376",
+      "display" : "Isolated gastric duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "662405",
+      "display" : "Isolated pyloric duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1203",
+      "display" : "Duodenal atresia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "199293",
+      "display" : "Congenital microgastria"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108965",
+      "display" : "Syndromic gastroduodenal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2538",
+      "display" : "Microgastria-limb reduction defect syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "97945",
+      "display" : "Intestinal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108967",
+      "display" : "Non-syndromic intestinal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2300",
+      "display" : "Isolated multiple intestinal atresia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1201",
+      "display" : "Small bowel atresia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1198",
+      "display" : "Colonic atresia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2301",
+      "display" : "Congenital short bowel syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "662456",
+      "display" : "Isolated small intestine duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "662473",
+      "display" : "Isolated duodenal duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "662480",
+      "display" : "Isolated jejuno-ileal duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "508410",
+      "display" : "Familial intestinal malrotation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2454",
+      "display" : "OBSOLETE: Familial intestinal malrotation-facial anomalies syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "662392",
+      "display" : "Isolated colonic duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108969",
+      "display" : "Syndromic intestinal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "557866",
+      "display" : "Rare disorder with Hirschsprung disease as a major feature"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "110",
+      "display" : "Bardet-Biedl syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "66629",
+      "display" : "Goldberg-Shprintzen megacolon syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99803",
+      "display" : "Haddad syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "163746",
+      "display" : "Peripheral demyelinating neuropathy-central dysmyelinating leukodystrophy-Waardenburg syndrome-Hirschsprung disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "897",
+      "display" : "Waardenburg-Shah syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "918",
+      "display" : "ABCD syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2150",
+      "display" : "Hirschsprung disease-type D brachydactyly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2152",
+      "display" : "Mowat-Wilson syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "261537",
+      "display" : "Mowat-Wilson syndrome due to monosomy 2q22"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "261552",
+      "display" : "Mowat-Wilson syndrome due to a ZEB2 point mutation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2153",
+      "display" : "Hirschsprung disease-nail hypoplasia-dysmorphism syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2155",
+      "display" : "Hirschsprung disease-deafness-polydactyly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2464",
+      "display" : "Marfanoid syndrome, De Silva type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1759",
+      "display" : "Thoraco-abdominal enteric duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3405",
+      "display" : "Umbilical cord ulceration-intestinal atresia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "293864",
+      "display" : "Hypoplastic pancreas-intestinal atresia-hypoplastic gallbladder syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "137862",
+      "display" : "Martínez-Frías syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "436252",
+      "display" : "Combined immunodeficiency-multiple intestinal atresia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "527468",
+      "display" : "Diaphragmatic hernia-short bowel-asplenia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "506307",
+      "display" : "Stromme syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "684757",
+      "display" : "Malformation of the anal canal and the rectum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "96346",
+      "display" : "Anorectal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "557",
+      "display" : "Non-syndromic anorectal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "600952",
+      "display" : "Non-syndromic perineal fistula"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "600961",
+      "display" : "Non-syndromic rectourethral fistula"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "600966",
+      "display" : "Non-syndromic rectourethral fistula, bulbar type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "600975",
+      "display" : "Non-syndromic rectourethral fistula, prostatic type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "600984",
+      "display" : "Non-syndromic rectovesical fistula"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "600993",
+      "display" : "Non-syndromic vestibular fistula"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "600998",
+      "display" : "Non-syndromic cloacal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "601002",
+      "display" : "Non-syndromic anorectal malformation without fistula"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "601008",
+      "display" : "Non-syndromic anal stenosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "601013",
+      "display" : "Non-syndromic pouch colon"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "601018",
+      "display" : "Non-syndromic rectal atresia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "601023",
+      "display" : "Non-syndromic rectal stenosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "601028",
+      "display" : "Non-syndromic rectovaginal fistula"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "601033",
+      "display" : "Non-syndromic H-type fistula"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "117573",
+      "display" : "Syndromic anorectal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "567",
+      "display" : "22q11.2 deletion syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "857",
+      "display" : "Townes-Brocks syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "195",
+      "display" : "Cat-eye syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3378",
+      "display" : "Trisomy 13 syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3380",
+      "display" : "Trisomy 18 syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "884",
+      "display" : "Pallister-Killian syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2052",
+      "display" : "Fraser syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2051",
+      "display" : "Fraser-like syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1552",
+      "display" : "Currarino syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1590",
+      "display" : "Distal deletion 13q syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1225",
+      "display" : "Baller-Gerold syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1381",
+      "display" : "Cataract-intellectual disability-anal atresia-urinary defects syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1436",
+      "display" : "X-linked skeletal dysplasia-intellectual disability syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1756",
+      "display" : "Caudal duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1834",
+      "display" : "Axial mesodermal dysplasia spectrum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "672",
+      "display" : "Pallister-Hall syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2113",
+      "display" : "Congenital hypothalamic hamartoma syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2315",
+      "display" : "Johanson-Blizzard syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2322",
+      "display" : "Kabuki syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2408",
+      "display" : "Lowe-Kohn-Cohen syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2556",
+      "display" : "Microphthalmia with linear skin defects syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3138",
+      "display" : "Ulnar-mammary syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3412",
+      "display" : "VACTERL with hydrocephalus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "782",
+      "display" : "Axenfeld-Rieger syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1831",
+      "display" : "De Hauwere syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "75857",
+      "display" : "6q terminal deletion syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "83628",
+      "display" : "LUMBAR syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2125",
+      "display" : "Sacral hemangiomas-multiple congenital abnormalities syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93271",
+      "display" : "Short rib-polydactyly syndrome, Verma-Naumoff type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93293",
+      "display" : "Okihiro syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "261638",
+      "display" : "Okihiro syndrome due to 20q13 microdeletion"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "261647",
+      "display" : "Okihiro syndrome due to a point mutation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "96176",
+      "display" : "Ring chromosome 13 syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "96185",
+      "display" : "Maternal uniparental disomy of chromosome 16 syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "140952",
+      "display" : "Syndactyly-telecanthus-anogenital and renal malformations syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "217266",
+      "display" : "BNAR syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "496751",
+      "display" : "EVEN-plus syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93932",
+      "display" : "FG syndrome type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "870",
+      "display" : "Down syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2345",
+      "display" : "Isolated Klippel-Feil syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "611201",
+      "display" : "Oculogastrointestinal-neurodevelopmental syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93270",
+      "display" : "Short rib-polydactyly syndrome, Saldino-Noonan type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "684752",
+      "display" : "Isolated anal canal duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "171220",
+      "display" : "Isolated rectal duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98041",
+      "display" : "Visceral malformation of the liver, biliary tract, pancreas or spleen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108971",
+      "display" : "Non-syndromic visceral malformation of the liver, biliary tract, pancreas or spleen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "53035",
+      "display" : "Caroli disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2805",
+      "display" : "Partial pancreatic agenesis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "675",
+      "display" : "Annular pancreas"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "674",
+      "display" : "Accessory pancreas"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "101351",
+      "display" : "Familial isolated congenital asplenia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "157769",
+      "display" : "Situs ambiguus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "101063",
+      "display" : "Situs inversus totalis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "662388",
+      "display" : "Isolated gallbladder duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2040",
+      "display" : "Congenital respiratory-biliary fistula"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "30391",
+      "display" : "Isolated biliary atresia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "457083",
+      "display" : "Isolated splenogonadal fusion"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "693869",
+      "display" : "Gallblader arteriovenous malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "688523",
+      "display" : "Splenic venous malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "693863",
+      "display" : "Splenic arteriovenous malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "693826",
+      "display" : "Pancreatic arteriovenous malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108973",
+      "display" : "Syndromic visceral malformation of the liver, biliary tract, pancreas or spleen"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "294415",
+      "display" : "Renal-hepatic-pancreatic dysplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "52",
+      "display" : "Alagille syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "261600",
+      "display" : "Alagille syndrome due to 20p12 microdeletion"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "261619",
+      "display" : "Alagille syndrome due to a JAG1 point mutation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "261629",
+      "display" : "Alagille syndrome due to a NOTCH2 point mutation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "564",
+      "display" : "Meckel syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1396",
+      "display" : "OBSOLETE: Cerebrorenodigital syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2063",
+      "display" : "Splenogonadal fusion-limb defects-micrognathia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "97548",
+      "display" : "Right sided atrial isomerism"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "689829",
+      "display" : "Microphthalmia-motor delay-language delay-brain anomalies-diaphragmatic hernia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "556955",
+      "display" : "Pancreatic agenesis-holoprosencephaly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "244283",
+      "display" : "Biliary atresia with splenic malformation syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98043",
+      "display" : "Diaphragmatic or abdominal wall malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108977",
+      "display" : "Non-syndromic diaphragmatic or abdominal wall malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2140",
+      "display" : "Congenital diaphragmatic hernia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "660",
+      "display" : "Omphalocele"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "695032",
+      "display" : "Giant omphalocele"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "695038",
+      "display" : "Small omphalocele"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2368",
+      "display" : "Gastroschisis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "490",
+      "display" : "Omphalomesenteric cyst"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "697986",
+      "display" : "Congenital peritoneal encapsulation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "108979",
+      "display" : "Syndromic diaphragmatic or abdominal wall malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "496693",
+      "display" : "Omphalocele-diaphragmatic hernia-cardiovascular anomalies-radial ray defect syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "280",
+      "display" : "Wolf-Hirschhorn syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "85291",
+      "display" : "X-linked intellectual disability, Wittwer type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98788",
+      "display" : "Pitt-Rogers-Danks syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "199",
+      "display" : "Cornelia de Lange syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "287",
+      "display" : "Classical Ehlers-Danlos syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "230845",
+      "display" : "Vascular-like classical Ehlers-Danlos syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "75501",
+      "display" : "OBSOLETE: Ehlers-Danlos syndrome, fibronectinemic type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90309",
+      "display" : "OBSOLETE: Ehlers-Danlos syndrome type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90318",
+      "display" : "OBSOLETE: Ehlers-Danlos syndrome type 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "373",
+      "display" : "Simpson-Golabi-Behmel syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1335",
+      "display" : "Pentalogy of Cantrell"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2059",
+      "display" : "Fryns syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2141",
+      "display" : "Diaphragmatic defect-limb deficiency-skull defect syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2143",
+      "display" : "Donnai-Barrow syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2369",
+      "display" : "Limb body wall complex"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2470",
+      "display" : "Matthew-Wood syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "91129",
+      "display" : "Anophthalmia-heart and pulmonary anomalies-intellectual disability syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2736",
+      "display" : "Lethal omphalocele-cleft palate syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2847",
+      "display" : "Pericardial and diaphragmatic defect"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3164",
+      "display" : "Omphalocele syndrome, Shprintzen-Goldberg type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "209",
+      "display" : "Cutis laxa"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2078",
+      "display" : "Geroderma osteodysplastica"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2962",
+      "display" : "De Barsy syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "293633",
+      "display" : "PYCR1-related De Barsy syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "35664",
+      "display" : "ALDH18A1-related De Barsy syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3134",
+      "display" : "SCARF syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3342",
+      "display" : "Arterial tortuosity syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "198",
+      "display" : "Occipital horn syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90348",
+      "display" : "Autosomal dominant cutis laxa"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90349",
+      "display" : "Autosomal recessive cutis laxa type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90350",
+      "display" : "Autosomal recessive cutis laxa type 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "357058",
+      "display" : "Autosomal recessive cutis laxa type 2A"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2834",
+      "display" : "Wrinkly skin syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "357074",
+      "display" : "Autosomal recessive cutis laxa type 2, classic type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "357064",
+      "display" : "Autosomal recessive cutis laxa type 2B"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "217335",
+      "display" : "RIN2 syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "221145",
+      "display" : "Cutis laxa with severe pulmonary, gastrointestinal and urinary anomalies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "363705",
+      "display" : "Craniofaciofrontodigital syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "314718",
+      "display" : "Lethal arteriopathy syndrome due to fibulin-4 deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "96170",
+      "display" : "Emanuel syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "230839",
+      "display" : "Classical-like Ehlers-Danlos syndrome type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "280403",
+      "display" : "Familial omphalocele syndrome with facial dysmorphism"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "314432",
+      "display" : "Spigelian hernia-cryptorchidism syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "480528",
+      "display" : "Lethal hydranencephaly-diaphragmatic hernia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168803",
+      "display" : "Primary peritoneal tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "676030",
+      "display" : "Primary benign peritoneal tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "71274",
+      "display" : "Disseminated peritoneal leiomyomatosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "676033",
+      "display" : "Well-differentiated papillary mesothelial tumour of the peritoneum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "675976",
+      "display" : "Adenomatoid tumour of the peritoneum"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168816",
+      "display" : "Peritoneal inclusion cyst"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168807",
+      "display" : "Primary malignant peritoneal tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "26790",
+      "display" : "Pseudomyxoma peritonei"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "83469",
+      "display" : "Desmoplastic small round cell tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168811",
+      "display" : "Malignant peritoneal mesothelioma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168829",
+      "display" : "Primary peritoneal carcinoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "398980",
+      "display" : "OBSOLETE: Primary peritoneal serous/papillary carcinoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "676036",
+      "display" : "Peritoneal mesothelioma in situ"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "238593",
+      "display" : "IgG4-related mesenteritis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "293208",
+      "display" : "Celiac artery compression syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "306553",
+      "display" : "Myospherulosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "313800",
+      "display" : "Retinal dystrophy-optic nerve edema-splenomegaly-anhidrosis-migraine headache syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "438274",
+      "display" : "GCGR-related hyperglucagonemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "696175",
+      "display" : "Encapsulating peritoneal sclerosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "449400",
+      "display" : "IgG4-related aortitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "622099",
+      "display" : "Superior mesenteric artery syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "165961",
+      "display" : "OBSOLETE: Subcutaneous myiasis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "166305",
+      "display" : "OBSOLETE: Benign infantile seizures associated with mild gastroenteritis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1664",
+      "display" : "OBSOLETE: Embryonary disorganization syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "166457",
+      "display" : "OBSOLETE: Other forms of non-paraneoplastic limbic encephalitis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1680",
+      "display" : "OBSOLETE: Spastic diplegia, infantile type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168486",
+      "display" : "OBSOLETE: Congenital neuronal ceroid lipofuscinosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168491",
+      "display" : "OBSOLETE: Late infantile neuronal ceroid lipofuscinosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "169615",
+      "display" : "NON RARE IN EUROPE: Idiopathic central precocious puberty"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "169618",
+      "display" : "NON RARE IN EUROPE: Secondary central precocious puberty"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "171201",
+      "display" : "OBSOLETE: High isolated anorectal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "171208",
+      "display" : "OBSOLETE: Intermediate isolated anorectal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "171215",
+      "display" : "OBSOLETE: Low isolated anorectal malformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "171676",
+      "display" : "NON RARE IN EUROPE: Periventricular leukomalacia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "172973",
+      "display" : "OBSOLETE: Congenital myopathy with protein accumulation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "172979",
+      "display" : "OBSOLETE: Congenital myopathy with central nuclei"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "172982",
+      "display" : "OBSOLETE: Congenital myopathy with fiber size variation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "172985",
+      "display" : "OBSOLETE: Congenital myopathy with vacuoles"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1739",
+      "display" : "OBSOLETE: Duplication 4q"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1765",
+      "display" : "OBSOLETE: Dyschondrosteosis-nephritis syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "178330",
+      "display" : "OBSOLETE: Heinz body anemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "178493",
+      "display" : "NON RARE IN EUROPE: Myopic macular degeneration"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1789",
+      "display" : "OBSOLETE: Craniofacial dysostosis-arthrogryposis-progeroid appearance syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1800",
+      "display" : "OBSOLETE: Craniofaciocervical osteoglyphic dysplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180118",
+      "display" : "NON RARE IN EUROPE: Cordiform uterus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180284",
+      "display" : "NON RARE IN EUROPE: Benign ductal tumor of breast"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "181425",
+      "display" : "OBSOLETE: Rare major hypertriglyceridemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1819",
+      "display" : "OBSOLETE: Epimetaphyseal skeletal dysplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "182073",
+      "display" : "OBSOLETE: Syndromic neurometabolic disease with non-X-linked intellectual disability"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "182076",
+      "display" : "OBSOLETE: Syndromic neurometabolic disease with X-linked intellectual disability"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "182214",
+      "display" : "OBSOLETE: Rare inflammatory eye disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1823",
+      "display" : "OBSOLETE: Localized epiphyseal dysplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "183598",
+      "display" : "OBSOLETE: Rare genetic palpebral, lacrimal system and conjunctival disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "183601",
+      "display" : "OBSOLETE: Rare genetic refraction anomaly"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "183604",
+      "display" : "OBSOLETE: Rare genetic glaucoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "183672",
+      "display" : "OBSOLETE: Common variable immunodeficiency due to TNFR deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "183716",
+      "display" : "OBSOLETE: Other complex syndrome of primary immunodeficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1844",
+      "display" : "OBSOLETE: Bone dysplasia, Azouz type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1849",
+      "display" : "OBSOLETE: Infundibulopelvic stenosis-multicystic kidney syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1863",
+      "display" : "NON RARE IN EUROPE: Trochlear dysplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "189424",
+      "display" : "OBSOLETE: ACTH-independent Cushing syndrome due to bilateral adrenocortical hyperplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "194",
+      "display" : "OBSOLETE: Ocular coloboma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "1983",
+      "display" : "NON RARE IN EUROPE: Chronic fatigue syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2033",
+      "display" : "OBSOLETE: Multifocal muscular fibrosis-obstructed vessels syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2054",
+      "display" : "OBSOLETE: Osteochondritis of tarsal/metatarsal bone"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206",
+      "display" : "NON RARE IN EUROPE: Crohn disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206473",
+      "display" : "OBSOLETE: Borderline epithelial tumor of ovary"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206606",
+      "display" : "OBSOLETE: Other muscle weakness and/or chronic muscle pain"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206610",
+      "display" : "OBSOLETE: Chronic muscular fatigue and/or chronic muscle pain"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206616",
+      "display" : "OBSOLETE: Acquired metabolic neuropathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206619",
+      "display" : "OBSOLETE: Toxic or/and iatrogenic neuropathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206659",
+      "display" : "OBSOLETE: Non-dystrophic myopathy with collagen 6 anomaly"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206713",
+      "display" : "OBSOLETE: Distal spinal muscular atrophy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206979",
+      "display" : "OBSOLETE: Granulomatous myositis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206985",
+      "display" : "OBSOLETE: Drug and/or toxic myopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "207003",
+      "display" : "OBSOLETE: Endocrine myopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "207006",
+      "display" : "OBSOLETE: Acquired amyloid myopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "207009",
+      "display" : "OBSOLETE: Acquired rod-body myopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "208600",
+      "display" : "OBSOLETE: Papillary fibroelastoma of the heart"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "208981",
+      "display" : "OBSOLETE: Polyradiculoneuropathy associated with IgG/IgA/IgM monoclonal gammopathy without known antibodies"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "209893",
+      "display" : "NON RARE IN EUROPE: Congenital isolated thyroxine-binding globulin deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2099",
+      "display" : "OBSOLETE: Grix-Blankenship-Peterson syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "209989",
+      "display" : "NON RARE IN EUROPE: Non-papillary transitional cell carcinoma of the bladder"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "210592",
+      "display" : "OBSOLETE: Giant infantile hemangioma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2112",
+      "display" : "OBSOLETE: Follicular hamartoma-alopecia-cystic fibrosis syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2120",
+      "display" : "OBSOLETE: Heckenlively syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2129",
+      "display" : "OBSOLETE: Hemihypertrophy-intestinal web-corneal opacity syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "213517",
+      "display" : "OBSOLETE: Familial ovarian cancer"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "213574",
+      "display" : "OBSOLETE: Rare variants of adenocarcinoma of the corpus uteri"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2156",
+      "display" : "OBSOLETE: Hirsutism-skeletal dysplasia-intellectual disability syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2161",
+      "display" : "OBSOLETE: Holoacardius amorphus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "217031",
+      "display" : "NON RARE IN EUROPE: Obesity due to MC3R deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "217601",
+      "display" : "OBSOLETE: Hypertrophic cardiomyopathy due to intensive athletic training"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2190",
+      "display" : "OBSOLETE: Congenital hydronephrosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2194",
+      "display" : "OBSOLETE: Anti-HLA hyperimmunization"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "221106",
+      "display" : "OBSOLETE: Isolated facial myokymia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2227",
+      "display" : "NON RARE IN EUROPE: Hypodontia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "225",
+      "display" : "NON RARE IN EUROPE: Maternally-inherited diabetes and deafness"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "226310",
+      "display" : "OBSOLETE: Peripheral hypothyroidism"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2267",
+      "display" : "OBSOLETE: Ichthyosis-cheek-eyebrow syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "227786",
+      "display" : "OBSOLETE: Familial flecked retinopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "228357",
+      "display" : "OBSOLETE: CLN9 disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2284",
+      "display" : "OBSOLETE: Primary T cell immunodeficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2292",
+      "display" : "OBSOLETE: Congenital bowing of long bones-short stature-dolichomacrocephaly-ocular hypertelorism syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2335",
+      "display" : "NON RARE IN EUROPE: Isolated keratoconus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "235835",
+      "display" : "OBSOLETE: Congenital vascular bone syndrome with limb overgrowth"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "235838",
+      "display" : "OBSOLETE: Congenital vascular bone syndrome with limb shortening"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "238",
+      "display" : "OBSOLETE: Digestive duplication"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "238510",
+      "display" : "OBSOLETE: Lymphoproliferative syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "238616",
+      "display" : "NON RARE IN EUROPE: Alzheimer disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "238691",
+      "display" : "OBSOLETE: Congenital liver hemangioma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "238755",
+      "display" : "OBSOLETE: Autosomal dominant limb-girdle muscular dystrophy type 1H"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "240266",
+      "display" : "OBSOLETE: Systemic non-Langerhans cell histiocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "243377",
+      "display" : "NON RARE IN EUROPE: Diabetes mellitus type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "243761",
+      "display" : "NON RARE IN EUROPE: Essential hypertension"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2452",
+      "display" : "OBSOLETE: Vascular malposition"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2458",
+      "display" : "OBSOLETE: Mandibulofacial dysostosis-deafness-postaxial polydactyly syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2474",
+      "display" : "OBSOLETE: McLain-Dekaban syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "247871",
+      "display" : "OBSOLETE: Vitiligo-associated autoimmune disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "248305",
+      "display" : "OBSOLETE: Hemolytic anemia due to glyceraldehyde-3-phosphate dehydrogenase deficiency"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2507",
+      "display" : "OBSOLETE: Mickleson syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "250908",
+      "display" : "Rare neoplastic disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98057",
+      "display" : "Rare tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3399",
+      "display" : "Germ cell tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "363579",
+      "display" : "Extragonadal germ cell tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99913",
+      "display" : "Extragonadal non-dysgerminomatous germ cell tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "876",
+      "display" : "Yolk sac tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "252006",
+      "display" : "Yolk sac tumor of central nervous system"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "883",
+      "display" : "Extragonadal teratoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "141077",
+      "display" : "Epignathus"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "141107",
+      "display" : "Nasopharyngeal teratoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "252018",
+      "display" : "Teratoma of the central nervous system"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "494421",
+      "display" : "Sacrococcygeal teratoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99926",
+      "display" : "Gestational choriocarcinoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180226",
+      "display" : "Embryonal carcinoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "48736",
+      "display" : "Embryonal carcinoma of the central nervous system"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "289362",
+      "display" : "Non-central nervous system-localized embryonal carcinoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180229",
+      "display" : "Polyembryoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "180234",
+      "display" : "Mixed germ cell tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "252021",
+      "display" : "Mixed germ cell tumor of central nervous system"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "314613",
+      "display" : "Growing teratoma syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "182127",
+      "display" : "Extragonadal germinoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "91352",
+      "display" : "Germinoma of the central nervous system"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "251995",
+      "display" : "Primary germ cell tumor of central nervous system"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "252015",
+      "display" : "Choriocarcinoma of the central nervous system"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "363582",
+      "display" : "Gonadal germ cell tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "35807",
+      "display" : "Malignant germ cell tumor of ovary"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99912",
+      "display" : "Ovarian dysgerminoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "206538",
+      "display" : "Malignant non-dysgerminomatous germ cell tumor of ovary"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "289356",
+      "display" : "Primary non-gestational choriocarcinoma of ovary"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "68347",
+      "display" : "Tumor of hematopoietic and lymphoid tissues"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "125",
+      "display" : "Bloom syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98292",
+      "display" : "Mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2467",
+      "display" : "Systemic mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98848",
+      "display" : "Indolent systemic mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98849",
+      "display" : "Systemic mastocytosis with associated hematologic neoplasm"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98850",
+      "display" : "Aggressive systemic mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158793",
+      "display" : "OBSOLETE: Lymphoadenopathic mastocytosis with eosinophilia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98851",
+      "display" : "Mast cell leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158796",
+      "display" : "OBSOLETE: Classic mast cell leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158799",
+      "display" : "OBSOLETE: Aleukemic mast cell leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "566393",
+      "display" : "Acute mast cell leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "566396",
+      "display" : "Chronic mast cell leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158775",
+      "display" : "Smoldering systemic mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158778",
+      "display" : "Isolated bone marrow mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "66646",
+      "display" : "Cutaneous mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "79455",
+      "display" : "Cutaneous mastocytoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "79456",
+      "display" : "Diffuse cutaneous mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "280785",
+      "display" : "Bullous diffuse cutaneous mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "280794",
+      "display" : "Pseudoxanthomatous diffuse cutaneous mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "79457",
+      "display" : "Maculopapular cutaneous mastocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158766",
+      "display" : "Typical urticaria pigmentosa"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158769",
+      "display" : "Plaque-form urticaria pigmentosa"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158772",
+      "display" : "Nodular urticaria pigmentosa"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "90389",
+      "display" : "Telangiectasia macularis eruptiva perstans"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "66661",
+      "display" : "Mast cell sarcoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "66662",
+      "display" : "Extracutaneous mastocytoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "171895",
+      "display" : "Myeloid hemopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "519",
+      "display" : "Acute myeloid leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86845",
+      "display" : "Acute myeloid leukaemia with myelodysplasia-related features"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86846",
+      "display" : "Therapy related acute myeloid leukemia and myelodysplastic syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "102379",
+      "display" : "Acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "102381",
+      "display" : "Acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86851",
+      "display" : "Acute leukemia of ambiguous lineage"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "530995",
+      "display" : "Mixed phenotype acute leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "589534",
+      "display" : "Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "589595",
+      "display" : "Mixed phenotype acute leukemia with t(v;11q23.3)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98836",
+      "display" : "Bilineal acute leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98837",
+      "display" : "Acute biphenotypic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98835",
+      "display" : "Acute undifferentiated leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98277",
+      "display" : "Acute myeloid leukemia with recurrent genetic anomaly"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "520",
+      "display" : "Acute promyelocytic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98829",
+      "display" : "Acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98831",
+      "display" : "Acute myeloid leukemia with 11q23 abnormalities"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "102724",
+      "display" : "Acute myeloid leukemia with t(8;21)(q22;q22) translocation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "319480",
+      "display" : "Acute myeloid leukemia with CEBPA somatic mutations"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "370026",
+      "display" : "Acute myeloid leukemia with t(8;16)(p11;p13) translocation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "402014",
+      "display" : "Acute myeloid leukemia with t(6;9)(p23;q34)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "402017",
+      "display" : "Acute myeloid leukemia with t(9;11)(p22;q23)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "402020",
+      "display" : "Acute myeloid leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "402023",
+      "display" : "Megakaryoblastic acute myeloid leukemia with t(1;22)(p13;q13)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "402026",
+      "display" : "Acute myeloid leukemia with NPM1 somatic mutations"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "585867",
+      "display" : "Acute myeloid leukemia with t(9;22)(q34.1;q11.2)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "167714",
+      "display" : "Unclassified acute myeloid leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "514",
+      "display" : "Acute monoblastic/monocytic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "318",
+      "display" : "Acute erythroid leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "518",
+      "display" : "Acute megakaryoblastic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "329469",
+      "display" : "Acute megakaryoblastic leukemia in children without Down syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99887",
+      "display" : "Acute megakaryoblastic leukemia in children with Down syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "662934",
+      "display" : "Acute megakaryoblastic leukemia in adult"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86843",
+      "display" : "Acute panmyelosis with myelofibrosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86849",
+      "display" : "Acute basophilic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86850",
+      "display" : "Myeloid sarcoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98832",
+      "display" : "Acute myeloid leukemia with minimal differentiation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98833",
+      "display" : "Acute myeloblastic leukemia without maturation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98834",
+      "display" : "Acute myeloblastic leukemia with maturation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "517",
+      "display" : "Acute myelomonocytic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "319465",
+      "display" : "Inherited acute myeloid leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "52688",
+      "display" : "Myelodysplastic syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "75564",
+      "display" : "Acquired idiopathic sideroblastic anemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86836",
+      "display" : "Refractory cytopenia with multilineage dysplasia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98826",
+      "display" : "Myelodysplastic neoplasm with low blasts"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98827",
+      "display" : "Unclassified myelodysplastic syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "508542",
+      "display" : "Congenital progressive bone marrow failure-B-cell immunodeficiency-skeletal dysplasia syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86839",
+      "display" : "Myelodysplastic neoplasm with increased blasts"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100019",
+      "display" : "Myelodysplastic neoplasm with increased blasts type 1"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100020",
+      "display" : "Myelodysplastic neoplasm with increased blasts type 2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86841",
+      "display" : "Myelodysplastic syndrome associated with isolated del(5q) chromosome abnormality"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168960",
+      "display" : "Refractory anemia with excess blasts in transformation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "495930",
+      "display" : "Familial monosomy 7 syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98274",
+      "display" : "Myeloproliferative neoplasm"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "488280",
+      "display" : "14q32 duplication syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3318",
+      "display" : "Essential thrombocythemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "225968",
+      "display" : "OBSOLETE: Inherited predisposition to essential thrombocythemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "521",
+      "display" : "Chronic myeloid leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "824",
+      "display" : "Primary myelofibrosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "729",
+      "display" : "Polycythemia vera"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86829",
+      "display" : "Chronic neutrophilic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86830",
+      "display" : "Chronic myeloproliferative disease, unclassifiable"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168940",
+      "display" : "Chronic eosinophilic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168956",
+      "display" : "Hypereosinophilic syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "314962",
+      "display" : "Secondary hypereosinophilic syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "314970",
+      "display" : "Lymphocytic hypereosinophilic syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3260",
+      "display" : "Idiopathic hypereosinophilic syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "314950",
+      "display" : "Primary hypereosinophilic syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "420611",
+      "display" : "Transient myeloproliferative syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "480851",
+      "display" : "Hereditary thrombocytopenia with early-onset myelofibrosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "675775",
+      "display" : "Severe congenital myelofibrosis-pancytopenia-intellectual disability-neurologic and ophthalmic abnormalities syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98275",
+      "display" : "Myelodysplastic/myeloproliferative disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86834",
+      "display" : "Juvenile myelomonocytic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98823",
+      "display" : "Chronic myelomonocytic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98824",
+      "display" : "Atypical chronic myeloid leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98825",
+      "display" : "Unclassified myelodysplastic/myeloproliferative disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168943",
+      "display" : "Myeloid/lymphoid neoplasms associated with eosinophilia and abnormality of PDGFRA, PDGFRB, FGFR1 or JAK2"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168947",
+      "display" : "Myeloid/lymphoid neoplasm associated with PDGFRA rearrangement"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168950",
+      "display" : "Myeloid/lymphoid neoplasm associated with PDGFRB rearrangement"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "168953",
+      "display" : "Myeloid/lymphoid neoplasm associated with FGFR1 rearrangement"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "589542",
+      "display" : "Myeloid/lymphoid neoplasm associated with JAK2 rearrangement"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "171898",
+      "display" : "Lymphoid hemopathy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "3261",
+      "display" : "Autoimmune lymphoproliferative syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98282",
+      "display" : "Plasma cell tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "2905",
+      "display" : "POEMS syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "29073",
+      "display" : "Multiple myeloma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "85443",
+      "display" : "AL amyloidosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "102069",
+      "display" : "OBSOLETE: Hepatic amyloidosis with intrahepatic cholestasis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "314701",
+      "display" : "Primary systemic amyloidosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "314709",
+      "display" : "Primary localized amyloidosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86855",
+      "display" : "Plasmacytoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100021",
+      "display" : "Primary plasmacytoma of the bone"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100022",
+      "display" : "Extramedullary soft tissue plasmacytoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86861",
+      "display" : "Non-amyloid monoclonal immunoglobulin deposition disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93556",
+      "display" : "Heavy chain deposition disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93557",
+      "display" : "Light and heavy chain deposition disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "93558",
+      "display" : "Light chain deposition disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86864",
+      "display" : "Heavy chain disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100024",
+      "display" : "Mu-heavy chain disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100025",
+      "display" : "Alpha-heavy chain disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "100026",
+      "display" : "Gamma-heavy chain disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "103915",
+      "display" : "OBSOLETE: Immunoproliferative small intestinal disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "454714",
+      "display" : "Plasma cell leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98287",
+      "display" : "Histiocytic and dendritic cell tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98288",
+      "display" : "Macrophage or histiocytic tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86896",
+      "display" : "Histiocytic sarcoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98289",
+      "display" : "Dendritic cell tumor"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "389",
+      "display" : "Langerhans cell histiocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "264724",
+      "display" : "OBSOLETE: Langerhans cell histiocytosis specific to childhood"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "264750",
+      "display" : "OBSOLETE: Langerhans cell histiocytosis specific to adulthood"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "264955",
+      "display" : "OBSOLETE: Langerhans cell histiocytosis in childhood and adulthood"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "687733",
+      "display" : "Pulmonary Langerhans cell histiocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "687741",
+      "display" : "Multisystem Langerhans cell histiocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "687738",
+      "display" : "Single-system multifocal Langerhans cell histiocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "687730",
+      "display" : "Unifocal Langerhans cell histiocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99870",
+      "display" : "OBSOLETE: Letterer-Siwe disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99871",
+      "display" : "OBSOLETE: Eosinophilic granuloma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99872",
+      "display" : "OBSOLETE: Hashimoto-Pritzker syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99873",
+      "display" : "OBSOLETE: Hand-Schüller-Christian disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99874",
+      "display" : "OBSOLETE: Adult pulmonary Langerhans cell histiocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86897",
+      "display" : "Langerhans cell sarcoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86900",
+      "display" : "Interdigitating dendritic cell sarcoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86903",
+      "display" : "Dendritic cell sarcoma not otherwise specified"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "158019",
+      "display" : "Indeterminate cell histiocytosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98290",
+      "display" : "Immunodeficiency-associated lymphoproliferative disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "70568",
+      "display" : "Post-transplant lymphoproliferative disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86904",
+      "display" : "Methotrexate-associated lymphoproliferative disorders"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98291",
+      "display" : "Lymphoproliferative disease associated with primary immune disease"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "675628",
+      "display" : "TLR8-related inflammation-severe neutropenia-bone marrow failure-lymphoproliferation syndrome"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "223735",
+      "display" : "Lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "547",
+      "display" : "Non-Hodgkin lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "513",
+      "display" : "Acute lymphoblastic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99860",
+      "display" : "Precursor B-cell acute lymphoblastic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "585877",
+      "display" : "B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "641375",
+      "display" : "B-lymphoblastic leukemia/lymphoma with t(17;19)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "585909",
+      "display" : "B-lymphoblastic leukemia/lymphoma with t(9;22)(q34.1;q11.2)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "585918",
+      "display" : "B-lymphoblastic leukemia/lymphoma with t(v;11q23.3)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "585929",
+      "display" : "B-lymphoblastic leukemia/lymphoma with t(12;21)(p13.2;q22.1)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "585936",
+      "display" : "B-lymphoblastic leukemia/lymphoma with hyperdiploidy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "585942",
+      "display" : "B-lymphoblastic leukemia/lymphoma with hypodiploidy"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "585948",
+      "display" : "B-lymphoblastic leukemia/lymphoma with t(5;14)(q31.1;q32.3)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "585956",
+      "display" : "B-lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "641372",
+      "display" : "B-lymphoblastic leukemia/lymphoma with t(7;9)(q11.2;p13.2)"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "99861",
+      "display" : "Precursor T-cell acute lymphoblastic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "171915",
+      "display" : "B-cell non-Hodgkin lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "300842",
+      "display" : "Indolent B-cell non-Hodgkin lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "545",
+      "display" : "Follicular lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "33226",
+      "display" : "Waldenström macroglobulinemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "58017",
+      "display" : "Classic hairy cell leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "67038",
+      "display" : "B-cell chronic lymphocytic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "178557",
+      "display" : "Indolent primary cutaneous B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "178536",
+      "display" : "Primary cutaneous marginal zone B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "178540",
+      "display" : "Primary cutaneous follicle center lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "300878",
+      "display" : "Hairy cell leukemia variant"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "300912",
+      "display" : "Marginal zone lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "52417",
+      "display" : "MALT lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86854",
+      "display" : "Splenic marginal zone lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86867",
+      "display" : "Nodal marginal zone B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "300869",
+      "display" : "Splenic diffuse red pulp small B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "443159",
+      "display" : "Lymphoplasmacytic lymphoma without IgM production"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "300846",
+      "display" : "Aggressive B-cell non-Hodgkin lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "543",
+      "display" : "Burkitt lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "544",
+      "display" : "Diffuse large B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86869",
+      "display" : "Lymphomatoid granulomatosis"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98838",
+      "display" : "Primary mediastinal large B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "98839",
+      "display" : "Intravascular large B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "289661",
+      "display" : "Epstein-Barr virus-positive diffuse large B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "300849",
+      "display" : "Diffuse large B-cell lymphoma of the central nervous system"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "300857",
+      "display" : "T-cell/histiocyte rich large B cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "300888",
+      "display" : "Diffuse large B-cell lymphoma with chronic inflammation"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "364043",
+      "display" : "ALK-positive large B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "695631",
+      "display" : "Primary vitreoretinal large B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "48686",
+      "display" : "Primary effusion lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "52416",
+      "display" : "Mantle cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86852",
+      "display" : "B-cell prolymphocytic leukemia"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "178554",
+      "display" : "Aggressive primary cutaneous B-cell lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "178544",
+      "display" : "Primary cutaneous diffuse large B-cell lymphoma, leg type"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "289666",
+      "display" : "Plasmablastic lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "480541",
+      "display" : "High grade B-cell lymphoma with MYC and/ or BCL2 and/or BCL6 rearrangement"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "171918",
+      "display" : "T-cell non-Hodgkin lymphoma"
+    },
+    {
+      "system" : "http://www.orpha.net",
+      "code" : "86870",
+      "display" : "Blastic plasmacytoid dendritic cell neoplasm"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

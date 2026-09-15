@@ -304,7 +304,6 @@ jobs:
           # publisher 2.3.1+ SSRF hardening can refuse plain-HTTP/private-
           # network -tx targets without it (basis idiom, kerndatensatz-basis
           # @190a3a18). Inert on the tx.fhir.org fallback path.
-          export JAVA_TOOL_OPTIONS='-Dsun.net.client.defaultReadTimeout=600000'
           java -Xmx6g -jar "${RUNNER_TEMP}/publisher.jar" -ig ig.ini -tx "${TX_URL}" \
             -fhir-settings "${GITHUB_WORKSPACE}/.github/fhir-settings.json"
           test -s output/index.html

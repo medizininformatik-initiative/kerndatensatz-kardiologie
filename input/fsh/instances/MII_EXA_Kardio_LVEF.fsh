@@ -43,23 +43,7 @@ Usage: #example
 * device.display = "Philips EPIQ CVx Ultrasound System"
 
 * referenceRange[normal].text = "Normal"
-* referenceRange[normal].low.value = 50
-* referenceRange[normal].low.unit = "%"
-* referenceRange[normal].low.system = "http://unitsofmeasure.org"
-* referenceRange[normal].low.code = #%
-
-* referenceRange[mild].text = "Mildly reduced"
-* referenceRange[mild].low.value = 41
-* referenceRange[mild].low.unit = "%"
-* referenceRange[mild].low.system = "http://unitsofmeasure.org"
-* referenceRange[mild].low.code = #%
-* referenceRange[mild].high.value = 49
-* referenceRange[mild].high.unit = "%"
-* referenceRange[mild].high.system = "http://unitsofmeasure.org"
-* referenceRange[mild].high.code = #%
+* referenceRange[normal].low = 50 '%' "%"
 
 * referenceRange[reduced].text = "Reduced"
-* referenceRange[reduced].high.value = 40
-* referenceRange[reduced].high.unit = "%"
-* referenceRange[reduced].high.system = "http://unitsofmeasure.org"
-* referenceRange[reduced].high.code = #%
+* referenceRange[reduced].high = 49 '%' "%"

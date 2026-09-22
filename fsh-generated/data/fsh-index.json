@@ -197,7 +197,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MII_EXA_Kardio_LVEF.fsh",
     "startLine": 1,
-    "endLine": 65
+    "endLine": 49
   },
   {
     "outputFile": "Observation-mii-exa-kardio-mrs.json",
@@ -413,7 +413,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion.fsh",
     "startLine": 1,
-    "endLine": 107
+    "endLine": 92
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json",

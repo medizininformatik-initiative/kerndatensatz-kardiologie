@@ -165,33 +165,18 @@
     {
       "low": {
         "value": 50,
-        "unit": "%",
+        "code": "%",
         "system": "http://unitsofmeasure.org",
-        "code": "%"
+        "unit": "%"
       },
       "text": "Normal"
     },
     {
-      "low": {
-        "value": 41,
-        "unit": "%",
-        "system": "http://unitsofmeasure.org",
-        "code": "%"
-      },
       "high": {
         "value": 49,
-        "unit": "%",
+        "code": "%",
         "system": "http://unitsofmeasure.org",
-        "code": "%"
-      },
-      "text": "Mildly reduced"
-    },
-    {
-      "high": {
-        "value": 40,
-        "unit": "%",
-        "system": "http://unitsofmeasure.org",
-        "code": "%"
+        "unit": "%"
       },
       "text": "Reduced"
     }

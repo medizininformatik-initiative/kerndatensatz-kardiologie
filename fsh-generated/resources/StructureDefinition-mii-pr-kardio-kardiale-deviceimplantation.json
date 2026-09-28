@@ -253,6 +253,14 @@
       {
         "id": "Procedure.focalDevice.manipulated",
         "path": "Procedure.focalDevice.manipulated",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Device"
+            ]
+          }
+        ],
         "mustSupport": true
       }
     ]

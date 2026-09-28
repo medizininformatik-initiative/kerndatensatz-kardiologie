@@ -35,7 +35,7 @@
       ]
     }
   ],
-  "packageId": "mii-kerndatensatzmodul-kardiologie",
+  "packageId": "de.medizininformatikinitiative.kerndatensatz.kardiologie",
   "license": "CC-BY-4.0",
   "fhirVersion": [
     "4.0.1"
@@ -591,7 +591,7 @@
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc"
         },
         "name": "MII VS Kardio Geräteprogrammierung [MDC]",
-        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
+        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
         "exampleBoolean": false
       },
       {

@@ -17,7 +17,7 @@ Description: "Supplement mit post-koordinierenden SNOMED CT-Codes aus dem Modul 
 * #368009:{116676008=49755003,363698007=17401000},{246112005=24484000} "368009|Heart valve disorder|:{116676008|Associated morphology|=49755003|Morphologically abnormal structure|,363698007|Finding site|=17401000|Cardiac valve structure|},{246112005|Severity|=24484000|Severe|}"
 
 // Abbildung der interventionellen Klappentherapie
-* #73544002:{260507000=260519008} "73544002|Operation on heart valve|:{260507000|Access|=260519008|Transcatheter approach|}"
+* #73544002:{116688005=260519008} "73544002|Operation on heart valve|:{116688005|Procedure approach|=260519008|Transcatheter approach|}"
 
 // Kodierung des Fragebogenitems "Starke spontane Blutung" aus dem Acribis-FollowUp-Fragebogen
 * #131148009:{42752001=789750003,246112005=24484000} "131148009|Bleeding|:{42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"

@@ -18,7 +18,7 @@ Profil zur Erfassung der Durchführung eines EKG.
 
 * Examples for this Profile: [Procedure/mii-exa-kardio-ekg-durchfuehrung](Procedure-mii-exa-kardio-ekg-durchfuehrung.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.json)
 
 ### Formale Ansichten des Profilinhalts
 

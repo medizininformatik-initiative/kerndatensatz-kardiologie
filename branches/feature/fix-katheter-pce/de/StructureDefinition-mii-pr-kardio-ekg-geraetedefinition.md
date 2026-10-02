@@ -18,7 +18,7 @@ Profil zur Abbildung einer EKG-Gerätedefinition.
 
 * Examples for this Profile: [DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara](DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json)
 
 ### Formale Ansichten des Profilinhalts
 

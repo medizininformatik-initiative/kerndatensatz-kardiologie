@@ -18,7 +18,7 @@ Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizie
 
 * Examples for this Profile: [Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf](Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.md) and [Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2](Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json)
 
 ### Formale Ansichten des Profilinhalts
 

@@ -18,7 +18,7 @@ Dieses Profil bildet die Einstellungsmöglichkeit eines Herzschrittmacher nach d
 
 * Examples for this Profile: [DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus](DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json)
 
 ### Formale Ansichten des Profilinhalts
 

@@ -18,7 +18,7 @@ Profil zur Abbildung einer Herzklappenerkrankung.
 
 * Examples for this Profile: [Condition/mii-exa-kardio-hoehergradiges-vitium](Condition-mii-exa-kardio-hoehergradiges-vitium.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-klappenvitium.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-klappenvitium.json)
 
 ### Formale Ansichten des Profilinhalts
 

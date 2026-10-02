@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen | *Version*:2027.0.0-ballot |
-| Active Stand: 2026-09-28 | *Maschinenlesbarer Name*:MII_PR_Kardio_Observation_Rauchen |
+| Active Stand: 2026-10-02 | *Maschinenlesbarer Name*:MII_PR_Kardio_Observation_Rauchen |
 
  
 Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Modul Kardiologie. 
@@ -18,7 +18,7 @@ Profil zur Erfassung des Rauchverhaltens einer Person im Kontext des Modul Kardi
 
 * Examples for this Profile: [Observation/mii-exa-kardio-raucherstatus](Observation-mii-exa-kardio-raucherstatus.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-observation-rauchen.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-observation-rauchen.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -129,7 +129,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio Observation Rauchen",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T14:24:17+00:00",
+  "date" : "2026-10-02T12:47:32+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

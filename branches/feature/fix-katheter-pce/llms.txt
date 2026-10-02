@@ -1,4 +1,4 @@
-# mii-kerndatensatzmodul-kardiologie#2027.0.0-ballot: MII IG Modul Kardio DE(de)
+# de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot: MII IG Modul Kardio DE(de)
 
 ## Pages
 

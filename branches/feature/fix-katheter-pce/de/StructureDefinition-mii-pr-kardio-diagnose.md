@@ -19,7 +19,7 @@ Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis.
 * Derived from this Profile: [MII PR Kardio Klappenvitium](StructureDefinition-mii-pr-kardio-klappenvitium.md)
 * Examples for this Profile: [Condition/mii-exa-kardio-diagnose-myokardinfarkt](Condition-mii-exa-kardio-diagnose-myokardinfarkt.md) and [Condition/mii-exa-kardio-embolischer-gefaessverschluss](Condition-mii-exa-kardio-embolischer-gefaessverschluss.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-diagnose.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-diagnose.json)
 
 ### Formale Ansichten des Profilinhalts
 

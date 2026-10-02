@@ -18,7 +18,7 @@ Profil zur Erfassung des Datum des ersten atherosklerotischen Ereignisses im Kon
 
 * Examples for this Profile: [Observation/mii-exa-kardio-atherosklerotisches-erstereignis](Observation-mii-exa-kardio-atherosklerotisches-erstereignis.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.json)
 
 ### Formale Ansichten des Profilinhalts
 

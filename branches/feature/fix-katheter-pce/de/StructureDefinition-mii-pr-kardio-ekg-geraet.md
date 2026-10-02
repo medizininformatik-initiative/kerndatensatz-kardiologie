@@ -19,7 +19,7 @@ Profil zur Abbildung eines EKG-Gerätes.
 * Refer to this Profile: [MII PR Kardio EKG Kanal](StructureDefinition-mii-pr-kardio-ekg-kanal.md)
 * Examples for this Profile: [Device/mii-exa-kardio-ekg-geraet-mortara](Device-mii-exa-kardio-ekg-geraet-mortara.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-geraet.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-geraet.json)
 
 ### Formale Ansichten des Profilinhalts
 

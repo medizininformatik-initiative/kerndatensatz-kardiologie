@@ -18,7 +18,7 @@ Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagnose, bzw. Proze
 
 * Examples for this Profile: [Observation/mii-exa-kardio-herzinsuffizienz-unbekannt](Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.md), [Observation/mii-exa-kardio-hoehergradiges-vitium-nein](Observation-mii-exa-kardio-hoehergradiges-vitium-nein.md), [Observation/mii-exa-kardio-kein-device](Observation-mii-exa-kardio-kein-device.md) and [Observation/mii-exa-kardio-pci-nein](Observation-mii-exa-kardio-pci-nein.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.json)
 
 ### Formale Ansichten des Profilinhalts
 

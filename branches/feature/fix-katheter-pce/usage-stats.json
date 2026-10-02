@@ -1,5 +1,5 @@
 {
-  "package": "mii-kerndatensatzmodul-kardiologie",
+  "package": "de.medizininformatikinitiative.kerndatensatz.kardiologie",
   "version": "2027.0.0-ballot",
   "fhirVersion": "4.0.1",
   "jurisdiction": "DE",

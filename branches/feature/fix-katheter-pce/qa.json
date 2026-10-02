@@ -4,16 +4,16 @@
   "title" : "MII IG Modul Kardio DE",
   "description" : "Medizininformatik Initiative - Erweiterungsmodul Kardiologie",
   "status" : "draft",
-  "package-id" : "mii-kerndatensatzmodul-kardiologie",
+  "package-id" : "de.medizininformatikinitiative.kerndatensatz.kardiologie",
   "ig-ver" : "2027.0.0-ballot",
-  "date" : "Mon, 28 Sep, 2026 14:24:17 +0000",
-  "dateISO8601" : "2026-09-28T14:24:17+00:00",
-  "errs" : 102,
-  "warnings" : 20,
-  "hints" : 349,
+  "date" : "Fri, 02 Oct, 2026 12:47:32 +0000",
+  "dateISO8601" : "2026-10-02T12:47:32+00:00",
+  "errs" : 63,
+  "warnings" : 68,
+  "hints" : 342,
   "suppressed-hints" : 2373,
   "suppressed-warnings" : 61,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 3229228616
+  "maxMemory" : 2660907472
 }

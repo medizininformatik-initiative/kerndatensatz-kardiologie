@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "dbc48fcd-c992-4e92-ae9e-fc69d3062a1f",
+  "id" : "fe137cbb-7b3d-4d34-a7a9-901c6de6d223",
   "meta" : {
-    "lastUpdated" : "2026-09-28T14:24:17.717+00:00"
+    "lastUpdated" : "2026-10-02T12:47:32.684+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -29,8 +29,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:76e086e4-c4e9-443b-adb4-038611858218",
-        "timestamp" : "2026-09-28T15:58:44+00:00",
+        "identifier" : "urn:uuid:280e7262-e101-4cf8-a658-809bb156ab81",
+        "timestamp" : "2026-10-02T14:32:10+00:00",
         "total" : 185,
         "offset" : 0,
         "parameter" : [{
@@ -832,8 +832,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:76e086e4-c4e9-443b-adb4-038611858218",
-        "timestamp" : "2026-09-28T15:58:44+00:00",
+        "identifier" : "urn:uuid:280e7262-e101-4cf8-a658-809bb156ab81",
+        "timestamp" : "2026-10-02T14:32:10+00:00",
         "total" : 185,
         "offset" : 0,
         "parameter" : [{
@@ -1612,6 +1612,334 @@
     }
   },
   {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 3 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-413773004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/413773004\">413773004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;413773004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;413773004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-413464008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/413464008\">413464008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;413464008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;413464008&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-74964007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/74964007\">74964007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;74964007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;74964007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_Ethnie_SNOMEDCT",
+      "title" : "MII VS Kardio Ethnie [SNOMED CT]",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2025-08-12",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:d0457a5c-932c-478f-8416-33a455a2979b",
+        "timestamp" : "2026-10-02T14:33:11+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "system-version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "413773004"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "413464008"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "74964007"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 3 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-413773004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/413773004\">413773004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;413773004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;413773004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-413464008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/413464008\">413464008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;413464008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;413464008&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-74964007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/74964007\">74964007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;74964007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;74964007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_Ethnie_SNOMEDCT",
+      "title" : "MII VS Kardio Ethnie [SNOMED CT]",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2025-08-12",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:d0457a5c-932c-478f-8416-33a455a2979b",
+        "timestamp" : "2026-10-02T14:33:11+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "system-version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "413773004"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "413464008"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "74964007"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 5 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-24484000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/24484000\">24484000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;24484000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;24484000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-6736007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/6736007\">6736007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;6736007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;6736007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-255604002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/255604002\">255604002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;255604002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;255604002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-42796001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/42796001\">42796001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;42796001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;42796001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-261665006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/261665006\">261665006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;261665006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;261665006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT",
+      "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-10-02T12:47:32+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:ec6bfb04-20b8-43d6-b28e-50b21f781eb5",
+        "timestamp" : "2026-10-02T14:23:59+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "system-version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "24484000"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "6736007"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "255604002"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "42796001"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "261665006"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 5 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-24484000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/24484000\">24484000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;24484000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;24484000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-6736007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/6736007\">6736007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;6736007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;6736007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-255604002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/255604002\">255604002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;255604002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;255604002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-42796001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/42796001\">42796001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;42796001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;42796001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-261665006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/261665006\">261665006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;261665006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;261665006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT",
+      "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-10-02T12:47:32+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:ec6bfb04-20b8-43d6-b28e-50b21f781eb5",
+        "timestamp" : "2026-10-02T14:23:59+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "system-version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "24484000"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "6736007"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "255604002"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "42796001"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "261665006"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -1635,8 +1963,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b669af2a-859e-45c6-b60f-779b43344479",
-        "timestamp" : "2026-09-28T15:53:17+00:00",
+        "identifier" : "urn:uuid:9ea84492-1e38-4103-88f3-3dd0987b659f",
+        "timestamp" : "2026-10-02T14:27:02+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1714,8 +2042,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b669af2a-859e-45c6-b60f-779b43344479",
-        "timestamp" : "2026-09-28T15:53:17+00:00",
+        "identifier" : "urn:uuid:9ea84492-1e38-4103-88f3-3dd0987b659f",
+        "timestamp" : "2026-10-02T14:27:02+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1765,6 +2093,326 @@
         {
           "system" : "urn:iso:std:iso:11073:10101",
           "code" : "754790"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 4 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-11717701000119108\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/11717701000119108\">11717701000119108</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;11717701000119108&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;11717701000119108&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-161833006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/161833006\">161833006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;161833006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;161833006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-416528001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/416528001\">416528001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;416528001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;416528001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-448765001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/448765001\">448765001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;448765001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;448765001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT",
+      "title" : "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2025-03-05",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:8431b066-1c23-4ff1-993f-ff35e5775ad3",
+        "timestamp" : "2026-10-02T14:35:49+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "system-version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "11717701000119108"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "161833006"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "416528001"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "448765001"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 4 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-11717701000119108\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/11717701000119108\">11717701000119108</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;11717701000119108&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;11717701000119108&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-161833006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/161833006\">161833006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;161833006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;161833006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-416528001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/416528001\">416528001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;416528001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;416528001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-448765001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/448765001\">448765001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;448765001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;448765001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT",
+      "title" : "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2025-03-05",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:8431b066-1c23-4ff1-993f-ff35e5775ad3",
+        "timestamp" : "2026-10-02T14:35:49+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "system-version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "11717701000119108"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "161833006"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "416528001"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "448765001"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 3 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-80891009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/80891009\">80891009</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;80891009&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;80891009&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-87878005\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/87878005\">87878005</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;87878005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;87878005&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-53085002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/53085002\">53085002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;53085002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;53085002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT",
+      "title" : "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-09-05",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:03755874-347a-49bd-bb64-bf6f492072d8",
+        "timestamp" : "2026-10-02T14:36:43+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "system-version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "80891009"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "87878005"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "53085002"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 3 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-80891009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/80891009\">80891009</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;80891009&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;80891009&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-87878005\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/87878005\">87878005</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;87878005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;87878005&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-53085002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/53085002\">53085002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;53085002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;53085002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT",
+      "title" : "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-09-05",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:03755874-347a-49bd-bb64-bf6f492072d8",
+        "timestamp" : "2026-10-02T14:36:43+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "system-version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "80891009"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "87878005"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "53085002"
         }]
       }
     }
@@ -1793,8 +2441,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1bb02250-54d9-40ba-95f6-a2edc9d9d3c2",
-        "timestamp" : "2026-09-28T16:04:17+00:00",
+        "identifier" : "urn:uuid:5b1a148f-d234-43ca-8e01-e5400eaae749",
+        "timestamp" : "2026-10-02T14:37:19+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2243,8 +2891,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1bb02250-54d9-40ba-95f6-a2edc9d9d3c2",
-        "timestamp" : "2026-09-28T16:04:17+00:00",
+        "identifier" : "urn:uuid:5b1a148f-d234-43ca-8e01-e5400eaae749",
+        "timestamp" : "2026-10-02T14:37:19+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2693,8 +3341,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5d9f38f6-b509-45e6-a88d-ec1f583baeaf",
-        "timestamp" : "2026-09-28T15:54:38+00:00",
+        "identifier" : "urn:uuid:7d946d66-c60c-48a7-a81d-0e0ce198ffd9",
+        "timestamp" : "2026-10-02T14:28:04+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -3751,8 +4399,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5d9f38f6-b509-45e6-a88d-ec1f583baeaf",
-        "timestamp" : "2026-09-28T15:54:38+00:00",
+        "identifier" : "urn:uuid:7d946d66-c60c-48a7-a81d-0e0ce198ffd9",
+        "timestamp" : "2026-10-02T14:28:04+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -4809,8 +5457,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7da79ec0-f057-419e-82d2-f9422947ae7d",
-        "timestamp" : "2026-09-28T15:54:19+00:00",
+        "identifier" : "urn:uuid:45b9e905-cc26-418a-a014-13298a8312dd",
+        "timestamp" : "2026-10-02T14:28:03+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -5047,8 +5695,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7da79ec0-f057-419e-82d2-f9422947ae7d",
-        "timestamp" : "2026-09-28T15:54:19+00:00",
+        "identifier" : "urn:uuid:45b9e905-cc26-418a-a014-13298a8312dd",
+        "timestamp" : "2026-10-02T14:28:03+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -5285,8 +5933,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fc6ce466-150a-42e7-8ac2-72bdc466213e",
-        "timestamp" : "2026-09-28T15:53:13+00:00",
+        "identifier" : "urn:uuid:e50b771c-6a63-4c9b-8585-56d20c46ecd7",
+        "timestamp" : "2026-10-02T14:26:57+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -9351,8 +9999,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fc6ce466-150a-42e7-8ac2-72bdc466213e",
-        "timestamp" : "2026-09-28T15:53:13+00:00",
+        "identifier" : "urn:uuid:e50b771c-6a63-4c9b-8585-56d20c46ecd7",
+        "timestamp" : "2026-10-02T14:26:57+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -13417,8 +14065,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:124316da-549b-4ba3-a2b5-2fe89d673818",
-        "timestamp" : "2026-09-28T15:56:43+00:00",
+        "identifier" : "urn:uuid:254874c3-c23c-409d-9b05-de9d5ce529ff",
+        "timestamp" : "2026-10-02T14:30:09+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -13518,8 +14166,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:124316da-549b-4ba3-a2b5-2fe89d673818",
-        "timestamp" : "2026-09-28T15:56:43+00:00",
+        "identifier" : "urn:uuid:254874c3-c23c-409d-9b05-de9d5ce529ff",
+        "timestamp" : "2026-10-02T14:30:09+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -13619,8 +14267,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3cc8971c-c0c3-4b44-b53e-423128a9ef3d",
-        "timestamp" : "2026-09-28T15:49:27+00:00",
+        "identifier" : "urn:uuid:6e9c5006-df6a-416a-b36c-623d51756a71",
+        "timestamp" : "2026-10-02T14:23:58+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -13690,8 +14338,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3cc8971c-c0c3-4b44-b53e-423128a9ef3d",
-        "timestamp" : "2026-09-28T15:49:27+00:00",
+        "identifier" : "urn:uuid:6e9c5006-df6a-416a-b36c-623d51756a71",
+        "timestamp" : "2026-10-02T14:23:58+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -13761,8 +14409,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:043c5e37-2b49-4db5-affc-2def110ae357",
-        "timestamp" : "2026-09-28T16:05:19+00:00",
+        "identifier" : "urn:uuid:83a0b9a7-2922-422c-9f65-54a53a4f82fd",
+        "timestamp" : "2026-10-02T14:38:22+00:00",
         "total" : 1466,
         "offset" : 0,
         "parameter" : [{
@@ -17824,8 +18472,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:043c5e37-2b49-4db5-affc-2def110ae357",
-        "timestamp" : "2026-09-28T16:05:19+00:00",
+        "identifier" : "urn:uuid:83a0b9a7-2922-422c-9f65-54a53a4f82fd",
+        "timestamp" : "2026-10-02T14:38:22+00:00",
         "total" : 1466,
         "offset" : 0,
         "parameter" : [{

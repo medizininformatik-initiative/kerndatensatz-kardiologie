@@ -18,7 +18,7 @@ Profil zur Erfassung von Annotationen, z.B. Messergebnisse und Interpretationen,
 
 * Examples for this Profile: [Observation/mii-exa-kardio-ekg-rr-interval](Observation-mii-exa-kardio-ekg-rr-interval.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-annotation.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-annotation.json)
 
 ### Formale Ansichten des Profilinhalts
 

@@ -18,7 +18,7 @@ Mit dieser Observation kann die Geräteprogrammierung, d.h. die DeviceMetric **S
 
 * Examples for this Profile: [Observation/mii-exa-kardio-geraeteprogrammierung-vvi](Observation-mii-exa-kardio-geraeteprogrammierung-vvi.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-geraeteprogrammierung.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-geraeteprogrammierung.json)
 
 ### Formale Ansichten des Profilinhalts
 

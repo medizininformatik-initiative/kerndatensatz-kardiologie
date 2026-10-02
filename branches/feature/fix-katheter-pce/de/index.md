@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie | *Version*:2027.0.0-ballot |
-| Draft Stand: 2026-09-28 | *Maschinenlesbarer Name*:MII_IG_MODUL_KARDIO_DE |
+| Draft Stand: 2026-10-02 | *Maschinenlesbarer Name*:MII_IG_MODUL_KARDIO_DE |
 
 # Kerndatensatz-Modul Kardiologie
 
@@ -16,7 +16,7 @@ Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatens
 
 | | |
 | :--- | :--- |
-| Datum | 2026-09-28T14:24:17+00:00 |
+| Datum | 2026-10-02T12:47:32+00:00 |
 | Version | 2027.0.0-ballot |
 | Status | draft |
 | Realm | DE |
@@ -125,7 +125,7 @@ This publication includes IP covered under the following statements.
 
 ## Versionsanalyse
 
-This is an R4 IG. None of the features it uses are changed in R4B, so it can be used as is with R4B systems. Packages for both [R4 (mii-kerndatensatzmodul-kardiologie.r4)](../package.r4.tgz) and [R4B (mii-kerndatensatzmodul-kardiologie.r4b)](../package.r4b.tgz) are available.
+This is an R4 IG. None of the features it uses are changed in R4B, so it can be used as is with R4B systems. Packages for both [R4 (de.medizininformatikinitiative.kerndatensatz.kardiologie.r4)](../package.r4.tgz) and [R4B (de.medizininformatikinitiative.kerndatensatz.kardiologie.r4b)](../package.r4b.tgz) are available.
 
 *There are no Global profiles defined*
 

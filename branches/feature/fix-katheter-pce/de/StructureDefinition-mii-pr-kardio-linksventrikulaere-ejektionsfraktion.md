@@ -18,7 +18,7 @@ Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekt
 
 * Examples for this Profile: [Observation/mii-exa-kardio-lvef](Observation-mii-exa-kardio-lvef.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json)
 
 ### Formale Ansichten des Profilinhalts
 

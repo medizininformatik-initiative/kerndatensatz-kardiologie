@@ -166,7 +166,7 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Diagnose Alpha-ID](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot/ValueSet-mii-vs-diagnose-alphaid.html),[MII VS Kardio Klappenvitium [ALPHA-ID]](ValueSet-mii-vs-kardio-klappenvitium-alphaid.md)
+  * References: [MII VS Kardio Klappenvitium [ALPHA-ID]](ValueSet-mii-vs-kardio-klappenvitium-alphaid.md),[MII VS Diagnose Alpha-ID](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot/ValueSet-mii-vs-diagnose-alphaid.html)
 * URL: [http://fhir.de/CodeSystem/bfarm/icd-10-gm](https://simplifier.net/resolve?scope=de.gematik.ti@1.3.1&canonical=http://fhir.de/CodeSystem/bfarm/icd-10-gm)
   * Version: 
   * Name / Title: ICD10GMICD-10-GM
@@ -236,5 +236,5 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md),[MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md),[MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md),[MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md),[Device Metric and Component Types](http://hl7.org/fhir/R4/valueset-devicemetric-type.html)
+  * References: [Device Metric and Component Types](http://hl7.org/fhir/R4/valueset-devicemetric-type.html),[MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md),[MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md),[MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md),[MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md)
 

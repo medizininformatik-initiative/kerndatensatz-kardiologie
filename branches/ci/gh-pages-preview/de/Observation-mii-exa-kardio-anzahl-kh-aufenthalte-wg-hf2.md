@@ -1,4 +1,4 @@
-# MII EXA Kardio Anzahl KH Aufenthalte WG HF (mit Angabe 'Weiß nicht') - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio Anzahl KH Aufenthalte WG HF (mit Angabe 'Weiß nicht') - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -21,7 +21,7 @@
   "contained" : [{
     "resourceType" : "Patient",
     "id" : "Beispielpatient",
-    "language" : "de-DE",
+    "language" : "de",
     "identifier" : [{
       "use" : "usual",
       "type" : {
@@ -53,7 +53,7 @@
   "code" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "298060002",
       "display" : "Number of admissions"
     }]
@@ -80,7 +80,7 @@
     "code" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
-        "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
         "code" : "406524005",
         "display" : "Reason for visit diagnosis"
       }]
@@ -88,7 +88,7 @@
     "valueCodeableConcept" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
-        "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
         "code" : "84114007",
         "display" : "Heart failure"
       }]

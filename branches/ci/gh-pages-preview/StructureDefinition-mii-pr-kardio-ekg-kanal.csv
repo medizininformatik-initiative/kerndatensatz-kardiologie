@@ -183,7 +183,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","<valueCoding xmlns=""http://hl7.org/fhir"">
   <system value=""urn:iso:std:iso:11073:10101""/>
   <code value=""69799""/>
-</valueCoding>","","","",,"required","","https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1","",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCoding>","","","",,"required","","https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot","",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","union(., ./translation)"
 "Device.type.coding:geraetetyp.id","Device.type.coding.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -303,7 +303,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
     <system value=""urn:iso:std:iso:11073:10101""/>
     <code value=""68142""/>
   </coding>
-</valueCodeableConcept>","","","",,"required","","https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1","",,,,"Device.property.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+</valueCodeableConcept>","","","",,"required","","https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot","",,,,"Device.property.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Device.property:kanalbezeichnung.type.id","Device.property.type.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -344,7 +344,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Property value as a quantity","Property value as a quantity.","","","","","","","","","",,,,,"",,,,"Device.property.valueQuantity",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Device.property:kanalbezeichnung.valueCode","Device.property.valueCode","","","",1,1,"Y","","","CodeableConcept {[]} {[]}
-","Property value as a code, e.g., NTP4 (synced to NTP)","Property value as a code, e.g., NTP4 (synced to NTP).","","","","","","","","","",,"required","","https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc|2027.0.0-ballot.rc1","",,,,"Device.property.valueCode",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Property value as a code, e.g., NTP4 (synced to NTP)","Property value as a code, e.g., NTP4 (synced to NTP).","","","","","","","","","",,"required","","https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc|2027.0.0-ballot","",,,,"Device.property.valueCode",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Device.patient","Device.patient","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1]]}
 ","Patient to whom Device is affixed","Patient information, If the device is affixed to a person.","","If the device is implanted in a patient, then need to associate the device to the patient.","","","","","","","",,,,,"",,,,"Device.patient",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -367,6 +367,6 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Device.safety","Device.safety","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
 ","Safety Characteristics of Device","Provides additional safety characteristics about a medical device.  For example devices containing latex.","","","","","","","","","",,,,,"",,,,"Device.safety",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","NA"
-"Device.parent","Device.parent","","","",1,1,"Y","","","Reference {[]} {[CanonicalType[https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot.rc1]]}
+"Device.parent","Device.parent","","","",1,1,"Y","","","Reference {[]} {[CanonicalType[https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot]]}
 ","The parent device","The parent device.","","","","","","","","","",,,,,"",,,,"Device.parent",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "

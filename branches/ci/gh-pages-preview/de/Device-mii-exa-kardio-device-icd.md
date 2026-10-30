@@ -1,4 +1,4 @@
-# MII EXA Kardio Device ICD - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio Device ICD - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -35,7 +35,7 @@ Profile: [MII PR Kardio Device](StructureDefinition-mii-pr-kardio-device.md)
   "type" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "72506001",
       "display" : "Implantable defibrillator"
     }]

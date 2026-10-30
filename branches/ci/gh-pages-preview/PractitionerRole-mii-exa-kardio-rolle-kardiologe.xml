@@ -12,7 +12,7 @@
   <code>
     <coding>
       <system value="http://snomed.info/sct"/>
-      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20260701"/>
       <code value="17561000"/>
       <display value="Cardiologist"/>
     </coding>
@@ -20,7 +20,7 @@
   <specialty>
     <coding>
       <system value="http://snomed.info/sct"/>
-      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20260701"/>
       <code value="394579002"/>
       <display value="Cardiology"/>
     </coding>

@@ -1,4 +1,4 @@
-# MII VS Kardio Klappenvitium [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Klappenvitium [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-09-16 | *Maschinenlesbarer Name*:MII_VS_Kardio_Klappenvitium_SNOMEDCT |
 
  
@@ -23,6 +23,8 @@ SNOMED CT Codes für Klappenerkrankungen
  
 
 ### Expansion
+
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -39,10 +41,10 @@ SNOMED CT Codes für Klappenerkrankungen
   "language" : "de",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/valueset-supplement",
-    "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot.rc1"
+    "valueCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Klappenvitium_SNOMEDCT",
   "title" : "MII VS Kardio Klappenvitium [SNOMED CT]",
   "status" : "active",
@@ -63,14 +65,15 @@ SNOMED CT Codes für Klappenerkrankungen
   "description" : "SNOMED CT Codes für Klappenerkrankungen",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "filter" : [{
         "property" : "concept",
         "op" : "is-a",
@@ -79,7 +82,7 @@ SNOMED CT Codes für Klappenerkrankungen
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "concept" : [{
         "code" : "368009:{116676008=49755003,363698007=17401000},{246112005=24484000}"
       }]

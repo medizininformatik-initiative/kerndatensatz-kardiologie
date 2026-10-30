@@ -14,7 +14,7 @@
   <type>
     <coding>
       <system value="http://snomed.info/sct"/>
-      <version value="http://snomed.info/sct/900000000000207008/version/20250701"/>
+      <version value="http://snomed.info/sct/900000000000207008/version/20260701"/>
       <code value="72506001"/>
       <display value="Implantable defibrillator"/>
     </coding>

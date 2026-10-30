@@ -1,4 +1,4 @@
-# MII VS Kardio Klappenvitium [ICD 10 GM] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Klappenvitium [ICD 10 GM] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-icd | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-icd | *Version*:2027.0.0-ballot |
 | Active Stand: 2026-06-12 | *Maschinenlesbarer Name*:MII_VS_Kardio_Klappenvitium_ICD |
 
  
@@ -38,7 +38,7 @@ ICD-Codes für Klappenerkrankungen
   "id" : "mii-vs-kardio-klappenvitium-icd",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-icd",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Klappenvitium_ICD",
   "title" : "MII VS Kardio Klappenvitium [ICD 10 GM]",
   "status" : "active",
@@ -59,8 +59,9 @@ ICD-Codes für Klappenerkrankungen
   "description" : "ICD-Codes für Klappenerkrankungen",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {

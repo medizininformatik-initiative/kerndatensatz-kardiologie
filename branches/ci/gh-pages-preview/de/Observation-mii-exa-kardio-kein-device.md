@@ -1,4 +1,4 @@
-# MII EXA Kardio Kein Device - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio Kein Device - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -21,7 +21,7 @@
   "contained" : [{
     "resourceType" : "Patient",
     "id" : "Beispielpatient",
-    "language" : "de-DE",
+    "language" : "de",
     "identifier" : [{
       "use" : "usual",
       "type" : {
@@ -60,7 +60,7 @@
   "code" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "703398004",
       "display" : "Cardiac implant in situ"
     }]
@@ -83,7 +83,7 @@
   "method" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "129431000",
       "display" : "History taking - action"
     }]

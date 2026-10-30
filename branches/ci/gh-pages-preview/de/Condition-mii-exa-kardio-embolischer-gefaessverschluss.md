@@ -1,4 +1,4 @@
-# MII EXA Kardio Emoblischer Gefäßverschluss - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio Emoblischer Gefäßverschluss - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -21,7 +21,7 @@
   "contained" : [{
     "resourceType" : "Patient",
     "id" : "Beispielpatient",
-    "language" : "de-DE",
+    "language" : "de",
     "identifier" : [{
       "use" : "usual",
       "type" : {
@@ -70,7 +70,7 @@
   "code" : {
     "coding" : [{
       "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
-      "version" : "2027.0.0-ballot.rc1",
+      "version" : "2027.0.0-ballot",
       "code" : "eg-cv",
       "display" : "Embolischer Gefäßverschluss cerebro-vaskulär"
     }]

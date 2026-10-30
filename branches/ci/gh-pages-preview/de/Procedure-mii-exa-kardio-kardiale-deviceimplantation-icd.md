@@ -1,4 +1,4 @@
-# MII EXA Kardio Kardiale Deviceimplantation ICD - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio Kardiale Deviceimplantation ICD - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -21,7 +21,7 @@
   "contained" : [{
     "resourceType" : "Patient",
     "id" : "Beispielpatient",
-    "language" : "de-DE",
+    "language" : "de",
     "identifier" : [{
       "use" : "usual",
       "type" : {
@@ -65,7 +65,7 @@
   "category" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "387713003",
       "display" : "Surgical procedure"
     }]
@@ -73,7 +73,7 @@
   "code" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "395218007",
       "display" : "Implantation of internal cardiac defibrillator"
     }]
@@ -85,7 +85,7 @@
   "bodySite" : [{
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "80891009",
       "display" : "Heart structure"
     }]
@@ -97,7 +97,7 @@
     "action" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
-        "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
         "code" : "129338005",
         "display" : "Surgical implantation - action"
       }]

@@ -1,4 +1,4 @@
-# Beschreibung des Moduls - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# Beschreibung des Moduls - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Beschreibung des Moduls**
@@ -17,7 +17,7 @@ Das langfristige übergeordnete Ziel des kardiologischen Kerndatensatzes ist es,
 
 Das Kerndatensatzmodul Kardiolgie wurde als eigenständiges Modul des Kerndatensatzes der MII konzipiert, ist jedoch über die gemeinsame Nutzung von verschiedenen Datenitems mit bereits existierenden Modulen eingebunden. Die untenstehende Graphik zeigt die gegenwärtigen (Stand 08.2026) Module an und in dieser werden die grundlegenden Datenquellen wie Person, Fall oder auch Medikation hervorgehoben. Die Übersicht visualisierte jedoch keine Abhängigkeiten oder inhaltlichen Gemeinsamkeiten der einzelnen Module auf.
 
-![](https://www.medizininformatik-initiative.de/sites/default/files/2026-07/2026-07-03_Kerndatensatz_d.png)
+![](Kerndatensatz.png)
 
 (aus: [Medizininformatik Initiative Webseite](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative)]
 

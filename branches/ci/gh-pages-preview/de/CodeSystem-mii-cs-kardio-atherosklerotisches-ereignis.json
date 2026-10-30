@@ -7,7 +7,7 @@
     "div" : "<div xml:lang=\"de\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-kardio-atherosklerotisches-ereignis</b></p><a name=\"mii-cs-kardio-atherosklerotisches-ereignis\"> </a><a name=\"hcmii-cs-kardio-atherosklerotisches-ereignis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><p>This case-sensitive code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ae<a name=\"mii-cs-kardio-atherosklerotisches-ereignis-ae\"> </a></td><td>Atherosklerotisches Ereignis</td></tr><tr><td style=\"white-space:nowrap\">eg-cv<a name=\"mii-cs-kardio-atherosklerotisches-ereignis-eg-cv\"> </a></td><td>Embolischer Gefäßverschluss cerebro-vaskulär</td></tr></table></div>"
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_CS_Kardio_Atherosklerotisches_Ereignis",
   "title" : "MII CS Kardio Atherosklerotisches Ereignis",
   "status" : "active",
@@ -28,8 +28,9 @@
   "description" : "Code für ein unbestimmtes atherosklerotisches Ereignis",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "caseSensitive" : true,

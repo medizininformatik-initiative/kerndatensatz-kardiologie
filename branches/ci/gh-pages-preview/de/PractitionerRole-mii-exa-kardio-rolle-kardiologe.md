@@ -1,4 +1,4 @@
-# MII EXA Kardio Rolle Kardiologe - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio Rolle Kardiologe - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -29,7 +29,7 @@ Language: de
   "code" : [{
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "17561000",
       "display" : "Cardiologist"
     }]
@@ -37,7 +37,7 @@ Language: de
   "specialty" : [{
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "394579002",
       "display" : "Cardiology"
     }]

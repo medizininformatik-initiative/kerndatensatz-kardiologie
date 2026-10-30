@@ -1,4 +1,4 @@
-# MII PR Kardio Anzahl KH Aufenthalte wg HF - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII PR Kardio Anzahl KH Aufenthalte wg HF - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf | *Version*:2027.0.0-ballot |
 | Active Stand: 2026-06-12 | *Maschinenlesbarer Name*:MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF |
 
  
@@ -18,7 +18,7 @@ Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizie
 
 * Examples for this Profile: [Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf](Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.md) and [Observation/mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2](Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -120,7 +120,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "id" : "mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF",
   "title" : "MII PR Kardio Anzahl KH Aufenthalte wg HF",
   "status" : "active",
@@ -141,8 +141,9 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "description" : "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "fhirVersion" : "4.0.1",
@@ -281,7 +282,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
         "severity" : "error",
         "human" : "Die Anzahl der Krankenhausbesuche kann nicht negativ sein. Wenn ein Integer übermittelt wird, muss dieser größer oder gleich 0 sein.",
         "expression" : "value.as(integer).empty() or value.as(integer) >= 0",
-        "source" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf|2027.0.0-ballot.rc1"
+        "source" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf|2027.0.0-ballot"
       }],
       "mustSupport" : true
     },

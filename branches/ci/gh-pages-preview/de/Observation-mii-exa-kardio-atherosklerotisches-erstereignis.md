@@ -1,4 +1,4 @@
-# MII EXA Kardio Atherosklerotisches Erstereignis - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio Atherosklerotisches Erstereignis - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -21,7 +21,7 @@
   "contained" : [{
     "resourceType" : "Patient",
     "id" : "Beispielpatient",
-    "language" : "de-DE",
+    "language" : "de",
     "identifier" : [{
       "use" : "usual",
       "type" : {
@@ -53,7 +53,7 @@
   "code" : {
     "coding" : [{
       "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
-      "version" : "2027.0.0-ballot.rc1",
+      "version" : "2027.0.0-ballot",
       "code" : "ae",
       "display" : "Atherosklerotisches Ereignis"
     }]
@@ -69,7 +69,7 @@
     "code" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
-        "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
         "code" : "439401001",
         "display" : "Diagnosis"
       }]
@@ -77,7 +77,7 @@
     "valueCodeableConcept" : {
       "coding" : [{
         "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
-        "version" : "2027.0.0-ballot.rc1",
+        "version" : "2027.0.0-ballot",
         "code" : "ae",
         "display" : "Atherosklerotisches Ereignis"
       }]
@@ -87,7 +87,7 @@
     "code" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
-        "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
         "code" : "432213005",
         "display" : "Date of diagnosis"
       }]

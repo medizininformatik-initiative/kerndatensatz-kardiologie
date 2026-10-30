@@ -1,4 +1,4 @@
-# MII VS Kardio Ethnie [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Ethnie [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct | *Version*:2027.0.0-ballot |
 | Draft Stand: 2025-08-12 | *Maschinenlesbarer Name*:MII_VS_Kardio_Ethnie_SNOMEDCT |
 
  
@@ -38,7 +38,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "id" : "mii-vs-kardio-ethnie-snomedct",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Ethnie_SNOMEDCT",
   "title" : "MII VS Kardio Ethnie [SNOMED CT]",
   "status" : "draft",
@@ -59,8 +59,9 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "description" : "SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als \"racial group\") im Kerndatensatz Kardiologie",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {

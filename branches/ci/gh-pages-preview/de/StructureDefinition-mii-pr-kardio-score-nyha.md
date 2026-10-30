@@ -1,4 +1,4 @@
-# MII PR Kardio Score NYHA - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII PR Kardio Score NYHA - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-09-04 | *Maschinenlesbarer Name*:MII_PR_Kardio_Score_NYHA |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-10-30 | *Maschinenlesbarer Name*:MII_PR_Kardio_Score_NYHA |
 
  
 Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association. 
@@ -18,7 +18,7 @@ Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der 
 
 * Examples for this Profile: [Observation/mii-exa-kardio-score-nyha-ii](Observation-mii-exa-kardio-score-nyha-ii.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-score-nyha.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-score-nyha.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -112,12 +112,12 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "id" : "mii-pr-kardio-score-nyha",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Kardio_Score_NYHA",
   "title" : "MII PR Kardio Score NYHA",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T19:01:50+00:00",
+  "date" : "2026-10-30T07:50:37+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -133,8 +133,9 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "description" : "Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "fhirVersion" : "4.0.1",
@@ -289,7 +290,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct|2027.0.0-ballot.rc1"
+        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct|2027.0.0-ballot"
       }
     }]
   }

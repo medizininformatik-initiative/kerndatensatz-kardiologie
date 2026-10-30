@@ -1,4 +1,4 @@
-# Datensätze und Beschreibungen - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# Datensätze und Beschreibungen - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Datensätze und Beschreibungen**

@@ -1,4 +1,4 @@
-# MII CS Kardio Lebensmittelpunkt - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII CS Kardio Lebensmittelpunkt - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-lebensmittelpunkt | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-lebensmittelpunkt | *Version*:2027.0.0-ballot |
 | Draft Stand: 2025-01-30 | *Maschinenlesbarer Name*:MII_CS_Kardio_Lebensmittelpunkt |
 
  
@@ -32,7 +32,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "id" : "mii-cs-kardio-lebensmittelpunkt",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-lebensmittelpunkt",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_CS_Kardio_Lebensmittelpunkt",
   "title" : "MII CS Kardio Lebensmittelpunkt",
   "status" : "draft",
@@ -53,8 +53,9 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "description" : "Lebensmittelpunkt des Patienten",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "purpose" : "Dieses Code System bildet die aktuellen Lebensmittelpunkt des Patienten unabhängig von seiner Herkunft ab. Damit wird der Parameter 'Geographic region' des SMART-REACH-Scores mit der Ergänzung Deutschland abgebildet.",

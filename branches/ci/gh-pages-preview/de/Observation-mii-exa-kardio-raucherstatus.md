@@ -1,4 +1,4 @@
-# MII EXA Kardio Raucherstatus - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio Raucherstatus - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -21,7 +21,7 @@
   "contained" : [{
     "resourceType" : "Patient",
     "id" : "Beispielpatient",
-    "language" : "de-DE",
+    "language" : "de",
     "identifier" : [{
       "use" : "usual",
       "type" : {
@@ -52,7 +52,7 @@
   {
     "resourceType" : "Encounter",
     "id" : "Beispielfall",
-    "language" : "de-DE",
+    "language" : "de",
     "status" : "finished",
     "class" : {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -79,7 +79,7 @@
   "code" : {
     "coding" : [{
       "system" : "http://loinc.org",
-      "version" : "2.82",
+      "version" : "2.83",
       "code" : "72166-2",
       "display" : "Raucherstatus"
     }]
@@ -97,7 +97,7 @@
   "valueCodeableConcept" : {
     "coding" : [{
       "system" : "http://loinc.org",
-      "version" : "2.82",
+      "version" : "2.83",
       "code" : "LA18976-3",
       "display" : "Current every day smoker"
     }]
@@ -106,7 +106,7 @@
     "code" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
-        "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
         "code" : "401201003",
         "display" : "Cigarette pack-years"
       }]
@@ -122,7 +122,7 @@
     "code" : {
       "coding" : [{
         "system" : "http://loinc.org",
-        "version" : "2.82",
+        "version" : "2.83",
         "code" : "63640-7"
       }]
     },
@@ -137,7 +137,7 @@
     "code" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
-        "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
         "code" : "266929003"
       }]
     },
@@ -147,7 +147,7 @@
     "code" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
-        "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
         "code" : "266929003"
       }]
     },
@@ -162,7 +162,7 @@
     "code" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
-        "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+        "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
         "code" : "228487000"
       }]
     },

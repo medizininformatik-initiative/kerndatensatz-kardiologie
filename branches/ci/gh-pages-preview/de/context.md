@@ -1,4 +1,4 @@
-# Kontext und Bezüge zu anderen Modulen - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# Kontext und Bezüge zu anderen Modulen - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Kontext und Bezüge zu anderen Modulen**

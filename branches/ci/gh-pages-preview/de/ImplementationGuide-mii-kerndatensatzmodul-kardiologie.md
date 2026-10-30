@@ -10,11 +10,11 @@
   "id" : "mii-kerndatensatzmodul-kardiologie",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_IG_MODUL_KARDIO_DE",
   "title" : "MII IG Modul Kardio DE",
   "status" : "draft",
-  "date" : "2026-09-04T19:01:50+00:00",
+  "date" : "2026-10-30T07:50:37+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -30,11 +30,12 @@
   "description" : "Medizininformatik Initiative - Erweiterungsmodul Kardiologie",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
-  "packageId" : "mii-kerndatensatzmodul-kardiologie",
+  "packageId" : "de.medizininformatikinitiative.kerndatensatz.kardiologie",
   "license" : "CC-BY-4.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -45,7 +46,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.3.0"
+    "version" : "5.4.0"
   },
   {
     "id" : "de_basisprofil_r4",
@@ -57,13 +58,13 @@
     "id" : "de_medizininformatikinitiative_kerndatensatz_base",
     "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-base/ImplementationGuide/mii-ig-base",
     "packageId" : "de.medizininformatikinitiative.kerndatensatz.base",
-    "version" : "2027.0.0-ballot.rc1"
+    "version" : "2027.0.0-ballot"
   },
   {
     "id" : "de_medizininformatikinitiative_kerndatensatz_meta",
     "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
     "packageId" : "de.medizininformatikinitiative.kerndatensatz.meta",
-    "version" : "2027.0.0-ballot.rc3"
+    "version" : "2027.0.0-ballot"
   },
   {
     "id" : "de_gematik_isik",
@@ -96,7 +97,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "ballot"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -458,7 +459,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "ballot"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -886,7 +887,7 @@
       },
       "name" : "MII EXA Kardio Anzahl KH Aufenthalte WG HF",
       "description" : "Beispiel einer Observation für 3 Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -902,7 +903,7 @@
       },
       "name" : "MII EXA Kardio Anzahl KH Aufenthalte WG HF (mit Angabe 'Weiß nicht')",
       "description" : "Beispiel einer Observation bei Angabe 'Ich weiß es nicht' zu Krankenhausaufenthalte wegen Herzinsuffizienz im letzten Jahr",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -918,7 +919,7 @@
       },
       "name" : "MII EXA Kardio Atherosklerotisches Erstereignis",
       "description" : "Beispiel einer Observation für das Datum eines unbestimmten atherosklerotischen Erstereignisses",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -934,7 +935,7 @@
       },
       "name" : "MII EXA Kardio Device ICD",
       "description" : "Beispiel eines implantierten Kardioverter-Defibrillators (ICD)",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -950,7 +951,7 @@
       },
       "name" : "MII EXA Kardio EKG Durchführung",
       "description" : "Beispiel einer Durchführung eines 12-Kanal Ruhe-EKGs",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-durchfuehrung|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-durchfuehrung|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -966,7 +967,7 @@
       },
       "name" : "MII EXA Kardio EKG Geraet Mortara",
       "description" : "Beispiel eines EKG Gerätes der Firma Mortara Instruments",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -982,7 +983,7 @@
       },
       "name" : "MII EXA Kardio EKG Geraetedefinition Mortara",
       "description" : "Beispiel einer EKG Gerätedefinition für ein EKG-Gerät der Firma Mortara Instruments",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -998,7 +999,7 @@
       },
       "name" : "MII EXA Kardio EKG Kanal I",
       "description" : "Beispiel eines EKG-Kanals (I) eines Gerätes der Firma Mortara Instruments",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1014,7 +1015,7 @@
       },
       "name" : "MII EXA Kardio EKG Kanal II",
       "description" : "Beispiel eines EKG-Kanals (II) eines Gerätes der Firma Mortara Instruments",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1030,7 +1031,7 @@
       },
       "name" : "MII EXA Kardio EKG Kanal III",
       "description" : "Beispiel eines EKG-Kanals (III) eines Gerätes der Firma Mortara Instruments",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1046,7 +1047,7 @@
       },
       "name" : "MII EXA Kardio EKG Referenz",
       "description" : "Beispiel einer Referenz auf ein EKG, dessen Rohdaten an einem anderen Ort gespeichert werden.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1062,7 +1063,7 @@
       },
       "name" : "MII EXA Kardio EKG RR Interval",
       "description" : "Beispiel einer Observation zur Darstellung des RR Intervals eines aufgezeichneten EKGs",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotation|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-annotation|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1078,7 +1079,7 @@
       },
       "name" : "MII EXA Kardio Emoblischer Gefäßverschluss",
       "description" : "Beispiel: Der Patient hat angegeben, einen embolischen Gefäßverschluss gehabt zu haben.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1094,7 +1095,7 @@
       },
       "name" : "MII EXA Kardio Geräteprogrammierung VVI",
       "description" : "Beispiel der Einstellung eines Kardioverter-Defibrillators (ICD) im VVI-Modus",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-geraeteprogrammierung|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-geraeteprogrammierung|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1110,7 +1111,7 @@
       },
       "name" : "MII EXA Kardio Herzinsuffizienz Unbekannt",
       "description" : "Beispiel: Der Patient weiß nicht, ob er Herzinsuffizienz hat.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1126,7 +1127,7 @@
       },
       "name" : "MII EXA Kardio Höhergradiges Vitium",
       "description" : "Beispiel zur Abbildung eines unbestimmten höhergradigen Klappenvitiums.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-klappenvitium|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-klappenvitium|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1142,7 +1143,7 @@
       },
       "name" : "MII EXA Kardio Höhergradiges Vitium Nein",
       "description" : "Beispiel um abzubilden, dass kein höhergradiges Klappenvitium vorliegt.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1158,7 +1159,7 @@
       },
       "name" : "MII EXA Kardio Kardiale Deviceimplantation ICD",
       "description" : "Beispiel einer Implantation eines Kardioverter-Defibrillators (ICD)",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1174,7 +1175,7 @@
       },
       "name" : "MII EXA Kardio Kein Device",
       "description" : "Beispiel: Der Patient hat kein implantiertes kardiales Device.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1190,7 +1191,7 @@
       },
       "name" : "MII EXA Kardio LVEF",
       "description" : "Beispielhafte Observation einer linksventrikulären Ejektionsfraktion mittels Echokardiographie",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1206,7 +1207,7 @@
       },
       "name" : "MII EXA Kardio MRS",
       "description" : "Beispielhafte Instanz zur Dokumentation der mRS-Skala nach einem Schlaganfall gemäß MII PR Kardio Score mRS.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1222,7 +1223,7 @@
       },
       "name" : "MII EXA Kardio NBG Schrittmachermodus",
       "description" : "Beispiel einer DeviceMetric für die Geräteprogrammierung eines ICD",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1238,7 +1239,7 @@
       },
       "name" : "MII EXA Kardio PCI/Stent Nein",
       "description" : "Beispiel: Der Patient hatte noch keine Koronarintervention mit PCI/Stent.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1318,7 +1319,7 @@
       },
       "name" : "MII EXA Kardio Raucherstatus",
       "description" : "Eine Beispielinstanz zur Darstellung des Rauchverhaltens einer Person gemäß dem Profil MII_PR_Kardio_Observation_Rauchen.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-observation-rauchen|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1350,7 +1351,7 @@
       },
       "name" : "MII EXA Kardio Score NYHA II",
       "description" : "Beispielhafte Instanz zur Dokumentation der NYHA-Klassifikation bei Herzinsuffizienz gemäß MII PR Kardio Score NYHA.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha|2027.0.0-ballot"
     },
     {
       "extension" : [{
@@ -1366,7 +1367,7 @@
       },
       "name" : "MII Kardio Diagnose Myokardinfarkt",
       "description" : "Beispielhafte vollständige Instanz einer Diagnose die vom Arzt bestätigt tatsächlich vorliegt gemäß dem Profil MII_PR_Kardio_Diagnose im Rahmen des ACRIBIS-Projekts.",
-      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose|2027.0.0-ballot.rc1"
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose|2027.0.0-ballot"
     },
     {
       "extension" : [{

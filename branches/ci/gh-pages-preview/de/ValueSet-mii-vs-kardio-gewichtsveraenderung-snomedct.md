@@ -1,4 +1,4 @@
-# MII VS Kardio Gewichtsveraenderung [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Gewichtsveraenderung [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct | *Version*:2027.0.0-ballot |
 | Draft Stand: 2025-03-05 | *Maschinenlesbarer Name*:MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT |
 | **Copyright/Rechtliches**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. | |
 
@@ -39,7 +39,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "id" : "mii-vs-kardio-gewichtsveraenderung-snomedct",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT",
   "title" : "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
   "status" : "draft",
@@ -60,8 +60,9 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "description" : "Beschreibung von Gewichtsveränderungen",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",

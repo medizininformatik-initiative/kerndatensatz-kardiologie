@@ -1,4 +1,4 @@
-# MII VS Kardio Extended Condition Severity [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Extended Condition Severity [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-09-04 | *Maschinenlesbarer Name*:MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-10-30 | *Maschinenlesbarer Name*:MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT |
 
  
 An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage) 
@@ -38,12 +38,12 @@ An extended ValueSet including standard condition severity and SNOMED CT code 42
   "id" : "mii-vs-kardio-extended-condition-severity-snomedct",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT",
   "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T19:01:50+00:00",
+  "date" : "2026-10-30T07:50:37+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -59,8 +59,9 @@ An extended ValueSet including standard condition severity and SNOMED CT code 42
   "description" : "An extended ValueSet including standard condition severity and SNOMED CT code 42796001 (End-stage)",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {

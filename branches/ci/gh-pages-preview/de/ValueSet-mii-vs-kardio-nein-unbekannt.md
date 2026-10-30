@@ -1,4 +1,4 @@
-# MII VS Kardio Nein Unbekannt - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Nein Unbekannt - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nein-unbekannt | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nein-unbekannt | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-09-05 | *Maschinenlesbarer Name*:MII_VS_Kardio_Nein_Unbekannt |
 
  
@@ -38,7 +38,7 @@ ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnos
   "id" : "mii-vs-kardio-nein-unbekannt",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nein-unbekannt",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Nein_Unbekannt",
   "title" : "MII VS Kardio Nein Unbekannt",
   "status" : "active",
@@ -59,8 +59,9 @@ ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnos
   "description" : "ValueSet mit Codes zum Abbilden des anamnestischen Nichtvorliegens einer Diagnose, bzw. Prozedur, oder Unklarheit darüber.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {

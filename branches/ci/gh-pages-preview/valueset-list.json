@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-allergene-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_Kardio_Allergene_SNOMEDCT",
     "title" : "MII VS Kardio Allergene [SNOMED CT]",
@@ -10,7 +10,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT",
     "title" : "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
@@ -20,7 +20,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_Kardio_EKG_Kanaele_MDC",
     "title" : "MII VS Kardio EKG Kanäle [MDC]",
@@ -29,7 +29,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_Kardio_EKG_Prozedur_SNOMEDCT",
     "title" : "MII VS Kardio EKG Prozedur [SNOMED CT]",
@@ -38,7 +38,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ethnie-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_Kardio_Ethnie_SNOMEDCT",
     "title" : "MII VS Kardio Ethnie [SNOMED CT]",
@@ -47,7 +47,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-condition-severity-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT",
     "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
@@ -56,7 +56,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Extended_MII_DiagnoseCodes_SNOMED",
     "title" : "MII VS Kardio Extended MII DiagnoseCodes [SNOMED CT]",
@@ -65,7 +65,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Geraeteprogrammierung_MDC",
     "title" : "MII VS Kardio Geräteprogrammierung [MDC]",
@@ -74,7 +74,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraetetyp-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Geraetetyp_SNOMEDCT",
     "title" : "MII VS Kardio Gerätetyp [SNOMED CT]",
@@ -84,7 +84,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT",
     "title" : "MII VS Kardio Gewichtsveraenderung [SNOMED CT]",
@@ -93,7 +93,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT",
     "title" : "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
@@ -102,7 +102,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_OPS",
     "title" : "MII VS Kardio Kardiale Devicemimplantation [OPS]",
@@ -112,7 +112,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT",
     "title" : "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
@@ -121,7 +121,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Klappenvitium_ALPHAID",
     "title" : "MII VS Kardio Klappenvitium [ALPHA-ID]",
@@ -130,7 +130,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT",
     "title" : "MII VS Kardio Klappenvitium Grad [SNOMED CT]",
@@ -139,7 +139,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-icd",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Klappenvitium_ICD",
     "title" : "MII VS Kardio Klappenvitium [ICD 10 GM]",
@@ -148,7 +148,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Klappenvitium_SNOMEDCT",
     "title" : "MII VS Kardio Klappenvitium [SNOMED CT]",
@@ -157,7 +157,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-lebensmittelpunkt-m49",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_Kardio_Lebensmittelpunkt_M49",
     "title" : "MII VS Kardio Lebensmittelpunkt [M49]",
@@ -167,7 +167,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_Kardio_Metriken_EKG_Annotationen_MDC",
     "title" : "MII VS Kardio Metriken EKG Annotationen [MDC]",
@@ -176,7 +176,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Modifizierte_Rankin_Skala",
     "title" : "MII VS Kardio Modifizierte Rankin Skala",
@@ -185,7 +185,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nein-unbekannt",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Nein_Unbekannt",
     "title" : "MII VS Kardio Nein Unbekannt",
@@ -194,7 +194,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_NYHA_Klassen_SNOMEDCT",
     "title" : "MII VS Kardio NYHA Klassen [SNOMED CT]",
@@ -203,7 +203,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_Kardio_Objekte_Geraete_MDC",
     "title" : "MII VS Kardio MDC Objects Devices [MDC]",

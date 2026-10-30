@@ -1,4 +1,4 @@
-# MII PR Kardio EKG Gerätedefinition - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII PR Kardio EKG Gerätedefinition - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition | *Version*:2027.0.0-ballot |
 | Draft Stand: 2025-05-22 | *Maschinenlesbarer Name*:MII_PR_Kardio_EKG_Geraetedefinition |
 
  
@@ -18,7 +18,7 @@ Profil zur Abbildung einer EKG-Gerätedefinition.
 
 * Examples for this Profile: [DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara](DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -84,7 +84,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "id" : "mii-pr-kardio-ekg-geraetedefinition",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraetedefinition",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Kardio_EKG_Geraetedefinition",
   "title" : "MII PR Kardio EKG Gerätedefinition",
   "status" : "draft",
@@ -105,8 +105,9 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "description" : "Profil zur Abbildung einer EKG-Gerätedefinition.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "fhirVersion" : "4.0.1",

@@ -1,4 +1,4 @@
-# MII Kardio Diagnose Myokardinfarkt - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII Kardio Diagnose Myokardinfarkt - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -21,7 +21,7 @@
   "contained" : [{
     "resourceType" : "Patient",
     "id" : "Beispielpatient",
-    "language" : "de-DE",
+    "language" : "de",
     "identifier" : [{
       "use" : "usual",
       "type" : {
@@ -76,7 +76,7 @@
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "22298006",
       "display" : "Myocardial infarction"
     }]

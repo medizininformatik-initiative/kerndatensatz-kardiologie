@@ -1,4 +1,4 @@
-# MII VS Kardio Geräteprogrammierung [MDC] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Geräteprogrammierung [MDC] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-09-05 | *Maschinenlesbarer Name*:MII_VS_Kardio_Geraeteprogrammierung_MDC |
 
  
@@ -38,7 +38,7 @@ Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der K
   "id" : "mii-vs-kardio-geraeteprogrammierung-mdc",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Geraeteprogrammierung_MDC",
   "title" : "MII VS Kardio Geräteprogrammierung [MDC]",
   "status" : "active",
@@ -59,8 +59,9 @@ Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der K
   "description" : "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "purpose" : "Mit Codes aus diesem Valueset soll abgebildet werden, ob es sich um einen AAI-, VVI- oder DDD-Schrittmacher handelt, falls das bekannt ist.",

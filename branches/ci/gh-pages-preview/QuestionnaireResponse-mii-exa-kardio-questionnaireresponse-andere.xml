@@ -68,7 +68,7 @@
   <contained>
     <Patient>
       <id value="Beispielpatient"/>
-      <language value="de-DE"/>
+      <language value="de"/>
       <identifier>
         <use value="usual"/>
         <type>

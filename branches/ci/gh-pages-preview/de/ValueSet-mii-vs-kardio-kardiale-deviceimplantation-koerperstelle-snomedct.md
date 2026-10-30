@@ -1,4 +1,4 @@
-# MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-09-05 | *Maschinenlesbarer Name*:MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT |
 
  
@@ -38,7 +38,7 @@ Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kar
   "id" : "mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT",
   "title" : "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
   "status" : "active",
@@ -59,8 +59,9 @@ Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kar
   "description" : "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "purpose" : "Codes aus diesem Value Set können in einer Prozedur die Körperstelle der Implantation eines kardialen Devices in der Kardiologie spezifizieren.",

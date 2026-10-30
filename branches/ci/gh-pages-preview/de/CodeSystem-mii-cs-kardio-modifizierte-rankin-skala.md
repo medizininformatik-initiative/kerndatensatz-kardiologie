@@ -1,4 +1,4 @@
-# MII CS Kardio Modifizierte Rankin Skala - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII CS Kardio Modifizierte Rankin Skala - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-04-29 | *Maschinenlesbarer Name*:MII_CS_Kardio_Modifizierte_Rankin_Skala |
 
  
@@ -32,7 +32,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "id" : "mii-cs-kardio-modifizierte-rankin-skala",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_CS_Kardio_Modifizierte_Rankin_Skala",
   "title" : "MII CS Kardio Modifizierte Rankin Skala",
   "status" : "active",
@@ -53,8 +53,9 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "description" : "Beeinträchtigung des Patienten nach Schlaganfall",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "purpose" : "Dieses Code-System bildet die Stufen der modifizierten Rankin-Skala ab.",

@@ -1,4 +1,4 @@
-# MII VS Kardio Metriken EKG Annotationen [MDC] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Metriken EKG Annotationen [MDC] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc | *Version*:2027.0.0-ballot |
 | Draft Stand: 2025-07-30 | *Maschinenlesbarer Name*:MII_VS_Kardio_Metriken_EKG_Annotationen_MDC |
 
  
@@ -38,7 +38,7 @@ ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)
   "id" : "mii-vs-kardio-metriken-ekg-annotationen-mdc",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Metriken_EKG_Annotationen_MDC",
   "title" : "MII VS Kardio Metriken EKG Annotationen [MDC]",
   "status" : "draft",
@@ -59,8 +59,9 @@ ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)
   "description" : "ISO/IEEE 11073 Codes für Metriken (Part 2) und EKG Annotationen (Part 10)",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {

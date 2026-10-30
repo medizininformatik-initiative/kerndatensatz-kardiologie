@@ -1,4 +1,4 @@
-# MII PR Kardio EKG Referenz - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII PR Kardio EKG Referenz - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-04 | *Maschinenlesbarer Name*:MII_PR_Kardio_EKG_Referenz |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz | *Version*:2027.0.0-ballot |
+| Draft Stand: 2026-10-30 | *Maschinenlesbarer Name*:MII_PR_Kardio_EKG_Referenz |
 
  
 Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespeichert werden. 
@@ -18,7 +18,7 @@ Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespei
 
 * Examples for this Profile: [DocumentReference/mii-exa-kardio-ekg-referenz](DocumentReference-mii-exa-kardio-ekg-referenz.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-referenz.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-referenz.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -96,12 +96,12 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "id" : "mii-pr-kardio-ekg-referenz",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Kardio_EKG_Referenz",
   "title" : "MII PR Kardio EKG Referenz",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-09-04T19:01:50+00:00",
+  "date" : "2026-10-30T07:50:37+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -117,8 +117,9 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "description" : "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespeichert werden.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "fhirVersion" : "4.0.1",

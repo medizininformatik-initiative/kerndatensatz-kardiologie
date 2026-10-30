@@ -1,4 +1,4 @@
-# Profile: EKG-Metadaten - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# Profile: EKG-Metadaten - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Profile: EKG-Metadaten**

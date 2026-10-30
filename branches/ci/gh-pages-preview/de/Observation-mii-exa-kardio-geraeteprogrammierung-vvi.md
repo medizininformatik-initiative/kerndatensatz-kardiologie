@@ -1,4 +1,4 @@
-# MII EXA Kardio Geräteprogrammierung VVI - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio Geräteprogrammierung VVI - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)

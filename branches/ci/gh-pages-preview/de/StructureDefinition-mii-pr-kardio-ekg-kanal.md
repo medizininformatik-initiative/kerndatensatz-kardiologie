@@ -1,4 +1,4 @@
-# MII PR Kardio EKG Kanal - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII PR Kardio EKG Kanal - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal | *Version*:2027.0.0-ballot |
 | Draft Stand: 2025-07-07 | *Maschinenlesbarer Name*:MII_PR_Kardio_EKG_Kanal |
 
  
@@ -18,7 +18,7 @@ Profil zur Abbildung eines EKG-Kanals.
 
 * Examples for this Profile: [Device/mii-exa-kardio-ekg-kanal-i](Device-mii-exa-kardio-ekg-kanal-i.md), [Device/mii-exa-kardio-ekg-kanal-ii](Device-mii-exa-kardio-ekg-kanal-ii.md) and [Device/mii-exa-kardio-ekg-kanal-iii](Device-mii-exa-kardio-ekg-kanal-iii.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-kanal.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-kanal.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -54,7 +54,7 @@ Mandatory: 14 elements
 
 This structure refers to these other structures:
 
-* [MII PR Kardio EKG Gerät (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot.rc1)](StructureDefinition-mii-pr-kardio-ekg-geraet.md)
+* [MII PR Kardio EKG Gerät (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot)](StructureDefinition-mii-pr-kardio-ekg-geraet.md)
 
 **Slices**
 
@@ -93,7 +93,7 @@ Mandatory: 14 elements
 
 This structure refers to these other structures:
 
-* [MII PR Kardio EKG Gerät (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot.rc1)](StructureDefinition-mii-pr-kardio-ekg-geraet.md)
+* [MII PR Kardio EKG Gerät (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot)](StructureDefinition-mii-pr-kardio-ekg-geraet.md)
 
 **Slices**
 
@@ -116,7 +116,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "id" : "mii-pr-kardio-ekg-kanal",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-kanal",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Kardio_EKG_Kanal",
   "title" : "MII PR Kardio EKG Kanal",
   "status" : "draft",
@@ -137,8 +137,9 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "description" : "Profil zur Abbildung eines EKG-Kanals.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "fhirVersion" : "4.0.1",
@@ -222,7 +223,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1"
+        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot"
       }
     },
     {
@@ -260,7 +261,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1"
+        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot"
       }
     },
     {
@@ -300,7 +301,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc|2027.0.0-ballot.rc1"
+        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc|2027.0.0-ballot"
       }
     },
     {
@@ -309,7 +310,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot.rc1"]
+        "targetProfile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot"]
       }],
       "mustSupport" : true
     }]

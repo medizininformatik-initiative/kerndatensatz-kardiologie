@@ -144,7 +144,7 @@ UDILabelName | UserFriendlyName | PatientReportedName | ManufactureDeviceName | 
 ","The part number of the device","The part number of the device.","Alphanumeric Maximum 20.","","","","","","","","",,,,,"",,,,"Device.partNumber",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".playedRole[typeCode=MANU].id","FiveWs.what[x]"
 "Device.type","Device.type","","","",1,1,"Y","","","CodeableConcept {[]} {[]}
-","The kind or type of device","The kind or type of device.","","","","","","","","","",,"required","","https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot.rc1","",,,,"Device.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","The kind or type of device","The kind or type of device.","","","","","","","","","",,"required","","https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot","",,,,"Device.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Device.type.id","Device.type.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

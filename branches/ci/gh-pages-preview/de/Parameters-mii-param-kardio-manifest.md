@@ -1,4 +1,4 @@
-# MII Param Kardio Manifest - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII Param Kardio Manifest - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -20,7 +20,7 @@
   "language" : "de",
   "parameter" : [{
     "name" : "system-version",
-    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
   },
   {
     "name" : "system-version",

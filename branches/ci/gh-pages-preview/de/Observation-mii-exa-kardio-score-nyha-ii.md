@@ -1,4 +1,4 @@
-# MII EXA Kardio Score NYHA II - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio Score NYHA II - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -21,7 +21,7 @@
   "contained" : [{
     "resourceType" : "Patient",
     "id" : "Beispielpatient",
-    "language" : "de-DE",
+    "language" : "de",
     "identifier" : [{
       "use" : "usual",
       "type" : {
@@ -52,7 +52,7 @@
   {
     "resourceType" : "Encounter",
     "id" : "Beispielfall",
-    "language" : "de-DE",
+    "language" : "de",
     "status" : "finished",
     "class" : {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -81,13 +81,13 @@
   "code" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "762994006",
       "display" : "New York Heart Association Classification class"
     },
     {
       "system" : "http://loinc.org",
-      "version" : "2.82",
+      "version" : "2.83",
       "code" : "93124-6",
       "display" : "New York Heart Association Functional Classification panel"
     }]
@@ -106,7 +106,7 @@
   "valueCodeableConcept" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "421704003",
       "display" : "New York Heart Association Classification - Class II"
     }]

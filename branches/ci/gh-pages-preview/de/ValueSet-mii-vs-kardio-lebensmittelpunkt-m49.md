@@ -1,4 +1,4 @@
-# MII VS Kardio Lebensmittelpunkt [M49] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Lebensmittelpunkt [M49] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-lebensmittelpunkt-m49 | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-lebensmittelpunkt-m49 | *Version*:2027.0.0-ballot |
 | Draft Stand: 2025-03-03 | *Maschinenlesbarer Name*:MII_VS_Kardio_Lebensmittelpunkt_M49 |
 
  
@@ -40,7 +40,7 @@ No Expansion for this valueset (Unknown Code System)
   "id" : "mii-vs-kardio-lebensmittelpunkt-m49",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-lebensmittelpunkt-m49",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Lebensmittelpunkt_M49",
   "title" : "MII VS Kardio Lebensmittelpunkt [M49]",
   "status" : "draft",
@@ -61,8 +61,9 @@ No Expansion for this valueset (Unknown Code System)
   "description" : "Dieses Value Set bildet den aktuellen Lebensmittelpunkt des Patienten unabhängig von seiner Herkunft ab. Damit wird der Parameter 'Geographic region' des SMART-REACH-Scores mit der Ergänzung Deutschland abgebildet.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {
@@ -86,7 +87,7 @@ No Expansion for this valueset (Unknown Code System)
     },
     {
       "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-lebensmittelpunkt",
-      "version" : "2027.0.0-ballot.rc1",
+      "version" : "2027.0.0-ballot",
       "concept" : [{
         "code" : "ao"
       }]

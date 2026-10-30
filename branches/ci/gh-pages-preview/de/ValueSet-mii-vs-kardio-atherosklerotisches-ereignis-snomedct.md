@@ -1,4 +1,4 @@
-# MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-09-05 | *Maschinenlesbarer Name*:MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT |
 
  
@@ -24,7 +24,7 @@ ValueSet for Relevant Codes for Atherosclerotic Events
 
 ### Expansion
 
-This value set cannot be expanded because the terminology server(s) deemed it too costly to do so
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -40,7 +40,7 @@ This value set cannot be expanded because the terminology server(s) deemed it to
   "id" : "mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT",
   "title" : "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
   "status" : "active",
@@ -61,14 +61,15 @@ This value set cannot be expanded because the terminology server(s) deemed it to
   "description" : "ValueSet for Relevant Codes for Atherosclerotic Events",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {
     "include" : [{
       "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
-      "version" : "2027.0.0-ballot.rc1"
+      "version" : "2027.0.0-ballot"
     },
     {
       "system" : "http://snomed.info/sct",

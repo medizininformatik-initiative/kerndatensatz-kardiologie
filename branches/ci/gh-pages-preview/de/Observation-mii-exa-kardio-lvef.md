@@ -1,4 +1,4 @@
-# MII EXA Kardio LVEF - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio LVEF - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -21,7 +21,7 @@
   "contained" : [{
     "resourceType" : "Patient",
     "id" : "Beispielpatient",
-    "language" : "de-DE",
+    "language" : "de",
     "identifier" : [{
       "use" : "usual",
       "type" : {
@@ -52,7 +52,7 @@
   {
     "resourceType" : "Encounter",
     "id" : "Beispielfall",
-    "language" : "de-DE",
+    "language" : "de",
     "status" : "finished",
     "class" : {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -89,13 +89,13 @@
   "code" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "250908004",
       "display" : "Left ventricular ejection fraction"
     },
     {
       "system" : "http://loinc.org",
-      "version" : "2.82",
+      "version" : "2.83",
       "code" : "10230-1",
       "display" : "Left ventricular ejection fraction"
     }],
@@ -127,7 +127,7 @@
   "bodySite" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "87878005",
       "display" : "Left cardiac ventricular structure"
     }],
@@ -136,7 +136,7 @@
   "method" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "40701008",
       "display" : "Echocardiography"
     }],
@@ -155,23 +155,8 @@
     "text" : "Normal"
   },
   {
-    "low" : {
-      "value" : 41,
-      "unit" : "%",
-      "system" : "http://unitsofmeasure.org",
-      "code" : "%"
-    },
     "high" : {
       "value" : 49,
-      "unit" : "%",
-      "system" : "http://unitsofmeasure.org",
-      "code" : "%"
-    },
-    "text" : "Mildly reduced"
-  },
-  {
-    "high" : {
-      "value" : 40,
       "unit" : "%",
       "system" : "http://unitsofmeasure.org",
       "code" : "%"

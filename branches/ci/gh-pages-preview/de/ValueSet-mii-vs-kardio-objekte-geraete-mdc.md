@@ -1,4 +1,4 @@
-# MII VS Kardio MDC Objects Devices [MDC] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio MDC Objects Devices [MDC] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc | *Version*:2027.0.0-ballot |
 | Draft Stand: 2025-07-09 | *Maschinenlesbarer Name*:MII_VS_Kardio_Objekte_Geraete_MDC |
 
  
@@ -39,7 +39,7 @@ ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)
   "id" : "mii-vs-kardio-objekte-geraete-mdc",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Objekte_Geraete_MDC",
   "title" : "MII VS Kardio MDC Objects Devices [MDC]",
   "status" : "draft",
@@ -60,8 +60,9 @@ ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)
   "description" : "ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {

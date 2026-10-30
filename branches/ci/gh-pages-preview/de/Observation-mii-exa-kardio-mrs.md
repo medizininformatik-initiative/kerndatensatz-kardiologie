@@ -1,4 +1,4 @@
-# MII EXA Kardio MRS - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII EXA Kardio MRS - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -21,7 +21,7 @@
   "contained" : [{
     "resourceType" : "Patient",
     "id" : "Beispielpatient",
-    "language" : "de-DE",
+    "language" : "de",
     "identifier" : [{
       "use" : "usual",
       "type" : {
@@ -52,7 +52,7 @@
   {
     "resourceType" : "Encounter",
     "id" : "Beispielfall",
-    "language" : "de-DE",
+    "language" : "de",
     "status" : "finished",
     "class" : {
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -81,13 +81,13 @@
   "code" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20250701",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "code" : "1255866005",
       "display" : "Modified Rankin Scale score"
     },
     {
       "system" : "http://loinc.org",
-      "version" : "2.82",
+      "version" : "2.83",
       "code" : "75859-9",
       "display" : "Modified rankin scale"
     }]
@@ -106,7 +106,7 @@
   "valueCodeableConcept" : {
     "coding" : [{
       "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
-      "version" : "2027.0.0-ballot.rc1",
+      "version" : "2027.0.0-ballot",
       "code" : "mRSbigger3",
       "display" : "Die Einstufung auf der mRS-Skala liegt bei mehr als 3 (Patient kann nicht ohne fremde Hilfe gehen)"
     }]

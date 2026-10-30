@@ -1,4 +1,4 @@
-# MII PR Kardio Linksventrikulaere Ejektionsfraktion - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII PR Kardio Linksventrikulaere Ejektionsfraktion - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-12-08 | *Maschinenlesbarer Name*:MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion |
 
  
@@ -18,7 +18,7 @@ Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekt
 
 * Examples for this Profile: [Observation/mii-exa-kardio-lvef](Observation-mii-exa-kardio-lvef.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -46,7 +46,7 @@ Diese Struktur ist abgeleitet von [Observation](http://hl7.org/fhir/R4/observati
 
 ** Summary **
 
-Mandatory: 9 elements(7 nested mandatory elements)
+Mandatory: 9 elements(6 nested mandatory elements)
  Must-Support: 17 elements
 
 **Structures**
@@ -86,7 +86,7 @@ Diese Struktur ist abgeleitet von [Observation](http://hl7.org/fhir/R4/observati
 
 ** Summary **
 
-Mandatory: 9 elements(7 nested mandatory elements)
+Mandatory: 9 elements(6 nested mandatory elements)
  Must-Support: 17 elements
 
 **Structures**
@@ -118,7 +118,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "id" : "mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion",
   "title" : "MII PR Kardio Linksventrikulaere Ejektionsfraktion",
   "status" : "active",
@@ -139,8 +139,9 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "description" : "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Kontext des Projekts Acribis.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "fhirVersion" : "4.0.1",
@@ -188,14 +189,14 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
         "severity" : "error",
         "human" : "If there is no component or hasMember element then either a value[x] or a data absent reason must be present",
         "expression" : "(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())",
-        "source" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion|2027.0.0-ballot.rc1"
+        "source" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion|2027.0.0-ballot"
       },
       {
         "key" : "mii-icu-1",
         "severity" : "error",
         "human" : "If there is no Observation.value, a dataAbsentReason must be given.",
         "expression" : "value.exists().not() implies dataAbsentReason.exists()",
-        "source" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion|2027.0.0-ballot.rc1"
+        "source" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion|2027.0.0-ballot"
       }]
     },
     {
@@ -387,83 +388,20 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "max" : "1"
     },
     {
-      "id" : "Observation.referenceRange:normal.low.value",
-      "path" : "Observation.referenceRange.low.value",
-      "patternDecimal" : 50
-    },
-    {
-      "id" : "Observation.referenceRange:normal.low.unit",
-      "path" : "Observation.referenceRange.low.unit",
-      "patternString" : "%"
-    },
-    {
-      "id" : "Observation.referenceRange:normal.low.system",
-      "path" : "Observation.referenceRange.low.system",
-      "patternUri" : "http://unitsofmeasure.org"
-    },
-    {
-      "id" : "Observation.referenceRange:normal.low.code",
-      "path" : "Observation.referenceRange.low.code",
-      "patternCode" : "%"
+      "id" : "Observation.referenceRange:normal.low",
+      "path" : "Observation.referenceRange.low",
+      "patternQuantity" : {
+        "value" : 50,
+        "unit" : "%",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "%"
+      }
     },
     {
       "id" : "Observation.referenceRange:normal.text",
       "path" : "Observation.referenceRange.text",
       "min" : 1,
       "patternString" : "Normal"
-    },
-    {
-      "id" : "Observation.referenceRange:mild",
-      "path" : "Observation.referenceRange",
-      "sliceName" : "mild",
-      "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "Observation.referenceRange:mild.low.value",
-      "path" : "Observation.referenceRange.low.value",
-      "patternDecimal" : 41
-    },
-    {
-      "id" : "Observation.referenceRange:mild.low.unit",
-      "path" : "Observation.referenceRange.low.unit",
-      "patternString" : "%"
-    },
-    {
-      "id" : "Observation.referenceRange:mild.low.system",
-      "path" : "Observation.referenceRange.low.system",
-      "patternUri" : "http://unitsofmeasure.org"
-    },
-    {
-      "id" : "Observation.referenceRange:mild.low.code",
-      "path" : "Observation.referenceRange.low.code",
-      "patternCode" : "%"
-    },
-    {
-      "id" : "Observation.referenceRange:mild.high.value",
-      "path" : "Observation.referenceRange.high.value",
-      "patternDecimal" : 49
-    },
-    {
-      "id" : "Observation.referenceRange:mild.high.unit",
-      "path" : "Observation.referenceRange.high.unit",
-      "patternString" : "%"
-    },
-    {
-      "id" : "Observation.referenceRange:mild.high.system",
-      "path" : "Observation.referenceRange.high.system",
-      "patternUri" : "http://unitsofmeasure.org"
-    },
-    {
-      "id" : "Observation.referenceRange:mild.high.code",
-      "path" : "Observation.referenceRange.high.code",
-      "patternCode" : "%"
-    },
-    {
-      "id" : "Observation.referenceRange:mild.text",
-      "path" : "Observation.referenceRange.text",
-      "min" : 1,
-      "patternString" : "Mildly reduced"
     },
     {
       "id" : "Observation.referenceRange:reduced",
@@ -473,24 +411,14 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "max" : "1"
     },
     {
-      "id" : "Observation.referenceRange:reduced.high.value",
-      "path" : "Observation.referenceRange.high.value",
-      "patternDecimal" : 40
-    },
-    {
-      "id" : "Observation.referenceRange:reduced.high.unit",
-      "path" : "Observation.referenceRange.high.unit",
-      "patternString" : "%"
-    },
-    {
-      "id" : "Observation.referenceRange:reduced.high.system",
-      "path" : "Observation.referenceRange.high.system",
-      "patternUri" : "http://unitsofmeasure.org"
-    },
-    {
-      "id" : "Observation.referenceRange:reduced.high.code",
-      "path" : "Observation.referenceRange.high.code",
-      "patternCode" : "%"
+      "id" : "Observation.referenceRange:reduced.high",
+      "path" : "Observation.referenceRange.high",
+      "patternQuantity" : {
+        "value" : 49,
+        "unit" : "%",
+        "system" : "http://unitsofmeasure.org",
+        "code" : "%"
+      }
     },
     {
       "id" : "Observation.referenceRange:reduced.text",

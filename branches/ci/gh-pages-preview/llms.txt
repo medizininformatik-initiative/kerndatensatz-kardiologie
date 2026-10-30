@@ -1,24 +1,24 @@
-# mii-kerndatensatzmodul-kardiologie#2027.0.0-ballot.rc1: MII IG Modul Kardio DE(de)
+# de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot: MII IG Modul Kardio DE(de)
 
 ## Pages
 
 * [Home](de/index.md)
-* [Referenzen](de/references.md)
 * [Kontext und Bezüge zu anderen Modulen](de/context.md)
-* [Datensätze und Beschreibungen](de/datasets.md)
-* [Profile: KardioDevices](de/profiles-kardiodevices.md)
-* [Anwendungsszenarien](de/scenarios.md)
-* [Profile: Risikofaktoren](de/profiles-risikofaktoren.md)
-* [Beschreibung des Moduls](de/module-description.md)
-* [Profile: EKG-Metadaten](de/profiles-ekg.md)
-* [Profile: Anamnese](de/profiles-anamnese.md)
-* [Artefaktübersicht](de/artifacts.md)
 * [Release Notes](de/release-notes.md)
-* [Profile: Skalen](de/profiles-skalen.md)
-* [Profilübersicht](de/profiles-overview.md)
-* [Profile: Diagnostik](de/profiles-diagnostik.md)
+* [Datensätze und Beschreibungen](de/datasets.md)
+* [Profile: Risikofaktoren](de/profiles-risikofaktoren.md)
+* [Profile: Anamnese](de/profiles-anamnese.md)
+* [Profile: KardioDevices](de/profiles-kardiodevices.md)
 * [Terminologien](de/terminology.md)
+* [Artefaktübersicht](de/artifacts.md)
 * [Informationsmodell (UML)](de/information-model.md)
+* [Beschreibung des Moduls](de/module-description.md)
+* [Profilübersicht](de/profiles-overview.md)
+* [Anwendungsszenarien](de/scenarios.md)
+* [Profile: EKG-Metadaten](de/profiles-ekg.md)
+* [Profile: Diagnostik](de/profiles-diagnostik.md)
+* [Profile: Skalen](de/profiles-skalen.md)
+* [Referenzen](de/references.md)
 
 ## Resources
 

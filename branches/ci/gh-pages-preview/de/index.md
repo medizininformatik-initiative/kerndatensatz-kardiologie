@@ -1,4 +1,4 @@
-# Home - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# Home - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-04 | *Maschinenlesbarer Name*:MII_IG_MODUL_KARDIO_DE |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie | *Version*:2027.0.0-ballot |
+| Draft Stand: 2026-10-30 | *Maschinenlesbarer Name*:MII_IG_MODUL_KARDIO_DE |
 
 # Kerndatensatz-Modul Kardiologie
 
@@ -16,8 +16,8 @@ Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatens
 
 | | |
 | :--- | :--- |
-| Datum | 2026-09-04T19:01:50+00:00 |
-| Version | 2027.0.0-ballot.rc1 |
+| Datum | 2026-10-30T07:50:37+00:00 |
+| Version | 2027.0.0-ballot |
 | Status | draft |
 | Realm | DE |
 
@@ -83,9 +83,14 @@ This publication includes IP covered under the following statements.
 * [ISO/IEEE 11073 Medical Device Communication Nomenclature](http://terminology.hl7.org/6.5.0/CodeSystem-v3-mdc.html): [Device/mii-exa-kardio-ekg-geraet-mortara](Device-mii-exa-kardio-ekg-geraet-mortara.md), [Device/mii-exa-kardio-ekg-kanal-i](Device-mii-exa-kardio-ekg-kanal-i.md)... Show 14 more, [Device/mii-exa-kardio-ekg-kanal-ii](Device-mii-exa-kardio-ekg-kanal-ii.md), [Device/mii-exa-kardio-ekg-kanal-iii](Device-mii-exa-kardio-ekg-kanal-iii.md), [DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus](DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.md), [MII_PR_Kardio_EKG_Annotation](StructureDefinition-mii-pr-kardio-ekg-annotation.md), [MII_PR_Kardio_EKG_Geraet](StructureDefinition-mii-pr-kardio-ekg-geraet.md), [MII_PR_Kardio_EKG_Kanal](StructureDefinition-mii-pr-kardio-ekg-kanal.md), [MII_PR_Kardio_Geraeteprogrammierung](StructureDefinition-mii-pr-kardio-geraeteprogrammierung.md), [MII_PR_Kardio_NBG_Schrittmachermodus](StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.md), [MII_VS_Kardio_EKG_Kanaele_MDC](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md), [MII_VS_Kardio_Geraeteprogrammierung_MDC](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md), [MII_VS_Kardio_Metriken_EKG_Annotationen_MDC](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md), [MII_VS_Kardio_Objekte_Geraete_MDC](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md), [Observation/mii-exa-kardio-ekg-rr-interval](Observation-mii-exa-kardio-ekg-rr-interval.md) and [Observation/mii-exa-kardio-geraeteprogrammierung-vvi](Observation-mii-exa-kardio-geraeteprogrammierung-vvi.md)
 
 
+* ISO maintains the copyright on the country codes, and controls its use carefully. For further details see the ISO 3166 web page: [https://www.iso.org/iso-3166-country-codes.html](https://www.iso.org/iso-3166-country-codes.html)
+
+* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.5.0/CodeSystem-ISO3166Part1.html): [MII_CS_Kardio_Acribis_Questionnaire_Answer](CodeSystem-mii-cs-kardio-acribis-questionnaire-answer.md), [MII_CS_Kardio_Atherosklerotisches_Ereignis](CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.md)... Show 47 more, [MII_CS_Kardio_Lebensmittelpunkt](CodeSystem-mii-cs-kardio-lebensmittelpunkt.md), [MII_CS_Kardio_Modifizierte_Rankin_Skala](CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.md), [MII_CS_Kardio_Supplement_SNOMEDCT](CodeSystem-mii-cs-kardio-supplement-snomedct.md), [MII_IG_MODUL_KARDIO_DE](index.md), [MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF](StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.md), [MII_PR_Kardio_Atherosklerotisches_Erstereignis](StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.md), [MII_PR_Kardio_Device](StructureDefinition-mii-pr-kardio-device.md), [MII_PR_Kardio_Diagnose](StructureDefinition-mii-pr-kardio-diagnose.md), [MII_PR_Kardio_Diagnose_Prozedur_Nein_Unbekannt](StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.md), [MII_PR_Kardio_EKG_Annotation](StructureDefinition-mii-pr-kardio-ekg-annotation.md), [MII_PR_Kardio_EKG_Durchfuehrung](StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.md), [MII_PR_Kardio_EKG_Geraet](StructureDefinition-mii-pr-kardio-ekg-geraet.md), [MII_PR_Kardio_EKG_Geraetedefinition](StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.md), [MII_PR_Kardio_EKG_Kanal](StructureDefinition-mii-pr-kardio-ekg-kanal.md), [MII_PR_Kardio_EKG_Referenz](StructureDefinition-mii-pr-kardio-ekg-referenz.md), [MII_PR_Kardio_Geraeteprogrammierung](StructureDefinition-mii-pr-kardio-geraeteprogrammierung.md), [MII_PR_Kardio_Kardiale_Deviceimplantation](StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.md), [MII_PR_Kardio_Klappenvitium](StructureDefinition-mii-pr-kardio-klappenvitium.md), [MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion](StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.md), [MII_PR_Kardio_NBG_Schrittmachermodus](StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.md), [MII_PR_Kardio_Observation_Rauchen](StructureDefinition-mii-pr-kardio-observation-rauchen.md), [MII_PR_Kardio_Score_Modifizierte_Rankin_Skala](StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.md), [MII_PR_Kardio_Score_NYHA](StructureDefinition-mii-pr-kardio-score-nyha.md), [MII_QN_Kardio_Acribis_Study_FollowUp](Questionnaire-mii-qn-kardio-acribis-study-followup.md), [MII_VS_Kardio_Allergene_SNOMEDCT](ValueSet-mii-vs-kardio-allergene-snomedct.md), [MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT](ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.md), [MII_VS_Kardio_EKG_Kanaele_MDC](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md), [MII_VS_Kardio_EKG_Prozedur_SNOMEDCT](ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.md), [MII_VS_Kardio_Ethnie_SNOMEDCT](ValueSet-mii-vs-kardio-ethnie-snomedct.md), [MII_VS_Kardio_Extended_Condition_Severity_SNOMEDCT](ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.md), [MII_VS_Kardio_Extended_MII_DiagnoseCodes_SNOMED](ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.md), [MII_VS_Kardio_Geraeteprogrammierung_MDC](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md), [MII_VS_Kardio_Geraetetyp_SNOMEDCT](ValueSet-mii-vs-kardio-geraetetyp-snomedct.md), [MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT](ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.md), [MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.md), [MII_VS_Kardio_Kardiale_Deviceimplantation_OPS](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md), [MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.md), [MII_VS_Kardio_Klappenvitium_ALPHAID](ValueSet-mii-vs-kardio-klappenvitium-alphaid.md), [MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT](ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.md), [MII_VS_Kardio_Klappenvitium_ICD](ValueSet-mii-vs-kardio-klappenvitium-icd.md), [MII_VS_Kardio_Klappenvitium_SNOMEDCT](ValueSet-mii-vs-kardio-klappenvitium-snomedct.md), [MII_VS_Kardio_Lebensmittelpunkt_M49](ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.md), [MII_VS_Kardio_Metriken_EKG_Annotationen_MDC](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md), [MII_VS_Kardio_Modifizierte_Rankin_Skala](ValueSet-mii-vs-kardio-modifizierte-rankin-skala.md), [MII_VS_Kardio_NYHA_Klassen_SNOMEDCT](ValueSet-mii-vs-kardio-nyha-klassen-snomedct.md), [MII_VS_Kardio_Nein_Unbekannt](ValueSet-mii-vs-kardio-nein-unbekannt.md) and [MII_VS_Kardio_Objekte_Geraete_MDC](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md)
+
+
 * The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. [https://ucum.org/trac/wiki/TermsOfUse](https://ucum.org/trac/wiki/TermsOfUse)
 
-* [Unified Code for Units of Measure (UCUM)](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-v3-ucum.html): [DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara](DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.md), [Observation/mii-exa-kardio-ekg-rr-interval](Observation-mii-exa-kardio-ekg-rr-interval.md), [Observation/mii-exa-kardio-lvef](Observation-mii-exa-kardio-lvef.md) and [Observation/mii-exa-kardio-raucherstatus](Observation-mii-exa-kardio-raucherstatus.md)
+* [Unified Code for Units of Measure (UCUM)](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-v3-ucum.html): [DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara](DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.md), [MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion](StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.md), [Observation/mii-exa-kardio-ekg-rr-interval](Observation-mii-exa-kardio-ekg-rr-interval.md), [Observation/mii-exa-kardio-lvef](Observation-mii-exa-kardio-lvef.md) and [Observation/mii-exa-kardio-raucherstatus](Observation-mii-exa-kardio-raucherstatus.md)
 
 
 * This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the [license](http://loinc.org/license). LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
@@ -120,7 +125,7 @@ This publication includes IP covered under the following statements.
 
 ## Versionsanalyse
 
-This is an R4 IG. None of the features it uses are changed in R4B, so it can be used as is with R4B systems. Packages for both [R4 (mii-kerndatensatzmodul-kardiologie.r4)](../package.r4.tgz) and [R4B (mii-kerndatensatzmodul-kardiologie.r4b)](../package.r4b.tgz) are available.
+This is an R4 IG. None of the features it uses are changed in R4B, so it can be used as is with R4B systems. Packages for both [R4 (de.medizininformatikinitiative.kerndatensatz.kardiologie.r4)](../package.r4.tgz) and [R4B (de.medizininformatikinitiative.kerndatensatz.kardiologie.r4b)](../package.r4b.tgz) are available.
 
 *There are no Global profiles defined*
 

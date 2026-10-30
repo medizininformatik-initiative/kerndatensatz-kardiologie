@@ -8,7 +8,7 @@
   <language value="de"/>
   <parameter>
     <name value="system-version"/>
-    <valueCanonical value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250701"/>
+    <valueCanonical value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"/>
   </parameter>
   <parameter>
     <name value="system-version"/>

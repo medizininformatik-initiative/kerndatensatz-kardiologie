@@ -45,47 +45,7 @@
   <sch:pattern>
     <sch:title>f:Condition/f:bodySite</sch:title>
     <sch:rule context="f:Condition/f:bodySite">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/bodySite|5.3.0']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/bodySite|5.3.0': maximum cardinality of 'extension' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:Condition/f:onset[x]/f:start/f:extension 1</sch:title>
-    <sch:rule context="f:Condition/f:onset[x]/f:start/f:extension">
-      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:value[x]) &gt;= 1">value[x]: minimum cardinality of 'value[x]' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:Condition/f:onset[x]/f:start/f:extension/f:value[x] 1</sch:title>
-    <sch:rule context="f:Condition/f:onset[x]/f:start/f:extension/f:value[x]">
-      <sch:assert test="count(f:coding) &gt;= 1">coding: minimum cardinality of 'coding' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:Condition/f:onset[x]/f:start/f:extension/f:value[x]/f:coding 1</sch:title>
-    <sch:rule context="f:Condition/f:onset[x]/f:start/f:extension/f:value[x]/f:coding">
-      <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
-      <sch:assert test="count(f:code) &gt;= 1">code: minimum cardinality of 'code' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:Condition/f:onset[x]/f:end/f:extension 1</sch:title>
-    <sch:rule context="f:Condition/f:onset[x]/f:end/f:extension">
-      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:value[x]) &gt;= 1">value[x]: minimum cardinality of 'value[x]' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:Condition/f:onset[x]/f:end/f:extension/f:value[x] 1</sch:title>
-    <sch:rule context="f:Condition/f:onset[x]/f:end/f:extension/f:value[x]">
-      <sch:assert test="count(f:coding) &gt;= 1">coding: minimum cardinality of 'coding' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:Condition/f:onset[x]/f:end/f:extension/f:value[x]/f:coding 1</sch:title>
-    <sch:rule context="f:Condition/f:onset[x]/f:end/f:extension/f:value[x]/f:coding">
-      <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
-      <sch:assert test="count(f:code) &gt;= 1">code: minimum cardinality of 'code' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/bodySite|5.4.0']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/bodySite|5.4.0': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -104,6 +64,26 @@
   <sch:pattern>
     <sch:title>f:Condition/f:onset[x]/f:extension/f:value[x]/f:coding 1</sch:title>
     <sch:rule context="f:Condition/f:onset[x]/f:extension/f:value[x]/f:coding">
+      <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
+      <sch:assert test="count(f:code) &gt;= 1">code: minimum cardinality of 'code' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Condition/f:abatement[x]/f:extension 1</sch:title>
+    <sch:rule context="f:Condition/f:abatement[x]/f:extension">
+      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
+      <sch:assert test="count(f:value[x]) &gt;= 1">value[x]: minimum cardinality of 'value[x]' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Condition/f:abatement[x]/f:extension/f:value[x] 1</sch:title>
+    <sch:rule context="f:Condition/f:abatement[x]/f:extension/f:value[x]">
+      <sch:assert test="count(f:coding) &gt;= 1">coding: minimum cardinality of 'coding' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:Condition/f:abatement[x]/f:extension/f:value[x]/f:coding 1</sch:title>
+    <sch:rule context="f:Condition/f:abatement[x]/f:extension/f:value[x]/f:coding">
       <sch:assert test="count(f:system) &gt;= 1">system: minimum cardinality of 'system' is 1</sch:assert>
       <sch:assert test="count(f:code) &gt;= 1">code: minimum cardinality of 'code' is 1</sch:assert>
     </sch:rule>

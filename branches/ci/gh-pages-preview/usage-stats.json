@@ -1,8 +1,8 @@
 {
-  "package": "mii-kerndatensatzmodul-kardiologie",
-  "version": "2027.0.0-ballot.rc1",
+  "package": "de.medizininformatikinitiative.kerndatensatz.kardiologie",
+  "version": "2027.0.0-ballot",
   "fhirVersion": "4.0.1",
-  "jurisdiction": "276",
+  "jurisdiction": "DE",
   "extensions": [],
   "profiles": {
     "Observation": [
@@ -72,9 +72,8 @@
       "Observation.code.coding"
     ],
     "http://fhir.de/StructureDefinition/lebensphase|1.6.0": [
-      "Condition.onset[x]",
-      "Condition.onset[x].end",
-      "Condition.onset[x].start"
+      "Condition.abatement[x]",
+      "Condition.onset[x]"
     ],
     "http://fhir.de/StructureDefinition/seitenlokalisation|1.6.0": [
       "Condition.code.coding",
@@ -105,17 +104,17 @@
     "http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy": [
       "StructureDefinition"
     ],
-    "http://hl7.org/fhir/StructureDefinition/bodySite|5.3.0": [
+    "http://hl7.org/fhir/StructureDefinition/bodySite|5.4.0": [
       "Condition.bodySite",
       "Procedure.bodySite"
     ],
     "http://hl7.org/fhir/StructureDefinition/condition-assertedDate": [
       "Condition"
     ],
-    "http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.3.0": [
+    "http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.4.0": [
       "Condition"
     ],
-    "http://hl7.org/fhir/StructureDefinition/condition-related|5.3.0": [
+    "http://hl7.org/fhir/StructureDefinition/condition-related|5.4.0": [
       "Condition"
     ],
     "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeCapability": [
@@ -144,9 +143,6 @@
       "Questionnaire.item.item.item",
       "Questionnaire.item.item.item.item",
       "Questionnaire.item.item.item.item.item"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/regex": [
-      "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/resource-approvalDate": [
       "StructureDefinition"
@@ -192,7 +188,7 @@
     "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht": [
       "Procedure"
     ],
-    "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht|2027.0.0-ballot.rc1": [
+    "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht|2027.0.0-ballot": [
       "Procedure"
     ]
   }

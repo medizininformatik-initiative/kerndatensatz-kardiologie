@@ -1,4 +1,4 @@
-# MII QN Kardio Acribis Study FollowUp - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII QN Kardio Acribis Study FollowUp - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,9 +8,9 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup | *Version*:2027.0.0-ballot |
 | Draft Stand: 2025-11-17 | *Maschinenlesbarer Name*:MII_QN_Kardio_Acribis_Study_FollowUp |
-| **Verwendung**: Clinical Focus: Clinical trial (procedure) | |
+| **Verwendung**: Clinical Focus: Clinical trial | |
 
  
 Follow-Up-Fragebogen im Rahmen der Acribis-Studie. 
@@ -38,7 +38,7 @@ Follow-Up-Fragebogen im Rahmen der Acribis-Studie.
   "id" : "mii-qn-kardio-acribis-study-followup",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_QN_Kardio_Acribis_Study_FollowUp",
   "title" : "MII QN Kardio Acribis Study FollowUp",
   "status" : "draft",
@@ -67,14 +67,15 @@ Follow-Up-Fragebogen im Rahmen der Acribis-Studie.
       "coding" : [{
         "system" : "http://snomed.info/sct",
         "code" : "110465008",
-        "display" : "Clinical trial (procedure)"
+        "display" : "Clinical trial"
       }]
     }
   }],
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "purpose" : "Follow-Up-Fragebogen im Rahmen der Acribis-Studie.",
@@ -1198,8 +1199,8 @@ Follow-Up-Fragebogen im Rahmen der Acribis-Studie.
         "linkId" : "o_5",
         "code" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "64572001:{116676008=50960005,47429007=131148009,42752001=789750003,246112005=24484000}",
-          "display" : "64572001|Disease|:{116676008|Associated morphology|=50960005|Hemorrhage|,47429007|Associated with|=131148009|Bleeding|,42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"
+          "code" : "131148009:{42752001=789750003,246112005=24484000}",
+          "display" : "131148009|Bleeding|:{42752001|Due to|=789750003|Spontaneous event|,246112005|Severity|=24484000|Severe|}"
         }],
         "text" : "Trat eine starke spontane Blutung (Starke Blutung, siehe Infobox) auf, die diagnostiziert wurde und ärztlch behandelt werden musste?",
         "type" : "choice",
@@ -1292,7 +1293,7 @@ Follow-Up-Fragebogen im Rahmen der Acribis-Studie.
         "code" : [{
           "system" : "http://snomed.info/sct",
           "code" : "266257000",
-          "display" : "Transient ischemic attack"
+          "display" : "Transient cerebral ischemia"
         }],
         "text" : "Wurde eine Transiente Ischämische Attacke (TIA, siehe Infobox) diagnostiziert?",
         "type" : "choice",

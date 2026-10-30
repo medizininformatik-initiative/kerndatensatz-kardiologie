@@ -1,4 +1,4 @@
-# MII PR Kardio Score Modifizierte Rankin Skala - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII PR Kardio Score Modifizierte Rankin Skala - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala | *Version*:2027.0.0-ballot.rc1 |
-| Active Stand: 2026-09-04 | *Maschinenlesbarer Name*:MII_PR_Kardio_Score_Modifizierte_Rankin_Skala |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-10-30 | *Maschinenlesbarer Name*:MII_PR_Kardio_Score_Modifizierte_Rankin_Skala |
 
  
 Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala. 
@@ -18,7 +18,7 @@ Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rank
 
 * Examples for this Profile: [Observation/mii-exa-kardio-mrs](Observation-mii-exa-kardio-mrs.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -112,12 +112,12 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "id" : "mii-pr-kardio-score-modifizierte-rankin-skala",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Kardio_Score_Modifizierte_Rankin_Skala",
   "title" : "MII PR Kardio Score Modifizierte Rankin Skala",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-04T19:01:50+00:00",
+  "date" : "2026-10-30T07:50:37+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -133,8 +133,9 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "description" : "Profil zur Erfassung des Outcomes eines Schlaganfalls mittels modifizierter Rankin-Skala.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "fhirVersion" : "4.0.1",
@@ -289,7 +290,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala|2027.0.0-ballot.rc1"
+        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala|2027.0.0-ballot"
       }
     }]
   }

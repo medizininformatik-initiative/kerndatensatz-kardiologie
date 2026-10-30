@@ -1,4 +1,4 @@
-# MII VS Kardio Klappenvitium Grad [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Klappenvitium Grad [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-09-18 | *Maschinenlesbarer Name*:MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT |
 
  
@@ -40,7 +40,7 @@ No Expansion for this valueset (Unknown Code System)
   "id" : "mii-vs-kardio-klappenvitium-grad-snomedct",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT",
   "title" : "MII VS Kardio Klappenvitium Grad [SNOMED CT]",
   "status" : "active",
@@ -61,8 +61,9 @@ No Expansion for this valueset (Unknown Code System)
   "description" : "SNOMED CT Codes für den Grad Klappenerkrankungen",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {

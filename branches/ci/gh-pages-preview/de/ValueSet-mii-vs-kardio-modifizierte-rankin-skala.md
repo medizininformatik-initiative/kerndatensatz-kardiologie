@@ -1,4 +1,4 @@
-# MII VS Kardio Modifizierte Rankin Skala - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Modifizierte Rankin Skala - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-09-05 | *Maschinenlesbarer Name*:MII_VS_Kardio_Modifizierte_Rankin_Skala |
 | **Copyright/Rechtliches**: Public Domain | |
 
@@ -39,7 +39,7 @@ Stufen der modifizierten Rankin-Skala
   "id" : "mii-vs-kardio-modifizierte-rankin-skala",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-modifizierte-rankin-skala",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Modifizierte_Rankin_Skala",
   "title" : "MII VS Kardio Modifizierte Rankin Skala",
   "status" : "active",
@@ -60,15 +60,16 @@ Stufen der modifizierten Rankin-Skala
   "description" : "Stufen der modifizierten Rankin-Skala",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "copyright" : "Public Domain",
   "compose" : {
     "include" : [{
       "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-modifizierte-rankin-skala",
-      "version" : "2027.0.0-ballot.rc1"
+      "version" : "2027.0.0-ballot"
     }]
   }
 }

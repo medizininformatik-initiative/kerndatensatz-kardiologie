@@ -1,4 +1,4 @@
-# MII VS Kardio Klappenvitium [ALPHA-ID] - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII VS Kardio Klappenvitium [ALPHA-ID] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid | *Version*:2027.0.0-ballot |
 | Active Stand: 2026-06-12 | *Maschinenlesbarer Name*:MII_VS_Kardio_Klappenvitium_ALPHAID |
 
  
@@ -38,7 +38,7 @@ Alpha-ID-Codes für Klappenerkrankungen
   "id" : "mii-vs-kardio-klappenvitium-alphaid",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Klappenvitium_ALPHAID",
   "title" : "MII VS Kardio Klappenvitium [ALPHA-ID]",
   "status" : "active",
@@ -59,8 +59,9 @@ Alpha-ID-Codes für Klappenerkrankungen
   "description" : "Alpha-ID-Codes für Klappenerkrankungen",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "compose" : {

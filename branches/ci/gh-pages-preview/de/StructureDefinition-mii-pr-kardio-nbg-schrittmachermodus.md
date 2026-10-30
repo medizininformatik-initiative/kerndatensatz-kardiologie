@@ -1,4 +1,4 @@
-# MII PR Kardio NBG Schrittmachermodus - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII PR Kardio NBG Schrittmachermodus - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-05-13 | *Maschinenlesbarer Name*:MII_PR_Kardio_NBG_Schrittmachermodus |
 
  
@@ -18,7 +18,7 @@ Dieses Profil bildet die Einstellungsmöglichkeit eines Herzschrittmacher nach d
 
 * Examples for this Profile: [DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus](DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-kerndatensatzmodul-kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -88,7 +88,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "id" : "mii-pr-kardio-nbg-schrittmachermodus",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Kardio_NBG_Schrittmachermodus",
   "title" : "MII PR Kardio NBG Schrittmachermodus",
   "status" : "active",
@@ -109,8 +109,9 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "description" : "Dieses Profil bildet die Einstellungsmöglichkeit eines Herzschrittmacher nach dem NBG-Standard ab.\r\nDie konkrete Programmierung eines Herzschrittmachers zu einem bestimmmten Zeitpunkt oder in einem Zeitraum wird in einer Observation abgebildet.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "fhirVersion" : "4.0.1",

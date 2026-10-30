@@ -1,4 +1,4 @@
-# MII CS Kardio ACRIBiS Questionnaire Answer - MII IG Modul Kardio DE v2027.0.0-ballot.rc1
+# MII CS Kardio ACRIBiS Questionnaire Answer - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-09-03 | *Maschinenlesbarer Name*:MII_CS_Kardio_Acribis_Questionnaire_Answer |
 
  
@@ -32,7 +32,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "id" : "mii-cs-kardio-acribis-questionnaire-answer",
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-acribis-questionnaire-answer",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_CS_Kardio_Acribis_Questionnaire_Answer",
   "title" : "MII CS Kardio ACRIBiS Questionnaire Answer",
   "status" : "active",
@@ -53,8 +53,9 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "description" : "Questionnaire-lokale Antwortcodes für den ACRIBiS Follow-Up-Fragebogen.",
   "jurisdiction" : [{
     "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "276"
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
     }]
   }],
   "caseSensitive" : true,

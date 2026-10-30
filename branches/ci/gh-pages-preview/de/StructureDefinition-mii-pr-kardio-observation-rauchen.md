@@ -129,7 +129,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio Observation Rauchen",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-30T09:25:40+00:00",
+  "date" : "2026-10-30T10:55:39+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -260,7 +260,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
           "type" : "value",
           "path" : "code"
         }],
-        "description" : "Zusätzliche Angaben zum Rauchverhalten.",
+        "description" : "Slicing nach component.code",
         "ordered" : false,
         "rules" : "open"
       },
@@ -270,7 +270,8 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Observation.component:packungsjahre",
       "path" : "Observation.component",
       "sliceName" : "packungsjahre",
-      "short" : "Die Zahl der täglich konsumierten Zigarettenpackungen (Inhalt 20 Stück) wird mit der Zahl der Raucherjahre multipliziert (siehe https://cde.nlm.nih.gov/deView?tinyId=Q1fNmemkyg).",
+      "short" : "Packungsjahre (Packungsgröße: 20)",
+      "definition" : "Die Zahl der täglich konsumierten Zigarettenpackungen (Inhalt 20 Stück) wird mit der Zahl der Raucherjahre multipliziert (siehe https://cde.nlm.nih.gov/deView?tinyId=Q1fNmemkyg).",
       "min" : 0,
       "max" : "*"
     },
@@ -323,6 +324,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Observation.component:zigarettenProTag",
       "path" : "Observation.component",
       "sliceName" : "zigarettenProTag",
+      "short" : "Anzahl täglich gerauchter Zigaretten (Teilangabe zur Berechnung der Packungsjahre)",
       "min" : 0,
       "max" : "*"
     },
@@ -375,6 +377,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Observation.component:rauchbeginn",
       "path" : "Observation.component",
       "sliceName" : "rauchbeginn",
+      "short" : "Rauchbeginn entweder als 'Alter bei Rauchbeginn' (Quantity in Jahren(a)) oder 'Datum bei Rauchbeginn' (dateTime)",
       "min" : 0,
       "max" : "*"
     },
@@ -446,6 +449,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Observation.component:rauchdauer",
       "path" : "Observation.component",
       "sliceName" : "rauchdauer",
+      "short" : "Gesamtdauer des Rauchens in Jahren (a)",
       "min" : 0,
       "max" : "*"
     },

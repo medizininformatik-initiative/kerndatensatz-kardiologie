@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for MII_IG_MODUL_KARDIO_DE</h1>
- <p>Generated Fri Oct 30 10:50:28 UTC 2026, FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot (canonical = <a href="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio</a> (<a href="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/history.html">history</a>))</p>
+ <p>Generated Fri Oct 30 12:24:11 UTC 2026, FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot (canonical = <a href="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio">https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio</a> (<a href="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -205,13 +205,6 @@
     <td></td>
     <td>http://fhir.de/CodeSystem/bfarm/ops</td>
     <td>[http://fhir.de/CodeSystem/bfarm/ops]: authoritative = , candidates=http://127.0.0.1:8090/fhir</td>
-  </tr>
-  <tr>
-    <td>Use primary server for http://snomed.info/sct</td>
-    <td>http://127.0.0.1:8090/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>[http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701]: authoritative = , candidates=http://127.0.0.1:8090/fhir</td>
   </tr>
   <tr>
     <td>Use primary server for http://snomed.info/sct</td>
@@ -539,6 +532,13 @@
     <td>Use primary server for http://snomed.info/sct</td>
     <td>http://127.0.0.1:8090/fhir</td>
     <td></td>
+    <td>http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701</td>
+    <td>[http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701]: authoritative = , candidates=http://127.0.0.1:8090/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>http://127.0.0.1:8090/fhir</td>
+    <td>https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2027.0.0-ballot</td>
     <td>http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701</td>
     <td>[http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701]: authoritative = , candidates=http://127.0.0.1:8090/fhir</td>
   </tr>
@@ -1994,7 +1994,7 @@
   <tr>
     <td>Use primary server for urn:ietf:bcp:47</td>
     <td>http://127.0.0.1:8090/fhir</td>
-    <td>urn:uuid:fe1620eb-c587-4749-9995-c4c9a5e90d6e|1</td>
+    <td>urn:uuid:0644535b-9692-42da-a907-5358b1c1a867|1</td>
     <td>urn:ietf:bcp:47</td>
     <td>[urn:ietf:bcp:47]: authoritative = , candidates=http://127.0.0.1:8090/fhir</td>
   </tr>
@@ -2008,7 +2008,7 @@
   <tr>
     <td>Use primary server for urn:ietf:bcp:47</td>
     <td>http://127.0.0.1:8090/fhir</td>
-    <td>urn:uuid:fe1620eb-c587-4749-9995-c4c9a5e90d6e|1</td>
+    <td>urn:uuid:0644535b-9692-42da-a907-5358b1c1a867|1</td>
     <td>urn:ietf:bcp:47</td>
     <td>[urn:ietf:bcp:47]: authoritative = , candidates=http://127.0.0.1:8090/fhir</td>
   </tr>
@@ -2596,7 +2596,7 @@
   <tr>
     <td>Use primary server for urn:ietf:bcp:13</td>
     <td>http://127.0.0.1:8090/fhir</td>
-    <td>urn:uuid:9e8222fe-6789-47af-af31-7b53af371af4|1</td>
+    <td>urn:uuid:a5d0d5cd-7ee8-4d85-a782-0f797d0925c5|1</td>
     <td>urn:ietf:bcp:13</td>
     <td>[urn:ietf:bcp:13]: authoritative = , candidates=http://127.0.0.1:8090/fhir</td>
   </tr>
@@ -3752,13 +3752,13 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication&amp;nocache=1793352689634</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication&amp;nocache=1793358069549</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793353086778</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793358536944</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication&amp;language=de&amp;nocache=1793356608182</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id&amp;usage=publication&amp;language=de&amp;nocache=1793362143458</span>
         </li>
       </ul>
     </td>
@@ -3766,55 +3766,55 @@
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/alpha-id|2018</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2018&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2018: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2018&amp;usage=publication&amp;nocache=1793352688728</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2018&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2018: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2018&amp;usage=publication&amp;nocache=1793358068404</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/alpha-id|2019</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2019&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2019: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2019&amp;usage=publication&amp;nocache=1793352687828</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2019&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2019: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2019&amp;usage=publication&amp;nocache=1793358067266</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/alpha-id|2020</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2020&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2020: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2020&amp;usage=publication&amp;nocache=1793352686858</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2020&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2020: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2020&amp;usage=publication&amp;nocache=1793358066139</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/alpha-id|2021</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2021&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2021: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2021&amp;usage=publication&amp;nocache=1793352685915</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2021&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2021: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2021&amp;usage=publication&amp;nocache=1793358064991</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/alpha-id|2022</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2022&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2022: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2022&amp;usage=publication&amp;nocache=1793352684981</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2022&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2022: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2022&amp;usage=publication&amp;nocache=1793358063838</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/alpha-id|2023</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2023&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2023: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2023&amp;usage=publication&amp;nocache=1793352684049</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2023&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2023: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2023&amp;usage=publication&amp;nocache=1793358062708</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/alpha-id|2024</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2024&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2024: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2024&amp;usage=publication&amp;nocache=1793352683111</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2024&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2024: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2024&amp;usage=publication&amp;nocache=1793358061571</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/alpha-id|2025</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2025&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2025: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2025&amp;usage=publication&amp;nocache=1793352682225</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2025&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2025: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2025&amp;usage=publication&amp;nocache=1793358060426</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/alpha-id|2026</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2026&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2026: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2026&amp;usage=publication&amp;nocache=1793352681309</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2026&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/alpha-id|2026: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Falpha-id%7C2026&amp;usage=publication&amp;nocache=1793358059308</span>
     </td>
   </tr>
   <tr>
@@ -3822,13 +3822,13 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication&amp;nocache=1793352677313</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication&amp;nocache=1793358054407</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793353091121</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793358542346</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication&amp;language=de&amp;nocache=1793353168220</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm&amp;usage=publication&amp;language=de&amp;nocache=1793358627410</span>
         </li>
       </ul>
     </td>
@@ -3838,10 +3838,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2009&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2009: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2009&amp;usage=publication&amp;nocache=1793352676384</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2009&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2009: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2009&amp;usage=publication&amp;nocache=1793358053276</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2009&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2009: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2009&amp;usage=publication&amp;language=de&amp;nocache=1793353244696</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2009&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2009: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2009&amp;usage=publication&amp;language=de&amp;nocache=1793358731818</span>
         </li>
       </ul>
     </td>
@@ -3851,10 +3851,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2010&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2010: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2010&amp;usage=publication&amp;nocache=1793352675457</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2010&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2010: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2010&amp;usage=publication&amp;nocache=1793358052148</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2010&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2010: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2010&amp;usage=publication&amp;language=de&amp;nocache=1793353244689</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2010&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2010: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2010&amp;usage=publication&amp;language=de&amp;nocache=1793358731808</span>
         </li>
       </ul>
     </td>
@@ -3864,10 +3864,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2011&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2011: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2011&amp;usage=publication&amp;nocache=1793352674533</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2011&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2011: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2011&amp;usage=publication&amp;nocache=1793358050973</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2011&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2011: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2011&amp;usage=publication&amp;language=de&amp;nocache=1793353244690</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2011&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2011: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2011&amp;usage=publication&amp;language=de&amp;nocache=1793358731809</span>
         </li>
       </ul>
     </td>
@@ -3877,10 +3877,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2012&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2012: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2012&amp;usage=publication&amp;nocache=1793352673608</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2012&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2012: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2012&amp;usage=publication&amp;nocache=1793358049837</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2012&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2012: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2012&amp;usage=publication&amp;language=de&amp;nocache=1793353244691</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2012&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2012: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2012&amp;usage=publication&amp;language=de&amp;nocache=1793358731811</span>
         </li>
       </ul>
     </td>
@@ -3890,10 +3890,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2013&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2013: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2013&amp;usage=publication&amp;nocache=1793352672694</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2013&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2013: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2013&amp;usage=publication&amp;nocache=1793358048694</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2013&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2013: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2013&amp;usage=publication&amp;language=de&amp;nocache=1793353244692</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2013&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2013: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2013&amp;usage=publication&amp;language=de&amp;nocache=1793358731812</span>
         </li>
       </ul>
     </td>
@@ -3903,10 +3903,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2014&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2014: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2014&amp;usage=publication&amp;nocache=1793352671716</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2014&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2014: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2014&amp;usage=publication&amp;nocache=1793358047504</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2014&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2014: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2014&amp;usage=publication&amp;language=de&amp;nocache=1793353244693</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2014&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2014: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2014&amp;usage=publication&amp;language=de&amp;nocache=1793358731814</span>
         </li>
       </ul>
     </td>
@@ -3916,10 +3916,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2015&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2015: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2015&amp;usage=publication&amp;nocache=1793352670781</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2015&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2015: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2015&amp;usage=publication&amp;nocache=1793358046377</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2015&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2015: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2015&amp;usage=publication&amp;language=de&amp;nocache=1793353244694</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2015&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2015: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2015&amp;usage=publication&amp;language=de&amp;nocache=1793358731814</span>
         </li>
       </ul>
     </td>
@@ -3929,10 +3929,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2016&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2016: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2016&amp;usage=publication&amp;nocache=1793352669849</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2016&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2016: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2016&amp;usage=publication&amp;nocache=1793358045190</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2016&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2016: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2016&amp;usage=publication&amp;language=de&amp;nocache=1793353244694</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2016&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2016: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2016&amp;usage=publication&amp;language=de&amp;nocache=1793358731815</span>
         </li>
       </ul>
     </td>
@@ -3942,10 +3942,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2017&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2017: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2017&amp;usage=publication&amp;nocache=1793352668942</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2017&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2017: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2017&amp;usage=publication&amp;nocache=1793358044068</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2017&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2017: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2017&amp;usage=publication&amp;language=de&amp;nocache=1793353244694</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2017&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2017: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2017&amp;usage=publication&amp;language=de&amp;nocache=1793358731816</span>
         </li>
       </ul>
     </td>
@@ -3955,10 +3955,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2018&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2018: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2018&amp;usage=publication&amp;nocache=1793352668016</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2018&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2018: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2018&amp;usage=publication&amp;nocache=1793358042928</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2018&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2018: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2018&amp;usage=publication&amp;language=de&amp;nocache=1793353244695</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2018&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2018: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2018&amp;usage=publication&amp;language=de&amp;nocache=1793358731817</span>
         </li>
       </ul>
     </td>
@@ -3968,10 +3968,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2019&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2019: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2019&amp;usage=publication&amp;nocache=1793352667112</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2019&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2019: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2019&amp;usage=publication&amp;nocache=1793358041775</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2019&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2019: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2019&amp;usage=publication&amp;language=de&amp;nocache=1793353244695</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2019&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2019: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2019&amp;usage=publication&amp;language=de&amp;nocache=1793358731818</span>
         </li>
       </ul>
     </td>
@@ -3981,10 +3981,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2020&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2020: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2020&amp;usage=publication&amp;nocache=1793352666149</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2020&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2020: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2020&amp;usage=publication&amp;nocache=1793358040605</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2020&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2020: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2020&amp;usage=publication&amp;language=de&amp;nocache=1793353244688</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2020&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2020: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2020&amp;usage=publication&amp;language=de&amp;nocache=1793358731806</span>
         </li>
       </ul>
     </td>
@@ -3994,10 +3994,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2021&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2021: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2021&amp;usage=publication&amp;nocache=1793352665190</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2021&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2021: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2021&amp;usage=publication&amp;nocache=1793358039440</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2021&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2021: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2021&amp;usage=publication&amp;language=de&amp;nocache=1793353244689</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2021&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2021: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2021&amp;usage=publication&amp;language=de&amp;nocache=1793358731807</span>
         </li>
       </ul>
     </td>
@@ -4007,10 +4007,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2022&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2022: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2022&amp;usage=publication&amp;nocache=1793352664250</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2022&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2022: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2022&amp;usage=publication&amp;nocache=1793358038341</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2022&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2022: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2022&amp;usage=publication&amp;language=de&amp;nocache=1793353244690</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2022&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2022: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2022&amp;usage=publication&amp;language=de&amp;nocache=1793358731809</span>
         </li>
       </ul>
     </td>
@@ -4020,10 +4020,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2023&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2023: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2023&amp;usage=publication&amp;nocache=1793352663333</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2023&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2023: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2023&amp;usage=publication&amp;nocache=1793358037224</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2023&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2023: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2023&amp;usage=publication&amp;language=de&amp;nocache=1793353244691</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2023&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2023: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2023&amp;usage=publication&amp;language=de&amp;nocache=1793358731810</span>
         </li>
       </ul>
     </td>
@@ -4033,10 +4033,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2024&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2024: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2024&amp;usage=publication&amp;nocache=1793352662433</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2024&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2024: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2024&amp;usage=publication&amp;nocache=1793358036092</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2024&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2024: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2024&amp;usage=publication&amp;language=de&amp;nocache=1793353244691</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2024&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2024: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2024&amp;usage=publication&amp;language=de&amp;nocache=1793358731812</span>
         </li>
       </ul>
     </td>
@@ -4046,10 +4046,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2025&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2025&amp;usage=publication&amp;nocache=1793352661480</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2025&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2025&amp;usage=publication&amp;nocache=1793358034976</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2025&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2025&amp;usage=publication&amp;language=de&amp;nocache=1793353244692</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2025&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2025: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2025&amp;usage=publication&amp;language=de&amp;nocache=1793358731813</span>
         </li>
       </ul>
     </td>
@@ -4059,10 +4059,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2026&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2026&amp;usage=publication&amp;nocache=1793352660554</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2026&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2026&amp;usage=publication&amp;nocache=1793358033811</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2026&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2026&amp;usage=publication&amp;language=de&amp;nocache=1793353244278</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2026&amp;usage=publication&amp;language=de">Error resolving system http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Ficd-10-gm%7C2026&amp;usage=publication&amp;language=de&amp;nocache=1793358731320</span>
         </li>
       </ul>
     </td>
@@ -4072,10 +4072,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops&amp;usage=publication&amp;nocache=1793352539283</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops&amp;usage=publication&amp;nocache=1793357971916</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://fhir.de/CodeSystem/bfarm/ops: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793353083963</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://fhir.de/CodeSystem/bfarm/ops: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793358533435</span>
         </li>
       </ul>
     </td>
@@ -4083,115 +4083,115 @@
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2010</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2010&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2010: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2010&amp;usage=publication&amp;nocache=1793352538330</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2010&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2010: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2010&amp;usage=publication&amp;nocache=1793357970791</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2011</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2011&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2011: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2011&amp;usage=publication&amp;nocache=1793352537425</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2011&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2011: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2011&amp;usage=publication&amp;nocache=1793357969554</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2012</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2012&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2012: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2012&amp;usage=publication&amp;nocache=1793352536474</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2012&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2012: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2012&amp;usage=publication&amp;nocache=1793357968434</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2013</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2013&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2013: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2013&amp;usage=publication&amp;nocache=1793352535541</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2013&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2013: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2013&amp;usage=publication&amp;nocache=1793357967275</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2014</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2014&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2014: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2014&amp;usage=publication&amp;nocache=1793352534219</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2014&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2014: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2014&amp;usage=publication&amp;nocache=1793357966138</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2015</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2015&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2015: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2015&amp;usage=publication&amp;nocache=1793352533271</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2015&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2015: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2015&amp;usage=publication&amp;nocache=1793357964970</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2016</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2016&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2016: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2016&amp;usage=publication&amp;nocache=1793352532314</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2016&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2016: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2016&amp;usage=publication&amp;nocache=1793357963725</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2017</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2017&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2017: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2017&amp;usage=publication&amp;nocache=1793352531402</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2017&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2017: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2017&amp;usage=publication&amp;nocache=1793357962609</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2018</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2018&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2018: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2018&amp;usage=publication&amp;nocache=1793352530496</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2018&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2018: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2018&amp;usage=publication&amp;nocache=1793357961447</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2019</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2019&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2019: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2019&amp;usage=publication&amp;nocache=1793352529599</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2019&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2019: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2019&amp;usage=publication&amp;nocache=1793357960270</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2020</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2020&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2020: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2020&amp;usage=publication&amp;nocache=1793352528664</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2020&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2020: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2020&amp;usage=publication&amp;nocache=1793357959102</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2021</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2021&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2021: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2021&amp;usage=publication&amp;nocache=1793352527723</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2021&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2021: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2021&amp;usage=publication&amp;nocache=1793357957879</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2022</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2022&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2022: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2022&amp;usage=publication&amp;nocache=1793352526785</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2022&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2022: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2022&amp;usage=publication&amp;nocache=1793357956716</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2023</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2023&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2023: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2023&amp;usage=publication&amp;nocache=1793352525828</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2023&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2023: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2023&amp;usage=publication&amp;nocache=1793357955603</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2024</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2024&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2024: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2024&amp;usage=publication&amp;nocache=1793352524910</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2024&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2024: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2024&amp;usage=publication&amp;nocache=1793357954508</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2025</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2025&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2025: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2025&amp;usage=publication&amp;nocache=1793352523991</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2025&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2025: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2025&amp;usage=publication&amp;nocache=1793357953365</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.de/CodeSystem/bfarm/ops|2026</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2026&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2026: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2026&amp;usage=publication&amp;nocache=1793352523033</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2026&amp;usage=publication">Error resolving system http://fhir.de/CodeSystem/bfarm/ops|2026: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Ffhir.de%2FCodeSystem%2Fbfarm%2Fops%7C2026&amp;usage=publication&amp;nocache=1793357952165</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Ffhir.org%2Fpackages%2Fde.basisprofil.r4%2FImplementationGuide%2Fde.basisprofil.r4&amp;usage=publication">Error resolving valueSet http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Ffhir.org%2Fpackages%2Fde.basisprofil.r4%2FImplementationGuide%2Fde.basisprofil.r4&amp;usage=publication&amp;nocache=1793353232518</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Ffhir.org%2Fpackages%2Fde.basisprofil.r4%2FImplementationGuide%2Fde.basisprofil.r4&amp;usage=publication">Error resolving valueSet http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Ffhir.org%2Fpackages%2Fde.basisprofil.r4%2FImplementationGuide%2Fde.basisprofil.r4&amp;usage=publication&amp;nocache=1793358705537</span>
     </td>
   </tr>
   <tr>
     <td>http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Ffhir.org%2Fpackages%2Fde.gematik.isik%2FImplementationGuide%2Fde.gematik.isik&amp;usage=publication">Error resolving valueSet http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Ffhir.org%2Fpackages%2Fde.gematik.isik%2FImplementationGuide%2Fde.gematik.isik&amp;usage=publication&amp;nocache=1793353232940</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Ffhir.org%2Fpackages%2Fde.gematik.isik%2FImplementationGuide%2Fde.gematik.isik&amp;usage=publication">Error resolving valueSet http://fhir.org/packages/de.gematik.isik/ImplementationGuide/de.gematik.isik: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Ffhir.org%2Fpackages%2Fde.gematik.isik%2FImplementationGuide%2Fde.gematik.isik&amp;usage=publication&amp;nocache=1793358706015</span>
     </td>
   </tr>
   <tr>
@@ -4199,13 +4199,13 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication&amp;language=de">Error resolving system http://loinc.org: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication&amp;language=de&amp;nocache=1793353220703</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication&amp;language=de">Error resolving system http://loinc.org: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication&amp;language=de&amp;nocache=1793358690184</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication">Error resolving system http://loinc.org: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication&amp;nocache=1793353224697</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication">Error resolving system http://loinc.org: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication&amp;nocache=1793358695625</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://loinc.org: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793356381163</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://loinc.org: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793361907609</span>
         </li>
       </ul>
     </td>
@@ -4215,10 +4215,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org%7C2.83&amp;usage=publication&amp;language=de">Error resolving system http://loinc.org|2.83: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org%7C2.83&amp;usage=publication&amp;language=de&amp;nocache=1793352818387</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org%7C2.83&amp;usage=publication&amp;language=de">Error resolving system http://loinc.org|2.83: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org%7C2.83&amp;usage=publication&amp;language=de&amp;nocache=1793358260834</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org%7C2.83&amp;usage=publication">Error resolving system http://loinc.org|2.83: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org%7C2.83&amp;usage=publication&amp;nocache=1793355324013</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org%7C2.83&amp;usage=publication">Error resolving system http://loinc.org|2.83: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Floinc.org%7C2.83&amp;usage=publication&amp;nocache=1793360811473</span>
         </li>
       </ul>
     </td>
@@ -4226,7 +4226,7 @@
   <tr>
     <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl&amp;usage=publication&amp;language=de">Error resolving system http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl&amp;usage=publication&amp;language=de&amp;nocache=1793353210169</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl&amp;usage=publication&amp;language=de">Error resolving system http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl&amp;usage=publication&amp;language=de&amp;nocache=1793358676481</span>
     </td>
   </tr>
   <tr>
@@ -4234,10 +4234,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct&amp;usage=publication">Error resolving CodeSystem http://snomed.info/sct: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct&amp;usage=publication&amp;nocache=1793352990696</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct&amp;usage=publication">Error resolving CodeSystem http://snomed.info/sct: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct&amp;usage=publication&amp;nocache=1793358437525</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Fsnomed.info%2Fsct&amp;usage=publication">Error resolving valueSet http://snomed.info/sct: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Fsnomed.info%2Fsct&amp;usage=publication&amp;nocache=1793353153778</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Fsnomed.info%2Fsct&amp;usage=publication">Error resolving valueSet http://snomed.info/sct: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Fsnomed.info%2Fsct&amp;usage=publication&amp;nocache=1793358609478</span>
         </li>
       </ul>
     </td>
@@ -4247,28 +4247,28 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;nocache=1793352402325</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;nocache=1793357831135</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;nocache=1793352462644</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;nocache=1793357891517</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=de">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=de&amp;nocache=1793352819150</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=de">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=de&amp;nocache=1793358261780</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793352882874</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793358331718</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793353094625</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793358546705</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=de">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=de&amp;nocache=1793353133090</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=de">Error resolving system http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;language=de&amp;nocache=1793358584444</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication">Error resolving CodeSystem http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;nocache=1793357330718</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication">Error resolving CodeSystem http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;nocache=1793362929337</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication">Error resolving valueSet http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;nocache=1793357330718</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication">Error resolving valueSet http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F900000000000207008%2Fversion%2F20260701&amp;usage=publication&amp;nocache=1793362929338</span>
         </li>
       </ul>
     </td>
@@ -4276,7 +4276,7 @@
   <tr>
     <td>http://terminology.hl7.org/CodeSystem/data-absent-reason|1.0.0</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fterminology.hl7.org%2FCodeSystem%2Fdata-absent-reason%7C1.0.0&amp;usage=publication&amp;language=de">Error resolving system http://terminology.hl7.org/CodeSystem/data-absent-reason|1.0.0: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fterminology.hl7.org%2FCodeSystem%2Fdata-absent-reason%7C1.0.0&amp;usage=publication&amp;language=de&amp;nocache=1793353768296</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fterminology.hl7.org%2FCodeSystem%2Fdata-absent-reason%7C1.0.0&amp;usage=publication&amp;language=de">Error resolving system http://terminology.hl7.org/CodeSystem/data-absent-reason|1.0.0: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fterminology.hl7.org%2FCodeSystem%2Fdata-absent-reason%7C1.0.0&amp;usage=publication&amp;language=de&amp;nocache=1793359255289</span>
     </td>
   </tr>
   <tr>
@@ -4284,10 +4284,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funitsofmeasure.org&amp;usage=publication&amp;language=de">Error resolving system http://unitsofmeasure.org: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funitsofmeasure.org&amp;usage=publication&amp;language=de&amp;nocache=1793352816291</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funitsofmeasure.org&amp;usage=publication&amp;language=de">Error resolving system http://unitsofmeasure.org: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funitsofmeasure.org&amp;usage=publication&amp;language=de&amp;nocache=1793358258232</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funitsofmeasure.org&amp;usage=publication">Error resolving system http://unitsofmeasure.org: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funitsofmeasure.org&amp;usage=publication&amp;nocache=1793353225123</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funitsofmeasure.org&amp;usage=publication">Error resolving system http://unitsofmeasure.org: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funitsofmeasure.org&amp;usage=publication&amp;nocache=1793358696208</span>
         </li>
       </ul>
     </td>
@@ -4297,19 +4297,19 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication">Error resolving CodeSystem http://unstats.un.org/unsd/methods/m49/m49.htm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;nocache=1793353127132</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication">Error resolving CodeSystem http://unstats.un.org/unsd/methods/m49/m49.htm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;nocache=1793358577293</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication">Error resolving system http://unstats.un.org/unsd/methods/m49/m49.htm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;nocache=1793353127136</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication">Error resolving system http://unstats.un.org/unsd/methods/m49/m49.htm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;nocache=1793358577297</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;language=de">Error resolving system http://unstats.un.org/unsd/methods/m49/m49.htm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;language=de&amp;nocache=1793353129816</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;language=de">Error resolving system http://unstats.un.org/unsd/methods/m49/m49.htm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;language=de&amp;nocache=1793358580536</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication">Error resolving valueSet http://unstats.un.org/unsd/methods/m49/m49.htm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;nocache=1793353202074</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication">Error resolving valueSet http://unstats.un.org/unsd/methods/m49/m49.htm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;nocache=1793358665904</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;language=en-US">Error resolving system http://unstats.un.org/unsd/methods/m49/m49.htm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;language=en-US&amp;nocache=1793357348184</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;language=en-US">Error resolving system http://unstats.un.org/unsd/methods/m49/m49.htm: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication&amp;language=en-US&amp;nocache=1793362952838</span>
         </li>
       </ul>
     </td>
@@ -4319,10 +4319,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fwww.orpha.net&amp;usage=publication&amp;language=de">Error resolving system http://www.orpha.net: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fwww.orpha.net&amp;usage=publication&amp;language=de&amp;nocache=1793356669820</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fwww.orpha.net&amp;usage=publication&amp;language=de">Error resolving system http://www.orpha.net: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fwww.orpha.net&amp;usage=publication&amp;language=de&amp;nocache=1793362205557</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fwww.orpha.net&amp;usage=publication">Error resolving system http://www.orpha.net: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fwww.orpha.net&amp;usage=publication&amp;nocache=1793356670600</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fwww.orpha.net&amp;usage=publication">Error resolving system http://www.orpha.net: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fwww.orpha.net&amp;usage=publication&amp;nocache=1793362206540</span>
         </li>
       </ul>
     </td>
@@ -4330,37 +4330,37 @@
   <tr>
     <td>https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=https%3A%2F%2Ffhir.kbv.de%2FValueSet%2FKBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT&amp;usage=publication">Error resolving valueSet https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=https%3A%2F%2Ffhir.kbv.de%2FValueSet%2FKBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT&amp;usage=publication&amp;nocache=1793353214087</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=https%3A%2F%2Ffhir.kbv.de%2FValueSet%2FKBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT&amp;usage=publication">Error resolving valueSet https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=https%3A%2F%2Ffhir.kbv.de%2FValueSet%2FKBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT&amp;usage=publication&amp;nocache=1793358681345</span>
     </td>
   </tr>
   <tr>
     <td>https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=https%3A%2F%2Ffhir.kbv.de%2FValueSet%2FKBV_VS_SFHIR_ICD_SEITENLOKALISATION&amp;usage=publication">Error resolving valueSet https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=https%3A%2F%2Ffhir.kbv.de%2FValueSet%2FKBV_VS_SFHIR_ICD_SEITENLOKALISATION&amp;usage=publication&amp;nocache=1793353213300</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=https%3A%2F%2Ffhir.kbv.de%2FValueSet%2FKBV_VS_SFHIR_ICD_SEITENLOKALISATION&amp;usage=publication">Error resolving valueSet https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_SEITENLOKALISATION: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=https%3A%2F%2Ffhir.kbv.de%2FValueSet%2FKBV_VS_SFHIR_ICD_SEITENLOKALISATION&amp;usage=publication&amp;nocache=1793358680330</span>
     </td>
   </tr>
   <tr>
     <td>https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=https%3A%2F%2Fwww.medizininformatik-initiative.de%2Ffhir%2Fext%2Fmodul-kardio%2FCodeSystem%2Fmii-cs-kardio-atherosklerotisches-ereignis%7C2027.0.0-ballot&amp;usage=publication&amp;language=de">Error resolving system https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=https%3A%2F%2Fwww.medizininformatik-initiative.de%2Ffhir%2Fext%2Fmodul-kardio%2FCodeSystem%2Fmii-cs-kardio-atherosklerotisches-ereignis%7C2027.0.0-ballot&amp;usage=publication&amp;language=de&amp;nocache=1793354046967</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=https%3A%2F%2Fwww.medizininformatik-initiative.de%2Ffhir%2Fext%2Fmodul-kardio%2FCodeSystem%2Fmii-cs-kardio-atherosklerotisches-ereignis%7C2027.0.0-ballot&amp;usage=publication&amp;language=de">Error resolving system https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis|2027.0.0-ballot: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=https%3A%2F%2Fwww.medizininformatik-initiative.de%2Ffhir%2Fext%2Fmodul-kardio%2FCodeSystem%2Fmii-cs-kardio-atherosklerotisches-ereignis%7C2027.0.0-ballot&amp;usage=publication&amp;language=de&amp;nocache=1793359539127</span>
     </td>
   </tr>
   <tr>
     <td>urn:ietf:bcp:13</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aietf%3Abcp%3A13&amp;usage=publication&amp;language=de">Error resolving system urn:ietf:bcp:13: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aietf%3Abcp%3A13&amp;usage=publication&amp;language=de&amp;nocache=1793353897746</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aietf%3Abcp%3A13&amp;usage=publication&amp;language=de">Error resolving system urn:ietf:bcp:13: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aietf%3Abcp%3A13&amp;usage=publication&amp;language=de&amp;nocache=1793359386532</span>
     </td>
   </tr>
   <tr>
     <td>urn:ietf:bcp:47</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aietf%3Abcp%3A47&amp;usage=publication&amp;language=de">Error resolving system urn:ietf:bcp:47: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aietf%3Abcp%3A47&amp;usage=publication&amp;language=de&amp;nocache=1793353129150</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aietf%3Abcp%3A47&amp;usage=publication&amp;language=de">Error resolving system urn:ietf:bcp:47: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aietf%3Abcp%3A47&amp;usage=publication&amp;language=de&amp;nocache=1793358579712</span>
     </td>
   </tr>
   <tr>
     <td>urn:iso:std:iso:11073:10101|2.0.1</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2.0.1&amp;usage=publication">Error resolving system urn:iso:std:iso:11073:10101|2.0.1: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2.0.1&amp;usage=publication&amp;nocache=1793353147836</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2.0.1&amp;usage=publication">Error resolving system urn:iso:std:iso:11073:10101|2.0.1: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2.0.1&amp;usage=publication&amp;nocache=1793358602419</span>
     </td>
   </tr>
   <tr>
@@ -4368,25 +4368,25 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793352926864</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=en%2C+en-US">Error resolving system urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=en%2C+en-US&amp;nocache=1793358375428</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication">Error resolving system urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;nocache=1793353020576</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication">Error resolving system urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;nocache=1793358470028</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=de">Error resolving system urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=de&amp;nocache=1793353155146</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=de">Error resolving system urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=de&amp;nocache=1793358611220</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication">Error resolving system urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;nocache=1793353890306</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication">Error resolving system urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;nocache=1793359377302</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=de">Error resolving system urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=de&amp;nocache=1793353890312</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=de">Error resolving system urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;language=de&amp;nocache=1793359377303</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication">Error resolving CodeSystem urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;nocache=1793357331127</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication">Error resolving CodeSystem urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;nocache=1793362929830</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication">Error resolving valueSet urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;nocache=1793357331128</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication">Error resolving valueSet urn:iso:std:iso:11073:10101|2024-12-05: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C2024-12-05&amp;usage=publication&amp;nocache=1793362929830</span>
         </li>
       </ul>
     </td>
@@ -4394,7 +4394,7 @@
   <tr>
     <td>urn:iso:std:iso:11073:10101|20250520</td>
     <td style="background-color: #ffe3e3">
-      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C20250520&amp;usage=publication">Error resolving system urn:iso:std:iso:11073:10101|20250520: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C20250520&amp;usage=publication&amp;nocache=1793353148618</span>
+      <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C20250520&amp;usage=publication">Error resolving system urn:iso:std:iso:11073:10101|20250520: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A11073%3A10101%7C20250520&amp;usage=publication&amp;nocache=1793358603364</span>
     </td>
   </tr>
   <tr>
@@ -4402,13 +4402,13 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication">Error resolving system urn:iso:std:iso:3166: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication&amp;nocache=1793353129809</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication">Error resolving system urn:iso:std:iso:3166: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication&amp;nocache=1793358580525</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication&amp;language=de">Error resolving system urn:iso:std:iso:3166: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication&amp;language=de&amp;nocache=1793353129816</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication&amp;language=de">Error resolving system urn:iso:std:iso:3166: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication&amp;language=de&amp;nocache=1793358580537</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication&amp;language=en-US">Error resolving system urn:iso:std:iso:3166: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication&amp;language=en-US&amp;nocache=1793357348185</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication&amp;language=en-US">Error resolving system urn:iso:std:iso:3166: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166&amp;usage=publication&amp;language=en-US&amp;nocache=1793362952839</span>
         </li>
       </ul>
     </td>
@@ -4418,10 +4418,10 @@
     <td style="background-color: #ffe3e3">
       <ul>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166%3A-2&amp;usage=publication&amp;language=de">Error resolving system urn:iso:std:iso:3166:-2: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166%3A-2&amp;usage=publication&amp;language=de&amp;nocache=1793353129817</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166%3A-2&amp;usage=publication&amp;language=de">Error resolving system urn:iso:std:iso:3166:-2: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166%3A-2&amp;usage=publication&amp;language=de&amp;nocache=1793358580538</span>
         </li>
         <li>
-          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166%3A-2&amp;usage=publication&amp;language=en-US">Error resolving system urn:iso:std:iso:3166:-2: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166%3A-2&amp;usage=publication&amp;language=en-US&amp;nocache=1793357348185</span>
+          <span title="http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166%3A-2&amp;usage=publication&amp;language=en-US">Error resolving system urn:iso:std:iso:3166:-2: Refusing to fetch from non-https URL: http://127.0.0.1:8090/tx-reg/resolve?fhirVersion=4.0&amp;url=urn%3Aiso%3Astd%3Aiso%3A3166%3A-2&amp;usage=publication&amp;language=en-US&amp;nocache=1793362952839</span>
         </li>
       </ul>
     </td>

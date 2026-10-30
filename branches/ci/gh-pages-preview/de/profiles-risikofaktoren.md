@@ -23,7 +23,7 @@
 * `component` ist geslicet für zusätzliche Angaben zum Rauchverhalten (`packungsjahre`, `zigarettenProTag`, `rauchbeginn`, `rauchdauer`): 
 * `component[packungsjahre]` (SNOMED CT 401201003): Erfordert `valueQuantity` in UCUM `{pack-years}`
 * `component[zigarettenProTag]` (LOINC 63640-7): Erfordert `valueQuantity` in UCUM `{cigarettes-per-day}`
-* `component[rauchbeginn]` (SNOMED CT 266929003): Erlaubt `valueDateTime` (Datum) oder `valueQuantity` (Alter in Jahren)
+* `component[rauchbeginn]` (SNOMED CT 266929003): Erlaubt `valueDateTime` (Datum bei Rauchbeginn) oder `valueQuantity` (Alter (in Jahren) bei Rauchbeginn)
 * `component[rauchdauer]` (SNOMED CT 228487000): Erfordert `valueQuantity` in UCUM `a` (Jahre)
  
 

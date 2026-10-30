@@ -35,6 +35,7 @@ package "KDS Modul\nBasis" as KDSBasis #LightGreen {
   class "Person/Patient" as Patient #white {
     + Geschlecht
     + Geburtsdatum
+    + Geburtsland
   }
   class Vitalstatus #white {
     + Code
@@ -64,17 +65,15 @@ package "KDS Modul\nBasis" as KDSBasis #LightGreen {
   }
 }
 package "KDS Modul \nSoziodemographische Daten" as KDSSDD #LightGreen {
-  class Geburtsland #white {
+  class Lebensmittelpunkt {
+    + Code
+    + Dokumentationsdatum
+  }
+  class Ethnie {
     + Code
   }
 }
-class Lebensmittelpunkt {
-  + Code
-  + Dokumentationsdatum
-}
-class Ethnie {
-  + Code
-}
+
 
 ' ==================
 ' ==== Anamnese ====
@@ -273,7 +272,6 @@ KDSKardio *-- Anamnese
 
 Patientendaten *-- Patient
 Patientendaten *-- Vitalstatus
-Patientendaten *-- Geburtsland
 Patientendaten *-- Lebensmittelpunkt
 Patientendaten *-- Ethnie
 

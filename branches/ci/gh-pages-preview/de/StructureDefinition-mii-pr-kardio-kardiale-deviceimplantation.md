@@ -46,7 +46,7 @@ Diese Struktur ist abgeleitet von [MII_PR_Prozedur_Procedure](https://medizininf
 
 ** Summary **
 
-Mandatory: 6 elements(4 nested mandatory elements)
+Mandatory: 5 elements(4 nested mandatory elements)
  Must-Support: 7 elements
 
 **Structures**
@@ -54,7 +54,7 @@ Mandatory: 6 elements(4 nested mandatory elements)
 This structure refers to these other structures:
 
 * [Patient (http://hl7.org/fhir/StructureDefinition/Patient|4.0.1)](http://hl7.org/fhir/R4/patient.html)
-* [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
+* [MII PR Kardio Device (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device|2027.0.0-ballot)](StructureDefinition-mii-pr-kardio-device.md)
 
 **Slices**
 
@@ -84,7 +84,7 @@ Diese Struktur ist abgeleitet von [MII_PR_Prozedur_Procedure](https://medizininf
 
 ** Summary **
 
-Mandatory: 6 elements(4 nested mandatory elements)
+Mandatory: 5 elements(4 nested mandatory elements)
  Must-Support: 7 elements
 
 **Structures**
@@ -92,7 +92,7 @@ Mandatory: 6 elements(4 nested mandatory elements)
 This structure refers to these other structures:
 
 * [Patient (http://hl7.org/fhir/StructureDefinition/Patient|4.0.1)](http://hl7.org/fhir/R4/patient.html)
-* [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
+* [MII PR Kardio Device (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device|2027.0.0-ballot)](StructureDefinition-mii-pr-kardio-device.md)
 
 **Slices**
 
@@ -372,7 +372,6 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
     {
       "id" : "Procedure.focalDevice",
       "path" : "Procedure.focalDevice",
-      "min" : 1,
       "mustSupport" : true
     },
     {
@@ -380,7 +379,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "path" : "Procedure.focalDevice.manipulated",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Device|4.0.1"]
+        "targetProfile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device|2027.0.0-ballot"]
       }],
       "mustSupport" : true
     }]

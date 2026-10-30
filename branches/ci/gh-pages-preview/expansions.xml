@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4df437cf-9ad7-4733-b798-8a5478e5bb6b"/>
+  <id value="fb9bb7e6-c20a-4712-b5db-6f303e8b835b"/>
   <meta>
-    <lastUpdated value="2026-10-30T10:55:39.021+00:00"/>
+    <lastUpdated value="2026-10-30T14:26:59.401+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -3387,8 +3387,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:045cfc41-4ece-4a02-9214-f7e8957ec5a1"/>
-          <timestamp value="2026-10-30T12:15:23+00:00"/>
+          <identifier value="urn:uuid:cc86822a-a688-41d5-8cc0-8ae92f9c8e3c"/>
+          <timestamp value="2026-10-30T15:50:46+00:00"/>
           <total value="185"/>
           <offset value="0"/>
           <parameter>
@@ -7548,8 +7548,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:045cfc41-4ece-4a02-9214-f7e8957ec5a1"/>
-          <timestamp value="2026-10-30T12:15:23+00:00"/>
+          <identifier value="urn:uuid:cc86822a-a688-41d5-8cc0-8ae92f9c8e3c"/>
+          <timestamp value="2026-10-30T15:50:46+00:00"/>
           <total value="185"/>
           <offset value="0"/>
           <parameter>
@@ -8450,8 +8450,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:db76f3b7-49cd-4799-b1da-e0c37705ae41"/>
-          <timestamp value="2026-10-30T12:16:24+00:00"/>
+          <identifier value="urn:uuid:4473b264-1f5b-47d3-b341-caf3ecd945f2"/>
+          <timestamp value="2026-10-30T15:51:47+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -8627,8 +8627,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:db76f3b7-49cd-4799-b1da-e0c37705ae41"/>
-          <timestamp value="2026-10-30T12:16:24+00:00"/>
+          <identifier value="urn:uuid:4473b264-1f5b-47d3-b341-caf3ecd945f2"/>
+          <timestamp value="2026-10-30T15:51:47+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -8835,7 +8835,7 @@
         <title value="MII VS Kardio Extended Condition Severity [SNOMED CT]"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-10-30T10:55:39+00:00"/>
+        <date value="2026-10-30T14:26:59+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -8844,8 +8844,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5d45c19c-7b6a-4894-9543-7ed94e6b3561"/>
-          <timestamp value="2026-10-30T12:07:21+00:00"/>
+          <identifier value="urn:uuid:3c8e5dac-eac7-4df8-85ca-235ab3e12687"/>
+          <timestamp value="2026-10-30T15:42:50+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -9060,7 +9060,7 @@
         <title value="MII VS Kardio Extended Condition Severity [SNOMED CT]"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-10-30T10:55:39+00:00"/>
+        <date value="2026-10-30T14:26:59+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -9069,8 +9069,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5d45c19c-7b6a-4894-9543-7ed94e6b3561"/>
-          <timestamp value="2026-10-30T12:07:21+00:00"/>
+          <identifier value="urn:uuid:3c8e5dac-eac7-4df8-85ca-235ab3e12687"/>
+          <timestamp value="2026-10-30T15:42:50+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -9255,8 +9255,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:aafeeaaa-2f32-4451-9059-5335d582ea19"/>
-          <timestamp value="2026-10-30T12:10:12+00:00"/>
+          <identifier value="urn:uuid:36b299e1-d89b-43ad-aa51-9dcf68b9762a"/>
+          <timestamp value="2026-10-30T15:45:38+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -9434,8 +9434,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:aafeeaaa-2f32-4451-9059-5335d582ea19"/>
-          <timestamp value="2026-10-30T12:10:12+00:00"/>
+          <identifier value="urn:uuid:36b299e1-d89b-43ad-aa51-9dcf68b9762a"/>
+          <timestamp value="2026-10-30T15:45:38+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -9485,6 +9485,408 @@
           <contains>
             <system value="urn:iso:std:iso:11073:10101"/>
             <code value="754790"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct"/>
+    <resource>
+      <ValueSet>
+        <language value="de"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de" data-fhir="generated">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from 127.0.0.1 based on:</p>
+              <ul>
+                <li>SNOMED CT International edition 01-Jul 2026
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+                <li>
+                  <a href="CodeSystem-mii-cs-kardio-supplement-snomedct.html">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p>This value set expansion contains 4 concepts.</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b> - Deutsch (German, de)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-11717701000119108"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/11717701000119108">11717701000119108</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;11717701000119108&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;11717701000119108&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-161833006"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/161833006">161833006</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;161833006&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;161833006&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-416528001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/416528001">416528001</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;416528001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;416528001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-448765001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/448765001">448765001</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;448765001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;448765001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct"/>
+        <version value="2027.0.0-ballot"/>
+        <name value="MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT"/>
+        <title value="MII VS Kardio Gewichtsveraenderung [SNOMED CT]"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-03-05"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:e9339a34-00c4-493c-b553-9f7bd1ada32b"/>
+          <timestamp value="2026-10-30T15:54:27+00:00"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-supplement"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="11717701000119108"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="161833006"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="416528001"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="448765001"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct"/>
+    <resource>
+      <ValueSet>
+        <language value="de"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de" data-fhir="generated">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from 127.0.0.1 based on:</p>
+              <ul>
+                <li>SNOMED CT International edition 01-Jul 2026
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+                <li>
+                  <a href="CodeSystem-mii-cs-kardio-supplement-snomedct.html">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p>This value set expansion contains 4 concepts.</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b> - Deutsch (German, de)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-11717701000119108"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/11717701000119108">11717701000119108</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;11717701000119108&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;11717701000119108&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-161833006"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/161833006">161833006</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;161833006&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;161833006&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-416528001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/416528001">416528001</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;416528001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;416528001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-448765001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/448765001">448765001</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;448765001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;448765001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct"/>
+        <version value="2027.0.0-ballot"/>
+        <name value="MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT"/>
+        <title value="MII VS Kardio Gewichtsveraenderung [SNOMED CT]"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-03-05"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:e9339a34-00c4-493c-b553-9f7bd1ada32b"/>
+          <timestamp value="2026-10-30T15:54:27+00:00"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-supplement"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="11717701000119108"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="161833006"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="416528001"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="448765001"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -9612,8 +10014,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6f88c432-ee32-4205-967e-0f032386532e"/>
-          <timestamp value="2026-10-30T12:20:24+00:00"/>
+          <identifier value="urn:uuid:c9d086d4-1124-46dd-a6cb-b9e83ccffb57"/>
+          <timestamp value="2026-10-30T15:55:12+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -9789,8 +10191,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6f88c432-ee32-4205-967e-0f032386532e"/>
-          <timestamp value="2026-10-30T12:20:24+00:00"/>
+          <identifier value="urn:uuid:c9d086d4-1124-46dd-a6cb-b9e83ccffb57"/>
+          <timestamp value="2026-10-30T15:55:12+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -11735,8 +12137,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b33e7260-86da-49ce-9c74-c9894e05091c"/>
-          <timestamp value="2026-10-30T12:21:04+00:00"/>
+          <identifier value="urn:uuid:c65ad2bf-69f4-4d15-ad67-d80b7d803e55"/>
+          <timestamp value="2026-10-30T15:55:50+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -14053,8 +14455,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b33e7260-86da-49ce-9c74-c9894e05091c"/>
-          <timestamp value="2026-10-30T12:21:04+00:00"/>
+          <identifier value="urn:uuid:c65ad2bf-69f4-4d15-ad67-d80b7d803e55"/>
+          <timestamp value="2026-10-30T15:55:50+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -19013,8 +19415,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e72cf32b-7642-40f1-95fa-60cb1450cfd8"/>
-          <timestamp value="2026-10-30T12:11:15+00:00"/>
+          <identifier value="urn:uuid:617a2c96-1958-4227-865e-7672bb52b359"/>
+          <timestamp value="2026-10-30T15:46:40+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -24581,8 +24983,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e72cf32b-7642-40f1-95fa-60cb1450cfd8"/>
-          <timestamp value="2026-10-30T12:11:15+00:00"/>
+          <identifier value="urn:uuid:617a2c96-1958-4227-865e-7672bb52b359"/>
+          <timestamp value="2026-10-30T15:46:40+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -26459,8 +26861,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7a35cad1-78aa-433c-a7db-c15d0ca616e1"/>
-          <timestamp value="2026-10-30T12:11:15+00:00"/>
+          <identifier value="urn:uuid:193d9800-6039-4538-81d4-e101b356e8d9"/>
+          <timestamp value="2026-10-30T15:46:39+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -27517,8 +27919,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7a35cad1-78aa-433c-a7db-c15d0ca616e1"/>
-          <timestamp value="2026-10-30T12:11:15+00:00"/>
+          <identifier value="urn:uuid:193d9800-6039-4538-81d4-e101b356e8d9"/>
+          <timestamp value="2026-10-30T15:46:39+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -45783,8 +46185,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8c042758-f7ab-421e-989e-a735fca9ebca"/>
-          <timestamp value="2026-10-30T12:10:08+00:00"/>
+          <identifier value="urn:uuid:bbfa8817-5518-4f2e-8e73-e7a01a285ee5"/>
+          <timestamp value="2026-10-30T15:45:34+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -67877,8 +68279,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8c042758-f7ab-421e-989e-a735fca9ebca"/>
-          <timestamp value="2026-10-30T12:10:08+00:00"/>
+          <identifier value="urn:uuid:bbfa8817-5518-4f2e-8e73-e7a01a285ee5"/>
+          <timestamp value="2026-10-30T15:45:34+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -72172,8 +72574,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:db5d4a9c-6ec3-4397-a19b-578d234c6cf0"/>
-          <timestamp value="2026-10-30T12:13:21+00:00"/>
+          <identifier value="urn:uuid:69242b2d-55bb-4f64-9a76-c0b25af3b37d"/>
+          <timestamp value="2026-10-30T15:48:44+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -72502,8 +72904,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:db5d4a9c-6ec3-4397-a19b-578d234c6cf0"/>
-          <timestamp value="2026-10-30T12:13:21+00:00"/>
+          <identifier value="urn:uuid:69242b2d-55bb-4f64-9a76-c0b25af3b37d"/>
+          <timestamp value="2026-10-30T15:48:44+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -72719,8 +73121,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4bdf8cce-d9a2-48e4-b8f6-319cb2857c82"/>
-          <timestamp value="2026-10-30T12:07:20+00:00"/>
+          <identifier value="urn:uuid:8b166a01-ce37-4cd1-8f1e-e3028c035bbc"/>
+          <timestamp value="2026-10-30T15:42:49+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -72906,8 +73308,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4bdf8cce-d9a2-48e4-b8f6-319cb2857c82"/>
-          <timestamp value="2026-10-30T12:07:20+00:00"/>
+          <identifier value="urn:uuid:8b166a01-ce37-4cd1-8f1e-e3028c035bbc"/>
+          <timestamp value="2026-10-30T15:42:49+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -91005,8 +91407,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ad711eb2-b8d0-4eeb-906a-ffa9c98275ba"/>
-          <timestamp value="2026-10-30T12:22:08+00:00"/>
+          <identifier value="urn:uuid:0dd7510e-f1e1-4c73-965d-7406773b0574"/>
+          <timestamp value="2026-10-30T15:56:53+00:00"/>
           <total value="1466"/>
           <offset value="0"/>
           <parameter>
@@ -113096,8 +113498,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ad711eb2-b8d0-4eeb-906a-ffa9c98275ba"/>
-          <timestamp value="2026-10-30T12:22:08+00:00"/>
+          <identifier value="urn:uuid:0dd7510e-f1e1-4c73-965d-7406773b0574"/>
+          <timestamp value="2026-10-30T15:56:53+00:00"/>
           <total value="1466"/>
           <offset value="0"/>
           <parameter>

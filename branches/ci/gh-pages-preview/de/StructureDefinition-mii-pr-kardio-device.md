@@ -16,6 +16,7 @@ Profil zur Abbildung eines implantierten Herzschrittmachers, Defibrillators oder
 
 **Usages:**
 
+* Refer to this Profile: [MII PR Kardio Kardiale Deviceimplantation](StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.md)
 * Examples for this Profile: [Device/mii-exa-kardio-device-icd](Device-mii-exa-kardio-device-icd.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-device.json)

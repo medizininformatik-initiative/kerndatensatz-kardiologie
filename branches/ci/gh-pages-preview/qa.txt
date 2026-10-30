@@ -1,9 +1,9 @@
 MII_IG_MODUL_KARDIO_DE : Validation Results
 =========================================
 
-err = 42, warn = 68, info = 355
+err = 43, warn = 67, info = 354
 IG Publisher Version: 2.3.2 Out of date - current version is 3.0.1
-Generated Fri Oct 30 12:24:11 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio)
+Generated Fri Oct 30 15:58:41 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio)
  Build Errors : 1 / 1 / 0
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer : 0 / 2 / 3
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis : 0 / 2 / 3
@@ -29,7 +29,7 @@ Generated Fri Oct 30 12:24:11 UTC 2026. FHIR version 4.0.1 for de.medizininforma
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-geraeteprogrammierung-vvi : 0 / 0 / 5
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-herzinsuffizienz-unbekannt : 1 / 0 / 8
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-hoehergradiges-vitium-nein : 1 / 0 / 8
- /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-kein-device : 1 / 0 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-kein-device : 2 / 0 / 7
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-lvef : 0 / 1 / 16
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-mrs : 0 / 1 / 10
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-pci-nein : 1 / 0 / 8
@@ -71,7 +71,7 @@ Generated Fri Oct 30 12:24:11 UTC 2026. FHIR version 4.0.1 for de.medizininforma
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed : 0 / 4 / 5
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc : 3 / 2 / 4
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-geraetetyp-snomedct : 0 / 4 / 4
- /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct : 3 / 4 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct : 3 / 2 / 3
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct : 2 / 2 / 3
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops : 0 / 2 / 4
  /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct : 0 / 4 / 3
@@ -241,7 +241,7 @@ INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.language: Refer
 INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.contained[0]/*Patient/Beispielpatient*/.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.contained[0]/*Patient/Beispielpatient*/.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
-INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.code.coding[0].display: 'Cardiac implant in situ' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
+ERROR: Observation/mii-exa-kardio-kein-device: Observation.code: java.net.SocketTimeoutException: timeout
 ERROR: Observation/mii-exa-kardio-kein-device: Observation.code.coding[0]: Dieses Element stimmt mit keinem bekannten Slice defined in the profile https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt|2027.0.0-ballot überein, und das Slicing ist CLOSED: Observation.code.coding[0]: Stimmt nicht mit Slice 'icd10-gm' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'diagnoseSnomed' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'prozedurSnomed' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'alpha-id' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'orphanet' überein, Observation.code.coding[0]: Stimmt nicht mit Slice 'kardio' überein
 INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.method.coding[0].display: 'History taking - action' is the default display; the code system http://snomed.info/sct has no Display Names for the language de
 == fsh-generated/resources/Observation-mii-exa-kardio-lvef.json ==
@@ -561,7 +561,6 @@ WARNING: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.jurisdic
 ERROR: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.compose.include[0].concept[1]: Der Code 161833006 ist im System http://snomed.info/sct nicht gültig
 ERROR: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.compose.include[0].concept[2]: Der Code 416528001 ist im System http://snomed.info/sct nicht gültig
 ERROR: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.compose.include[0].concept[3]: Der Code 448765001 ist im System http://snomed.info/sct nicht gültig
-WARNING: ValueSet.where(id = 'mii-vs-kardio-gewichtsveraenderung-snomedct'): Error from http://127.0.0.1:8090/fhir: 504 Gateway Time-out 504 Gateway Time-out nginx/1.30.4
 == fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.json ==
 INFORMATION: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
@@ -609,8 +608,8 @@ INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.language: Re
 INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 WARNING: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated
 INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://unstats.un.org/unsd/methods/m49/m49.htm' is not known, and no terminology service supports it
-WARNING: ValueSet.where(id = 'mii-vs-kardio-lebensmittelpunkt-m49'): Error from http://127.0.0.1:8090/fhir: Error: [20b2faf5-b6ab-46dc-b440-4e1b24f7e1f5]: A usable code system with URL http://unstats.un.org/unsd/methods/m49/m49.htm could not be resolved.
-Information: X-Request-Id: 7dead912-a9a1-4bae-9887-9da981bbbeeb
+WARNING: ValueSet.where(id = 'mii-vs-kardio-lebensmittelpunkt-m49'): Error from http://127.0.0.1:8090/fhir: Error: [eed1f1c7-3b01-436b-98e8-61e0c72e4129]: A usable code system with URL http://unstats.un.org/unsd/methods/m49/m49.htm could not be resolved.
+Information: X-Request-Id: ffb58ca6-11cb-4700-85ef-168fdd8ed995
 == fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.json ==
 INFORMATION: ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc: ValueSet.language: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1
 INFORMATION: ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc: ValueSet.language: Reference to trial-use ValueSet http://hl7.org/fhir/ValueSet/languages|4.0.1

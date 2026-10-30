@@ -4866,7 +4866,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "mii-pr-kardio-kardiale-deviceimplantation","Procedure.note","Procedure.note","","","",0,*,"Y","","","Annotation {[]} {[]}
 ","Hinweis","Zusätzliche Informationen zur Prozedur als Freitext.","","","","","","","","","",,,,,"",,,,"Procedure.note",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"mii-pr-kardio-kardiale-deviceimplantation","Procedure.focalDevice","Procedure.focalDevice","","","",1,*,"Y","","","BackboneElement {[]} {[]}
+"mii-pr-kardio-kardiale-deviceimplantation","Procedure.focalDevice","Procedure.focalDevice","","","",0,*,"Y","","","BackboneElement {[]} {[]}
 ","Manipulated, implanted, or removed device","A device that is implanted, removed or otherwise manipulated (calibration, battery replacement, fitting a prosthesis, attaching a wound-vac, etc.) as a focal portion of the Procedure.","","","","","","","","","",,,,,"",,,,"Procedure.focalDevice",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mii-pr-kardio-kardiale-deviceimplantation","Procedure.focalDevice.id","Procedure.focalDevice.id","","","",0,1,"","","","string {[]} {[]}
@@ -4884,7 +4884,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "mii-pr-kardio-kardiale-deviceimplantation","Procedure.focalDevice.action","Procedure.focalDevice.action","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Kind of change to device","The kind of change that happened to the device during the procedure.","","","","","","","","","",,"preferred","A kind of change that happened to the device during the procedure.","http://hl7.org/fhir/ValueSet/device-action|4.0.1","",,,,"Procedure.focalDevice.action",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"mii-pr-kardio-kardiale-deviceimplantation","Procedure.focalDevice.manipulated","Procedure.focalDevice.manipulated","","","",1,1,"Y","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|4.0.1]]}
+"mii-pr-kardio-kardiale-deviceimplantation","Procedure.focalDevice.manipulated","Procedure.focalDevice.manipulated","","","",1,1,"Y","","","Reference {[]} {[CanonicalType[https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-device|2027.0.0-ballot]]}
 ","Device that was changed","The device that was manipulated (changed) during the procedure.","","","","","","","","","",,,,,"",,,,"Procedure.focalDevice.manipulated",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mii-pr-kardio-kardiale-deviceimplantation","Procedure.usedReference","Procedure.usedReference","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Medication|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Substance|4.0.1]]}

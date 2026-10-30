@@ -15,7 +15,6 @@
       <sch:assert test="count(f:extension[@url = 'http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum']) &lt;= 1">extension with URL = 'http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht']) &lt;= 1">extension with URL = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:bodySite) &gt;= 1">bodySite: minimum cardinality of 'bodySite' is 1</sch:assert>
-      <sch:assert test="count(f:focalDevice) &gt;= 1">focalDevice: minimum cardinality of 'focalDevice' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

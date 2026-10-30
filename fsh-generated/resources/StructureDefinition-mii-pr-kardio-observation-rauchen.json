@@ -145,7 +145,7 @@
           ],
           "rules": "open",
           "ordered": false,
-          "description": "Zusätzliche Angaben zum Rauchverhalten."
+          "description": "Slicing nach component.code"
         },
         "short": "Zusätzliche Angaben zum Rauchverhalten."
       },
@@ -153,7 +153,8 @@
         "id": "Observation.component:packungsjahre",
         "path": "Observation.component",
         "sliceName": "packungsjahre",
-        "short": "Die Zahl der täglich konsumierten Zigarettenpackungen (Inhalt 20 Stück) wird mit der Zahl der Raucherjahre multipliziert (siehe https://cde.nlm.nih.gov/deView?tinyId=Q1fNmemkyg).",
+        "short": "Packungsjahre (Packungsgröße: 20)",
+        "definition": "Die Zahl der täglich konsumierten Zigarettenpackungen (Inhalt 20 Stück) wird mit der Zahl der Raucherjahre multipliziert (siehe https://cde.nlm.nih.gov/deView?tinyId=Q1fNmemkyg).",
         "min": 0,
         "max": "*"
       },
@@ -210,6 +211,7 @@
         "id": "Observation.component:zigarettenProTag",
         "path": "Observation.component",
         "sliceName": "zigarettenProTag",
+        "short": "Anzahl täglich gerauchter Zigaretten (Teilangabe zur Berechnung der Packungsjahre)",
         "min": 0,
         "max": "*"
       },
@@ -266,6 +268,7 @@
         "id": "Observation.component:rauchbeginn",
         "path": "Observation.component",
         "sliceName": "rauchbeginn",
+        "short": "Rauchbeginn entweder als 'Alter bei Rauchbeginn' (Quantity in Jahren(a)) oder 'Datum bei Rauchbeginn' (dateTime)",
         "min": 0,
         "max": "*"
       },
@@ -347,6 +350,7 @@
         "id": "Observation.component:rauchdauer",
         "path": "Observation.component",
         "sliceName": "rauchdauer",
+        "short": "Gesamtdauer des Rauchens in Jahren (a)",
         "min": 0,
         "max": "*"
       },

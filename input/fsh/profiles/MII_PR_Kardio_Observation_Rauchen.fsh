@@ -38,7 +38,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open // erlaubt jegliche category slice (names)
 * component ^slicing.ordered = false
-* component ^slicing.description = "Zusätzliche Angaben zum Rauchverhalten."
+* component ^slicing.description = "Slicing nach component.code"
 * component contains
     packungsjahre 0..* and //MS and
     zigarettenProTag 0..* and
@@ -48,7 +48,8 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 // Rauchmenge
 // Packungsjahr = (#tägl.Zigaretten/20)*Anzahl Jahre die geraucht wurde. => 401201003 // Cigarette pack-years
 // Beispielwerte: < 1/2 Packung; ca. 1/2 Packung; ca. 1 Packung; >= 2 Packungen
-* component[packungsjahre] ^short = "Die Zahl der täglich konsumierten Zigarettenpackungen (Inhalt 20 Stück) wird mit der Zahl der Raucherjahre multipliziert (siehe https://cde.nlm.nih.gov/deView?tinyId=Q1fNmemkyg)."
+* component[packungsjahre] ^short = "Packungsjahre (Packungsgröße: 20)"
+* component[packungsjahre] ^definition = "Die Zahl der täglich konsumierten Zigarettenpackungen (Inhalt 20 Stück) wird mit der Zahl der Raucherjahre multipliziert (siehe https://cde.nlm.nih.gov/deView?tinyId=Q1fNmemkyg)."
 * component[packungsjahre].code = $sct#401201003 // https://loinc.org/8664-5 || (782516008) = Number of calculated pack years for cumulative lifetime tobacco exposure (observable entity)
 * component[packungsjahre].value[x] only Quantity
 * component[packungsjahre].value[x] MS
@@ -60,6 +61,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component[packungsjahre].valueQuantity.comparator MS 
 
 // Zigaretten pro Tag - Teilangabe zur Berechnung der Packungsjahre
+* component[zigarettenProTag] ^short = "Anzahl täglich gerauchter Zigaretten (Teilangabe zur Berechnung der Packungsjahre)"
 * component[zigarettenProTag].code = $loinc#63640-7 // How many cigarettes per day do or did you smoke?
 * component[zigarettenProTag].value[x] only Quantity
 * component[zigarettenProTag].valueQuantity 1..1 MS
@@ -77,6 +79,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 //* component[rauchzeitraum].valuePeriod obeys rauchzeitraum-start-vor-ende
 
 // started smoking age or date
+* component[rauchbeginn] ^short = "Rauchbeginn entweder als 'Alter bei Rauchbeginn' (Quantity in Jahren(a)) oder 'Datum bei Rauchbeginn' (dateTime)"
 * component[rauchbeginn].code = $sct#266929003 // Smoking started (Finding)
 * component[rauchbeginn].value[x] only dateTime or Quantity
 * component[rauchbeginn].valueDateTime MS
@@ -85,6 +88,7 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component[rauchbeginn].valueQuantity.code = $ucum#a
 
 // Total time smoked (observable entity)
+* component[rauchdauer] ^short = "Gesamtdauer des Rauchens in Jahren (a)"
 * component[rauchdauer].code = $sct#228487000
 * component[rauchdauer].value[x] only Quantity
 * component[rauchdauer].valueQuantity 1..1 MS

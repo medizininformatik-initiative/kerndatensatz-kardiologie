@@ -4,7 +4,7 @@ Das Modul Kardiologie ist primär für die standardisierte Erfassung und Aufbere
 
 ### ACRIBiS-Studie (Stufe 1, aktuell)
 
-Die initialen Profile wurden im Kontext der **ACRIBiS-Studie** (ACute Cardiac Infarction Registry with Biobanking and Imaging in Secondary Prevention) entwickelt. Die ACRIBiS-Studie fokussiert sich auf Patienten mit akutem Korarsyndrom (ACS) und Ziel ist es, durch standardisierte Datenerfassung eine bessere Nachsorge und Risikobewertung zu ermöglichen.
+Die initialen Profile wurden im Kontext der **ACRIBiS-Studie** (Advancing Cardiovascular Risk Identification with Structured Clinical Documentation and Biosignal Derived Phenotypes Synthesis) entwickelt. Die ACRIBiS-Studie fokussiert sich auf die Weiterentwicklung der für Prävention, Diagnostik und Therapie wichtigen Risikoabschätzung bei Patienten mit Herz-Kreislauf-Erkrankungen. Ziel ist es, durch Standardisierung der Datenerfassung in der Routineversorgung patientenindividuellen Risiken von Herz-Kreislauf-Erkrankungen zu verbessern oder erst zu ermöglichen.
 
 Key-Content für Stufe 1:
 * Rauchverhalten (MII_PR_Kardio_Observation_Rauchen)
@@ -20,15 +20,15 @@ Key-Content für Stufe 1:
 
 ### FollowUp-Befragung (ACRIBiS)
 
-Über ein standardisiertes questionnaire-Medium (MII_QN_Kardio_Acribis_Study_FollowUp) wird die FollowUp-Befragung durchgeführt, um Langzeitdaten zu sammeln.
+Über ein standardisiertes Questionnaire (MII_QN_Kardio_Acribis_Study_FollowUp) wird die FollowUp-Befragung durchgeführt, um Langzeitdaten zu sammeln.
 
 ### HiGHmed Use Case Cardio (Stufe 2)
 
-Integration der Vorarbeiten aus dem HiGHmed use case "Cardio" (Hochgeregelte Datenqualität, umfassende Kardiologie-Daten).
+Integration weiterer Vorarbeiten aus dem HiGHmed "Use-Case Cardio" (Strukturierte Daten für die Kardiologie, langfristige Verbesserung der Patientenversorgung).
 
 ### CAEHR (Stufe 2)
 
-Integration von Profilen für chronische Erkrankungen und Kardiologie (Chronic Angina Evaluation and Heart Failure Registry).
+Integration von Vorarbeiten aus dem CAEHR Projekt (Austausch strukturierter Informationen entlang der Patient Journey, Verbesserung der Notfallversorgung bei Schlaganfall).
 
 ### Gesamte Kardiologie (Stufe 3)
 

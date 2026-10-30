@@ -43,7 +43,7 @@ An extended ValueSet including standard condition severity and SNOMED CT code 42
   "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-30T07:50:37+00:00",
+  "date" : "2026-10-30T09:25:40+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

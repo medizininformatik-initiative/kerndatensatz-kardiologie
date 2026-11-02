@@ -1,7 +1,7 @@
 {
   "version" : "2027.0.0-ballot",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20261102092913",
+  "date" : "20261102145648",
   "name" : "de.medizininformatikinitiative.kerndatensatz.kardiologie",
   "jurisdiction" : "urn:iso:std:iso:3166#DE"
 }

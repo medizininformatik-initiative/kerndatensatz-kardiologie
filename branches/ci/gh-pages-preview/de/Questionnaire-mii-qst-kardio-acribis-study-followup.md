@@ -1,15 +1,15 @@
-# MII QN Kardio Acribis Study FollowUp - MII IG Modul Kardio DE v2027.0.0-ballot
+# MII QST Kardio Acribis Study FollowUp - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
-* **MII QN Kardio Acribis Study FollowUp**
+* **MII QST Kardio Acribis Study FollowUp**
 
-## Questionnaire: MII QN Kardio Acribis Study FollowUp (Experimentell) 
+## Questionnaire: MII QST Kardio Acribis Study FollowUp (Experimentell) 
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup | *Version*:2027.0.0-ballot |
-| Draft Stand: 2025-11-17 | *Maschinenlesbarer Name*:MII_QN_Kardio_Acribis_Study_FollowUp |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qst-kardio-acribis-study-followup | *Version*:2027.0.0-ballot |
+| Draft Stand: 2025-11-17 | *Maschinenlesbarer Name*:MII_QST_Kardio_Acribis_Study_FollowUp |
 | **Verwendung**: Clinical Focus: Clinical trial | |
 
  
@@ -35,12 +35,12 @@ Follow-Up-Fragebogen im Rahmen der Acribis-Studie.
 ```json
 {
   "resourceType" : "Questionnaire",
-  "id" : "mii-qn-kardio-acribis-study-followup",
+  "id" : "mii-qst-kardio-acribis-study-followup",
   "language" : "de",
-  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qst-kardio-acribis-study-followup",
   "version" : "2027.0.0-ballot",
-  "name" : "MII_QN_Kardio_Acribis_Study_FollowUp",
-  "title" : "MII QN Kardio Acribis Study FollowUp",
+  "name" : "MII_QST_Kardio_Acribis_Study_FollowUp",
+  "title" : "MII QST Kardio Acribis Study FollowUp",
   "status" : "draft",
   "experimental" : true,
   "subjectType" : ["Patient"],

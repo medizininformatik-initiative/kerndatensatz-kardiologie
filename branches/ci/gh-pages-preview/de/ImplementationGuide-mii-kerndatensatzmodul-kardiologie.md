@@ -14,7 +14,7 @@
   "name" : "MII_IG_MODUL_KARDIO_DE",
   "title" : "MII IG Modul Kardio DE",
   "status" : "draft",
-  "date" : "2026-11-02T09:29:13+00:00",
+  "date" : "2026-11-02T14:56:48+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -1696,12 +1696,12 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "Questionnaire-mii-qn-kardio-acribis-study-followup.html"
+        "valueUri" : "Questionnaire-mii-qst-kardio-acribis-study-followup.html"
       }],
       "reference" : {
-        "reference" : "Questionnaire/mii-qn-kardio-acribis-study-followup"
+        "reference" : "Questionnaire/mii-qst-kardio-acribis-study-followup"
       },
-      "name" : "MII QN Kardio Acribis Study FollowUp",
+      "name" : "MII QST Kardio Acribis Study FollowUp",
       "description" : "Follow-Up-Fragebogen für die ACRIBiS-Studie.",
       "exampleBoolean" : false
     },

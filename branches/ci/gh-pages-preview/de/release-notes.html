@@ -359,6 +359,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">packageId</code> in <code class="language-plaintext highlighter-rouge">sushi-config.yaml</code> ergänzt: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/92">#92</a></li>
+  <li>Questionnaire gemäß Namenskonvention (Prefix <code class="language-plaintext highlighter-rouge">qst</code>) umbenannt: <code class="language-plaintext highlighter-rouge">MII_QN_Kardio_Acribis_Study_FollowUp</code> → <code class="language-plaintext highlighter-rouge">MII_QST_Kardio_Acribis_Study_FollowUp</code>, id <code class="language-plaintext highlighter-rouge">mii-qn-kardio-…</code> → <code class="language-plaintext highlighter-rouge">mii-qst-kardio-acribis-study-followup</code>; <strong>die Canonical-URL ändert sich dadurch</strong></li>
+  <li>QC-Regeln (<code class="language-plaintext highlighter-rouge">qc/custom.rules.yaml</code>) überarbeitet: Questionnaire und Library aufgenommen, ImplementationGuide von den Namenskonventionen ausgenommen, Prefix-Kürzel vereinheitlicht</li>
 </ul>
 
 <h2 id="version-202700-ballot-ballot-version">Version 2027.0.0-ballot (Ballot-Version)</h2>
@@ -511,7 +513,7 @@ https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~releases</p>
 
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de">Medizininformatik-Initiative</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Nov 2, 2026 09:29+0000">2026-11-02</span>
+          Erstellt <span title="Mon, Nov 2, 2026 14:56+0000">2026-11-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

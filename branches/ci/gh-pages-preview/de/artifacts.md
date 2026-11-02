@@ -13,7 +13,7 @@ Diese definieren Formulare, die von Systemen verwendet werden, die mit dem Imple
 
 | | |
 | :--- | :--- |
-| [ MII QN Kardio Acribis Study FollowUp  ](Questionnaire-mii-qn-kardio-acribis-study-followup.md) | Follow-Up-Fragebogen für die ACRIBiS-Studie. |
+| [ MII QST Kardio Acribis Study FollowUp  ](Questionnaire-mii-qst-kardio-acribis-study-followup.md) | Follow-Up-Fragebogen für die ACRIBiS-Studie. |
 
 ### Strukturen: Ressourcenprofile 
 

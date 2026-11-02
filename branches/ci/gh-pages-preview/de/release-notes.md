@@ -36,6 +36,8 @@ Die aktuelle Version des Kardiologie-Moduls ist **2027.0.0-ballot**.
 #### Sonstiges
 
 * `packageId` in `sushi-config.yaml` ergänzt: [#92](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/92)
+* Questionnaire gemäß Namenskonvention (Prefix `qst`) umbenannt: `MII_QN_Kardio_Acribis_Study_FollowUp` → `MII_QST_Kardio_Acribis_Study_FollowUp`, id `mii-qn-kardio-…` → `mii-qst-kardio-acribis-study-followup`; **die Canonical-URL ändert sich dadurch**
+* QC-Regeln (`qc/custom.rules.yaml`) überarbeitet: Questionnaire und Library aufgenommen, ImplementationGuide von den Namenskonventionen ausgenommen, Prefix-Kürzel vereinheitlicht
 
 ## Version 2027.0.0-ballot (Ballot-Version)
 

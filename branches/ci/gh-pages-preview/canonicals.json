@@ -41,11 +41,11 @@
   "name" : "MII_IG_MODUL_KARDIO_DE"
 },
 {
-  "id" : "mii-qn-kardio-acribis-study-followup",
+  "id" : "mii-qst-kardio-acribis-study-followup",
   "type" : "Questionnaire",
-  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qst-kardio-acribis-study-followup",
   "version" : "2027.0.0-ballot",
-  "name" : "MII_QN_Kardio_Acribis_Study_FollowUp"
+  "name" : "MII_QST_Kardio_Acribis_Study_FollowUp"
 },
 {
   "id" : "mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf",

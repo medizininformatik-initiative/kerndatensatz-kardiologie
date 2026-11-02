@@ -88,7 +88,7 @@
 
 ### Questionnaires
 
-* [MII QN Kardio Acribis Study FollowUp](Questionnaire-mii-qn-kardio-acribis-study-followup.md)
+* [MII QST Kardio Acribis Study FollowUp](Questionnaire-mii-qst-kardio-acribis-study-followup.md)
 
 ### Examples
 

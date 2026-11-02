@@ -9,7 +9,7 @@ Usage: #example
 * contained[0] = Beispielpatient
 * subject = Reference(Beispielpatient)
 * authored = "2025-11-20T13:57:45.476Z"
-* questionnaire = Canonical(mii-qn-kardio-acribis-study-followup)
+* questionnaire = Canonical(mii-qst-kardio-acribis-study-followup)
 * item[0].linkId = "group1"
 * item[0].text = "Allgemeine Angaben"
 * item[0].item[0].linkId = "o_1"

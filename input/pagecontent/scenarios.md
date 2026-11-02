@@ -20,7 +20,7 @@ Key-Content für Stufe 1:
 
 ### FollowUp-Befragung (ACRIBiS)
 
-Über ein standardisiertes Questionnaire (MII_QN_Kardio_Acribis_Study_FollowUp) wird die FollowUp-Befragung durchgeführt, um Langzeitdaten zu sammeln.
+Über ein standardisiertes Questionnaire (MII_QST_Kardio_Acribis_Study_FollowUp) wird die FollowUp-Befragung durchgeführt, um Langzeitdaten zu sammeln.
 
 ### HiGHmed Use Case Cardio (Stufe 2)
 

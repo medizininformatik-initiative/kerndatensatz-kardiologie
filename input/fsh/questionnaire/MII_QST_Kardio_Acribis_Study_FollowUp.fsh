@@ -1,6 +1,6 @@
-Instance: mii-qn-kardio-acribis-study-followup
+Instance: mii-qst-kardio-acribis-study-followup
 InstanceOf: Questionnaire
-Title: "MII QN Kardio Acribis Study FollowUp"
+Title: "MII QST Kardio Acribis Study FollowUp"
 Description: "Follow-Up-Fragebogen für die ACRIBiS-Studie."
 Usage: #definition
 
@@ -8,8 +8,8 @@ Usage: #definition
 * insert Instance_Publisher
 
 * language = #de
-* name = "MII_QN_Kardio_Acribis_Study_FollowUp"                          // Technischer Name (PascalCase empfohlen)
-* title = "MII QN Kardio Acribis Study FollowUp"                         // Titel zur Anzeige
+* name = "MII_QST_Kardio_Acribis_Study_FollowUp"                          // Technischer Name (PascalCase empfohlen)
+* title = "MII QST Kardio Acribis Study FollowUp"                         // Titel zur Anzeige
 * status = #draft                                                        // #draft | #active | #retired | #NInown
 * experimental = true                                                    // true = fuer experimentellen Gebrauch, sonst false
 * date = "2025-11-17"  

@@ -21,7 +21,7 @@ Diese Gruppe umfasst die Profilierung kardialer (Implantat-)Geräte.
 * `subject` mit Referenz auf Patient
 * `performed[x]` mit Begrenzung auf `performedDateTime` oder `performedPeriod`
 * `bodySite` mit Kardinalität 1..* als verpflichtende Angabe
-* `focalDevice.manipulated` mit Kardinalität 1..* als verpflichtende Angabe
+* `focalDevice.manipulated` als Must-support
 
 ### MII PR Kardio Device — StructureDefinition
 

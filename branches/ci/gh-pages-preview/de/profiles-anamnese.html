@@ -311,7 +311,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </ul>
 
 </div>
-<p>Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfasst eine Vielzahl, im Rahmen der Patientenvorgeschichte und -befragung, zu erhebenden Angaben: kardiologische Diagnosen, Vitalparameter, Medikation sowie eine Reihe kardiologisch relevanter Einzelangaben (u. a. Klappenvitien, Krankenhausaufenthalte im letzten Jahr sowie oder atherosklerotische Ereignisse).</p>
+<p>Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfasst eine Vielzahl, im Rahmen der Patientenvorgeschichte und -befragung, zu erhebenden Angaben: kardiologische Diagnosen, Vitalparameter, Medikation sowie eine Reihe kardiologisch relevanter Einzelangaben (u. a. Klappenvitien, Krankenhausaufenthalte im letzten Jahr oder atherosklerotische Ereignisse).</p>
 
 <h2 id="profile">Profile</h2>
 
@@ -359,7 +359,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><code class="language-plaintext highlighter-rouge">effective[x]</code> mit Kardinalität 1..1 MS zur Angabe des Zeitpunkts der Beobachtung</li>
   <li><code class="language-plaintext highlighter-rouge">value[x]</code> mit Kardinalität 0..0 und Abbildung der Information in <code class="language-plaintext highlighter-rouge">Component</code>.</li>
   <li><code class="language-plaintext highlighter-rouge">component[erkrankung].code</code> enthält SNOMED CT Code 439401001 (Diagnosis)</li>
-  <li><code class="language-plaintext highlighter-rouge">component[erkrankung].value[x]</code> aus ValueSet <code class="language-plaintext highlighter-rouge">MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT</code> (required)</li>
+  <li><code class="language-plaintext highlighter-rouge">component[erkrankung].value[x]</code> aus ValueSet <code class="language-plaintext highlighter-rouge">MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT</code> (required)</li>
   <li><code class="language-plaintext highlighter-rouge">component[datum].code</code> fixiert auf SNOMED CT Code 432213005 (Date of diagnosis)</li>
   <li><code class="language-plaintext highlighter-rouge">component[datum].value[x]</code> als valueDateTime zur Angabe des Datum des bezeichneten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK, …)</li>
 </ul>
@@ -374,8 +374,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul>
   <li><code class="language-plaintext highlighter-rouge">effective[x]</code> ist auf <code class="language-plaintext highlighter-rouge">Period</code> beschränkt (Erfassungszeitraum)</li>
   <li><code class="language-plaintext highlighter-rouge">value[x]</code> als <code class="language-plaintext highlighter-rouge">integer</code> (Anzahl) oder <code class="language-plaintext highlighter-rouge">CodeableConcept</code> (bei Unbekanntheit)</li>
-  <li><code class="language-plaintext highlighter-rouge">valueInteger</code> erfordert positiven Wert (Invariant <code class="language-plaintext highlighter-rouge">mii-kardio-pos-int</code>)</li>
-  <li><code class="language-plaintext highlighter-rouge">valueCodeableConcept</code> aus ValueSet <code class="language-plaintext highlighter-rouge">MII_VS_Kardio_Nein_Unbekannt</code> (required)</li>
+  <li><code class="language-plaintext highlighter-rouge">valueInteger</code> darf nicht negativ sein (≥ 0, Invariant <code class="language-plaintext highlighter-rouge">mii-kardio-pos-int</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">valueCodeableConcept</code> aus ValueSet <a href="http://terminology.hl7.org/ValueSet/v2-0532">HL7 v2-0532 (Expanded Yes/No Indicator)</a> (required)</li>
   <li><code class="language-plaintext highlighter-rouge">component</code> geslicet für <code class="language-plaintext highlighter-rouge">Grund</code> mit SNOMED CT Code 406524005 (Reason for visit diagnosis)</li>
   <li><code class="language-plaintext highlighter-rouge">component[Grund].valueCodeableConcept</code> fixiert auf SNOMED CT Code 84114007 (Heart failure)</li>
 </ul>
@@ -424,7 +424,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de">Medizininformatik-Initiative</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Fri, Oct 30, 2026 14:26+0000">2026-10-30</span>
+          Erstellt <span title="Mon, Nov 2, 2026 09:29+0000">2026-11-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

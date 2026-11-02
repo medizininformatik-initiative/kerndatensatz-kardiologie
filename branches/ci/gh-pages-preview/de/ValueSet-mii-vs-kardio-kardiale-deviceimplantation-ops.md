@@ -1,10 +1,10 @@
-# MII VS Kardio Kardiale Devicemimplantation [OPS] - MII IG Modul Kardio DE v2027.0.0-ballot
+# MII VS Kardio Kardiale Deviceimplantation [OPS] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
-* **MII VS Kardio Kardiale Devicemimplantation [OPS]**
+* **MII VS Kardio Kardiale Deviceimplantation [OPS]**
 
-## ValueSet: MII VS Kardio Kardiale Devicemimplantation [OPS] 
+## ValueSet: MII VS Kardio Kardiale Deviceimplantation [OPS] 
 
 | | |
 | :--- | :--- |
@@ -40,7 +40,7 @@ Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defi
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops",
   "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_OPS",
-  "title" : "MII VS Kardio Kardiale Devicemimplantation [OPS]",
+  "title" : "MII VS Kardio Kardiale Deviceimplantation [OPS]",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-04-17",

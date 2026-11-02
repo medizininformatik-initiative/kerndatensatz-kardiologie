@@ -9,7 +9,7 @@
   <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops"/>
   <version value="2027.0.0-ballot"/>
   <name value="MII_VS_Kardio_Kardiale_Deviceimplantation_OPS"/>
-  <title value="MII VS Kardio Kardiale Devicemimplantation [OPS]"/>
+  <title value="MII VS Kardio Kardiale Deviceimplantation [OPS]"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2026-04-17"/>

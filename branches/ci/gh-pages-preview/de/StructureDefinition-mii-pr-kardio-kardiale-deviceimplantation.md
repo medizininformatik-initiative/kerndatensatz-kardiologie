@@ -320,7 +320,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "sliceName" : "sct",
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct|2027.0.0-ballot"
+        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct|2027.0.0-ballot"
       }
     },
     {

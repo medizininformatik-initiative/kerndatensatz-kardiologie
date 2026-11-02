@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-score-nyha | *Version*:2027.0.0-ballot |
-| Active Stand: 2026-10-30 | *Maschinenlesbarer Name*:MII_PR_Kardio_Score_NYHA |
+| Active Stand: 2026-11-02 | *Maschinenlesbarer Name*:MII_PR_Kardio_Score_NYHA |
 
  
 Profil zur Erfassung der Einstufung der Stadien einer Herzinsuffizienz nach der New York Heart Association. 
@@ -117,7 +117,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio Score NYHA",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-10-30T14:26:59+00:00",
+  "date" : "2026-11-02T09:29:13+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

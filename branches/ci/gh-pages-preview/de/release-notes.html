@@ -300,6 +300,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
+  <li><a href="#änderungen-seit-202700-ballot-ballot-kommentierung-noch-nicht-veröffentlicht" id="markdown-toc-änderungen-seit-202700-ballot-ballot-kommentierung-noch-nicht-veröffentlicht">Änderungen seit 2027.0.0-ballot (Ballot-Kommentierung, noch nicht veröffentlicht)</a></li>
   <li><a href="#version-202700-ballot-ballot-version" id="markdown-toc-version-202700-ballot-ballot-version">Version 2027.0.0-ballot (Ballot-Version)</a>    <ul>
       <li><a href="#änderungen-seit-202700-ballotrc1" id="markdown-toc-änderungen-seit-202700-ballotrc1">Änderungen seit 2027.0.0-ballot.rc1</a></li>
     </ul>
@@ -324,25 +325,61 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Die aktuelle Version des Kardiologie-Moduls ist <strong>2027.0.0-ballot</strong>.</p>
 
+<h2 id="änderungen-seit-202700-ballot-ballot-kommentierung-noch-nicht-veröffentlicht">Änderungen seit 2027.0.0-ballot (Ballot-Kommentierung, noch nicht veröffentlicht)</h2>
+
+<h4 id="profil-updates">Profil-Updates</h4>
+
+<ul>
+  <li>LVEF: Referenzbereiche gemäß ESC-Leitlinie Herzinsuffizienz 2026 aktualisiert (Kategorie HFmrEF entfällt): <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/93">#93</a></li>
+  <li>LVEF: Referenzbereich auf einen codierten Normalbereich umgestellt (<code class="language-plaintext highlighter-rouge">type</code> = normal, <code class="language-plaintext highlighter-rouge">low</code> = 50 %), Bewertung des Messwerts über <code class="language-plaintext highlighter-rouge">interpretation</code> (z. B. N/L); das bisherige Slicing nach <code class="language-plaintext highlighter-rouge">text</code> (Normal/Reduced) entfällt (<strong>Breaking Change</strong>): <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100">#100</a></li>
+  <li>LVEF: redundante Invarianten (<code class="language-plaintext highlighter-rouge">vs-de-2</code>, <code class="language-plaintext highlighter-rouge">mii-icu-1</code>, <code class="language-plaintext highlighter-rouge">code-coding-icu</code>) entfernt; Prüfung auf value/dataAbsentReason über die zentrale Invariante <code class="language-plaintext highlighter-rouge">mii-inv-kardio-dataabsentreason</code>: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100">#100</a></li>
+  <li>Fix: Invariante <code class="language-plaintext highlighter-rouge">mii-kardio-pos-int</code> (Anzahl KH-Aufenthalte) griff durch eine fehlerhafte FHIRPath-Expression nicht; negative Werte werden jetzt abgelehnt: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100">#100</a></li>
+  <li>Kardiale Deviceimplantation: <code class="language-plaintext highlighter-rouge">focalDevice</code> nicht mehr verpflichtend, <code class="language-plaintext highlighter-rouge">focalDevice.manipulated</code> auf <code class="language-plaintext highlighter-rouge">MII PR Kardio Device</code> eingeschränkt: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/99">#99</a></li>
+  <li>Rauchen: Kurzbeschreibungen und Definitionen der Components überarbeitet: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/101">#101</a></li>
+  <li>Korrekturen an Descriptions (Atherosklerotisches Erstereignis, Anzahl KH-Aufenthalte, Invariante <code class="language-plaintext highlighter-rouge">mii-kardio-pos-int</code>) und an der Slicing-Description im Erstereignis-Profil: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100">#100</a></li>
+</ul>
+
+<h4 id="terminologie">Terminologie</h4>
+
+<ul>
+  <li>SNOMED-PCE für operative Klappeneingriffe: Zugang auf „Percutaneous approach - access“ korrigiert: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/pull/96">#96</a></li>
+  <li>Id des ValueSets <code class="language-plaintext highlighter-rouge">MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT</code> korrigiert (<code class="language-plaintext highlighter-rouge">…-scnomedct</code> → <code class="language-plaintext highlighter-rouge">…-snomedct</code>); <strong>die Canonical-URL ändert sich dadurch</strong>: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100">#100</a></li>
+  <li>Namens- und Titelkorrekturen: <code class="language-plaintext highlighter-rouge">MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT</code>, Titel „Deviceimplantation“ (3 ValueSets): <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100">#100</a></li>
+</ul>
+
+<h4 id="dokumentation">Dokumentation</h4>
+
+<ul>
+  <li>IG-Texte überarbeitet: Widersprüche zwischen Text und Profilen, Akronym-Auflösungen (ACRIBiS, CAEHR), Tippfehler; Gliederung der Datensatzseite am Klassendiagramm ausgerichtet; Hinweis auf vorbereitete, noch nicht verwendete Terminologien: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100">#100</a></li>
+  <li>UML-Klassendiagramm aktualisiert (Herkunftsland, Ethnie, Lebensmittelpunkt): <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/97">#97</a></li>
+  <li>Nicht abgestimmter Entwurf des CapabilityStatements entfernt: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100">#100</a></li>
+</ul>
+
+<h4 id="sonstiges">Sonstiges</h4>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">packageId</code> in <code class="language-plaintext highlighter-rouge">sushi-config.yaml</code> ergänzt: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/92">#92</a></li>
+</ul>
+
 <h2 id="version-202700-ballot-ballot-version">Version 2027.0.0-ballot (Ballot-Version)</h2>
 
 <h3 id="änderungen-seit-202700-ballotrc1">Änderungen seit 2027.0.0-ballot.rc1</h3>
 
-<h4 id="terminologie">Terminologie</h4>
+<h4 id="terminologie-1">Terminologie</h4>
 
 <ul>
   <li>Vereinfachen der SNOMED PCE für schwere spontane Blutung: <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/87">#87</a></li>
   <li>Fix SNOMED-Code im Follow-Up-Fragebogen</li>
   <li>LOINC Update auf Version 2.83</li>
-  <li>Das VS-Binding im Profil <code class="language-plaintext highlighter-rouge">MII PR Kardio Kardiale Deviceimplantation</code> für <code class="language-plaintext highlighter-rouge">bodySite</code> wurde von <code class="language-plaintext highlighter-rouge">requiered</code> auf <code class="language-plaintext highlighter-rouge">extensible</code> geändert. Außerdem sind jetzt auch andere Codes als SNOMED per Slicing erlaubt.</li>
+  <li>Das VS-Binding im Profil <code class="language-plaintext highlighter-rouge">MII PR Kardio Kardiale Deviceimplantation</code> für <code class="language-plaintext highlighter-rouge">bodySite</code> wurde von <code class="language-plaintext highlighter-rouge">required</code> auf <code class="language-plaintext highlighter-rouge">extensible</code> geändert. Außerdem sind jetzt auch andere Codes als SNOMED per Slicing erlaubt.</li>
 </ul>
 
 <h4 id="dependency-updates">Dependency-Updates</h4>
 <ul>
-  <li>Update der Dependenies auf die Version 2027.0.0-ballot der KDS Module Basis und Meta</li>
+  <li>Update der Dependencies auf die Version 2027.0.0-ballot der KDS Module Basis und Meta</li>
 </ul>
 
-<h4 id="dokumentation">Dokumentation</h4>
+<h4 id="dokumentation-1">Dokumentation</h4>
 <ul>
   <li>Sprache für alle Ressourcen auf <code class="language-plaintext highlighter-rouge">de</code> gesetzt</li>
 </ul>
@@ -361,7 +398,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li>ValueSets für ICD-10-GM, Alpha-ID und OPS auf MII-Versionen aktualisiert</li>
 </ul>
 
-<h4 id="profil-updates">Profil-Updates</h4>
+<h4 id="profil-updates-1">Profil-Updates</h4>
 
 <ul>
   <li>Profil <code class="language-plaintext highlighter-rouge">MII_PR_Kardio_Observation_Rauchen</code>: Komponenten und Beispiel aktualisiert</li>
@@ -381,7 +418,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h4 id="ig-publikation--dokumentation">IG-Publikation &amp; Dokumentation</h4>
 
 <ul>
-  <li>IG erstellt; Status: <code class="language-plaintext highlighter-rouge">active</code></li>
+  <li>IG erstellt; Status: <code class="language-plaintext highlighter-rouge">draft</code></li>
   <li>UML-Diagramm aktualisiert</li>
 </ul>
 
@@ -474,7 +511,7 @@ https://simplifier.net/MII-Erweiterungsmodul-Kardiologie/~releases</p>
 
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de">Medizininformatik-Initiative</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Fri, Oct 30, 2026 14:26+0000">2026-10-30</span>
+          Erstellt <span title="Mon, Nov 2, 2026 09:29+0000">2026-11-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

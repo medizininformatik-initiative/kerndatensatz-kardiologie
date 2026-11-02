@@ -14,7 +14,7 @@
   "name" : "MII_IG_MODUL_KARDIO_DE",
   "title" : "MII IG Modul Kardio DE",
   "status" : "draft",
-  "date" : "2026-10-30T14:26:59+00:00",
+  "date" : "2026-11-02T09:29:13+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -1077,7 +1077,7 @@
       "reference" : {
         "reference" : "Condition/mii-exa-kardio-embolischer-gefaessverschluss"
       },
-      "name" : "MII EXA Kardio Emoblischer Gefäßverschluss",
+      "name" : "MII EXA Kardio Embolischer Gefäßverschluss",
       "description" : "Beispiel: Der Patient hat angegeben, einen embolischen Gefäßverschluss gehabt zu haben.",
       "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose|2027.0.0-ballot"
     },
@@ -1398,7 +1398,7 @@
         "reference" : "StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
       },
       "name" : "MII PR Kardio Anzahl KH Aufenthalte wg HF",
-      "description" : "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
+      "description" : "Profil zur Erfassung der Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
       "exampleBoolean" : false
     },
     {
@@ -1414,7 +1414,7 @@
         "reference" : "StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
       },
       "name" : "MII PR Kardio Atherosklerotisches Erstereignis",
-      "description" : "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
+      "description" : "Profil zur Erfassung der Art und des Datums des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
       "exampleBoolean" : false
     },
     {
@@ -1877,7 +1877,7 @@
       "reference" : {
         "reference" : "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"
       },
-      "name" : "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+      "name" : "MII VS Kardio Kardiale Deviceimplantation Körperstelle [SNOMED CT]",
       "description" : "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
       "exampleBoolean" : false
     },
@@ -1893,7 +1893,7 @@
       "reference" : {
         "reference" : "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops"
       },
-      "name" : "MII VS Kardio Kardiale Devicemimplantation [OPS]",
+      "name" : "MII VS Kardio Kardiale Deviceimplantation [OPS]",
       "description" : "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
       "exampleBoolean" : false
     },
@@ -1904,13 +1904,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.html"
+        "valueUri" : "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-snomedct.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct"
+        "reference" : "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct"
       },
-      "name" : "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
-      "description" : "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+      "name" : "MII VS Kardio Kardiale Deviceimplantation [SNOMED CT]",
+      "description" : "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronisationstherapie (CRT) und ventrikuläre Unterstützungssysteme (VAD) ab.",
       "exampleBoolean" : false
     },
     {

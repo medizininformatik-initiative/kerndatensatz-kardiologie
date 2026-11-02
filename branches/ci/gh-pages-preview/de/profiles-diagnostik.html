@@ -302,7 +302,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
 
-<p>Profile dieser Kategorie bilden objektiv erhobene Mess- und Befunddaten ab, sofern diese nicht bereits in anderen KDS Modulen abgebildet sind. Zentral für die Abbildung ist der Code, Zeitpunkt/Periode und Messwert inkl. Einheit sowie zuugehörige Referenzintervalle.</p>
+<p>Profile dieser Kategorie bilden objektiv erhobene Mess- und Befunddaten ab, sofern diese nicht bereits in anderen KDS Modulen abgebildet sind. Zentral für die Abbildung ist der Code, Zeitpunkt/Periode und Messwert inkl. Einheit sowie zugehörige Referenzintervalle.</p>
 
 <h2 id="profile">Profile</h2>
 
@@ -318,10 +318,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><code class="language-plaintext highlighter-rouge">category</code> mit Angabe "imaging"</li>
   <li><code class="language-plaintext highlighter-rouge">code</code> anzugeben mit SNOMED CT und LOINC</li>
   <li><code class="language-plaintext highlighter-rouge">subject</code> mit Kardinalität 1..1 auf Patienten-Referenz</li>
-  <li><code class="language-plaintext highlighter-rouge">effective[x]</code> eingescchränkt auf dateTime, Period oder instant</li>
+  <li><code class="language-plaintext highlighter-rouge">effective[x]</code> eingeschränkt auf dateTime, Period oder instant</li>
   <li><code class="language-plaintext highlighter-rouge">value[x]</code> als UCUM-Unit "%"</li>
-  <li><code class="language-plaintext highlighter-rouge">referenceRange</code> mit Kardinalität 0..1 angegeben</li>
+  <li><code class="language-plaintext highlighter-rouge">referenceRange</code> (0..1) als Normalbereich: <code class="language-plaintext highlighter-rouge">type</code> = <code class="language-plaintext highlighter-rouge">normal</code> (<a href="https://terminology.hl7.org/CodeSystem-referencerange-meaning.html">HL7 referencerange-meaning</a>), <code class="language-plaintext highlighter-rouge">low</code> = 50 %</li>
+  <li><code class="language-plaintext highlighter-rouge">interpretation</code> zur Bewertung des Messwerts aus dem Standard-ValueSet <a href="http://hl7.org/fhir/R4/valueset-observation-interpretation.html">observation-interpretation</a>, z. B. <code class="language-plaintext highlighter-rouge">N</code> (Normal, LVEF ≥ 50 %) oder <code class="language-plaintext highlighter-rouge">L</code> (Low, LVEF &lt; 50 %, reduziert)</li>
 </ul>
+
+<p><strong>Hinweis zur Modellierung:</strong> Die Einteilung folgt der ESC-Leitlinie Herzinsuffizienz 2026 (LVEF &lt; 50 % reduziert, ≥ 50 % erhalten; die Kategorie HFmrEF entfällt). Statt mehrerer Referenzbereiche wird ausschließlich der Normalbereich angegeben; die Bewertung des konkreten Messwerts erfolgt über <code class="language-plaintext highlighter-rouge">interpretation</code>. Die Phänotypen HFrEF/HFpEF sind Diagnosen und werden nicht über die LVEF-Observation abgebildet, da eine LVEF ≥ 50 % allein keine Herzinsuffizienz belegt.</p>
 
 <hr />
 
@@ -352,7 +355,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de">Medizininformatik-Initiative</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Fri, Oct 30, 2026 14:26+0000">2026-10-30</span>
+          Erstellt <span title="Mon, Nov 2, 2026 09:29+0000">2026-11-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

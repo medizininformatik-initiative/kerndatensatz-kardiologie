@@ -302,18 +302,25 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
 
-<p>Das Kardiologie-Modul umfasst derzeit <strong>19 Profile</strong>, die in folgende Gruppen unterteilt werden können:</p>
+<p>Das Kardiologie-Modul umfasst derzeit <strong>19 Profile</strong>. Die Gliederung folgt dem <a href="https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/UML">Klassendiagramm</a>:</p>
 
 <ul>
-  <li><strong>Allgemeine Patientendaten</strong> (Demographische Informationen)</li>
-  <li><strong>Anamnese</strong> (Vorerkrankungen, Nicht-Vorliegen, etc.)</li>
-  <li><strong>Skalen</strong> (NYHA, mRS, etc.)</li>
-  <li><strong>Risikofaktoren</strong> (Disposition, Rauchen, Alkohol)</li>
-  <li><strong>Kardiologische Devices</strong> (Schrittmacher, ICD, CRT, LVAD/BiVAD)</li>
-  <li><strong>Diagnostik</strong> (Device-Implantation, EKG, etc.)</li>
-  <li><strong>EKG Metadaten</strong> (Metadaten, Annotationen, Rohdatenreferenz)</li>
-  <li><strong>Sonstige</strong> (Follow-Up-Fragebogen)</li>
+  <li><strong>Allgemeine Patientendaten</strong> (Demographische Informationen; keine eigenen Profile, Nachnutzung anderer KDS-Module)</li>
+  <li><strong>Anamnese</strong> (Vorerkrankungen, Nicht-Vorliegen, etc.), darin:
+    <ul>
+      <li><strong>Skalen</strong> (NYHA, mRS, etc.)</li>
+      <li><strong>Risikofaktoren</strong> (Disposition, Rauchen, Alkohol)</li>
+      <li><strong>Kardiologische Devices</strong> (Schrittmacher, ICD, CRT, LVAD/BiVAD)</li>
+    </ul>
+  </li>
+  <li><strong>Diagnostik</strong> (LVEF), darin:
+    <ul>
+      <li><strong>EKG-Metadaten</strong> (Metadaten, Annotationen, Rohdatenreferenz)</li>
+    </ul>
+  </li>
 </ul>
+
+<p>Ergänzend wird der <strong>Follow-Up-Fragebogen</strong> der ACRIBiS-Studie als Questionnaire-Ressource (kein Profil) bereitgestellt.</p>
 
 <p>Die Profile sind im Folgenden aufgelistet. Details zur technischen Umsetzung sowie Links auf die zugehörigen Artefakte finden sich im Bereich "Technische Umsetzung" dieses Implementation Guides.</p>
 
@@ -476,7 +483,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><strong>EKG-Referenz</strong></td>
-      <td>Referenz für EKG-Rasterung und -Kalibrierung</td>
+      <td>Referenzierung der an einem externen Ort gespeicherten EKG-Rohdaten, analog zu bildgebenden Verfahren über eine Datei- oder Netzwerk-URL</td>
     </tr>
     <tr>
       <td><strong>EKG-Gerätedefinition</strong></td>
@@ -493,12 +500,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h2 id="8-sonstige-followup--questionnaire">8. Sonstige (FollowUp / Questionnaire)</h2>
+<h2 id="8-sonstige-follow-up-fragebogen-questionnaire-kein-profil">8. Sonstige: Follow-Up-Fragebogen (Questionnaire, kein Profil)</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Profile</th>
+      <th>Ressource</th>
       <th>Ziel</th>
     </tr>
   </thead>
@@ -541,7 +548,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de">Medizininformatik-Initiative</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Fri, Oct 30, 2026 14:26+0000">2026-10-30</span>
+          Erstellt <span title="Mon, Nov 2, 2026 09:29+0000">2026-11-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

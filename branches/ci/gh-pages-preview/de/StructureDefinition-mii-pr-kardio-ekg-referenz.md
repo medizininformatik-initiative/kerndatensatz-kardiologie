@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz | *Version*:2027.0.0-ballot |
-| Draft Stand: 2026-10-30 | *Maschinenlesbarer Name*:MII_PR_Kardio_EKG_Referenz |
+| Draft Stand: 2026-11-02 | *Maschinenlesbarer Name*:MII_PR_Kardio_EKG_Referenz |
 
  
 Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespeichert werden. 
@@ -101,7 +101,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio EKG Referenz",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-10-30T14:26:59+00:00",
+  "date" : "2026-11-02T09:29:13+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

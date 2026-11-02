@@ -1,10 +1,10 @@
-# MII EXA Kardio Emoblischer Gefäßverschluss - MII IG Modul Kardio DE v2027.0.0-ballot
+# MII EXA Kardio Embolischer Gefäßverschluss - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
-* **MII EXA Kardio Emoblischer Gefäßverschluss**
+* **MII EXA Kardio Embolischer Gefäßverschluss**
 
-## Beispiel Condition: MII EXA Kardio Emoblischer Gefäßverschluss
+## Beispiel Condition: MII EXA Kardio Embolischer Gefäßverschluss
 
 
 

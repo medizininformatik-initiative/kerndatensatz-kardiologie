@@ -45,7 +45,7 @@ Diese Gruppe umfasst die Profilierung kardialer (Implantat-)Geräte.
 **Diff:**
 
 * `code` required Angabe eines `DeviceMetricAndComponentTypes` (MDC)-Codes
-* `subject` als verpflichtend anzugebende Referenz auf Patient
+* `subject` als verpflichtend anzugebende Referenz auf das programmierte [Device](StructureDefinition-mii-pr-kardio-device.md)
 * `focus` für mögliche Referenz auf eine `DeviceMetric` (wie z.B. Kardio-Profil `NBG Schrittmachermodus`)
 * `effective[x]` für verpflichtende Angabe des Datums
 * `value[x]`required Angabe mit VS `MII_VS_Kardio_Geraeteprogrammierung_MDC`

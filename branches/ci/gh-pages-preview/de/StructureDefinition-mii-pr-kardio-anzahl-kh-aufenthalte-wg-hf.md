@@ -12,7 +12,7 @@
 | Active Stand: 2026-06-12 | *Maschinenlesbarer Name*:MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF |
 
  
-Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS. 
+Profil zur Erfassung der Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS. 
 
 **Usages:**
 
@@ -138,7 +138,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "value" : "office@medizininformatik-initiative.de"
     }]
   }],
-  "description" : "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
+  "description" : "Profil zur Erfassung der Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -280,8 +280,8 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "constraint" : [{
         "key" : "mii-kardio-pos-int",
         "severity" : "error",
-        "human" : "Die Anzahl der Krankenhausbesuche kann nicht negativ sein. Wenn ein Integer übermittelt wird, muss dieser größer oder gleich 0 sein.",
-        "expression" : "value.as(integer).empty() or value.as(integer) >= 0",
+        "human" : "Die Anzahl der Krankenhausaufenthalte kann nicht negativ sein. Wenn ein Integer übermittelt wird, muss dieser größer oder gleich 0 sein.",
+        "expression" : "$this >= 0",
         "source" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf|2027.0.0-ballot"
       }],
       "mustSupport" : true

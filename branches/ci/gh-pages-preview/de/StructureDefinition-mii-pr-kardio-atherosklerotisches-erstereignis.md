@@ -12,7 +12,7 @@
 | Active Stand: 2025-09-03 | *Maschinenlesbarer Name*:MII_PR_Kardio_Atherosklerotisches_Erstereignis |
 
  
-Profil zur Erfassung des Datum des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS. 
+Profil zur Erfassung der Art und des Datums des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS. 
 
 **Usages:**
 
@@ -132,7 +132,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "value" : "office@medizininformatik-initiative.de"
     }]
   }],
-  "description" : "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
+  "description" : "Profil zur Erfassung der Art und des Datums des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -256,7 +256,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
           "type" : "value",
           "path" : "code"
         }],
-        "description" : "Zusätzliche Angaben zum Rauchverhalten.",
+        "description" : "Angaben zur Art des atherosklerotischen Ereignisses und zum Datum der Diagnose.",
         "rules" : "closed"
       },
       "min" : 2,

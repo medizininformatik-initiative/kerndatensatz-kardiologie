@@ -47,7 +47,7 @@ Diese Struktur ist abgeleitet von [Observation](http://hl7.org/fhir/R4/observati
 ** Summary **
 
 Mandatory: 9 elements(6 nested mandatory elements)
- Must-Support: 17 elements
+ Must-Support: 21 elements
 
 **Structures**
 
@@ -62,7 +62,6 @@ This structure defines the following [Slices](http://hl7.org/fhir/R4/profiling.h
 
 * The element 1 is sliced based on the value of Observation.category
 * The element 1 is sliced based on the value of Observation.code.coding
-* The element 1 is sliced based on the value of Observation.referenceRange (ordered, Closed)
 
  **Schlüsselelemente-Ansicht** 
 
@@ -87,7 +86,7 @@ Diese Struktur ist abgeleitet von [Observation](http://hl7.org/fhir/R4/observati
 ** Summary **
 
 Mandatory: 9 elements(6 nested mandatory elements)
- Must-Support: 17 elements
+ Must-Support: 21 elements
 
 **Structures**
 
@@ -102,7 +101,6 @@ This structure defines the following [Slices](http://hl7.org/fhir/R4/profiling.h
 
 * The element 1 is sliced based on the value of Observation.category
 * The element 1 is sliced based on the value of Observation.code.coding
-* The element 1 is sliced based on the value of Observation.referenceRange (ordered, Closed)
 
  
 
@@ -185,16 +183,9 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Observation",
       "path" : "Observation",
       "constraint" : [{
-        "key" : "vs-de-2",
+        "key" : "mii-inv-kardio-dataabsentreason",
         "severity" : "error",
-        "human" : "If there is no component or hasMember element then either a value[x] or a data absent reason must be present",
-        "expression" : "(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())",
-        "source" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion|2027.0.0-ballot"
-      },
-      {
-        "key" : "mii-icu-1",
-        "severity" : "error",
-        "human" : "If there is no Observation.value, a dataAbsentReason must be given.",
+        "human" : "Ist kein value[x] angegeben, muss ein dataAbsentReason angegeben werden.",
         "expression" : "value.exists().not() implies dataAbsentReason.exists()",
         "source" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion|2027.0.0-ballot"
       }]
@@ -362,6 +353,12 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "mustSupport" : true
     },
     {
+      "id" : "Observation.interpretation",
+      "path" : "Observation.interpretation",
+      "comment" : "Bewertung des Messwerts in Bezug auf den Normalbereich gemäß ESC-Leitlinie Herzinsuffizienz 2026, z. B. N (Normal, LVEF >= 50 %) oder L (Low, LVEF < 50 %, reduziert).",
+      "mustSupport" : true
+    },
+    {
       "id" : "Observation.method",
       "path" : "Observation.method",
       "comment" : "Angabe der für die Ermittlung/Berechnung verwendeten Methode (2D,Simpson,3D,CMR, etc.) als SNOMED CT oder als LOINC-Code.",
@@ -370,61 +367,33 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
     {
       "id" : "Observation.referenceRange",
       "path" : "Observation.referenceRange",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "text"
-        }],
-        "description" : "Referenzbereiche LVEF vgl. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure.",
-        "ordered" : true,
-        "rules" : "closed"
-      }
+      "short" : "Normalbereich der LVEF (>= 50 %)",
+      "max" : "1",
+      "mustSupport" : true
     },
     {
-      "id" : "Observation.referenceRange:normal",
-      "path" : "Observation.referenceRange",
-      "sliceName" : "normal",
-      "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "Observation.referenceRange:normal.low",
+      "id" : "Observation.referenceRange.low",
       "path" : "Observation.referenceRange.low",
+      "min" : 1,
       "patternQuantity" : {
         "value" : 50,
         "unit" : "%",
         "system" : "http://unitsofmeasure.org",
         "code" : "%"
-      }
+      },
+      "mustSupport" : true
     },
     {
-      "id" : "Observation.referenceRange:normal.text",
-      "path" : "Observation.referenceRange.text",
+      "id" : "Observation.referenceRange.type",
+      "path" : "Observation.referenceRange.type",
       "min" : 1,
-      "patternString" : "Normal"
-    },
-    {
-      "id" : "Observation.referenceRange:reduced",
-      "path" : "Observation.referenceRange",
-      "sliceName" : "reduced",
-      "min" : 0,
-      "max" : "1"
-    },
-    {
-      "id" : "Observation.referenceRange:reduced.high",
-      "path" : "Observation.referenceRange.high",
-      "patternQuantity" : {
-        "value" : 49,
-        "unit" : "%",
-        "system" : "http://unitsofmeasure.org",
-        "code" : "%"
-      }
-    },
-    {
-      "id" : "Observation.referenceRange:reduced.text",
-      "path" : "Observation.referenceRange.text",
-      "min" : 1,
-      "patternString" : "Reduced"
+      "patternCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+          "code" : "normal"
+        }]
+      },
+      "mustSupport" : true
     }]
   }
 }

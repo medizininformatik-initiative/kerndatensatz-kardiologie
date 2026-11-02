@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct | *Version*:2027.0.0-ballot |
-| Active Stand: 2025-09-05 | *Maschinenlesbarer Name*:MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT |
+| Active Stand: 2025-09-05 | *Maschinenlesbarer Name*:MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT |
 
  
 ValueSet for Relevant Codes for Atherosclerotic Events 
@@ -41,7 +41,7 @@ No Expansion for this valueset (Unknown Code System)
   "language" : "de",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
   "version" : "2027.0.0-ballot",
-  "name" : "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT",
+  "name" : "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT",
   "title" : "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
   "status" : "active",
   "experimental" : false,

@@ -49,7 +49,7 @@
       <value value="office@medizininformatik-initiative.de"/>
     </telecom>
   </contact>
-  <description value="Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS."/>
+  <description value="Profil zur Erfassung der Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -1845,8 +1845,8 @@
       <constraint>
         <key value="mii-kardio-pos-int"/>
         <severity value="error"/>
-        <human value="Die Anzahl der Krankenhausbesuche kann nicht negativ sein. Wenn ein Integer übermittelt wird, muss dieser größer oder gleich 0 sein."/>
-        <expression value="value.as(integer).empty() or value.as(integer) &gt;= 0"/>
+        <human value="Die Anzahl der Krankenhausaufenthalte kann nicht negativ sein. Wenn ein Integer übermittelt wird, muss dieser größer oder gleich 0 sein."/>
+        <expression value="$this &gt;= 0"/>
         <source value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf|2027.0.0-ballot"/>
       </constraint>
       <mustSupport value="true"/>
@@ -3561,8 +3561,8 @@
       <constraint>
         <key value="mii-kardio-pos-int"/>
         <severity value="error"/>
-        <human value="Die Anzahl der Krankenhausbesuche kann nicht negativ sein. Wenn ein Integer übermittelt wird, muss dieser größer oder gleich 0 sein."/>
-        <expression value="value.as(integer).empty() or value.as(integer) &gt;= 0"/>
+        <human value="Die Anzahl der Krankenhausaufenthalte kann nicht negativ sein. Wenn ein Integer übermittelt wird, muss dieser größer oder gleich 0 sein."/>
+        <expression value="$this &gt;= 0"/>
         <source value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf|2027.0.0-ballot"/>
       </constraint>
       <mustSupport value="true"/>

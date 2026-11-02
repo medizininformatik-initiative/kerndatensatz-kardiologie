@@ -192,7 +192,7 @@
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
   "version" : "2027.0.0-ballot",
-  "name" : "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT"
+  "name" : "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT"
 },
 {
   "id" : "mii-vs-kardio-ekg-kanaele-mdc",
@@ -265,9 +265,9 @@
   "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_OPS"
 },
 {
-  "id" : "mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
+  "id" : "mii-vs-kardio-kardiale-deviceimplantation-snomedct",
   "type" : "ValueSet",
-  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct",
   "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT"
 },

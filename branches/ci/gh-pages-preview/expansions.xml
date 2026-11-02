@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="fb9bb7e6-c20a-4712-b5db-6f303e8b835b"/>
+  <id value="ae48a4ec-6112-4b00-8cde-c3af69315096"/>
   <meta>
-    <lastUpdated value="2026-10-30T14:26:59.401+00:00"/>
+    <lastUpdated value="2026-11-02T09:29:13.446+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -3387,8 +3387,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cc86822a-a688-41d5-8cc0-8ae92f9c8e3c"/>
-          <timestamp value="2026-10-30T15:50:46+00:00"/>
+          <identifier value="urn:uuid:be6b25c3-188f-46d4-a614-2960ff73a51e"/>
+          <timestamp value="2026-11-02T10:47:22+00:00"/>
           <total value="185"/>
           <offset value="0"/>
           <parameter>
@@ -7548,8 +7548,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cc86822a-a688-41d5-8cc0-8ae92f9c8e3c"/>
-          <timestamp value="2026-10-30T15:50:46+00:00"/>
+          <identifier value="urn:uuid:be6b25c3-188f-46d4-a614-2960ff73a51e"/>
+          <timestamp value="2026-11-02T10:47:22+00:00"/>
           <total value="185"/>
           <offset value="0"/>
           <parameter>
@@ -8450,8 +8450,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4473b264-1f5b-47d3-b341-caf3ecd945f2"/>
-          <timestamp value="2026-10-30T15:51:47+00:00"/>
+          <identifier value="urn:uuid:f19e57a6-71ae-4a3c-b68f-3bfc34cb8591"/>
+          <timestamp value="2026-11-02T10:48:23+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -8627,8 +8627,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4473b264-1f5b-47d3-b341-caf3ecd945f2"/>
-          <timestamp value="2026-10-30T15:51:47+00:00"/>
+          <identifier value="urn:uuid:f19e57a6-71ae-4a3c-b68f-3bfc34cb8591"/>
+          <timestamp value="2026-11-02T10:48:23+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -8835,7 +8835,7 @@
         <title value="MII VS Kardio Extended Condition Severity [SNOMED CT]"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-10-30T14:26:59+00:00"/>
+        <date value="2026-11-02T09:29:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -8844,8 +8844,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3c8e5dac-eac7-4df8-85ca-235ab3e12687"/>
-          <timestamp value="2026-10-30T15:42:50+00:00"/>
+          <identifier value="urn:uuid:62eda71c-89f4-4a3c-9492-be3259b500c3"/>
+          <timestamp value="2026-11-02T10:39:09+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -9060,7 +9060,7 @@
         <title value="MII VS Kardio Extended Condition Severity [SNOMED CT]"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-10-30T14:26:59+00:00"/>
+        <date value="2026-11-02T09:29:13+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -9069,8 +9069,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3c8e5dac-eac7-4df8-85ca-235ab3e12687"/>
-          <timestamp value="2026-10-30T15:42:50+00:00"/>
+          <identifier value="urn:uuid:62eda71c-89f4-4a3c-9492-be3259b500c3"/>
+          <timestamp value="2026-11-02T10:39:09+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -9255,8 +9255,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:36b299e1-d89b-43ad-aa51-9dcf68b9762a"/>
-          <timestamp value="2026-10-30T15:45:38+00:00"/>
+          <identifier value="urn:uuid:61558e02-0981-43c4-95b4-1d83447bf20a"/>
+          <timestamp value="2026-11-02T10:42:14+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -9434,8 +9434,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:36b299e1-d89b-43ad-aa51-9dcf68b9762a"/>
-          <timestamp value="2026-10-30T15:45:38+00:00"/>
+          <identifier value="urn:uuid:61558e02-0981-43c4-95b4-1d83447bf20a"/>
+          <timestamp value="2026-11-02T10:42:14+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -9632,8 +9632,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e9339a34-00c4-493c-b553-9f7bd1ada32b"/>
-          <timestamp value="2026-10-30T15:54:27+00:00"/>
+          <identifier value="urn:uuid:8ac00c6e-6b35-41a3-8466-456137724924"/>
+          <timestamp value="2026-11-02T10:51:01+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -9833,8 +9833,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e9339a34-00c4-493c-b553-9f7bd1ada32b"/>
-          <timestamp value="2026-10-30T15:54:27+00:00"/>
+          <identifier value="urn:uuid:8ac00c6e-6b35-41a3-8466-456137724924"/>
+          <timestamp value="2026-11-02T10:51:01+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -10002,7 +10002,7 @@
         <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"/>
         <version value="2027.0.0-ballot"/>
         <name value="MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT"/>
-        <title value="MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]"/>
+        <title value="MII VS Kardio Kardiale Deviceimplantation Körperstelle [SNOMED CT]"/>
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-09-05"/>
@@ -10014,8 +10014,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c9d086d4-1124-46dd-a6cb-b9e83ccffb57"/>
-          <timestamp value="2026-10-30T15:55:12+00:00"/>
+          <identifier value="urn:uuid:e979cdf7-4e3c-4cd2-8714-ba0c4cff247f"/>
+          <timestamp value="2026-11-02T10:51:45+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -10179,7 +10179,7 @@
         <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"/>
         <version value="2027.0.0-ballot"/>
         <name value="MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT"/>
-        <title value="MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]"/>
+        <title value="MII VS Kardio Kardiale Deviceimplantation Körperstelle [SNOMED CT]"/>
         <status value="active"/>
         <experimental value="false"/>
         <date value="2025-09-05"/>
@@ -10191,8 +10191,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c9d086d4-1124-46dd-a6cb-b9e83ccffb57"/>
-          <timestamp value="2026-10-30T15:55:12+00:00"/>
+          <identifier value="urn:uuid:e979cdf7-4e3c-4cd2-8714-ba0c4cff247f"/>
+          <timestamp value="2026-11-02T10:51:45+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -12125,7 +12125,7 @@
         <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops"/>
         <version value="2027.0.0-ballot"/>
         <name value="MII_VS_Kardio_Kardiale_Deviceimplantation_OPS"/>
-        <title value="MII VS Kardio Kardiale Devicemimplantation [OPS]"/>
+        <title value="MII VS Kardio Kardiale Deviceimplantation [OPS]"/>
         <status value="active"/>
         <experimental value="false"/>
         <date value="2026-04-17"/>
@@ -12137,8 +12137,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c65ad2bf-69f4-4d15-ad67-d80b7d803e55"/>
-          <timestamp value="2026-10-30T15:55:50+00:00"/>
+          <identifier value="urn:uuid:a13ba5c5-d0df-4595-a480-560c22664154"/>
+          <timestamp value="2026-11-02T10:52:23+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -14443,7 +14443,7 @@
         <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops"/>
         <version value="2027.0.0-ballot"/>
         <name value="MII_VS_Kardio_Kardiale_Deviceimplantation_OPS"/>
-        <title value="MII VS Kardio Kardiale Devicemimplantation [OPS]"/>
+        <title value="MII VS Kardio Kardiale Deviceimplantation [OPS]"/>
         <status value="active"/>
         <experimental value="false"/>
         <date value="2026-04-17"/>
@@ -14455,8 +14455,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c65ad2bf-69f4-4d15-ad67-d80b7d803e55"/>
-          <timestamp value="2026-10-30T15:55:50+00:00"/>
+          <identifier value="urn:uuid:a13ba5c5-d0df-4595-a480-560c22664154"/>
+          <timestamp value="2026-11-02T10:52:23+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -19415,8 +19415,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:617a2c96-1958-4227-865e-7672bb52b359"/>
-          <timestamp value="2026-10-30T15:46:40+00:00"/>
+          <identifier value="urn:uuid:b83e6296-e442-46d7-bfa9-d5976c7f91e1"/>
+          <timestamp value="2026-11-02T10:43:16+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -24983,8 +24983,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:617a2c96-1958-4227-865e-7672bb52b359"/>
-          <timestamp value="2026-10-30T15:46:40+00:00"/>
+          <identifier value="urn:uuid:b83e6296-e442-46d7-bfa9-d5976c7f91e1"/>
+          <timestamp value="2026-11-02T10:43:16+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -26861,8 +26861,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:193d9800-6039-4538-81d4-e101b356e8d9"/>
-          <timestamp value="2026-10-30T15:46:39+00:00"/>
+          <identifier value="urn:uuid:b2d94018-3862-4cfc-ba1b-ed00ab758cc8"/>
+          <timestamp value="2026-11-02T10:43:16+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -27919,8 +27919,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:193d9800-6039-4538-81d4-e101b356e8d9"/>
-          <timestamp value="2026-10-30T15:46:39+00:00"/>
+          <identifier value="urn:uuid:b2d94018-3862-4cfc-ba1b-ed00ab758cc8"/>
+          <timestamp value="2026-11-02T10:43:16+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -46185,8 +46185,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:bbfa8817-5518-4f2e-8e73-e7a01a285ee5"/>
-          <timestamp value="2026-10-30T15:45:34+00:00"/>
+          <identifier value="urn:uuid:4ef7cd72-3266-4d99-90f1-497afd52fdb2"/>
+          <timestamp value="2026-11-02T10:42:10+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -68279,8 +68279,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:bbfa8817-5518-4f2e-8e73-e7a01a285ee5"/>
-          <timestamp value="2026-10-30T15:45:34+00:00"/>
+          <identifier value="urn:uuid:4ef7cd72-3266-4d99-90f1-497afd52fdb2"/>
+          <timestamp value="2026-11-02T10:42:10+00:00"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
@@ -72574,8 +72574,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:69242b2d-55bb-4f64-9a76-c0b25af3b37d"/>
-          <timestamp value="2026-10-30T15:48:44+00:00"/>
+          <identifier value="urn:uuid:800faf5e-fd12-421f-ac4e-268fe0859109"/>
+          <timestamp value="2026-11-02T10:45:21+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -72904,8 +72904,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:69242b2d-55bb-4f64-9a76-c0b25af3b37d"/>
-          <timestamp value="2026-10-30T15:48:44+00:00"/>
+          <identifier value="urn:uuid:800faf5e-fd12-421f-ac4e-268fe0859109"/>
+          <timestamp value="2026-11-02T10:45:21+00:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -73121,8 +73121,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8b166a01-ce37-4cd1-8f1e-e3028c035bbc"/>
-          <timestamp value="2026-10-30T15:42:49+00:00"/>
+          <identifier value="urn:uuid:ad58754f-a5fb-412c-ba28-d7af40bcea50"/>
+          <timestamp value="2026-11-02T10:39:09+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -73308,8 +73308,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8b166a01-ce37-4cd1-8f1e-e3028c035bbc"/>
-          <timestamp value="2026-10-30T15:42:49+00:00"/>
+          <identifier value="urn:uuid:ad58754f-a5fb-412c-ba28-d7af40bcea50"/>
+          <timestamp value="2026-11-02T10:39:09+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -91407,8 +91407,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0dd7510e-f1e1-4c73-965d-7406773b0574"/>
-          <timestamp value="2026-10-30T15:56:53+00:00"/>
+          <identifier value="urn:uuid:3e535ff6-1d7f-4916-a1aa-438877e4f8e3"/>
+          <timestamp value="2026-11-02T10:53:26+00:00"/>
           <total value="1466"/>
           <offset value="0"/>
           <parameter>
@@ -113498,8 +113498,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0dd7510e-f1e1-4c73-965d-7406773b0574"/>
-          <timestamp value="2026-10-30T15:56:53+00:00"/>
+          <identifier value="urn:uuid:3e535ff6-1d7f-4916-a1aa-438877e4f8e3"/>
+          <timestamp value="2026-11-02T10:53:26+00:00"/>
           <total value="1466"/>
           <offset value="0"/>
           <parameter>

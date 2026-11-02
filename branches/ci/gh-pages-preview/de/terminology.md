@@ -48,7 +48,7 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Flags: I E 
   * Source: SCT
 * URL: [https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct](ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.md)
-  * Name / Title: MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCTMII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]
+  * Name / Title: MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCTMII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]
   * Status: active
   * Flags: A I 
   * Source: Internal, SCT
@@ -93,17 +93,17 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Flags: E 
   * Source: SCT
 * URL: [https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.md)
-  * Name / Title: MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCTMII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]
+  * Name / Title: MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCTMII VS Kardio Kardiale Deviceimplantation Körperstelle [SNOMED CT]
   * Status: active
   * Flags: E 
   * Source: SCT
 * URL: [https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md)
-  * Name / Title: MII_VS_Kardio_Kardiale_Deviceimplantation_OPSMII VS Kardio Kardiale Devicemimplantation [OPS]
+  * Name / Title: MII_VS_Kardio_Kardiale_Deviceimplantation_OPSMII VS Kardio Kardiale Deviceimplantation [OPS]
   * Status: active
   * Flags: I E 
   * Source: THO, de.basisprofil.r4
-* URL: [https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.md)
-  * Name / Title: MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCTMII VS Kardio Kardiale Devicemimplantation [SNOMED CT]
+* URL: [https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-snomedct.md)
+  * Name / Title: MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCTMII VS Kardio Kardiale Deviceimplantation [SNOMED CT]
   * Status: active
   * Flags: I 
   * Source: SCT
@@ -158,6 +158,15 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Flags: I 
   * Source: hl7.terminology.r4
 
+### Hinweis: vorbereitete Terminologien
+
+Die folgenden ValueSets bzw. CodeSysteme werden derzeit von keinem Profil des Moduls verwendet. Sie sind für zukünftige Umsetzungsstufen vorbereitet (vgl. [Klassendiagramm](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/UML)), mit Status `draft` und `experimental` gekennzeichnet und sollten bis dahin nicht implementiert werden:
+
+* `MII_VS_Kardio_Ethnie_SNOMEDCT` – Ethnie (Allgemeine Patientendaten, Umsetzungsstufe ≥ 2)
+* `MII_VS_Kardio_Lebensmittelpunkt_M49` und `MII_CS_Kardio_Lebensmittelpunkt` – Lebensmittelpunkt (Allgemeine Patientendaten, Umsetzungsstufe ≥ 2)
+* `MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT` – Gewichtsveränderung (Symptome, Umsetzungsstufe ≥ 2)
+* `MII_VS_Kardio_Allergene_SNOMEDCT` – Allergene; Allergien werden perspektivisch im KDS-Modul Basis/Person abgebildet
+
 ## Verwendung von Codesystemen
 
 * URL: [http://fhir.de/CodeSystem/bfarm/alpha-id](https://simplifier.net/resolve?scope=de.gematik.ti@1.3.1&canonical=http://fhir.de/CodeSystem/bfarm/alpha-id)
@@ -173,14 +182,14 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Diagnose ICD-10-GM](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot/ValueSet-mii-vs-diagnose-icd10gm.html),[MII VS Kardio Klappenvitium [ICD 10 GM]](ValueSet-mii-vs-kardio-klappenvitium-icd.md)
+  * References: [MII VS Kardio Klappenvitium [ICD 10 GM]](ValueSet-mii-vs-kardio-klappenvitium-icd.md),[MII VS Diagnose ICD-10-GM](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot/ValueSet-mii-vs-diagnose-icd10gm.html)
 * URL: [http://fhir.de/CodeSystem/bfarm/ops](https://simplifier.net/resolve?scope=de.gematik.ti@1.3.1&canonical=http://fhir.de/CodeSystem/bfarm/ops)
   * Version: 
   * Name / Title: OPSOPS
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Kardio Kardiale Devicemimplantation [OPS]](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md)
+  * References: [MII VS Kardio Kardiale Deviceimplantation [OPS]](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md)
 * URL: [http://snomed.info/sct](http://hl7.org/fhir/R4/codesystem-snomedct.html)
   * Version: 
   * Name / Title: SNOMED_CTSNOMED CT (all versions)
@@ -194,7 +203,7 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active / FMM5
   * Flags: 
   * Count: 15 (complete)
-  * References: [MII VS Kardio Gerätetyp [SNOMED CT]](ValueSet-mii-vs-kardio-geraetetyp-snomedct.md),[MII VS Kardio Kardiale Devicemimplantation [OPS]](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md)
+  * References: [MII VS Kardio Kardiale Deviceimplantation [OPS]](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md),[MII VS Kardio Gerätetyp [SNOMED CT]](ValueSet-mii-vs-kardio-geraetetyp-snomedct.md)
 * URL: [http://terminology.hl7.org/CodeSystem/observation-category](http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html)
   * Version: 2.0.0
   * Name / Title: ObservationCategoryCodesObservation Category Codes
@@ -208,7 +217,7 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: is-a flat
   * Count: 9 (complete)
-  * References: [hl7VS-expandedYes-NoIndicator](http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html),[MII VS Kardio Nein Unbekannt](ValueSet-mii-vs-kardio-nein-unbekannt.md)
+  * References: [MII VS Kardio Nein Unbekannt](ValueSet-mii-vs-kardio-nein-unbekannt.md),[hl7VS-expandedYes-NoIndicator](http://terminology.hl7.org/7.2.0/ValueSet-v2-0532.html)
 * URL: [https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis](CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.md)
   * Version: 2027.0.0-ballot
   * Name / Title: MII_CS_Kardio_Atherosklerotisches_EreignisMII CS Kardio Atherosklerotisches Ereignis
@@ -236,5 +245,5 @@ Die im Kardiologie-Modul angelegten und verwendeten Codesysteme und ValueSets zu
   * Status: active
   * Flags: flat
   * Count: 0 (not-present)
-  * References: [MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md),[MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md),[MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md),[MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md),[Device Metric and Component Types](http://hl7.org/fhir/R4/valueset-devicemetric-type.html)
+  * References: [MII VS Kardio Geräteprogrammierung [MDC]](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md),[MII VS Kardio MDC Objects Devices [MDC]](ValueSet-mii-vs-kardio-objekte-geraete-mdc.md),[Device Metric and Component Types](http://hl7.org/fhir/R4/valueset-devicemetric-type.html),[MII VS Kardio Metriken EKG Annotationen [MDC]](ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.md),[MII VS Kardio EKG Kanäle [MDC]](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md)
 

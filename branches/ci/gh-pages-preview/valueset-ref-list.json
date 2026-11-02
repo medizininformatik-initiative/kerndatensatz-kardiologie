@@ -26,10 +26,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.403"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html" : "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
     "StructureDefinition-mii-pr-kardio-observation-rauchen.html" : "MII PR Kardio Observation Rauchen",
+    "StructureDefinition-mii-pr-kardio-score-nyha.html" : "MII PR Kardio Score NYHA",
     "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html" : "MII PR Kardio Score Modifizierte Rankin Skala",
-    "StructureDefinition-mii-pr-kardio-score-nyha.html" : "MII PR Kardio Score NYHA"
+    "StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html" : "MII PR Kardio Diagnose Prozedur Nein Unbekannt"
   },
   {
     "url" : "http://snomed.info/sct?fhir_vs=isa/49601007",
@@ -130,7 +130,7 @@
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct",
     "version" : "2027.0.0-ballot",
     "status" : "active",
-    "name" : "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT",
+    "name" : "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT",
     "title" : "MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]",
     "description" : "ValueSet for Relevant Codes for Atherosclerotic Events",
     "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis",
@@ -235,7 +235,7 @@
     "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT",
-    "title" : "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+    "title" : "MII VS Kardio Kardiale Deviceimplantation Körperstelle [SNOMED CT]",
     "description" : "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
@@ -247,7 +247,7 @@
     "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_OPS",
-    "title" : "MII VS Kardio Kardiale Devicemimplantation [OPS]",
+    "title" : "MII VS Kardio Kardiale Deviceimplantation [OPS]",
     "description" : "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
     "systems" : ["http://fhir.de/CodeSystem/bfarm/ops",
     "http://terminology.hl7.org/CodeSystem/data-absent-reason"],
@@ -256,12 +256,12 @@
     "StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.html" : "MII PR Kardio Kardiale Deviceimplantation"
   },
   {
-    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct",
     "version" : "2027.0.0-ballot",
     "status" : "active",
     "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT",
-    "title" : "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
-    "description" : "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+    "title" : "MII VS Kardio Kardiale Deviceimplantation [SNOMED CT]",
+    "description" : "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronisationstherapie (CRT) und ventrikuläre Unterstützungssysteme (VAD) ab.",
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
@@ -383,7 +383,7 @@
     "systems" : ["urn:iso:std:iso:11073:10101"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-kardio-ekg-kanal.html" : "MII PR Kardio EKG Kanal",
-    "StructureDefinition-mii-pr-kardio-ekg-geraet.html" : "MII PR Kardio EKG Gerät"
+    "StructureDefinition-mii-pr-kardio-ekg-geraet.html" : "MII PR Kardio EKG Gerät",
+    "StructureDefinition-mii-pr-kardio-ekg-kanal.html" : "MII PR Kardio EKG Kanal"
   }]
 }

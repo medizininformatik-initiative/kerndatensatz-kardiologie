@@ -152,16 +152,14 @@
       "system" : "http://unitsofmeasure.org",
       "code" : "%"
     },
-    "text" : "Normal"
-  },
-  {
-    "high" : {
-      "value" : 49,
-      "unit" : "%",
-      "system" : "http://unitsofmeasure.org",
-      "code" : "%"
-    },
-    "text" : "Reduced"
+    "type" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+        "version" : "1.0.1",
+        "code" : "normal",
+        "display" : "Normal Range"
+      }]
+    }
   }]
 }
 

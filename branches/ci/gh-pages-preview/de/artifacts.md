@@ -21,8 +21,8 @@ Diese definieren Einschränkungen für FHIR-Ressourcen für Systeme, die mit dem
 
 | | |
 | :--- | :--- |
-| [ MII PR Kardio Anzahl KH Aufenthalte wg HF  ](StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.md) | Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS. |
-| [ MII PR Kardio Atherosklerotisches Erstereignis  ](StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.md) | Profil zur Erfassung des Datum des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS. |
+| [ MII PR Kardio Anzahl KH Aufenthalte wg HF  ](StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.md) | Profil zur Erfassung der Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS. |
+| [ MII PR Kardio Atherosklerotisches Erstereignis  ](StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.md) | Profil zur Erfassung der Art und des Datums des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS. |
 | [ MII PR Kardio Device  ](StructureDefinition-mii-pr-kardio-device.md) | Profil zur Abbildung eines implantierten Herzschrittmachers, Defibrillators oder ventrikulären Unterstützungssystems. |
 | [ MII PR Kardio Diagnose  ](StructureDefinition-mii-pr-kardio-diagnose.md) | Profil zur Abbildung einer Diagnose im Kontext des Projekts Acribis. |
 | [ MII PR Kardio Diagnose Prozedur Nein Unbekannt  ](StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.md) | Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagnose, bzw. Prozedur, oder Unklarheit darüber ab. |
@@ -57,9 +57,9 @@ Diese definieren Wertemengen, die von Systemen verwendet werden, die mit dem Imp
 | [ MII VS Kardio Geräteprogrammierung [MDC]  ](ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.md) | Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab. Dazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet. |
 | [ MII VS Kardio Gerätetyp [SNOMED CT]  ](ValueSet-mii-vs-kardio-geraetetyp-snomedct.md) | Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillator, Herzschrittmacher und ventrikuläres Unterstützungssystem ab. |
 | [ MII VS Kardio Gewichtsveraenderung [SNOMED CT]  ](ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.md) | Beschreibung von Gewichtsveränderungen |
-| [ MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]  ](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.md) | Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab. |
-| [ MII VS Kardio Kardiale Devicemimplantation [OPS]  ](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md) | Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD). |
-| [ MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]  ](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.md) | Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD). |
+| [ MII VS Kardio Kardiale Deviceimplantation Körperstelle [SNOMED CT]  ](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.md) | Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab. |
+| [ MII VS Kardio Kardiale Deviceimplantation [OPS]  ](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.md) | Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD). |
+| [ MII VS Kardio Kardiale Deviceimplantation [SNOMED CT]  ](ValueSet-mii-vs-kardio-kardiale-deviceimplantation-snomedct.md) | Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronisationstherapie (CRT) und ventrikuläre Unterstützungssysteme (VAD) ab. |
 | [ MII VS Kardio Klappenvitium Grad [SNOMED CT]  ](ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.md) | SNOMED CT Codes für den Grad Klappenerkrankungen |
 | [ MII VS Kardio Klappenvitium [ALPHA-ID]  ](ValueSet-mii-vs-kardio-klappenvitium-alphaid.md) | Alpha-ID-Codes für Klappenerkrankungen |
 | [ MII VS Kardio Klappenvitium [ICD 10 GM]  ](ValueSet-mii-vs-kardio-klappenvitium-icd.md) | ICD-Codes für Klappenerkrankungen |
@@ -101,7 +101,7 @@ Dies sind Beispielinstanzen, die zeigen, wie Daten aussehen könnten, die von Sy
 | [ MII EXA Kardio EKG Kanal III  ](Device-mii-exa-kardio-ekg-kanal-iii.md) | Beispiel eines EKG-Kanals (III) eines Gerätes der Firma Mortara Instruments |
 | [ MII EXA Kardio EKG RR Interval  ](Observation-mii-exa-kardio-ekg-rr-interval.md) | Beispiel einer Observation zur Darstellung des RR Intervals eines aufgezeichneten EKGs |
 | [ MII EXA Kardio EKG Referenz  ](DocumentReference-mii-exa-kardio-ekg-referenz.md) | Beispiel einer Referenz auf ein EKG, dessen Rohdaten an einem anderen Ort gespeichert werden. |
-| [ MII EXA Kardio Emoblischer Gefäßverschluss  ](Condition-mii-exa-kardio-embolischer-gefaessverschluss.md) | Beispiel: Der Patient hat angegeben, einen embolischen Gefäßverschluss gehabt zu haben. |
+| [ MII EXA Kardio Embolischer Gefäßverschluss  ](Condition-mii-exa-kardio-embolischer-gefaessverschluss.md) | Beispiel: Der Patient hat angegeben, einen embolischen Gefäßverschluss gehabt zu haben. |
 | [ MII EXA Kardio Geräteprogrammierung VVI  ](Observation-mii-exa-kardio-geraeteprogrammierung-vvi.md) | Beispiel der Einstellung eines Kardioverter-Defibrillators (ICD) im VVI-Modus |
 | [ MII EXA Kardio Herzinsuffizienz Unbekannt  ](Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.md) | Beispiel: Der Patient weiß nicht, ob er Herzinsuffizienz hat. |
 | [ MII EXA Kardio Höhergradiges Vitium  ](Condition-mii-exa-kardio-hoehergradiges-vitium.md) | Beispiel zur Abbildung eines unbestimmten höhergradigen Klappenvitiums. |

@@ -11,11 +11,11 @@
 
 [MII PR Kardio Anzahl KH Aufenthalte wg HF](StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.md)
 
-Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.
+Profil zur Erfassung der Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.
 
 [MII PR Kardio Atherosklerotisches Erstereignis](StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.md)
 
-Profil zur Erfassung des Datum des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS.
+Profil zur Erfassung der Art und des Datums des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS.
 
 [MII PR Kardio Device](StructureDefinition-mii-pr-kardio-device.md)
 

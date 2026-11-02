@@ -1,18 +1,18 @@
-# MII VS Kardio Kardiale Devicemimplantation [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot
+# MII VS Kardio Kardiale Deviceimplantation [SNOMED CT] - MII IG Modul Kardio DE v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
-* **MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]**
+* **MII VS Kardio Kardiale Deviceimplantation [SNOMED CT]**
 
-## ValueSet: MII VS Kardio Kardiale Devicemimplantation [SNOMED CT] 
+## ValueSet: MII VS Kardio Kardiale Deviceimplantation [SNOMED CT] 
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct | *Version*:2027.0.0-ballot |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct | *Version*:2027.0.0-ballot |
 | Active Stand: 2025-09-05 | *Maschinenlesbarer Name*:MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT |
 
  
-Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD). 
+Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronisationstherapie (CRT) und ventrikuläre Unterstützungssysteme (VAD) ab. 
 
  **References** 
 
@@ -37,12 +37,12 @@ No Expansion for this valueset (Unknown Code System)
 ```json
 {
   "resourceType" : "ValueSet",
-  "id" : "mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
+  "id" : "mii-vs-kardio-kardiale-deviceimplantation-snomedct",
   "language" : "de",
-  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct",
   "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT",
-  "title" : "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
+  "title" : "MII VS Kardio Kardiale Deviceimplantation [SNOMED CT]",
   "status" : "active",
   "experimental" : false,
   "date" : "2025-09-05",
@@ -58,7 +58,7 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "office@medizininformatik-initiative.de"
     }]
   }],
-  "description" : "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+  "description" : "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronisationstherapie (CRT) und ventrikuläre Unterstützungssysteme (VAD) ab.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

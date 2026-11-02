@@ -8,7 +8,7 @@
   </text>
   <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct"/>
   <version value="2027.0.0-ballot"/>
-  <name value="MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT"/>
+  <name value="MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT"/>
   <title value="MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]"/>
   <status value="active"/>
   <experimental value="false"/>

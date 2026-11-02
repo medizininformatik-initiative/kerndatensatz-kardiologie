@@ -9,7 +9,7 @@
   <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"/>
   <version value="2027.0.0-ballot"/>
   <name value="MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT"/>
-  <title value="MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]"/>
+  <title value="MII VS Kardio Kardiale Deviceimplantation Körperstelle [SNOMED CT]"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2025-09-05"/>

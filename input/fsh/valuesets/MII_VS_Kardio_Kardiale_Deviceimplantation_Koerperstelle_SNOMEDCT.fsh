@@ -1,6 +1,6 @@
 ValueSet: MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT
 Id: mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct
-Title: "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]"
+Title: "MII VS Kardio Kardiale Deviceimplantation Körperstelle [SNOMED CT]"
 Description: "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab."
 
 * insert PR_CS_VS_Version

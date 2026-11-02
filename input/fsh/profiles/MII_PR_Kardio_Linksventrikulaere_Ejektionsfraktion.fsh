@@ -14,7 +14,7 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * ^experimental = false
 * ^date = "2025-12-08"
 
-* obeys vs-de-2 and mii-icu-1 // If there is no component or hasMember element then either a value[x] or a data absent reason must be present
+* obeys mii-inv-kardio-dataabsentreason // Ohne value[x] muss dataAbsentReason angegeben werden
 
 * partOf only Reference(Procedure) //Procedure Echokardiographie
 * partOf ^comment = "Angabe einer übergeordnete (Echokardiographie-) Prozedur"
@@ -32,7 +32,6 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * category[vs-cat] ^comment = "Category 'imaging', da LVEF meist mittels Echokardiographie oder durch MRT, CT, etc. gemessen."
 
 * code 1.. MS
-// * code obeys code-coding-icu  // code-coding-icu: Es muss mindestens ein snomed oder loinc code vorhanden sein
 * code.coding 2.. MS
 * code.coding.system 1.. MS
 * code.coding.version 1.. MS
@@ -70,38 +69,16 @@ Description: "Profil zur Angabe eines Untersuchungsergebnisses zur LVEF im Konte
 * method MS
 * method ^comment = "Angabe der für die Ermittlung/Berechnung verwendeten Methode (2D,Simpson,3D,CMR, etc.) als SNOMED CT oder als LOINC-Code."
 
-// TODO Refernzbereichsangaben prüfen - nicht relevant fuer Kernscores in Acribis-Studie
-* referenceRange ^slicing.discriminator.type = #value
-* referenceRange ^slicing.discriminator.path = "text"
-* referenceRange ^slicing.rules = #closed
-* referenceRange ^slicing.ordered = true
-* referenceRange ^slicing.description = "Referenzbereiche LVEF vgl. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure."
-* referenceRange 
+// Referenzbereich gemäß 2026 ESC Guidelines for the management of heart failure:
+// Normalbereich LVEF >= 50 %; Werte < 50 % gelten als reduziert (HFrEF-Grenze), HFmrEF entfällt.
+// Die Bewertung des Messwerts erfolgt über interpretation (z. B. N/L), nicht über weitere Referenzbereiche.
+* referenceRange 0..1 MS
+* referenceRange ^short = "Normalbereich der LVEF (>= 50 %)"
+* referenceRange.type 1.. MS
+* referenceRange.type = $referencerange-meaning#normal
+* referenceRange.low 1.. MS
+* referenceRange.low = 50 '%' "%"
 
-// Leitlinie: 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (ESC - European Society of Cardiology)
-// Update: 2026 ESC Guidelines for the management of heart failure => HFmrEF fällt weg
-* referenceRange contains
-    normal 0..1 and
-    reduced 0..1
-// Normal >=50. HFpEF nicht sinnvoll abgrenzbar.
-* referenceRange[normal].text = "Normal"
-* referenceRange[normal].low = 50 '%' "%"
-
-// HFrEF LVEF <50
-* referenceRange[reduced].text = "Reduced"
-* referenceRange[reduced].high = 49 '%' "%"
-
-Invariant: vs-de-2
-Description: "If there is no component or hasMember element then either a value[x] or a data absent reason must be present"
-* severity = #error
-* expression = "(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())"
-
-Invariant: code-coding-icu
-Description: "Es muss mindestens ein snomed oder loinc code vorhanden sein"
-* severity = #error
-* expression = "coding.exists() implies coding.where(system = 'http://snomed.info/sct').exists() or coding.where(system = 'http://loinc.org').exists()"
-
-Invariant: mii-icu-1
-Description: "If there is no Observation.value, a dataAbsentReason must be given."
-* severity = #error
-* expression = "value.exists().not() implies dataAbsentReason.exists()"
+// Interpretation des Messwerts in Bezug auf den Normalbereich (Basis-Binding: observation-interpretation, extensible)
+* interpretation MS
+* interpretation ^comment = "Bewertung des Messwerts in Bezug auf den Normalbereich gemäß ESC-Leitlinie Herzinsuffizienz 2026, z. B. N (Normal, LVEF >= 50 %) oder L (Low, LVEF < 50 %, reduziert)."

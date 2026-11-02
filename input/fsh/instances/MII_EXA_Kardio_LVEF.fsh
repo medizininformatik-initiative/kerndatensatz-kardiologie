@@ -42,8 +42,5 @@ Usage: #example
 
 * device.display = "Philips EPIQ CVx Ultrasound System"
 
-* referenceRange[normal].text = "Normal"
-* referenceRange[normal].low = 50 '%' "%"
-
-* referenceRange[reduced].text = "Reduced"
-* referenceRange[reduced].high = 49 '%' "%"
+* referenceRange.type = $referencerange-meaning-with-version#normal "Normal Range"
+* referenceRange.low = 50 '%' "%"

@@ -27,7 +27,7 @@ input/
 │   ├── instances/          # Beispiel-Instanzen (MII_EXA_*)
 │   ├── rulesets/           # Wiederverwendbare RuleSets
 │   ├── aliases.fsh         # Terminologie-Aliase ($sct, $loinc, etc.)
-│   └── capabilitystatement.fsh
+│   └── invariants.fsh      # Zentrale Invarianten
 ├── pagecontent/            # IG-Seiten (Markdown)
 │   ├── profiles-*.md       # Profil-Übersichten (7 Dateien)
 │   └── *.md                # Andere IG-Seiten (home, scenarios, etc.)

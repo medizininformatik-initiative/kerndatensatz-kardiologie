@@ -1,4 +1,4 @@
-Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfasst eine Vielzahl, im Rahmen der Patientenvorgeschichte und -befragung, zu erhebenden Angaben: kardiologische Diagnosen, Vitalparameter, Medikation sowie eine Reihe kardiologisch relevanter Einzelangaben (u. a. Klappenvitien, Krankenhausaufenthalte im letzten Jahr sowie oder atherosklerotische Ereignisse).
+Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfasst eine Vielzahl, im Rahmen der Patientenvorgeschichte und -befragung, zu erhebenden Angaben: kardiologische Diagnosen, Vitalparameter, Medikation sowie eine Reihe kardiologisch relevanter Einzelangaben (u. a. Klappenvitien, Krankenhausaufenthalte im letzten Jahr oder atherosklerotische Ereignisse).
 
 ## Profile
 
@@ -43,7 +43,7 @@ Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfas
   - `effective[x]` mit Kardinalität 1..1 MS zur Angabe des Zeitpunkts der Beobachtung
   - `value[x]` mit Kardinalität 0..0 und Abbildung der Information in `Component`.
   - `component[erkrankung].code` enthält SNOMED CT Code 439401001 (Diagnosis)
-  - `component[erkrankung].value[x]` aus ValueSet `MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT` (required)
+  - `component[erkrankung].value[x]` aus ValueSet `MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT` (required)
   - `component[datum].code` fixiert auf SNOMED CT Code 432213005 (Date of diagnosis)
   - `component[datum].value[x]` als valueDateTime zur Angabe des Datum des bezeichneten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK, ...)
 
@@ -58,8 +58,8 @@ Die Anamnese bildet den fachlichen Schwerpunkt des Kardiologie-Moduls. Sie umfas
   **Diff:**
   - `effective[x]` ist auf `Period` beschränkt (Erfassungszeitraum)
   - `value[x]` als `integer` (Anzahl) oder `CodeableConcept` (bei Unbekanntheit)
-  - `valueInteger` erfordert positiven Wert (Invariant `mii-kardio-pos-int`)
-  - `valueCodeableConcept` aus ValueSet `MII_VS_Kardio_Nein_Unbekannt` (required)
+  - `valueInteger` darf nicht negativ sein (≥ 0, Invariant `mii-kardio-pos-int`)
+  - `valueCodeableConcept` aus ValueSet [HL7 v2-0532 (Expanded Yes/No Indicator)](http://terminology.hl7.org/ValueSet/v2-0532) (required)
   - `component` geslicet für `Grund` mit SNOMED CT Code 406524005 (Reason for visit diagnosis)
   - `component[Grund].valueCodeableConcept` fixiert auf SNOMED CT Code 84114007 (Heart failure)
 

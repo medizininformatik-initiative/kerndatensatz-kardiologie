@@ -1,7 +1,7 @@
 ValueSet: MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT
-Id: mii-vs-kardio-kardiale-deviceimplantation-scnomedct
-Title: "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]"
-Description: "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD)."
+Id: mii-vs-kardio-kardiale-deviceimplantation-snomedct
+Title: "MII VS Kardio Kardiale Deviceimplantation [SNOMED CT]"
+Description: "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronisationstherapie (CRT) und ventrikuläre Unterstützungssysteme (VAD) ab."
 
 * insert PR_CS_VS_Version
 * insert Publisher

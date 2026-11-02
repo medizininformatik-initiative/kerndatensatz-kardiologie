@@ -12,6 +12,7 @@ Alias: $condition-clinical                = http://terminology.hl7.org/CodeSyste
 Alias: $condition-ver-status              = http://terminology.hl7.org/CodeSystem/condition-ver-status
 Alias: $condition-category                = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: $observation-category              = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $referencerange-meaning            = http://terminology.hl7.org/CodeSystem/referencerange-meaning
 Alias: $data-absent-reason                = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 // CodeSystems mit konkreter Versionsangabe
@@ -23,6 +24,7 @@ Alias: $observation-category-with-version = http://terminology.hl7.org/CodeSyste
 Alias: $v2-0203-with-version              = http://terminology.hl7.org/CodeSystem/v2-0203|5.0.0
 Alias: $v2-0532-with-version              = http://terminology.hl7.org/CodeSystem/v2-0532|3.0.0
 Alias: $v3-ActCode-with-version           = http://terminology.hl7.org/CodeSystem/v3-ActCode|10.0.0
+Alias: $referencerange-meaning-with-version = http://terminology.hl7.org/CodeSystem/referencerange-meaning|1.0.1
 Alias: $ath-ereignis-with-version         = MII_CS_Kardio_Atherosklerotisches_Ereignis|2027.0.0-ballot
 Alias: $mrs-with-version                  = MII_CS_Kardio_Modifizierte_Rankin_Skala|2027.0.0-ballot
 

@@ -3,7 +3,7 @@
   "status": "active",
   "name": "MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT",
   "id": "mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
-  "title": "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+  "title": "MII VS Kardio Kardiale Deviceimplantation Körperstelle [SNOMED CT]",
   "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct",
   "version": "2027.0.0-ballot",

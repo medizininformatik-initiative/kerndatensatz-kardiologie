@@ -2,6 +2,34 @@ Auf dieser Seite werden die Unterschiede zwischen den Versionen nachgehalten.
 
 Die aktuelle Version des Kardiologie-Moduls ist **2027.0.0-ballot**.
 
+## Änderungen seit 2027.0.0-ballot (Ballot-Kommentierung, noch nicht veröffentlicht)
+
+#### Profil-Updates
+
+ - LVEF: Referenzbereiche gemäß ESC-Leitlinie Herzinsuffizienz 2026 aktualisiert (Kategorie HFmrEF entfällt): [#93](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/93)
+ - LVEF: Referenzbereich auf einen codierten Normalbereich umgestellt (`type` = normal, `low` = 50 %), Bewertung des Messwerts über `interpretation` (z. B. N/L); das bisherige Slicing nach `text` (Normal/Reduced) entfällt (**Breaking Change**): [#100](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100)
+ - LVEF: redundante Invarianten (`vs-de-2`, `mii-icu-1`, `code-coding-icu`) entfernt; Prüfung auf value/dataAbsentReason über die zentrale Invariante `mii-inv-kardio-dataabsentreason`: [#100](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100)
+ - Fix: Invariante `mii-kardio-pos-int` (Anzahl KH-Aufenthalte) griff durch eine fehlerhafte FHIRPath-Expression nicht; negative Werte werden jetzt abgelehnt: [#100](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100)
+ - Kardiale Deviceimplantation: `focalDevice` nicht mehr verpflichtend, `focalDevice.manipulated` auf `MII PR Kardio Device` eingeschränkt: [#99](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/99)
+ - Rauchen: Kurzbeschreibungen und Definitionen der Components überarbeitet: [#101](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/101)
+ - Korrekturen an Descriptions (Atherosklerotisches Erstereignis, Anzahl KH-Aufenthalte, Invariante `mii-kardio-pos-int`) und an der Slicing-Description im Erstereignis-Profil: [#100](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100)
+
+#### Terminologie
+
+ - SNOMED-PCE für operative Klappeneingriffe: Zugang auf „Percutaneous approach - access“ korrigiert: [#96](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/pull/96)
+ - Id des ValueSets `MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT` korrigiert (`…-scnomedct` → `…-snomedct`); **die Canonical-URL ändert sich dadurch**: [#100](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100)
+ - Namens- und Titelkorrekturen: `MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT`, Titel „Deviceimplantation“ (3 ValueSets): [#100](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100)
+
+#### Dokumentation
+
+ - IG-Texte überarbeitet: Widersprüche zwischen Text und Profilen, Akronym-Auflösungen (ACRIBiS, CAEHR), Tippfehler; Gliederung der Datensatzseite am Klassendiagramm ausgerichtet; Hinweis auf vorbereitete, noch nicht verwendete Terminologien: [#100](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100)
+ - UML-Klassendiagramm aktualisiert (Herkunftsland, Ethnie, Lebensmittelpunkt): [#97](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/97)
+ - Nicht abgestimmter Entwurf des CapabilityStatements entfernt: [#100](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/100)
+
+#### Sonstiges
+
+ - `packageId` in `sushi-config.yaml` ergänzt: [#92](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/92)
+
 ## Version 2027.0.0-ballot (Ballot-Version)
 
 ### Änderungen seit 2027.0.0-ballot.rc1
@@ -11,10 +39,10 @@ Die aktuelle Version des Kardiologie-Moduls ist **2027.0.0-ballot**.
  - Vereinfachen der SNOMED PCE für schwere spontane Blutung: [#87](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/issues/87)
  - Fix SNOMED-Code im Follow-Up-Fragebogen
  - LOINC Update auf Version 2.83
- - Das VS-Binding im Profil `MII PR Kardio Kardiale Deviceimplantation` für `bodySite` wurde von `requiered` auf `extensible` geändert. Außerdem sind jetzt auch andere Codes als SNOMED per Slicing erlaubt.
+ - Das VS-Binding im Profil `MII PR Kardio Kardiale Deviceimplantation` für `bodySite` wurde von `required` auf `extensible` geändert. Außerdem sind jetzt auch andere Codes als SNOMED per Slicing erlaubt.
 
 #### Dependency-Updates
- - Update der Dependenies auf die Version 2027.0.0-ballot der KDS Module Basis und Meta
+ - Update der Dependencies auf die Version 2027.0.0-ballot der KDS Module Basis und Meta
 
 #### Dokumentation
  - Sprache für alle Ressourcen auf `de` gesetzt
@@ -46,7 +74,7 @@ Ballot Release Candidate für den Release-Zyklus 2027. FHIR-Package: `de.medizin
 
 #### IG-Publikation & Dokumentation
 
-- IG erstellt; Status: `active` 
+- IG erstellt; Status: `draft`
 - UML-Diagramm aktualisiert
 
 #### Abhängigkeiten

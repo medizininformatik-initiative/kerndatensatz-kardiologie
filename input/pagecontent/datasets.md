@@ -1,13 +1,14 @@
-Das Kardiologie-Modul umfasst derzeit **19 Profile**, die in folgende Gruppen unterteilt werden können:
+Das Kardiologie-Modul umfasst derzeit **19 Profile**. Die Gliederung folgt dem [Klassendiagramm](https://github.com/medizininformatik-initiative/kerndatensatz-kardiologie/wiki/UML):
 
-* **Allgemeine Patientendaten** (Demographische Informationen)
-* **Anamnese** (Vorerkrankungen, Nicht-Vorliegen, etc.)
-* **Skalen** (NYHA, mRS, etc.)
-* **Risikofaktoren** (Disposition, Rauchen, Alkohol)
-* **Kardiologische Devices** (Schrittmacher, ICD, CRT, LVAD/BiVAD)
-* **Diagnostik** (Device-Implantation, EKG, etc.)
-* **EKG Metadaten** (Metadaten, Annotationen, Rohdatenreferenz)
-* **Sonstige** (Follow-Up-Fragebogen)
+* **Allgemeine Patientendaten** (Demographische Informationen; keine eigenen Profile, Nachnutzung anderer KDS-Module)
+* **Anamnese** (Vorerkrankungen, Nicht-Vorliegen, etc.), darin:
+  * **Skalen** (NYHA, mRS, etc.)
+  * **Risikofaktoren** (Disposition, Rauchen, Alkohol)
+  * **Kardiologische Devices** (Schrittmacher, ICD, CRT, LVAD/BiVAD)
+* **Diagnostik** (LVEF), darin:
+  * **EKG-Metadaten** (Metadaten, Annotationen, Rohdatenreferenz)
+
+Ergänzend wird der **Follow-Up-Fragebogen** der ACRIBiS-Studie als Questionnaire-Ressource (kein Profil) bereitgestellt.
 
 Die Profile sind im Folgenden aufgelistet. Details zur technischen Umsetzung sowie Links auf die zugehörigen Artefakte finden sich im Bereich "Technische Umsetzung" dieses Implementation Guides.
 
@@ -77,14 +78,14 @@ Ergänzend werden zukünftig EKG-Metadaten abgebildet, die perspektivisch die Gr
 |---------|------|
 | **EKG-Durchführung** | Erfassung der Durchführung eines EKGs |
 | **EKG-Kanal** | Spezifische Kanal-Beschreibung (I, II, III, etc.) |
-| **EKG-Referenz** | Referenz für EKG-Rasterung und -Kalibrierung |
+| **EKG-Referenz** | Referenzierung der an einem externen Ort gespeicherten EKG-Rohdaten, analog zu bildgebenden Verfahren über eine Datei- oder Netzwerk-URL |
 | **EKG-Gerätedefinition** | Geräte-spezifische Information |
 | **EKG-Gerät** | Erfassung des verwendeten Geräts (z.B. Mortara) |
 | **EKG-Annotation** | Annotationen zum EKG (z.B. Rhythmus, Blockaden) |
 
-## 8. Sonstige (FollowUp / Questionnaire)
+## 8. Sonstige: Follow-Up-Fragebogen (Questionnaire, kein Profil)
 
-| Profile | Ziel |
+| Ressource | Ziel |
 |--------|------|
 | **Questionnaire** | Standardisiertes Questionnaire für ACRIBiS-FollowUp |
 

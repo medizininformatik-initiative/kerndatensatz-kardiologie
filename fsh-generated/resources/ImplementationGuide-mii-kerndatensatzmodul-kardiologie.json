@@ -524,9 +524,9 @@
       },
       {
         "reference": {
-          "reference": "Questionnaire/mii-qn-kardio-acribis-study-followup"
+          "reference": "Questionnaire/mii-qst-kardio-acribis-study-followup"
         },
-        "name": "MII QN Kardio Acribis Study FollowUp",
+        "name": "MII QST Kardio Acribis Study FollowUp",
         "description": "Follow-Up-Fragebogen für die ACRIBiS-Studie.",
         "exampleBoolean": false
       },

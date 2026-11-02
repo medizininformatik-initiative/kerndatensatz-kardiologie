@@ -54,7 +54,7 @@
 [MII_PR_Kardio_Observation_Rauchen]: StructureDefinition-mii-pr-kardio-observation-rauchen.html
 [MII_PR_Kardio_Score_Modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
-[mii-qn-kardio-acribis-study-followup]: Questionnaire-mii-qn-kardio-acribis-study-followup.html
+[mii-qst-kardio-acribis-study-followup]: Questionnaire-mii-qst-kardio-acribis-study-followup.html
 [MII_VS_Kardio_Allergene_SNOMEDCT]: ValueSet-mii-vs-kardio-allergene-snomedct.html
 [MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT]: ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html
 [MII_VS_Kardio_EKG_Kanaele_MDC]: ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html

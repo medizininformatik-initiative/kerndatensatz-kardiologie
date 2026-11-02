@@ -256,10 +256,10 @@
     "endLine": 21
   },
   {
-    "outputFile": "Questionnaire-mii-qn-kardio-acribis-study-followup.json",
-    "fshName": "mii-qn-kardio-acribis-study-followup",
+    "outputFile": "Questionnaire-mii-qst-kardio-acribis-study-followup.json",
+    "fshName": "mii-qst-kardio-acribis-study-followup",
     "fshType": "Instance",
-    "fshFile": "questionnaire/MII_QN_Kardio_Acribis_Study_FollowUp.fsh",
+    "fshFile": "questionnaire/MII_QST_Kardio_Acribis_Study_FollowUp.fsh",
     "startLine": 1,
     "endLine": 874
   },

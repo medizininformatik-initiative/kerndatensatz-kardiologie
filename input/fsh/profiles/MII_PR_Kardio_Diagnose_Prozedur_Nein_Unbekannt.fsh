@@ -50,9 +50,7 @@ Description: "Dieses Profil bildet das anamnestische Nichtvorliegen einer Diagno
 * code.coding[orphanet] from mii-vs-diagnose-orphanet (required)
 * code.coding[orphanet] ^patternCoding.system = "http://www.orpha.net"
 
-* code.coding[kardio] ^comment = """Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um eine allgemeine Angabe zu 
-'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) anzulegen, falls keine genauere Information im 
-System/Fragebogen gegeben ist."""
+* code.coding[kardio] ^comment = """Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, dass entweder kein 'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) vorlag oder keine genaueren Informationen dazu im System/Fragebogen gegeben sind."""
 * code.coding[kardio] = MII_CS_Kardio_Atherosklerotisches_Ereignis#eg-cv
 
 * subject 1..1 MS

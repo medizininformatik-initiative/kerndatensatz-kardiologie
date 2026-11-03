@@ -18,9 +18,6 @@ NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK
 # Suppress Warning for binding on experimental VS because those are VS that are not under our management
 SD_ED_EXPERIMENTAL_BINDING
 
-# We manually checked the expressions against the SNOMED CT concept model, so we can ignore this
-The expression is grammatically correct and the concepts are valid, but the expression has not been checked against the SNOMED CT concept model (MRCM)
-
 # These URLs do resolve
 URL-Wert 'https://www.hillrom.de/de/products/eli-380-electrocardiograph/' löst nicht auf
 URL-Wert 'https://snowstorm.ihtsdotools.org/fhir' löst nicht auf
@@ -33,10 +30,7 @@ URL-Wert 'http://demo.org/observation-ids' löst nicht auf
 TYPE_SPECIFIC_CHECKS_DT_QTY_UCUM_ANNOTATIONS
 
 # This is a binding from the FHIR resource
-The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
-
-# This is also inherited
-The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
+The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
 
 # These are inherited slicings
 SD_PATH_SLICING_DEPRECATED
@@ -44,7 +38,7 @@ SD_PATH_SLICING_DEPRECATED
 # Value set is too large to check. We made sure that the mentioned VS are propper subsets of the respective parent VS, so we can safely ignore these warnings
 Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct - value set is too large to check
 Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/mii-vs-prozedur-ops - value set is too large to check
-Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct - value set is too large to check
+Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct - value set is too large to check
 Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-icd is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-icd10gm|2027.0.0-ballot - value set is too large to check
 Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-alphaid is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-alphaid|2027.0.0-ballot - value set is too large to check
 Unable to check if https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-klappenvitium-snomedct is a proper subset of https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2027.0.0-ballot - value set is too large to check
@@ -70,7 +64,7 @@ The property 'partition' is not known for the system 'urn:iso:std:iso:11073:1010
 Unknown Code 'application/dicom' in the CodeSystem 'urn:ietf:bcp:13' version '6.0.0' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
 
 # We use the older version because of a problem with circular dependencies in the newer version
-The ImplementationGuide uses package hl7.terminology.r4#7.1.0 released on 2026-03-08, but the most recent appropriate version is 7.3.0. This reference is getting old and the more recent version should be considered
+The ImplementationGuide uses package hl7.terminology.r4#7.1.0 released on 2026-03-08, but the most recent appropriate version is 7.5.0. This reference is getting old and the more recent version should be considered
 
 # URLs don't resolve, but it's not under our control
 Canonical URL 'http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4' kann nicht aufgelöst werden

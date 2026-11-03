@@ -82,7 +82,9 @@ Description: "Profil zur Erfassung des Rauchverhaltens einer Person im Kontext d
 * component[rauchbeginn] ^short = "Rauchbeginn entweder als 'Alter bei Rauchbeginn' (Quantity in Jahren(a)) oder 'Datum bei Rauchbeginn' (dateTime)"
 * component[rauchbeginn].code = $sct#266929003 // Smoking started (Finding)
 * component[rauchbeginn].value[x] only dateTime or Quantity
+* component[rauchbeginn].valueDateTime ^short = "Datum bei Rauchbeginn"
 * component[rauchbeginn].valueDateTime MS
+* component[rauchbeginn].valueQuantity ^short = "Alter bei Rauchbeginn (in Jahren)"
 * component[rauchbeginn].valueQuantity.unit = "year"
 * component[rauchbeginn].valueQuantity.system = $ucum
 * component[rauchbeginn].valueQuantity.code = $ucum#a

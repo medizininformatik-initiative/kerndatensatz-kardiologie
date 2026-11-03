@@ -310,6 +310,7 @@
         "id": "Observation.component:rauchbeginn.value[x]:valueDateTime",
         "path": "Observation.component.value[x]",
         "sliceName": "valueDateTime",
+        "short": "Datum bei Rauchbeginn",
         "min": 0,
         "max": "1",
         "type": [
@@ -323,6 +324,7 @@
         "id": "Observation.component:rauchbeginn.value[x]:valueQuantity",
         "path": "Observation.component.value[x]",
         "sliceName": "valueQuantity",
+        "short": "Alter bei Rauchbeginn (in Jahren)",
         "min": 0,
         "max": "1",
         "type": [

@@ -2,7 +2,7 @@ Profile: MII_PR_Kardio_Atherosklerotisches_Erstereignis
 Id: mii-pr-kardio-atherosklerotisches-erstereignis
 Parent: Observation
 Title: "MII PR Kardio Atherosklerotisches Erstereignis"
-Description: "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ereignisses im Kontext von ACRIBiS."
+Description: "Profil zur Erfassung der Art und des Datums des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS."
 
 * insert PR_CS_VS_Version
 * insert Publisher
@@ -32,7 +32,7 @@ Description: "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ere
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #closed
-* component ^slicing.description = "Zusätzliche Angaben zum Rauchverhalten."
+* component ^slicing.description = "Angaben zur Art des atherosklerotischen Ereignisses und zum Datum der Diagnose."
 * component contains
     erkrankung 1..1 MS and
     datum 1..1 MS
@@ -45,7 +45,7 @@ Description: "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ere
 * component[erkrankung] ^comment = "Welches Ereignis war das erste atherosklerotische Ereignis?"
 * component[erkrankung].code = $sct#439401001 "Diagnosis"
 * component[erkrankung].value[x] only CodeableConcept
-* component[erkrankung].valueCodeableConcept from MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT (required)
+* component[erkrankung].valueCodeableConcept from MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT (required)
 
 * component[datum] ^comment = "Datum des bezeichneten ersten atherosklerotischen Ereignisses (z.B. Herzinfarkt, Apoplex, pAVK)"
 * component[datum].code = $sct#432213005 "Date of diagnosis"

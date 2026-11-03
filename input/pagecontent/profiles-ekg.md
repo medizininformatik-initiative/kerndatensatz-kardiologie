@@ -36,8 +36,7 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
 
 ### **MII PR Kardio EKG Referenz** — [StructureDefinition](StructureDefinition-mii-pr-kardio-ekg-referenz.html)
 
-  **Zweck:** Referenzierung eines EKGs mit Rohdaten an externem Ort. Hier analog zu Bildgebende Verfahren File-
-  oder Netzwerk-URL
+  **Zweck:** Referenzierung der an einem externen Ort gespeicherten EKG-Rohdaten, analog zu bildgebenden Verfahren über eine Datei- oder Netzwerk-URL.
 
   **Parent:** DocumentReference
 

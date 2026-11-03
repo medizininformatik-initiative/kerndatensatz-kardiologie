@@ -50,8 +50,8 @@ Für ACRIBiS müssen die folgenden Codes verwendet werden (Stand 01.05.2025):
 * bodySite.coding[snomed-ct] 1.. MS
 * bodySite.coding[snomed-ct] from MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT (extensible)
 
-* focalDevice 1.. MS
+* focalDevice MS
 * focalDevice.manipulated MS
-* focalDevice.manipulated only Reference(Device)
+* focalDevice.manipulated only Reference(MII_PR_Kardio_Device)
 
 // Anmerkung FE: Wieviele Sonden hat das Gerät --> andere Metric / erstmal nicht für Acribis --> dann für KDS Kardio gesamt

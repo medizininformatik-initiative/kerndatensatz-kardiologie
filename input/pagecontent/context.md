@@ -4,8 +4,8 @@ Das Kardiologie-Modul ist ein Erweiterungsmodul des Kerndatensatzes (KDS) der Me
 
 | Modul    | Funktion im Kardiologie-Kontext |
 | -------- | ------------------------------- |
-| **base** | Basistruktur (Patient, Organization, Practitioner), zentrale Valuesets (v2-0203, v2-0532, condition-category, observation-category) |
-| **meta** | Metadaten (Lizenzcodeable, Publisher, Versionierung) |
+| **base** | Basisstruktur (Patient, Organization, Practitioner), zentrale Valuesets (v2-0203, v2-0532, condition-category, observation-category) |
+| **meta** | Metadaten (Lizenzangaben, Publisher, Versionierung) |
 | **isik** | ISiK-Spezifische Codierungen (ISiKRaucherstatus, etc. bei Bedarf) |
 
 ## Querbezüge zu anderen Modulen

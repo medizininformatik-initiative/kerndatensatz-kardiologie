@@ -13,7 +13,7 @@ Diese Gruppe umfasst die Profilierung kardialer (Implantat-)Geräte.
   - `subject` mit Referenz auf Patient
   - `performed[x]` mit Begrenzung auf `performedDateTime` oder `performedPeriod`
   - `bodySite` mit Kardinalität 1..* als verpflichtende Angabe
-  - `focalDevice.manipulated` mit Kardinalität 1..* als verpflichtende Angabe
+  - `focalDevice.manipulated` als Must-support
 
 ### **MII PR Kardio Device** — [StructureDefinition](StructureDefinition-mii-pr-kardio-device.html)
 
@@ -35,7 +35,7 @@ Diese Gruppe umfasst die Profilierung kardialer (Implantat-)Geräte.
 
   **Diff:**
   - `code` required Angabe eines `DeviceMetricAndComponentTypes` (MDC)-Codes
-  - `subject` als verpflichtend anzugebende Referenz auf Patient
+  - `subject` als verpflichtend anzugebende Referenz auf das programmierte [Device](StructureDefinition-mii-pr-kardio-device.html)
   - `focus` für mögliche Referenz auf eine `DeviceMetric` (wie z.B. Kardio-Profil `NBG Schrittmachermodus`)
   - `effective[x]` für verpflichtende Angabe des Datums
   - `value[x]`required Angabe mit VS `MII_VS_Kardio_Geraeteprogrammierung_MDC`

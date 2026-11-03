@@ -1,6 +1,6 @@
 ValueSet: MII_VS_Kardio_Kardiale_Deviceimplantation_OPS
 Id: mii-vs-kardio-kardiale-deviceimplantation-ops
-Title: "MII VS Kardio Kardiale Devicemimplantation [OPS]"
+Title: "MII VS Kardio Kardiale Deviceimplantation [OPS]"
 Description: "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD)."
 
 * insert PR_CS_VS_Version

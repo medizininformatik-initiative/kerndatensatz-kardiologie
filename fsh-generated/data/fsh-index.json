@@ -197,7 +197,7 @@
     "fshType": "Instance",
     "fshFile": "instances/MII_EXA_Kardio_LVEF.fsh",
     "startLine": 1,
-    "endLine": 49
+    "endLine": 46
   },
   {
     "outputFile": "Observation-mii-exa-kardio-mrs.json",
@@ -256,10 +256,10 @@
     "endLine": 21
   },
   {
-    "outputFile": "Questionnaire-mii-qn-kardio-acribis-study-followup.json",
-    "fshName": "mii-qn-kardio-acribis-study-followup",
+    "outputFile": "Questionnaire-mii-qst-kardio-acribis-study-followup.json",
+    "fshName": "mii-qst-kardio-acribis-study-followup",
     "fshType": "Instance",
-    "fshFile": "questionnaire/MII_QN_Kardio_Acribis_Study_FollowUp.fsh",
+    "fshFile": "questionnaire/MII_QST_Kardio_Acribis_Study_FollowUp.fsh",
     "startLine": 1,
     "endLine": 874
   },
@@ -413,7 +413,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/MII_PR_Kardio_Linksventrikulaere_Ejektionsfraktion.fsh",
     "startLine": 1,
-    "endLine": 92
+    "endLine": 84
   },
   {
     "outputFile": "StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json",
@@ -457,7 +457,7 @@
   },
   {
     "outputFile": "ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.json",
-    "fshName": "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT",
+    "fshName": "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT.fsh",
     "startLine": 1,
@@ -544,7 +544,7 @@
     "endLine": 17
   },
   {
-    "outputFile": "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.json",
+    "outputFile": "ValueSet-mii-vs-kardio-kardiale-deviceimplantation-snomedct.json",
     "fshName": "MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT.fsh",

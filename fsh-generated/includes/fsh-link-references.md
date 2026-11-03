@@ -54,9 +54,9 @@
 [MII_PR_Kardio_Observation_Rauchen]: StructureDefinition-mii-pr-kardio-observation-rauchen.html
 [MII_PR_Kardio_Score_Modifizierte_Rankin_Skala]: StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html
 [MII_PR_Kardio_Score_NYHA]: StructureDefinition-mii-pr-kardio-score-nyha.html
-[mii-qn-kardio-acribis-study-followup]: Questionnaire-mii-qn-kardio-acribis-study-followup.html
+[mii-qst-kardio-acribis-study-followup]: Questionnaire-mii-qst-kardio-acribis-study-followup.html
 [MII_VS_Kardio_Allergene_SNOMEDCT]: ValueSet-mii-vs-kardio-allergene-snomedct.html
-[MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT]: ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html
+[MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOMEDCT]: ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html
 [MII_VS_Kardio_EKG_Kanaele_MDC]: ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html
 [MII_VS_Kardio_EKG_Prozedur_SNOMEDCT]: ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.html
 [MII_VS_Kardio_Ethnie_SNOMEDCT]: ValueSet-mii-vs-kardio-ethnie-snomedct.html
@@ -67,7 +67,7 @@
 [MII_VS_Kardio_Gewichtsveraenderung_SNOMEDCT]: ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation_Koerperstelle_SNOMEDCT]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.html
 [MII_VS_Kardio_Kardiale_Deviceimplantation_OPS]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.html
-[MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-scnomedct.html
+[MII_VS_Kardio_Kardiale_Deviceimplantation_SNOMEDCT]: ValueSet-mii-vs-kardio-kardiale-deviceimplantation-snomedct.html
 [MII_VS_Kardio_Klappenvitium_Grad_SNOMEDCT]: ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.html
 [MII_VS_Kardio_Klappenvitium_ALPHAID]: ValueSet-mii-vs-kardio-klappenvitium-alphaid.html
 [MII_VS_Kardio_Klappenvitium_ICD]: ValueSet-mii-vs-kardio-klappenvitium-icd.html

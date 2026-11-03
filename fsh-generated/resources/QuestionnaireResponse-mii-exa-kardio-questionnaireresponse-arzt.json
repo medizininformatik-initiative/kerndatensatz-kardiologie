@@ -689,5 +689,5 @@
     "reference": "#Beispielpatient"
   },
   "authored": "2025-11-20T14:07:36.673Z",
-  "questionnaire": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qn-kardio-acribis-study-followup"
+  "questionnaire": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/Questionnaire/mii-qst-kardio-acribis-study-followup"
 }

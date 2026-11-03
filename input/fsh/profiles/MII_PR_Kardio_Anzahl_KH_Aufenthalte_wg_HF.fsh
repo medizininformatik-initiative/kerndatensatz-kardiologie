@@ -2,7 +2,7 @@ Profile: MII_PR_Kardio_Anzahl_KH_Aufenthalte_wg_HF
 Id: mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf
 Parent: Observation
 Title: "MII PR Kardio Anzahl KH Aufenthalte wg HF"
-Description: "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS."
+Description: "Profil zur Erfassung der Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS."
 
 * insert PR_CS_VS_Version
 * insert Publisher

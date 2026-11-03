@@ -20,7 +20,7 @@
       ]
     }
   ],
-  "description": "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
+  "description": "Profil zur Erfassung der Art und des Datums des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -115,7 +115,7 @@
             }
           ],
           "rules": "closed",
-          "description": "Zusätzliche Angaben zum Rauchverhalten."
+          "description": "Angaben zur Art des atherosklerotischen Ereignisses und zum Datum der Diagnose."
         },
         "min": 2,
         "max": "2",

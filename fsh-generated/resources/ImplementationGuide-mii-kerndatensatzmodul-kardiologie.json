@@ -214,7 +214,7 @@
         "reference": {
           "reference": "Condition/mii-exa-kardio-embolischer-gefaessverschluss"
         },
-        "name": "MII EXA Kardio Emoblischer Gefäßverschluss",
+        "name": "MII EXA Kardio Embolischer Gefäßverschluss",
         "description": "Beispiel: Der Patient hat angegeben, einen embolischen Gefäßverschluss gehabt zu haben.",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-diagnose"
       },
@@ -375,7 +375,7 @@
           "reference": "StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf"
         },
         "name": "MII PR Kardio Anzahl KH Aufenthalte wg HF",
-        "description": "Profil zur Erfassung des Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
+        "description": "Profil zur Erfassung der Anzahl von Krankenhausaufenthalten wegen Herzinsuffizienz in einem Zeitraum im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
       {
@@ -383,7 +383,7 @@
           "reference": "StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis"
         },
         "name": "MII PR Kardio Atherosklerotisches Erstereignis",
-        "description": "Profil zur Erfassung des Datum des ersten  atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
+        "description": "Profil zur Erfassung der Art und des Datums des ersten atherosklerotischen Ereignisses im Kontext von ACRIBiS.",
         "exampleBoolean": false
       },
       {
@@ -524,9 +524,9 @@
       },
       {
         "reference": {
-          "reference": "Questionnaire/mii-qn-kardio-acribis-study-followup"
+          "reference": "Questionnaire/mii-qst-kardio-acribis-study-followup"
         },
-        "name": "MII QN Kardio Acribis Study FollowUp",
+        "name": "MII QST Kardio Acribis Study FollowUp",
         "description": "Follow-Up-Fragebogen für die ACRIBiS-Studie.",
         "exampleBoolean": false
       },
@@ -591,7 +591,7 @@
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc"
         },
         "name": "MII VS Kardio Geräteprogrammierung [MDC]",
-        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
+        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
         "exampleBoolean": false
       },
       {
@@ -614,7 +614,7 @@
         "reference": {
           "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct"
         },
-        "name": "MII VS Kardio Kardiale Devicemimplantation Körperstelle [SNOMED CT]",
+        "name": "MII VS Kardio Kardiale Deviceimplantation Körperstelle [SNOMED CT]",
         "description": "Dieses Value Set bildet die Körperstellen, an denen eine Implantation eines kardialen Devices stattfindet, ab.",
         "exampleBoolean": false
       },
@@ -622,16 +622,16 @@
         "reference": {
           "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops"
         },
-        "name": "MII VS Kardio Kardiale Devicemimplantation [OPS]",
+        "name": "MII VS Kardio Kardiale Deviceimplantation [OPS]",
         "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-scnomedct"
+          "reference": "ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct"
         },
-        "name": "MII VS Kardio Kardiale Devicemimplantation [SNOMED CT]",
-        "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronationstherapie (CRT) und ventrikuläre Unterstützungssysteme ab (VAD).",
+        "name": "MII VS Kardio Kardiale Deviceimplantation [SNOMED CT]",
+        "description": "Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defibrillator (ICD), Herzschrittmacher zur kardialen Resynchronisationstherapie (CRT) und ventrikuläre Unterstützungssysteme (VAD) ab.",
         "exampleBoolean": false
       },
       {

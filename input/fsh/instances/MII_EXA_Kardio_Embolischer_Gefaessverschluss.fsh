@@ -1,6 +1,6 @@
 Instance: mii-exa-kardio-embolischer-gefaessverschluss
 InstanceOf: MII_PR_Kardio_Diagnose
-Title: "MII EXA Kardio Emoblischer Gefäßverschluss"
+Title: "MII EXA Kardio Embolischer Gefäßverschluss"
 Description: "Beispiel: Der Patient hat angegeben, einen embolischen Gefäßverschluss gehabt zu haben."
 Usage: #example
 

@@ -2926,7 +2926,7 @@
       <sliceName value="kardio"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
-      <comment value="Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um eine allgemeine Angabe zu &#xA;'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) anzulegen, falls keine genauere Information im &#xA;System/Fragebogen gegeben ist."/>
+      <comment value="Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, dass entweder kein 'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) vorlag oder keine genaueren Informationen dazu im System/Fragebogen gegeben sind."/>
       <requirements value="Allows for alternative encodings within a code system, and translations to other code systems."/>
       <min value="0"/>
       <max value="1"/>
@@ -4890,7 +4890,7 @@
     <element id="Observation.code.coding:kardio">
       <path value="Observation.code.coding"/>
       <sliceName value="kardio"/>
-      <comment value="Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um eine allgemeine Angabe zu &#xA;'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) anzulegen, falls keine genauere Information im &#xA;System/Fragebogen gegeben ist."/>
+      <comment value="Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, dass entweder kein 'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) vorlag oder keine genaueren Informationen dazu im System/Fragebogen gegeben sind."/>
       <min value="0"/>
       <max value="1"/>
       <patternCoding>

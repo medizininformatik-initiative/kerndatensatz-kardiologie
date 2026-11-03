@@ -318,7 +318,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Observation.code.coding:kardio",
       "path" : "Observation.code.coding",
       "sliceName" : "kardio",
-      "comment" : "Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um eine allgemeine Angabe zu \n'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) anzulegen, falls keine genauere Information im \nSystem/Fragebogen gegeben ist.",
+      "comment" : "Der in diesem Slice hinterlegbare Code ist nur zu verwenden, um anzugeben, dass entweder kein 'Embolischer Gefäßverschluss cerebro vaskulär' (Fragebogenitem 67) vorlag oder keine genaueren Informationen dazu im System/Fragebogen gegeben sind.",
       "min" : 0,
       "max" : "1",
       "patternCoding" : {

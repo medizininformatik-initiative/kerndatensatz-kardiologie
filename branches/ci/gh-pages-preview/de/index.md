@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie | *Version*:2027.0.0-ballot |
-| Draft Stand: 2026-11-02 | *Maschinenlesbarer Name*:MII_IG_MODUL_KARDIO_DE |
+| Draft Stand: 2026-11-03 | *Maschinenlesbarer Name*:MII_IG_MODUL_KARDIO_DE |
 
 # Kerndatensatz-Modul Kardiologie
 
@@ -16,7 +16,7 @@ Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatens
 
 | | |
 | :--- | :--- |
-| Datum | 2026-11-02T18:21:01+00:00 |
+| Datum | 2026-11-03T13:42:15+00:00 |
 | Version | 2027.0.0-ballot |
 | Status | draft |
 | Realm | DE |

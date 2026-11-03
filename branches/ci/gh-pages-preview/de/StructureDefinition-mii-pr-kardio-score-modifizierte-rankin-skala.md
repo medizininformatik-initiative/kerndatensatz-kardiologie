@@ -117,7 +117,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio Score Modifizierte Rankin Skala",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-03T13:42:15+00:00",
+  "date" : "2026-11-03T15:09:06+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

@@ -129,7 +129,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio Observation Rauchen",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-03T13:42:15+00:00",
+  "date" : "2026-11-03T15:09:06+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -413,6 +413,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Observation.component:rauchbeginn.value[x]:valueDateTime",
       "path" : "Observation.component.value[x]",
       "sliceName" : "valueDateTime",
+      "short" : "Datum bei Rauchbeginn",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -424,6 +425,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Observation.component:rauchbeginn.value[x]:valueQuantity",
       "path" : "Observation.component.value[x]",
       "sliceName" : "valueQuantity",
+      "short" : "Alter bei Rauchbeginn (in Jahren)",
       "min" : 0,
       "max" : "1",
       "type" : [{

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeviceMetric xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-kardio-nbg-schrittmachermodus"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: DeviceMetric mii-exa-kardio-nbg-schrittmachermodus</b></p><a name="mii-exa-kardio-nbg-schrittmachermodus"> </a><a name="hcmii-exa-kardio-nbg-schrittmachermodus"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.html">MII PR Kardio NBG Schrittmachermodus</a></p></div><p><b>type</b>: <span title="Codes:{urn:iso:std:iso:11073:10101 730752}">The brady pacing mode according to the NBG standard.</span></p><p><b>source</b>: <a href="Device-mii-exa-kardio-device-icd.html">Device: status = active; manufacturer = Medtronic; type = Implantable defibrillator</a></p><p><b>category</b>: Setting</p></div>
+  </text>
+  <type>
+    <coding>
+      <system value="urn:iso:std:iso:11073:10101"/>
+      <version value="2024-12-05"/>
+      <code value="730752"/>
+      <display value="MDC_IDC_SET_BRADY_MODE"/>
+    </coding>
+    <text value="The brady pacing mode according to the NBG standard."/>
+  </type>
+  <source>
+    <reference value="Device/mii-exa-kardio-device-icd"/>
+  </source>
+  <category value="setting"/>
+</DeviceMetric>

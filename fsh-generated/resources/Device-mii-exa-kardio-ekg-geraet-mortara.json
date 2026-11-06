@@ -11,10 +11,25 @@
   },
   "deviceName": [
     {
-      "name": "ELI 380",
-      "type": "model-name"
+      "type": "user-friendly-name",
+      "name": "EKG Raum 1"
+    },
+    {
+      "type": "model-name",
+      "name": "ELI 380"
     }
   ],
+  "version": [
+    {
+      "type": {
+        "text": "Software"
+      },
+      "value": "2.3.1"
+    }
+  ],
+  "location": {
+    "display": "Klinik für Kardiologie, EKG-Funktionsbereich"
+  },
   "type": {
     "coding": [
       {
@@ -33,5 +48,6 @@
   },
   "language": "de",
   "status": "active",
-  "manufacturer": "Mortara Instrument, Inc."
+  "manufacturer": "Mortara Instrument, Inc.",
+  "serialNumber": "123456789"
 }

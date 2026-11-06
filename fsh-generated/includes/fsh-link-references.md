@@ -57,6 +57,8 @@
 [mii-qn-kardio-acribis-study-followup]: Questionnaire-mii-qn-kardio-acribis-study-followup.html
 [MII_VS_Kardio_Allergene_SNOMEDCT]: ValueSet-mii-vs-kardio-allergene-snomedct.html
 [MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT]: ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.html
+[MII_VS_Kardio_EKG_Annotation_SNOMEDCT]: ValueSet-mii-vs-kardio-ekg-annotation-snomedct.html
+[MII_VS_Kardio_EKG_Dateiformat]: ValueSet-mii-vs-kardio-ekg-dateiformat.html
 [MII_VS_Kardio_EKG_Kanaele_MDC]: ValueSet-mii-vs-kardio-ekg-kanaele-mdc.html
 [MII_VS_Kardio_EKG_Prozedur_SNOMEDCT]: ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.html
 [MII_VS_Kardio_Ethnie_SNOMEDCT]: ValueSet-mii-vs-kardio-ethnie-snomedct.html

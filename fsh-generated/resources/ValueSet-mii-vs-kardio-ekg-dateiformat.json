@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_EKG_Dateiformat",
+  "id": "mii-vs-kardio-ekg-dateiformat",
+  "title": "MII VS Kardio EKG Dateiformat",
+  "description": "MIME-Types für Formate, in denen referenzierte EKG-Daten vorliegen können (z.B. DICOM Waveform, HL7 aECG als XML).",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-dateiformat",
+  "version": "2027.0.0-ballot",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "language": "de",
+  "experimental": true,
+  "date": "2026-11-06",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:ietf:bcp:13",
+        "concept": [
+          {
+            "code": "application/dicom",
+            "display": "DICOM"
+          },
+          {
+            "code": "application/xml",
+            "display": "XML (z.B. HL7 aECG)"
+          }
+        ]
+      }
+    ]
+  }
+}

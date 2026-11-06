@@ -63,6 +63,21 @@
       ]
     }
   ],
+  "code": {
+    "coding": [
+      {
+        "system": "urn:iso:std:iso:11073:10101",
+        "code": "147240",
+        "version": "2024-12-05",
+        "display": "MDC_ECG_TIME_PD_RR_GL"
+      }
+    ]
+  },
+  "partOf": [
+    {
+      "reference": "Procedure/mii-exa-kardio-ekg-durchfuehrung"
+    }
+  ],
   "effectivePeriod": {
     "start": "2023-05-03T07:38:07Z",
     "end": "2023-05-03T07:38:17Z"
@@ -77,26 +92,16 @@
       "reference": "DocumentReference/mii-exa-kardio-ekg-referenz"
     }
   ],
-  "language": "de",
-  "status": "final",
-  "code": {
-    "coding": [
-      {
-        "code": "147240",
-        "system": "urn:iso:std:iso:11073:10101",
-        "version": "2024-12-05",
-        "display": "MDC_ECG_TIME_PD_RR_GL"
-      }
-    ]
-  },
-  "subject": {
-    "reference": "#Beispielpatient"
-  },
   "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
     "value": 1000,
     "code": "ms",
-    "system": "http://unitsofmeasure.org",
     "unit": "millisecond"
+  },
+  "language": "de",
+  "status": "final",
+  "subject": {
+    "reference": "#Beispielpatient"
   },
   "device": {
     "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"

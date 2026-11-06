@@ -548,6 +548,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ekg-annotation-snomedct"
+        },
+        "name": "MII VS Kardio EKG Annotation [SNOMED CT]",
+        "description": "SNOMED CT Codes (Observable entity) zur zusätzlichen Codierung von EKG-Annotationen, z.B. 251208001 |QRS complex duration|.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-kardio-ekg-dateiformat"
+        },
+        "name": "MII VS Kardio EKG Dateiformat",
+        "description": "MIME-Types für Formate, in denen referenzierte EKG-Daten vorliegen können (z.B. DICOM Waveform, HL7 aECG als XML).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-kardio-ekg-kanaele-mdc"
         },
         "name": "MII VS Kardio EKG Kanäle [MDC]",
@@ -591,7 +607,7 @@
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc"
         },
         "name": "MII VS Kardio Geräteprogrammierung [MDC]",
-        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
+        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
         "exampleBoolean": false
       },
       {

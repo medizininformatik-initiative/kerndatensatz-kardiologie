@@ -8,7 +8,7 @@
   "title": "MII PR Kardio EKG Gerät",
   "status": "draft",
   "experimental": true,
-  "date": "2025-05-22",
+  "date": "2026-11-06",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -37,13 +37,73 @@
       {
         "id": "Device.manufacturer",
         "path": "Device.manufacturer",
-        "min": 1,
+        "short": "Hersteller des Gerätes",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.serialNumber",
+        "path": "Device.serialNumber",
+        "short": "Seriennummer des Herstellers",
         "mustSupport": true
       },
       {
         "id": "Device.deviceName",
         "path": "Device.deviceName",
-        "min": 1,
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "type"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "Bezeichnungen des Gerätes",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName.name",
+        "path": "Device.deviceName.name",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName.type",
+        "path": "Device.deviceName.type",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName:nutzername",
+        "path": "Device.deviceName",
+        "sliceName": "nutzername",
+        "short": "Vom Nutzer gewählter Name des Gerätes (z.B. \"EKG Raum 1\")",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName:nutzername.type",
+        "path": "Device.deviceName.type",
+        "patternCode": "user-friendly-name"
+      },
+      {
+        "id": "Device.deviceName:modellname",
+        "path": "Device.deviceName",
+        "sliceName": "modellname",
+        "short": "Modellname des Herstellers (z.B. \"ELI 380\")",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName:modellname.type",
+        "path": "Device.deviceName.type",
+        "patternCode": "model-name"
+      },
+      {
+        "id": "Device.modelNumber",
+        "path": "Device.modelNumber",
+        "short": "Modellnummer bzw. Typ-/Bestellnummer des Herstellers",
+        "comment": "Der Modellname (z.B. \"ELI 380\") wird in deviceName[modellname] angegeben.",
         "mustSupport": true
       },
       {
@@ -78,6 +138,28 @@
         "id": "Device.type.coding.code",
         "path": "Device.type.coding.code",
         "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.version",
+        "path": "Device.version",
+        "short": "Version, z.B. der Software des Herstellers",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.version.type",
+        "path": "Device.version.type",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.version.value",
+        "path": "Device.version.value",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.location",
+        "path": "Device.location",
+        "short": "Standort des Gerätes (z.B. Klinik, Abteilung, Station)",
         "mustSupport": true
       }
     ]

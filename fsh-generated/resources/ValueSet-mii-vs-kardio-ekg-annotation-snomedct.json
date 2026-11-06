@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_Kardio_EKG_Annotation_SNOMEDCT",
+  "id": "mii-vs-kardio-ekg-annotation-snomedct",
+  "title": "MII VS Kardio EKG Annotation [SNOMED CT]",
+  "description": "SNOMED CT Codes (Observable entity) zur zusätzlichen Codierung von EKG-Annotationen, z.B. 251208001 |QRS complex duration|.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-annotation-snomedct",
+  "version": "2027.0.0-ballot",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "language": "de",
+  "experimental": true,
+  "date": "2026-11-06",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "363787002"
+          }
+        ]
+      }
+    ]
+  }
+}

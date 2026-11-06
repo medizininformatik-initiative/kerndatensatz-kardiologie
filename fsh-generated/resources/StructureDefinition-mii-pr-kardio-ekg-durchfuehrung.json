@@ -119,7 +119,7 @@
   "title": "MII PR Kardio EKG Durchführung",
   "status": "draft",
   "experimental": true,
-  "date": "2025-07-30",
+  "date": "2026-11-06",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -208,14 +208,30 @@
         }
       },
       {
+        "id": "Procedure.report",
+        "path": "Procedure.report",
+        "short": "Referenz auf die bei der Durchführung erzeugten EKG-Daten",
+        "comment": "Verknüpft die Durchführung mit der Referenz auf die (Roh-)Daten. Die Verknüpfung erfolgt nur in dieser Richtung (Procedure -> DocumentReference), nicht zusätzlich über DocumentReference.context.related.",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Procedure.usedReference",
         "path": "Procedure.usedReference",
+        "short": "Verwendetes EKG-Gerät",
         "min": 1,
         "type": [
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Device"
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet"
             ]
           }
         ],

@@ -111,6 +111,11 @@
       "reference": "Device/mii-exa-kardio-ekg-geraet-mortara"
     }
   ],
+  "report": [
+    {
+      "reference": "DocumentReference/mii-exa-kardio-ekg-referenz"
+    }
+  ],
   "language": "de",
   "status": "completed",
   "subject": {

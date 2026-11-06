@@ -11,6 +11,8 @@ Usage: #example
 * subject = Reference(Beispielpatient)
 * date = "2025-07-17T16:41:22+02:00"
 * author = Reference(mii-exa-kardio-ekg-geraet-mortara)
+* context.period.start = "2023-05-03T07:38:07Z"
+* context.period.end = "2023-05-03T07:38:17Z"
 * content.attachment.contentType = #application/dicom
 * content.attachment.url = "https://example.com/EKGs/beispiel-ekg"
-* content.attachment.title = "Beispiel EKG an einem anteren Ort"
+* content.attachment.title = "Beispiel EKG an einem anderen Ort"

@@ -10,6 +10,7 @@ Description: "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem ande
 * ^language = #de
 * ^status = #draft
 * ^experimental = true
+* ^date = "2026-11-06"
 
 * status MS
 
@@ -21,11 +22,21 @@ Description: "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem ande
 * type = $loinc#11524-6
 
 * subject 1.. MS
-* content 1..*
+* content 1.. MS
 * date 1.. MS
 
 * author 1.. MS
-* author only Reference(Device)
+* author only Reference(MII_PR_Kardio_EKG_Geraet)
+* author ^short = "EKG-Gerät, mit dem die Daten aufgezeichnet wurden"
+
+* context MS
+* context.period MS
+* context.period ^short = "Zeitraum (Datum und Uhrzeit) der EKG-Aufzeichnung"
+* context.period ^comment = "Kann identisch zum Durchführungszeitraum der EKG-Durchführung (Procedure.performed[x]) sein."
+* context.period.start MS
+* context.period.end MS
 
 * content.attachment.contentType MS
+* content.attachment.contentType from MII_VS_Kardio_EKG_Dateiformat (extensible)
+* content.attachment.contentType ^short = "Daten- bzw. Dateiformat der referenzierten EKG-Daten (MIME-Type)"
 * content.attachment.url 1.. MS

@@ -7,6 +7,7 @@ Alias: $icd-10-gm                         = http://fhir.de/CodeSystem/bfarm/icd-
 Alias: $alpha-id                          = http://fhir.de/CodeSystem/bfarm/alpha-id
 Alias: $ops                               = http://fhir.de/CodeSystem/bfarm/ops
 Alias: $mdc                               = urn:iso:std:iso:11073:10101
+Alias: $mimetypes                         = urn:ietf:bcp:13
 Alias: $v2-0532                           = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $condition-clinical                = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $condition-ver-status              = http://terminology.hl7.org/CodeSystem/condition-ver-status

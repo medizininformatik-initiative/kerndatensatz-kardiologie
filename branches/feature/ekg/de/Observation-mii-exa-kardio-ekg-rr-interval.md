@@ -49,6 +49,9 @@
       "country" : "DE"
     }]
   }],
+  "partOf" : [{
+    "reference" : "Procedure/mii-exa-kardio-ekg-durchfuehrung"
+  }],
   "status" : "final",
   "category" : [{
     "coding" : [{

@@ -336,7 +336,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><code class="language-plaintext highlighter-rouge">subject</code> ist auf Patienten-Referenz beschränkt</li>
   <li><code class="language-plaintext highlighter-rouge">performedDateTime</code> und <code class="language-plaintext highlighter-rouge">performedPeriod</code> als Must-Support</li>
   <li><code class="language-plaintext highlighter-rouge">bodySite</code> enthält SNOMED CT Code 80891009 (Heart structure)</li>
-  <li><code class="language-plaintext highlighter-rouge">usedReference</code> ist auf Device-Referenz beschränkt</li>
+  <li><code class="language-plaintext highlighter-rouge">usedReference</code> ist auf Referenz auf <code class="language-plaintext highlighter-rouge">MII_PR_Kardio_EKG_Geraet</code> beschränkt</li>
+  <li><code class="language-plaintext highlighter-rouge">report</code> verweist auf <code class="language-plaintext highlighter-rouge">MII_PR_Kardio_EKG_Referenz</code> (Must-Support)</li>
 </ul>
 
 <h3 id="mii-pr-kardio-ekg-kanal--structuredefinition"><strong>MII PR Kardio EKG Kanal</strong> — <a href="StructureDefinition-mii-pr-kardio-ekg-kanal.html">StructureDefinition</a></h3>
@@ -364,7 +365,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul>
   <li><code class="language-plaintext highlighter-rouge">type</code> auf LOINC 11524-6 fixiert</li>
   <li><code class="language-plaintext highlighter-rouge">subject</code>, <code class="language-plaintext highlighter-rouge">date</code> und <code class="language-plaintext highlighter-rouge">content</code> als Must-Support</li>
-  <li><code class="language-plaintext highlighter-rouge">author</code> auf Device-Referenz beschränkt</li>
+  <li><code class="language-plaintext highlighter-rouge">author</code> auf Referenz auf <code class="language-plaintext highlighter-rouge">MII_PR_Kardio_EKG_Geraet</code> beschränkt</li>
+  <li><code class="language-plaintext highlighter-rouge">context.period</code> (Zeitraum der Aufzeichnung) als Must-Support</li>
+  <li><code class="language-plaintext highlighter-rouge">content.attachment.contentType</code> als Must-Support; empfohlene Formate im ValueSet <code class="language-plaintext highlighter-rouge">MII_VS_Kardio_EKG_Dateiformat</code></li>
   <li><code class="language-plaintext highlighter-rouge">content.attachment.url</code> als Must-Support</li>
 </ul>
 
@@ -376,7 +379,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p><strong>Diff:</strong></p>
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">manufacturer</code> und <code class="language-plaintext highlighter-rouge">deviceName</code> als Must-Support</li>
+  <li><code class="language-plaintext highlighter-rouge">manufacturer</code>, <code class="language-plaintext highlighter-rouge">modelNumber</code>, <code class="language-plaintext highlighter-rouge">serialNumber</code>, <code class="language-plaintext highlighter-rouge">version</code> und <code class="language-plaintext highlighter-rouge">location</code> als Must-Support</li>
+  <li><code class="language-plaintext highlighter-rouge">deviceName</code> gesliced nach <code class="language-plaintext highlighter-rouge">type</code>: <code class="language-plaintext highlighter-rouge">nutzername</code> (user-friendly-name, z.B. "EKG Raum 1") und <code class="language-plaintext highlighter-rouge">modellname</code> (model-name, z.B. "ELI 380")</li>
   <li><code class="language-plaintext highlighter-rouge">type</code> aus ValueSet <code class="language-plaintext highlighter-rouge">MII_VS_Kardio_Objekte_Geraete_MDC</code> (required)</li>
 </ul>
 
@@ -400,11 +404,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p><strong>Diff:</strong></p>
 <ul>
   <li><code class="language-plaintext highlighter-rouge">category</code> enthält <code class="language-plaintext highlighter-rouge">vital-signs</code></li>
-  <li><code class="language-plaintext highlighter-rouge">code</code> aus ValueSet <code class="language-plaintext highlighter-rouge">MII_VS_Kardio_Metriken_EKG_Annotationen_MDC</code> (required)</li>
+  <li><code class="language-plaintext highlighter-rouge">code.coding[mdc]</code> aus ValueSet <code class="language-plaintext highlighter-rouge">MII_VS_Kardio_Metriken_EKG_Annotationen_MDC</code> (required), optional zusätzlich <code class="language-plaintext highlighter-rouge">code.coding[sct]</code> aus <code class="language-plaintext highlighter-rouge">MII_VS_Kardio_EKG_Annotation_SNOMEDCT</code></li>
+  <li><code class="language-plaintext highlighter-rouge">partOf</code> verweist auf <code class="language-plaintext highlighter-rouge">MII_PR_Kardio_EKG_Durchfuehrung</code></li>
   <li><code class="language-plaintext highlighter-rouge">subject</code> ist auf Patienten-Referenz beschränkt</li>
   <li><code class="language-plaintext highlighter-rouge">effective[x]</code> (dateTime, Period, instant) als Must-Support</li>
-  <li><code class="language-plaintext highlighter-rouge">device</code> auf Device-Referenz beschränkt</li>
-  <li><code class="language-plaintext highlighter-rouge">derivedFrom</code> enthält Referenz auf <code class="language-plaintext highlighter-rouge">DocumentReference</code> (EKG Rohdaten)</li>
+  <li><code class="language-plaintext highlighter-rouge">value[x]</code> als <code class="language-plaintext highlighter-rouge">Quantity</code> (UCUM) oder <code class="language-plaintext highlighter-rouge">string</code>; fehlt ein Wert, ist <code class="language-plaintext highlighter-rouge">dataAbsentReason</code> anzugeben</li>
+  <li><code class="language-plaintext highlighter-rouge">device</code> auf <code class="language-plaintext highlighter-rouge">MII_PR_Kardio_EKG_Geraet</code> bzw. <code class="language-plaintext highlighter-rouge">MII_PR_Kardio_EKG_Kanal</code> beschränkt</li>
+  <li><code class="language-plaintext highlighter-rouge">derivedFrom</code> enthält Referenz auf <code class="language-plaintext highlighter-rouge">MII_PR_Kardio_EKG_Referenz</code> (EKG Rohdaten)</li>
 </ul>
 
 <hr />
@@ -436,7 +442,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de">Medizininformatik-Initiative</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.kardiologie#2027.0.0-ballot basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Fri, Nov 6, 2026 09:07+0000">2026-11-06</span>
+          Erstellt <span title="Fri, Nov 6, 2026 10:37+0000">2026-11-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

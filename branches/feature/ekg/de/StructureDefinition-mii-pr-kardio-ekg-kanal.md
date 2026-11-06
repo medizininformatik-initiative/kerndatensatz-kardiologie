@@ -16,6 +16,7 @@ Profil zur Abbildung eines EKG-Kanals.
 
 **Usages:**
 
+* Refer to this Profile: [MII PR Kardio EKG Annotation](StructureDefinition-mii-pr-kardio-ekg-annotation.md)
 * Examples for this Profile: [Device/mii-exa-kardio-ekg-kanal-i](Device-mii-exa-kardio-ekg-kanal-i.md), [Device/mii-exa-kardio-ekg-kanal-ii](Device-mii-exa-kardio-ekg-kanal-ii.md) and [Device/mii-exa-kardio-ekg-kanal-iii](Device-mii-exa-kardio-ekg-kanal-iii.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-kanal.json)

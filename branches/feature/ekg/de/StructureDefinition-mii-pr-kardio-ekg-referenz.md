@@ -16,6 +16,7 @@ Profil zur Referenzierung eines EKGs dessen Rohdaten an einem anderen Ort gespei
 
 **Usages:**
 
+* Refer to this Profile: [MII PR Kardio EKG Annotation](StructureDefinition-mii-pr-kardio-ekg-annotation.md) and [MII PR Kardio EKG Durchführung](StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.md)
 * Examples for this Profile: [DocumentReference/mii-exa-kardio-ekg-referenz](DocumentReference-mii-exa-kardio-ekg-referenz.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-referenz.json)
@@ -45,13 +46,13 @@ Diese Struktur ist abgeleitet von [DocumentReference](http://hl7.org/fhir/R4/doc
 ** Summary **
 
 Mandatory: 8 elements
- Must-Support: 10 elements
+ Must-Support: 15 elements
 
 **Structures**
 
 This structure refers to these other structures:
 
-* [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
+* [MII PR Kardio EKG Gerät (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot)](StructureDefinition-mii-pr-kardio-ekg-geraet.md)
 
  **Schlüsselelemente-Ansicht** 
 
@@ -74,13 +75,13 @@ Diese Struktur ist abgeleitet von [DocumentReference](http://hl7.org/fhir/R4/doc
 ** Summary **
 
 Mandatory: 8 elements
- Must-Support: 10 elements
+ Must-Support: 15 elements
 
 **Structures**
 
 This structure refers to these other structures:
 
-* [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
+* [MII PR Kardio EKG Gerät (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot)](StructureDefinition-mii-pr-kardio-ekg-geraet.md)
 
  
 
@@ -101,7 +102,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio EKG Referenz",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-06T09:07:01+00:00",
+  "date" : "2026-11-06",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -218,22 +219,52 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
     {
       "id" : "DocumentReference.author",
       "path" : "DocumentReference.author",
+      "short" : "EKG-Gerät, mit dem die Daten aufgezeichnet wurden",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Device|4.0.1"]
+        "targetProfile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot"]
       }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "DocumentReference.content",
+      "path" : "DocumentReference.content",
       "mustSupport" : true
     },
     {
       "id" : "DocumentReference.content.attachment.contentType",
       "path" : "DocumentReference.content.attachment.contentType",
+      "short" : "Daten- bzw. Dateiformat der referenzierten EKG-Daten (MIME-Type)",
+      "comment" : "Die Basis-Ressource bindet contentType bereits required an alle MIME-Types (BCP 13). Für EKG-Daten werden die Formate aus dem ValueSet MII_VS_Kardio_EKG_Dateiformat empfohlen (z.B. application/dicom, application/xml).",
       "mustSupport" : true
     },
     {
       "id" : "DocumentReference.content.attachment.url",
       "path" : "DocumentReference.content.attachment.url",
       "min" : 1,
+      "mustSupport" : true
+    },
+    {
+      "id" : "DocumentReference.context",
+      "path" : "DocumentReference.context",
+      "mustSupport" : true
+    },
+    {
+      "id" : "DocumentReference.context.period",
+      "path" : "DocumentReference.context.period",
+      "short" : "Zeitraum (Datum und Uhrzeit) der EKG-Aufzeichnung",
+      "comment" : "Kann identisch zum Durchführungszeitraum der EKG-Durchführung (Procedure.performed[x]) sein.",
+      "mustSupport" : true
+    },
+    {
+      "id" : "DocumentReference.context.period.start",
+      "path" : "DocumentReference.context.period.start",
+      "mustSupport" : true
+    },
+    {
+      "id" : "DocumentReference.context.period.end",
+      "path" : "DocumentReference.context.period.end",
       "mustSupport" : true
     }]
   }

@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "de.medizininformatikinitiative.kerndatensatz.kardiologie",
   "ig-ver" : "2027.0.0-ballot",
-  "date" : "Fri, 06 Nov, 2026 09:07:01 +0000",
-  "dateISO8601" : "2026-11-06T09:07:01+00:00",
-  "errs" : 42,
-  "warnings" : 67,
-  "hints" : 361,
-  "suppressed-hints" : 2368,
-  "suppressed-warnings" : 61,
+  "date" : "Fri, 06 Nov, 2026 10:37:25 +0000",
+  "dateISO8601" : "2026-11-06T10:37:25+00:00",
+  "errs" : 117,
+  "warnings" : 83,
+  "hints" : 307,
+  "suppressed-hints" : 2435,
+  "suppressed-warnings" : 62,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2215176408
+  "maxMemory" : 2755576360
 }

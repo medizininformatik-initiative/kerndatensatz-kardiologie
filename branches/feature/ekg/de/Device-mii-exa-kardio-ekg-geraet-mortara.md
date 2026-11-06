@@ -16,14 +16,22 @@ Profile: [MII PR Kardio EKG Gerät](StructureDefinition-mii-pr-kardio-ekg-geraet
 
 **manufacturer**: Mortara Instrument, Inc.
 
-### DeviceNames
+**serialNumber**: 123456789
+
+> **deviceName****name**: EKG Raum 1**type**: User Friendly name
+
+> **deviceName****name**: ELI 380**type**: Model name
+
+**type**: MDC_DEV_ECG_MDS
+
+### Versions
 
 | | | |
 | :--- | :--- | :--- |
-| - | **Name** | **Type** |
-| * | ELI 380 | Model name |
+| - | **Type** | **Value** |
+| * | Software | 2.3.1 |
 
-**type**: MDC_DEV_ECG_MDS
+**location**: Klinik für Kardiologie, EKG-Funktionsbereich
 
 
 
@@ -42,7 +50,12 @@ Profile: [MII PR Kardio EKG Gerät](StructureDefinition-mii-pr-kardio-ekg-geraet
   },
   "status" : "active",
   "manufacturer" : "Mortara Instrument, Inc.",
+  "serialNumber" : "123456789",
   "deviceName" : [{
+    "name" : "EKG Raum 1",
+    "type" : "user-friendly-name"
+  },
+  {
     "name" : "ELI 380",
     "type" : "model-name"
   }],
@@ -59,6 +72,15 @@ Profile: [MII PR Kardio EKG Gerät](StructureDefinition-mii-pr-kardio-ekg-geraet
       "code" : "69798",
       "display" : "MDC_DEV_ECG_VMD"
     }]
+  },
+  "version" : [{
+    "type" : {
+      "text" : "Software"
+    },
+    "value" : "2.3.1"
+  }],
+  "location" : {
+    "display" : "Klinik für Kardiologie, EKG-Funktionsbereich"
   }
 }
 

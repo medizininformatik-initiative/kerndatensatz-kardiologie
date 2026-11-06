@@ -1,0 +1,50 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "mii-vs-kardio-ekg-dateiformat",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"de\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet mii-vs-kardio-ekg-dateiformat</b></p><a name=\"mii-vs-kardio-ekg-dateiformat\"> </a><a name=\"hcmii-vs-kardio-ekg-dateiformat\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: de</p></div><ul><li>Include these codes as defined in <a href=\"https://simplifier.net/resolve?scope=de.gematik.isik@6.0.0&amp;canonical=urn:ietf:bcp:13\"><code>urn:ietf:bcp:13</code></a><span title=\"Version is explicitly stated to be 6.0.0\"> version &#x1F4CD;6.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://simplifier.net/resolve?scope=de.gematik.isik@6.0.0&amp;canonical=urn:ietf:bcp:13#MimeTypeCS-application.47dicom\">application/dicom</a></td><td>DICOM</td></tr><tr><td><a href=\"https://simplifier.net/resolve?scope=de.gematik.isik@6.0.0&amp;canonical=urn:ietf:bcp:13#MimeTypeCS-application.47xml\">application/xml</a></td><td>XML (z.B. HL7 aECG)</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-dateiformat",
+  "version" : "2027.0.0-ballot",
+  "name" : "MII_VS_Kardio_EKG_Dateiformat",
+  "title" : "MII VS Kardio EKG Dateiformat",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-11-06",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    },
+    {
+      "system" : "email",
+      "value" : "office@medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "MIME-Types für Formate, in denen referenzierte EKG-Daten vorliegen können (z.B. DICOM Waveform, HL7 aECG als XML).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13",
+      "version" : "6.0.0",
+      "concept" : [{
+        "code" : "application/dicom",
+        "display" : "DICOM"
+      },
+      {
+        "code" : "application/xml",
+        "display" : "XML (z.B. HL7 aECG)"
+      }]
+    }]
+  }
+}

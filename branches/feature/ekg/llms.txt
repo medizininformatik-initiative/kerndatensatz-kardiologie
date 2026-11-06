@@ -34,6 +34,8 @@
 
 * [MII VS Kardio Allergene [SNOMED CT]](de/ValueSet-mii-vs-kardio-allergene-snomedct.md)
 * [MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]](de/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.md)
+* [MII VS Kardio EKG Annotation [SNOMED CT]](de/ValueSet-mii-vs-kardio-ekg-annotation-snomedct.md)
+* [MII VS Kardio EKG Dateiformat](de/ValueSet-mii-vs-kardio-ekg-dateiformat.md)
 * [MII VS Kardio EKG Kanäle [MDC]](de/ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md)
 * [MII VS Kardio EKG Prozedur [SNOMED CT]](de/ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.md)
 * [MII VS Kardio Ethnie [SNOMED CT]](de/ValueSet-mii-vs-kardio-ethnie-snomedct.md)

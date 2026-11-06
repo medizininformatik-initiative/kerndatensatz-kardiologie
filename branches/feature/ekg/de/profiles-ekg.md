@@ -28,7 +28,8 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
 * `subject` ist auf Patienten-Referenz beschränkt
 * `performedDateTime` und `performedPeriod` als Must-Support
 * `bodySite` enthält SNOMED CT Code 80891009 (Heart structure)
-* `usedReference` ist auf Device-Referenz beschränkt
+* `usedReference` ist auf Referenz auf `MII_PR_Kardio_EKG_Geraet` beschränkt
+* `report` verweist auf `MII_PR_Kardio_EKG_Referenz` (Must-Support)
 
 ### MII PR Kardio EKG Kanal — StructureDefinition
 
@@ -53,7 +54,9 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
 
 * `type` auf LOINC 11524-6 fixiert
 * `subject`, `date` und `content` als Must-Support
-* `author` auf Device-Referenz beschränkt
+* `author` auf Referenz auf `MII_PR_Kardio_EKG_Geraet` beschränkt
+* `context.period` (Zeitraum der Aufzeichnung) als Must-Support
+* `content.attachment.contentType` als Must-Support; empfohlene Formate im ValueSet `MII_VS_Kardio_EKG_Dateiformat`
 * `content.attachment.url` als Must-Support
 
 ### MII PR Kardio EKG Geraet — StructureDefinition
@@ -64,7 +67,8 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
 
 **Diff:**
 
-* `manufacturer` und `deviceName` als Must-Support
+* `manufacturer`, `modelNumber`, `serialNumber`, `version` und `location` als Must-Support
+* `deviceName` gesliced nach `type`: `nutzername` (user-friendly-name, z.B. "EKG Raum 1") und `modellname` (model-name, z.B. "ELI 380")
 * `type` aus ValueSet `MII_VS_Kardio_Objekte_Geraete_MDC` (required)
 
 ### MII PR Kardio EKG Geraetedefinition — StructureDefinition
@@ -86,11 +90,13 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
 **Diff:**
 
 * `category` enthält `vital-signs`
-* `code` aus ValueSet `MII_VS_Kardio_Metriken_EKG_Annotationen_MDC` (required)
+* `code.coding[mdc]` aus ValueSet `MII_VS_Kardio_Metriken_EKG_Annotationen_MDC` (required), optional zusätzlich `code.coding[sct]` aus `MII_VS_Kardio_EKG_Annotation_SNOMEDCT`
+* `partOf` verweist auf `MII_PR_Kardio_EKG_Durchfuehrung`
 * `subject` ist auf Patienten-Referenz beschränkt
 * `effective[x]` (dateTime, Period, instant) als Must-Support
-* `device` auf Device-Referenz beschränkt
-* `derivedFrom` enthält Referenz auf `DocumentReference` (EKG Rohdaten)
+* `value[x]` als `Quantity` (UCUM) oder `string`; fehlt ein Wert, ist `dataAbsentReason` anzugeben
+* `device` auf `MII_PR_Kardio_EKG_Geraet` bzw. `MII_PR_Kardio_EKG_Kanal` beschränkt
+* `derivedFrom` enthält Referenz auf `MII_PR_Kardio_EKG_Referenz` (EKG Rohdaten)
 
 -------
 

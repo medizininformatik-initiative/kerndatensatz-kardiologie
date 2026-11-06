@@ -68,9 +68,15 @@
     "attachment" : {
       "contentType" : "application/dicom",
       "url" : "https://example.com/EKGs/beispiel-ekg",
-      "title" : "Beispiel EKG an einem anteren Ort"
+      "title" : "Beispiel EKG an einem anderen Ort"
     }
-  }]
+  }],
+  "context" : {
+    "period" : {
+      "start" : "2023-05-03T07:38:07Z",
+      "end" : "2023-05-03T07:38:17Z"
+    }
+  }
 }
 
 ```

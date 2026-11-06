@@ -12,7 +12,7 @@
   <name value="MII_IG_MODUL_KARDIO_DE"/>
   <title value="MII IG Modul Kardio DE"/>
   <status value="draft"/>
-  <date value="2026-11-06T09:07:01+00:00"/>
+  <date value="2026-11-06T10:37:25+00:00"/>
   <publisher value="Medizininformatik-Initiative"/>
   <contact>
     <name value="Medizininformatik-Initiative"/>
@@ -1237,6 +1237,28 @@
       </reference>
       <name value="MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]"/>
       <description value="ValueSet for Relevant Codes for Atherosclerotic Events"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mii-vs-kardio-ekg-annotation-snomedct"/>
+      </reference>
+      <name value="MII VS Kardio EKG Annotation [SNOMED CT]"/>
+      <description value="SNOMED CT Codes (Observable entity) zur zusätzlichen Codierung von EKG-Annotationen, z.B. 251208001 |QRS complex duration|."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mii-vs-kardio-ekg-dateiformat"/>
+      </reference>
+      <name value="MII VS Kardio EKG Dateiformat"/>
+      <description value="MIME-Types für Formate, in denen referenzierte EKG-Daten vorliegen können (z.B. DICOM Waveform, HL7 aECG als XML)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

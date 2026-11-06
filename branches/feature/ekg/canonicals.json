@@ -195,6 +195,20 @@
   "name" : "MII_VS_Kardio_Atherosklerotisches_Ereignis_SNOEMDCT"
 },
 {
+  "id" : "mii-vs-kardio-ekg-annotation-snomedct",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-annotation-snomedct",
+  "version" : "2027.0.0-ballot",
+  "name" : "MII_VS_Kardio_EKG_Annotation_SNOMEDCT"
+},
+{
+  "id" : "mii-vs-kardio-ekg-dateiformat",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-dateiformat",
+  "version" : "2027.0.0-ballot",
+  "name" : "MII_VS_Kardio_EKG_Dateiformat"
+},
+{
   "id" : "mii-vs-kardio-ekg-kanaele-mdc",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc",

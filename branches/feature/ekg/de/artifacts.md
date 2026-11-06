@@ -49,6 +49,12 @@ Diese definieren Wertemengen, die von Systemen verwendet werden, die mit dem Imp
 | :--- | :--- |
 | [ MII VS Kardio Allergene [SNOMED CT]  ](ValueSet-mii-vs-kardio-allergene-snomedct.md) | Liste von Substanzen |
 | [ MII VS Kardio Atherosklerotisches Ereignis [SNOMED CT]  ](ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.md) | ValueSet for Relevant Codes for Atherosclerotic Events |
+| [ MII VS Kardio EKG Annotation [SNOMED CT]  ](ValueSet-mii-vs-kardio-ekg-annotation-snomedct.md) | 
+| | | |
+| :--- | :--- | :--- |
+| SNOMED CT Codes (Observable entity) zur zusätzlichen Codierung von EKG-Annotationen, z.B. 251208001 | QRS complex duration | . |
+ |
+| [ MII VS Kardio EKG Dateiformat  ](ValueSet-mii-vs-kardio-ekg-dateiformat.md) | MIME-Types für Formate, in denen referenzierte EKG-Daten vorliegen können (z.B. DICOM Waveform, HL7 aECG als XML). |
 | [ MII VS Kardio EKG Kanäle [MDC]  ](ValueSet-mii-vs-kardio-ekg-kanaele-mdc.md) | ISO/IEEE 11073-10101 Codes für EKG Kanäle |
 | [ MII VS Kardio EKG Prozedur [SNOMED CT]  ](ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.md) | SNOMED CT Codes für verschieden EKG-Prozeduren. |
 | [ MII VS Kardio Ethnie [SNOMED CT]  ](ValueSet-mii-vs-kardio-ethnie-snomedct.md) | SNOMED CT Codes für die Ethnie (in SNOMED CT derzeit als "racial group") im Kerndatensatz Kardiologie |

@@ -21,7 +21,7 @@ Profile: [MII PR Kardio EKG Kanal](StructureDefinition-mii-pr-kardio-ekg-kanal.m
 | - | **Type** | **ValueCode** |
 | * | MDC_ATTR_CHAN_NUM_LOGICAL | MDC_ECG_LEAD_II |
 
-**parent**: [Device: status = active; manufacturer = Mortara Instrument, Inc.; type = MDC_DEV_ECG_MDS](Device-mii-exa-kardio-ekg-geraet-mortara.md)
+**parent**: [Device: status = active; manufacturer = Mortara Instrument, Inc.; serialNumber = 123456789; type = MDC_DEV_ECG_MDS](Device-mii-exa-kardio-ekg-geraet-mortara.md)
 
 
 

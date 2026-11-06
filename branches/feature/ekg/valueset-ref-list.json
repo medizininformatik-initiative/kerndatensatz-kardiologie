@@ -26,10 +26,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.403"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-kardio-score-nyha.html" : "MII PR Kardio Score NYHA",
+    "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html" : "MII PR Kardio Score Modifizierte Rankin Skala",
     "StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html" : "MII PR Kardio Diagnose Prozedur Nein Unbekannt",
-    "StructureDefinition-mii-pr-kardio-observation-rauchen.html" : "MII PR Kardio Observation Rauchen",
-    "StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html" : "MII PR Kardio Score Modifizierte Rankin Skala"
+    "StructureDefinition-mii-pr-kardio-score-nyha.html" : "MII PR Kardio Score NYHA",
+    "StructureDefinition-mii-pr-kardio-observation-rauchen.html" : "MII PR Kardio Observation Rauchen"
   },
   {
     "url" : "http://snomed.info/sct?fhir_vs=isa/49601007",
@@ -138,6 +138,27 @@
     "uses" : {
     },
     "StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html" : "MII PR Kardio Atherosklerotisches Erstereignis"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-annotation-snomedct",
+    "version" : "2027.0.0-ballot",
+    "status" : "draft",
+    "name" : "MII_VS_Kardio_EKG_Annotation_SNOMEDCT",
+    "title" : "MII VS Kardio EKG Annotation [SNOMED CT]",
+    "description" : "SNOMED CT Codes (Observable entity) zur zusätzlichen Codierung von EKG-Annotationen, z.B. 251208001 |QRS complex duration|.",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-kardio-ekg-annotation.html" : "MII PR Kardio EKG Annotation"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-dateiformat",
+    "version" : "2027.0.0-ballot",
+    "status" : "draft",
+    "name" : "MII_VS_Kardio_EKG_Dateiformat",
+    "title" : "MII VS Kardio EKG Dateiformat",
+    "description" : "MIME-Types für Formate, in denen referenzierte EKG-Daten vorliegen können (z.B. DICOM Waveform, HL7 aECG als XML).",
+    "systems" : ["urn:ietf:bcp:13"]
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc",

@@ -19,6 +19,24 @@
     "http://snomed.info/sct"]
   },
   {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-annotation-snomedct",
+    "version" : "2027.0.0-ballot",
+    "status" : "draft",
+    "name" : "MII_VS_Kardio_EKG_Annotation_SNOMEDCT",
+    "title" : "MII VS Kardio EKG Annotation [SNOMED CT]",
+    "description" : "SNOMED CT Codes (Observable entity) zur zusätzlichen Codierung von EKG-Annotationen, z.B. 251208001 |QRS complex duration|.",
+    "systems" : ["http://snomed.info/sct"]
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-dateiformat",
+    "version" : "2027.0.0-ballot",
+    "status" : "draft",
+    "name" : "MII_VS_Kardio_EKG_Dateiformat",
+    "title" : "MII VS Kardio EKG Dateiformat",
+    "description" : "MIME-Types für Formate, in denen referenzierte EKG-Daten vorliegen können (z.B. DICOM Waveform, HL7 aECG als XML).",
+    "systems" : ["urn:ietf:bcp:13"]
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc",
     "version" : "2027.0.0-ballot",
     "status" : "draft",

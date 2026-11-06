@@ -1,11 +1,137 @@
 {
   "resourceType" : "Bundle",
-  "id" : "779794e5-d80f-4878-86df-7bd4ed4c24da",
+  "id" : "c9c9facb-a43a-4544-8c2f-82b54f970c7d",
   "meta" : {
-    "lastUpdated" : "2026-11-06T09:07:01.595+00:00"
+    "lastUpdated" : "2026-11-06T10:37:25.234+00:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-dateiformat",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"https://simplifier.net/resolve?scope=de.gematik.isik@6.0.0&amp;canonical=urn:ietf:bcp:13\">codesystem MIME Types (Fragment) v6.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"urn:ietf:bcp:13|6.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-dateiformat",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_EKG_Dateiformat",
+      "title" : "MII VS Kardio EKG Dateiformat",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
+          "valueBoolean" : true
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed-reason",
+          "valueString" : "This extension is based on a fragment of the code system urn:ietf:bcp:13"
+        }],
+        "identifier" : "urn:uuid:233aa133-7659-4624-a3c2-6559206ed88c",
+        "timestamp" : "2026-11-06T11:32:39+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "urn:ietf:bcp:13|6.0.0"
+        },
+        {
+          "name" : "used-fragment",
+          "valueUri" : "urn:ietf:bcp:13|6.0.0"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-dateiformat",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"https://simplifier.net/resolve?scope=de.gematik.isik@6.0.0&amp;canonical=urn:ietf:bcp:13\">codesystem MIME Types (Fragment) v6.0.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"urn:ietf:bcp:13|6.0.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-dateiformat",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_EKG_Dateiformat",
+      "title" : "MII VS Kardio EKG Dateiformat",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2026-11-06",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
+          "valueBoolean" : true
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed-reason",
+          "valueString" : "This extension is based on a fragment of the code system urn:ietf:bcp:13"
+        }],
+        "identifier" : "urn:uuid:233aa133-7659-4624-a3c2-6559206ed88c",
+        "timestamp" : "2026-11-06T11:32:39+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "urn:ietf:bcp:13|6.0.0"
+        },
+        {
+          "name" : "used-fragment",
+          "valueUri" : "urn:ietf:bcp:13|6.0.0"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -29,8 +155,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:491dc545-37a4-4cb7-89da-d3869df1dd08",
-        "timestamp" : "2026-11-06T10:26:18+00:00",
+        "identifier" : "urn:uuid:414b1185-da25-4fca-aaaa-f166b399d278",
+        "timestamp" : "2026-11-06T11:32:39+00:00",
         "total" : 185,
         "offset" : 0,
         "parameter" : [{
@@ -832,8 +958,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:491dc545-37a4-4cb7-89da-d3869df1dd08",
-        "timestamp" : "2026-11-06T10:26:18+00:00",
+        "identifier" : "urn:uuid:414b1185-da25-4fca-aaaa-f166b399d278",
+        "timestamp" : "2026-11-06T11:32:39+00:00",
         "total" : 185,
         "offset" : 0,
         "parameter" : [{
@@ -1635,8 +1761,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3f2770d0-cccd-44ad-899a-ce7c6a1343ce",
-        "timestamp" : "2026-11-06T10:27:19+00:00",
+        "identifier" : "urn:uuid:6c7c3a77-f37f-407a-bc29-ba39f9887c5a",
+        "timestamp" : "2026-11-06T11:33:40+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -1713,8 +1839,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3f2770d0-cccd-44ad-899a-ce7c6a1343ce",
-        "timestamp" : "2026-11-06T10:27:19+00:00",
+        "identifier" : "urn:uuid:6c7c3a77-f37f-407a-bc29-ba39f9887c5a",
+        "timestamp" : "2026-11-06T11:33:40+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -1782,7 +1908,7 @@
       "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-11-06T09:07:01+00:00",
+      "date" : "2026-11-06T10:37:25+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1791,8 +1917,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:442d0801-a363-4eff-8da5-4f7f037e8552",
-        "timestamp" : "2026-11-06T10:18:22+00:00",
+        "identifier" : "urn:uuid:3d649326-4d3c-45bd-a81b-e0839d2f6a29",
+        "timestamp" : "2026-11-06T11:22:47+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -1868,7 +1994,7 @@
       "title" : "MII VS Kardio Extended Condition Severity [SNOMED CT]",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-11-06T09:07:01+00:00",
+      "date" : "2026-11-06T10:37:25+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1877,8 +2003,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:442d0801-a363-4eff-8da5-4f7f037e8552",
-        "timestamp" : "2026-11-06T10:18:22+00:00",
+        "identifier" : "urn:uuid:3d649326-4d3c-45bd-a81b-e0839d2f6a29",
+        "timestamp" : "2026-11-06T11:22:47+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -1963,8 +2089,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:467ad812-5b02-48e6-be2c-879968460c44",
-        "timestamp" : "2026-11-06T10:21:08+00:00",
+        "identifier" : "urn:uuid:e641ccbb-2bcb-4a15-82ea-65ff0aeec93d",
+        "timestamp" : "2026-11-06T11:25:30+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2042,8 +2168,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:467ad812-5b02-48e6-be2c-879968460c44",
-        "timestamp" : "2026-11-06T10:21:08+00:00",
+        "identifier" : "urn:uuid:e641ccbb-2bcb-4a15-82ea-65ff0aeec93d",
+        "timestamp" : "2026-11-06T11:25:30+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -2121,8 +2247,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e87d9465-02f0-4ae4-8557-9ab1e4461676",
-        "timestamp" : "2026-11-06T10:29:59+00:00",
+        "identifier" : "urn:uuid:f615ed86-76f8-47c9-b2f7-94252533ef95",
+        "timestamp" : "2026-11-06T11:36:17+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2203,8 +2329,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e87d9465-02f0-4ae4-8557-9ab1e4461676",
-        "timestamp" : "2026-11-06T10:29:59+00:00",
+        "identifier" : "urn:uuid:f615ed86-76f8-47c9-b2f7-94252533ef95",
+        "timestamp" : "2026-11-06T11:36:17+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2285,8 +2411,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:49bdf11f-a637-494d-84a5-09a893c09c12",
-        "timestamp" : "2026-11-06T10:30:46+00:00",
+        "identifier" : "urn:uuid:742d6f9b-edaf-4654-9a56-cc595010a339",
+        "timestamp" : "2026-11-06T11:36:52+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2363,8 +2489,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:49bdf11f-a637-494d-84a5-09a893c09c12",
-        "timestamp" : "2026-11-06T10:30:46+00:00",
+        "identifier" : "urn:uuid:742d6f9b-edaf-4654-9a56-cc595010a339",
+        "timestamp" : "2026-11-06T11:36:52+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2441,8 +2567,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5039a2c8-64d5-4dd6-9471-232ca0ac1ffa",
-        "timestamp" : "2026-11-06T10:31:24+00:00",
+        "identifier" : "urn:uuid:509eca87-9c4b-4b14-9fd5-99a357c070c5",
+        "timestamp" : "2026-11-06T11:37:27+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -2891,8 +3017,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5039a2c8-64d5-4dd6-9471-232ca0ac1ffa",
-        "timestamp" : "2026-11-06T10:31:24+00:00",
+        "identifier" : "urn:uuid:509eca87-9c4b-4b14-9fd5-99a357c070c5",
+        "timestamp" : "2026-11-06T11:37:27+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -3341,8 +3467,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7ae532b2-b8c9-46eb-9679-ad859726caec",
-        "timestamp" : "2026-11-06T10:22:10+00:00",
+        "identifier" : "urn:uuid:772318ba-1c59-444b-9a1e-b02d5db76cd2",
+        "timestamp" : "2026-11-06T11:26:34+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -4399,8 +4525,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7ae532b2-b8c9-46eb-9679-ad859726caec",
-        "timestamp" : "2026-11-06T10:22:10+00:00",
+        "identifier" : "urn:uuid:772318ba-1c59-444b-9a1e-b02d5db76cd2",
+        "timestamp" : "2026-11-06T11:26:34+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -5457,8 +5583,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:76c7ee19-af20-4fc1-ab4c-420cfe3a4e9d",
-        "timestamp" : "2026-11-06T10:22:10+00:00",
+        "identifier" : "urn:uuid:6c60e71e-c33b-452c-b384-d43cc1744a98",
+        "timestamp" : "2026-11-06T11:26:33+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -5695,8 +5821,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:76c7ee19-af20-4fc1-ab4c-420cfe3a4e9d",
-        "timestamp" : "2026-11-06T10:22:10+00:00",
+        "identifier" : "urn:uuid:6c60e71e-c33b-452c-b384-d43cc1744a98",
+        "timestamp" : "2026-11-06T11:26:33+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -5933,8 +6059,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:99578b10-9bb3-47dd-a188-315ac4dbffb1",
-        "timestamp" : "2026-11-06T10:21:04+00:00",
+        "identifier" : "urn:uuid:bc1d46fc-1961-45ac-945c-2e30e2c83745",
+        "timestamp" : "2026-11-06T11:38:28+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -9999,8 +10125,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:99578b10-9bb3-47dd-a188-315ac4dbffb1",
-        "timestamp" : "2026-11-06T10:21:04+00:00",
+        "identifier" : "urn:uuid:bc1d46fc-1961-45ac-945c-2e30e2c83745",
+        "timestamp" : "2026-11-06T11:38:28+00:00",
         "offset" : 0,
         "parameter" : [{
           "name" : "displayLanguage",
@@ -14065,8 +14191,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:45c242a1-9ed8-4f19-a52b-37745179eab5",
-        "timestamp" : "2026-11-06T10:24:16+00:00",
+        "identifier" : "urn:uuid:d38e58c7-bafe-4f40-9a33-5475e1102f42",
+        "timestamp" : "2026-11-06T11:28:39+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -14166,8 +14292,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:45c242a1-9ed8-4f19-a52b-37745179eab5",
-        "timestamp" : "2026-11-06T10:24:16+00:00",
+        "identifier" : "urn:uuid:d38e58c7-bafe-4f40-9a33-5475e1102f42",
+        "timestamp" : "2026-11-06T11:28:39+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -14267,8 +14393,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8269c53f-aeca-4033-884c-63c5e5b5386d",
-        "timestamp" : "2026-11-06T10:18:21+00:00",
+        "identifier" : "urn:uuid:c2502542-f474-474a-b51b-5ca55e189267",
+        "timestamp" : "2026-11-06T11:22:47+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -14338,8 +14464,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8269c53f-aeca-4033-884c-63c5e5b5386d",
-        "timestamp" : "2026-11-06T10:18:21+00:00",
+        "identifier" : "urn:uuid:c2502542-f474-474a-b51b-5ca55e189267",
+        "timestamp" : "2026-11-06T11:22:47+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -14381,6 +14507,170 @@
           "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
           "code" : "ASKU",
           "display" : "gefragt, aber nicht genannt"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 4 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-420300004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/420300004\">420300004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;420300004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;420300004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-421704003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/421704003\">421704003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;421704003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;421704003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-420913000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/420913000\">420913000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;420913000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;420913000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-422293003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/422293003\">422293003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;422293003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;422293003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_NYHA_Klassen_SNOMEDCT",
+      "title" : "MII VS Kardio NYHA Klassen [SNOMED CT]",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-09-05",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:65de6360-a409-486d-83fd-02f60a7985e1",
+        "timestamp" : "2026-11-06T11:28:39+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "system-version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "420300004"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "421704003"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "420913000"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "422293003"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "de",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de\" lang=\"de\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from 127.0.0.1 based on:</p><ul><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li><li><a href=\"CodeSystem-mii-cs-kardio-supplement-snomedct.html\">supplement MII CS Kardio Supplement [SNOMED CT] v2027.0.0-ballot (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></li></ul></div><p>This value set expansion contains 4 concepts.</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (de)</b> - Deutsch (German, de)</td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-420300004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/420300004\">420300004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;420300004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;420300004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-421704003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/421704003\">421704003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;421704003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;421704003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-420913000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/420913000\">420913000</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;420913000&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;420913000&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-422293003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/422293003\">422293003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;422293003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;&gt;&lt;code value=&quot;422293003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-nyha-klassen-snomedct",
+      "version" : "2027.0.0-ballot",
+      "name" : "MII_VS_Kardio_NYHA_Klassen_SNOMEDCT",
+      "title" : "MII VS Kardio NYHA Klassen [SNOMED CT]",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2025-09-05",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:65de6360-a409-486d-83fd-02f60a7985e1",
+        "timestamp" : "2026-11-06T11:28:39+00:00",
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "system-version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-supplement",
+          "valueUri" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/CodeSystem/mii-cs-kardio-supplement-snomedct|2027.0.0-ballot"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "420300004"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "421704003"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "420913000"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "422293003"
         }]
       }
     }
@@ -14409,8 +14699,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a4679de6-9c83-4020-901e-4d72b41b5a42",
-        "timestamp" : "2026-11-06T10:32:28+00:00",
+        "identifier" : "urn:uuid:f892847d-2255-4d65-8a9f-754a8eac043f",
+        "timestamp" : "2026-11-06T11:38:29+00:00",
         "total" : 1466,
         "offset" : 0,
         "parameter" : [{
@@ -18472,8 +18762,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a4679de6-9c83-4020-901e-4d72b41b5a42",
-        "timestamp" : "2026-11-06T10:32:28+00:00",
+        "identifier" : "urn:uuid:f892847d-2255-4d65-8a9f-754a8eac043f",
+        "timestamp" : "2026-11-06T11:38:29+00:00",
         "total" : 1466,
         "offset" : 0,
         "parameter" : [{

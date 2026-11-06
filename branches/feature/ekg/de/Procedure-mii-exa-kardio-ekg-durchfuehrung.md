@@ -93,6 +93,9 @@
       "display" : "Heart structure"
     }]
   }],
+  "report" : [{
+    "reference" : "DocumentReference/mii-exa-kardio-ekg-referenz"
+  }],
   "note" : [{
     "text" : "ICD Kontrolle"
   }],

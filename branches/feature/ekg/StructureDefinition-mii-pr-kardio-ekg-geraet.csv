@@ -99,8 +99,8 @@ ICCBA DIs for other devices:
 ","",0,1,"","","","string {[]} {[]}
 ","The distinct identification string","The distinct identification string as required by regulation for a human cell, tissue, or cellular and tissue-based product.","For example, this applies to devices in the United States regulated under *Code of Federal Regulation 21CFR§1271.290(c)*.","","","","","","","","",,,,,"",,,,"Device.distinctIdentifier",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".lotNumberText","FiveWs.what[x]","The lot or batch number within which a device was manufactured - which is a component of the production identifier (PI), a conditional, variable portion of a UDI."
-"Device.manufacturer","Device.manufacturer","","","",1,1,"Y","","","string {[]} {[]}
-","Name of device manufacturer","A name of the manufacturer.","","","","","","","","","",,,,,"",,,,"Device.manufacturer",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Device.manufacturer","Device.manufacturer","","","",0,1,"Y","","","string {[]} {[]}
+","Hersteller des Gerätes","A name of the manufacturer.","","","","","","","","","",,,,,"",,,,"Device.manufacturer",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".playedRole[typeCode=MANU].scoper.name","FiveWs.what[x]","N/A"
 "Device.manufactureDate","Device.manufactureDate","","","",0,1,"","","","dateTime {[]} {[]}
 ","Date when the device was made","The date and time when the device was manufactured.","","","","","","","","","",,,,,"",,,,"Device.manufactureDate",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -111,11 +111,12 @@ ICCBA DIs for other devices:
 "Device.lotNumber","Device.lotNumber","","","",0,1,"","","","string {[]} {[]}
 ","Lot number of manufacture","Lot number assigned by the manufacturer.","","","","","","","","","",,,,,"",,,,"Device.lotNumber",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".lotNumberText","FiveWs.what[x]","The lot or batch number within which a device was manufactured - which is a component of the production identifier (PI), a conditional, variable portion of a UDI."
-"Device.serialNumber","Device.serialNumber","","","",0,1,"","","","string {[]} {[]}
-","Serial number assigned by the manufacturer","The serial number assigned by the organization when the device was manufactured.","Alphanumeric Maximum 20.","","","","","","","","",,,,,"",,,,"Device.serialNumber",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Device.serialNumber","Device.serialNumber","","","",0,1,"Y","","","string {[]} {[]}
+","Seriennummer des Herstellers","The serial number assigned by the organization when the device was manufactured.","Alphanumeric Maximum 20.","","","","","","","","",,,,,"",,,,"Device.serialNumber",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".playedRole[typeCode=MANU].id","FiveWs.what[x]"
-"Device.deviceName","Device.deviceName","","","",1,*,"Y","","","BackboneElement {[]} {[]}
-","The name of the device as given by the manufacturer","This represents the manufacturer's name of the device as provided by the device, from a UDI label, or by a person describing the Device.  This typically would be used when a person provides the name(s) or when the device represents one of the names available from DeviceDefinition.","","","","","","","","","",,,,,"",,,,"Device.deviceName",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Device.deviceName","Device.deviceName","","","",0,*,"Y","","","BackboneElement {[]} {[]}
+","Bezeichnungen des Gerätes","This represents the manufacturer's name of the device as provided by the device, from a UDI label, or by a person describing the Device.  This typically would be used when a person provides the name(s) or when the device represents one of the names available from DeviceDefinition.","","","","","","","","","",,,,,"","value:type}
+","",,"open","Device.deviceName",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Device.deviceName.id","Device.deviceName.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -130,15 +131,61 @@ user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
 "Device.deviceName.name","Device.deviceName.name","","Σ
-","",1,1,"","","","string {[]} {[]}
+","",1,1,"Y","","","string {[]} {[]}
 ","The name of the device","The name of the device.","","","","","","","","","",,,,,"",,,,"Device.deviceName.name",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Device.deviceName.type","Device.deviceName.type","","","",1,1,"","","","code {[]} {[]}
+"Device.deviceName.type","Device.deviceName.type","","","",1,1,"Y","","","code {[]} {[]}
 ","udi-label-name | user-friendly-name | patient-reported-name | manufacturer-name | model-name | other","The type of deviceName.
 UDILabelName | UserFriendlyName | PatientReportedName | ManufactureDeviceName | ModelName.","","","","","","","","","",,"required","The type of name the device is referred by.","http://hl7.org/fhir/ValueSet/device-nametype|4.0.1","",,,,"Device.deviceName.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".playedRole[typeCode=MANU].code","FiveWs.what[x]"
-"Device.modelNumber","Device.modelNumber","","","",0,1,"","","","string {[]} {[]}
-","The model number for the device","The model number for the device.","","","","","","","","","",,,,,"",,,,"Device.modelNumber",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Device.deviceName:nutzername","Device.deviceName","nutzername","","",0,1,"Y","","","BackboneElement {[]} {[]}
+","Vom Nutzer gewählter Name des Gerätes (z.B. ""EKG Raum 1"")","This represents the manufacturer's name of the device as provided by the device, from a UDI label, or by a person describing the Device.  This typically would be used when a person provides the name(s) or when the device represents one of the names available from DeviceDefinition.","","","","","","","","","",,,,,"",,,,"Device.deviceName",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Device.deviceName:nutzername.id","Device.deviceName.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"Device.deviceName:nutzername.extension","Device.deviceName.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Device.deviceName:nutzername.modifierExtension","Device.deviceName.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"Device.deviceName:nutzername.name","Device.deviceName.name","","Σ
+","",1,1,"Y","","","string {[]} {[]}
+","The name of the device","The name of the device.","","","","","","","","","",,,,,"",,,,"Device.deviceName.name",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Device.deviceName:nutzername.type","Device.deviceName.type","","","",1,1,"Y","","","code {[]} {[]}
+","udi-label-name | user-friendly-name | patient-reported-name | manufacturer-name | model-name | other","The type of deviceName.
+UDILabelName | UserFriendlyName | PatientReportedName | ManufactureDeviceName | ModelName.","","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""user-friendly-name""/>","","","",,"required","The type of name the device is referred by.","http://hl7.org/fhir/ValueSet/device-nametype|4.0.1","",,,,"Device.deviceName.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+",".playedRole[typeCode=MANU].code","FiveWs.what[x]"
+"Device.deviceName:modellname","Device.deviceName","modellname","","",0,1,"Y","","","BackboneElement {[]} {[]}
+","Modellname des Herstellers (z.B. ""ELI 380"")","This represents the manufacturer's name of the device as provided by the device, from a UDI label, or by a person describing the Device.  This typically would be used when a person provides the name(s) or when the device represents one of the names available from DeviceDefinition.","","","","","","","","","",,,,,"",,,,"Device.deviceName",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Device.deviceName:modellname.id","Device.deviceName.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"Device.deviceName:modellname.extension","Device.deviceName.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Device.deviceName:modellname.modifierExtension","Device.deviceName.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"Device.deviceName:modellname.name","Device.deviceName.name","","Σ
+","",1,1,"Y","","","string {[]} {[]}
+","The name of the device","The name of the device.","","","","","","","","","",,,,,"",,,,"Device.deviceName.name",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Device.deviceName:modellname.type","Device.deviceName.type","","","",1,1,"Y","","","code {[]} {[]}
+","udi-label-name | user-friendly-name | patient-reported-name | manufacturer-name | model-name | other","The type of deviceName.
+UDILabelName | UserFriendlyName | PatientReportedName | ManufactureDeviceName | ModelName.","","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""model-name""/>","","","",,"required","The type of name the device is referred by.","http://hl7.org/fhir/ValueSet/device-nametype|4.0.1","",,,,"Device.deviceName.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+",".playedRole[typeCode=MANU].code","FiveWs.what[x]"
+"Device.modelNumber","Device.modelNumber","","","",0,1,"Y","","","string {[]} {[]}
+","Modellnummer bzw. Typ-/Bestellnummer des Herstellers","The model number for the device.","Der Modellname (z.B. ""ELI 380"") wird in deviceName[modellname] angegeben.","","","","","","","","",,,,,"",,,,"Device.modelNumber",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".softwareName (included as part)","FiveWs.what[x]"
 "Device.partNumber","Device.partNumber","","","",0,1,"","","","string {[]} {[]}
 ","The part number of the device","The part number of the device.","Alphanumeric Maximum 20.","","","","","","","","",,,,,"",,,,"Device.partNumber",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -203,8 +250,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Device.specialization.version","Device.specialization.version","","","",0,1,"","","","string {[]} {[]}
 ","The version of the standard that is used to operate and communicate","The version of the standard that is used to operate and communicate.","","","","","","","","","",,,,,"",,,,"Device.specialization.version",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FiveWs.what[x]"
-"Device.version","Device.version","","","",0,*,"","","","BackboneElement {[]} {[]}
-","The actual design of the device or software version running on the device","The actual design of the device or software version running on the device.","","","","","","","","","",,,,,"",,,,"Device.version",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Device.version","Device.version","","","",0,*,"Y","","","BackboneElement {[]} {[]}
+","Version, z.B. der Software des Herstellers","The actual design of the device or software version running on the device.","","","","","","","","","",,,,,"",,,,"Device.version",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Device.version.id","Device.version.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -219,13 +266,13 @@ user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
 "Device.version.type","Device.version.type","","Σ
-","",0,1,"","","","CodeableConcept {[]} {[]}
+","",0,1,"Y","","","CodeableConcept {[]} {[]}
 ","The type of the device version","The type of the device version.","","","","","","","","","",,,,,"",,,,"Device.version.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Device.version.component","Device.version.component","","","",0,1,"","","","Identifier {[]} {[]}
 ","A single component of the device version","A single component of the device version.","","","","","","","","","",,,,,"",,,,"Device.version.component",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FiveWs.what[x]"
-"Device.version.value","Device.version.value","","","",1,1,"","","","string {[]} {[]}
+"Device.version.value","Device.version.value","","","",1,1,"Y","","","string {[]} {[]}
 ","The version text","The version text.","","","","","","","","","",,,,,"",,,,"Device.version.value",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Device.property","Device.property","","","",0,*,"","","","BackboneElement {[]} {[]}
@@ -261,8 +308,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Device.contact","Device.contact","","","",0,*,"","","","ContactPoint {[]} {[]}
 ","Details for human/organization for support","Contact details for an organization or a particular human that is responsible for the device.","used for troubleshooting etc.","","","","","","","","",,,,,"",,,,"Device.contact",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".scopedRole[typeCode=CON].player","FiveWs.source"
-"Device.location","Device.location","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Location|4.0.1]]}
-","Where the device is found","The place where the device can be found.","","Device.location can be used to track device location.","","","","","","","",,,,,"",,,,"Device.location",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Device.location","Device.location","","","",0,1,"Y","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Location|4.0.1]]}
+","Standort des Gerätes (z.B. Klinik, Abteilung, Station)","The place where the device can be found.","","Device.location can be used to track device location.","","","","","","","",,,,,"",,,,"Device.location",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".playedRole[typeCode=LOCE].scoper","FiveWs.where[x]"
 "Device.url","Device.url","","","",0,1,"","","","uri {[]} {[]}
 ","Network address to contact device","A network address on which the device may be contacted directly.","If the device is running a FHIR server, the network address should  be the Base URL from which a conformance statement may be retrieved.","","","","","","","","",,,,,"",,,,"Device.url",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

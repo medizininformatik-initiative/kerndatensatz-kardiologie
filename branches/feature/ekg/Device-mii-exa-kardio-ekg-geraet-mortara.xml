@@ -7,13 +7,18 @@
   </meta>
   <language value="de"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Device mii-exa-kardio-ekg-geraet-mortara</b></p><a name="mii-exa-kardio-ekg-geraet-mortara"> </a><a name="hcmii-exa-kardio-ekg-geraet-mortara"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-ekg-geraet.html">MII PR Kardio EKG Gerät</a></p></div><p><b>definition</b>: <a href="DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.html">DeviceDefinition: manufacturer[x] = Mortara Instrument, Inc.; onlineInformation = https://www.hillrom.de/de/products/eli-380-electrocardiograph/</a></p><p><b>status</b>: Active</p><p><b>manufacturer</b>: Mortara Instrument, Inc.</p><h3>DeviceNames</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td style="display: none">*</td><td>ELI 380</td><td>Model name</td></tr></table><p><b>type</b>: <span title="Codes:{urn:iso:std:iso:11073:10101 69797}, {urn:iso:std:iso:11073:10101 69798}">MDC_DEV_ECG_MDS</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"><p class="res-header-id"><b>Generated Narrative: Device mii-exa-kardio-ekg-geraet-mortara</b></p><a name="mii-exa-kardio-ekg-geraet-mortara"> </a><a name="hcmii-exa-kardio-ekg-geraet-mortara"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: de</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-kardio-ekg-geraet.html">MII PR Kardio EKG Gerät</a></p></div><p><b>definition</b>: <a href="DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.html">DeviceDefinition: manufacturer[x] = Mortara Instrument, Inc.; onlineInformation = https://www.hillrom.de/de/products/eli-380-electrocardiograph/</a></p><p><b>status</b>: Active</p><p><b>manufacturer</b>: Mortara Instrument, Inc.</p><p><b>serialNumber</b>: 123456789</p><blockquote><p><b>deviceName</b></p><p><b>name</b>: EKG Raum 1</p><p><b>type</b>: User Friendly name</p></blockquote><blockquote><p><b>deviceName</b></p><p><b>name</b>: ELI 380</p><p><b>type</b>: Model name</p></blockquote><p><b>type</b>: <span title="Codes:{urn:iso:std:iso:11073:10101 69797}, {urn:iso:std:iso:11073:10101 69798}">MDC_DEV_ECG_MDS</span></p><h3>Versions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Value</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:">Software</span></td><td>2.3.1</td></tr></table><p><b>location</b>: Klinik für Kardiologie, EKG-Funktionsbereich</p></div>
   </text>
   <definition>
     <reference value="DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara"/>
   </definition>
   <status value="active"/>
   <manufacturer value="Mortara Instrument, Inc."/>
+  <serialNumber value="123456789"/>
+  <deviceName>
+    <name value="EKG Raum 1"/>
+    <type value="user-friendly-name"/>
+  </deviceName>
   <deviceName>
     <name value="ELI 380"/>
     <type value="model-name"/>
@@ -32,4 +37,13 @@
       <display value="MDC_DEV_ECG_VMD"/>
     </coding>
   </type>
+  <version>
+    <type>
+      <text value="Software"/>
+    </type>
+    <value value="2.3.1"/>
+  </version>
+  <location>
+    <display value="Klinik für Kardiologie, EKG-Funktionsbereich"/>
+  </location>
 </Device>

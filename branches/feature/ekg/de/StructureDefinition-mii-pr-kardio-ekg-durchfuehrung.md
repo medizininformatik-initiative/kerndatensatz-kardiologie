@@ -9,13 +9,14 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-durchfuehrung | *Version*:2027.0.0-ballot |
-| Draft Stand: 2025-07-30 | *Maschinenlesbarer Name*:MII_PR_Kardio_EKG_Durchfuehrung |
+| Draft Stand: 2026-11-06 | *Maschinenlesbarer Name*:MII_PR_Kardio_EKG_Durchfuehrung |
 
  
 Profil zur Erfassung der Durchführung eines EKG. 
 
 **Usages:**
 
+* Refer to this Profile: [MII PR Kardio EKG Annotation](StructureDefinition-mii-pr-kardio-ekg-annotation.md)
 * Examples for this Profile: [Procedure/mii-exa-kardio-ekg-durchfuehrung](Procedure-mii-exa-kardio-ekg-durchfuehrung.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.kardiologie|current/StructureDefinition/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.json)
@@ -47,14 +48,15 @@ Diese Struktur ist abgeleitet von [MII_PR_Prozedur_Procedure](https://medizininf
 ** Summary **
 
 Mandatory: 4 elements(1 nested mandatory element)
- Must-Support: 5 elements
+ Must-Support: 6 elements
 
 **Structures**
 
 This structure refers to these other structures:
 
 * [Patient (http://hl7.org/fhir/StructureDefinition/Patient|4.0.1)](http://hl7.org/fhir/R4/patient.html)
-* [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
+* [MII PR Kardio EKG Referenz (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz|2027.0.0-ballot)](StructureDefinition-mii-pr-kardio-ekg-referenz.md)
+* [MII PR Kardio EKG Gerät (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot)](StructureDefinition-mii-pr-kardio-ekg-geraet.md)
 
  **Schlüsselelemente-Ansicht** 
 
@@ -79,14 +81,15 @@ Diese Struktur ist abgeleitet von [MII_PR_Prozedur_Procedure](https://medizininf
 ** Summary **
 
 Mandatory: 4 elements(1 nested mandatory element)
- Must-Support: 5 elements
+ Must-Support: 6 elements
 
 **Structures**
 
 This structure refers to these other structures:
 
 * [Patient (http://hl7.org/fhir/StructureDefinition/Patient|4.0.1)](http://hl7.org/fhir/R4/patient.html)
-* [Device (http://hl7.org/fhir/StructureDefinition/Device|4.0.1)](http://hl7.org/fhir/R4/device.html)
+* [MII PR Kardio EKG Referenz (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz|2027.0.0-ballot)](StructureDefinition-mii-pr-kardio-ekg-referenz.md)
+* [MII PR Kardio EKG Gerät (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot)](StructureDefinition-mii-pr-kardio-ekg-geraet.md)
 
  
 
@@ -212,7 +215,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio EKG Durchführung",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-07-30",
+  "date" : "2026-11-06",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -323,12 +326,24 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       }
     },
     {
+      "id" : "Procedure.report",
+      "path" : "Procedure.report",
+      "short" : "Referenz auf die bei der Durchführung erzeugten EKG-Daten",
+      "comment" : "Verknüpft die Durchführung mit der Referenz auf die (Roh-)Daten. Die Verknüpfung erfolgt nur in dieser Richtung (Procedure -> DocumentReference), nicht zusätzlich über DocumentReference.context.related.",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-referenz|2027.0.0-ballot"]
+      }],
+      "mustSupport" : true
+    },
+    {
       "id" : "Procedure.usedReference",
       "path" : "Procedure.usedReference",
+      "short" : "Verwendetes EKG-Gerät",
       "min" : 1,
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Device|4.0.1"]
+        "targetProfile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet|2027.0.0-ballot"]
       }],
       "mustSupport" : true
     }]

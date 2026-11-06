@@ -17,3 +17,4 @@ Usage: #example
 * bodySite = $sct-with-version#80891009 "Heart structure"
 * note.text = "ICD Kontrolle"
 * usedReference = Reference(mii-exa-kardio-ekg-geraet-mortara)
+* report = Reference(mii-exa-kardio-ekg-referenz)

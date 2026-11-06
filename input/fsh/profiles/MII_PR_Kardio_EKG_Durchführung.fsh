@@ -10,7 +10,7 @@ Description: "Profil zur Erfassung der Durchführung eines EKG."
 * ^language = #de
 * ^status = #draft
 * ^experimental = true
-* ^date = "2025-07-30"
+* ^date = "2026-11-06"
 
 * category.coding[sct] = $sct#165197003 // Diagnostic assessment (procedure)
 
@@ -29,4 +29,10 @@ Description: "Profil zur Erfassung der Durchführung eines EKG."
 * bodySite.coding[snomed-ct] = $sct#80891009 // Heart structure (body structure)
 
 * usedReference 1.. MS
-* usedReference only Reference(Device)
+* usedReference only Reference(MII_PR_Kardio_EKG_Geraet)
+* usedReference ^short = "Verwendetes EKG-Gerät"
+
+* report MS
+* report only Reference(MII_PR_Kardio_EKG_Referenz)
+* report ^short = "Referenz auf die bei der Durchführung erzeugten EKG-Daten"
+* report ^comment = "Verknüpft die Durchführung mit der Referenz auf die (Roh-)Daten. Die Verknüpfung erfolgt nur in dieser Richtung (Procedure -> DocumentReference), nicht zusätzlich über DocumentReference.context.related."

@@ -47,7 +47,7 @@ Die aufgelisteten Profile befinden sich in einem frühen experimentellen alpha-S
   - `subject`, `date` und `content` als Must-Support
   - `author` auf Referenz auf `MII_PR_Kardio_EKG_Geraet` beschränkt
   - `context.period` (Zeitraum der Aufzeichnung) als Must-Support
-  - `content.attachment.contentType` aus ValueSet `MII_VS_Kardio_EKG_Dateiformat` (extensible)
+  - `content.attachment.contentType` als Must-Support; empfohlene Formate im ValueSet `MII_VS_Kardio_EKG_Dateiformat`
   - `content.attachment.url` als Must-Support
 
 ### **MII PR Kardio EKG Geraet** — [StructureDefinition](StructureDefinition-mii-pr-kardio-ekg-geraet.html)

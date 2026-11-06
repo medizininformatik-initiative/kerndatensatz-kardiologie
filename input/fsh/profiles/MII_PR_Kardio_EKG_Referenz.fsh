@@ -37,6 +37,6 @@ Description: "Profil zur Referenzierung eines EKGs dessen Rohdaten an einem ande
 * context.period.end MS
 
 * content.attachment.contentType MS
-* content.attachment.contentType from MII_VS_Kardio_EKG_Dateiformat (extensible)
+* content.attachment.contentType ^comment = "Die Basis-Ressource bindet contentType bereits required an alle MIME-Types (BCP 13). Für EKG-Daten werden die Formate aus dem ValueSet MII_VS_Kardio_EKG_Dateiformat empfohlen (z.B. application/dicom, application/xml)."
 * content.attachment.contentType ^short = "Daten- bzw. Dateiformat der referenzierten EKG-Daten (MIME-Type)"
 * content.attachment.url 1.. MS

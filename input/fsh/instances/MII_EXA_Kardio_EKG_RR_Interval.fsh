@@ -8,8 +8,9 @@ Usage: #example
 * contained[0] = Beispielpatient
 * status = #final
 * category[vital-signs] = $observation-category-with-version#vital-signs "Vital Signs"
-* code = $mdc-with-version#147240 "MDC_ECG_TIME_PD_RR_GL"
+* code.coding[mdc] = $mdc-with-version#147240 "MDC_ECG_TIME_PD_RR_GL"
 * subject = Reference(Beispielpatient)
+* partOf = Reference(mii-exa-kardio-ekg-durchfuehrung)
 * effectivePeriod.start = "2023-05-03T07:38:07Z"
 * effectivePeriod.end = "2023-05-03T07:38:17Z"
 * performer.display = "Kardiologe"

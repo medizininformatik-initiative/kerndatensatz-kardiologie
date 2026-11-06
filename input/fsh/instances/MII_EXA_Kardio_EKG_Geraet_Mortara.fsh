@@ -8,7 +8,13 @@ Usage: #example
 * definition.reference = "DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara"
 * status = #active
 * manufacturer = "Mortara Instrument, Inc."
-* deviceName.name = "ELI 380"
-* deviceName.type = #model-name
+* deviceName[nutzername].name = "EKG Raum 1"
+* deviceName[nutzername].type = #user-friendly-name
+* deviceName[modellname].name = "ELI 380"
+* deviceName[modellname].type = #model-name
+* serialNumber = "123456789"
+* version.type.text = "Software"
+* version.value = "2.3.1"
+* location.display = "Klinik für Kardiologie, EKG-Funktionsbereich"
 * type.coding[0] = $mdc-with-version#69797 "MDC_DEV_ECG_MDS"
 * type.coding[1] = $mdc-with-version#69798 "MDC_DEV_ECG_VMD"

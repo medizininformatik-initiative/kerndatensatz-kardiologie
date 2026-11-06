@@ -1,5 +1,7 @@
 # AGENTS.md
 
+Hinweise für KI-Agenten (und Menschen) zur Arbeit in diesem Repository.
+
 ## Projektübersicht
 
 **Medizininformatik Initiative - Kerndatensatz Modul Kardiologie**
@@ -7,10 +9,11 @@
 Das Projekt beschreibt die FHIR-Spezifikation des Erweiterungsmoduls 'Kardio', welches einen Teil des Kerndatensatzes der Medizininformatik-Initiative darstellt.
 
 **Status:**
-- Umsetzungsstufe 1: Prototypische Umsetzung für ACRIBiS-Studie
+- Umsetzungsstufe 1: Prototypische Umsetzung für die ACRIBiS-Studie
 - Reifegrad: Draft / Experimental
-- Version: 2026.0.0-alpha.3
-- 19 FHIR-Profile, gruppiert in 7 Kategorien
+- Version: 2027.0.0-ballot (siehe `sushi-config.yaml`)
+- Package-ID: `de.medizininformatikinitiative.kerndatensatz.kardiologie`
+- 19 FHIR-Profile, gruppiert in 6 Kategorien, plus ein Questionnaire (ACRIBiS Follow-up)
 
 **Ziel:** Standardisierung und Strukturierung der kardiovaskulären Datenerfassung für Interoperabilität zwischen Kliniken
 
@@ -21,102 +24,120 @@ Das Projekt beschreibt die FHIR-Spezifikation des Erweiterungsmoduls 'Kardio', w
 ```
 input/
 ├── fsh/                    # FSH-Quelldateien (Source of Truth)
-│   ├── profiles/           # 19 StructureDefinition-Profile
-│   ├── valuesets/          # ValueSets für Terminologien
-│   ├── codesystems/        # CodeSystems
-│   ├── instances/          # Beispiel-Instanzen (MII_EXA_*)
-│   ├── rulesets/           # Wiederverwendbare RuleSets
+│   ├── profiles/           # StructureDefinition-Profile (MII_PR_Kardio_*)
+│   ├── valuesets/          # ValueSets (MII_VS_Kardio_*)
+│   ├── codesystems/        # CodeSystems (MII_CS_Kardio_*)
+│   ├── instances/          # Beispiel-Instanzen (MII_EXA_Kardio_*)
+│   ├── questionnaire/      # Questionnaires (MII_QST_Kardio_*)
+│   ├── extensions/         # Extensions (derzeit leer)
+│   ├── rulesets/           # Wiederverwendbare RuleSets (publisher, version)
 │   ├── aliases.fsh         # Terminologie-Aliase ($sct, $loinc, etc.)
 │   └── invariants.fsh      # Zentrale Invarianten
 ├── pagecontent/            # IG-Seiten (Markdown)
-│   ├── profiles-*.md       # Profil-Übersichten (7 Dateien)
-│   └── *.md                # Andere IG-Seiten (home, scenarios, etc.)
-├── images/                 # Bilddateien
-└── ignoreWarnings.txt      # IG-Publisher Warnungen (zu ignorieren)
+│   ├── profiles-*.md       # Profil-Übersicht + Kategorie-Seiten
+│   └── *.md                # Andere IG-Seiten (index, scenarios, release-notes, ...)
+├── images/                 # Bilddateien (u. a. Klassendiagramm.svg)
+└── ignoreWarnings.txt      # IG-Publisher-Warnungen, die bewusst ignoriert werden
 
-template/                   # Auto-IG-Builder Template (fhir2.base.template)
-output/                     # Generierte IG HTML (git-ignored)
-temp/                       # Temporäre Build-Artefakte (git-ignored)
+fsh-generated/              # SUSHI-Output (wird committet!)
+information-model/          # UML-Klassendiagramm (PlantUML-Quelle + SVG)
+input-cache/txcache/        # Terminologie-Cache des IG Publishers (wird committet, siehe unten)
+qc/custom.rules.yaml        # QC-Regeln (u. a. Namenskonventionen)
+scripts/                    # Hilfsskripte für die CI
+.github/workflows/          # CI: Validierung/Release (main.yml), IG-Build + Preview (ig-publisher.yml)
+template/                   # IG-Template (git-ignored)
+output/, temp/              # Build-Artefakte (git-ignored)
 ```
+
+---
+
+## Namenskonventionen
+
+| Artefakt | Dateiname / Name | Beispiel |
+|----------|------------------|----------|
+| Profil | `MII_PR_Kardio_<Name>` | `MII_PR_Kardio_Diagnose` |
+| Beispiel | `MII_EXA_Kardio_<Name>` | `MII_EXA_Kardio_LVEF` |
+| ValueSet | `MII_VS_Kardio_<Name>_<Terminologie>` | `MII_VS_Kardio_NYHA_Klassen_SNOMEDCT` |
+| CodeSystem | `MII_CS_Kardio_<Name>` | `MII_CS_Kardio_Lebensmittelpunkt` |
+| Questionnaire | `MII_QST_Kardio_<Name>` | `MII_QST_Kardio_Acribis_Study_FollowUp` |
+
+IDs entsprechend in Kleinbuchstaben mit Bindestrichen (z. B. `mii-pr-kardio-diagnose`). Die Regeln werden in der CI über `qc/custom.rules.yaml` geprüft.
 
 ---
 
 ## Build-Prozesse
 
-### SUSHI Build (schnell, ~30 Sekunden)
+### Lokal: nur SUSHI
 
-**Funktion:** Kompiert FSH → FHIR Artefakte (JSON/XML)  
-**Erzeugt:** `fsh-generated/` mit alle FHIR-Ressourcen
-
-**Befehle:**
 ```bash
-sushi .              # Einmaliger Build
-sushi . --watch      # Watch-Modus für automatische Neuerstellung
+sushi .
 ```
 
-**Wichtig:** SUSHI ist für die Entwicklung gedacht - schnelles Feedback auf Änderungen in `input/fsh/`
+- Kompiliert FSH → FHIR-Artefakte in `fsh-generated/` (ca. 30 Sekunden).
+- **Lokal wird im Team nur `sushi .` ausgeführt.** Der vollständige IG-Build (IG Publisher, lokal ca. 40 Minuten) läuft über GitHub Actions.
+- Agenten starten **keinen** lokalen IG-Publisher-Build (`_build.sh`, `_genonce.*`, `publisher.jar`).
 
-### IG Publisher (Auto-IG-Builder) - CA. 40 MINUTEN
+### CI (GitHub Actions)
 
-**Funktion:** Generiert kompletten Implementation Guide als HTML  
-**Verarbeitet:** `input/pagecontent/*.md` → `output/`  
-**Template:** `fhir2.base.template` (in `template/`)  
-**Konfiguration:** `ig.ini` + `sushi-config.yaml`
+| Workflow | Auslöser | Funktion |
+|----------|----------|----------|
+| `ig-publisher.yml` | Push auf jeden Branch außer `main`, `gh-pages`, `fsh-generated` | SUSHI + IG Publisher; Vorschau unter `https://medizininformatik-initiative.github.io/kerndatensatz-kardiologie/branches/<branch>/` |
+| `main.yml` | Push/PR auf `main`, Tags `v*`, Releases | FHIR-Validierung (.NET + Java, Workflows aus `kerndatensatz-meta`) und Release |
 
-**Befehle:**
-```bash
-./_build.sh          # Vollständiger IG-Build (~40 Min)
-java -jar input-cache/publisher.jar -ig .
-```
-
-**⚠️ WICHTIG:** IG-Build dauert ca. 40 Minuten lokal - NICHT für schnelle Tests verwenden!
+Terminologieserver im IG-Build: bevorzugt SU-TermServ (über Client-Zertifikat aus den Repo-Secrets), sonst Fallback auf `https://tx.fhir.org` (dann ggf. unvollständige Expansionen MII-spezifischer ValueSets – QA-Hinweis, kein Fehler).
 
 ### Empfohlener Workflow
 
 ```
 Änderung in FSH/Markdown
          ↓
-    sushi .           # Schneller Build (~30 Sek)
+    sushi .                    # lokal, schnelles Feedback
          ↓
-    Test/Review       # Überprüfung der Änderungen
+    fsh-generated/ prüfen
          ↓
-    Vor Commit/PR
+    Commit + Push auf Feature-Branch
          ↓
-    ./_build.sh       # Vollständiger IG-Build (~40 Min)
+    IG-Preview in GitHub Actions prüfen
+         ↓
+    PR / Merge nach main
 ```
 
-**NIEMALS** für schnelle Iterationen den vollständigen IG-Build verwenden!
+---
+
+## Terminologie-Cache (`input-cache/txcache/`)
+
+Der Terminologie-Cache des IG Publishers ist **bewusst versioniert** (Beschluss im Modulteam), damit IG-Builds schneller und weniger abhängig von der Verfügbarkeit der Terminologieserver laufen. In `.gitignore` ist `input-cache/` ignoriert, mit Ausnahme von `txcache/`.
+
+**Umgangsregeln:**
+
+1. **Nur bewusst aktualisieren.** Cache-Änderungen nicht nebenbei mit `git add .` / `git add -A` mitcommitten. Vor jedem Commit `git status input-cache/txcache` prüfen.
+2. **Eigener Commit.** Cache-Updates immer als separaten Commit, nicht gemischt mit FSH- oder Doku-Änderungen (z. B. `build(txcache): Terminologie-Cache aktualisiert`).
+3. **Keine Server-Fremddateien.** Lokale Builds erzeugen Dateien wie `.terminologyCapabilities.tx.fhir.org.r4.cache`, `.terminologyCapabilities.tx.fhir.de.fhir.cache` o. ä. Diese nicht committen.
+4. **Vor Releases frisch aufbauen.** Vor einem Ballot-/Release-Build den Cache leeren und neu erzeugen lassen, damit die Validierung nicht auf veralteten Terminologie-Ständen (SNOMED CT, ICD-10-GM, OPS, LOINC, ValueSet-Expansionen) beruht. Das Ergebnis als eigenen Commit einchecken.
+5. **Merge-Konflikte nicht von Hand auflösen.** Bei Konflikten in Cache-Dateien eine Seite übernehmen (in der Regel die des Ziel-Branches) und den Cache bei Bedarf über einen Build neu erzeugen.
+6. **Nie manuell editieren.** Agenten verändern Dateien im Cache nicht inhaltlich.
 
 ---
 
 ## Wichtige Konfigurationsdateien
 
 ### `sushi-config.yaml`
-- IG-Metadaten (Name, Version, Description)
-- Seiten-Struktur (pages-Liste)
-- Menu-Struktur (menu-Liste)
-- Parameter (pin-canonicals, excludettl)
+- IG-Metadaten (Name, Version, Description, packageId)
+- Seiten-Struktur (`pages`) und Menü (`menu`)
+- Parameter (pin-canonicals, excludettl, ...)
 - Dependencies (Basis-Profile)
 
 ### `ig.ini`
-```
-[IG]
-ig = fsh-generated/resources/ImplementationGuide-mii-kerndatensatzmodul-kardiologie.json
-template = fhir2.base.template#current
-usage-stats-opt-out = true
-i18n-default-lang = de
-i18n-lang = de,en
-```
+- Verweist auf das ImplementationGuide-JSON in `fsh-generated/resources/` und das Template
 
 ### `package.json`
-- Package-Metadaten für NPM/Simplifier
-- Dependencies (Basis-Profile)
-- Release-Informationen
+- Package-Metadaten für NPM/Simplifier, Dependencies, Release-Informationen
 
-### `template/config.json`
-- Template-spezifische Konfiguration
-- Extra-Templates (examples, mappings, history)
-- Pre-process-Schritte (pagecontent → _includes)
+### `input/ignoreWarnings.txt`
+- Bewusst akzeptierte IG-Publisher-Warnungen; neue Einträge nur mit Begründung als Kommentar
+
+### `qc/custom.rules.yaml`
+- QC-Regeln für die CI (Ressourcen-Validierung, Namenskonventionen für id/name/title/url)
 
 ---
 
@@ -124,32 +145,20 @@ i18n-lang = de,en
 
 ### Neues Profil hinzufügen
 
-1. **FSH-Datei erstellen** in `input/fsh/profiles/MII_PR_Kardio_<Name>.fsh`
-2. **ValueSet/CodeSystem** falls nötig in `input/fsh/valuesets/` oder `input/fsh/codesystems/`
+1. **FSH-Datei** in `input/fsh/profiles/MII_PR_Kardio_<Name>.fsh`
+2. **ValueSet/CodeSystem** falls nötig in `input/fsh/valuesets/` bzw. `input/fsh/codesystems/`
 3. **Beispiel-Instanz** in `input/fsh/instances/MII_EXA_Kardio_<Name>.fsh`
-4. **Profil-Seite** in `input/pagecontent/profiles-*.md` hinzufügen (im CoBHA-Stil)
-5. **sushi-config.yaml aktualisieren** (Seiten-Liste und menu-Liste)
-6. **Build:** `sushi .` (schnell) → `./_build.sh` (vollständig)
+4. **Profil-Seite** in der passenden `input/pagecontent/profiles-*.md` ergänzen und in `profiles-overview.md` aufnehmen
+5. **`sushi-config.yaml`** aktualisieren (falls neue Seiten/Menüeinträge)
+6. **Release Notes** in `input/pagecontent/release-notes.md` ergänzen
+7. **Build:** `sushi .`, danach Preview in GitHub Actions prüfen
 
-### Profil-Übersicht aktualisieren
-
-- **`profiles-overview.md`** — Organisierte Tabelle aller 19 Profile nach Kategorien
-- **`profiles-*.md`** — Kategorie-Seiten mit Profilname + Beschreibung + Link zu `StructureDefinition-*.html`
-- **Verlinkung** auf auto-generierte Artefakte in `output/` (z.B. `StructureDefinition-mii-pr-kardio-diagnose.html`)
-
-### IG regenerieren
-
-```bash
-sushi .              # Schnell (~30 Sek) - Für schnelles Feedback
-./_build.sh          # Vollständig (~40 Min) - Vor Commit/PR
-```
-
-### Änderungen testen (ohne 40-min Build)
+### Änderungen testen
 
 1. FSH-Datei editieren
-2. `sushi .` ausführen
-3. Generierte JSON/XML in `fsh-generated/` überprüfen
-4. Vor Commit: `./_build.sh` für vollständigen IG
+2. `sushi .` ausführen (muss ohne Fehler durchlaufen)
+3. Generierte JSON in `fsh-generated/resources/` prüfen
+4. Commit + Push, IG-Preview der CI prüfen
 
 ---
 
@@ -168,24 +177,29 @@ sushi .              # Schnell (~30 Sek) - Für schnelles Feedback
 | `$v2-0203` | HL7 v2 Table 0203 | http://terminology.hl7.org/CodeSystem/v2-0203 |
 | `$v2-0532` | HL7 v2 Table 0532 | http://terminology.hl7.org/CodeSystem/v2-0532 |
 
+Vollständige Liste: `input/fsh/aliases.fsh`.
+
 ---
 
 ## Abhängigkeiten
 
-**Base-Profile (aus `sushi-config.yaml`):**
+**Aus `sushi-config.yaml`:**
 
-| Package ID | Version | Verwendung |
-|-----------|---------|------------|
-| `de.basisprofil.r4` | 1.5.4 | Basis-Profile für R4 |
-| `de.medizininformatikinitiative.kerndatensatz.base` | 2026.0.x | Basistruktur (Patient, Organization) |
-| `de.medizininformatikinitiative.kerndatensatz.meta` | 2026.0.x | Metadaten-Profile |
-| `de.gematik.isik` | 5.1.3 | ISiK-Spezifische Codierungen |
+| Package ID | Version |
+|-----------|---------|
+| `de.basisprofil.r4` | 1.6.0 |
+| `de.medizininformatikinitiative.kerndatensatz.base` | 2027.0.0-ballot |
+| `de.medizininformatikinitiative.kerndatensatz.meta` | 2027.0.0-ballot |
+| `de.gematik.isik` | 6.0.0 |
+| `hl7.terminology.r4` | 7.1.0 |
+
+Versionen werden bewusst fest gepinnt (keine `.x`-Wildcards), um reproduzierbare Snapshots zu erhalten.
 
 ---
 
 ## Kategorien und Profile
 
-**7 Kategorien mit 19 Profile insgesamt:**
+**6 Kategorien mit 19 Profilen:**
 
 ### Anamnese (5 Profile)
 - [MII PR Kardio Diagnose](StructureDefinition-mii-pr-kardio-diagnose.html) — Kardiovaskuläre Diagnosen
@@ -197,7 +211,7 @@ sushi .              # Schnell (~30 Sek) - Für schnelles Feedback
 ### KardioDevices (4 Profile)
 - [MII PR Kardio Kardiale Deviceimplantation](StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.html) — Implantation (Schrittmacher, ICD, CRT, LVAD/BiVAD)
 - [MII PR Kardio Device](StructureDefinition-mii-pr-kardio-device.html) — Allgemeines Device-Profil
-- [MII PR Kardio Geraeteprogrammierung](StructureDefinition-mii-pr-kardio-geraeteprogrammierung.html) — Geräteprogrammierung (VVI-Modus)
+- [MII PR Kardio Geraeteprogrammierung](StructureDefinition-mii-pr-kardio-geraeteprogrammierung.html) — Geräteprogrammierung (z. B. VVI-Modus)
 - [MII PR Kardio NBG Schrittmachermodus](StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.html) — NBG-Codierung
 
 ### EKG-Metadaten (6 Profile)
@@ -222,38 +236,22 @@ sushi .              # Schnell (~30 Sek) - Für schnelles Feedback
 
 ## Git-Hinweise
 
-### Git-ignored Dateien
-```
-/input-cache
-/output
-/temp
-/template
-/translations
-
-/build.bat
-/build.sh
-/gencontinuous.bat
-/gencontinuous.sh
-/genonce.bat
-/genonce.sh
-
-/fsh-generated/fsh-index.txt
-/fsh-generated/data/fsh-index.json
-/fsh-generated/includes/fsh-link-references.md
-
-.validation-history/
-.mcp.json
-*.tgz
-project.yaml
-.bake/
-.fhir-package-cache/
-fhirpkg.lock.json
-```
+### Was wird committet?
+- **Committen:** `input/`, `fsh-generated/` (nach `sushi .`), `information-model/`, `sushi-config.yaml`, `package.json`, `qc/`, `.github/`
+- **Bewusst committen:** `input-cache/txcache/` (siehe Regeln zum Terminologie-Cache)
+- **Nicht committen:** `output/`, `temp/`, `template/`, `translations/`, übriges `input-cache/`, `*.tgz`, `project.yaml`, `fhirpkg.lock.json` (alles in `.gitignore`)
+- **Keine Zusatzdateien** im Repo, die nicht zur Spezifikation gehören (z. B. Issue-Text-Entwürfe, Notizen)
 
 ### Commit-Richtlinien
-- **Committen:** `input/`, `template/`, `.fsh`-Dateien
-- **NIEMALS committen:** `output/`, `temp/`, `fsh-generated/`
-- **Vor Commit:** `sushi .` ausführen, dann geänderte `fsh-generated/` committen
+- Commit-Messages im Stil von Conventional Commits mit Issue-Bezug, z. B. `fix(#100): ...`, `doc(#101): ...`, `refactor: ...`, `ci(qc): ...`, `build: ...`
+- Vor dem Commit von FSH-Änderungen muss `sushi .` fehlerfrei gelaufen und `fsh-generated/` aktualisiert sein
+- KI-unterstützte Commits mit `Co-Authored-By:`-Zeile kennzeichnen
+- Zeilenenden (CRLF/LF) werden von git behandelt
+
+### Branches
+- `main`: stabiler Stand, Validierung + Release über `main.yml`
+- Feature-Branches (`feature/...`) und `ci/gh-pages-preview`: Entwicklung, IG-Preview über `ig-publisher.yml`
+- `gh-pages`: wird von der CI befüllt, nicht manuell bearbeiten
 
 ---
 
@@ -278,4 +276,4 @@ fhirpkg.lock.json
 
 ---
 
-**Letzte Aktualisierung:** 2026-08-21
+**Letzte Aktualisierung:** 2026-11-06

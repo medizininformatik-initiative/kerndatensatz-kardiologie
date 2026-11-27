@@ -1,0 +1,242 @@
+# FHIR validation via the MII reusable validation workflows.
+#
+# Purpose:   Validate the module's FHIR conformance resources and examples by
+#            CALLING the Medical Informatics Initiative's shared reusable
+#            workflows rather than reimplementing validation. Since
+#            kerndatensatz-meta#251 they live in mii-kds-module-template's
+#            .github/workflows/ (before: kerndatensatz-meta@master):
+#              - ci_dotnet_validation.yml — SUSHI compile + Simplifier Quality
+#                Control (MII naming conventions), whose rule set this repo
+#                ships at the fixed path qc/custom.rules.yaml. NOTE (per the
+#                MII wiki): the .NET validator is configured to ALWAYS pass;
+#                read its logs for warnings it does not surface as a failure.
+#              - ci_java_validation.yml — HL7 Java validator against SU-TermServ;
+#                FAILS on errors (known ones are suppressed via advisor.json).
+#            Source + contract: MII wiki "GitHub Reusable Validation Workflows".
+#
+# Triggers:  push to dev / main, pull_request, and manual workflow_dispatch.
+#            (The heavy Java validation deliberately does NOT run on every
+#            feature push; open a PR or dispatch it to validate a feature branch.)
+#
+# Toggle:    vars.ENABLE_VALIDATION — ON by default. Set the repo
+#            variable to 'false' to skip validation (jobs show as "skipped").
+#
+# WHERE IT RUNS — modules only (documented choice): a reusable-workflow (`uses:`)
+#            job is the whole job, so a demo-substitution step cannot be injected
+#            before it (unlike ig-publisher.yml's build). On THIS template repo
+#            sushi-config.yaml still carries {{PLACEHOLDER}} values, so the
+#            reusable workflow's SUSHI compile could not produce clean resources.
+#            The validation jobs are therefore RESTRICTED to created modules
+#            (the repository name does NOT end in /mii-kds-module-template).
+#            All three guards below use that same org-agnostic `endsWith` form,
+#            so they stay exact complements whichever organisation hosts the
+#            template; on the template repo the validation jobs skip and a
+#            notice job explains why. In a created module they run
+#            normally. This workflow PROPAGATES to modules (the first-run
+#            bootstrap keeps it).
+#
+# Fixed versions: the reusable workflows are pinned to a FIXED commit SHA
+#            of mii-kds-module-template (never a branch). This file calls them
+#            by full repository path, not ./.github/workflows/: a created
+#            module does not keep its own copy (first-run-bootstrap removes it).
+#            SUSHI + Java-validator versions are pinned with a repo-var override.
+#
+# ZTS packages: both jobs pass vars.ZTS_ACCEPTED_DOWNLOAD_CONDITIONS and
+#            vars.ZTS_PACKAGES to the reusable workflows, which install FHIR
+#            packages that exist only on the BfArM ZTS (#55). Unset = no-op;
+#            see docs/workflows.md "FHIR packages from the BfArM ZTS".
+#
+# Secrets (human prerequisites — CI cannot obtain them by itself):
+#            passed via `secrets: inherit` (the wiki's canonical pattern). A
+#            module maintainer must set, as repo secrets:
+#              - SIMPLIFIER_USERNAME / SIMPLIFIER_PASSWORD  (dotnet QC login)
+#              - CDS_DEV_CLIENT_CERT / CDS_DEV_CLIENT_KEY /
+#                CDS_DEV_CLIENT_CERT_PASSWORD  (Java validator → SU-TermServ)
+#            > RESOLVED: the Java job now MAPS this repo's canonical
+#            > SU_TERMSERV_CLIENT_CERT / _KEY / _PASSWORD onto the upstream
+#            > CDS_DEV_CLIENT_* names at the call site, so the SU-TermServ
+#            > certificate is stored ONCE under one name for the whole repo
+#            > (ig-publisher.yml, go-publish.yml and validation all use it).
+#            > SIMPLIFIER_USERNAME / SIMPLIFIER_PASSWORD have no local equivalent
+#            > and stay inherited.
+# Human-gated: none here; supplying the validation secrets is the human step.
+name: FHIR validation
+
+on:
+  push:
+    branches: [dev, main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write # the dotnet reusable workflow auto-commits fsh-generated on PRs
+  pull-requests: write
+
+jobs:
+  # Which toolchain this validation runs with, and where each value comes from.
+  # Org variables override the template defaults below, and they are not
+  # visible outside the organisation, so every run states the effective values
+  # in its job summary (docs/adr/0007).
+  toolchain:
+    if: ${{ vars.ENABLE_VALIDATION != 'false' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report toolchain versions and their source
+        shell: bash
+        env:
+          SUSHI: ${{ vars.SUSHI_VERSION || '3.21.1' }}
+          SUSHI_SRC: ${{ vars.SUSHI_VERSION && 'variable SUSHI_VERSION' || 'template default' }}
+          VALIDATOR: ${{ vars.JAVA_VALIDATOR_VERSION || '7.0.8' }}
+          VALIDATOR_SRC: ${{ vars.JAVA_VALIDATOR_VERSION && 'variable JAVA_VALIDATOR_VERSION' || 'template default' }}
+          OPTIONS_SRC: ${{ vars.JAVA_VALIDATION_OPTIONS && 'variable JAVA_VALIDATION_OPTIONS' || 'template default (-advisor-file advisor.json)' }}
+          TX_HOST: ${{ vars.SU_TERMSERV_HOST || 'ontoserver.mii-termserv.de' }}
+          TX_SRC: ${{ vars.SU_TERMSERV_HOST && 'variable SU_TERMSERV_HOST' || 'template default' }}
+        run: |
+          {
+            echo "### Validation toolchain"
+            echo
+            echo "| Tool | Value | Source |"
+            echo "| --- | --- | --- |"
+            echo "| SUSHI | ${SUSHI} | ${SUSHI_SRC} |"
+            echo "| HL7 Java validator | ${VALIDATOR} | ${VALIDATOR_SRC} |"
+            echo "| Java validator options | — | ${OPTIONS_SRC} |"
+            echo "| SU-TermServ host | ${TX_HOST} | ${TX_SRC} |"
+            echo
+            echo "A variable can be set at organisation or repository level; the repository value wins."
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+  # The upstream dotnet workflow declares SIMPLIFIER_USERNAME/SIMPLIFIER_PASSWORD
+  # as REQUIRED secrets — calling it without them fails at workflow evaluation
+  # with zero steps ("Secret SIMPLIFIER_USERNAME is required, but not
+  # provided"; observed in every created module since 2026-08-06). Job-level
+  # `if:` cannot read secrets, so this guard computes their presence (same
+  # pattern as the SU-TermServ certificate guard below).
+  dotnet-validation-guard:
+    name: Simplifier credentials present?
+    if: ${{ vars.ENABLE_VALIDATION != 'false' && !endsWith(github.repository, '/mii-kds-module-template') }}
+    runs-on: ubuntu-latest
+    outputs:
+      has_creds: ${{ steps.probe.outputs.has_creds }}
+    steps:
+      - name: Probe
+        id: probe
+        env:
+          U: ${{ secrets.SIMPLIFIER_USERNAME }}
+          P: ${{ secrets.SIMPLIFIER_PASSWORD }}
+        run: |
+          if [ -n "${U}" ] && [ -n "${P}" ]; then
+            echo "has_creds=true" >> "${GITHUB_OUTPUT}"
+          else
+            echo "has_creds=false" >> "${GITHUB_OUTPUT}"
+            echo "::notice::Simplifier credentials not configured — skipping the SUSHI + Simplifier QC (.NET) job (the upstream workflow requires SIMPLIFIER_USERNAME/SIMPLIFIER_PASSWORD). The IG preview build still compiles and validates the IG."
+          fi
+
+  dotnet-validation:
+    name: SUSHI + Simplifier QC (.NET)
+    needs: dotnet-validation-guard
+    # ON by default, and only on created modules — the placeholder
+    # template repo cannot produce clean SUSHI output for validation.
+    if: ${{ vars.ENABLE_VALIDATION != 'false' && !endsWith(github.repository, '/mii-kds-module-template') && needs.dotnet-validation-guard.outputs.has_creds == 'true' }}
+    uses: medizininformatik-initiative/mii-kds-module-template/.github/workflows/ci_dotnet_validation.yml@0fe43b730ff59ab6fea9c87ffb708f5c64a2dfa0 # v0.15.0
+    with:
+      ref: ${{ github.event.pull_request.head.ref || github.ref }}
+      # Pinned SUSHI (fixed versions); overridable via the repo variable.
+      SUSHI_VERSION: ${{ vars.SUSHI_VERSION || '3.21.1' }}
+      # FHIR packages that exist only on the BfArM ZTS (#55); empty = no-op.
+      ZTS_ACCEPTED_DOWNLOAD_CONDITIONS: ${{ vars.ZTS_ACCEPTED_DOWNLOAD_CONDITIONS }}
+      ZTS_PACKAGES: ${{ vars.ZTS_PACKAGES }}
+      # Commit fsh-generated/resources back to the PR branch. Needed when
+      # Simplifier builds the package (Bake); set the repo variable
+      # COMMIT_FSH_GENERATED to 'false' when the IG Publisher builds it.
+      COMMIT_GENERATED: ${{ vars.COMMIT_FSH_GENERATED != 'false' }}
+    secrets: inherit
+
+  # The upstream Java-validation workflow has NO terminology fallback: it
+  # builds its client-cert proxy from the CDS_DEV_CLIENT_* secrets
+  # unconditionally, so calling it without the SU-TermServ certificate fails
+  # the job instead of falling back to tx.fhir.org (unlike ig-publisher.yml).
+  # Job-level `if:` cannot read secrets, so this guard computes their presence.
+  java-validation-guard:
+    name: SU-TermServ certificate present?
+    if: ${{ vars.ENABLE_VALIDATION != 'false' && !endsWith(github.repository, '/mii-kds-module-template') }}
+    runs-on: ubuntu-latest
+    outputs:
+      has_cert: ${{ steps.probe.outputs.has_cert }}
+    steps:
+      - name: Probe
+        id: probe
+        env:
+          C: ${{ secrets.SU_TERMSERV_CLIENT_CERT }}
+          K: ${{ secrets.SU_TERMSERV_CLIENT_KEY }}
+          P: ${{ secrets.SU_TERMSERV_CLIENT_PASSWORD }}
+        run: |
+          if [ -n "${C}" ] && [ -n "${K}" ] && [ -n "${P}" ]; then
+            echo "has_cert=true" >> "${GITHUB_OUTPUT}"
+          else
+            echo "has_cert=false" >> "${GITHUB_OUTPUT}"
+            echo "::notice::SU-TermServ client certificate not configured — skipping the HL7 Java validator (the upstream workflow has no terminology fallback). The IG preview build still validates via tx.fhir.org."
+          fi
+
+  java-validation:
+    name: HL7 Java validator (SU-TermServ)
+    needs: java-validation-guard
+    if: ${{ vars.ENABLE_VALIDATION != 'false' && !endsWith(github.repository, '/mii-kds-module-template') && needs.java-validation-guard.outputs.has_cert == 'true' }}
+    uses: medizininformatik-initiative/mii-kds-module-template/.github/workflows/ci_java_validation.yml@0fe43b730ff59ab6fea9c87ffb708f5c64a2dfa0 # v0.15.0
+    with:
+      ref: ${{ github.event.pull_request.head.ref || github.ref }}
+      PATH_TO_CONFORMANCE_RESOURCES: fsh-generated/resources
+      PATH_TO_EXAMPLES: fsh-generated/resources
+      JAVA_VALIDATION_ENABLED: true
+      # Compile FSH in the job: modules do not commit fsh-generated/. Same
+      # pinned SUSHI as the .NET job above; overridable via the repo variable.
+      SUSHI_VERSION: ${{ vars.SUSHI_VERSION || '3.21.1' }}
+      # Pinned Java validator (fixed versions), passed explicitly so the
+      # reusable workflow's own default at the pinned SHA does not apply.
+      # 7.0.x matches IG Publisher 3.0.x. Overridable via the repo or org
+      # variable JAVA_VALIDATOR_VERSION.
+      JAVA_VALIDATOR_VERSION: ${{ vars.JAVA_VALIDATOR_VERSION || '7.0.8' }}
+      # Wire the repo's advisor file into the validator CLI. The reusable
+      # workflow passes JAVA_VALIDATION_OPTIONS verbatim to validator_cli.jar
+      # (verified at the pinned SHA); without this the advisor.json shipped at
+      # the repo root would be read by NOTHING and the "suppressed via
+      # advisor.json" contract in this file's header would be false.
+      # The org variable JAVA_VALIDATION_OPTIONS carries the MII-wide option
+      # set (-forPublication, -resolution-context, ...); it includes the
+      # advisor file. Without the variable, only the advisor file is wired.
+      JAVA_VALIDATION_OPTIONS: ${{ vars.JAVA_VALIDATION_OPTIONS || '-advisor-file advisor.json' }}
+      # FHIR packages that exist only on the BfArM ZTS (#55); empty = no-op.
+      ZTS_ACCEPTED_DOWNLOAD_CONDITIONS: ${{ vars.ZTS_ACCEPTED_DOWNLOAD_CONDITIONS }}
+      ZTS_PACKAGES: ${{ vars.ZTS_PACKAGES }}
+      VALIDATION_REPORT_FILTERS: |
+        filename | messageId | detailsWildcard | location
+    # Secret-name reconciliation: the MII reusable workflow declares
+    # CDS_DEV_CLIENT_CERT / _KEY / _CERT_PASSWORD (all required), but THIS repo's
+    # canonical name for the same SU-TermServ client certificate is
+    # SU_TERMSERV_CLIENT_CERT / _KEY / _PASSWORD (used by ig-publisher.yml and
+    # go-publish.yml). Mapping them explicitly here means a maintainer sets
+    # the certificate ONCE, under one name, for the whole repository — instead of
+    # storing the same cert twice under two different secret names.
+    # If your organisation already provisions CDS_DEV_CLIENT_* centrally, replace
+    # this block with `secrets: inherit`.
+    secrets:
+      CDS_DEV_CLIENT_CERT: ${{ secrets.SU_TERMSERV_CLIENT_CERT }}
+      CDS_DEV_CLIENT_KEY: ${{ secrets.SU_TERMSERV_CLIENT_KEY }}
+      CDS_DEV_CLIENT_CERT_PASSWORD: ${{ secrets.SU_TERMSERV_CLIENT_PASSWORD }}
+
+  template-repo-notice:
+    name: Validation skipped on the template repo
+    # Explains the skip on THIS template repo so the run is a clear success, not
+    # a confusing empty/skipped workflow. A created module skips this job.
+    if: ${{ vars.ENABLE_VALIDATION != 'false' && endsWith(github.repository, '/mii-kds-module-template') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain why validation does not run here
+        shell: bash
+        run: |
+          echo "::notice::FHIR validation is restricted to created modules. This is the placeholder template repository (sushi-config.yaml still carries {{PLACEHOLDER}} values), so the MII reusable validation workflows cannot compile clean resources here. Create a module with 'Use this template', replace the placeholders, and validation runs automatically."
+          {
+            echo "### FHIR validation skipped (template repo)"
+            echo
+            echo "The MII reusable validation workflows run only on created modules."
+            echo "On the template repo they are skipped by design; see this workflow's header."
+          } >> "${GITHUB_STEP_SUMMARY}"

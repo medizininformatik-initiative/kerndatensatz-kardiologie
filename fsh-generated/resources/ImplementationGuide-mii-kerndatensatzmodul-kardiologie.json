@@ -70,6 +70,12 @@
       "version": "7.1.0",
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "id": "hl7_terminology_r4"
+    },
+    {
+      "packageId": "hl7.fhir.uv.pocd",
+      "version": "1.0.0-ballot3",
+      "uri": "http://hl7.org/fhir/uv/pocd/ImplementationGuide/hl7.fhir.uv.pocd",
+      "id": "hl7_fhir_uv_pocd"
     }
   ],
   "definition": {
@@ -607,7 +613,7 @@
           "reference": "ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc"
         },
         "name": "MII VS Kardio Geräteprogrammierung [MDC]",
-        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
+        "description": "Dieses Value Set bildet die Programmierung eines implantierten Gerätes in der Kardiologie ab.\r\nDazu werden Codes der ISO/IEEE 11073-10101 Nomenclature verwendet.",
         "exampleBoolean": false
       },
       {

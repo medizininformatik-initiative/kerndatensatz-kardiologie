@@ -33,6 +33,7 @@ dependencies:
   de.medizininformatikinitiative.kerndatensatz.meta: 2027.0.0-ballot
   de.gematik.isik: 6.0.0
   hl7.terminology.r4: 7.1.0
+  hl7.fhir.uv.pocd: 1.0.0-ballot3
   # Analog zu https://github.com/medizininformatik-initiative/kerndatensatzmodul-proms/blob/dev/sushi-config.yaml festgeschriebene Version. 
   # Fixe Version soll lokale Bereitstellung von benötigten Snapshots ermoeglichen, um Missing-Snapshot Fehler bei extenem Build durch build.fhir.org zu vermeiden.
 #

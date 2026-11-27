@@ -1,0 +1,533 @@
+MII_IG_MODUL_KARDIO_DE : Validation Results
+=========================================
+
+err = 19, warn = 122, info = 52, broken links = 0
+$--
+Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz.kardiologie#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio)
+ Build Errors : 3 / 21 / 0
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-lebensmittelpunkt : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-modifizierte-rankin-skala : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/CodeSystem-mii-cs-kardio-supplement-snomedct : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Condition-mii-exa-kardio-diagnose-myokardinfarkt : 0 / 1 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Condition-mii-exa-kardio-embolischer-gefaessverschluss : 0 / 0 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Condition-mii-exa-kardio-hoehergradiges-vitium : 0 / 1 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-device-icd : 0 / 0 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-geraet-mortara : 1 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-i : 3 / 3 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-ii : 3 / 3 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-iii : 3 / 3 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara : 0 / 1 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus : 1 / 1 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/DocumentReference-mii-exa-kardio-ekg-referenz : 2 / 0 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ImplementationGuide-mii-kerndatensatzmodul-kardiologie : 0 / 6 / 28
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf : 0 / 0 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2 : 0 / 0 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-atherosklerotisches-erstereignis : 0 / 0 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-ekg-rr-interval : 1 / 1 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-geraeteprogrammierung-vvi : 2 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-herzinsuffizienz-unbekannt : 0 / 1 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-hoehergradiges-vitium-nein : 0 / 0 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-kein-device : 0 / 1 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-lvef : 0 / 1 / 9
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-mrs : 0 / 1 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-pci-nein : 0 / 1 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-raucherstatus : 0 / 4 / 9
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Observation-mii-exa-kardio-score-nyha-ii : 0 / 2 / 5
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/PractitionerRole-mii-exa-kardio-rolle-kardiologe : 0 / 0 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Procedure-mii-exa-kardio-ekg-durchfuehrung : 0 / 4 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd : 0 / 5 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/Questionnaire-mii-qst-kardio-acribis-study-followup : 0 / 37 / 62
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-andere : 0 / 7 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige : 0 / 6 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt : 0 / 7 / 8
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient : 0 / 6 / 7
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf : 0 / 1 / 96
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis : 0 / 1 / 115
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-device : 0 / 1 / 92
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose : 0 / 5 / 287
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt : 0 / 3 / 116
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-annotation : 0 / 1 / 75
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung : 0 / 3 / 182
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraet : 0 / 1 / 92
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition : 0 / 1 / 78
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-kanal : 0 / 1 / 120
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-referenz : 0 / 1 / 81
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-geraeteprogrammierung : 0 / 1 / 98
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation : 0 / 4 / 193
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-klappenvitium : 0 / 5 / 13
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion : 0 / 1 / 94
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus : 0 / 1 / 47
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen : 0 / 2 / 243
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala : 0 / 1 / 84
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-nyha : 0 / 2 / 84
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-allergene-snomedct : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct : 0 / 2 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-kanaele-mdc : 0 / 4 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-prozedur-snomedct : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-ethnie-snomedct : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-condition-severity-snomedct : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed : 0 / 4 / 3
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc : 0 / 4 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-geraetetyp-snomedct : 0 / 2 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops : 0 / 2 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-snomedct : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-alphaid : 0 / 11 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-icd : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-snomedct : 0 / 2 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49 : 0 / 2 / 4
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc : 0 / 6 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-modifizierte-rankin-skala : 0 / 2 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-nein-unbekannt : 0 / 2 / 2
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-nyha-klassen-snomedct : 0 / 2 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/fsh-generated/resources/ValueSet-mii-vs-kardio-objekte-geraete-mdc : 0 / 5 / 1
+ /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/input/resources/Parameters-mii-param-kardio-manifest : 0 / 0 / 1
+</table>
+
+== n/a ==
+WARNING: ImplementationGuide: The IG's repository has a script or program in sub-folders: scripts/seed-comparison-cache.sh. The IG Publisher doesn't run them, but they arrive with every pull: don't run them unless you know what they do. Scripts and programs don't belong in an IG's repository
+ERROR: ImplementationGuide: The IG's repository has 8 scripts or programs in its root folder (/home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie): _build.bat, _build.sh, _gencontinuous.bat, _gencontinuous.sh, _genonce.bat, _genonce.sh, _updatePublisher.bat, _updatePublisher.sh. Scripts and programs don't belong in an IG's repository: they arrive with every pull, and people run them out of habit, so anyone who can change the repository can run code on the computer of everyone who builds the IG. Remove them from the repository (people who want them can get them from their source, and keep them out of the IG's repository). IMPORTANT: in a future version of the IG Publisher, the build will stop here, and the ci-build will refuse to build the IG. If you accept these as they are, you can say so now by running the IG Publisher with '-allow-committed-scripts' (recorded in /home/runner/work/_temp/fhir-settings.json, for this IG), and local builds will go on then (but not the ci-build). The IG Publisher doesn't check what they do: accepting them is your decision
+ERROR: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: This IG is for FHIR version 4.0.1, while the package 'hl7.fhir.uv.subscriptions-backport.r4#1.1.0' is for FHIR version 4.0.0
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be de.medizininformatikinitiative.kerndatensatz.kardiologie
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 4066 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 4420 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-device.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 2771 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 4382 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-diagnose.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 7444 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-ekg-annotation.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 3435 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 5388 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-ekg-geraet.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 2851 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 2358 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-ekg-kanal.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 3573 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-ekg-referenz.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 3095 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-geraeteprogrammierung.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 3609 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 5603 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-klappenvitium.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 7052 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 4308 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 2355 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-observation-rauchen.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 6973 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 3584 column 13
+WARNING: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/StructureDefinition-mii-pr-kardio-score-nyha.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 3584 column 13
+ERROR: /home/runner/work/kerndatensatz-kardiologie/kerndatensatz-kardiologie/output/de/release-notes.html: The page skips a heading level: <h5> 'Profil-Updates' (id=profil-updates) follows <h3> 'Änderungen seit 2027.0.0-ballot (Ballot-Kommentierung, no...' (id=änderungen-seit-202700-ballot-ballot-kommentierung-noch-nicht-veröffentlicht), so it should be <h4>. Heading levels must not skip a level going down (WCAG compliance test)
+
+
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-acribis-questionnaire-answer.json ==
+WARNING: CodeSystem/mii-cs-kardio-acribis-questionnaire-answer: CodeSystem.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource CodeSystem/mii-cs-kardio-acribis-questionnaire-answer should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-atherosklerotisches-ereignis.json ==
+WARNING: CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis: CodeSystem.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource CodeSystem/mii-cs-kardio-atherosklerotisches-ereignis should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-lebensmittelpunkt.json ==
+WARNING: CodeSystem/mii-cs-kardio-lebensmittelpunkt: CodeSystem.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource CodeSystem/mii-cs-kardio-lebensmittelpunkt should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-modifizierte-rankin-skala.json ==
+WARNING: CodeSystem/mii-cs-kardio-modifizierte-rankin-skala: CodeSystem.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource CodeSystem/mii-cs-kardio-modifizierte-rankin-skala should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/CodeSystem-mii-cs-kardio-supplement-snomedct.json ==
+WARNING: CodeSystem/mii-cs-kardio-supplement-snomedct: CodeSystem.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource CodeSystem/mii-cs-kardio-supplement-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/Condition-mii-exa-kardio-diagnose-myokardinfarkt.json ==
+INFORMATION: Condition/mii-exa-kardio-diagnose-myokardinfarkt: Condition.code.coding[1]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2027.0.0-ballot
+
+
+== fsh-generated/resources/Condition-mii-exa-kardio-embolischer-gefaessverschluss.json ==
+
+
+== fsh-generated/resources/Condition-mii-exa-kardio-hoehergradiges-vitium.json ==
+INFORMATION: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.code.coding[0].code: The code '368009:{116676008=49755003,363698007=17401000},{246112005=24484000}' differs from the correct code '368009:{246112005=24484000},{116676008=49755003,363698007=17401000}' by case. Although the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701' is case insensitive, implementers are strongly encouraged to use the correct case anyway
+INFORMATION: Condition/mii-exa-kardio-hoehergradiges-vitium: Condition.bodySite[0].coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-bodystructure-snomed|2027.0.0-ballot
+
+
+== fsh-generated/resources/Device-mii-exa-kardio-device-icd.json ==
+
+
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-geraet-mortara.json ==
+WARNING: Device/mii-exa-kardio-ekg-geraet-mortara: Device.type.coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+WARNING: Device/mii-exa-kardio-ekg-geraet-mortara: Device.type.coding[1].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Device/mii-exa-kardio-ekg-geraet-mortara: Device.type: Keiner der bereitgestellten Codes ist im ValueSet 'MII VS Kardio MDC Objects Devices [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#69797, urn:iso:std:iso:11073:10101#69798)
+
+
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-i.json ==
+WARNING: Device/mii-exa-kardio-ekg-kanal-i: Device.type.coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Device/mii-exa-kardio-ekg-kanal-i: Device.type.coding[0]: Der angegebene Code (urn:iso:std:iso:11073:10101#69799) befindet sich nicht im ValueSet 'MII VS Kardio MDC Objects Devices [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot), und es wird ein Code aus diesem ValueSet benötigt: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+WARNING: Device/mii-exa-kardio-ekg-kanal-i: Device.property[0].type.coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Device/mii-exa-kardio-ekg-kanal-i: Device.property[0].type: Keiner der bereitgestellten Codes ist im ValueSet 'MII VS Kardio MDC Objects Devices [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#68142)
+WARNING: Device/mii-exa-kardio-ekg-kanal-i: Device.property[0].valueCode[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Device/mii-exa-kardio-ekg-kanal-i: Device.property[0].valueCode[0]: Keiner der bereitgestellten Codes ist im ValueSet 'MII VS Kardio EKG Kanäle [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc|2027.0.0-ballot), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#131073)
+
+
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-ii.json ==
+WARNING: Device/mii-exa-kardio-ekg-kanal-ii: Device.type.coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Device/mii-exa-kardio-ekg-kanal-ii: Device.type.coding[0]: Der angegebene Code (urn:iso:std:iso:11073:10101#69799) befindet sich nicht im ValueSet 'MII VS Kardio MDC Objects Devices [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot), und es wird ein Code aus diesem ValueSet benötigt: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+WARNING: Device/mii-exa-kardio-ekg-kanal-ii: Device.property[0].type.coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Device/mii-exa-kardio-ekg-kanal-ii: Device.property[0].type: Keiner der bereitgestellten Codes ist im ValueSet 'MII VS Kardio MDC Objects Devices [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#68142)
+WARNING: Device/mii-exa-kardio-ekg-kanal-ii: Device.property[0].valueCode[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Device/mii-exa-kardio-ekg-kanal-ii: Device.property[0].valueCode[0]: Keiner der bereitgestellten Codes ist im ValueSet 'MII VS Kardio EKG Kanäle [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc|2027.0.0-ballot), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#131074)
+
+
+== fsh-generated/resources/Device-mii-exa-kardio-ekg-kanal-iii.json ==
+WARNING: Device/mii-exa-kardio-ekg-kanal-iii: Device.type.coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Device/mii-exa-kardio-ekg-kanal-iii: Device.type.coding[0]: Der angegebene Code (urn:iso:std:iso:11073:10101#69799) befindet sich nicht im ValueSet 'MII VS Kardio MDC Objects Devices [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot), und es wird ein Code aus diesem ValueSet benötigt: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+WARNING: Device/mii-exa-kardio-ekg-kanal-iii: Device.property[0].type.coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Device/mii-exa-kardio-ekg-kanal-iii: Device.property[0].type: Keiner der bereitgestellten Codes ist im ValueSet 'MII VS Kardio MDC Objects Devices [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#68142)
+WARNING: Device/mii-exa-kardio-ekg-kanal-iii: Device.property[0].valueCode[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Device/mii-exa-kardio-ekg-kanal-iii: Device.property[0].valueCode[0]: Keiner der bereitgestellten Codes ist im ValueSet 'MII VS Kardio EKG Kanäle [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-kanaele-mdc|2027.0.0-ballot), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#131133)
+
+
+== fsh-generated/resources/DeviceDefinition-mii-exa-kardio-ekg-geraetedefinition-mortara.json ==
+INFORMATION: DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara: DeviceDefinition.physicalCharacteristics.height: The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara: DeviceDefinition.physicalCharacteristics.width: The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara: DeviceDefinition.physicalCharacteristics.depth: The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: DeviceDefinition/mii-exa-kardio-ekg-geraetedefinition-mortara: DeviceDefinition.physicalCharacteristics.weight: The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+
+
+== fsh-generated/resources/DeviceMetric-mii-exa-kardio-nbg-schrittmachermodus.json ==
+WARNING: DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus: DeviceMetric.type.coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: DeviceMetric/mii-exa-kardio-nbg-schrittmachermodus: DeviceMetric.type: Keiner der bereitgestellten Codes ist im ValueSet 'Device Metric and Component Types' (http://hl7.org/fhir/ValueSet/devicemetric-type|4.0.1), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#730752)
+
+
+== fsh-generated/resources/DocumentReference-mii-exa-kardio-ekg-referenz.json ==
+ERROR: DocumentReference/mii-exa-kardio-ekg-referenz: DocumentReference.content[0].attachment.contentType: Die System-URI konnte für den Code application/dicom im ValueSet http://hl7.org/fhir/ValueSet/mimetypes|4.0.1 nicht ermittelt werden
+ERROR: DocumentReference/mii-exa-kardio-ekg-referenz: DocumentReference.content[0].attachment.contentType: Der angegebene Wert ('application/dicom') ist nicht im ValueSet 'MimeType' (http://hl7.org/fhir/ValueSet/mimetypes|4.0.1), und ein Code aus diesem Valueset ist erforderlich) (error message = Der angegebene Code '#application/dicom' befindet sich nicht im ValueSet 'http://hl7.org/fhir/ValueSet/mimetypes|4.0.1'; Die System-URI konnte für den Code application/dicom im ValueSet http://hl7.org/fhir/ValueSet/mimetypes|4.0.1 nicht ermittelt werden)
+
+
+== fsh-generated/resources/ImplementationGuide-mii-kerndatensatzmodul-kardiologie.json ==
+WARNING: ImplementationGuide/mii-kerndatensatzmodul-kardiologie: ImplementationGuide.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource ImplementationGuide/mii-kerndatensatzmodul-kardiologie could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf.json ==
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-anzahl-kh-aufenthalte-wg-hf2.json ==
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-atherosklerotisches-erstereignis.json ==
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-ekg-rr-interval.json ==
+WARNING: Observation/mii-exa-kardio-ekg-rr-interval: Observation.code.coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Observation/mii-exa-kardio-ekg-rr-interval: Observation.code: Keiner der bereitgestellten Codes ist im ValueSet 'MII VS Kardio Metriken EKG Annotationen [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc|2027.0.0-ballot), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#147240)
+INFORMATION: Observation/mii-exa-kardio-ekg-rr-interval: Observation.value.ofType(Quantity): The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-geraeteprogrammierung-vvi.json ==
+WARNING: Observation/mii-exa-kardio-geraeteprogrammierung-vvi: Observation.code.coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Observation/mii-exa-kardio-geraeteprogrammierung-vvi: Observation.code: Keiner der bereitgestellten Codes ist im ValueSet 'Device Metric and Component Types' (http://hl7.org/fhir/ValueSet/devicemetric-type|4.0.1), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#730752)
+WARNING: Observation/mii-exa-kardio-geraeteprogrammierung-vvi: Observation.value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the code cannot be validated. No versions of this code system are known
+ERROR: Observation/mii-exa-kardio-geraeteprogrammierung-vvi: Observation.value.ofType(CodeableConcept): Keiner der bereitgestellten Codes ist im ValueSet 'MII VS Kardio Geräteprogrammierung [MDC]' (https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc|2027.0.0-ballot), und ein Code aus diesem ValueSet ist erforderlich) (Codes = urn:iso:std:iso:11073:10101#754773)
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-herzinsuffizienz-unbekannt.json ==
+INFORMATION: Observation/mii-exa-kardio-herzinsuffizienz-unbekannt: Observation.code.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2027.0.0-ballot
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-hoehergradiges-vitium-nein.json ==
+INFORMATION: Observation/mii-exa-kardio-hoehergradiges-vitium-nein: Observation.code.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2027.0.0-ballot
+INFORMATION: Observation/mii-exa-kardio-hoehergradiges-vitium-nein: Observation.code.coding[0].code: The code '368009:{116676008=49755003,363698007=17401000},{246112005=24484000}' differs from the correct code '368009:{246112005=24484000},{116676008=49755003,363698007=17401000}' by case. Although the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701' is case insensitive, implementers are strongly encouraged to use the correct case anyway
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-kein-device.json ==
+INFORMATION: Observation/mii-exa-kardio-kein-device: Observation.code.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct|2027.0.0-ballot
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-lvef.json ==
+INFORMATION: Observation/mii-exa-kardio-lvef: Observation.value.ofType(Quantity): The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: Observation/mii-exa-kardio-lvef: Observation.referenceRange[0].low: The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-mrs.json ==
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-pci-nein.json ==
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-raucherstatus.json ==
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.component[0].value.ofType(Quantity): The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.component[1].value.ofType(Quantity): The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.component[3].value.ofType(Quantity): The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: Observation/mii-exa-kardio-raucherstatus: Observation.component[4].value.ofType(Quantity): The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+WARNING: Observation/mii-exa-kardio-raucherstatus: Observation.component[2].code: The SNOMED CT code 266929003 ('Smoking started') is a finding, but the observation has a result as its value: the code of an observation with a result says what was observed (an observable entity, or an evaluation procedure), and a finding goes in the value, or in a Condition. A finding can be the code when there is no value, or the value says whether it is present (a boolean, or a yes/no code)
+WARNING: Observation/mii-exa-kardio-raucherstatus: Observation.component[3].code: The SNOMED CT code 266929003 ('Smoking started') is a finding, but the observation has a result as its value: the code of an observation with a result says what was observed (an observable entity, or an evaluation procedure), and a finding goes in the value, or in a Condition. A finding can be the code when there is no value, or the value says whether it is present (a boolean, or a yes/no code)
+
+
+== fsh-generated/resources/Observation-mii-exa-kardio-score-nyha-ii.json ==
+WARNING: Observation/mii-exa-kardio-score-nyha-ii: Observation.code: The LOINC code 93124-6 ('New York Heart Association Functional Classification panel') is only for ordering a test (ORDER_OBS = Order), not for reporting a result: it belongs in ServiceRequest.code
+
+
+== fsh-generated/resources/PractitionerRole-mii-exa-kardio-rolle-kardiologe.json ==
+INFORMATION: PractitionerRole/mii-exa-kardio-rolle-kardiologe: PractitionerRole.specialty[0]: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/c80-practice-codes|4.0.1
+
+
+== fsh-generated/resources/Procedure-mii-exa-kardio-ekg-durchfuehrung.json ==
+INFORMATION: Procedure/mii-exa-kardio-ekg-durchfuehrung: Procedure.code.coding[0]: Reference to draft ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct|2027.0.0-ballot
+INFORMATION: Procedure/mii-exa-kardio-ekg-durchfuehrung: Procedure.code.coding[0]: Reference to experimental ValueSet https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-ekg-prozedur-snomedct|2027.0.0-ballot
+
+
+== fsh-generated/resources/Procedure-mii-exa-kardio-kardiale-deviceimplantation-icd.json ==
+INFORMATION: Procedure/mii-exa-kardio-kardiale-deviceimplantation-icd: Procedure.focalDevice[0].action: Reference to draft ValueSet http://hl7.org/fhir/ValueSet/device-action|4.0.1
+
+
+== fsh-generated/resources/Questionnaire-mii-qst-kardio-acribis-study-followup.json ==
+WARNING: Questionnaire/mii-qst-kardio-acribis-study-followup: Questionnaire.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource Questionnaire/mii-qst-kardio-acribis-study-followup could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-andere.json ==
+
+
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-angehoerige.json ==
+
+
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-arzt.json ==
+
+
+== fsh-generated/resources/QuestionnaireResponse-mii-exa-kardio-questionnaireresponse-patient.json ==
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf.json ==
+WARNING: StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.1 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-anzahl-kh-aufenthalte-wg-hf could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-atherosklerotisches-erstereignis.json ==
+WARNING: StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-atherosklerotisches-erstereignis could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-device.json ==
+WARNING: StructureDefinition/mii-pr-kardio-device: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-device could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose.json ==
+WARNING: StructureDefinition/mii-pr-kardio-diagnose: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-diagnose could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-diagnose-prozedur-nein-unbekannt.json ==
+WARNING: StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-diagnose-prozedur-nein-unbekannt could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-annotation.json ==
+WARNING: StructureDefinition/mii-pr-kardio-ekg-annotation: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-ekg-annotation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-durchfuehrung.json ==
+WARNING: StructureDefinition/mii-pr-kardio-ekg-durchfuehrung: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-ekg-durchfuehrung could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraet.json ==
+WARNING: StructureDefinition/mii-pr-kardio-ekg-geraet: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-ekg-geraet could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-geraetedefinition.json ==
+WARNING: StructureDefinition/mii-pr-kardio-ekg-geraetedefinition: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-ekg-geraetedefinition could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-kanal.json ==
+WARNING: StructureDefinition/mii-pr-kardio-ekg-kanal: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-kanal: StructureDefinition.snapshot.element[48].pattern.ofType(Coding): The definition for the Code System with URI 'urn:iso:std:iso:11073:10101' from 'hl7.terminology.r4#6.5.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-ekg-kanal: StructureDefinition.differential.element[7].pattern.ofType(Coding): The definition for the Code System with URI 'urn:iso:std:iso:11073:10101' from 'hl7.terminology.r4#6.5.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-ekg-kanal could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-ekg-referenz.json ==
+WARNING: StructureDefinition/mii-pr-kardio-ekg-referenz: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-ekg-referenz could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-geraeteprogrammierung.json ==
+WARNING: StructureDefinition/mii-pr-kardio-geraeteprogrammierung: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-geraeteprogrammierung: StructureDefinition.snapshot.element[25].pattern.ofType(Coding): The definition for the Code System with URI 'urn:iso:std:iso:11073:10101' from 'hl7.terminology.r4#6.5.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-geraeteprogrammierung: StructureDefinition.differential.element[6].pattern.ofType(Coding): The definition for the Code System with URI 'urn:iso:std:iso:11073:10101' from 'hl7.terminology.r4#6.5.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-geraeteprogrammierung could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-kardiale-deviceimplantation.json ==
+WARNING: StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-kardiale-deviceimplantation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-klappenvitium.json ==
+WARNING: StructureDefinition/mii-pr-kardio-klappenvitium: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-klappenvitium could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-linksventrikulaere-ejektionsfraktion.json ==
+WARNING: StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion: StructureDefinition.snapshot.element[54].pattern.ofType(Quantity): The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion: StructureDefinition.differential.element[22].pattern.ofType(Quantity): The definition for the Code System with URI 'http://unitsofmeasure.org' from 'hl7.fhir.uv.xver-r5.r4#0.1.0' doesn't provide any codes so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-linksventrikulaere-ejektionsfraktion could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-nbg-schrittmachermodus.json ==
+WARNING: StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-nbg-schrittmachermodus could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-observation-rauchen.json ==
+WARNING: StructureDefinition/mii-pr-kardio-observation-rauchen: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: StructureDefinition/mii-pr-kardio-observation-rauchen: StructureDefinition: The profile fixes Observation.component:rauchbeginn.code: The SNOMED CT code 266929003 ('Smoking started') is a finding, but the observation has a result as its value: the code of an observation with a result says what was observed (an observable entity, or an evaluation procedure), and a finding goes in the value, or in a Condition. A finding can be the code when there is no value, or the value says whether it is present (a boolean, or a yes/no code)
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-observation-rauchen could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-modifizierte-rankin-skala.json ==
+WARNING: StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-score-modifizierte-rankin-skala could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-mii-pr-kardio-score-nyha.json ==
+WARNING: StructureDefinition/mii-pr-kardio-score-nyha: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: StructureDefinition/mii-pr-kardio-score-nyha: StructureDefinition: The profile fixes the LOINC code 93124-6, which is only for ordering a test (ORDER_OBS = Order), not for reporting a result: it belongs in ServiceRequest.code
+INFORMATION: Resource: The resource StructureDefinition/mii-pr-kardio-score-nyha could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-allergene-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-allergene-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-allergene-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-atherosklerotisches-ereignis-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-atherosklerotisches-ereignis-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-kanaele-mdc.json ==
+WARNING: ValueSet/mii-vs-kardio-ekg-kanaele-mdc: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-ekg-kanaele-mdc should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'mii-vs-kardio-ekg-kanaele-mdc'): Error from http://127.0.0.1:8090/fhir: Error: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the value set cannot be expanded. No versions of this code system are known
+Information: X-Request-Id: 27eac9e4-469d-4341-b9a9-93a7ecb3fd07
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-ekg-prozedur-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-ekg-prozedur-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-ekg-prozedur-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-ethnie-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-ethnie-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-ethnie-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-extended-condition-severity-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-extended-condition-severity-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-extended-condition-severity-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-extended-mii-diagnosecodes-snomed.json ==
+WARNING: ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-extended-mii-diagnosecodes-snomed should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-geraeteprogrammierung-mdc.json ==
+WARNING: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'urn:iso:std:iso:11073:10101' is not known, and no terminology service supports it
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-geraeteprogrammierung-mdc should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'mii-vs-kardio-geraeteprogrammierung-mdc'): Error from http://127.0.0.1:8090/fhir: Error: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the value set cannot be expanded. No versions of this code system are known
+Information: X-Request-Id: 01f34fef-21fd-415a-9110-66b8a9d731b0
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-geraetetyp-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-geraetetyp-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-geraetetyp-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-gewichtsveraenderung-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-gewichtsveraenderung-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-kardiale-deviceimplantation-koerperstelle-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-ops.json ==
+WARNING: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-kardiale-deviceimplantation-ops should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-kardiale-deviceimplantation-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-kardiale-deviceimplantation-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-alphaid.json ==
+WARNING: ValueSet/mii-vs-kardio-klappenvitium-alphaid: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-klappenvitium-alphaid should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-grad-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-klappenvitium-grad-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-icd.json ==
+WARNING: ValueSet/mii-vs-kardio-klappenvitium-icd: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-klappenvitium-icd should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-klappenvitium-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-klappenvitium-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-klappenvitium-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-lebensmittelpunkt-m49.json ==
+WARNING: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+INFORMATION: ValueSet/mii-vs-kardio-lebensmittelpunkt-m49: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://unstats.un.org/unsd/methods/m49/m49.htm' is not known, and no terminology service supports it
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-lebensmittelpunkt-m49 should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-metriken-ekg-annotationen-mdc.json ==
+WARNING: ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-metriken-ekg-annotationen-mdc should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'mii-vs-kardio-metriken-ekg-annotationen-mdc'): Error from http://127.0.0.1:8090/fhir: Error: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the value set cannot be expanded. No versions of this code system are known
+Information: X-Request-Id: 57959c99-f644-4e06-bcb8-fc6af3a8ccbd
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-modifizierte-rankin-skala.json ==
+WARNING: ValueSet/mii-vs-kardio-modifizierte-rankin-skala: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-modifizierte-rankin-skala should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-nein-unbekannt.json ==
+WARNING: ValueSet/mii-vs-kardio-nein-unbekannt: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-nein-unbekannt should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-nyha-klassen-snomedct.json ==
+WARNING: ValueSet/mii-vs-kardio-nyha-klassen-snomedct: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-nyha-klassen-snomedct should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-mii-vs-kardio-objekte-geraete-mdc.json ==
+WARNING: ValueSet/mii-vs-kardio-objekte-geraete-mdc: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166' could not be found, so the code cannot be validated
+WARNING: Resource: The resource ValueSet/mii-vs-kardio-objekte-geraete-mdc should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'mii-vs-kardio-objekte-geraete-mdc'): Error from http://127.0.0.1:8090/fhir: Error: A definition for CodeSystem 'urn:iso:std:iso:11073:10101' version '2024-12-05' could not be found, so the value set cannot be expanded. No versions of this code system are known
+Information: X-Request-Id: 45a6dc23-c11d-4027-af7f-ca0e516471a2
+
+
+== input/resources/Parameters-mii-param-kardio-manifest.json ==
+
+

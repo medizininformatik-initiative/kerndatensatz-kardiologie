@@ -1,0 +1,20 @@
+{
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ImplementationGuide/mii-kerndatensatzmodul-kardiologie",
+  "name" : "MII_IG_MODUL_KARDIO_DE",
+  "title" : "MII IG Modul Kardio DE",
+  "description" : "Medizininformatik Initiative - Erweiterungsmodul Kardiologie",
+  "status" : "draft",
+  "package-id" : "de.medizininformatikinitiative.kerndatensatz.kardiologie",
+  "ig-ver" : "2027.0.0-ballot",
+  "date" : "Fri, 27 Nov, 2026 14:09:31 +0000",
+  "dateISO8601" : "2026-11-27T14:09:31+00:00",
+  "errs" : 19,
+  "warnings" : 122,
+  "hints" : 52,
+  "broken-links" : 0,
+  "suppressed-hints" : 2306,
+  "suppressed-warnings" : 116,
+  "version" : "4.0.1",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 2540254840
+}

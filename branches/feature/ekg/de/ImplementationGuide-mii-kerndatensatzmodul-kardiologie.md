@@ -14,7 +14,7 @@
   "name" : "MII_IG_MODUL_KARDIO_DE",
   "title" : "MII IG Modul Kardio DE",
   "status" : "draft",
-  "date" : "2026-11-06T10:37:25+00:00",
+  "date" : "2026-11-27T10:31:46+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -46,7 +46,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.4.0"
+    "version" : "5.4.1"
   },
   {
     "id" : "de_basisprofil_r4",
@@ -77,6 +77,12 @@
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
     "version" : "7.1.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_pocd",
+    "uri" : "http://hl7.org/fhir/uv/pocd/ImplementationGuide/hl7.fhir.uv.pocd",
+    "packageId" : "hl7.fhir.uv.pocd",
+    "version" : "1.0.0-ballot3"
   }],
   "definition" : {
     "extension" : [{

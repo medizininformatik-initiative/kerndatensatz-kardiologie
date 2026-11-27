@@ -49,7 +49,7 @@ Das Kardiologie-Modul ist stark vernetzt: Es nutzt die strukturellen Grundlagen 
 * Parameter: system-version
   * Value: [EncounterStatus v4.0.1](http://hl7.org/fhir/R4/codesystem-encounter-status.html)
 * Parameter: system-version
-  * Value: [Artifact Version Policy Codes v3.0.0](http://terminology.hl7.org/7.2.0/CodeSystem-artifact-version-policy-codes.html)
+  * Value: [Artifact Version Policy Codes v3.0.0](http://terminology.hl7.org/7.3.0/CodeSystem-artifact-version-policy-codes.html)
 * Parameter: system-version
   * Value: ISO/IEEE 11073 Medical Device Communication Nomenclature[2024-12-05]
 

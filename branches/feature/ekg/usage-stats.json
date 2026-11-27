@@ -104,21 +104,24 @@
     "http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy": [
       "StructureDefinition"
     ],
-    "http://hl7.org/fhir/StructureDefinition/bodySite|5.4.0": [
+    "http://hl7.org/fhir/StructureDefinition/bodySite|5.4.1": [
       "Condition.bodySite",
       "Procedure.bodySite"
     ],
     "http://hl7.org/fhir/StructureDefinition/condition-assertedDate": [
       "Condition"
     ],
-    "http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.4.0": [
+    "http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.4.1": [
       "Condition"
     ],
-    "http://hl7.org/fhir/StructureDefinition/condition-related|5.4.0": [
+    "http://hl7.org/fhir/StructureDefinition/condition-related|5.4.1": [
       "Condition"
     ],
     "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeCapability": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/device-calibration|1.0.0-ballot3": [
+      "Device"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
@@ -184,6 +187,18 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
+    ],
+    "http://hl7.org/fhir/uv/pocd/StructureDefinition/approved-jurisdictions|1.0.0-ballot3": [
+      "Device"
+    ],
+    "http://hl7.org/fhir/uv/pocd/StructureDefinition/device-instance|1.0.0-ballot3": [
+      "Device"
+    ],
+    "http://hl7.org/fhir/uv/pocd/StructureDefinition/operating-cycles|1.0.0-ballot3": [
+      "Device"
+    ],
+    "http://hl7.org/fhir/uv/pocd/StructureDefinition/operating-hours|1.0.0-ballot3": [
+      "Device"
     ],
     "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht": [
       "Procedure"

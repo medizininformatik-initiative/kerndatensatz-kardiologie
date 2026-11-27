@@ -24,8 +24,6 @@ Dieses Value Set bildet die Gerätetypen implantierter Kardioverter-Defibrillato
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
-
 -------
 
  [Beschreibung der obigen Tabelle(n)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -93,7 +91,7 @@ No Expansion for this valueset (Unknown Code System)
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-      "version" : "1.0.0",
+      "version" : "2.0.0",
       "concept" : [{
         "code" : "asked-unknown"
       }]

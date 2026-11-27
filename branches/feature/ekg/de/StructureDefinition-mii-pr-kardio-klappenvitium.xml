@@ -757,7 +757,7 @@
       </base>
       <type>
         <code value="Extension"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/condition-related|5.4.0"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/condition-related|5.4.1"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -920,7 +920,7 @@
       </base>
       <type>
         <code value="Extension"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.4.0"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.4.1"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -5709,7 +5709,7 @@
       </base>
       <type>
         <code value="Extension"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/bodySite|5.4.0"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/bodySite|5.4.1"/>
       </type>
       <constraint>
         <key value="ele-1"/>

@@ -22,7 +22,7 @@ Profile: [MII PR Kardio EKG Gerät](StructureDefinition-mii-pr-kardio-ekg-geraet
 
 > **deviceName****name**: ELI 380**type**: Model name
 
-**type**: MDC_DEV_ECG_MDS
+**type**: MDC_DEV_ECG_VMD
 
 ### Versions
 
@@ -31,7 +31,7 @@ Profile: [MII PR Kardio EKG Gerät](StructureDefinition-mii-pr-kardio-ekg-geraet
 | - | **Type** | **Value** |
 | * | Software | 2.3.1 |
 
-**location**: Klinik für Kardiologie, EKG-Funktionsbereich
+**parent**: Ein MDS Device
 
 
 
@@ -63,12 +63,6 @@ Profile: [MII PR Kardio EKG Gerät](StructureDefinition-mii-pr-kardio-ekg-geraet
     "coding" : [{
       "system" : "urn:iso:std:iso:11073:10101",
       "version" : "2024-12-05",
-      "code" : "69797",
-      "display" : "MDC_DEV_ECG_MDS"
-    },
-    {
-      "system" : "urn:iso:std:iso:11073:10101",
-      "version" : "2024-12-05",
       "code" : "69798",
       "display" : "MDC_DEV_ECG_VMD"
     }]
@@ -79,8 +73,8 @@ Profile: [MII PR Kardio EKG Gerät](StructureDefinition-mii-pr-kardio-ekg-geraet
     },
     "value" : "2.3.1"
   }],
-  "location" : {
-    "display" : "Klinik für Kardiologie, EKG-Funktionsbereich"
+  "parent" : {
+    "display" : "Ein MDS Device"
   }
 }
 

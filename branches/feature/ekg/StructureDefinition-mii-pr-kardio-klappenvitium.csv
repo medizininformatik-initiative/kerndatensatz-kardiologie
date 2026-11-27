@@ -51,7 +51,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Condition.extension:ReferenzPrimaerdiagnose","Condition.extension","ReferenzPrimaerdiagnose","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/condition-related|5.4.0]]} {[]}
+"Condition.extension:ReferenzPrimaerdiagnose","Condition.extension","ReferenzPrimaerdiagnose","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/condition-related|5.4.1]]} {[]}
 ","Conditions associated with this condition","This condition has an unspecified relationship with another condition.","When the relationship is specified, use the more specific extension, such as condition-dueTo, condition-occurredFollowing, or condition-part of.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -66,7 +66,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Condition.extension:ReferenzPrimaerdiagnose.value[x]","Condition.extension.value[x]","","","",1,1,"Y","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Condition|4.0.1]]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Condition.extension:Feststellungsdatum","Condition.extension","Feststellungsdatum","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.4.0]]} {[]}
+"Condition.extension:Feststellungsdatum","Condition.extension","Feststellungsdatum","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.4.1]]} {[]}
 ","Feststellungsdatum","Datum, an dem die Diagnose erstmals festgestellt wurde","The assertedDate is in the context of the recording practitioner and might not be the same as the recordedDate.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Feststellungsdatum"
@@ -495,7 +495,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Condition.bodySite.extension:bodySite","Condition.bodySite.extension","bodySite","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/bodySite|5.4.0]]} {[]}
+"Condition.bodySite.extension:bodySite","Condition.bodySite.extension","bodySite","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/bodySite|5.4.1]]} {[]}
 ","Target anatomic location or structure","Record details about the anatomical location of a specimen or body part. This resource may be used when a coded concept does not provide the necessary detail needed for the use case.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Condition.bodySite.coding","Condition.bodySite.coding","","","",0,*,"Y","","Y","Coding {[]} {[]}

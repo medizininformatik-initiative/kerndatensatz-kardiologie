@@ -16,7 +16,6 @@ ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)
 
  **References** 
 
-* [MII PR Kardio EKG Gerät](StructureDefinition-mii-pr-kardio-ekg-geraet.md)
 * [MII PR Kardio EKG Kanal](StructureDefinition-mii-pr-kardio-ekg-kanal.md)
 
 ### Logical Definition (CLD)
@@ -24,6 +23,8 @@ ISO/IEEE 11073-10101 Codes für Objekte und Geräte (Partition 1)
  
 
 ### Expansion
+
+No Expansion for this valueset (Unsupported Code System Version)
 
 -------
 

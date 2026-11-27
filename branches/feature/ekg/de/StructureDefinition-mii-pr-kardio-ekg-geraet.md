@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/StructureDefinition/mii-pr-kardio-ekg-geraet | *Version*:2027.0.0-ballot |
-| Draft Stand: 2026-11-06 | *Maschinenlesbarer Name*:MII_PR_Kardio_EKG_Geraet |
+| Draft Stand: 2026-11-27 | *Maschinenlesbarer Name*:MII_PR_Kardio_EKG_Geraet |
 
  
 Profil zur Abbildung eines EKG-Gerätes. 
@@ -35,20 +35,18 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 
 #### Constraints
 
-Diese Struktur ist abgeleitet von [Device](http://hl7.org/fhir/R4/device.html) 
-
-#### Terminology Bindings (Differential)
+Diese Struktur ist abgeleitet von [VmdDevice](http://hl7.org/fhir/uv/pocd/1.0.0-202609-ballot3/StructureDefinition-VmdDevice.html) 
 
 #### Terminology Bindings
 
 #### Constraints
 
-Diese Struktur ist abgeleitet von [Device](http://hl7.org/fhir/R4/device.html) 
+Diese Struktur ist abgeleitet von [VmdDevice](http://hl7.org/fhir/uv/pocd/1.0.0-202609-ballot3/StructureDefinition-VmdDevice.html) 
 
 ** Summary **
 
-Mandatory: 5 elements
- Must-Support: 18 elements
+Mandatory: 4 elements
+ Must-Support: 8 elements
 
 **Slices**
 
@@ -64,9 +62,7 @@ This structure defines the following [Slices](http://hl7.org/fhir/R4/profiling.h
 
  **Differential-Ansicht** 
 
-Diese Struktur ist abgeleitet von [Device](http://hl7.org/fhir/R4/device.html) 
-
-#### Terminology Bindings (Differential)
+Diese Struktur ist abgeleitet von [VmdDevice](http://hl7.org/fhir/uv/pocd/1.0.0-202609-ballot3/StructureDefinition-VmdDevice.html) 
 
  **Snapshot-AnsichtView** 
 
@@ -74,12 +70,12 @@ Diese Struktur ist abgeleitet von [Device](http://hl7.org/fhir/R4/device.html)
 
 #### Constraints
 
-Diese Struktur ist abgeleitet von [Device](http://hl7.org/fhir/R4/device.html) 
+Diese Struktur ist abgeleitet von [VmdDevice](http://hl7.org/fhir/uv/pocd/1.0.0-202609-ballot3/StructureDefinition-VmdDevice.html) 
 
 ** Summary **
 
-Mandatory: 5 elements
- Must-Support: 18 elements
+Mandatory: 4 elements
+ Must-Support: 8 elements
 
 **Slices**
 
@@ -106,7 +102,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "title" : "MII PR Kardio EKG Gerät",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-11-06",
+  "date" : "2026-11-27",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -129,6 +125,16 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   }],
   "fhirVersion" : "4.0.1",
   "mapping" : [{
+    "identity" : "dim",
+    "uri" : "urn:iso:std:iso:11073:10201",
+    "name" : "IEEE 11073-10201 DIM"
+  },
+  {
+    "identity" : "sdc",
+    "uri" : "urn:iso:std:iso:11073:10207",
+    "name" : "IEEE 11073-10207 SDC"
+  },
+  {
     "identity" : "rim",
     "uri" : "http://hl7.org/v3",
     "name" : "RIM Mapping"
@@ -146,7 +152,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
   "kind" : "resource",
   "abstract" : false,
   "type" : "Device",
-  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Device|4.0.1",
+  "baseDefinition" : "http://hl7.org/fhir/uv/pocd/StructureDefinition/VmdDevice|1.0.0-ballot3",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -154,21 +160,14 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "path" : "Device"
     },
     {
-      "id" : "Device.status",
-      "path" : "Device.status",
-      "mustSupport" : true
-    },
-    {
       "id" : "Device.manufacturer",
       "path" : "Device.manufacturer",
-      "short" : "Hersteller des Gerätes",
-      "mustSupport" : true
+      "short" : "Hersteller des Gerätes"
     },
     {
       "id" : "Device.serialNumber",
       "path" : "Device.serialNumber",
-      "short" : "Seriennummer des Herstellers",
-      "mustSupport" : true
+      "short" : "Seriennummer des Herstellers"
     },
     {
       "id" : "Device.deviceName",
@@ -180,8 +179,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
         }],
         "rules" : "open"
       },
-      "short" : "Bezeichnungen des Gerätes",
-      "mustSupport" : true
+      "short" : "Bezeichnungen des Gerätes"
     },
     {
       "id" : "Device.deviceName.name",
@@ -192,20 +190,6 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "id" : "Device.deviceName.type",
       "path" : "Device.deviceName.type",
       "mustSupport" : true
-    },
-    {
-      "id" : "Device.deviceName:nutzername",
-      "path" : "Device.deviceName",
-      "sliceName" : "nutzername",
-      "short" : "Vom Nutzer gewählter Name des Gerätes (z.B. \"EKG Raum 1\")",
-      "min" : 0,
-      "max" : "1",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Device.deviceName:nutzername.type",
-      "path" : "Device.deviceName.type",
-      "patternCode" : "user-friendly-name"
     },
     {
       "id" : "Device.deviceName:modellname",
@@ -222,21 +206,23 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
       "patternCode" : "model-name"
     },
     {
+      "id" : "Device.deviceName:nutzername",
+      "path" : "Device.deviceName",
+      "sliceName" : "nutzername",
+      "short" : "Vom Nutzer gewählter Name des Gerätes (z.B. \"EKG Raum 1\")",
+      "min" : 0,
+      "max" : "1"
+    },
+    {
+      "id" : "Device.deviceName:nutzername.type",
+      "path" : "Device.deviceName.type",
+      "patternCode" : "user-friendly-name"
+    },
+    {
       "id" : "Device.modelNumber",
       "path" : "Device.modelNumber",
       "short" : "Modellnummer bzw. Typ-/Bestellnummer des Herstellers",
-      "comment" : "Der Modellname (z.B. \"ELI 380\") wird in deviceName[modellname] angegeben.",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Device.type",
-      "path" : "Device.type",
-      "min" : 1,
-      "mustSupport" : true,
-      "binding" : {
-        "strength" : "required",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-kardio/ValueSet/mii-vs-kardio-objekte-geraete-mdc|2027.0.0-ballot"
-      }
+      "comment" : "Der Modellname (z.B. \"ELI 380\") wird in deviceName[modellname] angegeben."
     },
     {
       "id" : "Device.type.coding",
@@ -265,23 +251,11 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-kardi
     {
       "id" : "Device.version",
       "path" : "Device.version",
-      "short" : "Version, z.B. der Software des Herstellers",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Device.version.type",
-      "path" : "Device.version.type",
-      "mustSupport" : true
+      "short" : "Version, z.B. der Software des Herstellers"
     },
     {
       "id" : "Device.version.value",
       "path" : "Device.version.value",
-      "mustSupport" : true
-    },
-    {
-      "id" : "Device.location",
-      "path" : "Device.location",
-      "short" : "Standort des Gerätes (z.B. Klinik, Abteilung, Station)",
       "mustSupport" : true
     }]
   }

@@ -84,7 +84,7 @@ Dieses Value Set bildet die Implantation der kardialen Devices Kardioverter-Defi
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-      "version" : "1.0.0",
+      "version" : "2.0.0",
       "concept" : [{
         "code" : "asked-unknown"
       }]

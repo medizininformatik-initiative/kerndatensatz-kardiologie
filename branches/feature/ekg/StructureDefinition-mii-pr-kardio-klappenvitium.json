@@ -790,7 +790,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/condition-related|5.4.0"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/condition-related|5.4.1"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -1008,7 +1008,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.4.0"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/condition-assertedDate|5.4.1"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -6338,7 +6338,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/bodySite|5.4.0"]
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/bodySite|5.4.1"]
       }],
       "constraint" : [{
         "key" : "ele-1",

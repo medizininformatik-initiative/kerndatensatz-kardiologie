@@ -1,4 +1,14 @@
 <!DOCTYPE HTML>
+<!-- Override of fhir2.base.template 0.1.0 content/searchform.html for ONE
+     defect: the page is not well-formed (IG Publisher 3.0+ HTML_NOT_WELL_FORMED,
+     8 warnings per searchform.html, issue #33). The FHIR logo <img> is not
+     closed, and seven </div> close nothing: the leftover of a removed
+     breadcrumb segment, and a repeated closing block after segment-content.
+     Verbatim from 0.1.0 except that <img> now ends in "/>" and those two
+     blocks are removed - the same two blocks HL7/ig-template-base2 removed on
+     main (2026-09-15 and later), not yet released (HL7/ig-template-base2#7).
+     REMOVAL: delete this file the day the pinned base is a release with that
+     fix (styleguide section 1). -->
 
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
@@ -31,7 +41,7 @@
 <body>
 	<div id="segment-header" class="segment">  <!-- segment-header -->	
 		<div class="container">  <!-- container -->
-   <a id="logo" no-external="true" href="http://hl7.org/fhir"><img src="http://hl7.org/fhir/assets-hist/images/fhir-logo-www.png" alt="logo fhir" width="249" height="60"></a>
+   <a id="logo" no-external="true" href="http://hl7.org/fhir"><img src="http://hl7.org/fhir/assets-hist/images/fhir-logo-www.png" alt="logo fhir" width="249" height="60"/></a>
 <div>
 <a id="hl7-logo" no-external="true" href="http://www.hl7.org">
      <img alt="visit the hl7 website" width="42" height="50" src="http://hl7.org/fhir/assets-hist/images/hl7-logo-n.png"/>
@@ -74,11 +84,6 @@
 	
 
 
-  <!-- ============BreadCrumb=============== -->
-
-  </div>  <!-- /container -->
- </div>  <!-- /segment-breadcrumb -->
-
 	<div id="segment-content" class="segment">  <!-- segment-content -->
 	<div class="container">  <!-- container -->
             <div class="row">
@@ -102,16 +107,6 @@ Note: this search searches the curent build of MII IG Modul Kardio DE.
             </div>  <!-- /row -->
         </div>  <!-- /container -->
 
-    </div>  <!-- /segment-content -->
-
-
-    
-</div>
-
-				</div>  <!-- /inner-wrapper -->
-            </div>  <!-- /row -->
-        </div>  <!-- /container -->
-        
     </div>  <!-- /segment-content -->
 
 
